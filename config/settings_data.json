@@ -587,21 +587,24 @@
               "r_s_v_item": "30"
             }
           },
-          "334013b4-82f3-4046-8371-eaf3c3340153": {
-            "type": "drop",
+          "ab886db1-7d4b-480d-8ef7-12f529243e9d": {
+            "type": "mega",
             "settings": {
               "title": "About Us",
               "url": "shopify:\/\/pages\/about-us",
               "open_link": "_self",
-              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
+              "lb_cl": "#00BADB",
               "pos_sub": "bottom",
-              "pos": "left"
+              "wid": "cus",
+              "cus_wid": 1200,
+              "id": 4,
+              "enable_packery": true,
+              "r_s_h_item": "20",
+              "r_s_v_item": "30"
             }
           },
           "556a85dc-041d-4d44-8c22-263ed70a8b48": {
@@ -666,7 +669,7 @@
           "9883384a-d19a-4abe-9a94-388d91fce9b6",
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
-          "334013b4-82f3-4046-8371-eaf3c3340153",
+          "ab886db1-7d4b-480d-8ef7-12f529243e9d",
           "556a85dc-041d-4d44-8c22-263ed70a8b48",
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0"
