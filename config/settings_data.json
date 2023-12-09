@@ -1238,56 +1238,17 @@
               "col": "4"
             }
           },
+          "d032825f-a773-42e3-be7d-2c12c46038eb": {
+            "type": "mega",
+            "settings": {
+              "id": 6
+            }
+          },
           "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
             "type": "link2",
             "settings": {
               "col": "2",
               "menu": "header-knowus"
-            }
-          },
-          "5665b9cc-d2a6-42e0-b267-e4b36da8a05e": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "BLOG LAYOUT",
-              "url": "https:\/\/demo-kalles-4-1.myshopify.com\/blogs\/fashion?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "col": "4"
-            }
-          },
-          "552902be-02b1-40ca-8475-982bbdb75ed7": {
-            "type": "blogs",
-            "settings": {
-              "blog": "fashion",
-              "post_des": "1",
-              "show_cate": false,
-              "show_tags": true,
-              "show_cnt": false,
-              "show_au": true,
-              "show_dt": true,
-              "show_cm": true,
-              "show_rm": false,
-              "show_irm": false,
-              "date": "date",
-              "content_align": "t4s-text-center",
-              "limit": 8,
-              "img_effect": "zoom",
-              "b_effect": "none",
-              "image_ratio": "ratio4_3",
-              "image_size": "cover",
-              "image_position": "8",
-              "col_dk": "2",
-              "space_h_item": "30",
-              "space_v_item": "30",
-              "layout_des": "2",
-              "nav_btn": true,
-              "btn_vi": "always",
-              "btn_owl": "outline",
-              "btn_shape": "round",
-              "btn_cl": "dark",
-              "btn_size": "small",
-              "btn_hidden_mobile": true,
-              "col": "8"
             }
           }
         },
@@ -1307,9 +1268,8 @@
           "44e33ba3-7ab7-432a-9094-caee8438a3af",
           "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f",
           "0e6a8d37-7cf2-44ec-bb23-d46c2e75ca98",
-          "400a038a-cb32-4aae-a66d-7d4cd404ccd6",
-          "5665b9cc-d2a6-42e0-b267-e4b36da8a05e",
-          "552902be-02b1-40ca-8475-982bbdb75ed7"
+          "d032825f-a773-42e3-be7d-2c12c46038eb",
+          "400a038a-cb32-4aae-a66d-7d4cd404ccd6"
         ],
         "settings": {
           "bg": ""
