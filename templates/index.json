@@ -237,6 +237,34 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "1702155301c8da60ce": {
+      "type": "apps",
+      "blocks": {
+        "c9c204cf-7c77-418f-9268-d32081a51485": {
+          "type": "shopify:\/\/apps\/whatmore-shoppable-videos\/blocks\/app-block\/20db8a72-315a-4364-8885-64219ee48303",
+          "settings": {
+            "heading": "Watch and Buy!",
+            "template-type": "template-a",
+            "show-views": "show",
+            "ui-theme": "round",
+            "color-primary": "#343434",
+            "color-secondary": "#343434",
+            "title-font": "sans-serif",
+            "primary-font": "sans-serif",
+            "title-font-size": 40,
+            "title-font-size-portrait": 24,
+            "landscape-padding": 40,
+            "top-bottom-padding": 20,
+            "scroll-video-tile-size": 80
+          }
+        }
+      },
+      "block_order": [
+        "c9c204cf-7c77-418f-9268-d32081a51485"
+      ],
+      "settings": {
+      }
+    },
     "16460362229768af39": {
       "type": "banner",
       "blocks": {
@@ -921,6 +949,7 @@
     "1646028739ae283905",
     "164603504020ce33da",
     "1646035317ea8b6928",
+    "1702155301c8da60ce",
     "16460362229768af39",
     "164603686708691778",
     "16460368750174c54a",
