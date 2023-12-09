@@ -634,7 +634,7 @@
               "pos_sub": "bottom",
               "wid": "cus",
               "cus_wid": 1200,
-              "id": 4,
+              "id": 6,
               "enable_packery": true,
               "r_s_h_item": "20",
               "r_s_v_item": "30"
@@ -1161,7 +1161,7 @@
           "5952e385-42a5-4603-9be9-64b76f15ef48": {
             "type": "mega",
             "settings": {
-              "id": 4
+              "id": 6
             }
           },
           "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
