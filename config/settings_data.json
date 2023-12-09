@@ -1076,10 +1076,10 @@
           "6122e966-0272-4c46-a1a0-051bdc2ae08c": {
             "type": "link",
             "settings": {
-              "tt_hd": "FEATURES",
+              "tt_hd": "PRICE",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees-by-price",
               "col": "3"
             }
           },
