@@ -1089,24 +1089,58 @@
               "id": 2
             }
           },
-          "02beea21-3cb9-41ce-a1ab-04ae44b7f47e": {
-            "type": "link",
+          "c53d29e9-8b9b-4e62-afa9-e64393205337": {
+            "type": "cat",
             "settings": {
-              "tt_hd": "SHOP PAGES",
-              "url": "",
+              "collection": "the-kolkata-collection",
+              "collection_title": "The Kolkata Collection",
+              "collection_subtitle": "",
+              "collection_des": "1",
+              "title_cl": "#ffffff",
+              "title_cl_hover": "#222222",
+              "subtitle_cl": "#878787",
+              "count_cl": "#222222",
+              "border_cl": "#e5e5e5",
               "open_link": "_self",
-              "menu": "",
-              "col": "2"
+              "space_bottom": 20,
+              "space_bottom_mb": 10,
+              "border": false,
+              "item_pd": 0,
+              "item_rd": 0,
+              "img_effect": "none",
+              "b_effect": "none",
+              "image_ratio": "ratio1_1",
+              "image_size": "cover",
+              "image_position": "8",
+              "collection_link": "",
+              "col": "4"
             }
           },
-          "ff494243-e58b-40e9-a2ea-e64ccd58a624": {
-            "type": "link",
+          "6ffaf659-883c-4ed6-8906-dd70d75856ce": {
+            "type": "cat",
             "settings": {
-              "tt_hd": "FEATURES",
-              "url": "",
+              "collection": "bold-solid-sarees",
+              "collection_title": "Bold & Solid",
+              "collection_subtitle": "",
+              "collection_des": "1",
+              "title_cl": "#ffffff",
+              "title_cl_hover": "#222222",
+              "subtitle_cl": "#878787",
+              "count_cl": "#222222",
+              "border_cl": "#e5e5e5",
               "open_link": "_self",
-              "menu": "",
-              "col": "2"
+              "space_bottom": 20,
+              "space_bottom_mb": 10,
+              "border": false,
+              "item_pd": 0,
+              "item_rd": 0,
+              "img_effect": "none",
+              "b_effect": "none",
+              "image_ratio": "ratio1_1",
+              "image_size": "cover",
+              "image_position": "8",
+              "collection_link": "",
+              "col": "4"
             }
           },
           "cec6a189-3084-497a-b4a8-b391531b2503": {
@@ -1307,8 +1341,8 @@
           "1f90cea5-04fb-4ef3-822b-5f987845e5c4",
           "6122e966-0272-4c46-a1a0-051bdc2ae08c",
           "45fa281e-2be5-4727-bd01-942824713769",
-          "02beea21-3cb9-41ce-a1ab-04ae44b7f47e",
-          "ff494243-e58b-40e9-a2ea-e64ccd58a624",
+          "c53d29e9-8b9b-4e62-afa9-e64393205337",
+          "6ffaf659-883c-4ed6-8906-dd70d75856ce",
           "cec6a189-3084-497a-b4a8-b391531b2503",
           "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e",
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1",
