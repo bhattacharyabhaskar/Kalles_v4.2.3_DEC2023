@@ -1247,7 +1247,7 @@
           "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
             "type": "link2",
             "settings": {
-              "col": "2",
+              "col": "12",
               "menu": "header-knowus"
             }
           }
