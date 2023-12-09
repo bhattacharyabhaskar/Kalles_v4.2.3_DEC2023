@@ -1164,14 +1164,14 @@
               "id": 4
             }
           },
-          "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
+          "74281dd4-cb03-447d-8a30-a5fd331389ab": {
             "type": "link2",
             "settings": {
-              "col": "2",
-              "menu": "header-knowus"
+              "col": "4",
+              "menu": ""
             }
           },
-          "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6": {
+          "44e33ba3-7ab7-432a-9094-caee8438a3af": {
             "type": "pr",
             "settings": {
               "collection": "sale",
@@ -1188,13 +1188,20 @@
               "space_v_item": "30",
               "layout_des": "2",
               "nav_btn": true,
-              "btn_vi": "always",
-              "btn_owl": "outline",
-              "btn_shape": "round",
+              "btn_vi": "hover",
+              "btn_owl": "default",
+              "btn_shape": "none",
               "btn_cl": "dark",
               "btn_size": "small",
               "btn_hidden_mobile": true,
               "col": "10"
+            }
+          },
+          "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
+            "type": "link2",
+            "settings": {
+              "col": "2",
+              "menu": "header-knowus"
             }
           },
           "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f": {
@@ -1261,8 +1268,9 @@
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1",
           "cc1a7875-8010-421e-b69c-efc19a6043d6",
           "5952e385-42a5-4603-9be9-64b76f15ef48",
+          "74281dd4-cb03-447d-8a30-a5fd331389ab",
+          "44e33ba3-7ab7-432a-9094-caee8438a3af",
           "400a038a-cb32-4aae-a66d-7d4cd404ccd6",
-          "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6",
           "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f",
           "5665b9cc-d2a6-42e0-b267-e4b36da8a05e",
           "552902be-02b1-40ca-8475-982bbdb75ed7"
