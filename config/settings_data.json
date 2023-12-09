@@ -1046,30 +1046,30 @@
           "3abb98a1-837d-46af-b195-f5c43e7c88ee": {
             "type": "link",
             "settings": {
-              "tt_hd": "HOME PAGES",
+              "tt_hd": "TYPE",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees",
               "col": "3"
             }
           },
           "2ceac397-4b2b-4740-a477-707dd2680e02": {
             "type": "link",
             "settings": {
-              "tt_hd": "HOME PAGES",
+              "tt_hd": "WORK",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees-by-work",
               "col": "3"
             }
           },
           "1f90cea5-04fb-4ef3-822b-5f987845e5c4": {
             "type": "link",
             "settings": {
-              "tt_hd": "HEADER LAYOUTS",
+              "tt_hd": "REGION",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees-by-region",
               "col": "3"
             }
           },
