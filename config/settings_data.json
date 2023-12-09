@@ -1143,60 +1143,6 @@
               "col": "4"
             }
           },
-          "cec6a189-3084-497a-b4a8-b391531b2503": {
-            "type": "cat",
-            "settings": {
-              "collection": "women",
-              "collection_title": "",
-              "collection_subtitle": "",
-              "collection_des": "1",
-              "title_cl": "#ffffff",
-              "title_cl_hover": "#222222",
-              "subtitle_cl": "#878787",
-              "count_cl": "#222222",
-              "border_cl": "#e5e5e5",
-              "open_link": "_self",
-              "space_bottom": 20,
-              "space_bottom_mb": 10,
-              "border": false,
-              "item_pd": 0,
-              "item_rd": 0,
-              "img_effect": "zoom",
-              "b_effect": "none",
-              "image_ratio": "rationt",
-              "image_size": "cover",
-              "image_position": "8",
-              "collection_link": "",
-              "col": "4"
-            }
-          },
-          "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e": {
-            "type": "cat",
-            "settings": {
-              "collection": "frontpage",
-              "collection_title": "",
-              "collection_subtitle": "",
-              "collection_des": "1",
-              "title_cl": "#ffffff",
-              "title_cl_hover": "#222222",
-              "subtitle_cl": "#878787",
-              "count_cl": "#222222",
-              "border_cl": "#e5e5e5",
-              "open_link": "_self",
-              "space_bottom": 20,
-              "space_bottom_mb": 10,
-              "border": false,
-              "item_pd": 0,
-              "item_rd": 0,
-              "img_effect": "none",
-              "b_effect": "none",
-              "image_ratio": "rationt",
-              "image_size": "cover",
-              "image_position": "8",
-              "collection_link": "",
-              "col": "4"
-            }
-          },
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1": {
             "type": "mega",
             "settings": {
@@ -1343,8 +1289,6 @@
           "45fa281e-2be5-4727-bd01-942824713769",
           "c53d29e9-8b9b-4e62-afa9-e64393205337",
           "6ffaf659-883c-4ed6-8906-dd70d75856ce",
-          "cec6a189-3084-497a-b4a8-b391531b2503",
-          "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e",
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1",
           "cc1a7875-8010-421e-b69c-efc19a6043d6",
           "e17e717c-01e0-4704-92bc-92c339ee6148",
