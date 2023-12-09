@@ -1197,17 +1197,52 @@
               "col": "10"
             }
           },
+          "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f": {
+            "type": "mega",
+            "settings": {
+              "id": 5
+            }
+          },
+          "0e6a8d37-7cf2-44ec-bb23-d46c2e75ca98": {
+            "type": "blogs",
+            "settings": {
+              "blog": "indyvogue-fashion-center",
+              "post_des": "1",
+              "show_cate": false,
+              "show_tags": true,
+              "show_cnt": true,
+              "show_au": true,
+              "show_dt": true,
+              "show_cm": true,
+              "show_rm": false,
+              "show_irm": false,
+              "date": "date",
+              "content_align": "start",
+              "limit": 8,
+              "img_effect": "none",
+              "b_effect": "none",
+              "image_ratio": "ratioadapt",
+              "image_size": "cover",
+              "image_position": "8",
+              "col_dk": "2",
+              "space_h_item": "30",
+              "space_v_item": "30",
+              "layout_des": "2",
+              "nav_btn": false,
+              "btn_vi": "hover",
+              "btn_owl": "default",
+              "btn_shape": "none",
+              "btn_cl": "dark",
+              "btn_size": "small",
+              "btn_hidden_mobile": true,
+              "col": "4"
+            }
+          },
           "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
             "type": "link2",
             "settings": {
               "col": "2",
               "menu": "header-knowus"
-            }
-          },
-          "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f": {
-            "type": "mega",
-            "settings": {
-              "id": 5
             }
           },
           "5665b9cc-d2a6-42e0-b267-e4b36da8a05e": {
@@ -1270,8 +1305,9 @@
           "5952e385-42a5-4603-9be9-64b76f15ef48",
           "74281dd4-cb03-447d-8a30-a5fd331389ab",
           "44e33ba3-7ab7-432a-9094-caee8438a3af",
-          "400a038a-cb32-4aae-a66d-7d4cd404ccd6",
           "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f",
+          "0e6a8d37-7cf2-44ec-bb23-d46c2e75ca98",
+          "400a038a-cb32-4aae-a66d-7d4cd404ccd6",
           "5665b9cc-d2a6-42e0-b267-e4b36da8a05e",
           "552902be-02b1-40ca-8475-982bbdb75ed7"
         ],
