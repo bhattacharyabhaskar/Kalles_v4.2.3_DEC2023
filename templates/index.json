@@ -491,6 +491,61 @@
         "code_cus_css": ""
       }
     },
+    "216bf813-5b7d-4f42-88f7-accc66e62ae1": {
+      "type": "image_text",
+      "blocks": {
+        "template--17081597853929__216bf813-5b7d-4f42-88f7-accc66e62ae1-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "",
+            "text": "",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "SEE ALL REVIEWS",
+            "button_link": "shopify:\/\/pages\/indyvogue-reviews",
+            "open_link": "_self",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17081597853929__216bf813-5b7d-4f42-88f7-accc66e62ae1-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "16460362229768af39": {
       "type": "banner",
       "blocks": {
@@ -1190,6 +1245,7 @@
     "1702155301c8da60ce",
     "fb664c52-a0c2-4006-8fd2-65d6011f492c",
     "9a92f768-a23c-411b-b99c-809c4aae84e0",
+    "216bf813-5b7d-4f42-88f7-accc66e62ae1",
     "16460362229768af39",
     "1646035317ea8b6928",
     "164603686708691778",
