@@ -227,11 +227,12 @@
         "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-4": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "gadwal-silk-saree",
+            "image": "shopify:\/\/shop_images\/Gadwal-New_351fe984-1341-4291-8c37-8c38de7f898c.webp",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
-            "collection_title": "Collection title",
+            "collection_title": "GADWAL",
             "collection_link": ""
           }
         },
