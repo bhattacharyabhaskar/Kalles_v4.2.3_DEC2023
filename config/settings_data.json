@@ -342,6 +342,13 @@
               "menu_style": "1"
             }
           },
+          "080cf48c-2d41-46a4-ae73-5c683e4e120d": {
+            "type": "html",
+            "settings": {
+              "html_content": "<br>",
+              "hidden_mobile": false
+            }
+          },
           "footer-3": {
             "type": "cus_socials",
             "settings": {
@@ -458,6 +465,7 @@
           "337ebc4e-344b-432d-9224-a6ab6bee8f12",
           "63d3cdc3-dbfc-479c-b2fa-fcf8826937b2",
           "e6bec6bd-b6dc-4c9a-9f3d-2d60396d734c",
+          "080cf48c-2d41-46a4-ae73-5c683e4e120d",
           "footer-3",
           "footer-4",
           "footer-11",
