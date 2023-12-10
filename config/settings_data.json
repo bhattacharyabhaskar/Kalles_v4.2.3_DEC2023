@@ -320,7 +320,7 @@
               "remove_br_tag": false,
               "tag": "p",
               "fontf": "inherit",
-              "text_cl": "#222",
+              "text_cl": "#dddddd",
               "text_fs": 16,
               "text_lh": 0,
               "text_fw": 400,
@@ -333,6 +333,13 @@
               "text_lh_mb": 0,
               "text_ls_mb": 0,
               "text_mgb_mobile": 10
+            }
+          },
+          "e6bec6bd-b6dc-4c9a-9f3d-2d60396d734c": {
+            "type": "cus_menu",
+            "settings": {
+              "menu": "sarees-by-region",
+              "menu_style": "1"
             }
           },
           "footer-3": {
@@ -450,6 +457,7 @@
           "footer-10",
           "337ebc4e-344b-432d-9224-a6ab6bee8f12",
           "63d3cdc3-dbfc-479c-b2fa-fcf8826937b2",
+          "e6bec6bd-b6dc-4c9a-9f3d-2d60396d734c",
           "footer-3",
           "footer-4",
           "footer-11",
