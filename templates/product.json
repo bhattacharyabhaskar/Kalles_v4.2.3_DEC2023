@@ -139,7 +139,17 @@
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
           "type": "tab_des",
           "settings": {
-            "title": "Description"
+            "title": "DESCRIPTION"
+          }
+        },
+        "16c82a79-ab42-45c7-8c24-810f7a60fbe7": {
+          "type": "description",
+          "settings": {
+            "des": "2",
+            "text": "",
+            "length": 31,
+            "readm": false,
+            "readm_txt": "Read more"
           }
         },
         "e36839f5-0847-44e2-97d3-2885597bd1ff": {
@@ -199,6 +209,7 @@
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "1074fa19-58dd-4700-8ace-d3a90133e24d",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
+        "16c82a79-ab42-45c7-8c24-810f7a60fbe7",
         "e36839f5-0847-44e2-97d3-2885597bd1ff",
         "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
