@@ -1793,13 +1793,13 @@
           "mini_cart-6"
         ],
         "settings": {
-          "style": "1",
+          "style": "2",
           "pos": "2",
-          "enable_pr": true,
-          "enable_calc_ship": true,
+          "enable_pr": false,
+          "enable_calc_ship": false,
           "enable_note": true,
           "enable_rates": false,
-          "enable_discount": true,
+          "enable_discount": false,
           "enable_gift_wrap": false,
           "ship_df_country": "United States"
         }
