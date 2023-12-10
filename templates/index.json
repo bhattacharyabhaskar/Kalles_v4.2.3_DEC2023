@@ -968,7 +968,7 @@
             "success_message": "Thanks for subscribing",
             "background_color": "#ffffff",
             "text_color": "#1a1b18",
-            "button_background_color": "#445958",
+            "button_background_color": "#b7499b",
             "button_text_color": "#ffffff"
           }
         }
