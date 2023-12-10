@@ -193,12 +193,12 @@
         "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-1": {
           "type": "collection_item",
           "settings": {
-            "collection": "banarasi-silk-saree",
-            "image": "shopify:\/\/shop_images\/Banarasi-New_4da6ec00-e5c0-4d42-b9ef-dcab2bd045a6.webp",
+            "collection": "shop-designer-sarees",
+            "image": "shopify:\/\/shop_images\/Designer-New.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
-            "collection_title": "BANARASI",
+            "collection_title": "DESIGNER",
             "collection_link": ""
           }
         },
