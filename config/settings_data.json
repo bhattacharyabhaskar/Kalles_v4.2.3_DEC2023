@@ -258,6 +258,35 @@
               "hidden_mobile": false
             }
           },
+          "5fdbb98f-d3bc-4e8d-850a-27a8936869b0": {
+            "type": "custom_text",
+            "settings": {
+              "text": "OCCASION",
+              "remove_br_tag": false,
+              "tag": "p",
+              "fontf": "inherit",
+              "text_cl": "#dddddd",
+              "text_fs": 16,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
+          },
+          "f4f8cbb5-e5a7-4bff-9259-e2522edc0cad": {
+            "type": "cus_menu",
+            "settings": {
+              "menu": "sarees-by-occassion",
+              "menu_style": "1"
+            }
+          },
           "footer-3": {
             "type": "cus_socials",
             "settings": {
@@ -387,6 +416,8 @@
           "d57b60c3-8e64-4397-b5f8-26321477588d",
           "a35edb5f-bbf9-4724-be47-89e7b4215635",
           "284c6f47-6ddd-497b-8d78-375d118d5927",
+          "5fdbb98f-d3bc-4e8d-850a-27a8936869b0",
+          "f4f8cbb5-e5a7-4bff-9259-e2522edc0cad",
           "footer-3",
           "footer-4",
           "footer-10",
