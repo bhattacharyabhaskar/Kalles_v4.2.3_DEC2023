@@ -129,8 +129,8 @@
             "show_sku": true,
             "show_barcode": false,
             "show_available": true,
-            "show_category": true,
-            "show_tags": true
+            "show_category": false,
+            "show_tags": false
           }
         },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
