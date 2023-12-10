@@ -111,6 +111,13 @@
               "mgb_mb": 0
             }
           },
+          "7a4106c0-adf6-4755-b5df-f8f290046188": {
+            "type": "html",
+            "settings": {
+              "html_content": "<p>9724 Castle Pines Dr<br>Austin, TX 78717<br><\/p><p>Phone: <a href=\"tel:+19133784722\" target=\"_blank\" title=\"tel:+19133784722\">+19133784722<\/a>(9:00 AM - 10:00 PM CST)<\/p><p>Email: <a href=\"mailto:sumanab@indyvogue.com\" target=\"_blank\" title=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com<\/a><\/p>",
+              "hidden_mobile": false
+            }
+          },
           "47f5eb4c-1063-495d-bfc4-a54c62d219aa": {
             "type": "bl_col",
             "settings": {
@@ -132,6 +139,7 @@
           "67b11f56-907e-476f-aa16-dc965c499ef7",
           "486a26b5-0683-409b-a990-5d6ea573a688",
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08",
+          "7a4106c0-adf6-4755-b5df-f8f290046188",
           "47f5eb4c-1063-495d-bfc4-a54c62d219aa"
         ],
         "settings": {
