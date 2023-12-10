@@ -371,6 +371,13 @@
               "text_mgb_mobile": 10
             }
           },
+          "71d6e12f-a577-44f5-b2e2-469b8ed5e8c7": {
+            "type": "cus_menu",
+            "settings": {
+              "menu": "sarees-by-work",
+              "menu_style": "1"
+            }
+          },
           "footer-3": {
             "type": "cus_socials",
             "settings": {
@@ -489,6 +496,7 @@
           "e6bec6bd-b6dc-4c9a-9f3d-2d60396d734c",
           "080cf48c-2d41-46a4-ae73-5c683e4e120d",
           "406442bd-b184-402f-825c-abb40f8604a1",
+          "71d6e12f-a577-44f5-b2e2-469b8ed5e8c7",
           "footer-3",
           "footer-4",
           "footer-11",
