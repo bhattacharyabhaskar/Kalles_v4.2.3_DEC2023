@@ -222,6 +222,28 @@
               "hidden_mobile": false
             }
           },
+          "d57b60c3-8e64-4397-b5f8-26321477588d": {
+            "type": "custom_text",
+            "settings": {
+              "text": "COLOR",
+              "remove_br_tag": false,
+              "tag": "p",
+              "fontf": "inherit",
+              "text_cl": "#dddddd",
+              "text_fs": 16,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
+          },
           "footer-3": {
             "type": "cus_socials",
             "settings": {
@@ -348,6 +370,7 @@
           "footer-6",
           "footer-8",
           "3db3ec89-297a-42aa-8edd-8ed00a941931",
+          "d57b60c3-8e64-4397-b5f8-26321477588d",
           "footer-3",
           "footer-4",
           "footer-10",
