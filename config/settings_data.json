@@ -1741,11 +1741,6 @@
             "settings": {
             }
           },
-          "mini_cart-2": {
-            "type": "agree",
-            "settings": {
-            }
-          },
           "mini_cart-3": {
             "type": "btnc",
             "settings": {
@@ -1767,8 +1762,8 @@
           "mini_cart-5": {
             "type": "img",
             "settings": {
-              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-              "height": 30
+              "svg": "visa, master, american_express, discover, apple_pay, paypal, amazon_payments, google_pay, shopify_pay",
+              "height": 20
             }
           },
           "mini_cart-6": {
@@ -1786,7 +1781,6 @@
         "block_order": [
           "mini_cart-0",
           "mini_cart-1",
-          "mini_cart-2",
           "mini_cart-3",
           "mini_cart-4",
           "mini_cart-5",
