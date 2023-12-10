@@ -649,11 +649,12 @@
         "template--17081597853929__ee48c8ae-86a9-402e-be52-ef529275bee5-collection_item-3": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
-            "col_dk": "3",
-            "col_tb": "3",
-            "col_mb": "6",
-            "collection_title": "Collection title",
+            "collection": "indian-wedding-sarees",
+            "image": "shopify:\/\/shop_images\/ind-wedding.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "collection_title": "WEDDING",
             "collection_link": ""
           }
         },
