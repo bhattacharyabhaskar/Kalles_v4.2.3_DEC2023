@@ -796,7 +796,7 @@
         "dots_round": false,
         "dots_space": 9,
         "dots_hidden_mobile": false,
-        "use_pagination": "load-more",
+        "use_pagination": "none",
         "enable_bar_lm": false,
         "btn_icon": false,
         "button_style": "outline",
