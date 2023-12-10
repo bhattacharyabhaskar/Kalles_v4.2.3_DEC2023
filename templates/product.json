@@ -163,6 +163,14 @@
             "content": "<p><strong>DELIVERY<\/strong><\/p><p>Dispatch: Within 3-4 days without Blouse Stitching. With \"Stitched Designer Blouse\" option, it will take another 10 - 12 business days. Free shipping across all products on a minimum purchase of $75 USD. International delivery time 5-7 business days.<\/p><p><strong>RETURNS<\/strong><\/p><p>IndyVogue prides itself in making sure that the product shipped to its patrons are of the highest quality & standard. We would do everything to make sure we help you in choosing the right product. If a customer wishes to return it, they will have to bear the cost of shipping the product back to IndyVogue locations in USA \/ India along with 5% restock fee.In the rare occasion, if you need to return an item, please send us an email to sumanab@indyvogue.com within 48 hours of the shipment being delivered with picture of any issue that you see in the item for return authorization. The patron will need to ship the item in its original packaging and will have to pay for the return shipping charge to our Fulfillment Center in Austin, TX OR Kolkata, India, whichever is convenient to the patron. But we are sure that situation will never arise.The items need to be returned within 7 days of the shipment being received else return requests will be cancelled. Please look at our Delivery & Returns section for further information.<\/p>",
             "page": ""
           }
+        },
+        "87d3f30d-5173-4ed8-bc8f-d04320988713": {
+          "type": "tab_html",
+          "settings": {
+            "title": "COLOR DISCLAIMER",
+            "content": "<p>We take utmost care when taking pictures of our products. But sometimes shades displayed across the different kind of fabrics and accessories may slightly vary from the actual color. This most likely could happen due to different settings in your monitor or viewing device like Laptop, Mobile OR Tablet. Also photos seen in different brands of same device like in an IPhone vs Samsung Galaxy might look different. We request you to consider these minor color variations.Video have been added to provide you a glimpse of the texture and work of the Saree. The color shown in the picture is a more accurate representation of the product.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -177,7 +185,8 @@
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "3c829590-521f-47d0-928f-f9536217964f",
         "c0d955b4-82ca-4319-9c89-c02dd5efdebd",
-        "fd9057cd-79a1-4258-a374-0e3c68bebb30"
+        "fd9057cd-79a1-4258-a374-0e3c68bebb30",
+        "87d3f30d-5173-4ed8-bc8f-d04320988713"
       ],
       "settings": {
         "pr_layout": "default",
