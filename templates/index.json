@@ -546,6 +546,47 @@
         "code_cus_css": ""
       }
     },
+    "a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff": {
+      "type": "our_mission",
+      "blocks": {
+        "template--17081597853929__a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff-om_item-1": {
+          "type": "om_item",
+          "settings": {
+            "heading": "Designer Silk Sarees - IndyVogue",
+            "content": "IndyVogue is an Indian ethnic fashion boutique that specializes in selling exquisite Silk Mark certified hand-woven sarees online in Banarasi, Jamdani, Linen, Kanjeevaram, Handloom as well as exclusive Designer Blouses with Jewelry for all your needs. Our sarees are made from the finest quality silk and are hand-woven by skilled artisans, ensuring that each piece is unique and of the highest quality. Our collection features a wide range of styles and designs, from traditional to contemporary, so you can find the perfect saree for any occasion. We are dedicated to promoting the beauty and heritage of Indian handloom silk and strive to provide our customers with the best shopping experience possible. Shop with us and add a touch of elegance and sophistication to your wardrobe with our exquisite Silk Mark certified hand-woven sarees.",
+            "text_align": "center",
+            "col_tb": "12",
+            "col_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "template--17081597853929__a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff-om_item-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "16460362229768af39": {
       "type": "banner",
       "blocks": {
@@ -1246,6 +1287,7 @@
     "fb664c52-a0c2-4006-8fd2-65d6011f492c",
     "9a92f768-a23c-411b-b99c-809c4aae84e0",
     "216bf813-5b7d-4f42-88f7-accc66e62ae1",
+    "a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff",
     "16460362229768af39",
     "1646035317ea8b6928",
     "164603686708691778",
