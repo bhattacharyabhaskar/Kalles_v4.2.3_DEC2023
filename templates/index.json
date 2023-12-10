@@ -661,22 +661,24 @@
         "template--17081597853929__ee48c8ae-86a9-402e-be52-ef529275bee5-collection_item-4": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "the-kolkata-collection",
+            "image": "shopify:\/\/shop_images\/Kolkata-Collection-Category_1140_x_600_px.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
-            "collection_title": "Collection title",
+            "collection_title": "KOLKATA",
             "collection_link": ""
           }
         },
         "template--17081597853929__ee48c8ae-86a9-402e-be52-ef529275bee5-collection_item-5": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
-            "col_dk": "3",
-            "col_tb": "3",
-            "col_mb": "6",
-            "collection_title": "Collection title",
+            "collection": "silk-mark",
+            "image": "shopify:\/\/shop_images\/ind-silkmark.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "collection_title": "COLLECTION",
             "collection_link": ""
           }
         },
