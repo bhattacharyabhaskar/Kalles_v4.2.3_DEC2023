@@ -254,21 +254,23 @@
           "type": "collection_item",
           "settings": {
             "collection": "ikat-silk-saree",
+            "image": "shopify:\/\/shop_images\/Ikkat-New_b949539a-cff5-43cc-8683-a5928022f466.webp",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
-            "collection_title": "Collection title",
+            "collection_title": "IKKAT",
             "collection_link": ""
           }
         },
         "eccecc44-4ab1-4c88-bed4-95442c9edd27": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "kantha-stitch-hand-embroidery",
+            "image": "shopify:\/\/shop_images\/Kantha-Stitch-New.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
-            "collection_title": "Collection title",
+            "collection_title": "HAND EMBROIDERY",
             "collection_link": ""
           }
         },
@@ -297,11 +299,12 @@
         "7bf15994-d342-48b4-b107-c31c1540932f": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "paithani-silk-saree",
+            "image": "shopify:\/\/shop_images\/Paithani-New.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
-            "collection_title": "Collection title",
+            "collection_title": "PAITHANI",
             "collection_link": ""
           }
         },
