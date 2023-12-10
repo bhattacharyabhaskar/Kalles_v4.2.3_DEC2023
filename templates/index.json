@@ -312,6 +312,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "raw-silk",
+            "image": "shopify:\/\/shop_images\/Raw-Silk-New.jpg",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
