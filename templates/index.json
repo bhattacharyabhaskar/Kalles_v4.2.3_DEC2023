@@ -289,6 +289,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "shop-designer-sarees",
+            "image": "shopify:\/\/shop_images\/Designer-New.jpg",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -387,85 +388,6 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
-      }
-    },
-    "164603504020ce33da": {
-      "type": "collections-list-manual",
-      "blocks": {
-        "1646035040fee424aa-0": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "women",
-            "collection_title": "Women",
-            "collection_link": ""
-          }
-        },
-        "1646035040fee424aa-1": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "accessories",
-            "collection_title": "Accessories",
-            "collection_link": ""
-          }
-        },
-        "1646035040fee424aa-2": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "shoes",
-            "collection_title": "Footwear",
-            "collection_link": ""
-          }
-        },
-        "fb81d2b5-38b4-4322-93fc-cd722f8758f3": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "watch",
-            "collection_title": "Watches",
-            "collection_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1646035040fee424aa-0",
-        "1646035040fee424aa-1",
-        "1646035040fee424aa-2",
-        "fb81d2b5-38b4-4322-93fc-cd722f8758f3"
-      ],
-      "settings": {
-        "design_heading": "2",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "collection_des": "1",
-        "title_cl": "#ffffff",
-        "title_cl_hover": "#222222",
-        "subtitle_cl": "#878787",
-        "count_cl": "#222222",
-        "border_cl": "#e5e5e5",
-        "collection_subtitle": "Products",
-        "open_link": "_self",
-        "space_bottom": 20,
-        "space_bottom_mb": 10,
-        "border": false,
-        "item_rd": 0,
-        "item_rd_unit": "%",
-        "img_effect": "zoom",
-        "b_effect": "none",
-        "image_position": "7",
-        "coll_layout": "1",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,110px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,50px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
     "1646035317ea8b6928": {
@@ -1287,7 +1209,6 @@
     "1646028739ae283905",
     "d98aa1b1-f414-49a2-be42-55dd82743bc1",
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
-    "164603504020ce33da",
     "1646035317ea8b6928",
     "1702155301c8da60ce",
     "16460362229768af39",
