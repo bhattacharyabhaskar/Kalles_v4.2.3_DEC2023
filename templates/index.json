@@ -292,7 +292,7 @@
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
-            "collection_title": "Collection title",
+            "collection_title": "DESIGNER",
             "collection_link": ""
           }
         },
@@ -322,11 +322,11 @@
         "266c55d5-3415-4d7d-bed8-176c8edda1ef": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "sambalpuri-silk",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
-            "collection_title": "Collection title",
+            "collection_title": "ODISHA SILK",
             "collection_link": ""
           }
         }
