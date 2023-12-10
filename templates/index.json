@@ -474,6 +474,23 @@
         "code_cus_css": ""
       }
     },
+    "9a92f768-a23c-411b-b99c-809c4aae84e0": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #fff;color: #fff;\">\n<div data-romw-token=\"SuXYREMYz4nTRed4TUFHciHAwv1qXhpiEuFE4aGRGxvvhK3AdI\"><\/div>\n<\/div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "16460362229768af39": {
       "type": "banner",
       "blocks": {
@@ -1172,6 +1189,7 @@
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
     "1702155301c8da60ce",
     "fb664c52-a0c2-4006-8fd2-65d6011f492c",
+    "9a92f768-a23c-411b-b99c-809c4aae84e0",
     "16460362229768af39",
     "1646035317ea8b6928",
     "164603686708691778",
