@@ -86,6 +86,107 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
+    "d98aa1b1-f414-49a2-be42-55dd82743bc1": {
+      "type": "logo_list",
+      "blocks": {
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-1": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shipping-HOME.png",
+            "url": ""
+          }
+        },
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-2": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Secured_9f9b44da-4256-4575-8859-7bff3d48cce6.png",
+            "url": ""
+          }
+        },
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-3": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Silk-Mark.png",
+            "url": ""
+          }
+        },
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-4": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hand_woven.png",
+            "url": ""
+          }
+        },
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-5": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stitching.png",
+            "url": ""
+          }
+        },
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-6": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Service.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-1",
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-2",
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-3",
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-4",
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-5",
+        "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-6"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "WHY INDYVOGUE",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "img_effect": "none",
+        "b_effect": "none",
+        "open_link": "_blank",
+        "layout_des": "2",
+        "click_image": "data-goto",
+        "nav_thumbs": true,
+        "col_dk": "6",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "30",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "164603504020ce33da": {
       "type": "collections-list-manual",
       "blocks": {
@@ -982,6 +1083,7 @@
   },
   "order": [
     "1646028739ae283905",
+    "d98aa1b1-f414-49a2-be42-55dd82743bc1",
     "164603504020ce33da",
     "1646035317ea8b6928",
     "1702155301c8da60ce",
