@@ -636,7 +636,7 @@
           "announcement-bar-2"
         ],
         "settings": {
-          "show_announcement": true,
+          "show_announcement": false,
           "effect": "1",
           "au_time": 3.5,
           "height": 45,
