@@ -93,6 +93,16 @@
               "hidden_mobile": false
             }
           },
+          "486a26b5-0683-409b-a990-5d6ea573a688": {
+            "type": "payments",
+            "settings": {
+              "svg": "visa, master, american_express, discover, apple_pay, paypal, amazon_payments, google_pay, shopify_pay",
+              "height": 30,
+              "hidden_mobile": false,
+              "mgb": 20,
+              "mgb_mb": 10
+            }
+          },
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08": {
             "type": "copyR",
             "settings": {
@@ -120,6 +130,7 @@
         "block_order": [
           "2433b4f1-5bdc-49a9-ba42-a51f4eb6d8e3",
           "67b11f56-907e-476f-aa16-dc965c499ef7",
+          "486a26b5-0683-409b-a990-5d6ea573a688",
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08",
           "47f5eb4c-1063-495d-bfc4-a54c62d219aa"
         ],
