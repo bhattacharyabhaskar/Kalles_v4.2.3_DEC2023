@@ -196,6 +196,25 @@
               "padding_inner_mb": ""
             }
           },
+          "footer-8": {
+            "type": "bl_col",
+            "settings": {
+              "col_heading": "EXCLUSIVES",
+              "menu": "header-special-collection",
+              "menu_style": "1",
+              "col_border": "none",
+              "col_dk": "15",
+              "col_tb": "6",
+              "col_mb": "12",
+              "content_align": "t4s-text-lg-start",
+              "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
+              "col_heading_mobile": "",
+              "content_align_mb": "t4s-text-start",
+              "padding_inner_mb": ""
+            }
+          },
           "footer-3": {
             "type": "cus_socials",
             "settings": {
@@ -219,25 +238,6 @@
             "settings": {
               "col_heading": "Categories",
               "menu": "footer",
-              "menu_style": "1",
-              "col_border": "none",
-              "col_dk": "2",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "5px,0,0,0",
-              "content_align_tb": "t4s-text-md-start",
-              "padding_inner_tb": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "footer-8": {
-            "type": "bl_col",
-            "settings": {
-              "col_heading": "Useful links",
-              "menu": "",
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "2",
@@ -339,9 +339,9 @@
           "footer-0",
           "footer-2",
           "footer-6",
+          "footer-8",
           "footer-3",
           "footer-4",
-          "footer-8",
           "footer-10",
           "footer-11",
           "footer-12",
