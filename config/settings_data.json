@@ -378,6 +378,32 @@
               "menu_style": "1"
             }
           },
+          "90f277ca-5c66-49fd-a5dc-142d18a6dcd1": {
+            "type": "bl_col",
+            "settings": {
+              "col_heading": "ACCESSORIES",
+              "menu": "accessories",
+              "menu_style": "1",
+              "col_border": "none",
+              "col_dk": "15",
+              "col_tb": "6",
+              "col_mb": "12",
+              "content_align": "t4s-text-lg-start",
+              "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
+              "col_heading_mobile": "",
+              "content_align_mb": "t4s-text-start",
+              "padding_inner_mb": ""
+            }
+          },
+          "7330fb8b-a457-40c8-9a5b-dd5d1566e3c4": {
+            "type": "html",
+            "settings": {
+              "html_content": "<br>",
+              "hidden_mobile": false
+            }
+          },
           "footer-3": {
             "type": "cus_socials",
             "settings": {
@@ -497,6 +523,8 @@
           "080cf48c-2d41-46a4-ae73-5c683e4e120d",
           "406442bd-b184-402f-825c-abb40f8604a1",
           "71d6e12f-a577-44f5-b2e2-469b8ed5e8c7",
+          "90f277ca-5c66-49fd-a5dc-142d18a6dcd1",
+          "7330fb8b-a457-40c8-9a5b-dd5d1566e3c4",
           "footer-3",
           "footer-4",
           "footer-11",
