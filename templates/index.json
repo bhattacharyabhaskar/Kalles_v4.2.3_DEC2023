@@ -187,6 +187,127 @@
         "code_cus_css": ""
       }
     },
+    "63b73f3e-9224-49b8-ae7b-2f18d11bb370": {
+      "type": "collections-list-packery",
+      "blocks": {
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "banarasi-silk-saree",
+            "image": "shopify:\/\/shop_images\/Banarasi-New_4da6ec00-e5c0-4d42-b9ef-dcab2bd045a6.webp",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "collection_title": "BANARASI",
+            "collection_link": ""
+          }
+        },
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "col_dk": "3",
+            "col_tb": "3",
+            "col_mb": "6",
+            "collection_title": "Collection title",
+            "collection_link": ""
+          }
+        },
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-3": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "col_dk": "3",
+            "col_tb": "3",
+            "col_mb": "6",
+            "collection_title": "Collection title",
+            "collection_link": ""
+          }
+        },
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-4": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "collection_title": "Collection title",
+            "collection_link": ""
+          }
+        },
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-5": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "col_dk": "3",
+            "col_tb": "3",
+            "col_mb": "6",
+            "collection_title": "Collection title",
+            "collection_link": ""
+          }
+        },
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-6": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "col_dk": "3",
+            "col_tb": "3",
+            "col_mb": "6",
+            "collection_title": "Collection title",
+            "collection_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-1",
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-2",
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-3",
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-4",
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-5",
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-6"
+      ],
+      "settings": {
+        "design_heading": "2",
+        "heading_align": "t4s-text-center",
+        "top_heading": "<h2>Exclusive Designer Silk Saree Collections<\/h2>",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection_des": "1",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#878787",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "collection_subtitle": "Products",
+        "open_link": "_self",
+        "space_bottom": 20,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_pd": 0,
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "7",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "164603504020ce33da": {
       "type": "collections-list-manual",
       "blocks": {
@@ -1084,6 +1205,7 @@
   "order": [
     "1646028739ae283905",
     "d98aa1b1-f414-49a2-be42-55dd82743bc1",
+    "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
     "164603504020ce33da",
     "1646035317ea8b6928",
     "1702155301c8da60ce",
