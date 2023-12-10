@@ -215,6 +215,13 @@
               "padding_inner_mb": ""
             }
           },
+          "3db3ec89-297a-42aa-8edd-8ed00a941931": {
+            "type": "html",
+            "settings": {
+              "html_content": "<br>",
+              "hidden_mobile": false
+            }
+          },
           "footer-3": {
             "type": "cus_socials",
             "settings": {
@@ -340,6 +347,7 @@
           "footer-2",
           "footer-6",
           "footer-8",
+          "3db3ec89-297a-42aa-8edd-8ed00a941931",
           "footer-3",
           "footer-4",
           "footer-10",
