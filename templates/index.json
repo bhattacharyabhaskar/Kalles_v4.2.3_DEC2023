@@ -277,18 +277,18 @@
         "387b2d17-dc9d-4df8-b538-1a6f26f56753": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "baluchari-silk-saree",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
-            "collection_title": "Collection title",
+            "collection_title": "BALUCHARI",
             "collection_link": ""
           }
         },
         "79005ac0-17d1-4210-aa01-875919c23d36": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "shop-designer-sarees",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -311,11 +311,11 @@
         "5f924d6c-fae2-42fe-8c78-12c21d8a6a05": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "raw-silk",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
-            "collection_title": "Collection title",
+            "collection_title": "RAW SILK",
             "collection_link": ""
           }
         },
