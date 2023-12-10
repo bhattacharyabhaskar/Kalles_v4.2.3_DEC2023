@@ -193,12 +193,12 @@
         "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-1": {
           "type": "collection_item",
           "settings": {
-            "collection": "shop-designer-sarees",
-            "image": "shopify:\/\/shop_images\/Designer-New_cc8121da-4f67-4399-b11e-31e3aceb6fbb.jpg",
+            "collection": "kanchipuram-sarees",
+            "image": "shopify:\/\/shop_images\/Kanjeevaram-New.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
-            "collection_title": "DESIGNER",
+            "collection_title": "KANJEEVARAM",
             "collection_link": ""
           }
         },
