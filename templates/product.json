@@ -212,18 +212,16 @@
         "tabs_design": "accordion",
         "tabs_design_mb": "accordion",
         "tabs_position": "external",
-        "enable_first_tab": false,
-        "tabs_layout_fix": "full",
+        "enable_first_tab": true,
+        "tabs_layout_fix": "default",
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
-        "product_list": [
-
-        ],
+        "product_list": "{{ product.metafields.theme.fbt.value }}",
         "sticky_mode": "2",
         "sticky_show": "2",
         "sticky_layout_mb": "minimal",
         "enable_select": true,
-        "ani": "t4s-ani-shake",
+        "ani": "none",
         "time": 3
       }
     },
