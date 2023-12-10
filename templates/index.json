@@ -546,6 +546,22 @@
         "code_cus_css": ""
       }
     },
+    "426f6812-b9b0-4d60-921f-c59cd528e85d": {
+      "type": "line",
+      "settings": {
+        "line_style": "solid",
+        "line_width": 100,
+        "line_height": 2.5,
+        "line_cl": "#b7499b",
+        "line_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "mg": ",,50px,",
+        "mg_tb": "",
+        "mg_mb": ",,30px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff": {
       "type": "our_mission",
       "blocks": {
@@ -1287,6 +1303,7 @@
     "fb664c52-a0c2-4006-8fd2-65d6011f492c",
     "9a92f768-a23c-411b-b99c-809c4aae84e0",
     "216bf813-5b7d-4f42-88f7-accc66e62ae1",
+    "426f6812-b9b0-4d60-921f-c59cd528e85d",
     "a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff",
     "16460362229768af39",
     "1646035317ea8b6928",
