@@ -477,7 +477,7 @@
     "9a92f768-a23c-411b-b99c-809c4aae84e0": {
       "type": "custom-html",
       "settings": {
-        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #fff;color: #fff;\">\n<div data-romw-token=\"SuXYREMYz4nTRed4TUFHciHAwv1qXhpiEuFE4aGRGxvvhK3AdI\"><\/div>\n<\/div>",
+        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #fff;color: #fff;\">\n<div data-token=\"2TdoxZaH89iSu0AeQmkbJtAlyUhs6RVQ9CNbfOcWgSiM7U7OEr\" class=\"romw-reviews\"><\/div>\n<\/div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
