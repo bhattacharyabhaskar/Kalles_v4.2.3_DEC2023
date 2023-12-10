@@ -1,8 +1,10 @@
 {
   "current": {
+    "purchase_code": "ac82ee1c-42bc-46ca-ba07-fec66c04717c",
     "use_rtl": "0",
+    "checkbox_mail": true,
     "header_design": "inline",
-    "logo": "shopify:\/\/shop_images\/kalles.png",
+    "logo": "shopify:\/\/shop_images\/Logo-Light-New_5f505c73-77f1-4d5d-863c-3b869b661d24.png",
     "logo_width": 95,
     "logos": "shopify:\/\/shop_images\/kalles.png",
     "logos_width": 95,
@@ -10,17 +12,26 @@
     "logo_mb_width": 95,
     "logo_tr": "shopify:\/\/shop_images\/header-logo-01.png",
     "logo_tr_width": 95,
+    "accent_color": "#b7499b",
     "font_source": "2",
     "fnt_fm_sp2": "poppins_n4",
     "fnt_fm_sp3": "libre_baskerville_n4",
     "fnt_fm_gg2": "Poppins",
     "fnt_fm_gg3": "Libre Baskerville",
     "hd_ffamily": "1",
-    "enable_compe": true,
+    "fs_h1": 29,
+    "fs_h2": 23,
+    "fs_h3": 20.5,
+    "fs_h4": 17.5,
+    "fs_h5": 14,
+    "fs_h6": 12.5,
+    "enable_compe": false,
     "app_review": "2",
-    "badge_shape": "1",
+    "badge_shape": "3",
     "label_sale_style": "2",
     "use_new_badge": false,
+    "use_preorder_badge": false,
+    "price_varies_style": "2",
     "type_qv": "2",
     "show_qty": false,
     "pr_border_style": "1",
@@ -33,34 +44,42 @@
     "use_change_variant_by_img": true,
     "enable_his": true,
     "variant_remove": "2",
+    "use_notify_me": false,
     "share_source": "1",
+    "free_ship_pr": "rajasthani-marwar-choker-necklace-set",
     "gift_wrap_pr": "gift-wrap",
     "filter_type_search": true,
     "show_search_suggest": true,
     "search_prs_suggest": "women",
     "show_search_hotkey": true,
+    "list_hotkey": "Banarasi, Jamdani, Pure Silk, Gadwal, Kolkata",
     "currency_type": "1",
-    "size_currency": "sm",
+    "size_currency": "md",
+    "supported_currencies": "EUR - EUR | USD - USD | GBP - GBP | INR - INR",
     "round_currency": false,
     "notify_currency": true,
     "hover_currency": false,
+    "colors_css": true,
+    "custom_css_t4s": true,
     "share_tumblr": true,
     "share_telegram": true,
     "share_whatsapp": false,
-    "social_facebook_link": "#",
-    "social_twitter_link": "#",
-    "social_instagram_link": "#",
+    "social_facebook_link": "https:\/\/facebook.com\/IndyVogue",
+    "social_twitter_link": "https:\/\/twitter.com\/IndyVogue",
+    "social_instagram_link": "http:\/\/instagram.com\/indyvoguellc",
     "social_dribbble_link": "",
-    "social_linkedin_link": "#",
-    "social_pinterest_link": "#",
+    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/indyvogue\/",
+    "social_pinterest_link": "https:\/\/pinterest.com\/IndyVogue",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCeaXLec9gXoTNK-Jowt-bJw",
     "social_vimeo_link": "",
     "social_behance_link": "",
     "social_soundcloud_link": "",
     "social_tiktok_link": "",
-    "favicon": "shopify:\/\/shop_images\/k-fav.jpg",
+    "favicon": "shopify:\/\/shop_images\/Logo-Light-New_5f505c73-77f1-4d5d-863c-3b869b661d24.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo-Light-New_5f505c73-77f1-4d5d-863c-3b869b661d24.png",
+    "checkout_logo_size": "large",
     "pr_incoming_mess": true,
     "use_vimg": true,
     "sticky_atc": true,
@@ -74,22 +93,46 @@
             "settings": {
               "col_heading": "",
               "menu": "",
-              "col_dk": "7",
-              "col_tb": "6",
+              "col_dk": "12",
+              "col_tb": "12",
               "col_mb": "12",
-              "content_align": "t4s-text-md-start",
+              "content_align": "t4s-text-md-center",
               "padding_inner": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-center",
               "padding_inner_mb": ""
             }
           },
+          "67b11f56-907e-476f-aa16-dc965c499ef7": {
+            "type": "html",
+            "settings": {
+              "html_content": "<script data-src=\"https:\/\/reviewsonmywebsite.com\/js\/v2\/embed.js?id=8e7313fc946fd3d8c15c886f791a7ab8\"><\/script>\n<script data-src=\"https:\/\/reviewsonmywebsite.com\/js\/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34\"><\/script>",
+              "hidden_mobile": false
+            }
+          },
+          "486a26b5-0683-409b-a990-5d6ea573a688": {
+            "type": "payments",
+            "settings": {
+              "svg": "visa, master, american_express, discover, apple_pay, paypal, amazon_payments, google_pay, shopify_pay",
+              "height": 30,
+              "hidden_mobile": false,
+              "mgb": 20,
+              "mgb_mb": 10
+            }
+          },
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08": {
             "type": "copyR",
             "settings": {
-              "text": "Copyright © [year] <span class=\"t4s-cp\">Kalles<\/span> all rights reserved. Powered by <a href=\"https:\/\/the4.co\">The4<\/a>",
+              "text": "Copyright © [year] <span class=\"t4s-cp\">IndyVogue LLC<\/span> all rights reserved.",
               "mgb": 0,
               "mgb_mb": 0
+            }
+          },
+          "7a4106c0-adf6-4755-b5df-f8f290046188": {
+            "type": "html",
+            "settings": {
+              "html_content": "<p>9724 Castle Pines Dr<br>Austin, TX 78717<br><\/p><p>Phone: <a href=\"tel:+19133784722\" target=\"_blank\" title=\"tel:+19133784722\">+19133784722<\/a>(9:00 AM - 10:00 PM CST)<\/p><p>Email: <a href=\"mailto:sumanab@indyvogue.com\" target=\"_blank\" title=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com<\/a><\/p>",
+              "hidden_mobile": false
             }
           },
           "47f5eb4c-1063-495d-bfc4-a54c62d219aa": {
@@ -110,7 +153,10 @@
         },
         "block_order": [
           "2433b4f1-5bdc-49a9-ba42-a51f4eb6d8e3",
+          "67b11f56-907e-476f-aa16-dc965c499ef7",
+          "486a26b5-0683-409b-a990-5d6ea573a688",
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08",
+          "7a4106c0-adf6-4755-b5df-f8f290046188",
           "47f5eb4c-1063-495d-bfc4-a54c62d219aa"
         ],
         "settings": {
@@ -152,15 +198,15 @@
           "footer-0": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "",
-              "menu": "",
+              "col_heading": "INFORMATION",
+              "menu": "footer-information",
               "menu_style": "1",
               "col_border": "none",
-              "col_dk": "3",
+              "col_dk": "15",
               "col_tb": "6",
               "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "",
+              "content_align": "t4s-text-lg-start",
+              "padding_inner": "5px,0,0,0",
               "content_align_tb": "t4s-text-md-start",
               "padding_inner_tb": "",
               "col_heading_mobile": "Get in touch",
@@ -168,20 +214,259 @@
               "padding_inner_mb": ""
             }
           },
-          "de84a111-3ed0-40a2-b86a-1e81488e9bff": {
-            "type": "image",
+          "footer-6": {
+            "type": "bl_col",
             "settings": {
-              "link_img": "",
-              "img_width": 95,
-              "img_width_mb": 0,
-              "mgb": 34,
-              "mgb_mb": 24
+              "col_heading": "WEAVES",
+              "menu": "sarees",
+              "menu_style": "1",
+              "col_border": "none",
+              "col_dk": "15",
+              "col_tb": "6",
+              "col_mb": "12",
+              "content_align": "t4s-text-md-start",
+              "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
+              "col_heading_mobile": "",
+              "content_align_mb": "t4s-text-start",
+              "padding_inner_mb": ""
             }
           },
-          "footer-2": {
+          "footer-8": {
+            "type": "bl_col",
+            "settings": {
+              "col_heading": "EXCLUSIVES",
+              "menu": "header-special-collection",
+              "menu_style": "1",
+              "col_border": "none",
+              "col_dk": "15",
+              "col_tb": "6",
+              "col_mb": "12",
+              "content_align": "t4s-text-lg-start",
+              "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
+              "col_heading_mobile": "",
+              "content_align_mb": "t4s-text-start",
+              "padding_inner_mb": ""
+            }
+          },
+          "3db3ec89-297a-42aa-8edd-8ed00a941931": {
             "type": "html",
             "settings": {
-              "html_content": "<p style=\"display:flex;\"><svg style=\"width: 30px;height: 30px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 16.001 1.072 c 5.291 0 9.596 4.305 9.596 9.597 c 0 1.683 -0.446 3.341 -1.29 4.799 l -8.307 14.394 l -8.308 -14.395 c -0.843 -1.456 -1.289 -3.115 -1.289 -4.798 c 0 -5.292 4.305 -9.597 9.597 -9.597 Z M 16.001 14.4 c 2.058 0 3.731 -1.674 3.731 -3.731 s -1.674 -3.731 -3.731 -3.731 c -2.058 0 -3.732 1.674 -3.732 3.731 s 1.674 3.731 3.732 3.731 Z M 16.001 0.006 c -5.889 0 -10.663 4.775 -10.663 10.663 c 0 1.945 0.523 3.762 1.432 5.332 l 9.23 15.994 l 9.23 -15.994 c 0.909 -1.57 1.432 -3.387 1.432 -5.332 c 0 -5.888 -4.774 -10.663 -10.662 -10.663 v 0 Z M 16.001 13.334 c -1.472 0 -2.666 -1.193 -2.666 -2.665 c 0 -1.471 1.194 -2.665 2.666 -2.665 s 2.665 1.194 2.665 2.665 c 0 1.472 -1.193 2.665 -2.665 2.665 v 0 Z\"><\/path><\/svg><span>184 Main Rd E, St Albans VIC 3021, Australia<\/span><\/p> <p style=\"display:flex;\"><svg style=\"width: 24px;height: 24px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 28.244 7.47 h -25.572 v 17.06 h 26.656 v -17.06 h -1.084 Z M 27.177 8.536 l -10.298 10.298 c -0.47 0.47 -1.289 0.47 -1.759 0 l -10.3 -10.298 h 22.356 Z M 3.738 8.961 l 6.923 6.922 l -6.923 6.923 v -13.846 Z M 4.589 23.464 l 6.827 -6.826 l 2.951 2.95 c 0.436 0.436 1.016 0.677 1.633 0.677 s 1.197 -0.241 1.633 -0.677 l 2.951 -2.951 l 6.826 6.826 h -22.822 Z M 28.262 22.807 l -6.923 -6.924 l 6.923 -6.924 v 13.848 Z\"><\/path><\/svg><span>contact@company.com<\/span><\/p> \n<p style=\"display:flex;\"><svg style=\"width: 24px;height: 24px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 23.407 30.394 c -2.431 0 -8.341 -3.109 -13.303 -9.783 c -4.641 -6.242 -6.898 -10.751 -6.898 -13.785 c 0 -2.389 1.65 -3.529 2.536 -4.142 l 0.219 -0.153 c 0.979 -0.7 2.502 -0.927 3.086 -0.927 c 1.024 0 1.455 0.599 1.716 1.121 c 0.222 0.442 2.061 4.39 2.247 4.881 c 0.286 0.755 0.192 1.855 -0.692 2.488 l -0.155 0.108 c -0.439 0.304 -1.255 0.869 -1.368 1.557 c -0.055 0.334 0.057 0.684 0.342 1.068 c 1.423 1.918 5.968 7.55 6.787 8.314 c 0.642 0.6 1.455 0.685 2.009 0.218 c 0.573 -0.483 0.828 -0.768 0.83 -0.772 l 0.059 -0.057 c 0.048 -0.041 0.496 -0.396 1.228 -0.396 c 0.528 0 1.065 0.182 1.596 0.541 c 1.378 0.931 4.487 3.011 4.487 3.011 l 0.05 0.038 c 0.398 0.341 0.973 1.323 0.302 2.601 c -0.695 1.327 -2.85 4.066 -5.079 4.066 Z M 9.046 2.672 c -0.505 0 -1.746 0.213 -2.466 0.728 l -0.232 0.162 c -0.827 0.572 -2.076 1.435 -2.076 3.265 c 0 2.797 2.188 7.098 6.687 13.149 c 4.914 6.609 10.532 9.353 12.447 9.353 c 1.629 0 3.497 -2.276 4.135 -3.494 c 0.392 -0.748 0.071 -1.17 -0.04 -1.284 c -0.36 -0.241 -3.164 -2.117 -4.453 -2.988 c -0.351 -0.238 -0.688 -0.358 -0.999 -0.358 c -0.283 0 -0.469 0.1 -0.532 0.14 c -0.104 0.111 -0.39 0.405 -0.899 0.833 c -0.951 0.801 -2.398 0.704 -3.424 -0.254 c -0.923 -0.862 -5.585 -6.666 -6.916 -8.459 c -0.46 -0.62 -0.641 -1.252 -0.538 -1.877 c 0.187 -1.133 1.245 -1.866 1.813 -2.26 l 0.142 -0.099 c 0.508 -0.363 0.4 -1.02 0.316 -1.242 c -0.157 -0.414 -1.973 -4.322 -2.203 -4.781 c -0.188 -0.376 -0.336 -0.533 -0.764 -0.533 Z\"><\/path><\/svg><span>+001 2233 456<\/span><\/p>",
+              "html_content": "<br>",
+              "hidden_mobile": false
+            }
+          },
+          "d57b60c3-8e64-4397-b5f8-26321477588d": {
+            "type": "custom_text",
+            "settings": {
+              "text": "COLOR",
+              "remove_br_tag": false,
+              "tag": "p",
+              "fontf": "inherit",
+              "text_cl": "#dddddd",
+              "text_fs": 16,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
+          },
+          "a35edb5f-bbf9-4724-be47-89e7b4215635": {
+            "type": "cus_menu",
+            "settings": {
+              "menu": "sarees-by-color",
+              "menu_style": "1"
+            }
+          },
+          "284c6f47-6ddd-497b-8d78-375d118d5927": {
+            "type": "html",
+            "settings": {
+              "html_content": "<br>",
+              "hidden_mobile": false
+            }
+          },
+          "5fdbb98f-d3bc-4e8d-850a-27a8936869b0": {
+            "type": "custom_text",
+            "settings": {
+              "text": "OCCASION",
+              "remove_br_tag": false,
+              "tag": "p",
+              "fontf": "inherit",
+              "text_cl": "#dddddd",
+              "text_fs": 16,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
+          },
+          "f4f8cbb5-e5a7-4bff-9259-e2522edc0cad": {
+            "type": "cus_menu",
+            "settings": {
+              "menu": "sarees-by-occassion",
+              "menu_style": "1"
+            }
+          },
+          "footer-10": {
+            "type": "bl_col",
+            "settings": {
+              "col_heading": "PRICE",
+              "menu": "sarees-by-price",
+              "menu_style": "1",
+              "col_border": "none",
+              "col_dk": "15",
+              "col_tb": "6",
+              "col_mb": "12",
+              "content_align": "t4s-text-md-start",
+              "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
+              "col_heading_mobile": "",
+              "content_align_mb": "t4s-text-start",
+              "padding_inner_mb": ""
+            }
+          },
+          "337ebc4e-344b-432d-9224-a6ab6bee8f12": {
+            "type": "html",
+            "settings": {
+              "html_content": "<br>",
+              "hidden_mobile": false
+            }
+          },
+          "63d3cdc3-dbfc-479c-b2fa-fcf8826937b2": {
+            "type": "custom_text",
+            "settings": {
+              "text": "REGION",
+              "remove_br_tag": false,
+              "tag": "p",
+              "fontf": "inherit",
+              "text_cl": "#dddddd",
+              "text_fs": 16,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
+          },
+          "e6bec6bd-b6dc-4c9a-9f3d-2d60396d734c": {
+            "type": "cus_menu",
+            "settings": {
+              "menu": "sarees-by-region",
+              "menu_style": "1"
+            }
+          },
+          "080cf48c-2d41-46a4-ae73-5c683e4e120d": {
+            "type": "html",
+            "settings": {
+              "html_content": "<br>",
+              "hidden_mobile": false
+            }
+          },
+          "406442bd-b184-402f-825c-abb40f8604a1": {
+            "type": "custom_text",
+            "settings": {
+              "text": "WORK",
+              "remove_br_tag": false,
+              "tag": "p",
+              "fontf": "inherit",
+              "text_cl": "#dddddd",
+              "text_fs": 16,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
+          },
+          "71d6e12f-a577-44f5-b2e2-469b8ed5e8c7": {
+            "type": "cus_menu",
+            "settings": {
+              "menu": "sarees-by-work",
+              "menu_style": "1"
+            }
+          },
+          "90f277ca-5c66-49fd-a5dc-142d18a6dcd1": {
+            "type": "bl_col",
+            "settings": {
+              "col_heading": "ACCESSORIES",
+              "menu": "accessories",
+              "menu_style": "1",
+              "col_border": "none",
+              "col_dk": "15",
+              "col_tb": "6",
+              "col_mb": "12",
+              "content_align": "t4s-text-lg-start",
+              "padding_inner": "5px,0,0,0",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
+              "col_heading_mobile": "",
+              "content_align_mb": "t4s-text-start",
+              "padding_inner_mb": ""
+            }
+          },
+          "7330fb8b-a457-40c8-9a5b-dd5d1566e3c4": {
+            "type": "html",
+            "settings": {
+              "html_content": "<br>",
+              "hidden_mobile": false
+            }
+          },
+          "43ef043c-a5db-4349-914d-36a766944044": {
+            "type": "custom_text",
+            "settings": {
+              "text": "CONTACT US",
+              "remove_br_tag": false,
+              "tag": "p",
+              "fontf": "inherit",
+              "text_cl": "#dddddd",
+              "text_fs": 16,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
+          },
+          "7994aaf6-ec3a-43cf-8fb9-09e4979c2001": {
+            "type": "html",
+            "settings": {
+              "html_content": "<p style=\"display:flex;\"><svg style=\"width: 30px;height: 30px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 16.001 1.072 c 5.291 0 9.596 4.305 9.596 9.597 c 0 1.683 -0.446 3.341 -1.29 4.799 l -8.307 14.394 l -8.308 -14.395 c -0.843 -1.456 -1.289 -3.115 -1.289 -4.798 c 0 -5.292 4.305 -9.597 9.597 -9.597 Z M 16.001 14.4 c 2.058 0 3.731 -1.674 3.731 -3.731 s -1.674 -3.731 -3.731 -3.731 c -2.058 0 -3.732 1.674 -3.732 3.731 s 1.674 3.731 3.732 3.731 Z M 16.001 0.006 c -5.889 0 -10.663 4.775 -10.663 10.663 c 0 1.945 0.523 3.762 1.432 5.332 l 9.23 15.994 l 9.23 -15.994 c 0.909 -1.57 1.432 -3.387 1.432 -5.332 c 0 -5.888 -4.774 -10.663 -10.662 -10.663 v 0 Z M 16.001 13.334 c -1.472 0 -2.666 -1.193 -2.666 -2.665 c 0 -1.471 1.194 -2.665 2.666 -2.665 s 2.665 1.194 2.665 2.665 c 0 1.472 -1.193 2.665 -2.665 2.665 v 0 Z\"><\/path><\/svg><span><a href=\"https:\/\/goo.gl\/maps\/7ne5aC4hkZ7zpqux7\">9724 Castle Pines Dr Austin TX 78717 US<\/a><\/span><\/p> <p style=\"display:flex;\"><svg style=\"width: 24px;height: 24px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 28.244 7.47 h -25.572 v 17.06 h 26.656 v -17.06 h -1.084 Z M 27.177 8.536 l -10.298 10.298 c -0.47 0.47 -1.289 0.47 -1.759 0 l -10.3 -10.298 h 22.356 Z M 3.738 8.961 l 6.923 6.922 l -6.923 6.923 v -13.846 Z M 4.589 23.464 l 6.827 -6.826 l 2.951 2.95 c 0.436 0.436 1.016 0.677 1.633 0.677 s 1.197 -0.241 1.633 -0.677 l 2.951 -2.951 l 6.826 6.826 h -22.822 Z M 28.262 22.807 l -6.923 -6.924 l 6.923 -6.924 v 13.848 Z\"><\/path><\/svg><span><a href=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com<\/a>\n<\/span><\/p> \n<p style=\"display:flex;\"><svg style=\"width: 24px;height: 24px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 23.407 30.394 c -2.431 0 -8.341 -3.109 -13.303 -9.783 c -4.641 -6.242 -6.898 -10.751 -6.898 -13.785 c 0 -2.389 1.65 -3.529 2.536 -4.142 l 0.219 -0.153 c 0.979 -0.7 2.502 -0.927 3.086 -0.927 c 1.024 0 1.455 0.599 1.716 1.121 c 0.222 0.442 2.061 4.39 2.247 4.881 c 0.286 0.755 0.192 1.855 -0.692 2.488 l -0.155 0.108 c -0.439 0.304 -1.255 0.869 -1.368 1.557 c -0.055 0.334 0.057 0.684 0.342 1.068 c 1.423 1.918 5.968 7.55 6.787 8.314 c 0.642 0.6 1.455 0.685 2.009 0.218 c 0.573 -0.483 0.828 -0.768 0.83 -0.772 l 0.059 -0.057 c 0.048 -0.041 0.496 -0.396 1.228 -0.396 c 0.528 0 1.065 0.182 1.596 0.541 c 1.378 0.931 4.487 3.011 4.487 3.011 l 0.05 0.038 c 0.398 0.341 0.973 1.323 0.302 2.601 c -0.695 1.327 -2.85 4.066 -5.079 4.066 Z M 9.046 2.672 c -0.505 0 -1.746 0.213 -2.466 0.728 l -0.232 0.162 c -0.827 0.572 -2.076 1.435 -2.076 3.265 c 0 2.797 2.188 7.098 6.687 13.149 c 4.914 6.609 10.532 9.353 12.447 9.353 c 1.629 0 3.497 -2.276 4.135 -3.494 c 0.392 -0.748 0.071 -1.17 -0.04 -1.284 c -0.36 -0.241 -3.164 -2.117 -4.453 -2.988 c -0.351 -0.238 -0.688 -0.358 -0.999 -0.358 c -0.283 0 -0.469 0.1 -0.532 0.14 c -0.104 0.111 -0.39 0.405 -0.899 0.833 c -0.951 0.801 -2.398 0.704 -3.424 -0.254 c -0.923 -0.862 -5.585 -6.666 -6.916 -8.459 c -0.46 -0.62 -0.641 -1.252 -0.538 -1.877 c 0.187 -1.133 1.245 -1.866 1.813 -2.26 l 0.142 -0.099 c 0.508 -0.363 0.4 -1.02 0.316 -1.242 c -0.157 -0.414 -1.973 -4.322 -2.203 -4.781 c -0.188 -0.376 -0.336 -0.533 -0.764 -0.533 Z\"><\/path><\/svg><span><a href=\"tel:19133784722\">+1 913-378-4722<\/a>\n<\/span><\/p>",
               "hidden_mobile": false
             }
           },
@@ -203,132 +488,23 @@
               "mgb": 0
             }
           },
-          "footer-4": {
+          "4648284f-d313-4b25-9de3-80e952428e5e": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "Categories",
-              "menu": "footer",
-              "menu_style": "1",
-              "col_border": "none",
-              "col_dk": "2",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "5px,0,0,0",
-              "content_align_tb": "t4s-text-md-start",
-              "padding_inner_tb": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "footer-6": {
-            "type": "bl_col",
-            "settings": {
-              "col_heading": "Infomation",
+              "col_heading": "",
               "menu": "",
               "menu_style": "1",
               "col_border": "none",
-              "col_dk": "2",
+              "col_dk": "12",
               "col_tb": "6",
               "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "5px,0,0,0",
+              "content_align": "t4s-text-lg-start",
+              "padding_inner": "",
               "content_align_tb": "t4s-text-md-start",
               "padding_inner_tb": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-start",
               "padding_inner_mb": ""
-            }
-          },
-          "footer-8": {
-            "type": "bl_col",
-            "settings": {
-              "col_heading": "Useful links",
-              "menu": "",
-              "menu_style": "1",
-              "col_border": "none",
-              "col_dk": "2",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "5px,0,0,0",
-              "content_align_tb": "t4s-text-md-start",
-              "padding_inner_tb": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "footer-10": {
-            "type": "bl_col",
-            "settings": {
-              "col_heading": "Newsletter Signup",
-              "menu": "",
-              "menu_style": "1",
-              "col_border": "none",
-              "col_dk": "3",
-              "col_tb": "6",
-              "col_mb": "12",
-              "content_align": "t4s-text-md-start",
-              "padding_inner": "5px,0,0,0",
-              "content_align_tb": "t4s-text-md-start",
-              "padding_inner_tb": "",
-              "col_heading_mobile": "",
-              "content_align_mb": "t4s-text-start",
-              "padding_inner_mb": ""
-            }
-          },
-          "footer-11": {
-            "type": "custom_text",
-            "settings": {
-              "text": "Subscribe to our newsletter and get 10% off your first purchase",
-              "remove_br_tag": false,
-              "tag": "p",
-              "fontf": "inherit",
-              "text_cl": "#878787",
-              "text_fs": 14,
-              "text_lh": 24,
-              "text_fw": 400,
-              "text_ls": 0,
-              "font_italic": false,
-              "text_shadow": false,
-              "text_mgb": 18,
-              "hidden_mobile": false,
-              "text_fs_mb": 16,
-              "text_lh_mb": 0,
-              "text_ls_mb": 0,
-              "text_mgb_mobile": 18
-            }
-          },
-          "footer-12": {
-            "type": "newsletter",
-            "settings": {
-              "form_width": 0,
-              "form_width_mb": 0,
-              "newl_des": "1",
-              "news_align": "start",
-              "newl_size": "small",
-              "btn_icon": false,
-              "input_cl": "#878787",
-              "border_cl": "#000000",
-              "btn_cl": "#ffffff",
-              "btn_bg_cl": "#222222",
-              "btn_hover_cl": "#ffffff",
-              "btn_hover_bg_cl": "#56cfe1",
-              "hidden_mobile": false,
-              "mgb": 22,
-              "mgb_mb": 20
-            }
-          },
-          "385c1474-1235-4a3d-b73c-9555b5f8dcfb": {
-            "type": "image",
-            "settings": {
-              "link_img": "",
-              "img_width": 0,
-              "img_width_mb": 0,
-              "mgb": 20,
-              "mgb_mb": 20
             }
           },
           "33eb929e-a001-4d96-82a0-5aab1aaabaea": {
@@ -341,21 +517,55 @@
               "mgb": 20,
               "mgb_mb": 10
             }
+          },
+          "22036a9b-89a6-421d-9f51-4f31d4c90a95": {
+            "type": "custom_text",
+            "settings": {
+              "text": "Welcome to IndyVogue, your destination for Indian ethnic fashion! We specialize in curating and offering a splendid collection of silk mark certified hand-woven sarees online. Our boutique showcases a diverse range of exquisite sarees, available in an array of captivating colors and styles, all crafted with the utmost care using premium handloom silk. With the silk mark certification, we guarantee that our sarees are made from pure, top-notch silk and are meticulously produced using traditional hand-weaving techniques. <br><br>By shopping at IndyVogue, you not only gain access to a wide selection of stunning handloom sarees but also contribute to the preservation and promotion of the art of traditional handloom silk-weaving in India. We take pride in our 600+ verified reviews, which reflect the satisfaction of our valued customers. Join us on this journey of embracing timeless elegance and supporting the rich heritage of Indian handloom silk.",
+              "remove_br_tag": false,
+              "tag": "p",
+              "fontf": "inherit",
+              "text_cl": "#dddddd",
+              "text_fs": 14,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "de84a111-3ed0-40a2-b86a-1e81488e9bff",
-          "footer-2",
-          "footer-3",
-          "footer-4",
           "footer-6",
           "footer-8",
+          "3db3ec89-297a-42aa-8edd-8ed00a941931",
+          "d57b60c3-8e64-4397-b5f8-26321477588d",
+          "a35edb5f-bbf9-4724-be47-89e7b4215635",
+          "284c6f47-6ddd-497b-8d78-375d118d5927",
+          "5fdbb98f-d3bc-4e8d-850a-27a8936869b0",
+          "f4f8cbb5-e5a7-4bff-9259-e2522edc0cad",
           "footer-10",
-          "footer-11",
-          "footer-12",
-          "385c1474-1235-4a3d-b73c-9555b5f8dcfb",
-          "33eb929e-a001-4d96-82a0-5aab1aaabaea"
+          "337ebc4e-344b-432d-9224-a6ab6bee8f12",
+          "63d3cdc3-dbfc-479c-b2fa-fcf8826937b2",
+          "e6bec6bd-b6dc-4c9a-9f3d-2d60396d734c",
+          "080cf48c-2d41-46a4-ae73-5c683e4e120d",
+          "406442bd-b184-402f-825c-abb40f8604a1",
+          "71d6e12f-a577-44f5-b2e2-469b8ed5e8c7",
+          "90f277ca-5c66-49fd-a5dc-142d18a6dcd1",
+          "7330fb8b-a457-40c8-9a5b-dd5d1566e3c4",
+          "43ef043c-a5db-4349-914d-36a766944044",
+          "7994aaf6-ec3a-43cf-8fb9-09e4979c2001",
+          "footer-3",
+          "4648284f-d313-4b25-9de3-80e952428e5e",
+          "33eb929e-a001-4d96-82a0-5aab1aaabaea",
+          "22036a9b-89a6-421d-9f51-4f31d4c90a95"
         ],
         "settings": {
           "sticky": false,
@@ -365,7 +575,7 @@
           "border_pos": "in",
           "space_h_item": "30",
           "space_v_item": "30",
-          "space_h_item_tb": "15",
+          "space_h_item_tb": "0",
           "space_v_item_tb": "30",
           "space_h_item_mb": "0",
           "space_v_item_mb": "30",
@@ -378,13 +588,13 @@
           "mgb_mb": 20,
           "text_fs": 14,
           "text_fw": 400,
-          "heading_cl": "#222222",
-          "text_cl": "#878787",
-          "link_cl": "#878787",
+          "heading_cl": "#ffffff",
+          "text_cl": "#ffffff",
+          "link_cl": "#ffffff",
           "link_hover_cl": "#56cfe1",
           "border_cl": "#e6e6e6",
           "layout": "t4s-container-wrap",
-          "cl_bg": "#f6f6f8",
+          "cl_bg": "#222222",
           "cl_bg_gradient": "",
           "mg": "",
           "pd": "75px,,75px,",
@@ -437,7 +647,7 @@
           "announcement-bar-2"
         ],
         "settings": {
-          "show_announcement": true,
+          "show_announcement": false,
           "effect": "1",
           "au_time": 3.5,
           "height": 45,
@@ -457,7 +667,7 @@
           "top-bar-0": {
             "type": "html",
             "settings": {
-              "html": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 32 32\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n   <path d=\"M23.407 30.394c-2.431 0-8.341-3.109-13.303-9.783-4.641-6.242-6.898-10.751-6.898-13.785 0-2.389 1.65-3.529 2.536-4.142l0.219-0.153c0.979-0.7 2.502-0.927 3.086-0.927 1.024 0 1.455 0.599 1.716 1.121 0.222 0.442 2.061 4.39 2.247 4.881 0.286 0.755 0.192 1.855-0.692 2.488l-0.155 0.108c-0.439 0.304-1.255 0.869-1.368 1.557-0.055 0.334 0.057 0.684 0.342 1.068 1.423 1.918 5.968 7.55 6.787 8.314 0.642 0.6 1.455 0.685 2.009 0.218 0.573-0.483 0.828-0.768 0.83-0.772l0.059-0.057c0.048-0.041 0.496-0.396 1.228-0.396 0.528 0 1.065 0.182 1.596 0.541 1.378 0.931 4.487 3.011 4.487 3.011l0.050 0.038c0.398 0.341 0.973 1.323 0.302 2.601-0.695 1.327-2.85 4.066-5.079 4.066zM9.046 2.672c-0.505 0-1.746 0.213-2.466 0.728l-0.232 0.162c-0.827 0.572-2.076 1.435-2.076 3.265 0 2.797 2.188 7.098 6.687 13.149 4.914 6.609 10.532 9.353 12.447 9.353 1.629 0 3.497-2.276 4.135-3.494 0.392-0.748 0.071-1.17-0.040-1.284-0.36-0.241-3.164-2.117-4.453-2.988-0.351-0.238-0.688-0.358-0.999-0.358-0.283 0-0.469 0.1-0.532 0.14-0.104 0.111-0.39 0.405-0.899 0.833-0.951 0.801-2.398 0.704-3.424-0.254-0.923-0.862-5.585-6.666-6.916-8.459-0.46-0.62-0.641-1.252-0.538-1.877 0.187-1.133 1.245-1.866 1.813-2.26l0.142-0.099c0.508-0.363 0.4-1.020 0.316-1.242-0.157-0.414-1.973-4.322-2.203-4.781-0.188-0.376-0.336-0.533-0.764-0.533z\" fill=\"currentColor\"><\/path>\n<\/svg>\n<a class=\"t4s-ct\" href=\"tel:%20+0123456789\"> +01 23456789<\/a> \n<svg class=\"ml__15\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 32 32\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink \">\n   <path d=\"M28.244 7.47h-25.572v17.060h26.656v-17.060h-1.084zM27.177 8.536l-10.298 10.298c-0.47 0.47-1.289 0.47-1.759 0l-10.3-10.298h22.356zM3.738 8.961l6.923 6.922-6.923 6.923v-13.846zM4.589 23.464l6.827-6.826 2.951 2.95c0.436 0.436 1.016 0.677 1.633 0.677s1.197-0.241 1.633-0.677l2.951-2.951 6.826 6.826h-22.822zM28.262 22.807l-6.923-6.924 6.923-6.924v13.848z\" fill=\"currentColor\"><\/path>\n<\/svg> \n<a class=\"t4s-ct\" href=\"mailto:kalles@domain.com\">Kalles@domain.com<\/a>",
+              "html": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 32 32\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n   <path d=\"M23.407 30.394c-2.431 0-8.341-3.109-13.303-9.783-4.641-6.242-6.898-10.751-6.898-13.785 0-2.389 1.65-3.529 2.536-4.142l0.219-0.153c0.979-0.7 2.502-0.927 3.086-0.927 1.024 0 1.455 0.599 1.716 1.121 0.222 0.442 2.061 4.39 2.247 4.881 0.286 0.755 0.192 1.855-0.692 2.488l-0.155 0.108c-0.439 0.304-1.255 0.869-1.368 1.557-0.055 0.334 0.057 0.684 0.342 1.068 1.423 1.918 5.968 7.55 6.787 8.314 0.642 0.6 1.455 0.685 2.009 0.218 0.573-0.483 0.828-0.768 0.83-0.772l0.059-0.057c0.048-0.041 0.496-0.396 1.228-0.396 0.528 0 1.065 0.182 1.596 0.541 1.378 0.931 4.487 3.011 4.487 3.011l0.050 0.038c0.398 0.341 0.973 1.323 0.302 2.601-0.695 1.327-2.85 4.066-5.079 4.066zM9.046 2.672c-0.505 0-1.746 0.213-2.466 0.728l-0.232 0.162c-0.827 0.572-2.076 1.435-2.076 3.265 0 2.797 2.188 7.098 6.687 13.149 4.914 6.609 10.532 9.353 12.447 9.353 1.629 0 3.497-2.276 4.135-3.494 0.392-0.748 0.071-1.17-0.040-1.284-0.36-0.241-3.164-2.117-4.453-2.988-0.351-0.238-0.688-0.358-0.999-0.358-0.283 0-0.469 0.1-0.532 0.14-0.104 0.111-0.39 0.405-0.899 0.833-0.951 0.801-2.398 0.704-3.424-0.254-0.923-0.862-5.585-6.666-6.916-8.459-0.46-0.62-0.641-1.252-0.538-1.877 0.187-1.133 1.245-1.866 1.813-2.26l0.142-0.099c0.508-0.363 0.4-1.020 0.316-1.242-0.157-0.414-1.973-4.322-2.203-4.781-0.188-0.376-0.336-0.533-0.764-0.533z\" fill=\"currentColor\"><\/path>\n<\/svg>\n<a class=\"t4s-ct\" href=\"tel:%20+019133784722\"> +1 9133784722<\/a> \n<svg class=\"ml__15\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 32 32\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink \">\n   <path d=\"M28.244 7.47h-25.572v17.060h26.656v-17.060h-1.084zM27.177 8.536l-10.298 10.298c-0.47 0.47-1.289 0.47-1.759 0l-10.3-10.298h22.356zM3.738 8.961l6.923 6.922-6.923 6.923v-13.846zM4.589 23.464l6.827-6.826 2.951 2.95c0.436 0.436 1.016 0.677 1.633 0.677s1.197-0.241 1.633-0.677l2.951-2.951 6.826 6.826h-22.822zM28.262 22.807l-6.923-6.924 6.923-6.924v13.848z\" fill=\"currentColor\"><\/path>\n<\/svg> \n<a class=\"t4s-ct\" href=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com<\/a>",
               "hide": false,
               "text_align": "start",
               "col": "4"
@@ -466,7 +676,7 @@
           "top-bar-1": {
             "type": "text",
             "settings": {
-              "text": "<p>Summer sale discount off <strong>50%<\/strong>! <a href=\"\/collections\" title=\"All collections\">Shop Now<\/a><\/p>",
+              "text": "<p>🎄🎁Christmas Super Sale! + FREE SHIPPING 🎁🎄<\/p><p><strong> <\/strong><a href=\"https:\/\/www.indyvogue.com\/pages\/current-offers-and-promotions\"><strong>Click for details<\/strong><\/a><\/p>",
               "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
@@ -487,8 +697,8 @@
             "type": "cur",
             "settings": {
               "show_currency": true,
-              "show_language": true,
-              "use_location": true,
+              "show_language": false,
+              "use_location": false,
               "txt_location": "Location",
               "url_location": "shopify:\/\/blogs\/lingeries\/5-best-swimsuits-for-big-busts",
               "open_link": "_self",
@@ -528,8 +738,8 @@
           "9883384a-d19a-4abe-9a94-388d91fce9b6": {
             "type": "mega",
             "settings": {
-              "title": "Demo",
-              "url": "https:\/\/demo-kalles-4-1.myshopify.com\/",
+              "title": "Sarees",
+              "url": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -548,8 +758,8 @@
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53": {
             "type": "mega",
             "settings": {
-              "title": "Shop",
-              "url": "shopify:\/\/collections",
+              "title": "Exclusives",
+              "url": "",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -568,8 +778,8 @@
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2": {
             "type": "mega",
             "settings": {
-              "title": "Product",
-              "url": "shopify:\/\/collections\/all",
+              "title": "Accessories",
+              "url": "",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -583,6 +793,39 @@
               "enable_packery": true,
               "r_s_h_item": "20",
               "r_s_v_item": "30"
+            }
+          },
+          "ab886db1-7d4b-480d-8ef7-12f529243e9d": {
+            "type": "mega",
+            "settings": {
+              "title": "About Us",
+              "url": "shopify:\/\/pages\/about-us",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "#00badb",
+              "pos_sub": "bottom",
+              "wid": "cus",
+              "cus_wid": 200,
+              "id": 6,
+              "enable_packery": true,
+              "r_s_h_item": "20",
+              "r_s_v_item": "30"
+            }
+          },
+          "5b6c83d1-eb1d-42b8-a11c-5df6ac1cfce1": {
+            "type": "base",
+            "settings": {
+              "title": "Reviews",
+              "url": "shopify:\/\/pages\/indyvogue-reviews",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
             }
           },
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
@@ -605,45 +848,11 @@
               "r_s_v_item": "30"
             }
           },
-          "334013b4-82f3-4046-8371-eaf3c3340153": {
-            "type": "drop",
-            "settings": {
-              "title": "Portfolio",
-              "url": "https:\/\/demo-kalles-4-1.myshopify.com\/blogs\/portfolio\/?preview_theme_id=128644972750",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
-          },
-          "556a85dc-041d-4d44-8c22-263ed70a8b48": {
-            "type": "drop",
-            "settings": {
-              "title": "Lookbook",
-              "url": "https:\/\/demo-kalles-4-1.myshopify.com",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos_sub": "bottom",
-              "pos": "left"
-            }
-          },
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0": {
             "type": "mega",
             "settings": {
               "title": "Blog",
-              "url": "https:\/\/demo-kalles-4-1.myshopify.com\/blogs\/fashion?preview_theme_id=",
+              "url": "shopify:\/\/blogs\/indyvogue-fashion-center",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -664,9 +873,9 @@
           "9883384a-d19a-4abe-9a94-388d91fce9b6",
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
+          "ab886db1-7d4b-480d-8ef7-12f529243e9d",
+          "5b6c83d1-eb1d-42b8-a11c-5df6ac1cfce1",
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
-          "334013b4-82f3-4046-8371-eaf3c3340153",
-          "556a85dc-041d-4d44-8c22-263ed70a8b48",
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0"
         ],
         "settings": {
@@ -1044,40 +1253,40 @@
           "3abb98a1-837d-46af-b195-f5c43e7c88ee": {
             "type": "link",
             "settings": {
-              "tt_hd": "HOME PAGES",
+              "tt_hd": "TYPE",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees",
               "col": "3"
             }
           },
           "2ceac397-4b2b-4740-a477-707dd2680e02": {
             "type": "link",
             "settings": {
-              "tt_hd": "HOME PAGES",
+              "tt_hd": "WORK",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees-by-work",
               "col": "3"
             }
           },
           "1f90cea5-04fb-4ef3-822b-5f987845e5c4": {
             "type": "link",
             "settings": {
-              "tt_hd": "HEADER LAYOUTS",
+              "tt_hd": "REGION",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees-by-region",
               "col": "3"
             }
           },
           "6122e966-0272-4c46-a1a0-051bdc2ae08c": {
             "type": "link",
             "settings": {
-              "tt_hd": "FEATURES",
+              "tt_hd": "PRICE",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees-by-price",
               "col": "3"
             }
           },
@@ -1087,58 +1296,11 @@
               "id": 2
             }
           },
-          "02beea21-3cb9-41ce-a1ab-04ae44b7f47e": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "SHOP PAGES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "2"
-            }
-          },
-          "ff494243-e58b-40e9-a2ea-e64ccd58a624": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "FEATURES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "2"
-            }
-          },
-          "cec6a189-3084-497a-b4a8-b391531b2503": {
+          "c53d29e9-8b9b-4e62-afa9-e64393205337": {
             "type": "cat",
             "settings": {
-              "collection": "women",
-              "collection_title": "",
-              "collection_subtitle": "",
-              "collection_des": "1",
-              "title_cl": "#ffffff",
-              "title_cl_hover": "#222222",
-              "subtitle_cl": "#878787",
-              "count_cl": "#222222",
-              "border_cl": "#e5e5e5",
-              "open_link": "_self",
-              "space_bottom": 20,
-              "space_bottom_mb": 10,
-              "border": false,
-              "item_pd": 0,
-              "item_rd": 0,
-              "img_effect": "zoom",
-              "b_effect": "none",
-              "image_ratio": "rationt",
-              "image_size": "cover",
-              "image_position": "8",
-              "collection_link": "",
-              "col": "4"
-            }
-          },
-          "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e": {
-            "type": "cat",
-            "settings": {
-              "collection": "frontpage",
-              "collection_title": "",
+              "collection": "the-kolkata-collection",
+              "collection_title": "The Kolkata Collection",
               "collection_subtitle": "",
               "collection_des": "1",
               "title_cl": "#ffffff",
@@ -1154,7 +1316,34 @@
               "item_rd": 0,
               "img_effect": "none",
               "b_effect": "none",
-              "image_ratio": "rationt",
+              "image_ratio": "ratio1_1",
+              "image_size": "cover",
+              "image_position": "8",
+              "collection_link": "",
+              "col": "4"
+            }
+          },
+          "6ffaf659-883c-4ed6-8906-dd70d75856ce": {
+            "type": "cat",
+            "settings": {
+              "collection": "bold-solid-sarees",
+              "collection_title": "Bold & Solid",
+              "collection_subtitle": "",
+              "collection_des": "1",
+              "title_cl": "#ffffff",
+              "title_cl_hover": "#222222",
+              "subtitle_cl": "#878787",
+              "count_cl": "#222222",
+              "border_cl": "#e5e5e5",
+              "open_link": "_self",
+              "space_bottom": 20,
+              "space_bottom_mb": 10,
+              "border": false,
+              "item_pd": 0,
+              "item_rd": 0,
+              "img_effect": "none",
+              "b_effect": "none",
+              "image_ratio": "ratio1_1",
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
@@ -1170,41 +1359,11 @@
           "cc1a7875-8010-421e-b69c-efc19a6043d6": {
             "type": "link",
             "settings": {
-              "tt_hd": "PRODUCT LAYOUTS",
+              "tt_hd": "",
               "url": "",
               "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "e17e717c-01e0-4704-92bc-92c339ee6148": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT DETAILS",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "27ca598d-2e3f-44fc-a790-64783d37de5e": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT SWATCH",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "bdfaa837-86a3-4159-805a-668060142b0d": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "PRODUCT FEATURES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
+              "menu": "accessories",
+              "col": "12"
             }
           },
           "5952e385-42a5-4603-9be9-64b76f15ef48": {
@@ -1213,14 +1372,14 @@
               "id": 4
             }
           },
-          "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
+          "74281dd4-cb03-447d-8a30-a5fd331389ab": {
             "type": "link2",
             "settings": {
-              "col": "2",
+              "col": "4",
               "menu": ""
             }
           },
-          "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6": {
+          "44e33ba3-7ab7-432a-9094-caee8438a3af": {
             "type": "pr",
             "settings": {
               "collection": "sale",
@@ -1237,9 +1396,9 @@
               "space_v_item": "30",
               "layout_des": "2",
               "nav_btn": true,
-              "btn_vi": "always",
-              "btn_owl": "outline",
-              "btn_shape": "round",
+              "btn_vi": "hover",
+              "btn_owl": "default",
+              "btn_shape": "none",
               "btn_cl": "dark",
               "btn_size": "small",
               "btn_hidden_mobile": true,
@@ -1252,49 +1411,52 @@
               "id": 5
             }
           },
-          "5665b9cc-d2a6-42e0-b267-e4b36da8a05e": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "BLOG LAYOUT",
-              "url": "https:\/\/demo-kalles-4-1.myshopify.com\/blogs\/fashion?preview_theme_id=",
-              "open_link": "_self",
-              "menu": "",
-              "col": "4"
-            }
-          },
-          "552902be-02b1-40ca-8475-982bbdb75ed7": {
+          "0e6a8d37-7cf2-44ec-bb23-d46c2e75ca98": {
             "type": "blogs",
             "settings": {
-              "blog": "fashion",
+              "blog": "indyvogue-fashion-center",
               "post_des": "1",
               "show_cate": false,
               "show_tags": true,
-              "show_cnt": false,
+              "show_cnt": true,
               "show_au": true,
               "show_dt": true,
               "show_cm": true,
               "show_rm": false,
               "show_irm": false,
               "date": "date",
-              "content_align": "t4s-text-center",
+              "content_align": "start",
               "limit": 8,
-              "img_effect": "zoom",
+              "img_effect": "none",
               "b_effect": "none",
-              "image_ratio": "ratio4_3",
+              "image_ratio": "ratioadapt",
               "image_size": "cover",
               "image_position": "8",
               "col_dk": "2",
               "space_h_item": "30",
               "space_v_item": "30",
               "layout_des": "2",
-              "nav_btn": true,
-              "btn_vi": "always",
-              "btn_owl": "outline",
-              "btn_shape": "round",
+              "nav_btn": false,
+              "btn_vi": "hover",
+              "btn_owl": "default",
+              "btn_shape": "none",
               "btn_cl": "dark",
               "btn_size": "small",
               "btn_hidden_mobile": true,
               "col": "8"
+            }
+          },
+          "d032825f-a773-42e3-be7d-2c12c46038eb": {
+            "type": "mega",
+            "settings": {
+              "id": 6
+            }
+          },
+          "400a038a-cb32-4aae-a66d-7d4cd404ccd6": {
+            "type": "link2",
+            "settings": {
+              "col": "12",
+              "menu": "header-knowus"
             }
           }
         },
@@ -1305,21 +1467,17 @@
           "1f90cea5-04fb-4ef3-822b-5f987845e5c4",
           "6122e966-0272-4c46-a1a0-051bdc2ae08c",
           "45fa281e-2be5-4727-bd01-942824713769",
-          "02beea21-3cb9-41ce-a1ab-04ae44b7f47e",
-          "ff494243-e58b-40e9-a2ea-e64ccd58a624",
-          "cec6a189-3084-497a-b4a8-b391531b2503",
-          "95da8d7e-67f2-4ebd-b1ad-e83d518cb37e",
+          "c53d29e9-8b9b-4e62-afa9-e64393205337",
+          "6ffaf659-883c-4ed6-8906-dd70d75856ce",
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1",
           "cc1a7875-8010-421e-b69c-efc19a6043d6",
-          "e17e717c-01e0-4704-92bc-92c339ee6148",
-          "27ca598d-2e3f-44fc-a790-64783d37de5e",
-          "bdfaa837-86a3-4159-805a-668060142b0d",
           "5952e385-42a5-4603-9be9-64b76f15ef48",
-          "400a038a-cb32-4aae-a66d-7d4cd404ccd6",
-          "41ee689a-9ef7-46ab-a5a6-5fa4776a9af6",
+          "74281dd4-cb03-447d-8a30-a5fd331389ab",
+          "44e33ba3-7ab7-432a-9094-caee8438a3af",
           "758ddd07-8ea5-4c0e-80a1-e7eef279fa5f",
-          "5665b9cc-d2a6-42e0-b267-e4b36da8a05e",
-          "552902be-02b1-40ca-8475-982bbdb75ed7"
+          "0e6a8d37-7cf2-44ec-bb23-d46c2e75ca98",
+          "d032825f-a773-42e3-be7d-2c12c46038eb",
+          "400a038a-cb32-4aae-a66d-7d4cd404ccd6"
         ],
         "settings": {
           "bg": ""
@@ -1583,11 +1741,6 @@
             "settings": {
             }
           },
-          "mini_cart-2": {
-            "type": "agree",
-            "settings": {
-            }
-          },
           "mini_cart-3": {
             "type": "btnc",
             "settings": {
@@ -1609,15 +1762,15 @@
           "mini_cart-5": {
             "type": "img",
             "settings": {
-              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-              "height": 30
+              "svg": "visa, master, american_express, discover, apple_pay, paypal, amazon_payments, google_pay, shopify_pay",
+              "height": 20
             }
           },
           "mini_cart-6": {
             "type": "btn",
             "settings": {
               "title": "Return To Shop",
-              "url": "",
+              "url": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
               "btn_icon": false,
               "button_style": "default",
               "btn_cl": "primary",
@@ -1628,21 +1781,20 @@
         "block_order": [
           "mini_cart-0",
           "mini_cart-1",
-          "mini_cart-2",
           "mini_cart-3",
           "mini_cart-4",
           "mini_cart-5",
           "mini_cart-6"
         ],
         "settings": {
-          "style": "1",
+          "style": "2",
           "pos": "2",
-          "enable_pr": true,
-          "enable_calc_ship": true,
+          "enable_pr": false,
+          "enable_calc_ship": false,
           "enable_note": true,
-          "enable_rates": true,
-          "enable_discount": true,
-          "enable_gift_wrap": true,
+          "enable_rates": false,
+          "enable_discount": false,
+          "enable_gift_wrap": false,
           "ship_df_country": "United States"
         }
       },
@@ -2261,6 +2413,43 @@
     },
     "content_for_index": [
 
+    ],
+    "blocks": {
+      "6143736321357441667": {
+        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6468128024931565999": {
+        "type": "shopify:\/\/apps\/seguno-popups\/blocks\/popup-app-embed\/f53bd66f-9a20-4ce2-ae2e-ccbd0148bd4b",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14417550493701535262": {
+        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-embed-latest\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "942670587456160541": {
+        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-embed-stable\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "iframe[id^=\"iFrameResizer\"] {width: 460px !important;}",
+      ".t4s-pagination-wrapper {margin-bottom: 20px;}",
+      ".t4s-product .t4s-price-from {color: var(--product-price-color); display: none;}",
+      ".t4s-pr-style6 .t4s-product-badge {align-items: flex-end;}",
+      ".t4s-pr-style6 .t4s-product-btns2 {display: none;}",
+      ".type_mn_link .t4s-sub-column li a:not(:hover) {color: #003300;}",
+      ".shopify-payment-button__more-options {margin: 1.6rem 0 1rem; letter-spacing: 0.05rem; text-decoration: underline; text-underline-offset: 0.3rem;}"
     ]
   }
 }
