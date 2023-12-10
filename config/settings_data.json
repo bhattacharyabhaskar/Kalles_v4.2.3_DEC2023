@@ -76,14 +76,21 @@
             "settings": {
               "col_heading": "",
               "menu": "",
-              "col_dk": "7",
-              "col_tb": "6",
+              "col_dk": "12",
+              "col_tb": "12",
               "col_mb": "12",
-              "content_align": "t4s-text-md-start",
+              "content_align": "t4s-text-md-center",
               "padding_inner": "",
               "col_heading_mobile": "",
               "content_align_mb": "t4s-text-center",
               "padding_inner_mb": ""
+            }
+          },
+          "67b11f56-907e-476f-aa16-dc965c499ef7": {
+            "type": "html",
+            "settings": {
+              "html_content": "<script type=\"lazyload2\" data-src=\"https:\/\/reviewsonmywebsite.com\/js\/v2\/embed.js?id=8e7313fc946fd3d8c15c886f791a7ab8\"><\/script>\n<script type=\"lazyload2\" data-src=\"https:\/\/reviewsonmywebsite.com\/js\/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34\"><\/script>",
+              "hidden_mobile": false
             }
           },
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08": {
@@ -112,6 +119,7 @@
         },
         "block_order": [
           "2433b4f1-5bdc-49a9-ba42-a51f4eb6d8e3",
+          "67b11f56-907e-476f-aa16-dc965c499ef7",
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08",
           "47f5eb4c-1063-495d-bfc4-a54c62d219aa"
         ],
