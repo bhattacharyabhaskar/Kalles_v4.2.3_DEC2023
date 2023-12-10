@@ -251,6 +251,13 @@
               "menu_style": "1"
             }
           },
+          "284c6f47-6ddd-497b-8d78-375d118d5927": {
+            "type": "html",
+            "settings": {
+              "html_content": "<br>",
+              "hidden_mobile": false
+            }
+          },
           "footer-3": {
             "type": "cus_socials",
             "settings": {
@@ -379,6 +386,7 @@
           "3db3ec89-297a-42aa-8edd-8ed00a941931",
           "d57b60c3-8e64-4397-b5f8-26321477588d",
           "a35edb5f-bbf9-4724-be47-89e7b4215635",
+          "284c6f47-6ddd-497b-8d78-375d118d5927",
           "footer-3",
           "footer-4",
           "footer-10",
