@@ -54,39 +54,14 @@
             "text_ls_mb": 0,
             "text_mgb_mobile": 20
           }
-        },
-        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7": {
-          "type": "4",
-          "settings": {
-            "design_des": "show_all",
-            "length": 60,
-            "view_more": true,
-            "viewm_txt": "View more",
-            "fontf": "inherit",
-            "text_cl": "#ffffff",
-            "text_fs": 16,
-            "text_lh": 24,
-            "text_fw": 400,
-            "text_ls": 0,
-            "font_italic": false,
-            "font_uppercase": false,
-            "text_shadow": false,
-            "text_mgb": 20,
-            "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
-            "text_ls_mb": 0,
-            "text_mgb_mobile": 10
-          }
         }
       },
       "block_order": [
-        "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9",
-        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7"
+        "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9"
       ],
       "settings": {
         "heading_fullwidth": false,
-        "use_specify_image": false,
+        "use_specify_image": true,
         "parallax": true,
         "color": "#000000",
         "overlay": 54,
