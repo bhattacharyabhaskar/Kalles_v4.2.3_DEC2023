@@ -205,22 +205,24 @@
         "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-2": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "dhakai-jamdani-sarees",
+            "image": "shopify:\/\/shop_images\/Jamdani-New_376ebe32-cea0-40d9-aee9-cbc7fd144061.webp",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
-            "collection_title": "Collection title",
+            "collection_title": "JAMDANI",
             "collection_link": ""
           }
         },
         "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-3": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "georgette-silk-saree",
+            "image": "shopify:\/\/shop_images\/Georgette-New.webp",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
-            "collection_title": "Collection title",
+            "collection_title": "GEORGETTE",
             "collection_link": ""
           }
         },
@@ -239,6 +241,40 @@
         "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-5": {
           "type": "collection_item",
           "settings": {
+            "collection": "bishnupur-silk-saree",
+            "image": "shopify:\/\/shop_images\/Bishnupuri-Silk-New.webp",
+            "col_dk": "3",
+            "col_tb": "3",
+            "col_mb": "6",
+            "collection_title": "BISHNUPURI SILK",
+            "collection_link": ""
+          }
+        },
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-6": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "ikat-silk-saree",
+            "col_dk": "3",
+            "col_tb": "3",
+            "col_mb": "6",
+            "collection_title": "Collection title",
+            "collection_link": ""
+          }
+        },
+        "eccecc44-4ab1-4c88-bed4-95442c9edd27": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "collection_title": "Collection title",
+            "collection_link": ""
+          }
+        },
+        "387b2d17-dc9d-4df8-b538-1a6f26f56753": {
+          "type": "collection_item",
+          "settings": {
             "collection": "",
             "col_dk": "3",
             "col_tb": "3",
@@ -247,7 +283,7 @@
             "collection_link": ""
           }
         },
-        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-6": {
+        "79005ac0-17d1-4210-aa01-875919c23d36": {
           "type": "collection_item",
           "settings": {
             "collection": "",
@@ -265,7 +301,10 @@
         "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-3",
         "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-4",
         "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-5",
-        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-6"
+        "template--17081597853929__63b73f3e-9224-49b8-ae7b-2f18d11bb370-collection_item-6",
+        "eccecc44-4ab1-4c88-bed4-95442c9edd27",
+        "387b2d17-dc9d-4df8-b538-1a6f26f56753",
+        "79005ac0-17d1-4210-aa01-875919c23d36"
       ],
       "settings": {
         "design_heading": "2",
