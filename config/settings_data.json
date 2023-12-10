@@ -244,6 +244,13 @@
               "text_mgb_mobile": 10
             }
           },
+          "a35edb5f-bbf9-4724-be47-89e7b4215635": {
+            "type": "cus_menu",
+            "settings": {
+              "menu": "sarees-by-color",
+              "menu_style": "1"
+            }
+          },
           "footer-3": {
             "type": "cus_socials",
             "settings": {
@@ -371,6 +378,7 @@
           "footer-8",
           "3db3ec89-297a-42aa-8edd-8ed00a941931",
           "d57b60c3-8e64-4397-b5f8-26321477588d",
+          "a35edb5f-bbf9-4724-be47-89e7b4215635",
           "footer-3",
           "footer-4",
           "footer-10",
