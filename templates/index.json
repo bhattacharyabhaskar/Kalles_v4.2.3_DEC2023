@@ -278,6 +278,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "organza-silk-saree",
+            "image": "shopify:\/\/shop_images\/Organza-New.jpg",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
