@@ -384,6 +384,23 @@
         "code_cus_css": ""
       }
     },
+    "a5252000-c9b6-49b6-94a0-478c097c965f": {
+      "type": "custom-html",
+      "settings": {
+        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #000;color: #fff;\">This is an advanced section. Knowledge of web design languages such as HTML, CSS is required.<\/div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "4cf91fbf-b1b6-41a2-aca3-154354f38175": {
       "type": "image_text",
       "blocks": {
@@ -554,6 +571,7 @@
     "main",
     "sidebar",
     "71125f6e-6720-42c9-8c7e-1843761c8c68",
+    "a5252000-c9b6-49b6-94a0-478c097c965f",
     "4cf91fbf-b1b6-41a2-aca3-154354f38175",
     "product-recommendations",
     "recently-viewed-products"
