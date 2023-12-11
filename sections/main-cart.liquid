@@ -232,10 +232,10 @@
                                 </ul>
                             {%- endif -%}
                         </div>
-                        <div class="t4s-cart-total">
+                        <div class="t4s-cart-total limoniapps-discountninja-cart-subtotal">
                             <div class="t4s-row t4s-gx-30 t4s-gy-0 t4s-d-inline-flex t4s-align-items-center t4s-justify-content-between">
                                 <div class="t4s-col-auto t4s-col-item"><strong>{{ 'cart.cart_page.subtotal' | t }}</strong></div>
-                                <div data-cart-prices class="t4s-col-auto t4s-col-item t4s-text-right t4s-cart__ttprice">
+                                <div data-cart-prices class="t4s-col-auto t4s-col-item t4s-text-right t4s-cart__ttprice limoniapps-discountninja-cart-subtotal-price">
                                     {%- if cart.total_discount > 0 -%}
                                         <div class="t4s-cart__originalPrice">{{ cart.original_total_price | money }}</div>
                                         <div class="t4s-cart__discountPrice"> - {{ cart.total_discount | money }}</div>
@@ -247,7 +247,8 @@
                                 </div>
                             </div>
                         </div>
-
+	<div class="limoniapps-discountninja-cart-promotionsummary"></div>
+                                  <div class="limoniapps-discountninja-cartdiscountfield-placeholder"></div>
                   {%- when 'tax' -%}
                      {%- capture taxes_shipping_checkout -%}{%- assign page_url = pages[settings.link_ship].url -%}
                         {%- if se_stts.show_discount -%}
