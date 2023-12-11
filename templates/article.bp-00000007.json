@@ -1,0 +1,457 @@
+{
+  "sections": {
+    "d036730a-8d16-4983-945e-58174fb11f9c": {
+      "type": "banner",
+      "blocks": {
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": false,
+            "height_dk": 600,
+            "custom_tb": false,
+            "height_tb": 400,
+            "custom_mb": false,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/10_Reasons_to_Choose_Katan_Banarasi_Saree.png",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "12",
+            "col_tb": "12",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 100,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 100,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_bl": true,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0"
+      ],
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "1608235d-c3e9-4bd1-b190-b35ac6c54005": {
+      "type": "image_text",
+      "blocks": {
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "10 Reasons to Choose Katan Banarasi Saree for this Shaadi Season",
+            "text": "<p>Banarasi, is a pure form of handloom weave six-yard drape that dates back more than 2000 years ago. Even the various mythological texts of India have mentioned it. The work of elegant brocades has evolved and continues to warn favor from the brides across the country.<\/p><p>When discussing marriages in India, a wedding could not be done without a Banarasi Saree. It is one of the purest forms of weaving that makes a great symbolic connection and hence for every bride it has to be in her trousseau.<\/p><p>So, we are not going to reinvent the wheel - rather we will talk about how to amp up your style game this “Indian shaadi Season”. Banarasis is all about tradition, culture, and incomparable artisanship - so what’s making Banarasi sarees share all the limelight?<\/p><p>Let us pick one of the <strong>latest Indian sarees<\/strong> - a Katan Banarasi which can be perfect for the wedding season. Let us dive into its comfort and versatility and other reasons to make it the ideal choice for the Shaadi season this 2024.<\/p><h3>1. Irresistible Designs<\/h3><p>They come with intricate designs inspired by the Mughal architecture and nature. A saree that has a design that resonates with you and complements your style and aura. Some popular and unique motifs include flora, peacocks, and geometric patterns.<\/p><h3>2. Traditional Yet Unbeatable<\/h3><p>Katan banarasi saree is a timeless classic and yet they are seamlessly in sync with the modern trends of weaving. A katan banarasi helps you strike the perfect balance between the past and the present.<\/p><h3>3. Has Got Captivating Border & Pallu<\/h3><p>The border and pallu of a katan banarasi saree are made of gold and silver threads of zari and complement the whole beauty of the saree, no matter what color it is.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "947465df-8011-4c4f-8367-4239ec3004ea": {
+      "type": "featured-collection",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "IndyVogue Katan Banarasi Collection",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "collection": "katan-banarasi",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "rationt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "center",
+        "limit": 8,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btns_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "use_pagination": "none",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "default",
+        "btns_size": "large",
+        "btns_cl": "dark",
+        "button_effect": "default",
+        "btn_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "be349666-2469-4b59-9e48-269f0cd4f2cc": {
+      "type": "image_text",
+      "blocks": {
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>4. Those Vivid Colors<\/h3><p>The katan banarasi comes in a wide range of colors, from gold to pastels - even vibrant, electrifying, and gorgeous shades to add dimension to the texture of the fabric - which definitely makes it regal.<\/p><h3>5. Silk Marks and High-Quality Varieties<\/h3><p>Made with the finest quality silks known for their luster and softness  - crafted by accomplished artisans who take great care to weave them unique and special.<\/p><h3>6. Comfort Comes First<\/h3><p>Katan banarasi silk saree is known for its versatility and can be worn just not at weddings but also on a variety of other occasions - from formal events to casual gatherings. Comfortable to wear and drape, even lightweight, and can be styled in various ways.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "ba01bad7-693a-42a7-a049-fcc4e83d80f6": {
+      "type": "image-gallery",
+      "blocks": {
+        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-1": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Katan-1.jpg",
+            "link": ""
+          }
+        },
+        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-2": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Katan-2.jpg",
+            "link": ""
+          }
+        },
+        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-3": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Katan-3.jpg",
+            "link": ""
+          }
+        },
+        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-4": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Katan-4.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-1",
+        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-2",
+        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-3",
+        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-4"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Patrons in Katan Banarasi",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "layout_des": "1",
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48": {
+      "type": "image_text",
+      "blocks": {
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>7. Heirlooms to Treasure<\/h3><p>The everlasting appeal of the katan banarasi is tempting and this authentic weave accentuates the opulence of the signature banarasi embroidery beautifully - making it a timeless heirloom for many families.<\/p><h3>8. They Go Light to Heavy<\/h3><p>They range from light to heavy and you can consider the weather and duration of the occasion for which you choose a heavy or light banarasi saree. Like a heavier saree is perfect for winter weddings, a lighter one is for the summer - katan can be found in both varieties.<\/p><h3>9. Choose Your Right Fit<\/h3><p>Generally, the katan banarasi saree comes in a standard length of 5.5 meters but the width can vary. Consider your body type and height to pick the width of this latest Indian saree. The wider the saree, the greater the illusion of height, while a narrower saree is flattering for a petite bride.<\/p><h3>10. Evergreen Forever<\/h3><p>Trends come and go, but katan banarasi saree is going to remain in vogue eternally forever. From Gen-Z fashionistas to 80’s moms, everyone loves this latest Indian sare which enhances your grace and adds a dash of royalty to your aura.<\/p><h2><em>Finally…<\/em><\/h2><p>Katan banarasi saree is one of the ideal choices for this Shaadi season - from its historical legacy to its modern charm, they’re the perfect blend of tradition and trend. Get set to paint the town in various hues and SLAY!<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "e7b55938-3dde-44ab-9365-66967e09d447": {
+      "type": "image_text",
+      "blocks": {
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https:\/\/www.indyvogue.com\/\"><strong>IndyVogue<\/strong> <\/a>every day, every hour, every minute and every second. Salute to her and her undying spirit.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "d036730a-8d16-4983-945e-58174fb11f9c",
+    "1608235d-c3e9-4bd1-b190-b35ac6c54005",
+    "947465df-8011-4c4f-8367-4239ec3004ea",
+    "be349666-2469-4b59-9e48-269f0cd4f2cc",
+    "ba01bad7-693a-42a7-a049-fcc4e83d80f6",
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
+    "e7b55938-3dde-44ab-9365-66967e09d447"
+  ]
+}

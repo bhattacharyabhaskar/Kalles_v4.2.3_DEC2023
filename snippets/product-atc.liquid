@@ -18,10 +18,16 @@
    {%- endcapture -%}
    
    {%- if settings.show_qty -%}
-      <div class="t4s-product-atc-qty"><div data-quantity-wrapper class="t4s-quantity-wrapper t4s-quantity-pr-item"> 
+      <div class="t4s-product-atc-qty"><div data-quantity-wrapper class="t4s-quantity-wrapper t4s-quantity-pr-item">
+            {% comment %}
+            // BB: Removing quantity change button in cart 
            <button data-quantity-selector data-decrease-qty type="button" class="t4s-quantity-selector is--minus"><svg focusable="false" class="icon icon--minus" viewBox="0 0 10 2" role="presentation"><path d="M10 0v2H0V0z" fill="currentColor"></path></svg></button>
+           {% endcomment %}      
            <input data-quantity-value type="number" class="t4s-quantity-input" step="{{ current_variant.quantity_rule.increment | default: 1 }}" min="{{ cus_qty }}" max="{{ max_qty }}" name="quantity" value="{{ cus_qty }}" size="4" pattern="[0-9]*" inputmode="numeric">
-           <button data-quantity-selector data-increase-qty type="button" class="t4s-quantity-selector is--plus"><svg focusable="false" class="icon icon--plus" viewBox="0 0 10 10" role="presentation"><path d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z" fill="currentColor" fill-rule="evenodd"></path></svg></button>
+            {% comment %}
+            // BB: Removing quantity change button in cart 
+            <button data-quantity-selector data-increase-qty type="button" class="t4s-quantity-selector is--plus"><svg focusable="false" class="icon icon--plus" viewBox="0 0 10 10" role="presentation"><path d="M6 4h4v2H6v4H4V6H0V4h4V0h2v4z" fill="currentColor" fill-rule="evenodd"></path></svg></button>
+            {% endcomment %}      
          </div>
          {{ capture_btn_atc }}</div>
    {%- else -%}

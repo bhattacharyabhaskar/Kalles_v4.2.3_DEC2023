@@ -26,11 +26,32 @@ t4sp-theme t4s-wrapper__{{ settings.general_layout }} rtl_{{ isRTL }} swatch_col
 {%- endcapture -%}
 <html class="{{ class_html }} no-js" lang="{{ iso_code }}"{% if isRTL %} dir="rtl"{% endif %}>
   <head>
+		{% render 'website-schema' %}
+        {% comment %}
+        // BB: Remove this after Valentine's day 
+		{% if handle contains 'saraswati-puja-collection' or  handle contains 'valentines-day-collection' or  handle contains 'all' %}
+			<meta name="robots" content="noindex, nofollow">
+		{% endif %}
+        {% endcomment %}
+		{% if template contains 'index' %}
+			{% render 'organization-schema' %}
+		{% elsif template contains 'collection' %}
+			{% render 'breadcrumb-schema-collection' %}
+		{% elsif template contains 'product' %}
+			{% render 'breadcrumb-schema-product' %}
+		{% elsif template contains 'article' %}
+			{% render 'article-schema' %}
+		{% else %}
+		{% endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.body_bg }}">
-    <link rel="canonical" href="{{ canonical_url }}">
+		{% if template contains 'collection' %}
+			<link rel="canonical" href="{{ shop.url }}{{ collection.url }}">
+		{% else %}
+			<link rel="canonical" href="{{ canonical_url }}">
+		{% endif %}
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     
     {%- if settings.favicon != blank %}<link rel="shortcut icon" type="image/png" href="{{ settings.favicon | image_url: width: 32 }}">{% endif -%}
@@ -61,7 +82,8 @@ t4sp-theme t4s-wrapper__{{ settings.general_layout }} rtl_{{ isRTL }} swatch_col
     {{ content_for_header }}
     {%- render 'head_assets', t_name: t_name, isRTL: isRTL -%}
     
-  </head>
+  
+</head>
 
   <body class="template-{{ request.page_type | handle }} {{ class_lazy }}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="2" data-sizes="auto"{% endif -%}>{% if isRTL %}<script type="text/javascript" id="t4s-flicker-fix">// Flicker fix.</script>{% endif -%}
     <a class="skip-to-content-link visually-hidden" href="#MainContent">{{ "accessibility.skip_to_text" | t }}</a>
@@ -85,5 +107,6 @@ t4sp-theme t4s-wrapper__{{ settings.general_layout }} rtl_{{ isRTL }} swatch_col
       </ul>
     {%- render 'render_bottom' -%}
    
-  </body>
+  
+</body>
 </html>

@@ -3,7 +3,17 @@
     assign placeholder_img = settings.placeholder_img
 	assign image = product.featured_media | default: placeholder_img
  -%}
-<div class="t4s-row t4s-space-item-inner t4s-widget__pr">
+<div 
+data-limoniapps-discountninja-product-handle="{{ product.handle }}"
+data-limoniapps-discountninja-product-collections="{{ product.collections | map: 'handle' | join: ',' | default: '[[--NONE--]]' }}"
+data-limoniapps-discountninja-product-collectionids="{{ product.collections | map: 'id' | join: ',' | default: '[[--NONE--]]' }}"
+data-limoniapps-discountninja-product-available="{{ product.available}}"
+data-limoniapps-discountninja-product-price="{{ product.first_available_variant.price | default: product.price }}"
+data-limoniapps-discountninja-product-compareatprice="{{ product.first_available_variant.compare_at_price | default: product.first_available_variant.price | default: product.compare_at_price | default: product.price }}"
+data-limoniapps-discountninja-product-pricevaries="{{ product.price_varies}}"
+data-limoniapps-discountninja-product-pricemin="{{ product.price_min}}"
+data-limoniapps-discountninja-product-tags="{{ product.tags | join: ',' | escape | default: '[[--NONE--]]' }}"
+class="t4s-row t4s-space-item-inner t4s-widget__pr">
 	<div class="t4s-col-item t4s-col t4s-widget_img_pr">
 		{%- if image != blank -%}
 			<a class="t4s-d-block t4s-pr t4s-oh t4s_ratio t4s-bg-11" href="{{ pr_url }}" style="background: url({{ image | image_url: width: 1 }});{{ imgatt }}--aspect-ratioapt: {{ image.aspect_ratio | default: 1 }}">
