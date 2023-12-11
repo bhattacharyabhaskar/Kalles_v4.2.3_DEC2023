@@ -1492,6 +1492,38 @@
       },
       "mb_nav": {
         "type": "mb_nav",
+        "blocks": {
+          "3020fbd9-2b42-4f3d-a8ac-dbae30f0b11c": {
+            "type": "menu",
+            "settings": {
+              "title": "Sarees By TYPES",
+              "url": "",
+              "open_link": "_self",
+              "menu": "sarees",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": ""
+            }
+          },
+          "70ca216d-cd27-4e8d-987f-032c9a5e5f30": {
+            "type": "menu",
+            "settings": {
+              "title": "Sarees By COLOR",
+              "url": "",
+              "open_link": "_self",
+              "menu": "sarees-by-color",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-palette"
+            }
+          }
+        },
+        "block_order": [
+          "3020fbd9-2b42-4f3d-a8ac-dbae30f0b11c",
+          "70ca216d-cd27-4e8d-987f-032c9a5e5f30"
+        ],
         "settings": {
         }
       },
