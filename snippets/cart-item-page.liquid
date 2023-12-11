@@ -169,8 +169,9 @@
           </div>
       </div>
       <div class="t4s-col-12 t4s-col-md-4 t4s-col-lg-2 t4s-col-item t4s-text-lg-end t4s-text-md-center t4s-text-start">
+{% comment %}Added/Modified by Limoni Apps on 11/12/22 to support Discount Ninja{% endcomment %}
 
-        <span class="t4s-cart-item-price">  
+        <span class="t4s-cart-item-price limoniapps-discountninja-cart-item-line-price" data-limoniapps-discountninja-cart-key="{{item_pr.key}}">  
                 {%- liquid
                  if cur_code_enabled
                    assign money_original_line_price = item.original_line_price | money_with_currency
