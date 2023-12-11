@@ -35,6 +35,9 @@
     </a>
     <div class="t4s-mini_cart__info">
        <a href="{{ item_url }}" class="t4s-mini_cart__title t4s-truncate">{{ item_pr.title }}</a>
+      {% comment %}Added/Modified by Limoni Apps on 11/12/22 to support Discount Ninja{% endcomment %}
+
+      <div class="limoniapps-discountninja-cart-item-product-comment" data-limoniapps-discountninja-cart-key="{{item_pr.key}}"></div>
        <div class="t4s-mini_cart__meta">
           {%- assign qv_key = item_pr.id -%}
           {%- unless item_pr.has_only_default_variant or item_variant.title contains 'mczr_price_' -%}{%- assign qv_key = item_id -%}<p class="t4s-cart_meta_variant">{{ item_variant.title }}</p>{%- endunless -%}
