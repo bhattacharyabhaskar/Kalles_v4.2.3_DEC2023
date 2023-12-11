@@ -225,6 +225,22 @@
         "pd_mb": ""
       }
     },
+    "cfd80de3-73f5-438e-b83d-91dc30ccfbe2": {
+      "type": "line",
+      "settings": {
+        "line_style": "solid",
+        "line_width": 100,
+        "line_height": 2.5,
+        "line_cl": "#b7499b",
+        "line_pos": "t4s-text-start",
+        "layout": "t4s-container-wrap",
+        "mg": ",,50px,",
+        "mg_tb": "",
+        "mg_mb": ",,30px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "79ad7a8a-7976-4fd0-8604-06cc6288f9a1": {
       "type": "custom-liquid",
       "settings": {
@@ -247,6 +263,7 @@
     "main",
     "sidebar",
     "65418366-bdbc-478b-ae3b-a9a880dc1d8d",
+    "cfd80de3-73f5-438e-b83d-91dc30ccfbe2",
     "79ad7a8a-7976-4fd0-8604-06cc6288f9a1"
   ]
 }
