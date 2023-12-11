@@ -49,7 +49,7 @@
     assign money_compare_at_price = compare_at_price | money
   endif -%}
   
-<div class="{{ class_price | default: 't4s-product-price' }}"{%- if variant_unit_price_measurement == nil -%} data-pr-price data-product-price{% endif %}>
+<div class="limoniapps-discountninja-productprice {{ class_price | default: 't4s-product-price' }}"{%- if variant_unit_price_measurement == nil -%} data-pr-price data-product-price{% endif %}>
    {%- if variant_unit_price_measurement -%}
       <span data-pr-price data-product-price>
          {%- liquid
