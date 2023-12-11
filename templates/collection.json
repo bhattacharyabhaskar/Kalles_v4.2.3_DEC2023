@@ -234,9 +234,9 @@
         "line_cl": "#b7499b",
         "line_pos": "t4s-text-center",
         "layout": "t4s-container-wrap",
-        "mg": ",,50px,",
+        "mg": "",
         "mg_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
       }
