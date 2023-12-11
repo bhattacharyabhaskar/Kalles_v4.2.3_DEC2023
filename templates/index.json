@@ -368,7 +368,7 @@
         "space_bottom_mb": 10,
         "border": false,
         "item_pd": 0,
-        "item_rd": 0,
+        "item_rd": 5,
         "img_effect": "none",
         "b_effect": "none",
         "image_ratio": "ratio1_1",
