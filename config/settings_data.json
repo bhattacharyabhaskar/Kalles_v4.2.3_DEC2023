@@ -2458,8 +2458,7 @@
       ".t4s-pr-style6 .t4s-product-badge {align-items: flex-end;}",
       ".t4s-pr-style6 .t4s-product-btns2 {display: none;}",
       ".type_mn_link .t4s-sub-column li a:not(:hover) {color: #003300;}",
-      ".shopify-payment-button__more-options {margin: 1.6rem 0 1rem; letter-spacing: 0.05rem; text-decoration: underline; text-underline-offset: 0.3rem;}",
-      ".t4s-product .t4s-price-from {color: #B7499B;}"
+      ".shopify-payment-button__more-options {margin: 1.6rem 0 1rem; letter-spacing: 0.05rem; text-decoration: underline; text-underline-offset: 0.3rem;}"
     ]
   }
 }
