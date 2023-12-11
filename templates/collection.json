@@ -232,7 +232,7 @@
         "line_width": 100,
         "line_height": 2.5,
         "line_cl": "#b7499b",
-        "line_pos": "t4s-text-start",
+        "line_pos": "t4s-text-center",
         "layout": "t4s-container-wrap",
         "mg": ",,50px,",
         "mg_tb": "",
