@@ -1596,6 +1596,19 @@
               "icons_op": "2",
               "icon": "las la-gem"
             }
+          },
+          "ec84637c-0a39-4ef6-8c68-7c0b8f9697aa": {
+            "type": "menu",
+            "settings": {
+              "title": "KNOW US",
+              "url": "",
+              "open_link": "_self",
+              "menu": "header-knowus",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-microphone"
+            }
           }
         },
         "block_order": [
@@ -1606,7 +1619,8 @@
           "96cd5ee2-7fb3-4347-af0d-62d296d2ada2",
           "266053f4-3578-4642-b1c4-51d728350217",
           "1696b437-baa3-4a20-b9df-4a313378650d",
-          "cd715ea2-0793-40bd-8faa-298e85285527"
+          "cd715ea2-0793-40bd-8faa-298e85285527",
+          "ec84637c-0a39-4ef6-8c68-7c0b8f9697aa"
         ],
         "settings": {
         }
