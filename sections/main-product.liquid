@@ -434,7 +434,13 @@ endif -%}
                       {%- endif -%}
                     </div>
                   {%- endif -%}
+                {% comment %}Added/Modified by Limoni Apps on 11/12/22 to support Discount Ninja{% endcomment %}
 
+<div class="limoniapps-discountninja-promotioncard-productpage-wrapper" 
+     data-limoniapps-discountninja-product-handle="{{ product.handle }}" 
+     data-source="asset" 
+     version="1.0.0">
+</div>
                 {%- when 'description' -%}
                   {%- assign pr_des = product.description -%}
                   {%- assign description_excerpt = meta_theme.description_excerpt | default: bk_stts.text -%}
