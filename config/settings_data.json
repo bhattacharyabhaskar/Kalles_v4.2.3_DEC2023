@@ -1329,6 +1329,7 @@
               "collection": "bold-solid-sarees",
               "collection_title": "Bold & Solid",
               "collection_subtitle": "",
+              "image": "shopify:\/\/shop_images\/Sold-Bold-HomePage-Category_1_8bd26c8c-7ccd-4a0f-b8e6-41b552eeafea.webp",
               "collection_des": "1",
               "title_cl": "#ffffff",
               "title_cl_hover": "#222222",
@@ -1343,11 +1344,11 @@
               "item_rd": 0,
               "img_effect": "none",
               "b_effect": "none",
-              "image_ratio": "ratio1_1",
+              "image_ratio": "ratio2_1",
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "4"
+              "col": "6"
             }
           },
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1": {
