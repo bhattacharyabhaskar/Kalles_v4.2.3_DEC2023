@@ -1557,6 +1557,19 @@
               "icons_op": "2",
               "icon": "las la-running"
             }
+          },
+          "266053f4-3578-4642-b1c4-51d728350217": {
+            "type": "menu",
+            "settings": {
+              "title": "Sarres By PRICE",
+              "url": "",
+              "open_link": "_self",
+              "menu": "sarees-by-price",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-search-dollar"
+            }
           }
         },
         "block_order": [
@@ -1564,7 +1577,8 @@
           "70ca216d-cd27-4e8d-987f-032c9a5e5f30",
           "1a3410a1-d173-4385-bfc7-76631abe000b",
           "cb643dc3-619e-4923-8fcc-24e00c3ca571",
-          "96cd5ee2-7fb3-4347-af0d-62d296d2ada2"
+          "96cd5ee2-7fb3-4347-af0d-62d296d2ada2",
+          "266053f4-3578-4642-b1c4-51d728350217"
         ],
         "settings": {
         }
