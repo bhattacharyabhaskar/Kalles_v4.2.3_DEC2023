@@ -1570,6 +1570,19 @@
               "icons_op": "2",
               "icon": "las la-search-dollar"
             }
+          },
+          "1696b437-baa3-4a20-b9df-4a313378650d": {
+            "type": "menu",
+            "settings": {
+              "title": "EXCLUSIVES",
+              "url": "",
+              "open_link": "_self",
+              "menu": "header-special-collection",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-certificate"
+            }
           }
         },
         "block_order": [
@@ -1578,7 +1591,8 @@
           "1a3410a1-d173-4385-bfc7-76631abe000b",
           "cb643dc3-619e-4923-8fcc-24e00c3ca571",
           "96cd5ee2-7fb3-4347-af0d-62d296d2ada2",
-          "266053f4-3578-4642-b1c4-51d728350217"
+          "266053f4-3578-4642-b1c4-51d728350217",
+          "1696b437-baa3-4a20-b9df-4a313378650d"
         ],
         "settings": {
         }
