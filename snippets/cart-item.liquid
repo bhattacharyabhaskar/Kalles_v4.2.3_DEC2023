@@ -88,7 +88,7 @@
           </ul>
           {%- endif -%}
           {%- if recurringchecked %}<span class="t4s-product-details__item-recurring t4s-ch">{{ 'cart.general.recurring_mess' | t: frequency: frequency, frequency_unit: frequency_unit }}</span>{% endif -%}
-          <div class="t4s-cart_meta_price">
+          <div class="t4s-cart_meta_price limoniapps-discountninja-cart-item-product-price" data-limoniapps-discountninja-cart-key="{{item.key}}">
               <div class="t4s-cart_price">
                 {%- unless cart_ajax_enable %}{{ item_qty }} × {% endunless -%}
                 {%- liquid
