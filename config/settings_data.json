@@ -1895,6 +1895,36 @@
               "text": "",
               "length": 31
             }
+          },
+          "b1fe9c42-e48f-4b92-8a62-76be9992d5e0": {
+            "type": "social",
+            "settings": {
+              "socials_align": "center",
+              "social_mode": "2",
+              "social_style": "1",
+              "social_size": "extra_small",
+              "bd_radius": 0,
+              "use_color_set": false,
+              "icon_cl": "#b7499b",
+              "bg_cl": "#222222",
+              "space_h_item": "10",
+              "space_v_item": "5",
+              "space_h_item_mb": "2",
+              "space_v_item_mb": "2"
+            }
+          },
+          "558052e3-d85c-43e9-90ec-91a3fae1888f": {
+            "type": "btn_detail",
+            "settings": {
+              "button_label": "View full details",
+              "button_link": "",
+              "open_link": "_self",
+              "btn_icon": true,
+              "button_style": "link",
+              "btn_size": "large",
+              "btn_cl": "primary",
+              "button_effect": "fade"
+            }
           }
         },
         "block_order": [
@@ -1902,7 +1932,9 @@
           "main-qv-1",
           "main-qv-3",
           "main-qv-5",
-          "86d5eb2e-7431-4c02-bcd9-03207e0e7058"
+          "86d5eb2e-7431-4c02-bcd9-03207e0e7058",
+          "b1fe9c42-e48f-4b92-8a62-76be9992d5e0",
+          "558052e3-d85c-43e9-90ec-91a3fae1888f"
         ],
         "settings": {
           "demo_pr": "",
