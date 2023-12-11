@@ -12,7 +12,13 @@
     "logo_mb_width": 95,
     "logo_tr": "shopify:\/\/shop_images\/header-logo-01.png",
     "logo_tr_width": 95,
+    "mobile_nav_type": "1",
     "accent_color": "#b7499b",
+    "border_color": "#ddd",
+    "price_secondary": "#878787",
+    "use_cus_lz": true,
+    "cus_lz": "shopify:\/\/shop_images\/Logo-Light-Anime.gif",
+    "size_cus_lz": 150,
     "font_source": "2",
     "fnt_fm_sp2": "poppins_n4",
     "fnt_fm_sp3": "libre_baskerville_n4",
@@ -39,6 +45,7 @@
     "swatch_item_style": "1",
     "show_color_type": "1",
     "pr_img_effect": "2",
+    "enable_pr_ellipsis": true,
     "pr_curent": "3",
     "use_group_media": true,
     "use_change_variant_by_img": true,
@@ -779,7 +786,7 @@
             "type": "mega",
             "settings": {
               "title": "Accessories",
-              "url": "",
+              "url": "shopify:\/\/pages\/accessory",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -788,7 +795,7 @@
               "lb_cl": "#00badb",
               "pos_sub": "bottom",
               "wid": "cus",
-              "cus_wid": 1100,
+              "cus_wid": 200,
               "id": 3,
               "enable_packery": true,
               "r_s_h_item": "20",
@@ -885,7 +892,7 @@
           "arrow": false,
           "align": "center",
           "hover": "hover_sideup",
-          "enable_active": false,
+          "enable_active": true,
           "h_navmb": 60,
           "bgnav": "#ffffff",
           "opnav": 100,
@@ -900,7 +907,7 @@
           "bg_hc": "#000000",
           "cl_hc": "#ffffff",
           "sticky_header": true,
-          "scroll_header": true,
+          "scroll_header": false,
           "bgnavst": "#ffffff",
           "opnavst": 100,
           "clnavst": "#222222",
@@ -1316,11 +1323,11 @@
               "item_rd": 0,
               "img_effect": "none",
               "b_effect": "none",
-              "image_ratio": "ratio1_1",
+              "image_ratio": "ratio2_1",
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "4"
+              "col": "6"
             }
           },
           "6ffaf659-883c-4ed6-8906-dd70d75856ce": {
@@ -1329,6 +1336,7 @@
               "collection": "bold-solid-sarees",
               "collection_title": "Bold & Solid",
               "collection_subtitle": "",
+              "image": "shopify:\/\/shop_images\/Sold-Bold-HomePage-Category_1_8bd26c8c-7ccd-4a0f-b8e6-41b552eeafea.webp",
               "collection_des": "1",
               "title_cl": "#ffffff",
               "title_cl_hover": "#222222",
@@ -1343,11 +1351,11 @@
               "item_rd": 0,
               "img_effect": "none",
               "b_effect": "none",
-              "image_ratio": "ratio1_1",
+              "image_ratio": "ratio2_1",
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "4"
+              "col": "6"
             }
           },
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1": {
@@ -1486,245 +1494,180 @@
       "mb_nav": {
         "type": "mb_nav",
         "blocks": {
-          "mb_nav-0": {
+          "3020fbd9-2b42-4f3d-a8ac-dbae30f0b11c": {
             "type": "menu",
             "settings": {
-              "title": "Demo",
+              "title": "Sarees By TYPES",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
-              "icon": ""
+              "icon": "las la-sun"
             }
           },
-          "mb_nav-1": {
+          "70ca216d-cd27-4e8d-987f-032c9a5e5f30": {
             "type": "menu",
             "settings": {
-              "title": "Shop",
-              "url": "shopify:\/\/collections\/women",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "",
-              "icons_op": "2",
-              "icon": ""
-            }
-          },
-          "mb_nav-2": {
-            "type": "menu",
-            "settings": {
-              "title": "Product",
-              "url": "shopify:\/\/products\/analogue-resin-strap",
-              "open_link": "_self",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "",
-              "icons_op": "2",
-              "icon": ""
-            }
-          },
-          "25fa7ecf-2db0-4747-b093-a1299099917e": {
-            "type": "menu",
-            "settings": {
-              "title": "Portfolio",
+              "title": "Sarees By COLOR",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees-by-color",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
-              "icon": ""
+              "icon": "las la-palette"
             }
           },
-          "58800ed8-befe-449a-b8f8-ea86620bef6f": {
+          "1a3410a1-d173-4385-bfc7-76631abe000b": {
             "type": "menu",
             "settings": {
-              "title": "Lookbook",
+              "title": "Sarees By REGION",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "sarees-by-region",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
-              "icon": ""
+              "icon": "las la-globe"
             }
           },
-          "mb_nav-3": {
+          "cb643dc3-619e-4923-8fcc-24e00c3ca571": {
             "type": "menu",
             "settings": {
-              "title": "Blog",
-              "url": "shopify:\/\/blogs\/fashion",
+              "title": "Sarees By OCCASION",
+              "url": "",
+              "open_link": "_self",
+              "menu": "sarees-by-occassion",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-envelope-open"
+            }
+          },
+          "96cd5ee2-7fb3-4347-af0d-62d296d2ada2": {
+            "type": "menu",
+            "settings": {
+              "title": "Sarees By WORK",
+              "url": "",
+              "open_link": "_self",
+              "menu": "sarees-by-work",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-running"
+            }
+          },
+          "266053f4-3578-4642-b1c4-51d728350217": {
+            "type": "menu",
+            "settings": {
+              "title": "Sarres By PRICE",
+              "url": "",
+              "open_link": "_self",
+              "menu": "sarees-by-price",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-search-dollar"
+            }
+          },
+          "1696b437-baa3-4a20-b9df-4a313378650d": {
+            "type": "menu",
+            "settings": {
+              "title": "EXCLUSIVES",
+              "url": "",
+              "open_link": "_self",
+              "menu": "header-special-collection",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-certificate"
+            }
+          },
+          "cd715ea2-0793-40bd-8faa-298e85285527": {
+            "type": "menu",
+            "settings": {
+              "title": "ACCESSORIES",
+              "url": "",
+              "open_link": "_self",
+              "menu": "accessories",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-gem"
+            }
+          },
+          "ec84637c-0a39-4ef6-8c68-7c0b8f9697aa": {
+            "type": "menu",
+            "settings": {
+              "title": "KNOW US",
+              "url": "",
+              "open_link": "_self",
+              "menu": "header-knowus",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-microphone"
+            }
+          },
+          "7f20ef5f-c447-4d37-bcdb-ddd97dc4f6a6": {
+            "type": "menu",
+            "settings": {
+              "title": "BLOGS",
+              "url": "shopify:\/\/blogs\/indyvogue-fashion-center",
               "open_link": "_self",
               "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
-              "icon": ""
+              "icon": "las la-pen-fancy"
             }
           },
-          "mb_nav-4": {
-            "type": "wis",
-            "settings": {
-            }
-          },
-          "mb_nav-5": {
+          "c2cbc856-31fb-47c2-ac59-9c65824f5b62": {
             "type": "sea",
             "settings": {
             }
           },
-          "mb_nav-6": {
+          "41b188ca-d089-4c5b-8a80-608ea2b6d6e9": {
             "type": "acc",
             "settings": {
             }
           },
-          "mb_nav-7": {
+          "315ffad2-e93d-41ce-aa57-427a13ee3177": {
             "type": "help",
             "settings": {
               "title": "Need help?",
-              "text": "<a href=\"tel:%20+0123456789\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 32 32\" fill=\"currentColor\"><path d=\"M 8.65625 3 C 8.132813 3 7.617188 3.1875 7.1875 3.53125 L 7.125 3.5625 L 7.09375 3.59375 L 3.96875 6.8125 L 4 6.84375 C 3.035156 7.734375 2.738281 9.066406 3.15625 10.21875 C 3.160156 10.226563 3.152344 10.242188 3.15625 10.25 C 4.003906 12.675781 6.171875 17.359375 10.40625 21.59375 C 14.65625 25.84375 19.402344 27.925781 21.75 28.84375 L 21.78125 28.84375 C 22.996094 29.25 24.3125 28.960938 25.25 28.15625 L 28.40625 25 C 29.234375 24.171875 29.234375 22.734375 28.40625 21.90625 L 24.34375 17.84375 L 24.3125 17.78125 C 23.484375 16.953125 22.015625 16.953125 21.1875 17.78125 L 19.1875 19.78125 C 18.464844 19.433594 16.742188 18.542969 15.09375 16.96875 C 13.457031 15.40625 12.621094 13.609375 12.3125 12.90625 L 14.3125 10.90625 C 15.152344 10.066406 15.167969 8.667969 14.28125 7.84375 L 14.3125 7.8125 L 14.21875 7.71875 L 10.21875 3.59375 L 10.1875 3.5625 L 10.125 3.53125 C 9.695313 3.1875 9.179688 3 8.65625 3 Z M 8.65625 5 C 8.730469 5 8.804688 5.035156 8.875 5.09375 L 12.875 9.1875 L 12.96875 9.28125 C 12.960938 9.273438 13.027344 9.378906 12.90625 9.5 L 10.40625 12 L 9.9375 12.4375 L 10.15625 13.0625 C 10.15625 13.0625 11.304688 16.136719 13.71875 18.4375 L 13.9375 18.625 C 16.261719 20.746094 19 21.90625 19 21.90625 L 19.625 22.1875 L 22.59375 19.21875 C 22.765625 19.046875 22.734375 19.046875 22.90625 19.21875 L 27 23.3125 C 27.171875 23.484375 27.171875 23.421875 27 23.59375 L 23.9375 26.65625 C 23.476563 27.050781 22.988281 27.132813 22.40625 26.9375 C 20.140625 26.046875 15.738281 24.113281 11.8125 20.1875 C 7.855469 16.230469 5.789063 11.742188 5.03125 9.5625 C 4.878906 9.15625 4.988281 8.554688 5.34375 8.25 L 5.40625 8.1875 L 8.4375 5.09375 C 8.507813 5.035156 8.582031 5 8.65625 5 Z\"><\/path><\/svg> +01 23456789<\/a>\n<br>\n<a href=\"mailto:kalles@domain.com\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 32 32\" fill=\"currentColor\"><path d=\"M 3 8 L 3 26 L 29 26 L 29 8 Z M 7.3125 10 L 24.6875 10 L 16 15.78125 Z M 5 10.875 L 15.4375 17.84375 L 16 18.1875 L 16.5625 17.84375 L 27 10.875 L 27 24 L 5 24 Z\"><\/path><\/svg>\nkalles@domain.com<\/a>"
+              "text": "<a href=\"tel:%20+19133784722\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 32 32\" fill=\"currentColor\"><path d=\"M 8.65625 3 C 8.132813 3 7.617188 3.1875 7.1875 3.53125 L 7.125 3.5625 L 7.09375 3.59375 L 3.96875 6.8125 L 4 6.84375 C 3.035156 7.734375 2.738281 9.066406 3.15625 10.21875 C 3.160156 10.226563 3.152344 10.242188 3.15625 10.25 C 4.003906 12.675781 6.171875 17.359375 10.40625 21.59375 C 14.65625 25.84375 19.402344 27.925781 21.75 28.84375 L 21.78125 28.84375 C 22.996094 29.25 24.3125 28.960938 25.25 28.15625 L 28.40625 25 C 29.234375 24.171875 29.234375 22.734375 28.40625 21.90625 L 24.34375 17.84375 L 24.3125 17.78125 C 23.484375 16.953125 22.015625 16.953125 21.1875 17.78125 L 19.1875 19.78125 C 18.464844 19.433594 16.742188 18.542969 15.09375 16.96875 C 13.457031 15.40625 12.621094 13.609375 12.3125 12.90625 L 14.3125 10.90625 C 15.152344 10.066406 15.167969 8.667969 14.28125 7.84375 L 14.3125 7.8125 L 14.21875 7.71875 L 10.21875 3.59375 L 10.1875 3.5625 L 10.125 3.53125 C 9.695313 3.1875 9.179688 3 8.65625 3 Z M 8.65625 5 C 8.730469 5 8.804688 5.035156 8.875 5.09375 L 12.875 9.1875 L 12.96875 9.28125 C 12.960938 9.273438 13.027344 9.378906 12.90625 9.5 L 10.40625 12 L 9.9375 12.4375 L 10.15625 13.0625 C 10.15625 13.0625 11.304688 16.136719 13.71875 18.4375 L 13.9375 18.625 C 16.261719 20.746094 19 21.90625 19 21.90625 L 19.625 22.1875 L 22.59375 19.21875 C 22.765625 19.046875 22.734375 19.046875 22.90625 19.21875 L 27 23.3125 C 27.171875 23.484375 27.171875 23.421875 27 23.59375 L 23.9375 26.65625 C 23.476563 27.050781 22.988281 27.132813 22.40625 26.9375 C 20.140625 26.046875 15.738281 24.113281 11.8125 20.1875 C 7.855469 16.230469 5.789063 11.742188 5.03125 9.5625 C 4.878906 9.15625 4.988281 8.554688 5.34375 8.25 L 5.40625 8.1875 L 8.4375 5.09375 C 8.507813 5.035156 8.582031 5 8.65625 5 Z\"><\/path><\/svg> +1 913 378 4722<\/a>\n<br>\n<a href=\"mailto:sumanab@indyvogue.com\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 32 32\" fill=\"currentColor\"><path d=\"M 3 8 L 3 26 L 29 26 L 29 8 Z M 7.3125 10 L 24.6875 10 L 16 15.78125 Z M 5 10.875 L 15.4375 17.84375 L 16 18.1875 L 16.5625 17.84375 L 27 10.875 L 27 24 L 5 24 Z\"><\/path><\/svg>\nsumanab@indyvogue.com<\/a>"
             }
           },
-          "mb_nav-8": {
-            "type": "lang",
-            "settings": {
-            }
-          },
-          "mb_nav-9": {
+          "7188c7d2-3ffd-4a3f-92ce-d980f144bbc4": {
             "type": "cur",
             "settings": {
             }
           }
         },
         "block_order": [
-          "mb_nav-0",
-          "mb_nav-1",
-          "mb_nav-2",
-          "25fa7ecf-2db0-4747-b093-a1299099917e",
-          "58800ed8-befe-449a-b8f8-ea86620bef6f",
-          "mb_nav-3",
-          "mb_nav-4",
-          "mb_nav-5",
-          "mb_nav-6",
-          "mb_nav-7",
-          "mb_nav-8",
-          "mb_nav-9"
+          "3020fbd9-2b42-4f3d-a8ac-dbae30f0b11c",
+          "70ca216d-cd27-4e8d-987f-032c9a5e5f30",
+          "1a3410a1-d173-4385-bfc7-76631abe000b",
+          "cb643dc3-619e-4923-8fcc-24e00c3ca571",
+          "96cd5ee2-7fb3-4347-af0d-62d296d2ada2",
+          "266053f4-3578-4642-b1c4-51d728350217",
+          "1696b437-baa3-4a20-b9df-4a313378650d",
+          "cd715ea2-0793-40bd-8faa-298e85285527",
+          "ec84637c-0a39-4ef6-8c68-7c0b8f9697aa",
+          "7f20ef5f-c447-4d37-bcdb-ddd97dc4f6a6",
+          "c2cbc856-31fb-47c2-ac59-9c65824f5b62",
+          "41b188ca-d089-4c5b-8a80-608ea2b6d6e9",
+          "315ffad2-e93d-41ce-aa57-427a13ee3177",
+          "7188c7d2-3ffd-4a3f-92ce-d980f144bbc4"
         ],
         "settings": {
         }
       },
       "mb_cat": {
         "type": "mb_cat",
-        "blocks": {
-          "37d41873-33b9-495f-b9e9-261690a26f44": {
-            "type": "cat",
-            "settings": {
-              "cat": "women",
-              "title": "",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "1",
-              "icon": "chair"
-            }
-          },
-          "02afbc74-7e86-47eb-a54c-4b782b9be1ec": {
-            "type": "cat",
-            "settings": {
-              "cat": "frontpage",
-              "title": "",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "1",
-              "icon": "chair"
-            }
-          },
-          "a8e444e6-eaae-4fff-a0dd-f13d43abd5f0": {
-            "type": "cat",
-            "settings": {
-              "cat": "accessories",
-              "title": "",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "1",
-              "icon": "chair"
-            }
-          },
-          "a613ac38-3b02-42a8-8d06-c7fab073ed0c": {
-            "type": "catimg",
-            "settings": {
-              "cat": "shoes",
-              "title": "",
-              "url": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "1",
-              "icon": "chair",
-              "cat1": "",
-              "url1": "",
-              "cat2": "",
-              "url2": "",
-              "cat3": "",
-              "url3": "",
-              "cat4": "",
-              "url4": "",
-              "cat5": "",
-              "url5": "",
-              "cat6": "",
-              "url6": "",
-              "cat7": "",
-              "url7": "",
-              "cat8": "",
-              "url8": "",
-              "cat9": "",
-              "url9": "",
-              "cat10": "",
-              "url10": "",
-              "cat11": "",
-              "url11": "",
-              "cat12": "",
-              "url12": "",
-              "cat13": "",
-              "url13": "",
-              "cat14": "",
-              "url14": "",
-              "cat15": "",
-              "url15": "",
-              "cat16": "",
-              "url16": "",
-              "cat17": "",
-              "url17": "",
-              "cat18": "",
-              "url18": "",
-              "cat19": "",
-              "url19": "",
-              "cat20": "",
-              "url20": "",
-              "cat21": "",
-              "url21": "",
-              "cat22": "",
-              "url22": "",
-              "cat23": "",
-              "url23": "",
-              "cat24": "",
-              "url24": "",
-              "cat25": "",
-              "url25": ""
-            }
-          }
-        },
-        "block_order": [
-          "37d41873-33b9-495f-b9e9-261690a26f44",
-          "02afbc74-7e86-47eb-a54c-4b782b9be1ec",
-          "a8e444e6-eaae-4fff-a0dd-f13d43abd5f0",
-          "a613ac38-3b02-42a8-8d06-c7fab073ed0c"
-        ],
         "settings": {
         }
       },
@@ -1806,10 +1749,10 @@
             "settings": {
               "txt_tr_pr": "none",
               "fnt_df_pr": "1",
-              "size_pr": 16,
-              "fw_pr": 600,
+              "size_pr": 24.5,
+              "fw_pr": 500,
               "lh_pr": 0,
-              "ls_pr": 0,
+              "ls_pr": 4,
               "pr_title_color": "#222222",
               "pr_title_color_hover": "#56cfe1"
             }
@@ -1819,21 +1762,13 @@
             "settings": {
               "price": "0",
               "type_sale": "0",
-              "tax_ship": true,
+              "tax_ship": false,
               "rating": true,
               "review_liquid": "",
               "size_price_pr": 22,
               "fw_price_pr": 400,
-              "price_color": "#696969",
+              "price_color": "#b7499b",
               "price_sale_color": "#ec0101"
-            }
-          },
-          "main-qv-2": {
-            "type": "description",
-            "settings": {
-              "des": "2",
-              "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.<\/p>",
-              "length": 31
             }
           },
           "main-qv-3": {
@@ -1843,10 +1778,10 @@
               "color_mode": "color is-sw-cl__round",
               "enable_fit_ratio_img": false,
               "color_size": "medium",
-              "show_qty": true,
-              "enable_wishlist": true,
-              "enable_compare": true,
-              "btn_atc_full": false,
+              "show_qty": false,
+              "enable_wishlist": false,
+              "enable_compare": false,
+              "btn_atc_full": true,
               "pr_btn_round": 40,
               "ani": "t4s-ani-tada",
               "time": 6,
@@ -1876,20 +1811,6 @@
               ]
             }
           },
-          "main-qv-4": {
-            "type": "size_delivery_ask",
-            "settings": {
-              "size_chart": "3",
-              "pos_sizeg": "1",
-              "sc_type": "1",
-              "page": "size-chart",
-              "size_ck": "",
-              "delivery": true,
-              "page_dr": "delivery-return",
-              "ask": true,
-              "phone": true
-            }
-          },
           "main-qv-5": {
             "type": "meta",
             "settings": {
@@ -1898,37 +1819,58 @@
               "show_type": false,
               "show_sku": true,
               "show_barcode": false,
-              "show_available": true,
-              "show_category": true,
-              "show_tags": true
+              "show_available": false,
+              "show_category": false,
+              "show_tags": false
             }
           },
-          "main-qv-6": {
+          "86d5eb2e-7431-4c02-bcd9-03207e0e7058": {
+            "type": "description",
+            "settings": {
+              "des": "1",
+              "text": "",
+              "length": 31
+            }
+          },
+          "b1fe9c42-e48f-4b92-8a62-76be9992d5e0": {
             "type": "social",
             "settings": {
-              "socials_align": "start",
+              "socials_align": "center",
               "social_mode": "2",
               "social_style": "1",
               "social_size": "extra_small",
               "bd_radius": 0,
-              "use_color_set": true,
-              "icon_cl": "#222222",
-              "bg_cl": "#56cfe1",
-              "space_h_item": "20",
+              "use_color_set": false,
+              "icon_cl": "#b7499b",
+              "bg_cl": "#222222",
+              "space_h_item": "10",
               "space_v_item": "5",
-              "space_h_item_mb": "6",
+              "space_h_item_mb": "2",
               "space_v_item_mb": "2"
+            }
+          },
+          "558052e3-d85c-43e9-90ec-91a3fae1888f": {
+            "type": "btn_detail",
+            "settings": {
+              "button_label": "View full details",
+              "button_link": "",
+              "open_link": "_self",
+              "btn_icon": true,
+              "button_style": "link",
+              "btn_size": "large",
+              "btn_cl": "primary",
+              "button_effect": "fade"
             }
           }
         },
         "block_order": [
           "main-qv-0",
           "main-qv-1",
-          "main-qv-2",
           "main-qv-3",
-          "main-qv-4",
           "main-qv-5",
-          "main-qv-6"
+          "86d5eb2e-7431-4c02-bcd9-03207e0e7058",
+          "b1fe9c42-e48f-4b92-8a62-76be9992d5e0",
+          "558052e3-d85c-43e9-90ec-91a3fae1888f"
         ],
         "settings": {
           "demo_pr": "",
@@ -2173,7 +2115,8 @@
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "#00BADB",
+              "lb_cl": "#00badb",
+              "pos_sub": "right-start",
               "wid": "cus",
               "cus_wid": 1200,
               "id": 1,
@@ -2191,7 +2134,8 @@
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "#00BADB",
+              "lb_cl": "#00badb",
+              "pos_sub": "right-start",
               "wid": "cus",
               "cus_wid": 1200,
               "id": 1,
@@ -2223,7 +2167,8 @@
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": ""
+              "lb_cl": "",
+              "pos_sub": "right-start"
             }
           }
         },
@@ -2242,6 +2187,7 @@
           "clnav": "#222222",
           "clnav_hover": "#56cfe1",
           "h_icon": "kalles",
+          "hover_icon": "2",
           "show_search": true,
           "show_acc": true,
           "show_wis": true,
@@ -2250,6 +2196,7 @@
           "cl_hc": "#ffffff",
           "source": "2",
           "txt": "<p>Welcome to our store!<\/p>",
+          "enable_active": false,
           "h_navmb": 62,
           "fm_nav": "1",
           "fs_nav": 14,
@@ -2327,10 +2274,10 @@
             "settings": {
               "txt_tr_pr": "none",
               "fnt_df_pr": "1",
-              "size_pr": 16,
-              "fw_pr": 600,
+              "size_pr": 24.5,
+              "fw_pr": 500,
               "lh_pr": 0,
-              "ls_pr": 0,
+              "ls_pr": 4,
               "pr_title_color": "#222222",
               "pr_title_color_hover": "#56cfe1"
             }
@@ -2349,13 +2296,13 @@
           "main-qs-2": {
             "type": "form",
             "settings": {
-              "selector_mode": "block",
+              "selector_mode": "circle",
               "color_mode": "variant_image",
               "enable_fit_ratio_img": true,
               "color_size": "large",
-              "show_qty": true,
-              "enable_wishlist": true,
-              "enable_compare": true,
+              "show_qty": false,
+              "enable_wishlist": false,
+              "enable_compare": false,
               "pr_btn_round": 40,
               "ani": "t4s-ani-shake",
               "time": 3,
@@ -2436,6 +2383,12 @@
       "14417550493701535262": {
         "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-embed-latest\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
         "disabled": true,
+        "settings": {
+        }
+      },
+      "13027630495364635475": {
+        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-assetless\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": false,
         "settings": {
         }
       }
