@@ -1609,6 +1609,19 @@
               "icons_op": "2",
               "icon": "las la-microphone"
             }
+          },
+          "7f20ef5f-c447-4d37-bcdb-ddd97dc4f6a6": {
+            "type": "menu",
+            "settings": {
+              "title": "BLOGS",
+              "url": "shopify:\/\/blogs\/indyvogue-fashion-center",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-pen-fancy"
+            }
           }
         },
         "block_order": [
@@ -1620,7 +1633,8 @@
           "266053f4-3578-4642-b1c4-51d728350217",
           "1696b437-baa3-4a20-b9df-4a313378650d",
           "cd715ea2-0793-40bd-8faa-298e85285527",
-          "ec84637c-0a39-4ef6-8c68-7c0b8f9697aa"
+          "ec84637c-0a39-4ef6-8c68-7c0b8f9697aa",
+          "7f20ef5f-c447-4d37-bcdb-ddd97dc4f6a6"
         ],
         "settings": {
         }
