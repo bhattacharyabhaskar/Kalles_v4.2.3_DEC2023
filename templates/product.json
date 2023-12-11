@@ -564,6 +564,21 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "1702333219b45846a5": {
+      "type": "apps",
+      "blocks": {
+        "830519ae-5bda-4b95-993b-3e327626e33d": {
+          "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-blocks-product-banner\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "830519ae-5bda-4b95-993b-3e327626e33d"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -574,6 +589,7 @@
     "a5252000-c9b6-49b6-94a0-478c097c965f",
     "4cf91fbf-b1b6-41a2-aca3-154354f38175",
     "product-recommendations",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "1702333219b45846a5"
   ]
 }
