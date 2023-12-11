@@ -245,6 +245,22 @@
     },
     "1702155384d67660bd": {
       "type": "apps",
+      "blocks": {
+        "1bff1b78-ed5b-495d-b97e-69ca3e7d2c05": {
+          "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-blocks-cart-promotion-summary\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+          "settings": {
+          }
+        },
+        "3ca9fdd3-97d0-4cb1-ad37-3b49450bc9d3": {
+          "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-blocks-cart-promotioncode-field\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1bff1b78-ed5b-495d-b97e-69ca3e7d2c05",
+        "3ca9fdd3-97d0-4cb1-ad37-3b49450bc9d3"
+      ],
       "settings": {
       }
     }
