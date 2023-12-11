@@ -567,16 +567,6 @@
     },
     "1702333219b45846a5": {
       "type": "apps",
-      "blocks": {
-        "830519ae-5bda-4b95-993b-3e327626e33d": {
-          "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-blocks-product-banner\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "830519ae-5bda-4b95-993b-3e327626e33d"
-      ],
       "settings": {
       }
     }
