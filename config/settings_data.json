@@ -1895,29 +1895,6 @@
               "text": "",
               "length": 31
             }
-          },
-          "main-qv-6": {
-            "type": "social",
-            "settings": {
-              "socials_align": "start",
-              "social_mode": "2",
-              "social_style": "1",
-              "social_size": "extra_small",
-              "bd_radius": 0,
-              "use_color_set": true,
-              "icon_cl": "#222222",
-              "bg_cl": "#56cfe1",
-              "space_h_item": "20",
-              "space_v_item": "5",
-              "space_h_item_mb": "6",
-              "space_v_item_mb": "2"
-            }
-          },
-          "9d48bb2e-2de0-4877-9d8d-5989c1db8074": {
-            "type": "custom_liquid",
-            "settings": {
-              "custom_liquid": "{% if product.type == 'Saree' %}\n\t{% assign sareeinstructions = product.metafields.saree %} \n\t{% assign sareeinstructions1 = product.metafields.products %}\n\n    {% if sareeinstructions.occassion.value.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Occasions:<\/strong>&nbsp;{% for item in sareeinstructions.occassion.value -%}{{ item }}{% if forloop.last == true %}{% else %},&nbsp;{% endif %} {%- endfor %}<\/li>\n<\/ul>\n\t{% endif %}\n    {% if sareeinstructions.fabric_type.value.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Fabric Type:<\/strong>&nbsp;{% for item in sareeinstructions.fabric_type.value -%}{{ item }}{% if forloop.last == true %}{% else %},&nbsp;{% endif %} {%- endfor %}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% if sareeinstructions.new_work.value.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Work:<\/strong>&nbsp;{% for item in sareeinstructions.new_work.value -%}{{ item }}{% if forloop.last == true %}{% else %},&nbsp;{% endif %}{%- endfor %}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% if sareeinstructions.BlousePiece.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Blouse Piece:<\/strong>&nbsp;{{ sareeinstructions.BlousePiece }}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% if sareeinstructions.FallPicco.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Fall \/ Pico:<\/strong>&nbsp;{{ sareeinstructions.FallPicco }}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% if sareeinstructions.occassion.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Occassion:<\/strong>&nbsp;{{ sareeinstructions.occassion }}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% if sareeinstructions1.region.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Region:<\/strong>&nbsp;{{ sareeinstructions1.region }}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% for variant in product.variants %}\n\t\t{% if variant.weight> 0 %}\n\t\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Weight:<\/strong>&nbsp;{{variant.weight | weight_with_unit }}<\/li>\n<\/ul>\n\t\t{% endif %}\n\t{% endfor %}\n{% endif %}"
-            }
           }
         },
         "block_order": [
@@ -1925,9 +1902,7 @@
           "main-qv-1",
           "main-qv-3",
           "main-qv-5",
-          "86d5eb2e-7431-4c02-bcd9-03207e0e7058",
-          "main-qv-6",
-          "9d48bb2e-2de0-4877-9d8d-5989c1db8074"
+          "86d5eb2e-7431-4c02-bcd9-03207e0e7058"
         ],
         "settings": {
           "demo_pr": "",
