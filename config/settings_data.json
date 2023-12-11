@@ -1813,10 +1813,10 @@
             "settings": {
               "txt_tr_pr": "none",
               "fnt_df_pr": "1",
-              "size_pr": 16,
-              "fw_pr": 600,
+              "size_pr": 24.5,
+              "fw_pr": 500,
               "lh_pr": 0,
-              "ls_pr": 0,
+              "ls_pr": 4,
               "pr_title_color": "#222222",
               "pr_title_color_hover": "#56cfe1"
             }
@@ -1826,21 +1826,13 @@
             "settings": {
               "price": "0",
               "type_sale": "0",
-              "tax_ship": true,
+              "tax_ship": false,
               "rating": true,
               "review_liquid": "",
               "size_price_pr": 22,
               "fw_price_pr": 400,
-              "price_color": "#696969",
+              "price_color": "#b7499b",
               "price_sale_color": "#ec0101"
-            }
-          },
-          "main-qv-2": {
-            "type": "description",
-            "settings": {
-              "des": "2",
-              "text": "<p>Go kalles this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish kalles vibe.<\/p>",
-              "length": 31
             }
           },
           "main-qv-3": {
@@ -1850,7 +1842,7 @@
               "color_mode": "color is-sw-cl__round",
               "enable_fit_ratio_img": false,
               "color_size": "medium",
-              "show_qty": true,
+              "show_qty": false,
               "enable_wishlist": true,
               "enable_compare": true,
               "btn_atc_full": false,
@@ -1883,20 +1875,6 @@
               ]
             }
           },
-          "main-qv-4": {
-            "type": "size_delivery_ask",
-            "settings": {
-              "size_chart": "3",
-              "pos_sizeg": "1",
-              "sc_type": "1",
-              "page": "size-chart",
-              "size_ck": "",
-              "delivery": true,
-              "page_dr": "delivery-return",
-              "ask": true,
-              "phone": true
-            }
-          },
           "main-qv-5": {
             "type": "meta",
             "settings": {
@@ -1905,9 +1883,17 @@
               "show_type": false,
               "show_sku": true,
               "show_barcode": false,
-              "show_available": true,
-              "show_category": true,
-              "show_tags": true
+              "show_available": false,
+              "show_category": false,
+              "show_tags": false
+            }
+          },
+          "86d5eb2e-7431-4c02-bcd9-03207e0e7058": {
+            "type": "description",
+            "settings": {
+              "des": "2",
+              "text": "",
+              "length": 31
             }
           },
           "main-qv-6": {
@@ -1926,16 +1912,22 @@
               "space_h_item_mb": "6",
               "space_v_item_mb": "2"
             }
+          },
+          "9d48bb2e-2de0-4877-9d8d-5989c1db8074": {
+            "type": "custom_liquid",
+            "settings": {
+              "custom_liquid": "{% if product.type == 'Saree' %}\n\t{% assign sareeinstructions = product.metafields.saree %} \n\t{% assign sareeinstructions1 = product.metafields.products %}\n\n    {% if sareeinstructions.occassion.value.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Occasions:<\/strong>&nbsp;{% for item in sareeinstructions.occassion.value -%}{{ item }}{% if forloop.last == true %}{% else %},&nbsp;{% endif %} {%- endfor %}<\/li>\n<\/ul>\n\t{% endif %}\n    {% if sareeinstructions.fabric_type.value.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Fabric Type:<\/strong>&nbsp;{% for item in sareeinstructions.fabric_type.value -%}{{ item }}{% if forloop.last == true %}{% else %},&nbsp;{% endif %} {%- endfor %}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% if sareeinstructions.new_work.value.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Work:<\/strong>&nbsp;{% for item in sareeinstructions.new_work.value -%}{{ item }}{% if forloop.last == true %}{% else %},&nbsp;{% endif %}{%- endfor %}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% if sareeinstructions.BlousePiece.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Blouse Piece:<\/strong>&nbsp;{{ sareeinstructions.BlousePiece }}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% if sareeinstructions.FallPicco.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Fall \/ Pico:<\/strong>&nbsp;{{ sareeinstructions.FallPicco }}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% if sareeinstructions.occassion.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Occassion:<\/strong>&nbsp;{{ sareeinstructions.occassion }}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% if sareeinstructions1.region.size > 0 %}\n\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Region:<\/strong>&nbsp;{{ sareeinstructions1.region }}<\/li>\n<\/ul>\n\t{% endif %}\n\t{% for variant in product.variants %}\n\t\t{% if variant.weight> 0 %}\n\t\t\t<ul style=\"list-style-type: square; margin-bottom: auto;\">\n    <li> <strong>Weight:<\/strong>&nbsp;{{variant.weight | weight_with_unit }}<\/li>\n<\/ul>\n\t\t{% endif %}\n\t{% endfor %}\n{% endif %}"
+            }
           }
         },
         "block_order": [
           "main-qv-0",
           "main-qv-1",
-          "main-qv-2",
           "main-qv-3",
-          "main-qv-4",
           "main-qv-5",
-          "main-qv-6"
+          "86d5eb2e-7431-4c02-bcd9-03207e0e7058",
+          "main-qv-6",
+          "9d48bb2e-2de0-4877-9d8d-5989c1db8074"
         ],
         "settings": {
           "demo_pr": "",
