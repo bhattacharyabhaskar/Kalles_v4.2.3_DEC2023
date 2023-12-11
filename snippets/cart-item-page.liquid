@@ -46,7 +46,7 @@
                     {%- unless item_pr.has_only_default_variant or item_variant.title contains 'mczr_price_' -%}{%- assign qv_key = item_id -%}{%- for option in item.options_with_values -%}<p class="t4s-cart_meta_variant">{{ option.name }}: <strong>{{ option.value }}</strong></p>{%- endfor -%}{%- endunless -%}               
                     SKU: {{item.sku }}<br /> 
                     {% comment %}
-                    // Adding the note about Blouse measurement form in Shopping Cart
+                    // BB: Adding the note about Blouse measurement form in Shopping Cart
                     {% endcomment %}
                    {% assign myString = item.sku %}
                    {% assign lastCharacter = myString | slice: -1 %}
