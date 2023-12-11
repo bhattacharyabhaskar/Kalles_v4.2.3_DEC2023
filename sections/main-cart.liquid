@@ -61,7 +61,9 @@
 </svg>
 <div class="t4s-container">
   <div class="t4s-cookie-message t4s-dn">{{ 'cart.general.cookies_required' | t }}</div>
-  <form data-cart-content data-cart-wrapper action="{{ routes.cart_url }}" method="post" novalidate class="t4s-cartPage__form t4s-pr t4s-oh">
+  {% comment %}Added/Modified by Limoni Apps on 11/12/22 to support Discount Ninja{% endcomment %}
+
+  <form data-cart-content data-cart-wrapper action="{{ routes.cart_url }}" method="post" novalidate class="limoniapps-discountninja-cart-root t4s-cartPage__form t4s-pr t4s-oh">
     <input type="hidden" data-cart-attr-rm name="attributes[collection_items_per_row]" value="">
     <div class="t4s-cartPage__header">
       <div class="t4s-row t4s-align-items-center">
