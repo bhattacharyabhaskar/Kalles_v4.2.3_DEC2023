@@ -13,6 +13,8 @@
     "logo_tr": "shopify:\/\/shop_images\/header-logo-01.png",
     "logo_tr_width": 95,
     "accent_color": "#b7499b",
+    "border_color": "#ddd",
+    "price_secondary": "#878787",
     "font_source": "2",
     "fnt_fm_sp2": "poppins_n4",
     "fnt_fm_sp3": "libre_baskerville_n4",
@@ -2456,7 +2458,8 @@
       ".t4s-pr-style6 .t4s-product-badge {align-items: flex-end;}",
       ".t4s-pr-style6 .t4s-product-btns2 {display: none;}",
       ".type_mn_link .t4s-sub-column li a:not(:hover) {color: #003300;}",
-      ".shopify-payment-button__more-options {margin: 1.6rem 0 1rem; letter-spacing: 0.05rem; text-decoration: underline; text-underline-offset: 0.3rem;}"
+      ".shopify-payment-button__more-options {margin: 1.6rem 0 1rem; letter-spacing: 0.05rem; text-decoration: underline; text-underline-offset: 0.3rem;}",
+      ".t4s-product .t4s-price-from {color: #B7499B);}"
     ]
   }
 }
