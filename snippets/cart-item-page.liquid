@@ -111,7 +111,9 @@
           </div>
       </div>
       <div class="t4s-col-12 t4s-col-md-4 t4s-col-lg-3 t4s-col-item t4s-text-lg-center t4s-text-md-center t4s-text-start t4s-cart_meta_prices_wrap">
-         <div class="t4s-cart_meta_prices">
+        {% comment %}Added/Modified by Limoni Apps on 11/12/22 to support Discount Ninja{% endcomment %}
+
+         <div class="t4s-cart_meta_prices limoniapps-discountninja-cart-item-product-price" data-limoniapps-discountninja-cart-key="{{item_pr.key}}">
              <div class="t4s-cart_price">  
                 {%- liquid
                  assign original_price     = item.original_price
