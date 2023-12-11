@@ -1531,12 +1531,26 @@
               "icons_op": "2",
               "icon": "las la-globe"
             }
+          },
+          "cb643dc3-619e-4923-8fcc-24e00c3ca571": {
+            "type": "menu",
+            "settings": {
+              "title": "Sarees By OCCASION",
+              "url": "",
+              "open_link": "_self",
+              "menu": "sarees-by-occassion",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-envelope-open"
+            }
           }
         },
         "block_order": [
           "3020fbd9-2b42-4f3d-a8ac-dbae30f0b11c",
           "70ca216d-cd27-4e8d-987f-032c9a5e5f30",
-          "1a3410a1-d173-4385-bfc7-76631abe000b"
+          "1a3410a1-d173-4385-bfc7-76631abe000b",
+          "cb643dc3-619e-4923-8fcc-24e00c3ca571"
         ],
         "settings": {
         }
