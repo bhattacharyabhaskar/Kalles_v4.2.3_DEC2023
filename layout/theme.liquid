@@ -111,7 +111,9 @@ t4sp-theme t4s-wrapper__{{ settings.general_layout }} rtl_{{ isRTL }} swatch_col
     {%- render 'render_bottom' -%}
    
   {% include 'limoniapps-discountninja-body' %}
- {% comment %}
+ 
+
+{% comment %}
   // BB: Adding criteo tracking & optimization-3.0 js
  {% endcomment %}
   {{ 'wnw-optimization-3.0.js' | asset_url | script_tag }}                
