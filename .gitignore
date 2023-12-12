@@ -1,6 +1,7 @@
 # Shopify #
 ###################
 config.yml
+snippets/rewind_menu_backup_do_not_delete.liquid
 
 # OS generated files #
 ######################
