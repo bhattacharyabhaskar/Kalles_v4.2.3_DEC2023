@@ -521,7 +521,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p><strong>Style 4: Consider Heels to Pair Up<\/strong><\/p><p>Match high heels to your saree for a celeb-inspired style for the Christmas and New Year Party. Pumps, stilettos, or sandals can all heighten and refine your appearance and give you a glam look with a red hot saree.<\/p><p><strong>Style 5: Choose a Stylish Hairdo<\/strong><\/p><p>Finally what you need to consider in your appearance is a stylish hairdo can improve the way you seem as a whole. You can choose a hairdo that gives your hair volume and style, such as a neat bun, loose curls, or a sloppy style.<\/p><p>Hope these idea, choice of fabrics in <strong>Red<\/strong> color saree and the reason to choose the red as your party drape is going to rock you this year - so follow the tips and keep us posted.<\/p>",
+            "text": "<p><strong>Style 4: Consider Heels to Pair Up<\/strong><\/p><p>Match high heels to your saree for a celeb-inspired style for the Christmas and New Year Party. Pumps, stilettos, or sandals can all heighten and refine your appearance and give you a glam look with a red hot saree.<\/p><p><strong>Style 5: Choose a Stylish Hairdo<\/strong><\/p><p>Finally what you need to consider in your appearance is a stylish hairdo can improve the way you seem as a whole. You can choose a hairdo that gives your hair volume and style, such as a neat bun, loose curls, or a sloppy style.<\/p><p><strong>Hope these idea, choice of fabrics in Red color saree and the reason to choose the red as your party drape is going to rock you this year - so follow the tips and keep us posted.<\/strong><\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -551,94 +551,6 @@
         "space_v_item": "10",
         "space_h_item_mb": "20",
         "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "ba01bad7-693a-42a7-a049-fcc4e83d80f6": {
-      "type": "image-gallery",
-      "blocks": {
-        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-1": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Katan-1.jpg",
-            "link": ""
-          }
-        },
-        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-2": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Katan-2.jpg",
-            "link": ""
-          }
-        },
-        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-3": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Katan-3.jpg",
-            "link": ""
-          }
-        },
-        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-4": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Katan-4.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-1",
-        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-2",
-        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-3",
-        "template--17057258111209__ba01bad7-693a-42a7-a049-fcc4e83d80f6-image_item-4"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "Patrons in Katan Banarasi",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "layout_des": "1",
-        "click_image": "data-t4s-gallery",
-        "nav_thumbs": true,
-        "open_link": "_blank",
-        "item_rd": 0,
-        "img_effect": "none",
-        "b_effect": "none",
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "8",
-        "col_dk": "4",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_item": "30",
-        "space_item_mb": "10",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": true,
-        "btn_vi": "hover",
-        "btn_owl": "default",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": false,
-        "nav_dot": true,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": false,
-        "dots_space": 10,
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -717,7 +629,6 @@
     "10987f01-c475-48c6-adc6-55dda60cc247",
     "7806b7ea-3db3-4aee-8ec9-a014cededdbb",
     "56412792-0cbb-4a76-a029-fca6374f64f7",
-    "ba01bad7-693a-42a7-a049-fcc4e83d80f6",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
