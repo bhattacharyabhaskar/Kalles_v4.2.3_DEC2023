@@ -509,6 +509,61 @@
         "code_cus_css": ""
       }
     },
+    "56412792-0cbb-4a76-a029-fca6374f64f7": {
+      "type": "image_text",
+      "blocks": {
+        "template--17093650579689__56412792-0cbb-4a76-a029-fca6374f64f7-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p><strong>Style 4: Consider Heels to Pair Up<\/strong><\/p><p>Match high heels to your saree for a celeb-inspired style for the Christmas and New Year Party. Pumps, stilettos, or sandals can all heighten and refine your appearance and give you a glam look with a red hot saree.<\/p><p><strong>Style 5: Choose a Stylish Hairdo<\/strong><\/p><p>Finally what you need to consider in your appearance is a stylish hairdo can improve the way you seem as a whole. You can choose a hairdo that gives your hair volume and style, such as a neat bun, loose curls, or a sloppy style.<\/p><p>Hope these idea, choice of fabrics in <strong>Red<\/strong> color saree and the reason to choose the red as your party drape is going to rock you this year - so follow the tips and keep us posted.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17093650579689__56412792-0cbb-4a76-a029-fca6374f64f7-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "ba01bad7-693a-42a7-a049-fcc4e83d80f6": {
       "type": "image-gallery",
       "blocks": {
@@ -661,6 +716,7 @@
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "10987f01-c475-48c6-adc6-55dda60cc247",
     "7806b7ea-3db3-4aee-8ec9-a014cededdbb",
+    "56412792-0cbb-4a76-a029-fca6374f64f7",
     "ba01bad7-693a-42a7-a049-fcc4e83d80f6",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
