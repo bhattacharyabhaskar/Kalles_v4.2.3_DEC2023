@@ -46,22 +46,24 @@
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336": {
           "type": "image_parent",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ind-banner-web-5_140ed432-aec7-4aaa-9659-d602546e4c3a.webp",
+            "image_mb": "shopify:\/\/shop_images\/ind-banner-mobile-5_54be01b0-a080-43be-afaa-fec21b1813aa.webp",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "",
-            "open_link": "_blank",
+            "link_img1": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
+            "open_link": "_self",
             "animate_slide": "none",
-            "text_align": "center",
+            "text_align": "start",
             "text_align_mb": "center",
-            "content_width": "auto",
-            "cv_pos": 50,
-            "ch_pos": 50,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 50,
+            "content_width": "container",
+            "cv_pos": 70,
+            "ch_pos": 0,
+            "cv_pos_mb": 70,
+            "ch_pos_mb": 0,
             "bg_overlay": "#000",
             "bg_opacity": 0,
-            "bg_content_cl": "#fff",
-            "bg_content_op": 0,
+            "bg_content_cl": "#222222",
+            "bg_content_op": 16,
             "content_radius": 0,
             "box_square": false,
             "content_pd_tb": 15,
@@ -78,12 +80,37 @@
             "br_pd": 20,
             "br_pd_mb": 10,
             "time_animation": 1,
-            "animation_delay": 40
+            "animation_delay": 30
+          }
+        },
+        "70aeb5e3-c608-4838-af4b-3af54938ff04": {
+          "type": "custom_text",
+          "settings": {
+            "text": "FREE SHIPPING ON ALL SAREES",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 18,
+            "text_lh": 0,
+            "text_fw": 500,
+            "text_ls": 1,
+            "text_mgb": 16,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
           }
         },
         "a9dffc78-40cc-4111-a908-826833c0cded": {
           "type": "image_parent",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ind-banner-web-4_d03bb4bb-c278-4b2a-95f4-427191559475.webp",
+            "image_mb": "shopify:\/\/shop_images\/ind-banner-mobile-4_358742d9-0a0e-4444-b194-0002d02e3d28.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -122,6 +149,8 @@
         "ff316a45-fbcc-4f5f-8dc5-63c139030ae7": {
           "type": "image_parent",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ind-kolkata2_4641a2ef-7019-4d65-b343-9bc7ab3e2eb8.webp",
+            "image_mb": "shopify:\/\/shop_images\/ind-kolkata-mobile2_03e51ed6-2df8-4475-90c1-f6a42773f60f.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -160,6 +189,7 @@
         "1758ee9f-45a3-435d-8542-3559f4bf4638": {
           "type": "image_parent",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ind-banner-3_171826f4-8dc3-4a98-bc6a-cef4ec552f60.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -199,6 +229,7 @@
       "block_order": [
         "164602873867eb3815-0",
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336",
+        "70aeb5e3-c608-4838-af4b-3af54938ff04",
         "a9dffc78-40cc-4111-a908-826833c0cded",
         "ff316a45-fbcc-4f5f-8dc5-63c139030ae7",
         "1758ee9f-45a3-435d-8542-3559f4bf4638"
