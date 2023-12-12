@@ -211,7 +211,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>4. Those Vivid Colors<\/h3><p>The katan banarasi comes in a wide range of colors, from gold to pastels - even vibrant, electrifying, and gorgeous shades to add dimension to the texture of the fabric - which definitely makes it regal.<\/p><h3>5. Silk Marks and High-Quality Varieties<\/h3><p>Made with the finest quality silks known for their luster and softness  - crafted by accomplished artisans who take great care to weave them unique and special.<\/p><h3>6. Comfort Comes First<\/h3><p>Katan banarasi silk saree is known for its versatility and can be worn just not at weddings but also on a variety of other occasions - from formal events to casual gatherings. Comfortable to wear and drape, even lightweight, and can be styled in various ways.<\/p>",
+            "text": "<h3>4. Those Vivid Colors<\/h3><p>The katan banarasi comes in a wide range of colors, from gold to pastels - even vibrant, electrifying, and gorgeous shades to add dimension to the texture of the fabric - which definitely makes it regal.<\/p><h3>5. Silk Marks and High-Quality Varieties<\/h3><p>Made with the finest quality silks known for their luster and softness  - crafted by accomplished artisans who take great care to weave them unique and special.<\/p><h3>6. Comfort Comes First<\/h3><p>Katan banarasi silk saree is known for its versatility and can be worn just not at weddings but also on a variety of other occasions - from formal events to casual gatherings. Comfortable to wear and drape, even lightweight, and can be styled in various ways.<\/p><p>Now that you have set your mind to wear a <strong>RED<\/strong> color saree this year for the party, here are my tips to style to the optimal!<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -266,7 +266,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>Now that you have set your mind to wear a <strong>RED<\/strong> color saree this year for the party, here are my tips to style to the optimal!<\/p><p><strong>Style 1: Choose a Heavy Designed Blouse to Pair Up<\/strong><\/p><p>If your saree is plain and features a sequin or embroidered border, you can pair it with a heavily embroidered blouse. This will add a balance to your look. You can go for a full-sleeve blouse to make it more attractive.<\/p>",
+            "text": "<p><\/p><p><strong>Style 1: Choose a Heavy Designed Blouse to Pair Up<\/strong><\/p><p>If your saree is plain and features a sequin or embroidered border, you can pair it with a heavily embroidered blouse. This will add a balance to your look. You can go for a full-sleeve blouse to make it more attractive.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -314,6 +314,91 @@
       "block_order": [
         "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1",
         "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "10987f01-c475-48c6-adc6-55dda60cc247": {
+      "type": "image_text",
+      "blocks": {
+        "template--17093650579689__10987f01-c475-48c6-adc6-55dda60cc247-bl_image-1": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Christmas_blog_pic_2.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--17093650579689__10987f01-c475-48c6-adc6-55dda60cc247-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p><strong>Style 2: Get a Contemporary Look with Belts<\/strong><\/p><p>A belt can add a contemporary touch to your saree and draw attention to your waist. To add even more glamour, use a belt that matches your saree. You can choose either metallic or embroidered.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17093650579689__10987f01-c475-48c6-adc6-55dda60cc247-bl_image-1",
+        "template--17093650579689__10987f01-c475-48c6-adc6-55dda60cc247-bl_text-1"
       ],
       "settings": {
         "design_heading": "1",
@@ -489,6 +574,7 @@
     "947465df-8011-4c4f-8367-4239ec3004ea",
     "be349666-2469-4b59-9e48-269f0cd4f2cc",
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
+    "10987f01-c475-48c6-adc6-55dda60cc247",
     "ba01bad7-693a-42a7-a049-fcc4e83d80f6",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
