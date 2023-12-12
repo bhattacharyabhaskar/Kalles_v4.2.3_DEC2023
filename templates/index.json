@@ -106,6 +106,29 @@
             "animation": "none"
           }
         },
+        "d990e249-b1e0-4b91-8339-db12a2019a6d": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Best Indian Sarees Online",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 55,
+            "text_lh": 55,
+            "text_fw": 600,
+            "text_ls": 0,
+            "text_mgb": 10,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 26,
+            "text_lh_mb": 18,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
         "a9dffc78-40cc-4111-a908-826833c0cded": {
           "type": "image_parent",
           "settings": {
@@ -230,6 +253,7 @@
         "164602873867eb3815-0",
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336",
         "70aeb5e3-c608-4838-af4b-3af54938ff04",
+        "d990e249-b1e0-4b91-8339-db12a2019a6d",
         "a9dffc78-40cc-4111-a908-826833c0cded",
         "ff316a45-fbcc-4f5f-8dc5-63c139030ae7",
         "1758ee9f-45a3-435d-8542-3559f4bf4638"
