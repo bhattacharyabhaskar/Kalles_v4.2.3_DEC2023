@@ -424,6 +424,91 @@
         "code_cus_css": ""
       }
     },
+    "7806b7ea-3db3-4aee-8ec9-a014cededdbb": {
+      "type": "image_text",
+      "blocks": {
+        "template--17093650579689__7806b7ea-3db3-4aee-8ec9-a014cededdbb-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p><strong>Style 3: Design of Your Blouse Should Be Carefully Chosen<\/strong><\/p><p>Consider a chic blouse for an appearance that is styled like a celebrity. And to be like a celeb go for a halter-neck, backless, or sleeveless blouse or butterfly sleeves to give your conventional saree a contemporary edge.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "template--17093650579689__7806b7ea-3db3-4aee-8ec9-a014cededdbb-bl_image-1": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Christmas_blog_pic_3.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17093650579689__7806b7ea-3db3-4aee-8ec9-a014cededdbb-bl_text-1",
+        "template--17093650579689__7806b7ea-3db3-4aee-8ec9-a014cededdbb-bl_image-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "ba01bad7-693a-42a7-a049-fcc4e83d80f6": {
       "type": "image-gallery",
       "blocks": {
@@ -575,6 +660,7 @@
     "be349666-2469-4b59-9e48-269f0cd4f2cc",
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "10987f01-c475-48c6-adc6-55dda60cc247",
+    "7806b7ea-3db3-4aee-8ec9-a014cededdbb",
     "ba01bad7-693a-42a7-a049-fcc4e83d80f6",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
