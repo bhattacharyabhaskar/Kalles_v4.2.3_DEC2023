@@ -2,6 +2,7 @@
 ###################
 config.yml
 snippets/rewind_menu_backup_do_not_delete.liquid
+.gitignore
 
 # OS generated files #
 ######################
@@ -12,5 +13,3 @@ snippets/rewind_menu_backup_do_not_delete.liquid
 .Trashes
 ehthumbs.db
 Thumbs.db
-*discountninja*.*
-*limoniapps*.*
