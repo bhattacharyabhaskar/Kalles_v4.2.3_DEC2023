@@ -125,9 +125,9 @@
             "mess": "",
             "size": 16,
             "source": "2",
-            "wimg": 70,
+            "wimg": 40,
             "svg": "visa, master, american_express, discover, apple_pay, paypal, amazon_payments, google_pay, shopify_pay",
-            "height": 25
+            "height": 36
           }
         },
         "1074fa19-58dd-4700-8ace-d3a90133e24d": {
