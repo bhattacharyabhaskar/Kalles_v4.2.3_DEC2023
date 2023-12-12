@@ -129,6 +129,37 @@
             "animation": "none"
           }
         },
+        "a335fbc9-262b-4e6e-82ee-9916dceb483b": {
+          "type": "custom_button",
+          "settings": {
+            "button_text": "EXPLORE NOW",
+            "button_link": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "sweep-to-top",
+            "pri_cl": "#b7499b",
+            "second_cl": "#fff",
+            "pri_cl_hover": "#56cfe1",
+            "second_cl_hover": "#fff",
+            "fsbutton": 14,
+            "fwbutton": 600,
+            "button_ls": 0,
+            "button_mh": 40,
+            "button_bdr": 0,
+            "button_pd_lr": 32,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 6,
+            "fsbutton_mb": 10,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 22,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0,
+            "animation": "fadeInUp"
+          }
+        },
         "a9dffc78-40cc-4111-a908-826833c0cded": {
           "type": "image_parent",
           "settings": {
@@ -254,6 +285,7 @@
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336",
         "70aeb5e3-c608-4838-af4b-3af54938ff04",
         "d990e249-b1e0-4b91-8339-db12a2019a6d",
+        "a335fbc9-262b-4e6e-82ee-9916dceb483b",
         "a9dffc78-40cc-4111-a908-826833c0cded",
         "ff316a45-fbcc-4f5f-8dc5-63c139030ae7",
         "1758ee9f-45a3-435d-8542-3559f4bf4638"
