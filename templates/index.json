@@ -200,6 +200,83 @@
             "animation_delay": 40
           }
         },
+        "106db8ff-dcc6-4cff-bf2e-5d991233d946": {
+          "type": "custom_text",
+          "settings": {
+            "text": "660+ ⭐⭐⭐⭐⭐ REVIEWS",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 18,
+            "text_lh": 0,
+            "text_fw": 500,
+            "text_ls": 1,
+            "text_mgb": 5,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 5,
+            "animation": "fadeInUp"
+          }
+        },
+        "c7cd7dc7-d2e9-4acb-83f2-bc5c8ec130ba": {
+          "type": "custom_text",
+          "settings": {
+            "text": "Text",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "fa99f07f-4b44-4e74-aef2-62c3619e1545": {
+          "type": "custom_button",
+          "settings": {
+            "button_text": "Button label",
+            "button_link": "",
+            "target_link": "_self",
+            "fontf": "inherit",
+            "button_icon_w": 0,
+            "button_style": "default",
+            "button_effect": "default",
+            "pri_cl": "#222",
+            "second_cl": "",
+            "pri_cl_hover": "#56cfe1",
+            "second_cl_hover": "#fff",
+            "fsbutton": 14,
+            "fwbutton": 400,
+            "button_ls": 0,
+            "button_mh": 42,
+            "button_bdr": 0,
+            "button_pd_lr": 20,
+            "button_mgb": 0,
+            "hidden_mobile": false,
+            "button_icon_w_mb": 0,
+            "fsbutton_mb": 10,
+            "button_mh_mb": 36,
+            "button_pd_lr_mb": 15,
+            "button_ls_mb": 0,
+            "button_mgb_mb": 0,
+            "animation": "none"
+          }
+        },
         "ff316a45-fbcc-4f5f-8dc5-63c139030ae7": {
           "type": "image_parent",
           "settings": {
@@ -287,6 +364,9 @@
         "d990e249-b1e0-4b91-8339-db12a2019a6d",
         "a335fbc9-262b-4e6e-82ee-9916dceb483b",
         "a9dffc78-40cc-4111-a908-826833c0cded",
+        "106db8ff-dcc6-4cff-bf2e-5d991233d946",
+        "c7cd7dc7-d2e9-4acb-83f2-bc5c8ec130ba",
+        "fa99f07f-4b44-4e74-aef2-62c3619e1545",
         "ff316a45-fbcc-4f5f-8dc5-63c139030ae7",
         "1758ee9f-45a3-435d-8542-3559f4bf4638"
       ],
