@@ -870,7 +870,7 @@
               "lb": "",
               "lb_cl": "#00badb",
               "pos_sub": "bottom",
-              "wid": "cus",
+              "wid": "full nav_t4cnt",
               "cus_wid": 950,
               "id": 5,
               "enable_packery": true,
@@ -1454,7 +1454,7 @@
               "btn_cl": "dark",
               "btn_size": "small",
               "btn_hidden_mobile": true,
-              "col": "8"
+              "col": "7"
             }
           },
           "d032825f-a773-42e3-be7d-2c12c46038eb": {
