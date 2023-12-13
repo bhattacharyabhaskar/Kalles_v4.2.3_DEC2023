@@ -1,6 +1,8 @@
 {
   "current": {
     "purchase_code": "ac82ee1c-42bc-46ca-ba07-fec66c04717c",
+    "home_keywords": "designer indian sarees online, indian wedding sarees online, ethnic sarees online, designer silk sarees, buy indian sarees online, buy sarees from india, traditional sarees. latest sarees collection, ethnic wear for women",
+    "shop_author": "IndyVogue",
     "use_rtl": "0",
     "checkbox_mail": true,
     "header_design": "inline",
@@ -84,7 +86,8 @@
     "social_behance_link": "",
     "social_soundcloud_link": "",
     "social_tiktok_link": "",
-    "favicon": "shopify:\/\/shop_images\/Logo-Light-New_5f505c73-77f1-4d5d-863c-3b869b661d24.png",
+    "favicon": "shopify:\/\/shop_images\/Logo-Light-New-FavIcon.png",
+    "favicon_apple": "shopify:\/\/shop_images\/Logo-Light-New-Retina.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/Logo-Light-New_5f505c73-77f1-4d5d-863c-3b869b661d24.png",
     "checkout_logo_size": "large",
     "pr_incoming_mess": true,
