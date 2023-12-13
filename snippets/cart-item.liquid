@@ -37,7 +37,7 @@
        <a href="{{ item_url }}" class="t4s-mini_cart__title t4s-truncate">{{ item_pr.title }}</a>
       {% comment %}Added/Modified by Limoni Apps on 11/12/22 to support Discount Ninja{% endcomment %}
 
-      <div class="limoniapps-discountninja-cart-item-product-comment" data-limoniapps-discountninja-cart-key="{{item_pr.key}}"></div>
+      <div class="limoniapps-discountninja-cart-item-product-comment" data-limoniapps-discountninja-cart-key="{{item_key}}"></div>
        <div class="t4s-mini_cart__meta">
           {%- assign qv_key = item_pr.id -%}
           {%- unless item_pr.has_only_default_variant or item_variant.title contains 'mczr_price_' -%}{%- assign qv_key = item_id -%}<p class="t4s-cart_meta_variant">{{ item_variant.title }}</p>{%- endunless -%}
@@ -88,7 +88,7 @@
           </ul>
           {%- endif -%}
           {%- if recurringchecked %}<span class="t4s-product-details__item-recurring t4s-ch">{{ 'cart.general.recurring_mess' | t: frequency: frequency, frequency_unit: frequency_unit }}</span>{% endif -%}
-          <div class="t4s-cart_meta_price limoniapps-discountninja-cart-item-product-price" data-limoniapps-discountninja-cart-key="{{item_pr.key}}">
+          <div class="t4s-cart_meta_price limoniapps-discountninja-cart-item-product-price" data-limoniapps-discountninja-cart-key="{{item_key}}">
               <div class="t4s-cart_price">
                 {%- unless cart_ajax_enable %}{{ item_qty }} × {% endunless -%}
                 {%- liquid
@@ -133,7 +133,7 @@
        </div>
        <div class="t4s-mini_cart__actions">
           {%- if cart_ajax_enable -%}
-          <div data-quantity-wrapper class="t4s-quantity-wrapper t4s-quantity-cart-item limoniapps-discountninja-cart-item-quantity" data-limoniapps-discountninja-cart-key="{{item_pr.key}}">
+          <div data-quantity-wrapper class="t4s-quantity-wrapper t4s-quantity-cart-item limoniapps-discountninja-cart-item-quantity" data-limoniapps-discountninja-cart-key="{{item_key}}">
             {% comment %}
             // BB: Removing quantity change button in cart 
             <button data-quantity-selector data-decrease-qty type="button" class="t4s-quantity-selector is--minus">{% if item_qty > 1 or min_qty == 1 %}<svg focusable="false" class="icon icon--minus" viewBox="0 0 10 2" role="presentation"><path d="M10 0v2H0V0z" fill="currentColor"></path></svg>{% else %}<svg viewBox="0 0 24 24" width="17"><use href="#icon-cart-remove"/></svg>{% endif %}</button>
