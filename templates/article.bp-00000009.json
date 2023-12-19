@@ -12,7 +12,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify:\/\/shop_images\/Christmas_blog_BANNER.png",
+            "image": "shopify:\/\/shop_images\/Bollywood_Sarees_blog.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -72,6 +72,92 @@
         "code_cus_css": ""
       }
     },
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48": {
+      "type": "image_text",
+      "blocks": {
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>#1. Raveena’s Tip Tip Barsa Pani Look Alike, Bolly Saree<\/h2><p>The greatest sultry rain dance in Bollywood has been Raveena’s <em>“Tip Tip Barsa Paani” <\/em> in <a href=\"https:\/\/en.wikipedia.org\/wiki\/Mohra\"><span style=\"text-decoration:underline\">Mohra<\/span><\/a> (1994). Her yellow color saree with that ruffled blouse and the song together has a special corner is our heart.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/blog-pic-1.png",
+            "image2": "shopify:\/\/shop_images\/blog-pic-2.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1",
+        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "1608235d-c3e9-4bd1-b190-b35ac6c54005": {
       "type": "image_text",
       "blocks": {
@@ -83,8 +169,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Unstoppable Christmas & New Year Saree Draping Ideas: Color Red & Black",
-            "text": "<p>So what are your party plans for the Christmas and New Year? Everything has fallen into place, you already have decided on the party place, have decided on the menu, and even on what to wear. If you have chosen a saree to give it an ethnic touch then you are sure about what color to choose and how to accessorize them.<\/p><p>No, you have not chosen anything as such. If your saree color preference is <em><strong>red<\/strong><\/em> and <em><strong>black <\/strong><\/em>then we have a list of ideas to rock your Christmas and New Year parties this end of the year and in 2024.<\/p><p>Let us just help you sizzle the best in <em><strong>red<\/strong><\/em> and <em><strong>black<\/strong><\/em> sarees! In this article we will discuss the color <strong>RED<\/strong> at first then in the next week, we will narrate what to do if you choose the <strong>BLACK<\/strong> color.<\/p><h2>Why choose a red color saree for your Christmas or New Year 2024 party?<\/h2><ul><li>Red is an energetic color. Red is bold. It is a symbol of power, strength, and vitality. A red saree makes you stand out in the crowd and create an everlasting impression.<\/li><li>Red goes well with every skin tone and body type making it an adaptable and flattering option for ladies of all ages.<\/li><li>A classic partywear for decades, it is a timeless addition to your wardrobe.<\/li><\/ul><h2>Which saree fabric to choose for your Christmas or New Year 2024 party?<\/h2><ul><li>Red Organzas: Lovely handpainted or embroidered organzas are modern and on top of the lovely timeless classic sarees.<\/li><li>Red Chiffon: Gorgeous and sophisticated party wear saree which can come with cutdana work to embroidery is bright and fashionable.<\/li><li>Red Sequins: A stunning beauty and can turn heads at any gathering. These are delicate and have a flowy feel which is captivating.<\/li><\/ul>",
+            "heading": "Bollywood & Sarees - Get Head Over Heels with Iconic Raveena, Deepika, Alia’s Bolly Look-Alike Sarees",
+            "text": "<p>Bollywood is known to set exaggerated couture, dramatic scenes, and jaw-dropping looks. But no matter who is the designer for a femme fatale look, Bollywood always chooses saree over anything. There are so many spectrum of roles, characters, and plots, and you will find the six-yard elegance serve as the common link for generations. Whether it is a sultry rain dance or a dance number in a Miami nightclub or on the rocks of the Black Sea. <\/p><p>This blog is going to highlight some of the worthy collections we have in our inventory they are Bollywood look-alike sarees we have with us and now it is our time to shop them. If you have a Christmas party to come up with or a fashion sensation party - we’ve got your back!<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -229,91 +315,6 @@
       },
       "block_order": [
         "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48": {
-      "type": "image_text",
-      "blocks": {
-        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<p><\/p><p><strong>Style 1: Choose a Heavy Designed Blouse to Pair Up<\/strong><\/p><p>If your saree is plain and features a sequin or embroidered border, you can pair it with a heavily embroidered blouse. This will add a balance to your look. You can go for a full-sleeve blouse to make it more attractive.<\/p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
-        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/Christmas_blog_pic_1.png",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1",
-        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f"
       ],
       "settings": {
         "design_heading": "1",
@@ -622,10 +623,10 @@
   },
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
     "947465df-8011-4c4f-8367-4239ec3004ea",
     "be349666-2469-4b59-9e48-269f0cd4f2cc",
-    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "10987f01-c475-48c6-adc6-55dda60cc247",
     "7806b7ea-3db3-4aee-8ec9-a014cededdbb",
     "56412792-0cbb-4a76-a029-fca6374f64f7",
