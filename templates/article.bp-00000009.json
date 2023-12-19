@@ -72,6 +72,61 @@
         "code_cus_css": ""
       }
     },
+    "6869956b-0118-467c-98f0-cbb9ff121db9": {
+      "type": "image_text",
+      "blocks": {
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Bollywood & Sarees - Get Head Over Heels with Iconic Raveena, Deepika, Alia’s Bolly Look-Alike Sarees",
+            "text": "<p>Bollywood is known to set exaggerated couture, dramatic scenes, and jaw-dropping looks. But no matter who is the designer for a femme fatale look, Bollywood always chooses saree over anything. There are so many spectrum of roles, characters, and plots, and you will find the six-yard elegance serve as the common link for generations. Whether it is a sultry rain dance or a dance number in a Miami nightclub or on the rocks of the Black Sea. <\/p><p>This blog is going to highlight some of the worthy collections we have in our inventory they are Bollywood look-alike sarees we have with us and now it is our time to shop them. If you have a Christmas party to come up with or a fashion sensation party - we’ve got your back!<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48": {
       "type": "image_text",
       "blocks": {
@@ -137,7 +192,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-start",
-        "top_heading": "Bollywood & Sarees - Get Head Over Heels with Iconic Raveena, Deepika, Alia’s Bolly Look-Alike Sarees",
+        "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -972,6 +1027,7 @@
   },
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
+    "6869956b-0118-467c-98f0-cbb9ff121db9",
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "947465df-8011-4c4f-8367-4239ec3004ea",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
