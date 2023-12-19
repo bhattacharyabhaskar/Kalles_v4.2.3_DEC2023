@@ -233,16 +233,46 @@
     "1608235d-c3e9-4bd1-b190-b35ac6c54005": {
       "type": "image_text",
       "blocks": {
+        "a9a29052-0c8b-4e3f-ab5d-4efced60901a": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/blog-pic-4.png",
+            "image2": "shopify:\/\/shop_images\/blog-pic-3.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
         "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "12",
+            "col_dk": "6",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Bollywood & Sarees - Get Head Over Heels with Iconic Raveena, Deepika, Alia’s Bolly Look-Alike Sarees",
-            "text": "<p>Bollywood is known to set exaggerated couture, dramatic scenes, and jaw-dropping looks. But no matter who is the designer for a femme fatale look, Bollywood always chooses saree over anything. There are so many spectrum of roles, characters, and plots, and you will find the six-yard elegance serve as the common link for generations. Whether it is a sultry rain dance or a dance number in a Miami nightclub or on the rocks of the Black Sea. <\/p><p>This blog is going to highlight some of the worthy collections we have in our inventory they are Bollywood look-alike sarees we have with us and now it is our time to shop them. If you have a Christmas party to come up with or a fashion sensation party - we’ve got your back!<\/p>",
+            "heading": "",
+            "text": "<h2>#2. Deepika’s Badtameez Dil Saree<\/h2><p>Well, she cemented her transformation from a nerd to a glamazon in the movie <a href=\"https:\/\/en.wikipedia.org\/wiki\/Yeh_Jawaani_Hai_Deewani\"><span style=\"text-decoration:underline\">Yeh Jawani hai Deewani<\/span><\/a>, almost overnight. She reinvented the cocktail night with a low draped georgette saree with sequin work and we have the exact look-alike in our inventory and enough to have an effective head turns.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -259,6 +289,7 @@
         }
       },
       "block_order": [
+        "a9a29052-0c8b-4e3f-ab5d-4efced60901a",
         "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1"
       ],
       "settings": {
