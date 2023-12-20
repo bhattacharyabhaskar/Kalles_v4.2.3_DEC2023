@@ -21,7 +21,7 @@
       {%- if fm_gg3 != fm_gg1 and fm_gg3 != fm_gg2 -%}|{{ fm_gg3 | strip | replace: ' ', '+' }}:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i{%- endif -%}
     {%- endcapture -%}
 
-    <link rel="stylesheet" data-href="https://fonts.googleapis.com/css?family={{ font_var }}&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ font_var }}&display=swap">
 
   {%- else -%}
     
@@ -47,7 +47,7 @@
   {% else %}
       {% render 'all-css' %}      
   {% endif %}  
-  <link rel="stylesheet" data-href="{{ 'base.css' | asset_url }}">  
+  <link rel="stylesheet" href="{{ 'base.css' | asset_url }}">  
   {%- if isRTL %}{{- 'theme_rtl.css' | asset_url | stylesheet_tag: preload: true -}}{% endif -%}
   {%- if settings.bootstrap_css %}{{- 'bootstrap.min.css' | asset_url | stylesheet_tag -}}{% endif -%}
 
