@@ -27,6 +27,7 @@
 {%- endcapture -%}
 <html class="{{ class_html }} no-js" lang="{{ iso_code }}"{% if isRTL %} dir="rtl"{% endif %}>
     <head>
+        {% render 'wnw_header' %}
 		{% render 'website-schema' %}
         {% comment %}
             // BB: Remove this after Valentine's day 
@@ -82,7 +83,13 @@
         {%- render 'meta-tags', t_name: t_name -%}
         <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
         <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
-        {{ content_for_header }}
+        {%- if request.design_mode or template contains 'cart' or template contains 'checkout' -%}
+            {{ content_for_header }}
+        {%- else -%}
+            {% capture content_for_header2 %}{{ content_for_header }}{% endcapture %}
+            {{ content_for_header2 | replace: ' async="async" ', ' type="lazyload_int" ' | replace: ' defer="defer" ', ' type="lazyload_int" ' | replace: " src=", " data-src="| replace: "DOMContentLoaded", "w3-DOMContentLoaded" | replace: "window.addEventListener('load', asyncLoad, false);", "window.addEventListener('w3-DOMContentLoaded', asyncLoad, false);" | replace: "addEventListener('load', prefetchAssets);", "addEventListener('w3-DOMContentLoaded', prefetchAssets);" }}
+            <script>var trekkie=[];trekkie.integrations=!0;window.BOOMR={},window.BOOMR.version=true;</script>
+        {%- endif -%}
         {%- render 'head_assets', t_name: t_name, isRTL: isRTL -%}
         {% render 'limoniapps-discountninja-header' %}
         {%- if product -%}
@@ -114,5 +121,6 @@
             // BB: Adding criteo tracking & optimization-3.0 js
         {% endcomment %}        
         {% render 'criteo-tracking' %}
+        {% render 'wnw_footer' %}
     </body>
 </html>
