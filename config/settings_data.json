@@ -2327,19 +2327,19 @@
       },
       "6468128024931565999": {
         "type": "shopify:\/\/apps\/seguno-popups\/blocks\/popup-app-embed\/f53bd66f-9a20-4ce2-ae2e-ccbd0148bd4b",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       },
       "6143736321357441667": {
         "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       },
       "13027630495364635475": {
         "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-assetless\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       }
