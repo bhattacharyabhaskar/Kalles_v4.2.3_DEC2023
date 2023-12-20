@@ -1,5 +1,5 @@
 {%- if se_stts.top_heading != blank or se_stts.top_subheading != blank -%}
-	
+	{{ 'top-head.css' | asset_url | stylesheet_tag }}
 	<div timeline hdt-reveal="slide-in" class="t4s-top-heading t4s_des_title_{{ se_stts.design_heading }} {{ se_stts.heading_align }} {% if se_stts.head_btn_url != blank and se_stts.head_btn_label != blank %} t4s-heading-has-btn {%- endif -%}" style="--heading-height: {{ heading_height }}px;--tophead_mb: {{ se_stts.tophead_mb }}px;">
 		{%- if se_stts.top_heading != blank -%}
 		<div class="heading-testimonials-star ">
