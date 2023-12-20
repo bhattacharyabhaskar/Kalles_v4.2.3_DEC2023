@@ -112,8 +112,7 @@
         {% include 'limoniapps-discountninja-body' %}
         {% comment %}
             // BB: Adding criteo tracking & optimization-3.0 js
-        {% endcomment %}
-        {{ 'wnw-optimization-3.0.js' | asset_url | script_tag }}                
+        {% endcomment %}        
         {% render 'criteo-tracking' %}
     </body>
 </html>
