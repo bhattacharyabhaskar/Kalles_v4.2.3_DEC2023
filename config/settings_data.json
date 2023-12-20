@@ -116,7 +116,7 @@
           "67b11f56-907e-476f-aa16-dc965c499ef7": {
             "type": "html",
             "settings": {
-              "html_content": "<script data-src=\"https:\/\/reviewsonmywebsite.com\/js\/v2\/embed.js?id=8e7313fc946fd3d8c15c886f791a7ab8\"><\/script>\n<script data-src=\"https:\/\/reviewsonmywebsite.com\/js\/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34\"><\/script>",
+              "html_content": "<script type=\"lazyload_int\" data-src=\"https:\/\/reviewsonmywebsite.com\/js\/v2\/embed.js?id=8e7313fc946fd3d8c15c886f791a7ab8\"><\/script>\n<script type=\"lazyload_int\" data-src=\"https:\/\/reviewsonmywebsite.com\/js\/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34\"><\/script>",
               "hidden_mobile": false
             }
           },
