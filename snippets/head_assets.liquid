@@ -38,8 +38,17 @@
       <link rel="preload" as="font" href="{{ font_1 | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
   {%- endif -%}
-
-  {{- 'base.css' | asset_url | stylesheet_tag: preload: true -}}
+  {% if template contains 'index' %} 
+      {% render 'homepage-critical-css' %}
+  {% elsif template contains 'collection' %}
+      {% render 'collection-critical-css' %}
+  {% elsif template contains 'product' %}
+      {% render 'product-critical-css' %}
+  {% else %}
+      {% render 'theme-css' %}
+      {% render 'theme-css-2' %}
+  {% endif %}  
+  <link rel="stylesheet" data-href="{{ 'base.css' | asset_url }}">  
   {%- if isRTL %}{{- 'theme_rtl.css' | asset_url | stylesheet_tag: preload: true -}}{% endif -%}
   {%- if settings.bootstrap_css %}{{- 'bootstrap.min.css' | asset_url | stylesheet_tag -}}{% endif -%}
 
