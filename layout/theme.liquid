@@ -81,8 +81,8 @@
             <title>{{ 'list_collections.meta_title' | t | escape }}</title><meta name="description" content="{{ 'list_collections.meta_description' | t | escape }}">
         {%- endif -%}
         {%- render 'meta-tags', t_name: t_name -%}
-        <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
-        <script src="{{ 'global.min.js' | asset_url }}" defer="defer"></script>
+        <script type="lazyload_int" data-src="{{ 'lazysizes.min.js' | asset_url }}"></script>
+        <script type="lazyload_int" data-src="{{ 'global.min.js' | asset_url }}"></script>
         {%- if request.design_mode or template contains 'cart' or template contains 'checkout' -%}
             {{ content_for_header }}
         {%- else -%}
