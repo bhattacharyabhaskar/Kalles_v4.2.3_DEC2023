@@ -45,7 +45,7 @@
   {% elsif template contains 'product' %}
       {% render 'product-critical-css' %}
   {% else %}
-      {% render 'theme-css' %}
+      {% render 'all-css' %}
       {% render 'theme-css-2' %}
   {% endif %}  
   <link rel="stylesheet" data-href="{{ 'base.css' | asset_url }}">  
