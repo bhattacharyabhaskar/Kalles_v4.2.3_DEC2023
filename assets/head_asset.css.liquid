@@ -1,3 +1,33 @@
+{%- if font_source == '1' -%}
+
+      {%- assign cl_flz = 'h1, h2, h3, h4, h5, h6, .f__mont, .f_heading, .h3, ' -%}
+      {%- assign fm_sp1 = font_1.family -%}
+      {%- assign fm_sp2 = font_2.family -%}
+      {%- assign fm_sp3 = font_3.family -%}
+     
+      {%- capture t4s_font_fm1 -%}{{ fm_sp1 }}, {{ font_1.fallback_families }};{%- endcapture -%}
+      {%- assign t4s_font_fm2 = t4s_font_fm1 -%}{%- assign t4s_font_fm3 = t4s_font_fm1 -%}
+
+      {%- for variant in font_1.variants -%}{{ variant | font_face: font_display: 'swap' }}{%- endfor -%}
+
+      {%- if fm_sp2 != fm_sp1 -%}
+        {%- capture t4s_font_fm2 -%}{{ fm_sp2 }}, {{ font_2.fallback_families }};{%- endcapture -%}
+        {%- for variant in font_2.variants -%}{{ variant | font_face: font_display: 'swap' }}{%- endfor -%}
+      {%- endif -%}
+
+      {%- if fm_sp3 != fm_sp1 -%}
+        {%- capture t4s_font_fm3 -%}{{ fm_sp3 }}, {{ font_3.fallback_families }};{%- endcapture -%}
+        {{- font_3 | font_face: font_display: 'swap' -}}
+      {%- endif -%}
+
+    {%- else -%}
+    
+      {%- assign cl_flz = '' -%}
+      {%- assign t4s_font_fm1 = fm_gg1 -%}
+      {%- assign t4s_font_fm2 = fm_gg2 -%}
+      {%- assign t4s_font_fm3 = fm_gg3 -%}
+
+    {%- endif -%}
 :root {
         
          /* CSS Variables */
