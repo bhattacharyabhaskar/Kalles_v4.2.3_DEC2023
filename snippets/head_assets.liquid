@@ -48,6 +48,9 @@
       {% render 'all-css' %}      
   {% endif %}  
   <link rel="stylesheet" data-href="{{ 'base.css' | asset_url }}">  
+  {% if canonical_url contains '/pages/contact-us' %}
+  <link rel="stylesheet" href="//www.indyvogue.com/cdn/shop/t/110/assets/line-awesome.min.css?v=86766576465918945231702990271">
+  {% endif %}
   {%- if isRTL %}{{- 'theme_rtl.css' | asset_url -}}{% endif -%}
   {%- if settings.bootstrap_css %}{{- 'bootstrap.min.css' | asset_url | stylesheet_tag -}}{% endif -%}
 
