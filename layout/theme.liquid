@@ -27,6 +27,7 @@
 {%- endcapture -%}
 <html class="{{ class_html }} no-js" lang="{{ iso_code }}"{% if isRTL %} dir="rtl"{% endif %}>
     <head>
+        {% render 'font-css' %}
         {% render 'wnw_header' %}
 		{% render 'website-schema' %}
         {% comment %}
