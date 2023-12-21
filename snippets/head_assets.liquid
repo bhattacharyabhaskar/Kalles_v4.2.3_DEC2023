@@ -279,7 +279,7 @@
     {%- endif -%}
     {% endcomment %}
   {%- endstyle -%}
-
+<link rel="stylesheet" data-href="{{ 'head_asset.css' | asset_url }}">  
 <script>
   const isBehaviorSmooth = 'scrollBehavior' in document.documentElement.style && getComputedStyle(document.documentElement).scrollBehavior === 'smooth';
   const t4sXMLHttpRequest = window.XMLHttpRequest, documentElementT4s = document.documentElement; documentElementT4s.className = documentElementT4s.className.replace('no-js', 'js');function loadImageT4s(_this) { _this.classList.add('lazyloadt4sed')};
