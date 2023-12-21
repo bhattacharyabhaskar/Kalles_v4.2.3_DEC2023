@@ -440,12 +440,12 @@ echo '<div id="t4s-snow_ef" class="t4s-dn"></div><div id="t4s-assets-pre" class=
 </div>
 <template id="t4s-style-popup">
 {%- if enable_quickview -%}
-{{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
-{{ 'main-product.css' | asset_url | stylesheet_tag }}
-{{ 'qv-product.css' | asset_url | stylesheet_tag }}
-{{ 'drawer.min.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" data-href="{{ 'pre_flickityt4s.min.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'main-product.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'qv-product.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'drawer.min.css' | asset_url }}">
 {%- endif -%}
-{%- if enable_quickshop %}{{ 'qs-product.css' | asset_url | stylesheet_tag }}{% endif -%}
+{%- if enable_quickshop %}<link rel="stylesheet" data-href="{{ 'qs-product.css' | asset_url }}">{% endif -%}
 </template>
 <link rel="stylesheet" data-href="{{ 'theme.css' | asset_url }}">
 <link rel="stylesheet" data-href="{{ 'drawer.min.css' | asset_url }}">
