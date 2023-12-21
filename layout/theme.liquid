@@ -127,6 +127,17 @@
             // BB: Adding criteo tracking & optimization-3.0 js
         {% endcomment %}        
         {% render 'criteo-tracking' %}
+        <script type="lazyload_int">
+            setInterval(function() {
+                var lazyScript = document.querySelectorAll("script[type=lazyload_int]");
+                for (i = 0; i < lazyScript.length; i++) {
+                    var script_element = document.createElement("script");
+                    script_element.src = lazyScript[i].getAttribute("data-src");
+                    lazyScript[i].parentNode.insertBefore(script_element, lazyScript[i]);
+                    lazyScript[i].parentNode.removeChild(lazyScript[i]);
+                }
+            }, 1000);
+        </script>
         {% render 'wnw_footer' %}
     </body>
 </html>
