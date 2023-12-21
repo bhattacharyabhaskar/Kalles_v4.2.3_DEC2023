@@ -62,7 +62,7 @@
   endif
 -%}
 
-{%- if color_mode == 'dropdown' or selector_mode == 'dropdown' %}<link rel="stylesheet" href="{{ 'base_drop.min.css' | asset_url }}" media="all">{% endif -%}
+{%- if color_mode == 'dropdown' or selector_mode == 'dropdown' %}<link rel="stylesheet" data-href="{{ 'base_drop.min.css' | asset_url }}" >{% endif -%}
 
 <div class="t4s-product-form__variants is-no-pick__{{ PR_no_pick }}{% if PR_buy_pr %} is-payment-btn-true t4s-payment-button t4s-btn-color-{{ bk_stts.button_color_payment }}{% endif %}  is-remove-soldout-{{ remove_soldout }} is-btn-full-width__{{ bk_stts.btn_atc_full }} is-btn-atc-txt-{{ bk_stts.btn_txt }} is-btn-ck-txt-{{ bk_stts.btn_txt2 }} is--fist-ratio-{{ is_fit_ratio_img }}" style="{% if is_fit_ratio_img %};--fit-ratio-img:{{ first_ratio_img }};{% endif %} --wishlist-color: {{ bk_stts.wishlist_color }};--wishlist-hover-color: {{ bk_stts.wishlist_color_hover }};--wishlist-active-color: {{ bk_stts.wishlist_color_active }};--compare-color: {{ bk_stts.compare_color }};--compare-hover-color: {{ bk_stts.compare_color_hover }};--compare-active-color: {{ bk_stts.compare_color_active }};" {{ shopify_attributes }}>
   <div data-callBackVariant id="t4s-callBackVariant{{ product_form_id }}">
@@ -76,7 +76,7 @@
 
       {%- else -%}
 
-        {{ 'swatch.css' | asset_url | stylesheet_tag }}
+        <link rel="stylesheet" data-href="{{ 'swatch.css' | asset_url  }}">
         <select name="id" id="product-select-{{ pr_se_id }}" class="t4s-product__select t4s-d-none">
         {%- for variant in pr_variants -%}
           {%- if variant.available -%}
