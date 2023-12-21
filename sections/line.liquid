@@ -1,5 +1,5 @@
 <!-- sections/line.liquid -->
-{{ 'section.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" data1-href="{{ 'section.css' | asset_url }}">
 {%- liquid
   assign sid = section.id
   assign se_stts = section.settings
@@ -165,6 +165,3 @@
     ]
   }
 {% endschema %}
-
-{%- javascript -%}
-{%- endjavascript -%}
