@@ -61,7 +61,7 @@
     <div class="t4s-col-item t4s-hero-image-item">
       <div class="t4s-hero-inner t4s-pr t4s-oh t4s_cover t4s_ratio" timeline hdt-reveal="slide-in">
         {%- if image != blank -%}
-          <div data-parallax-t4s{{ IsParallax }} class="t4s-hero-block t4s_bg lazyloadt4s{% if IsParallax %} t4s-parallax t4s-parallax-bg{% endif %}" data-bgset="{{ image | image_url: width: 1 }}" style="background-image: url({{ image | img_url: 'master' , format: 'jpg' }}) {% if image.presentation.focal_point != '50.0% 50.0%' and IsParallax == false %};background-position: {{ image.presentation.focal_point }}{% endif %}" data-sizes="auto" data-optimumx="2"></div>
+          <div data-parallax-t4s{{ IsParallax }} class="t4s-hero-block t4s_bg lazyloadt4sed{% if IsParallax %} t4s-parallax t4s-parallax-bg{% endif %}" data-bgset="{{ image | image_url: width: 1 }}" style="background-image: url({{ image | img_url: 'master' , format: 'jpg' }}) {% if image.presentation.focal_point != '50.0% 50.0%' and IsParallax == false %};background-position: {{ image.presentation.focal_point }}{% endif %}" data-sizes="auto" data-optimumx="2"></div>
         {%- else -%}
           {{ 'lifestyle-1' | placeholder_svg_tag: 't4s-placeholder-svg t4s-svg-bg1' }}
         {%- endif -%}
