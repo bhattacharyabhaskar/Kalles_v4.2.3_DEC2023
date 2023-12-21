@@ -136,6 +136,15 @@
                     lazyScript[i].parentNode.insertBefore(script_element, lazyScript[i]);
                     lazyScript[i].parentNode.removeChild(lazyScript[i]);
                 }
+                var lazyLink = document.querySelectorAll("link[data-href]");
+            	for (i = 0; i < lazyLink.length; i++) {
+            		var css_element = document.createElement("link");
+            		css_element.href = lazyLink[i].getAttribute("data-href");
+            		css_element.rel = "stylesheet";
+            		lazyLink[i].parentNode.insertBefore(css_element, lazyLink[i]);
+            		delete lazyLink[i].dataset.href;
+            		lazyLink[i].parentNode.removeChild(lazyLink[i]);
+            	}
             }, 1000);
         </script>
         {% render 'wnw_footer' %}
