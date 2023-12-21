@@ -52,7 +52,7 @@
   {%- if settings.bootstrap_css %}{{- 'bootstrap.min.css' | asset_url | stylesheet_tag -}}{% endif -%}
 
   {%- style -%}
-
+    {% comment %}
     {%- if font_source == '1' -%}
 
       {%- assign cl_flz = 'h1, h2, h3, h4, h5, h6, .f__mont, .f_heading, .h3, ' -%}
@@ -83,7 +83,7 @@
       {%- assign t4s_font_fm3 = fm_gg3 -%}
 
     {%- endif -%}
-    {% comment %}
+    
     :root {
         
          /* CSS Variables */
