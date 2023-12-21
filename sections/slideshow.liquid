@@ -1,9 +1,9 @@
 <!-- sections/slideshow.liquid -->
-{{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
-{{ 'section.css' | asset_url | stylesheet_tag }}
-{{ 'slideshow.css' | asset_url | stylesheet_tag }}
-{{ 'content-position.css' | asset_url | stylesheet_tag }}
-{{ 'slider-settings.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" data-href="{{ 'pre_flickityt4s.min.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'section.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'slideshow.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'content-position.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'slider-settings.css' | asset_url }}">
 {%- liquid
     assign image_fix = image_nt | image_tag
     assign sid = section.id
@@ -205,17 +205,17 @@
     {{- html_layout[1] -}} 
 </div>
 {%- if general_block -%}
-    {{ 'general-block.css' | asset_url | stylesheet_tag }}
+    <link rel="stylesheet" data-href="{{ 'general-block.css' | asset_url }}">
 {%- endif -%}
 {%- if use_button -%}
-    {{ 'button-style.css' | asset_url | stylesheet_tag }}
-    <link href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="stylesheet" data-href="{{ 'button-style.css' | asset_url }}">
+    <link data-href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
 {%- endif -%}
 {%- if use_animation -%}
-    <link href="{{ 't4s-animation.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+    <link data-href="{{ 't4s-animation.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
 {%- endif -%}
 {%- if countdown -%} 
-    {{ 'countdown.css' | asset_url | stylesheet_tag }}
+    <link rel="stylesheet" data-href="{{ 'countdown.css' | asset_url }}">
     <template id="countdown-{{ sid }}">
         <span class="countdown-days">
             <span class="cd_timet4 cd-number">%-D</span>
