@@ -282,7 +282,7 @@ endif -%}
 {%- assign mobile_nav_type = settings.mobile_nav_type -%}
 {%- assign routes_search_url = routes.search_url -%}
 
-<link rel="stylesheet" href="{{ 'mobile_nav.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" data-href="{{ 'mobile_nav.css' | asset_url }}" >
 {%- if admin_sp -%}
    <div id="t4s-menu-drawer" class="t4s-drawer t4s-drawer__left t4s-dn{% if is_page_index %} t4s-page-index-{{ page.id }}{% endif %}" aria-hidden="true">
      {%- if mobile_nav_type == '1' or mobile_nav_type == '2' -%}
