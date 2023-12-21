@@ -28,4 +28,36 @@ html:not(.w3_start) .t4s-slideshow .t4s-slideshow-item:nth-child(n+2) img {
 .t4s-tab-wrapper:first-child .t4s-tab-content {    
     animation:none!important
 }
+#MainContent .shopify-challenge__container {
+    min-height: 20vh;
+}
+@media (min-width: 641px){
+#MainContent .shopify-challenge__container, .t4s-empty__page {
+    margin: 200px auto;
+}}
+button, html input[type=button]:not(.t4s-btn), input[type=reset], input[type=submit]:not(.t4s-btn) {
+    padding: 11px 15px;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    text-shadow: none;
+    text-transform: none;
+    border: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    transition: color .3s ease,background-color .3s ease,border-color .3s ease,box-shadow .3s ease,opacity .3s ease;
+}
+.t4s_as_button, button, input[type=button]:not(.t4s-btn), input[type=reset], input[type=submit]:not(.t4s-btn) {
+    font-family: var(--font-button-family);
+    color: var(--button-color);
+    background-color: var(--button-background);
+    border-color: var(--button-background);
+}
+.shopify-challenge__container .shopify-challenge__button {
+    margin-top: 20px;
+}
+
 </style>
