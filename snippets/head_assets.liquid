@@ -47,8 +47,8 @@
   {% else %}
       {% render 'all-css' %}      
   {% endif %}  
-  <link rel="stylesheet" href="{{ 'base.css' | asset_url }}">  
-  {%- if isRTL %}{{- 'theme_rtl.css' | asset_url | stylesheet_tag: preload: true -}}{% endif -%}
+  <link rel="stylesheet" data-href="{{ 'base.css' | asset_url }}">  
+  {%- if isRTL %}{{- 'theme_rtl.css' | asset_url -}}{% endif -%}
   {%- if settings.bootstrap_css %}{{- 'bootstrap.min.css' | asset_url | stylesheet_tag -}}{% endif -%}
 
   {%- style -%}
