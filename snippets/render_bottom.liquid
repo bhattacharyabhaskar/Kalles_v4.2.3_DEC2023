@@ -319,7 +319,7 @@ endif -%}
 {%- endif -%}
 
 {%- if admin_sp == false and page_type != 'cart' and settings.cart_type != 'disable' -%}
-<link href="{{ 'mini-cart.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+<link data-href="{{ 'mini-cart.css' | asset_url }}" rel="stylesheet" >
 <div data-cart-wrapper id="t4s-mini_cart" data-ccount="{{ cart.item_count }}" class="t4s-drawer t4s-drawer__right t4s-dn" aria-hidden="true">
     {%- if cart.item_count > 0 -%}
     <div class="t4s-skeleton-element ske-h-50 ske-mt-15 ske-mb-20 ske-mrl-15 ske-shine"></div>
