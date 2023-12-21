@@ -96,7 +96,7 @@
                       {%- assign use_animation = true -%}
                     {%- endif -%}
                     <div class="t4s-bl-item t4s-img-child t4s-animation-{{ bk_stts.animation }} t4s-hidden-mobile-{{ bk_stts.hidden_mobile }}" {%- render 'bk_cus_style', type: 'image', bk_stts: bk_stts, ani_delay: ani_delay -%}>
-                      <img data-maxw="{{ bk_stts.img_width_mb }}" data-maxw-md="{{ bk_stts.img_width }}" data-maxw-lg="{{ bk_stts.img_width }}" class="lazyloadt4s t4s-lz--fadeIn" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg', w: image.width, h: image.height %}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+                      <img data-maxw="{{ bk_stts.img_width_mb }}" data-maxw-md="{{ bk_stts.img_width }}" data-maxw-lg="{{ bk_stts.img_width }}" class="lazyloadt4s" data-src="{{ image | image_url: width: 1600 }}" data-class="LazyLoad" data-mob-src="{{ image | image_url: width: 400 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg', w: image.width, h: image.height %}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
                       <span class="lazyloadt4s-loader"></span>
                     </div>
                   {%- endif -%}
