@@ -26,7 +26,7 @@
 		{%- if se_stts.head_btn_url != blank or se_stts.head_slide_btn -%}
         <div class="t4s-head-btn">
           {% if se_stts.head_btn_url != blank and se_stts.head_btn_label != blank %}
-
+            {{ 'button-style.css' | asset_url | stylesheet_tag }}
             <a class="t4s-btn t4s-btn-base t4s-btn-style-{{ se_stts.head_btn_style }} t4s-btn-size-{{ se_stts.head_btn_size }} t4s-btn-icon-{{ se_stts.head_btn_icon }} t4s-btn-color-{{ se_stts.head_btn_cl }} t4s-btn-rounded-{{ se_stts.head_btn_rounded }} {% if se_stts.head_btn_style == 'default' or se_stts.head_btn_style == 'outline' %}t4s-btn-effect-{{ se_stts.head_btn_effect }}{% endif %}" href="{{ se_stts.head_btn_url }}">{{ se_stts.head_btn_label }}
               {%- if se_stts.head_btn_icon -%}<svg class="t4s-btn-icon"><use xlink:href="#t4s-icon-btn"></use></svg>{%- endif -%}
             </a>
