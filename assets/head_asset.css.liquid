@@ -1,3 +1,10 @@
+{%- liquid
+    assign font_source = settings.font_source 
+    assign cl_lazyload = '#ffffff'
+    assign cHVyY2hh    = 'cHVyY2hhc2VfY29kZQ==' | base64_url_safe_decode
+    assign pr_overlay  = settings.pr_overlay | divided_by: 100.0
+    assign accent_lightness     = settings.accent_color | color_extract: 'lightness'
+ -%}
 {%- if font_source == '1' -%}
 
       {%- assign cl_flz = 'h1, h2, h3, h4, h5, h6, .f__mont, .f_heading, .h3, ' -%}
