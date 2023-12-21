@@ -147,6 +147,18 @@
             	}
             }, 1000);
         </script>
+        <script>
+            var site_nav_link_burger = true;
+            document.addEventListener("DOMContentLoaded", function() {
+                var icon_menu = document.querySelector("[data-menu-drawer]");
+                icon_menu.addEventListener("click", function() {
+                    if(site_nav_link_burger) {
+                        event.preventDefault();
+                        site_nav_link_burger = false;
+                    }
+                });
+            })
+        </script>        
         {% render 'wnw_footer' %}
     </body>
 </html>

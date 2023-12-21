@@ -16,7 +16,7 @@
         w3_bglazyload = 0;
         lazyloadimages(0);
         if(window.site_nav_link_burger == false) {
-            jQuery(".hamburger").click();
+            jQuery("[data-menu-drawer]").click();
             window.site_nav_link_burger = false;
         }
     }
