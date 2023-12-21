@@ -424,7 +424,7 @@ endif
 echo '<div id="t4s-snow_ef" class="t4s-dn"></div><div id="t4s-assets-pre" class="t4s-d-none"></div><div id="t4s-append-component" class="t4s-d-none"></div>' -%}
 
 {%- unless customer or settings.login_side == false or request.page_type contains 'customers' -%}
-<link href="{{ 'login-sidebar.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+<link data-href="{{ 'login-sidebar.css' | asset_url }}" rel="stylesheet" >
 <div id="t4s-login-sidebar" class="t4s-drawer t4s-drawer__right" aria-hidden="true">
     <div class="t4s-skeleton-element ske-h-50 ske-mt-20 ske-mrl-20 ske-shine"></div>
     <div class="t4s-skeleton-element ske-h-50 ske-mrl-20"></div><div class="t4s-skeleton-element ske-h-50 ske-mrl-20"></div><div class="t4s-skeleton-element ske-h-20 ske-mrl-20"></div>
@@ -432,7 +432,7 @@ echo '<div id="t4s-snow_ef" class="t4s-dn"></div><div id="t4s-assets-pre" class=
 </div>
 {%- endunless -%}
 
-<link href="{{ 'search-hidden.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+<link data-href="{{ 'search-hidden.css' | asset_url }}" rel="stylesheet" >
 <div data-predictive-search data-sid="search-hidden" id="t4s-search-hidden" class="t4s-drawer t4s-drawer__right" aria-hidden="true">
   <div class="t4s-skeleton-element ske-h-50 ske-mt-20 ske-mb-20 ske-shine ske-mrl-20 ske-mt-15"></div>
   <div class="t4s-skeleton-element ske-h-50 ske-mrl-20"></div><div class="t4s-skeleton-element ske-h-50 ske-mrl-20 ske-shine"></div>
