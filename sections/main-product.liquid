@@ -744,7 +744,7 @@ endif -%}
                 {%- when 'store_pickup' %}
                   {% comment %}{% if isProductAvailable == false %}{% continue %}{% endif -%}{% endcomment -%}
 
-                  {{ 'pickup-availability.css' | asset_url | stylesheet_tag }}
+                  <link rel="stylesheet" data-href="{{ 'pickup-availability.css' | asset_url }}">
                   <div class="t4s-pr__pickup-availability-container t4s-dn-" data-variant-id="{{ current_variant.id }}" data-pickup-availability-container data-has-only-default-variant="{{ isProductDefault }}" data-root-url="{{ routes.root_url }}" data-id-popup="popup{{ pr_se_id }}"></div>
 
                 {%- when 'tab_des' or 'tab_add' or 'tab_buy' or 'tab_rivui' or 'tab_liquid' or 'tab_html' -%}
@@ -822,7 +822,7 @@ endif -%}
     endif
   -%}
     
-<link href="{{ 'sticky-atc.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+<link data-href="{{ 'sticky-atc.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
 {%- if se_stts.ani != 'none' -%}<link href="{{ 'ani-atc.min.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">{%- endif -%}
 <template class="t4s-d-none" id="t4s-sticky-atc-temp">
   <div data-sticky-addtocart class="t4s-sticky-atc sticky_layout_mb--{{ se_stts.sticky_layout_mb }} t4s-pf t4s-b-0 t4s-l-0 t4s-r-0 t4s-op-0 t4s-pe-none"{% if PR_no_pick %} hidden{% endif %}>
