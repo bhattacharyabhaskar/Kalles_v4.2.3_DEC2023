@@ -6,7 +6,7 @@
 			<div class="t4s-post-thumb">
 				<a class="t4s-eff t4s-eff-{{ b_effect }} t4s-eff-img-{{ img_effect }} t4s-d-block" href="{{ post.url }}">
 					<div class="t4s_ratio t4s-bg-11" style="background: url({{ image | image_url: width: 1 }});--aspect-ratioapt: {{ image.aspect_ratio | default: 2 }}"  data-cacl-slide>
-						<img class="lazyloadt4s t4s-obj-eff" data-src="{{ image | image_url: width: 1600, height: 450 }}" data-mob-src="{{ image | image_url: width: 400,height: 450 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg', w: image.width, h: image.height %}" data-class="LazyLoad" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
+						<img class="lazyloadt4s t4s-obj-eff" data-src="{{ image | image_url: width: 1600 }}" data-mob-src="{{ image | image_url: width: 400 }}" data-widths="[100,200,400,600,700,800,900,1000,1200,1400,1600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg', w: image.width, h: image.height %}" data-class="LazyLoad" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
 					</div>
 				</a>
 				{%- if show_cate -%}
