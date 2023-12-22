@@ -2342,6 +2342,18 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
+        "settings": {
+          "button_color": "#8c258a",
+          "button_icon": "chat_bubble",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "lowest",
+          "button_text": "no_text",
+          "greeting_message": "👋 Hello! This is Sumana. Please message me if you have questions, or give an idea of what you’re looking for. We’re happy to make recommendations."
+        }
       }
     }
   },
