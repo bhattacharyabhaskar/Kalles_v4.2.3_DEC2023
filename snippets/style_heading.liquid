@@ -1,1 +1,21 @@
- style="--space-padding-dk:{{ se_stts.padding }}px;--space-padding-mb:{{ se_stts.paddingmb }}px;--space-mg-dk:{{ se_stts.mg_b }}px;--space-mg-mb:{{ se_stts.mg_bmb }}px;--bg-cl:{{ se_stts.color }};--op:{{ se_stts.overlay | divided_by: 100.0 }};--bg_repeat:{{ se_stts.bg_repeat }};--bg_size:{{ se_stts.bg_size }};--bg_pos:{{ se_stts.bg_pos | replace: '_', ' ' }};{%  if collection.image != blank %}background-image:url({{ collection.image | img_url: 'master' }});{% elsif template contains 'search' %}{% else %}background-image:url({{ se_stts.image | img_url: 'master' }});{% endif %}"
+{%- liquid
+  assign se_id = section.id 
+  assign se_stts = section.settings
+  assign se_bks = section.blocks
+  assign page_type = request.page_type 
+  if page_type contains 'customers'
+    assign page_type = 'customers'  
+  endif 
+  if page_type == 'collection' and collection.image != blank and se_stts.use_specify_image 
+      assign image = collection.image 
+  else 
+      assign image = se_stts.image  
+  endif
+  assign t4s_se_class = 't4s_nt_se_' | append: se_id
+  if se_stts.use_cus_css and se_stts.code_cus_css != blank
+    render 'se_cus_css', code_cus_css: se_stts.code_cus_css, t4s_se_class: t4s_se_class 
+  endif 
+  assign general_block = false 
+ -%} 
+ 
+ style="--space-padding-dk:{{ se_stts.padding }}px;--space-padding-mb:{{ se_stts.paddingmb }}px;--space-mg-dk:{{ se_stts.mg_b }}px;--space-mg-mb:{{ se_stts.mg_bmb }}px;--bg-cl:{{ se_stts.color }};--op:{{ se_stts.overlay | divided_by: 100.0 }};--bg_repeat:{{ se_stts.bg_repeat }};--bg_size:{{ se_stts.bg_size }};--bg_pos:{{ se_stts.bg_pos | replace: '_', ' ' }};{%  if collection.image != blank %}background-image:url({{ image | img_url: 'master' }});{% elsif template contains 'search' %}{% else %}background-image:url({{ image | img_url: 'master' }});{% endif %}"
