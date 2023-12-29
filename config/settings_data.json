@@ -58,6 +58,7 @@
     "free_ship_pr": "rajasthani-marwar-choker-necklace-set",
     "gift_wrap_pr": "gift-wrap",
     "filter_type_search": true,
+    "unavailable_prs": "hide",
     "show_search_suggest": true,
     "search_prs_suggest": "women",
     "show_search_hotkey": true,
@@ -2349,9 +2350,9 @@
         "settings": {
           "button_color": "#8c258a",
           "button_icon": "chat_bubble",
+          "button_text": "no_text",
           "button_horizontal_position": "bottom_left",
           "button_vertical_position": "lowest",
-          "button_text": "no_text",
           "greeting_message": "👋 Hello! This is Sumana. Please message me if you have questions, or give an idea of what you’re looking for. We’re happy to make recommendations."
         }
       }
