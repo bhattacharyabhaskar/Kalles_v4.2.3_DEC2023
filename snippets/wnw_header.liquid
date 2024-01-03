@@ -103,7 +103,15 @@ class w3_loadscripts {
                 d.href = r, d.rel = "preload", d.as = "script", t.appendChild(d)
             } else if (n) {
                 let l = document.createElement("link");
-                l.href = n, l.rel = "preload", l.as = "style", s++, e.length == s && (l.dataset.last = 1), t.appendChild(l), l.onload = function() {
+                l.href = n;
+                if(e.getAttribute("data-w3-type") == "module") {
+                    console.log("e ke module ki value:"+e.getAttribute("data-w3-type") );
+                    l.rel="modulepreload";
+                } else {
+                    l.rel = "preload";
+                }
+                
+                l.as = "style", s++, e.length == s && (l.dataset.last = 1), t.appendChild(l), l.onload = function() {
                     fetch(this.href).then(e => e.blob()).then(e => {
                         a.update_css_loader()
                     }).catch(e => {
