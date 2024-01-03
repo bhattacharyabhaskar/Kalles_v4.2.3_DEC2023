@@ -104,8 +104,7 @@ class w3_loadscripts {
             } else if (n) {
                 let l = document.createElement("link");
                 l.href = n;
-                if(e.getAttribute("data-w3-type") == "module") {
-                    console.log("e ke module ki value:"+e.getAttribute("data-w3-type") );
+                if(e.getAttribute("data-w3-type") == "module") {                    
                     l.rel="modulepreload";
                 } else {
                     l.rel = "preload";
