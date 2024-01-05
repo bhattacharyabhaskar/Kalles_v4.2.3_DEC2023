@@ -1,6 +1,6 @@
 <!-- sections/image_text.liquid -->
-{{ 'section.css' | asset_url | stylesheet_tag }}
-{{ 'image-text.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" data-href="{{ 'section.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'image-text.css' | asset_url }}">
 {%- liquid
     assign image_fix = image_nt | image_tag
     assign sid = section.id
@@ -116,12 +116,12 @@
     {{- html_layout[1] -}}
 </div>
 {%- if use_carousel -%}
-{{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
-{{ 'slider-settings.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" data-href="{{ 'pre_flickityt4s.min.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'slider-settings.css' | asset_url }}">
 {%- endif -%}
 {%- if use_button -%}
-    {{ 'button-style.css' | asset_url | stylesheet_tag }}
-    <link href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="stylesheet" data-href="{{ 'button-style.css' | asset_url }}">
+    <link data-href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet">
 {%- endif -%}
 {%- schema -%}
     {

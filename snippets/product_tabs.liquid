@@ -12,8 +12,8 @@
     {%- render 'product_tabs',product: product, tabs_layout:tabs_layout, seBlocks: seBlocks, idTabDes: idTabDes, idTabReview: idTabReview, isProductDefault: isProductDefault -%}
 {%- endcomment -%}
 
-{{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
-{{ 'product-tabs.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" data-href="{{ 'pre_flickityt4s.min.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'product-tabs.css' | asset_url }}">
 
 {%- style -%} 
 .t4s-product-tabs-wrapper-{{ section.id }} {
