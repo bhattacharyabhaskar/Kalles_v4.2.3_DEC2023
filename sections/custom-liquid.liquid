@@ -1,6 +1,6 @@
 <!-- sections/custom-liquid.liquid -->
-{{ 'section.css' | asset_url | stylesheet_tag }}
-{{ 'general-block.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" data-href="{{ 'section.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'general-block.css' | asset_url }}">
 
 {%- liquid
   assign sid = section.id

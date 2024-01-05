@@ -21,7 +21,7 @@
       {%- if fm_gg3 != fm_gg1 and fm_gg3 != fm_gg2 -%}|{{ fm_gg3 | strip | replace: ' ', '+' }}:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i{%- endif -%}
     {%- endcapture -%}
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ font_var }}&display=swap" media="print" onload="this.media='all'">
+    <link rel="stylesheet" data-href="https://fonts.googleapis.com/css?family={{ font_var }}&display=swap">
 
   {%- else -%}
     
@@ -38,13 +38,24 @@
       <link rel="preload" as="font" href="{{ font_1 | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
   {%- endif -%}
-
-  {{- 'base.css' | asset_url | stylesheet_tag: preload: true -}}
-  {%- if isRTL %}{{- 'theme_rtl.css' | asset_url | stylesheet_tag: preload: true -}}{% endif -%}
+  {% if template contains 'index' %} 
+      {% render 'homepage-critical-css' %}
+  {% elsif template contains 'collection' %}
+      {% render 'collection-critical-css' %}
+  {% elsif template contains 'product' %}
+      {% render 'product-critical-css' %}
+  {% else %}
+      {% render 'all-css' %}      
+  {% endif %}  
+  <link rel="stylesheet" data-href="{{ 'base.css' | asset_url }}">  
+  {% if canonical_url contains '/pages/contact-us' or template contains 'search' %}
+  <link rel="stylesheet" href="//www.indyvogue.com/cdn/shop/t/110/assets/line-awesome.min.css?v=86766576465918945231702990271">
+  {% endif %}
+  {%- if isRTL %}{{- 'theme_rtl.css' | asset_url -}}{% endif -%}
   {%- if settings.bootstrap_css %}{{- 'bootstrap.min.css' | asset_url | stylesheet_tag -}}{% endif -%}
 
   {%- style -%}
-
+    {% comment %}
     {%- if font_source == '1' -%}
 
       {%- assign cl_flz = 'h1, h2, h3, h4, h5, h6, .f__mont, .f_heading, .h3, ' -%}
@@ -75,7 +86,7 @@
       {%- assign t4s_font_fm3 = fm_gg3 -%}
 
     {%- endif -%}
-
+    
     :root {
         
          /* CSS Variables */
@@ -269,8 +280,9 @@
         display: none;
       }
     {%- endif -%}
+    {% endcomment %}
   {%- endstyle -%}
-
+<link rel="stylesheet" data-href="{{ 'head_asset.css' | asset_url }}">  
 <script>
   const isBehaviorSmooth = 'scrollBehavior' in document.documentElement.style && getComputedStyle(document.documentElement).scrollBehavior === 'smooth';
   const t4sXMLHttpRequest = window.XMLHttpRequest, documentElementT4s = document.documentElement; documentElementT4s.className = documentElementT4s.className.replace('no-js', 'js');function loadImageT4s(_this) { _this.classList.add('lazyloadt4sed')};

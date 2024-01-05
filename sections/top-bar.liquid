@@ -109,12 +109,12 @@
                       {%- endif -%}
 
                       {%- if bk_stts.show_language and shop.published_locales.size > 1 -%}
-                         <link rel="stylesheet" href="{{ 'base_drop.min.css' | asset_url }}" media="all">
+                         <link rel="stylesheet" data-href="{{ 'base_drop.min.css' | asset_url }}" >
                         {%- render 'languages', sid: sid, class_mb: 'is-style-mb--false' -%}
                       {%- endif -%}
 
                       {%- if bk_stts.show_currency -%}
-                         <link rel="stylesheet" href="{{ 'base_drop.min.css' | asset_url }}" media="all">
+                         <link rel="stylesheet" data-href="{{ 'base_drop.min.css' | asset_url }}" >
                         {%- render 'currencies', sid: sid, class_mb: 'is-style-mb--false' -%}
                       {%- endif -%}
 
@@ -123,7 +123,7 @@
                       {%- assign array_txt = bk_stts.text | remove: '<p>' | remove: '</p>' | split: ';;;' | compact -%}
                       
                       {%- if array_txt.size > 1 -%}
-                          {{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
+                          <link rel="stylesheet" data-href="{{ 'pre_flickityt4s.min.css' | asset_url }}">
                           <div class="t4s-top-bar-text__slider t4s-row t4s-row-cols-1 t4s-g-0 t4s-rte{% unless block.settings.adding_border %}--list{% endunless %} flickityt4s{% if bk_stts.effect == '1' %} t4s-slide-eff-fade{% endif %}" data-flickityt4s-js='{ "cellAlign": "center","imagesLoaded": 0,"lazyLoad": 0,"freeScroll": 0,"wrapAround": true,"autoPlay" : {{ bk_stts.au_time | times: 1000 }},"pauseAutoPlayOnHover" : true, "prevNextButtons": false,"pageDots": false, "contain" : 1,"adaptiveHeight" : 1,"dragThreshold" : 5,"percentPosition": 1 }'>
                             {%- for txt in array_txt -%}<div class="t4s-top-bar-text__item t4s-col-item ">{{- txt | replace: '[countdown]', cap_date -}}</div>{%- endfor -%}
                           </div>

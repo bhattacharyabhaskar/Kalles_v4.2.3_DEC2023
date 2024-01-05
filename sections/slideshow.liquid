@@ -1,9 +1,9 @@
 <!-- sections/slideshow.liquid -->
-{{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
-{{ 'section.css' | asset_url | stylesheet_tag }}
-{{ 'slideshow.css' | asset_url | stylesheet_tag }}
-{{ 'content-position.css' | asset_url | stylesheet_tag }}
-{{ 'slider-settings.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" data-href="{{ 'pre_flickityt4s.min.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'section.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'slideshow.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'content-position.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'slider-settings.css' | asset_url }}">
 {%- liquid
     assign image_fix = image_nt | image_tag
     assign sid = section.id
@@ -105,16 +105,31 @@
             <div class="t4s-slideshow-item t4s-col-item t4s-slide t4s_position_{{ bk_stts.image_position }}"{% if forloop.first %} style="background:{{ cl_img }}"{% endif %} id="b_{{ block.id }}" data-select-flickity {{ block.shopify_attributes }}>
                 <div class="t4s-slideshow-inner t4s-pr t4s-oh t4s_ratio t4s_ratio_hasmb" {{ attr_img }}style="--aspect-ratioapt:{{ ratio | default: 1.7777 }};--aspect-ratioaptmb:{{ ratiomb | default: 1.7777 }};">
 
-                        {%- if image -%}   
-                            {%- if forloop.first -%}
-                                  <img {% if mb_image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ mb_image.presentation.focal_point }}"{% endif %} class="t4s-img-as-bg t4s-d-md-none -t4s-lz--fadeIn t4s-slide-{{ bk_stts.animate_slide }}"
-                                  srcset="{{ img_url_w_mb0 }}375{{ img_url_w_mb1 }} 375w, {{ img_url_w_mb0 }}550{{ img_url_w_mb1 }} 550w, {{ img_url_w_mb0 }}750{{ img_url_w_mb1 }} 750w, {{ img_url_w_mb0 }}1100{{ img_url_w_mb1 }} 1100w, {{ img_url_w_mb0 }}1500{{ img_url_w_mb1 }} 1500w, {{ img_url_w_mb0 }}1780{{ img_url_w_mb1 }} 1780w, {{ img_url_w_mb0 }}2000{{ img_url_w_mb1 }} 2000w, {{ img_url_w_mb0 }}3000{{ img_url_w_mb1 }} 3000w,{{ img_url_w_mb0 }}3840{{ img_url_w_mb1 }} 3840w, {{ mb_image | image_url }} {{ mb_image.width }}w"
-                                  sizes="(min-width: 768px) 768px,100vw" src="{{ img_url_w_mb0 }}1500{{ img_url_w_mb1 }}"
+                        {%- if image -%} 
+                            <img {% if mb_image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ mb_image.presentation.focal_point }}"{% endif %} class="t4s-img-as-bg t4s-d-md-none -t4s-lz--fadeIn t4s-slide-{{ bk_stts.animate_slide }}"
+                                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-class="LazyLoad"
+                                  data-srcset="{{ img_url_w_mb0 }}375{{ img_url_w_mb1 }} 375w, {{ img_url_w_mb0 }}550{{ img_url_w_mb1 }} 550w, {{ img_url_w_mb0 }}750{{ img_url_w_mb1 }} 750w, {{ img_url_w_mb0 }}1100{{ img_url_w_mb1 }} 1100w, {{ img_url_w_mb0 }}1500{{ img_url_w_mb1 }} 1500w, {{ img_url_w_mb0 }}1780{{ img_url_w_mb1 }} 1780w, {{ img_url_w_mb0 }}2000{{ img_url_w_mb1 }} 2000w, {{ img_url_w_mb0 }}3000{{ img_url_w_mb1 }} 3000w,{{ img_url_w_mb0 }}3840{{ img_url_w_mb1 }} 3840w, {{ mb_image | image_url }} {{ mb_image.width }}w"
+                                  sizes="(min-width: 768px) 768px,100vw" data-src="{{ img_url_w_mb0 }}1500{{ img_url_w_mb1 }}"
                                   loading="lazy" onload="loadImageT4s(this)" alt="{{ mb_image.alt | escape }}" width="{{ mb_image.width }}" height="{{ mb_image.height }}">
                                   <span class="lazyloadt4s-loader is-bg-img t4s-d-md-none" style="background: {{ url_img_mb }}"></span>
                                   <img {% if image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ image.presentation.focal_point }}"{% endif %} class="t4s-img-as-bg t4s-d-none t4s-d-md-block -t4s-lz--fadeIn t4s-slide-{{ bk_stts.animate_slide }}"
-                                  srcset="{{ img_url_w0 }}375{{ img_url_w1 }} 375w, {{ img_url_w0 }}550{{ img_url_w1 }} 550w, {{ img_url_w0 }}750{{ img_url_w1 }} 750w, {{ img_url_w0 }}1100{{ img_url_w1 }} 1100w, {{ img_url_w0 }}1500{{ img_url_w1 }} 1500w, {{ img_url_w0 }}1780{{ img_url_w1 }} 1780w, {{ img_url_w0 }}2000{{ img_url_w1 }} 2000w, {{ img_url_w0 }}3000{{ img_url_w1 }} 3000w,{{ img_url_w0 }}3840{{ img_url_w1 }} 3840w, {{ image | image_url }} {{ image.width }}w"
-                                  sizes="{{ size_img }}" src="{{ img_url_w0 }}1500{{ img_url_w1 }}"
+                                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-class="LazyLoad"
+                                  data-srcset="{{ img_url_w0 }}375{{ img_url_w1 }} 375w, {{ img_url_w0 }}550{{ img_url_w1 }} 550w, {{ img_url_w0 }}750{{ img_url_w1 }} 750w, {{ img_url_w0 }}1100{{ img_url_w1 }} 1100w, {{ img_url_w0 }}1500{{ img_url_w1 }} 1500w, {{ img_url_w0 }}1780{{ img_url_w1 }} 1780w, {{ img_url_w0 }}2000{{ img_url_w1 }} 2000w, {{ img_url_w0 }}3000{{ img_url_w1 }} 3000w,{{ img_url_w0 }}3840{{ img_url_w1 }} 3840w, {{ image | image_url }} {{ image.width }}w"
+                                  sizes="{{ size_img }}" data-src="{{ img_url_w0 }}1500{{ img_url_w1 }}"
+                                  loading="lazy" onload="loadImageT4s(this)" alt="{{ image.alt | escape }}" width="{{ image.width }}" height="{{ image.height }}">
+                                  <span class="lazyloadt4s-loader is-bg-img t4s-d-none t4s-d-md-block" style="background: {{ url_img }}"></span>
+                            {% comment %}
+                            {%- if forloop.first -%}
+                                  <img {% if mb_image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ mb_image.presentation.focal_point }}"{% endif %} class="t4s-img-as-bg t4s-d-md-none -t4s-lz--fadeIn t4s-slide-{{ bk_stts.animate_slide }}"
+                                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-class="LazyLoad"
+                                  data-srcset="{{ img_url_w_mb0 }}375{{ img_url_w_mb1 }} 375w, {{ img_url_w_mb0 }}550{{ img_url_w_mb1 }} 550w, {{ img_url_w_mb0 }}750{{ img_url_w_mb1 }} 750w, {{ img_url_w_mb0 }}1100{{ img_url_w_mb1 }} 1100w, {{ img_url_w_mb0 }}1500{{ img_url_w_mb1 }} 1500w, {{ img_url_w_mb0 }}1780{{ img_url_w_mb1 }} 1780w, {{ img_url_w_mb0 }}2000{{ img_url_w_mb1 }} 2000w, {{ img_url_w_mb0 }}3000{{ img_url_w_mb1 }} 3000w,{{ img_url_w_mb0 }}3840{{ img_url_w_mb1 }} 3840w, {{ mb_image | image_url }} {{ mb_image.width }}w"
+                                  sizes="(min-width: 768px) 768px,100vw" data-src="{{ img_url_w_mb0 }}1500{{ img_url_w_mb1 }}"
+                                  loading="lazy" onload="loadImageT4s(this)" alt="{{ mb_image.alt | escape }}" width="{{ mb_image.width }}" height="{{ mb_image.height }}">
+                                  <span class="lazyloadt4s-loader is-bg-img t4s-d-md-none" style="background: {{ url_img_mb }}"></span>
+                                  <img {% if image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ image.presentation.focal_point }}"{% endif %} class="t4s-img-as-bg t4s-d-none t4s-d-md-block -t4s-lz--fadeIn t4s-slide-{{ bk_stts.animate_slide }}"
+                                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-class="LazyLoad"
+                                  data-srcset="{{ img_url_w0 }}375{{ img_url_w1 }} 375w, {{ img_url_w0 }}550{{ img_url_w1 }} 550w, {{ img_url_w0 }}750{{ img_url_w1 }} 750w, {{ img_url_w0 }}1100{{ img_url_w1 }} 1100w, {{ img_url_w0 }}1500{{ img_url_w1 }} 1500w, {{ img_url_w0 }}1780{{ img_url_w1 }} 1780w, {{ img_url_w0 }}2000{{ img_url_w1 }} 2000w, {{ img_url_w0 }}3000{{ img_url_w1 }} 3000w,{{ img_url_w0 }}3840{{ img_url_w1 }} 3840w, {{ image | image_url }} {{ image.width }}w"
+                                  sizes="{{ size_img }}" data-src="{{ img_url_w0 }}1500{{ img_url_w1 }}"
                                   loading="lazy" onload="loadImageT4s(this)" alt="{{ image.alt | escape }}" width="{{ image.width }}" height="{{ image.height }}">
                                   <span class="lazyloadt4s-loader is-bg-img t4s-d-none t4s-d-md-block" style="background: {{ url_img }}"></span>
                             {%- else -%}
@@ -123,7 +138,7 @@
                                 <img {% if image.presentation.focal_point != '50.0% 50.0%' %} style="object-position: {{ image.presentation.focal_point }}"{% endif %} class="lazyloadt4s t4s-lz--fadeIn t4s-img-as-bg t4s-d-none t4s-d-md-block t4s-slide-{{ bk_stts.animate_slide }}" data-src="{{ img_1 }}" data-widths="[800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2500, 3000, 3400, 3800, 4100]" data-optimumx="2" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
                                 <span class="lazyloadt4s-loader is-bg-img t4s-d-none t4s-d-md-block" style="background: {{ url_img }}"></span>
                             {%- endif -%}
-
+                            {% endcomment %}
                         {%- else -%} 
                         {%- capture current -%}{% cycle 1, 2 %}{%- endcapture -%}
                             {{ 'lifestyle-' | append: current | placeholder_svg_tag: 't4s-placeholder-svg t4s-svg-bg1' }}  
@@ -190,17 +205,17 @@
     {{- html_layout[1] -}} 
 </div>
 {%- if general_block -%}
-    {{ 'general-block.css' | asset_url | stylesheet_tag }}
+    <link rel="stylesheet" data-href="{{ 'general-block.css' | asset_url }}">
 {%- endif -%}
 {%- if use_button -%}
-    {{ 'button-style.css' | asset_url | stylesheet_tag }}
-    <link href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="stylesheet" data-href="{{ 'button-style.css' | asset_url }}">
+    <link data-href="{{ 'custom-effect.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
 {%- endif -%}
 {%- if use_animation -%}
-    <link href="{{ 't4s-animation.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+    <link data-href="{{ 't4s-animation.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
 {%- endif -%}
 {%- if countdown -%} 
-    {{ 'countdown.css' | asset_url | stylesheet_tag }}
+    <link rel="stylesheet" data-href="{{ 'countdown.css' | asset_url }}">
     <template id="countdown-{{ sid }}">
         <span class="countdown-days">
             <span class="cd_timet4 cd-number">%-D</span>

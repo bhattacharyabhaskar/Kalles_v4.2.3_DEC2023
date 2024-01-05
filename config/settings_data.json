@@ -1,6 +1,7 @@
 {
   "current": {
     "purchase_code": "ac82ee1c-42bc-46ca-ba07-fec66c04717c",
+    "animations_reveal_on_scroll": false,
     "home_keywords": "designer indian sarees online, indian wedding sarees online, ethnic sarees online, designer silk sarees, buy indian sarees online, buy sarees from india, traditional sarees. latest sarees collection, ethnic wear for women",
     "shop_author": "IndyVogue",
     "use_rtl": "0",
@@ -116,7 +117,7 @@
           "67b11f56-907e-476f-aa16-dc965c499ef7": {
             "type": "html",
             "settings": {
-              "html_content": "<script data-src=\"https:\/\/reviewsonmywebsite.com\/js\/v2\/embed.js?id=8e7313fc946fd3d8c15c886f791a7ab8\"><\/script>\n<script data-src=\"https:\/\/reviewsonmywebsite.com\/js\/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34\"><\/script>",
+              "html_content": "<script type=\"lazyload_int\" data-src=\"https:\/\/reviewsonmywebsite.com\/js\/v2\/embed.js?id=8e7313fc946fd3d8c15c886f791a7ab8\"><\/script>\n<script type=\"lazyload_int\" data-src=\"https:\/\/reviewsonmywebsite.com\/js\/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34\"><\/script>",
               "hidden_mobile": false
             }
           },
@@ -2313,18 +2314,6 @@
 
     ],
     "blocks": {
-      "6143736321357441667": {
-        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "6468128024931565999": {
-        "type": "shopify:\/\/apps\/seguno-popups\/blocks\/popup-app-embed\/f53bd66f-9a20-4ce2-ae2e-ccbd0148bd4b",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "942670587456160541": {
         "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-embed-stable\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
         "disabled": false,
@@ -2334,6 +2323,18 @@
       "14417550493701535262": {
         "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-embed-latest\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
         "disabled": true,
+        "settings": {
+        }
+      },
+      "6468128024931565999": {
+        "type": "shopify:\/\/apps\/seguno-popups\/blocks\/popup-app-embed\/f53bd66f-9a20-4ce2-ae2e-ccbd0148bd4b",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6143736321357441667": {
+        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
+        "disabled": false,
         "settings": {
         }
       },

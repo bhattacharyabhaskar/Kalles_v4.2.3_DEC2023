@@ -1,9 +1,9 @@
 <!-- sections/collection-main.liquid -->
-{{ 'section.css' | asset_url | stylesheet_tag }}
-{{ 'top-collections.css' | asset_url | stylesheet_tag }}
-{{ 'slider-settings.css' | asset_url | stylesheet_tag }}
-{{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
-<link href="{{ 'loading.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
+<link rel="stylesheet" data-href="{{ 'section.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'top-collections.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'slider-settings.css' | asset_url }}">
+<link rel="stylesheet" data-href="{{ 'pre_flickityt4s.min.css' | asset_url }}">
+<link data-href="{{ 'loading.css' | asset_url }}" rel="stylesheet" >
 
 {%- liquid 
   assign sid = section.id
