@@ -1,8 +1,10 @@
 {%- liquid  
     assign page_type = request.page_type   
-    if page_type == 'collection' and collection.image != blank and se_stts.use_specify_image 
+    if page_type == 'collection' and collection.image != blank and section.settings.use_specify_image 
         assign image = collection.image 
-    else 
+    elsif article.image != blank and section.settings.use_specify_image 
+        assign image = article.image 
+    else         
         assign image = section.settings.image  
     endif    
 -%}  
