@@ -18,7 +18,7 @@
       render 'se_cus_css', code_cus_css: se_stts.code_cus_css, t4s_se_class: t4s_se_class 
     endif 
  -%} 
-  <div class="header-banner {% if se_stts.parallax == true %}t4s-parallax t4s-parallax-bg{% endif %} lazyloadt4s t4s_{{ se_stts.image_size }}" {% if se_stts.parallax == true %}data-parallax-t4strue{% endif %} {%- if image != blank -%} data-bgset1="{{ image | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="1" {%- endif -%} {% render 'style_heading', se_stts: se_stts %}>  
+  <div class="header-banner {% if se_stts.parallax == true %}t4s-parallax t4s-parallax-bg{% endif %} lazyloadt4s t4s_{{ se_stts.image_size }}" {% if se_stts.parallax == true %}data-parallax-t4strue{% endif %} {%- if image != blank -%} data-bgset="{{ image | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="1" {%- endif -%} {% render 'style_heading', se_stts: se_stts %}>  
     {%- if se_bks.size > 0 -%}
     <div class="page-head t4s-pr t4s-oh page_bg_img {{ se_stts.content_align }}">
        <div class="t4s-container t4s-pr t4s-z-100">
