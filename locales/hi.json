@@ -180,7 +180,68 @@
       "taxes_and_shipping_policy_at_checkout_html": "चेकआउट पर कर और <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">शिपिंग की<\/a> गणना की जाती है",
       "taxes_included_but_shipping_at_checkout": "कर शामिल है और शिपिंग की गणना चेकआउट के समय की जाती है",
       "taxes_included_and_shipping_policy_html": "टैक्स शामिल। <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">शिपिंग की<\/a> गणना चेकआउट के समय की जाती है।",
-      "taxes_discounts_and_shipping_at_checkout": "चेकआउट के समय कर, शिपिंग और छूट कोड की गणना की जाती है"
+      "taxes_discounts_and_shipping_at_checkout": "चेकआउट के समय कर, शिपिंग और छूट कोड की गणना की जाती है",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "चेकआउट पर कर, <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">शिपिंग<\/a> और छूट कोड की गणना की जाती है",
+      "taxes_included_discounts_but_shipping_at_checkout": "टैक्स शामिल। चेकआउट के समय शिपिंग और छूट कोड की गणना की जाती है",
+      "taxes_included_discounts_and_shipping_policy_html": "टैक्स शामिल। चेकआउट के समय <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">शिपिंग<\/a> और छूट कोड की गणना की जाती है।",
+      "terms_and_conditions_html": "मैं <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">नियम और शर्तों<\/a> से सहमत हूं ।",
+      "terms_and_conditions": "मैं नियम और शर्तों से सहमत हूं।",
+      "edit_item": "इस आइटम को संपादित करें",
+      "remove_item": "इस सामान को हटाओ",
+      "recurring_mess": "आवर्ती डिलीवरी प्रत्येक {{ frequency }} {{ frequency_unit }} । किसी भी समय बदलें या रद्द करें",
+      "agree_checkout": "जांचने के लिए आपको बिक्री के नियमों और शर्तों से सहमत होना होगा।"
+    },
+    "tool": {
+      "save": "बचाना",
+      "cancel": "रद्द करना",
+      "note": "ऑर्डर नोट जोड़ें",
+      "edit_note": "ऑर्डर नोट संपादित करें",
+      "placeholder_note": "हम आपकी कैसे मदद कर सकते हैं?",
+      "gift_wrap_html": "<span class=\"cd\">क्या आप उपहार लपेटना चाहते हैं?<\/span> केवल {{ money }}",
+      "add_gift_wrap": "एक उपहार लपेटें जोड़ें",
+      "coupon": "कूपन:",
+      "add_coupon": "एक कूपन जोड़ें",
+      "info_coupon": "कूपन कोड चेकआउट पेज पर काम करेगा",
+      "placeholder_coupon": "कूपन कोड"
+    },
+    "shipping_estimator": {
+      "title": "जल यात्रा का आकलन करो",
+      "country": "देश",
+      "province": "प्रांत",
+      "zip_code": "ज़िप कोड",
+      "estimate": "अनुमान लगाना",
+      "multiple_rates": "हमने पाया कि [संख्या_दर_दर] शिपिंग दरें [पते] के लिए उपलब्ध हैं, जो [दर] से शुरू होती हैं।",
+      "one_rate": "हमें [पते] के लिए एक शिपिंग दर उपलब्ध मिली।",
+      "no_rates": "क्षमा करें, हम इस गंतव्य तक जहाज नहीं भेजते हैं।",
+      "errors": "कुछ त्रुटियाँ हैं:"
+    },
+    "shipping_threshold": {
+      "text_1_html": "<span class=\"t4s-cr\">{{ money }}<\/span> से अधिक के सभी ऑर्डर के लिए मुफ़्त शिपिंग",
+      "text_2_html": "लगभग आ ही गया, <span class=\"t4s-ch\">मुफ़्त शिपिंग<\/span> पाने के लिए <span class=\"t4s-cr\">{{ money }}<\/span> और जोड़ें!",
+      "text_3": "[बधाई हो!] आपको मुफ़्त शिपिंग मिल गई है!"
+    },
+    "mini_cart": {
+      "title": "शॉपिंग कार्ट",
+      "close_cart": "कार्ट बंद करें",
+      "empty": "आपकी गाड़ी खाली है।",
+      "subtotal": "उप योग:",
+      "checkout": "चेक आउट",
+      "view": "टोकरी देखें",
+      "title_recommendations": "आपको यह भी पसंद आ सकता हैं"
+    },
+    "cart_page": {
+      "title": "शॉपिंग कार्ट",
+      "label": {
+        "product": "उत्पाद",
+        "price": "कीमत",
+        "quantity": "मात्रा",
+        "total": "कुल"
+      },
+      "empty": "आपकी गाड़ी खाली है।",
+      "empty_html": "चेकआउट के लिए आगे बढ़ने से पहले आपको अपने शॉपिंग कार्ट में कुछ उत्पाद जोड़ने होंगे।<br> आपको हमारे \"शॉप\" पेज पर बहुत सारे दिलचस्प उत्पाद मिलेंगे।",
+      "subtotal": "उप योग:",
+      "checkout": "चेक आउट",
+      "update": "कार्ट अपडेट करें"
     }
   },
   "accessibility": {
@@ -462,5 +523,76 @@
     "here": "यहाँ",
     "free": "मुक्त",
     "sold_out": "बिक गया"
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "name": "आपका नाम (की आवश्यकता)",
+        "email": "आपकी ईमेल (आवश्यक है)",
+        "phone": "आपका फोन नंबर",
+        "message": "आपका संदेश",
+        "submit": "भेजना",
+        "post_success": "हमसे संपर्क करने के लिए धन्यवाद। हम यथाशीघ्र आपसे संपर्क करेंगे।",
+        "error_heading": "कृपया निम्नलिखित को समायोजित करें:"
+      }
+    },
+    "404": {
+      "subtext": "क्षमा मांगना! आप जो पृष्ठ देख रहे हैं वह नहीं मिल रहा है।",
+      "link_html": "वापस <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" rel=\"home\">मुख्य पृष्ठ<\/a> पर जाएं"
+    }
+  },
+  "customer": {
+    "form": {
+      "error_heading": "कृपया निम्नलिखित को समायोजित करें:"
+    },
+    "account": {
+      "title": "मेरा खाता",
+      "make_order": "अपना पहला ऑर्डर करें",
+      "none": "आपने अभी तक कोई ऑर्डर नहीं दिया है.",
+      "hello_html": "नमस्ते <strong>{{ name }}<\/strong> (नहीं <strong>{{ name }}<\/strong> ? <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">लॉग आउट करें<\/a> )",
+      "manage_subs": "सदस्यता प्रबंधित करें",
+      "dashboard": "डैशबोर्ड",
+      "wishlist": "इच्छा-सूची",
+      "details": "खाता विवरण :",
+      "log_out": "लॉग आउट",
+      "name": "नाम:",
+      "email": "ईमेल:",
+      "address": "पता:",
+      "address_2": "पता द्वितीय:",
+      "country": "देश:",
+      "zip": "ज़िप:",
+      "phone": "फ़ोन:",
+      "company": "कंपनी:"
+    },
+    "menu": {
+      "dashboard": "डैशबोर्ड",
+      "addresses": "पतों",
+      "logout": "लॉग आउट"
+    },
+    "activate_account": {
+      "title": "खाते को सक्रिय करें",
+      "subtext": "अपना खाता सक्रिय करने के लिए अपना पासवर्ड बनाएं.",
+      "password": "पासवर्ड",
+      "password_confirm": "पासवर्ड की पुष्टि कीजिये",
+      "submit": "खाते को सक्रिय करें",
+      "cancel": "आमंत्रण अस्वीकार करें"
+    },
+    "addresses": {
+      "title": "पतों",
+      "default": "गलती करना",
+      "add_new": "एक नया पता लिखो",
+      "edit_address": "पता संपादित करें",
+      "first_name": "पहला नाम",
+      "last_name": "उपनाम",
+      "company": "कंपनी",
+      "address1": "पता",
+      "address2": "अपार्टमेंट, सुइट, आदि।",
+      "city": "शहर",
+      "country": "देश\/क्षेत्र",
+      "province": "प्रांत",
+      "zip": "डाक का \/ ज़िप कोड",
+      "phone": "फ़ोन",
+      "set_default": "डिफ़ॉल्ट पते के रूप में सेट करें"
+    }
   }
 }
