@@ -197,7 +197,10 @@
     "previous_slide": "बाईं ओर स्लाइड करें",
     "loading": "लोड हो रहा है...",
     "total_reviews": "कुल समीक्षाएँ",
-    "star_reviews_info": "{{ rating_value }} सितारों में से {{ rating_max }}"
+    "star_reviews_info": "{{ rating_value }} सितारों में से {{ rating_max }}",
+    "skip_to_text": "इसे छोड़कर सामग्री पर बढ़ने के लिए",
+    "skip_to_product_info": "उत्पाद जानकारी पर जाएं",
+    "close": "बंद करना"
   },
   "blogs": {
     "filter_all": "सभी",
@@ -278,5 +281,138 @@
       "load_prev": "पिछला लोड करें",
       "bar_with_count_html": "आपने { {{ total_count }} <span data-current-bar>{{ current_count }}<\/span> }} उत्पाद देखे हैं"
     }
+  },
+  "sections": {
+    "ecom-default-template-quickview": {
+      "textcontent_hej9vk0uggt_html": "(100+ रेटिंग)",
+      "product_single_sale_text_igi21p1nxm_html": "{के बाद मूल्य",
+      "product_single_sold_text_igi21p1nxm_html": "बिक गया",
+      "instock_text_phpd2kxein8_html": "स्टॉक में 26 आइटम बचे हैं",
+      "outstock_text_phpd2kxein8_html": "उपलब्ध नहीं",
+      "inventory_text_phpd2kxein8_html": "स्टॉक में बचे {मात्रा} आइटम",
+      "preorder_text_phpd2kxein8_html": "पाठ को पूर्व-आदेश दें",
+      "product_option_swatch_mopm0qumv6_html": "रंग",
+      "add_to_cart_boa4cnsk0z_html": "कार्ट में जोड़ें",
+      "pre_order_boa4cnsk0z_html": "पूर्व आदेश",
+      "product_unavailable_boa4cnsk0z_html": "अनुपलब्ध",
+      "out_stock_boa4cnsk0z_html": "उपलब्ध नहीं",
+      "added_cart_text_boa4cnsk0z_html": "कार्ट में जोड़ा गया",
+      "added_cart_message_boa4cnsk0z_html": "कार्ट में जोड़ा गया",
+      "headingtext_ke5l5ure39_html": "<b>सुरक्षित<\/b> <i>और संरक्षित चेकआउट की<\/i> गारंटी दें",
+      "headingtext_qx9733j8ss_html": "शेयर करना:"
+    },
+    "announcement": {
+      "label": "घोषणा",
+      "close": "बंद करना"
+    },
+    "lookbook": {
+      "title": {
+        "product": "उत्पाद",
+        "text": "मूलपाठ"
+      }
+    },
+    "countdown_text": {
+      "day": "दिन",
+      "day_plural": "दिन",
+      "hr": "घंटा",
+      "hr_plural": "घंटे",
+      "min": "मिन",
+      "min_plural": "मिनट",
+      "sec": "सेकंड",
+      "sec_plural": "सेकेंड"
+    },
+    "newsletter_form": {
+      "email_placeholder": "आपका ईमेल पता",
+      "submit": "सदस्यता लें",
+      "subscribing": "सदस्यता ले रहा हूँ...",
+      "confirmation": "सब्सक्राइब करने के लिए धन्यवाद",
+      "error_exist": "ईमेल पहले से ही किसी अन्य खाते के लिए उपयोग किया जा चुका है"
+    },
+    "agree_mail": {
+      "conditions": "साइन अप करने के लिए आपको नियमों और शर्तों से सहमत होना होगा।",
+      "link_conditions_html": "मैं <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"t4s-text__link\">नियम और शर्तों<\/a> से सहमत हूं ।",
+      "link_conditions_emty": "मैं नियम और शर्तों से सहमत हूं।"
+    }
+  },
+  "general": {
+    "meta": {
+      "tags": "टैग किया गया \" {{ tags }} \"",
+      "page": "पेज {{ page }}"
+    },
+    "aria": {
+      "close": "बंद करना",
+      "back_to_top": "टॉप पर वापस"
+    },
+    "popup": {
+      "close": "बंद करना",
+      "close_esc": "बंद करें (Esc)",
+      "loading": "लोड हो रहा है...",
+      "pswp_share": "शेयर करना",
+      "pswp_fs": "संपूर्ण स्क्रीन टॉगल करें",
+      "pswp_zoom": "ज़ूम इन\/आउट करें",
+      "pswp_facebook": "फेसबुक पर सांझा करें",
+      "pswp_twitter": "करें",
+      "pswp_pinterest": "इसे पिन करें",
+      "pswp_prev": "पिछला (तीर बाएँ)",
+      "pswp_next": "अगला (दाईं ओर तीर)",
+      "copy_text": "क्लिपबोर्ड पर कॉपी करें",
+      "copied": "कॉपी किया गया"
+    },
+    "newsletter_popup": {
+      "email_placeholder": "आपका ईमेल पता",
+      "submit": "सदस्यता लें",
+      "subscribing": "सदस्यता ले रहा हूँ...",
+      "confirmation": "सब्सक्राइब करने के लिए धन्यवाद"
+    },
+    "pagination": {
+      "label": "पृष्ठ पर अंक लगाना",
+      "page": "पृष्ठ {{ number }}",
+      "next": "अगला",
+      "previous": "पिछला"
+    },
+    "breadcrumb": {
+      "home": "घर"
+    },
+    "mobile_menu": {
+      "menu": "मेन्यू",
+      "close": "मेनू, श्रेणियां बंद करें",
+      "categories": "श्रेणियाँ",
+      "wishlist": "इच्छा-सूची",
+      "compare": "तुलना करना",
+      "search": "खोज",
+      "login_register": "लॉगइन\/रजिस्टर करें",
+      "my_account": "मेरा खाता"
+    },
+    "sidebar": {
+      "open": "साइडबार खोलें",
+      "close": "साइडबार बंद करें",
+      "title": "साइड बार",
+      "language": "अपनी भाषा का चयन करें",
+      "currency": "अपनी मुद्रा चुनें"
+    }
+  },
+  "socials": {
+    "share_fb": "फेसबुक पर सांझा करें",
+    "share_tw": "ट्विटर पर साझा करें",
+    "share_em": "ईमेल पर साझा करें",
+    "share_pr": "Pinterest पर साझा करें",
+    "share_tu": "टम्बलर पर साझा करें",
+    "share_tl": "टेलीग्राम पर साझा करें",
+    "share_wa": "व्हाट्सएप पर शेयर करें",
+    "follow_fb": "फेसबुक पर फॉलो करें",
+    "follow_tw": "टिवीटर पर फॉलो करना",
+    "follow_it": "इंस्टाग्राम पर फॉलो करें",
+    "follow_dr": "ड्रिबल पर फ़ॉलो करें",
+    "follow_ld": "लिंक्डइन पर फॉलो करें",
+    "follow_pr": "Pinterest पर फ़ॉलो करें",
+    "follow_tu": "ब्लॉग को देखो",
+    "follow_yt": "यूट्यूब पर फॉलो करें",
+    "follow_vm": "Vimeo पर फ़ॉलो करें",
+    "follow_bh": "Behance पर फ़ॉलो करें",
+    "follow_sc": "साउंडक्लाउड पर फॉलो करें",
+    "follow_tt": "टिकटॉक पर फॉलो करें",
+    "follow_sp": "स्नैपचैट पर फॉलो करें",
+    "follow_sptify": "Spotify पर फ़ॉलो करें",
+    "follow_threads": "थ्रेड्स पर फ़ॉलो करें"
   }
 }
