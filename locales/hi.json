@@ -1,0 +1,144 @@
+{
+  "products": {
+    "product": {
+      "pre_oder_status": "पूर्व आदेश",
+      "sold_out_status": "स्टॉक ख़त्म",
+      "product_category": "श्रेणियाँ:",
+      "product_tag": "टैग:",
+      "product_size_guide": "साइज़ संदर्शिका",
+      "delivery_return": "डिलिवरी एवं वापसी",
+      "ask_question": "प्रश्न पूछें"
+    },
+    "product_card": {
+      "read_more": "और पढ़ें",
+      "view": "उत्पाद देखें",
+      "quick_view": "त्वरित देखें",
+      "quick_shop": "त्वरित दुकान",
+      "quick_shop_text": {
+        "replace_item_atc": "आइटम बदलें",
+        "replace_item_pre": "आइटम बदलें"
+      },
+      "select_option": "विकल्प चुनो",
+      "swatch_limit": "अधिक रंग दिखाएँ",
+      "swatch_limit_less": "कम रंग दिखाएं",
+      "offer_end_in": "ऑफर इसमें समाप्त होता है:",
+      "countdown_text": {
+        "day": "दिन",
+        "day_plural": "दिन",
+        "hr": "घंटा",
+        "hr_plural": "घंटे",
+        "min": "मिन",
+        "min_plural": "मिनट",
+        "sec": "सेकंड",
+        "sec_plural": "सेकेंड"
+      }
+    },
+    "product_single": {
+      "countdown_text": {
+        "day": "दिन",
+        "day_plural": "दिन",
+        "hr": "घंटा",
+        "hr_plural": "घंटे",
+        "min": "मिन",
+        "min_plural": "मिनट",
+        "sec": "सेकंड",
+        "sec_plural": "सेकेंड"
+      },
+      "order_dayNames": "रविवार सोमवार मंगलवार बुधवार गुरुवार शुक्रवार शनिवार",
+      "order_monthNames": "जनवरी, फरवरी, मार्च, अप्रैल, मई, जून, जुलाई, अगस्त, सितंबर, अक्टूबर, नवंबर, दिसंबर",
+      "view_in_space": "अपने स्थान में देखें",
+      "view_in_space_label": "अपने स्थान में देखें, आइटम को संवर्धित वास्तविकता विंडो में लोड करता है",
+      "view_360": "360 उत्पाद दृश्य",
+      "click_zoom": "बड़ा करने के लिए क्लिक करें",
+      "will_not_ship_until_html": "<span data-incoming-date>{{ date }}<\/span> तक शिप नहीं किया जाएगा",
+      "will_be_in_stock_after_html": "<span data-incoming-date>{{ date }}<\/span> के बाद स्टॉक में होगा"
+    },
+    "fbt": {
+      "title": "अक्सर एक साथ खरीदे जाने वाले",
+      "tt_price": "कुल कीमत:",
+      "add_tc": "चयनित को कार्ट में जोड़ें",
+      "this_item": "यह आइटम:"
+    },
+    "grouped": {
+      "tt_price": "उप योग:"
+    },
+    "notify_stock": {
+      "trigger": "उपलब्ध होने पर मुझे सूचित करें",
+      "title": "इस आइटम के स्टॉक में वापस आने पर सूचना प्राप्त करने के लिए पंजीकरण करें।",
+      "email": "मेल पता",
+      "please": "जब यह उत्पाद उपलब्ध हो जाए तो कृपया मुझे सूचित करें",
+      "success": "धन्यवाद! जब यह उत्पाद उपलब्ध हो जाएगा तो हम आपको सूचित करेंगे!",
+      "button": "उपलब्ध होने पर मुझे ईमेल करें"
+    },
+    "facets": {
+      "apply": "आवेदन करना",
+      "clear": "स्पष्ट",
+      "clear_all": "सभी साफ करें",
+      "from": "से",
+      "filter_and_sort": "फ़िल्टर करें और क्रमबद्ध करें",
+      "filter_title": "फ़िल्टर",
+      "title_price": "कीमत",
+      "button_price": "फ़िल्टर",
+      "results_with_count_html": {
+        "zero": "<span class=\"cp\">0<\/span> उत्पाद मिले",
+        "one": "<span class=\"cp\">1<\/span> उत्पाद मिले",
+        "other": "<span class=\"cp\">{{ count }}<\/span> उत्पाद मिले"
+      },
+      "clear_filter": "स्पष्ट निस्यंदक"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "हमारी साइट खोजें",
+      "heading": {
+        "one": "खोज का परिणाम",
+        "other": "खोज के परिणाम"
+      },
+      "results_others": "लेख, पृष्ठ से परिणाम",
+      "quick_search": "त्वरित खोज:",
+      "close_search": "खोज बंद करें",
+      "suggest": "कुछ प्रेरणा चाहिए?",
+      "placeholder": "खोज",
+      "placeholder_products": "उत्पाद खोजें",
+      "submit": "खोज",
+      "all_categories": "सब वर्ग",
+      "no_results": "कोई परिणाम मेल नहीं खाता",
+      "no_product_results": "आपके चयन से मेल खाता कोई उत्पाद नहीं मिला.",
+      "sort_by_label": "इसके अनुसार क्रमबद्ध करें:",
+      "sort_button": "क्रम से लगाना",
+      "filter_button": "फ़िल्टर"
+    },
+    "search_for": "“ {{ terms }} ” खोजें",
+    "pagination": {
+      "view_all": "सभी को देखें",
+      "load_more": "और लोड करें",
+      "load_prev": "पिछला लोड करें",
+      "bar_with_count_html": "आपने { {{ total_count }} <span data-current-bar>{{ current_count }}<\/span> }} उत्पाद देखे हैं"
+    },
+    "results_with_term": {
+      "zero": "इसके लिए खोज परिणाम: \" {{ terms }} \"",
+      "one": "इसके लिए खोज परिणाम: \" {{ terms }} \"",
+      "other": "इसके लिए खोज परिणाम: \" {{ terms }} \""
+    },
+    "results_with_count_and_term": {
+      "zero": "इसके लिए खोज परिणाम: \" {{ terms }} \"",
+      "one": "{{ count }} इसके लिए खोज परिणाम: “ {{ terms }} ”",
+      "other": "{{ count }} इसके लिए खोज परिणाम: “ {{ terms }} ”"
+    }
+  },
+  "cart": {
+    "general": {
+      "item_cart": {
+        "zero": "सामान",
+        "one": "वस्तु",
+        "other": "सामान"
+      },
+      "cookies_required": "शॉपिंग कार्ट का उपयोग करने के लिए कुकीज़ सक्षम करें",
+      "taxes_and_shipping_at_checkout": "चेकआउट पर कर और शिपिंग की गणना की जाती है",
+      "taxes_and_shipping_policy_at_checkout_html": "चेकआउट पर कर और <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">शिपिंग की<\/a> गणना की जाती है",
+      "taxes_included_but_shipping_at_checkout": "कर शामिल है और शिपिंग की गणना चेकआउट के समय की जाती है",
+      "taxes_included_and_shipping_policy_html": "टैक्स शामिल। <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">शिपिंग की<\/a> गणना चेकआउट के समय की जाती है।",
+      "taxes_discounts_and_shipping_at_checkout": "चेकआउट के समय कर, शिपिंग और छूट कोड की गणना की जाती है"
+    }
+  }
+}
