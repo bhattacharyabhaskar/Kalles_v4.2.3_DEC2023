@@ -7,7 +7,30 @@
       "product_tag": "टैग:",
       "product_size_guide": "साइज़ संदर्शिका",
       "delivery_return": "डिलिवरी एवं वापसी",
-      "ask_question": "प्रश्न पूछें"
+      "ask_question": "प्रश्न पूछें",
+      "include_taxes": "टैक्स शामिल।",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">शिपिंग की<\/a> गणना चेकआउट के समय की जाती है।",
+      "from_price_html": "{{ price_min }} <span class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\">से<\/span>",
+      "Please_choose_pr_options": "कृपया इस उत्पाद को अपने कार्ट में जोड़ने से पहले कुछ उत्पाद विकल्प चुनें।",
+      "choose_an_option": "एक विकल्प चुनें",
+      "add_to_cart": "कार्ट में जोड़ें",
+      "pre_order": "पूर्व आदेश",
+      "unavailable": "अनुपलब्ध",
+      "sold_out": "स्टॉक ख़त्म",
+      "notice_only_stock": "पर्याप्त वस्तुएँ उपलब्ध नहीं हैं. केवल {{ max }} बचा है।",
+      "login_to_wishlist": "विशलिस्ट का उपयोग करने के लिए लॉगिन करें",
+      "add_to_wishlist": "इच्छा सूची में जोड़ें",
+      "remove_wishlist": "इच्छा सूची हटाएँ",
+      "browse_wishlist": "इच्छा सूची ब्राउज़ करें",
+      "compare": "तुलना करना",
+      "added_text_compare": "उत्पाद की तुलना करें",
+      "product_vendor": "विक्रेता:",
+      "product_type": "प्रकार:",
+      "product_sku": "एसकेयू:",
+      "product_barcode": "बारकोड:",
+      "na": "एन\/ए",
+      "available": "उपलब्धता :",
+      "in_stock_status": "स्टॉक में"
     },
     "product_card": {
       "read_more": "और पढ़ें",
@@ -85,6 +108,25 @@
         "other": "<span class=\"cp\">{{ count }}<\/span> उत्पाद मिले"
       },
       "clear_filter": "स्पष्ट निस्यंदक"
+    },
+    "aria_label": {
+      "select_option": "“ {{ product_title }} ” के लिए विकल्प चुनें",
+      "add_to_cart": "अपने कार्ट में “ {{ product_title }} ” जोड़ें",
+      "read_more": "“ {{ product_title }} ” के बारे में और पढ़ें"
+    },
+    "breadcrumb": {
+      "home": "घर",
+      "back_to": "{{ title }} पर वापस जाएँ"
+    },
+    "badge": {
+      "new": "नया",
+      "sold_out": "बिक गया",
+      "on_sale": "बिक्री",
+      "pre_order": "पूर्व आदेश",
+      "save_amoun_html": "- {{ saved_amount }} %",
+      "save_amount_fixed_html": "- {{ saved_amount }}",
+      "save_amount_2_html": "बचाएं {{ saved_amount }} %",
+      "save_amount_fixed_2_html": "सहेजें {{ saved_amount }}"
     }
   },
   "search": {
@@ -139,6 +181,102 @@
       "taxes_included_but_shipping_at_checkout": "कर शामिल है और शिपिंग की गणना चेकआउट के समय की जाती है",
       "taxes_included_and_shipping_policy_html": "टैक्स शामिल। <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" target=\"_blank\">शिपिंग की<\/a> गणना चेकआउट के समय की जाती है।",
       "taxes_discounts_and_shipping_at_checkout": "चेकआउट के समय कर, शिपिंग और छूट कोड की गणना की जाती है"
+    }
+  },
+  "accessibility": {
+    "unit_price_separator": "प्रति",
+    "vendor": "विक्रेता:",
+    "error": "गलती",
+    "refresh_page": "किसी चयन को चुनने से पूरा पृष्ठ ताज़ा हो जाता है।",
+    "link_messages": {
+      "new_window": "एक नई विंडो में खुलता है।",
+      "external": "बाहरी वेबसाइट खोलता है."
+    },
+    "of": "का",
+    "next_slide": "दाईं ओर स्लाइड करें",
+    "previous_slide": "बाईं ओर स्लाइड करें",
+    "loading": "लोड हो रहा है...",
+    "total_reviews": "कुल समीक्षाएँ",
+    "star_reviews_info": "{{ rating_value }} सितारों में से {{ rating_max }}"
+  },
+  "blogs": {
+    "filter_all": "सभी",
+    "pagination": {
+      "view_all": "सभी को देखें",
+      "load_more": "अधिक पोस्ट लोड करें",
+      "load_prev": "पिछला लोड करें",
+      "bar_with_count_html": "आपने { {{ total_count }} <span data-current-bar>{{ current_count }}<\/span> } पोस्ट देखी हैं"
+    },
+    "article": {
+      "by": "द्वारा",
+      "on": "पर",
+      "in": "में",
+      "read_more": "जारी रखें पढ़ रहे हैं",
+      "back_to": "{{ title }} पर वापस जाएँ",
+      "view_all": "और देखें",
+      "by_author": "{{ author }} द्वारा"
+    },
+    "portfolio": {
+      "filter_all": "सभी",
+      "category": "वर्ग:",
+      "author": "लेखक:",
+      "tags": "टैग:"
+    },
+    "comments": {
+      "title": "एक टिप्पणी छोड़ें",
+      "comments_note_html": "आपकी ईमेल आईडी प्रकाशित नहीं की जाएगी। आवश्यक फ़ील्ड चिह्नित हैं <span class=\"required\">*<\/span>",
+      "name": "नाम",
+      "email": "ईमेल",
+      "message": "टिप्पणी",
+      "post": "तेज़ी से टिप्पणी करना",
+      "moderated": "कृपया ध्यान दें, टिप्पणियाँ प्रकाशित होने से पहले अनुमोदित होनी चाहिए",
+      "success_moderated": "आपकी टिप्पणी सफलतापूर्वक पोस्ट कर दी गई. हम इसे थोड़ी देर में प्रकाशित करेंगे, क्योंकि हमारा ब्लॉग संचालित है।",
+      "success": "आपकी टिप्पणी सफलतापूर्वक पोस्ट कर दी गई! धन्यवाद!",
+      "unapproved": "प्रदान किया गया ईमेल पता टिप्पणियाँ पोस्ट करने के लिए स्वीकृत नहीं है।",
+      "error_heading": "कृपया निम्नलिखित को समायोजित करें:",
+      "with_count": {
+        "zero": "0 टिप्पणी",
+        "one": "1 टिप्पणी",
+        "other": "{{ count }} टिप्पणियाँ"
+      },
+      "with_count_2": {
+        "zero": "एक टिप्पणी छोड़ें",
+        "one": "1 टिप्पणी",
+        "other": "{{ count }} टिप्पणियाँ"
+      },
+      "with_count_html": {
+        "zero": "0 <span>टिप्पणी<\/span>",
+        "one": "1 <span>टिप्पणी<\/span>",
+        "other": "{{ count }} <span>टिप्पणियाँ<\/span>"
+      },
+      "comments_title_html": {
+        "zero": "0 \" <span>{{ title }}<\/span> \" पर विचार",
+        "one": "1 विचार \" <span>{{ title }}<\/span> \" पर",
+        "other": "“ <span>{{ title }}<\/span> ” पर विचार {{ count }}"
+      }
+    }
+  },
+  "list_collections": {
+    "meta_title": "संग्रह सूची पृष्ठ",
+    "meta_description": "संग्रह सूची पृष्ठ, जो स्टोर के सभी संग्रहों को सूचीबद्ध करता है।",
+    "pagination": {
+      "load_more": "और लोड करें",
+      "load_prev": "पिछला लोड करें",
+      "bar_with_count_html": "आपने { {{ total_count }} <span data-current-bar>{{ current_count }}<\/span> } संग्रह देख लिया है"
+    }
+  },
+  "collections": {
+    "general": {
+      "no_matches": "आपके चयन से मेल खाता कोई उत्पाद नहीं मिला.",
+      "sort_by_label": "इसके अनुसार क्रमबद्ध करें:",
+      "sort_button": "क्रम से लगाना",
+      "filter_button": "फ़िल्टर"
+    },
+    "pagination": {
+      "view_all": "सभी को देखें",
+      "load_more": "और लोड करें",
+      "load_prev": "पिछला लोड करें",
+      "bar_with_count_html": "आपने { {{ total_count }} <span data-current-bar>{{ current_count }}<\/span> }} उत्पाद देखे हैं"
     }
   }
 }
