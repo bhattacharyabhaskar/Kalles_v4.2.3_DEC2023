@@ -71,7 +71,9 @@
         {% comment %}
             // BB: For all collections canonical url 
         {% endcomment %}
-        
+        {% render 'page-title-meta-desc' %}
+      
+        page-title-meta-desc
 		{%- if t_name != 'list-collections' -%}
 			{%- capture seo_title -%}
 				{%- if template == 'search' and search.performed == true -%}
