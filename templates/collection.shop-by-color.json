@@ -80,13 +80,13 @@
     "0b52ae23-2d17-4b50-bc32-eecbe70ec87e": {
       "type": "hero_image",
       "settings": {
-        "se_height": "t4s_ratioadapt",
+        "se_height": "t4s_ratio_cuspx",
         "custom_dk": true,
-        "height_dk": 600,
+        "height_dk": 400,
         "custom_tb": true,
-        "height_tb": 400,
+        "height_tb": 300,
         "custom_mb": true,
-        "height_mb": 250,
+        "height_mb": 200,
         "image": "{{ collection.metafields.content.collection_image_1.value }}",
         "parallax": false,
         "image_position": "0",
