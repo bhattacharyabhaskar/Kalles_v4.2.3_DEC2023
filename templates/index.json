@@ -3,14 +3,14 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "11663eb2-1d5e-4274-9e4e-b0c8f5a659c5": {
+        "4e65604c-69db-441b-89fb-89b01555687b": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/01022024-DT-Banner-05.jpg",
-            "image_mb": "shopify:\/\/shop_images\/01022024-MB-Banner-05.jpg",
+            "image": "shopify:\/\/shop_images\/01022024-DT-Banner-01_e88e7f05-c745-438b-be67-a1044af9a19b.jpg",
+            "image_mb": "shopify:\/\/shop_images\/01022024-MB-Banner-06.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/yellow-sarees",
+            "link_img1": "shopify:\/\/collections\/red-sarees",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
@@ -35,6 +35,46 @@
             "border_bl": false,
             "br_color": "#222",
             "br_bg": "#fff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "11663eb2-1d5e-4274-9e4e-b0c8f5a659c5": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01022024-DT-Banner-05.jpg",
+            "image_mb": "shopify:\/\/shop_images\/01022024-MB-Banner-05.jpg",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "shopify:\/\/collections\/yellow-sarees",
+            "open_link": "_self",
+            "animate_slide": "none",
+            "text_align": "center",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
             "br_opacity": 50,
             "br_style": "solid",
             "br_pd": 20,
@@ -205,6 +245,7 @@
         }
       },
       "block_order": [
+        "4e65604c-69db-441b-89fb-89b01555687b",
         "11663eb2-1d5e-4274-9e4e-b0c8f5a659c5",
         "164602873867eb3815-0",
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336",
