@@ -61,6 +61,7 @@
       ],
       "settings": {
         "heading_fullwidth": false,
+        "image": "{{ collection.metafields.content.collection_image_1.value }}",
         "use_specify_image": true,
         "parallax": true,
         "color": "#000000",
