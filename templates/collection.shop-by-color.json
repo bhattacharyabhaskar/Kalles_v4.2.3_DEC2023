@@ -228,34 +228,6 @@
     },
     "hero_image_i3KjTG": {
       "type": "hero_image",
-      "blocks": {
-        "custom_text_pmTddB": {
-          "type": "custom_text",
-          "settings": {
-            "text": "Our Patrons",
-            "remove_br_tag": false,
-            "tag": "p",
-            "fontf": "inherit",
-            "text_cl": "#fff",
-            "text_fs": 21,
-            "text_lh": 0,
-            "text_fw": 400,
-            "text_ls": 1,
-            "text_mgb": 15,
-            "font_italic": false,
-            "text_shadow": false,
-            "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
-            "text_ls_mb": 0,
-            "text_mgb_mobile": 10,
-            "animation": "none"
-          }
-        }
-      },
-      "block_order": [
-        "custom_text_pmTddB"
-      ],
       "settings": {
         "se_height": "t4s_ratioadapt",
         "custom_dk": true,
@@ -276,17 +248,17 @@
         "ch_pos": 50,
         "cv_pos_mb": 0,
         "ch_pos_mb": 50,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "bg_opacity": 0,
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "bg_content_op": 0,
         "content_pd_tb": 15,
         "content_pd_lr": 15,
         "content_pd_tb_mb": 1,
         "content_pd_lr_mb": 10,
         "border_bl": false,
-        "br_color": "#222",
-        "br_bg": "#fff",
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
         "br_opacity": 50,
         "br_style": "solid",
         "br_pd": 20,
