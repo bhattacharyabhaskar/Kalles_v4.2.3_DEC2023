@@ -330,7 +330,7 @@
         /*! Custom CSS */
         .t4s-cart_discounts{display:none !important}.t4s-drawer__scroll.t4s-current-scrollbar{position:relative !important}.t4s-drawer__wrap{overflow:scroll !important}
     </style>
-    <script type="lazyload_int" id="la-dn-script-startup-token">
+    <script type="text/javascript" id="la-dn-script-startup-token">
         try {
             let j = window.location;
             let a = j.href.replace(j.hash, '');
@@ -356,7 +356,7 @@
             console.error('[Discount Ninja] Failed to save token/discount code from query parameters', error);
         }
     </script>
-    <script type="lazyload_int" id="la-dn-script-startup-eventhandler">
+    <script type="text/javascript" id="la-dn-script-startup-eventhandler">
         try {
             if (EventTarget == undefined) {
             if (EventTarget.prototype.original_la_dn_add_event_listener == null) {
@@ -372,110 +372,66 @@
             console.error('[Discount Ninja] Failed to register event handler override', error);
         }
     </script>
-    <script type="lazyload_int" id="la-dn-script-startup-context">
-    {%- comment -%}Initialize object{%- endcomment -%}
-    window.discountNinjaContext = { 
-    Version: "4.7.0",
-    Shop: "{{shop.permanent_domain}}", 
-    DesignMode: "{{ request.design_mode }}", 
-    Locale: "{{ request.locale.iso_code }}", RootRoute: "{{ routes.root_url }}", CartRoute: "{{ routes.cart_url }}", ApiVersion: "5", 
-    ShopCurrency: "{{shop.currency}}", 
-    PresentmentCurrency: "{{cart.currency.iso_code}}", 
-    PresentmentCurrencyMoney: "{{ 677789 | money | replace: '"', "'" }}", 
-    PresentmentCurrencyMoneyWithCurrency: "{{ 677789 | money_with_currency | replace: '"', "'" }}", 
-    PresentmentCurrencyMoneyWithoutCurrency: "{{ 677789 | money_without_currency | replace: '"', "'" }}", 
-    PresentmentCurrencyMoneyWithoutTrailingZeros: "{{ 677789 | money_without_trailing_zeros | replace: '"', "'" }}", 
-    EnabledCurrencies: [], MoneyFormat: "{{shop.money_format | replace: '"', "'"}}",
-    MoneyWithCurrencyFormat: "{{shop.money_with_currency_format | replace: '"', "'"}}", 
-    Customer: null, Cart: {{ cart | json }}, Product: null, CollectionProducts: [], ProductVariants: null, Labels: { From: "{{ 'discount_ninja.from' | t | replace: '"', "'" }}", Here: "{{ 'discount_ninja.here' | t | replace: '"', "'" }}", Free: "{{ 'discount_ninja.free' | t | replace: '"', "'" }}", SoldOut: "{{ 'discount_ninja.sold_out' | t | replace: '"', "'" }}" }, Settings: {% include 'limoniapps-discountninja-context-settings' %}, Flags: {% include 'limoniapps-discountninja-context-flags' %}, Status: {% include 'limoniapps-discountninja-context-status' %}, Signature: {% include 'limoniapps-discountninja-context-signature' %} };
-    
-    {%- comment -%}If we are on a collection page, get the details of the products in the collection{%- endcomment -%}
-    {%- if collection and discountninjacollection == nil -%}{%- assign discountninjacollection = collection -%}{%- endif -%}   
-    {%- if discountninjacollection -%}
-          {%- for collectionProduct in discountninjacollection.products limit: 200 -%}
-            window.discountNinjaContext.CollectionProducts.push({ 
-              Collections: {{ collectionProduct.collections | map: 'handle' | default: '[[--NONE--]]' | join: ',' | json }}, 
-              CollectionIds: "{{collectionProduct.collections | map: 'id' | default: '[[--NONE--]]' | join: ',' }}", 
-              Available: {{ collectionProduct.available }}, 
-              Handle: "{{ collectionProduct.handle }}", 
-              Price: {{ collectionProduct.price_max | default: 0 }}, 
-              CompareAtPrice: {{ collectionProduct.compare_at_price_max | default: 0 }}, 
-              PriceVaries: {{ collectionProduct.price_varies | default: false }}, 
-              PriceMin: {{ collectionProduct.price_min | default: 0 }}, 
-              Tags: {{ collectionProduct.tags | default: '[[--NONE--]]' | join: ', ' | json }},
-              VariantId: {{ collectionProduct.selected_or_first_available_variant.id | default: 'null' }},
-              ProductId: {{ collectionProduct.id | default: 0 }}
-          });
-        {%- endfor -%}
-    {%- endif -%}
-  
-    {%- comment -%}Add customer details if logged in{%- endcomment -%}
-    {%- if customer -%}
-        window.discountNinjaContext.Customer = { Id: {{ customer.id | default: 0 }}, 
-        NumberOfOrders: {{ customer.orders | size | default: 0 }}, 
-        Email: "{{ customer.email | default: '' | remove: '"' }}", 
-        Tags: {{ customer.tags | json }}, FirstName: "{{ customer.first_name | default: '' | remove: '"' }}", LastName: "{{ customer.last_name | default: '' | remove: '"' }}" };
-    {%- endif -%} 
-  
-    {%- comment -%}If we are on a product page, get information about the product and its variants{%- endcomment -%}   
-    {%- if product and discountninjaproduct == nil -%}{%- assign discountninjaproduct = product -%}{%- endif -%}
-    {%- if discountninjaproduct -%}
-        {%- comment -%}If we are on a product page, add the id and first or selected variantid{%- endcomment -%}
-        window.discountNinjaContext.Product = {};
-        window.discountNinjaContext.Product.Id = {{ discountninjaproduct.id | default: 0 }};
-        window.discountNinjaContext.Product.Handle = '{{ discountninjaproduct.handle | default: '' }}';
-        window.discountNinjaContext.Product.VariantId = {{ discountninjaproduct.selected_or_first_available_variant.id | default: 'null' }};
-        window.discountNinjaContext.Product.Tags = {{ discountninjaproduct.tags | default: '[[--NONE--]]' | join: ',' | json }};
-        window.discountNinjaContext.Product.Available = {{ discountninjaproduct.available }};
-       
-        {%- comment -%}If we are on a product page, add the collection info and the featured image{%- endcomment -%}
-        window.discountNinjaContext.Product.Collections = {{ discountninjaproduct.collections | map: 'handle' | default: '[[--NONE--]]' | join: ',' | json }};
-        window.discountNinjaContext.Product.CollectionIds = '{{ discountninjaproduct.collections | map: 'id' | default: '[[--NONE--]]' | join: ',' }}';
-        window.discountNinjaContext.Product.FeaturedImage = {{ discountninjaproduct.featured_image | img_url: '500x' | json }};
-  
-        {%- comment -%}If we are on a product page, initialize the list of product variants{%- endcomment -%}
-        window.discountNinjaContext.ProductVariants = [];
-  
-        {%- comment -%}Loop through each variant of the product (maximum 200) {%- endcomment -%}
-        {%- for discountninjaProductVariant in discountninjaproduct.variants limit: 200 -%}
-            {%- comment -%}Add inventory quantity if it is tracked{%- endcomment -%}
-            {%- assign inventory_quantity = discountninjaProductVariant.inventory_quantity -%}
-            {%- assign inventory_available = true -%}
-            {%- if inventory_quantity == nil or inventory_quantity <= 0 -%}
-                {%- assign inventory_quantity_below_zero = 1 -%}
-            {%- else -%}
-                {%- assign inventory_quantity_below_zero = 0 -%}
-            {%- endif -%}
-            {%- if discountninjaProductVariant.inventory_management and discountninjaProductVariant.inventory_policy == 'deny' -%}
-                {%- assign inventory_quantity_apply = 1 -%}
-            {%- else -%}
-                {%- assign inventory_quantity_apply = 0 -%}
-            {%- endif -%}
-            {%- if inventory_quantity_below_zero == 1 and inventory_quantity_apply == 1 -%}
-                {%- assign inventory_available = false -%}
-            {%- endif -%}
-         
-            {%- comment -%}Get price and compare at price of the variant{%- endcomment -%}
-            {%- assign discountninja_variant_price = discountninjaProductVariant.price -%}
-            {%- assign discountninja_compare_at_or_product_price = discountninjaProductVariant.compare_at_price -%}   
-        
-            {%- comment -%}If compare at price if not available, default to price{%- endcomment -%}
-            {%- if discountninja_compare_at_or_product_price == nil or discountninja_compare_at_or_product_price < discountninja_variant_price -%}
-                {%- assign discountninja_compare_at_or_product_price = discountninja_variant_price -%}
-            {%- endif -%}
-        
-            {%- comment -%}Add to array{%- endcomment -%}
-            window.discountNinjaContext.ProductVariants.push({ VariantId: {{ discountninjaProductVariant.id | default: 0 }}, 
-            Price: {{ discountninja_variant_price | default: 0 }}, 
-            CompareAtPrice: {{ discountninja_compare_at_or_product_price | default: 0 }}, 
-            Inventory: {{ inventory_quantity | default: 0 }}, 
-            Available: {{ inventory_available }},
-            IsSubscriptionProduct:  {%- if discountninjaProductVariant.selling_plan_allocations.size > 0 -%}true{%- else -%}false{%- endif -%} });
-        {%- endfor -%}
-    {%- endif -%}
-    document.dispatchEvent(
-      new CustomEvent('discountNinjaContext:load')
-    );
+    <script type="text/javascript" id="la-dn-script-startup-context">
+        window.discountNinjaContext = {
+            Version: "4.8.28",
+            DesignMode: "{{ request.design_mode }}",
+            Shop: "{{ shop.permanent_domain }}",
+            Country: {
+                ISOCode: "IN",
+                Name: "India"
+            },
+            RootRoute: "{{ routes.root_url }}",
+            CartRoute: "{{ routes.cart_url }}",
+            ShopCurrency: "{{ shop.currency }}",
+            PresentmentCurrency: "{{ cart.currency.iso_code }}",
+            PresentmentCurrencyMoney: "Rs. 6,789.12",
+            MoneyFormat: "Rs. {{amount}}",
+            Customer: null,
+            Cart: {{ cart | json }},
+            Product: null,
+            CollectionProducts: [],
+            CartProducts: [],
+            ProductVariants: null,
+            Status: "12463",
+            Signature: "1DB30F02E0A15EE58FD9D52069DA14F1144A892ACD0558167892B355EDAE4122",
+            Settings: {"Cart":{"CartDiscountField":true,"AllowMultipleDiscountCodes":true,"AllowMultipleShopifyDiscountCodes":false,"QuantitySpinnerMode":"disable"},"DrawerCart":{"CartDiscountField":true},"Checkout":{"LoadingCheckoutMessage1":"<div style=\"display: inline-flex;justify-content: center;align-items: center;\"><div class=\"limoniapps-discountninja-spinner\"></div><span style=\"font-size: 14px\"> Loading checkout...</span></div>","LoadingCheckoutMessage2":"<div style=\"display: inline-flex;justify-content: center;align-items: center;\"><span style=\"font-size: 14px\">⚠️ Technical failure.<br/><br/>Failed to apply the discount</br>to the checkout.<br/>Return to the cart and check out to try again.</span></div>","LoadingCheckoutMessage3":"<div style=\"display: inline-flex;justify-content: center;align-items: center;\"><div class=\"limoniapps-discountninja-spinner\"></div><span style=\"font-size: 14px\"> Redirecting to secure checkout...</span></div>","CheckoutMode":"1,1F,N,NF","DiscountCumulationMode":"highestwins","DiscountCumulationModeCartLevel":"sum","SubscriptionProductsMessage":"<span style=\"color: rgb(255, 0, 0); font-size: 14px;\">Discounts cannot be applied at checkout when subscription products are in the cart</span>","HideAdditionalCheckoutButtons":true,"RedirectBuyNowButtons":true,"BlockCheckoutButton":true,"OverlayBackgroundColor":"rgba(0,0,0,0.7)","PopupBackgroundColor":"rgba(255,255,255,1)"},"Currency":{"BaseCurrency":"USD","BaseCurrencySymbol":"$","RoundPrices":false,"RoundToCents":95},"General":{"ShowPoweredBy":false,"ExitIntentMode":"default","StoreShareableLinks":true,"StorePromotionCodes":true,"PercentageCalculationMode":"line","ShareableLinksExpiration":1,"PromotionCodesExpiration":1},"GWPSettings":{"PageRefreshText":"Updating your cart...","FreeGiftAddedText":"A free gift has been added to the cart!","AllowAddingManuallyRemovedGifts":false},"PriceUpdate":{"PriceFormat":{"Other":{"Format":"\\{\\{DISCOUNTED_PRICE\\}\\} \\{\\{ORIGINAL_PRICE,STRIKETHROUGH\\}\\}","CustomFormat":false,"Alignment":"left"},"OtherMultiTier":{"Format":"\\{\\{DISCOUNTED_PRICE\\}\\} \\{\\{ORIGINAL_PRICE,STRIKETHROUGH\\}\\}","CustomFormat":false,"Alignment":"left"},"Product":{"Format":"\\{\\{DISCOUNTED_PRICE\\}\\} \\{\\{ORIGINAL_PRICE,DIAGONALSTRIKETHROUGH\\}\\}","CustomFormat":false,"Alignment":"left"},"CartProduct":{"Format":"\\{\\{DISCOUNTED_PRICE\\}\\} \\{\\{ORIGINAL_PRICE,DIAGONALSTRIKETHROUGH\\}\\}","CustomFormat":false},"CartLine":{"Format":"\\{\\{DISCOUNTED_PRICE\\}\\}","CustomFormat":false},"CartSubtotal":{"Format":"\\{\\{DISCOUNTED_PRICE\\}\\} \\{\\{ORIGINAL_PRICE,STRIKETHROUGH\\}\\}","CustomFormat":false},"DrawerCartProduct":{"Format":"\\{\\{ORIGINAL_PRICE,DIAGONALSTRIKETHROUGH\\}\\} \\{\\{DISCOUNTED_PRICE\\}\\}","CustomFormat":false},"DrawerCartLine":{"Format":"\\{\\{DISCOUNTED_PRICE\\}\\}","CustomFormat":false},"DrawerCartSubtotal":{"Format":"\\{\\{DISCOUNTED_PRICE\\}\\} \\{\\{ORIGINAL_PRICE,STRIKETHROUGH\\}\\}","CustomFormat":false}},"Enable":{"Home":false,"Product":false,"Collection":false,"Search":false,"Blog":false,"Custom":false,"Cart":true,"DrawerCart":true},"Mode":{"ProductPrice":"custom","ProductPriceMobile":"custom","ProductBanner":"appblock","CollectionProductPrice":"custom","CollectionProductPriceMobile":"custom","CollectionProductBadge":"custom","CollectionProductCard":"custom","CollectionProductHandle":"custom","FeaturedProductPrice":"custom","FeaturedProductBanner":"custom","FeaturedProductCard":"custom","FeaturedProductHandle":"custom","CartRoot":"custom","CartProductPrice":"custom","CartProductComment":"custom","CartLinePrice":"custom","CartQuantity":"custom","CartSubtotal":"custom","CartSubtotalPrice":"custom","CartPromotionSummary":"appblock","CartDiscountField":"appblock","CartBanner":"custom","DrawerCartProductPrice":"custom","DrawerCartProductComment":"custom","DrawerCartLinePrice":"custom","DrawerCartQuantity":"custom","DrawerCartSubtotal":"custom","DrawerCartSubtotalPrice":"custom","CartItemSelector":"custom","CartItemKeySelector":"custom","CartItemKeyAttribute":"custom","DrawerCartItemSelector":"custom","DrawerCartItemKeySelector":"custom","DrawerCartItemKeyAttribute":"custom","DrawerCartRoot":"custom","DrawerCartPromotionSummary":"custom","DrawerCartDiscountField":"custom","ReloadPageAfterCartAdjustmentsOnCart":true,"ReloadPageAfterCartAdjustments":true,"CallbackAfterReloadPageForCartAdjustments":"custom"},"HideZeroCents":true},"StickyBar":{"AnimationExit":"animated fadeOutUpBig","AnimationOnGoal":"animated rubberBand","AnimationOnReminder":"animated shake","ReminderDuration":40000,"Cycle":{"DurationMilliseconds":6000,"Mode":"cycle","AnimationOnCyle":"animated fadeOut fadeIn"}},"Notification":{"Delay":10000,"HideMode":"minimize","AnimationEnter":"animated fadeInUpBig","AnimationEnterMobile":"animated fadeInUpBig","AnimationExit":"animated fadeOutDownBig","AnimationOnReminder":"animated rubberBand","OfferCounterAnimate":false,"OfferCounter":true,"MinimizeButton":true,"ReminderDuration":40000,"MinimizeAfterFirstView":true},"CountdownClock":{"FormattingTemplateIn_Style1":"{d}[d] [0,1], {\\d}{h}[h] [1,1], {\\h}{m}[m] [2,1] [4,0] {\\m}[s] [3,1]","FormattingTemplateIn_Style2":"{d}[d] [0,1], {\\d}{h}[h] [1,1], {\\h}{m}[m] [2,1] [4,0] {\\m}[s] [3,1]","FormattingTemplateIn_Style3":"{d}[d] [0,1], {\\d}{h}[h] [1,1], {\\h}{m}[m] [2,1] [4,0] {\\m}[s] [3,1]","FormattingTemplateIn_Style4":"[d]d [h]h [m]m [s]s","FormattingTemplateIn_Style5":"[d]d [h]h [m]m [s]s","FormattingTemplateOnDate":"dddd, MMMM Do YYYY","FormattingTemplateOnTime":"h:mmA","RestartFrequency":"oncepersession"},"Badge":{"HideThirdPartyBadges":true},"Label":{"UseSoldOutLabelProductPage":true,"UseSoldOutLabelCollectionPage":true,"UseFromLabelCollectionPage":true},"ProductPageBanner":{"Mode":"all"},"PromotionSummary":{"ShowComments":false,"HideSubtotal":true,"HideSubtotalDrawerCart":true,"NewFooter":true,"FooterSubtotal":{"Text":"<span style=\"font-size: 14px;\">\\{\\{SUBTOTAL\\}\\}</span>"},"FooterSubtotalTextColor":"#333333","FooterSubtotalLabel":{"Text":"<span style=\"font-size: 14px;\">Subtotal</span>"},"FooterSubtotalLabelTextColor":"#333333","FooterTotalDiscount":{"Text":"<span style=\"font-size: 14px;\">-\\{\\{TOTAL_DISCOUNT\\}\\}</span>"},"FooterTotalDiscountTextColor":"#333333","FooterTotalDiscountLabel":{"Text":"<span style=\"font-size: 14px;\">Discount</span>"},"FooterTotalDiscountLabelTextColor":"#333333","FooterTotal":{"Text":"<span style=\"font-size: 16px;\"><b>\\{\\{TOTAL\\}\\}</b></span>"},"FooterTotalTextColor":"#333333","FooterTotalLabel":{"Text":"<span style=\"font-size: 16px;\"><b>Total</b></span>"},"FooterTotalLabelTextColor":"#333333","FooterDiscountedTotal":{"Text":"<span style=\"font-size: 16px;\"><b>\\{\\{DISCOUNTED_TOTAL\\}\\}</b></span>"},"FooterDiscountedTotalTextColor":"#333333","FooterDiscountedTotalLabel":{"Text":"<span style=\"font-size: 16px;\"><b>Total</b></span>"},"FooterDiscountedTotalLabelTextColor":"#333333","ShowBody":true,"SubtotalRowMode":"discount_order_level","DiscountRowMode":"discount_order_level"},"StructuredData":{"Microdata":true,"JsonLD":true},"MoneyFormatting":{}},
+            Locale: "{{ request.locale.iso_code }}",
+            Labels: {
+                From: "From",
+                Here: "here",
+                Free: "FREE",
+                SoldOut: "Sold out"
+            },
+            Flags: {"_etag":"\"09005a8c-0000-0300-0000-65778e680000\""},
+            Promotions: {},
+        };
+        window.discountNinjaContext.CartProducts.push({
+                    Id:8246607872233,
+                    Handle: 'rama-blue-color-pure-bishnupur-silk-saree-with-hand-batik-and-hand-paint-work-allover',
+                    Price:1257434,
+                    CompareAtPrice:1257434,
+                    Collections:"bishnupur-silk-saree,blue-sarees,casual-wear,from-the-east,festival-collection,hand-painted-sarees,buy-silk-mark-certified-saree,pure-silk-sarees,shopify-facebook-feed-saree,silk-mark,under-150-usd,under-200-usd,under-300-usd,under-400-usd,under-500-usd",
+                    CollectionIds: "33114914904,426178937065,413280731369,426179526889,65072332888,419999154409,287060419,418415870185,60893429848,406244494,420087857385,420087890153,420087922921,420088021225,420088119529",
+                    Tags:"$100-$150, Bishnupur Silk, Casual, feed-agegroup-adult, feed-color-multi, feed-cond-new, feed-gender-women, feed-size-universal, Festival, hand batik, Hand Paint, Hand-Woven, handloom, India, Katan Silk, New, silk, Silk Mark, syncio-hidden",
+                    Available:true,
+                    Source: "context",
+                    CollectionsComplete: true,
+                    Variants: [{
+                        VariantId:46001502159081,
+                        Price:1257434,
+                        CompareAtPrice:1257434,
+                        Inventory:1,
+                        Available:true,
+                        IsSubscriptionProduct:false},{
+                        VariantId:46001502191849,
+                        Price:1468413,
+                        CompareAtPrice:1552805,
+                        Inventory:1,
+                        Available:true,
+                        IsSubscriptionProduct:false}]
+        });
+        document.dispatchEvent(new CustomEvent("la:dn:context:available"));
     </script>
     <!-- END app snippet -->
 </div>
