@@ -91,10 +91,8 @@
             {{ content_for_header2 | replace: ' async="async" ', ' type="lazyload_int" ' | replace: ' defer="defer" ', ' type="lazyload_int" ' | replace: " src=", " data-src="| replace: "DOMContentLoaded", "w3-DOMContentLoaded" | replace: "window.addEventListener('load', asyncLoad, false);", "window.addEventListener('w3-DOMContentLoaded', asyncLoad, false);" | replace: "addEventListener('load', prefetchAssets);", "addEventListener('w3-DOMContentLoaded', prefetchAssets);" }}
             <script>var trekkie=[];trekkie.integrations=!0;window.BOOMR={},window.BOOMR.version=true;</script>
         {%- endif -%}
-        {%- render 'head_assets', t_name: t_name, isRTL: isRTL -%}
-        {% comment %}
-        {% render 'limoniapps-discountninja-header' %}
-        {% endcomment %}
+        {%- render 'head_assets', t_name: t_name, isRTL: isRTL -%}        
+        {% render 'limoniapps-discountninja-header' %}        
         {%- if product -%}
             {%- assign discountninjaproduct = product -%}
         {%- endif -%}
@@ -120,10 +118,8 @@
         <ul hidden class="t4s-d-none">
             <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
         </ul>
-        {%- render 'render_bottom' -%}
-        {% comment %}
-        {% include 'limoniapps-discountninja-body' %}
-        {% endcomment %}
+        {%- render 'render_bottom' -%}        
+        {% include 'limoniapps-discountninja-body' %}        
         {% comment %}
             // BB: Adding criteo tracking & optimization-3.0 js
         {% endcomment %}        
