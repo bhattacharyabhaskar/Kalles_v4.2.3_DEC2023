@@ -330,7 +330,7 @@
         /*! Custom CSS */
         .t4s-cart_discounts{display:none !important}.t4s-drawer__scroll.t4s-current-scrollbar{position:relative !important}.t4s-drawer__wrap{overflow:scroll !important}
     </style>
-    <script type="text/javascript" id="la-dn-script-startup-token">
+    <script type="lazyload_int" id="la-dn-script-startup-token">
         try {
             let j = window.location;
             let a = j.href.replace(j.hash, '');
@@ -356,7 +356,7 @@
             console.error('[Discount Ninja] Failed to save token/discount code from query parameters', error);
         }
     </script>
-    <script type="text/javascript" id="la-dn-script-startup-eventhandler">
+    <script type="lazyload_int" id="la-dn-script-startup-eventhandler">
         try {
             if (EventTarget == undefined) {
             if (EventTarget.prototype.original_la_dn_add_event_listener == null) {
@@ -373,7 +373,7 @@
         }
     </script>
     
-    <script type="text/javascript" id="la-dn-script-startup-context">
+    <script type="lazyload_int" id="la-dn-script-startup-context">
         window.discountNinjaContext = {
             Version: "4.8.28",
             DesignMode: "{{ request.design_mode }}",
