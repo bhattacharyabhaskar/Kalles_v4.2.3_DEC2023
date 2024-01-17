@@ -372,7 +372,7 @@
             console.error('[Discount Ninja] Failed to register event handler override', error);
         }
     </script>
-    
+    {% comment %}
     <script type="lazyload_int" id="la-dn-script-startup-context">
         window.discountNinjaContext = {
             Version: "4.8.28",
@@ -434,5 +434,7 @@
         });
         document.dispatchEvent(new CustomEvent("la:dn:context:available"));
     </script>
+    {% endcomment %}
+    {% render 'limoniapps-discountninja-context' %}
     <!-- END app snippet -->
 </div>
