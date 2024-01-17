@@ -105,6 +105,6 @@ Do not modify or remove this snippet, we reserve the right to overwrite it at an
       {%- endfor -%}
   {%- endif -%}
   document.dispatchEvent(
-    document.dispatchEvent(new CustomEvent("la:dn:context:available"));
+    new CustomEvent('discountNinjaContext:load')
   );
 </script>
