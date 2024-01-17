@@ -3,7 +3,7 @@ This file is system-genererated by Discount Ninja and should not be modified or 
 Do not modify or remove this snippet, we reserve the right to overwrite it at any moment to add improvements or new features so that customizations you made might be lost.
 {%- endcomment -%}
 
-<script type="lazyload_int">
+<script{% unless template contains 'cart' %} type="lazyload_int"{% endunless %}>
   {%- comment -%}Initialize object{%- endcomment -%}
   window.discountNinjaContext = { 
   Version: "4.7.0",
@@ -105,6 +105,6 @@ Do not modify or remove this snippet, we reserve the right to overwrite it at an
       {%- endfor -%}
   {%- endif -%}
   document.dispatchEvent(
-    new CustomEvent('discountNinjaContext:load')
+    document.dispatchEvent(new CustomEvent("la:dn:context:available"));
   );
 </script>
