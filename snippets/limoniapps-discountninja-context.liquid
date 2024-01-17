@@ -104,5 +104,7 @@ Do not modify or remove this snippet, we reserve the right to overwrite it at an
 		  IsSubscriptionProduct:  {%- if discountninjaProductVariant.selling_plan_allocations.size > 0 -%}true{%- else -%}false{%- endif -%} });
       {%- endfor -%}
   {%- endif -%}
-  document.dispatchEvent(new CustomEvent("la:dn:context:available"));
+  document.dispatchEvent(
+    new CustomEvent('discountNinjaContext:load')
+  );
 </script>
