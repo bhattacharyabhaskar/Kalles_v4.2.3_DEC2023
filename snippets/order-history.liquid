@@ -559,6 +559,17 @@ assign image = item.image
                           <tbody>
                             <tr>
                               <td class="column_cell tc">
+                                    <a href="{{ item_url }}" class="t4s-mini_cart__img t4s-pr t4s-oh t4s_ratio t4s-bg-11" style="background: url({{ image | image_url: width: 1 }});--aspect-ratioapt:{{ image.aspect_ratio | default: 1 }}">
+      {%- if image != blank -%}
+        <img class="lazyloadt4s" width="120" height="{{ 120 | divided_by: image.aspect_ratio | ceil }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[120, 240]" data-sizes="auto" alt="{{ image.alt | escape }}">
+      {%- endif -%}
+      <div class="t4s-cart-ld__bar t4s-pe-none t4s-dn" hidden><span>
+        <svg width="16" height="16" hidden class="t4s-cart-spinner" focusable="false" role="presentation" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+          <circle class="t4s-path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+        </svg>
+        <svg class="t4s-cart-check" viewBox="0 0 448 512" width="16" height="16" hidden><use href="#icon-cart-check"/></svg>
+      </span></div>
+    </a>
                                 <p class="mb_0 imgr">
                                   <a href="{{shop.url}}{{ line.product.url }}"
                                     ><img
