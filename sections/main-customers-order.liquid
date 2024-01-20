@@ -68,7 +68,9 @@
               >
                 <div>
                   {%- if line_item.url != blank -%}
-                    <a href="{{ line_item.url }}">{{ line_item.title }}</a>
+                    <a href="{{ line_item.url }}">
+                      <img class="bra" role="img" src="{{ line_item | img_url: '140x140' }}" width="140"height="140" alt="{{ line_item.title }}" style="max-width:140px;" >
+                    </a>
                   {%- else -%}
                     <p>{{ line_item.title }}</p>
                   {%- endif -%}
