@@ -45,7 +45,8 @@
         <p>{{ 'customer.order.cancelled_html' | t: date: cancelled_at }}</p>
         <p>{{ 'customer.order.cancelled_reason' | t: reason: order.cancel_reason_label }}</p>
       {%- endif -%}
-
+		{% render 'order-history' %}
+  
       <table role="table" class="t4s-responsive-table order-details">
         <caption class="visually-hidden">{{ 'customer.order.title' | t: name: order.name }}</caption>
         <thead role="rowgroup">
@@ -68,16 +69,6 @@
                 data-label="{{ 'customer.order.product' | t }}"
               >
                 <div>
-                  <a href="{{shop.url}}{{ line.product.url }}"
-                                    ><img
-                                      class="bra"
-                                      role="img"
-                                      src="{{ line_item | img_url: '140x140' }}"
-                                      width="140"
-                                      height="140"
-                                      alt="{{ line_title }}"
-                                      style="max-width:140px;"
-                                  ></a>
                   {%- if line_item.url != blank -%}
                     <a href="{{ line_item.url }}">{{ line_item.title }}</a>
                   {%- else -%}
