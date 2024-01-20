@@ -45,7 +45,6 @@
         <p>{{ 'customer.order.cancelled_html' | t: date: cancelled_at }}</p>
         <p>{{ 'customer.order.cancelled_reason' | t: reason: order.cancel_reason_label }}</p>
       {%- endif -%}
-        {% render 'order-history' %}
 
       <table role="table" class="t4s-responsive-table order-details">
         <caption class="visually-hidden">{{ 'customer.order.title' | t: name: order.name }}</caption>
