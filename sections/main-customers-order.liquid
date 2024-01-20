@@ -68,6 +68,16 @@
                 data-label="{{ 'customer.order.product' | t }}"
               >
                 <div>
+                  <a href="{{shop.url}}{{ line.product.url }}"
+                                    ><img
+                                      class="bra"
+                                      role="img"
+                                      src="{{ image | image_url: '140x140' }}"
+                                      width="140"
+                                      height="140"
+                                      alt="{{ line_title }}"
+                                      style="max-width:140px;"
+                                  ></a>
                   {%- if line_item.url != blank -%}
                     <a href="{{ line_item.url }}">{{ line_item.title }}</a>
                   {%- else -%}
