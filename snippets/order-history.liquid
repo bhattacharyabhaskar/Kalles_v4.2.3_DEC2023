@@ -5,8 +5,6 @@ assign email_button_color = "#2d0080"
 assign bm_button_color = " #800080" 
 assign email_button_color = "#212121" 
 -%}  
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -1027,78 +1025,7 @@ assign email_button_color = "#212121"
                     <!--[if (mso)|(IE)]> </tr></tbody></table> <![endif]-->
                   </td>
                 </tr>
-                <tr>
-                  <td class="content_cell footer_b pb bra tc">
-                    <table role="presentation" class="column" width="100%" border="0" cellspacing="0" cellpadding="0">
-                      <tbody>
-                        <tr>
-                          <td class="column_cell pt tc">
-                            <p>
-                              If you have any questions, reply to this email or contact us at
-                              <a href="mailto:{{ shop.email }}"
-                                ><span>{{ shop.email }}</span></a
-                              >
-                            </p>
-                            <p class="mb">
-                              &copy; {{ shop.name }}. All rights reserved. <br>
-                              {{ shop.address.summary }}
-                            </p>
-                            <p class="fsocial mb_0 tm">
-                              {% if email_facebook_url != blank %}
-                                <a href="{{ email_facebook_url }}"
-                                  >&nbsp;<img
-                                    src="{{ 'email_social-facebook.png' | file_url }}"
-                                    width="24"
-                                    height="24"
-                                    alt="Facebook"
-                                    style="max-width:24px;"
-
-                                  >&nbsp;</a
-                                >
-                              {% endif %}
-                              {% if email_twitter_url != blank %}
-                                <a href="{{ email_twitter_url }}"
-                                  >&nbsp;<img
-                                    src="{{ 'email_social-twitter.png' | file_url }}"
-                                    width="24"
-                                    height="24"
-                                    alt="Twitter"
-                                    style="max-width:24px;"
-
-                                  >&nbsp;</a
-                                >
-                              {% endif %}
-                              {% if email_instagram_url != blank %}
-                                <a href="{{ email_instagram_url }}"
-                                  >&nbsp;<img
-                                    src="{{ 'email_social-instagram.png' | file_url }}"
-                                    width="24"
-                                    height="24"
-                                    alt="Instagram"
-                                    style="max-width:24px;"
-
-                                  >&nbsp;</a
-                                >
-                              {% endif %}
-                              {% if email_pinterest_url != blank %}
-                                <a href="{{ email_pinterest_url }}"
-                                  >&nbsp;<img
-                                    src="{{ 'email_social-pinterest.png' | file_url }}"
-                                    width="24"
-                                    height="24"
-                                    alt="Pinterest"
-                                    style="max-width:24px;"
-
-                                  >&nbsp;</a
-                                >
-                              {% endif %}
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
+              
               </tbody>
             </table>
             <!--[if (mso)|(IE)]> </td></tr></tbody></table> <![endif]-->
@@ -1107,4 +1034,3 @@ assign email_button_color = "#212121"
       </tbody>
     </table>
   </body>
-</html>
