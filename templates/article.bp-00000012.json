@@ -297,6 +297,61 @@
         "code_cus_css": ""
       }
     },
+    "image_text_paLmrB": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_dxxieh": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2><strong>#3. Nivi Drape<\/strong><\/h2><p>Originating from Andhra Pradesh, Nivi drape is another option you can consider. The saree draping style is popular for its versatility and simplicity. It allows teenagers to add a modern touch by using lightweight fabrics including georgette or chiffon in dashing hues of green, yellow, or orange. These all colors relate to the spring season. You can use it with a crop top or a sleep blouse with modern cutouts or intricate embroidery for infusing a youthful vibe.<\/p><p><em><strong>Read More: <\/strong><\/em><a href=\"https:\/\/www.indyvogue.com\/blogs\/indyvogue-fashion-center\/not-1-but-5-most-loved-saree-fabrics-of-gen-zs\"><span style=\"text-decoration:underline\"><em><strong>Most Loved Saree Fabrics of Gen-Z’s<\/strong><\/em><\/span><\/a><\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_dxxieh"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "be349666-2469-4b59-9e48-269f0cd4f2cc": {
       "type": "image_text",
       "blocks": {
@@ -309,7 +364,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>#3. Lehenga Style Drape - a Perfect Hatke Look<\/h3><p>If you want to flaunt an unusual saree draping look then, change your saree to Lehenga. Yes, you can wear a Lehenga and Saree independent of each and both for the shaadi season, but when you merge both - it’s a BOMB!<\/p><p><strong>How to drape?<\/strong><\/p><p>To attain the regal look for the next wedding or event tuck one end of the saree into your petticoat and continue to tuck the banarasi silk saree tightly around your waist.Now, fold the loose end of your saree into pleats and tuck it neatly into the front of your petticoat. Put the pallu<\/p><p>over your left shoulder. To give a sophisticated touch secure the pallu in place with a belt or ornamental waistband.<\/p>",
+            "text": "<h2><strong>#4. Pant or Dhoti Drape<\/strong><\/h2><p>Teen girls can get the idea to experiment with the fusion saree draping on this Vasant Panchami occasion. They can consider wearing a pant-style saree or dhoti saree. This style ensures full comfort and higher mobile even without compromising elegance. Fusion draping ensures a great vibe for traditional attire, which makes it perfect for teenagers to make a style statement.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -327,7 +382,7 @@
         "8d6d2dc8-c237-4330-a53b-cc789ece3f7c": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Lehenga_Style_drape.jpg",
+            "image1": "shopify:\/\/shop_images\/Dhoti_Pant_Style.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -361,6 +416,91 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_mabHwt": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_QjnGbL": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Mumtaz_drape.webp",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_Pi33h8": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2><strong>#5. Retro Inspire Mumtaz Drape<\/strong><\/h2><p>Retro fashion is something that is an evergreen option. You can consider using a retro-inspired saree drape such as the Mumtaz style. You can use dramatic silhouettes, bold prints, and also statement accessories. You can also experiment with retro hairstyles. To drape the mumtaz style drape try out this latest draping from this tutorial video:<\/p><p><strong>Tutorial Video:<\/strong> <a href=\"https:\/\/youtu.be\/OrKl84bhQNc\"><span style=\"text-decoration:underline\">https:\/\/youtu.be\/OrKl84bhQNc<\/span><\/a> <\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_QjnGbL",
+        "bl_text_Pi33h8"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
         "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
@@ -570,7 +710,9 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
+    "image_text_paLmrB",
     "be349666-2469-4b59-9e48-269f0cd4f2cc",
+    "image_text_mabHwt",
     "56412792-0cbb-4a76-a029-fca6374f64f7",
     "fc7db95d-b40d-4b73-8f9f-fae135c6e5df",
     "e7b55938-3dde-44ab-9365-66967e09d447"
