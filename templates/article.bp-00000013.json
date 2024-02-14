@@ -470,45 +470,16 @@
     "image_text_mabHwt": {
       "type": "image_text",
       "blocks": {
-        "bl_image_QjnGbL": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/Mumtaz_drape.webp",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
         "bl_text_Pi33h8": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "col_dk": "12",
+            "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "",
-            "text": "<h2><strong>#5. Retro Inspire Mumtaz Drape<\/strong><\/h2><p>Retro fashion is something that is an evergreen option. You can consider using a retro-inspired saree drape such as the Mumtaz style. You can use dramatic silhouettes, bold prints, and also statement accessories. You can also experiment with retro hairstyles. To drape the mumtaz style drape try out this latest draping from this tutorial video:<\/p><p><strong>Tutorial Video:<\/strong> <a href=\"https:\/\/youtu.be\/OrKl84bhQNc\"><span style=\"text-decoration:underline\">https:\/\/youtu.be\/OrKl84bhQNc<\/span><\/a> <\/p>",
+            "heading": "Sonam’s Bralette with Red Saree!",
+            "text": "<p>Sonam’s look in <a href=\"https:\/\/en.wikipedia.org\/wiki\/I_Hate_Luv_Storys\"><span style=\"text-decoration:underline\">I Hate Luv Story<\/span><\/a> was chic and urbane. But the song, “Sadka kiya” has her offsetting her red saree with a bikini style blouse. With minimal jewellery and subtle make-up, Sonam achieves the ‘sexy in a saree’ look. Not surprising it was a Manish Malhotra avatar.<\/p><p><a href=\"https:\/\/youtu.be\/n6m4lZ1TL0s?t=97\"><span style=\"text-decoration:underline\">Sadka Lyric Video - I Hate Luv Storys|Sonam Kapoor, Imran Khan|Suraj Jagan,Mahalaxmi Iyer<\/span><\/a><\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -525,7 +496,6 @@
         }
       },
       "block_order": [
-        "bl_image_QjnGbL",
         "bl_text_Pi33h8"
       ],
       "settings": {
@@ -564,7 +534,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>Wrapping Up<\/h2><p>So here is my list of ideas to help all my teenage followers a gusto of saree draping ideas to rock the morning to evening - from your college to community Hall and what to say even at the first date night!<\/p>",
+            "text": "<p>These five movie has been a trend setter and I just wanted to highlight you the looks so that this weekend whenever you are getting time to celebrate with your better half try out a killer red look like them and just make them dumbstruck! And let them gaze the stars.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
