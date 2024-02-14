@@ -303,13 +303,13 @@
         "bl_text_dxxieh": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
+            "col_dk": "6",
+            "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "",
-            "text": "<h2><strong>#3. Nivi Drape<\/strong><\/h2><p>Originating from Andhra Pradesh, Nivi drape is another option you can consider. The saree draping style is popular for its versatility and simplicity. It allows teenagers to add a modern touch by using lightweight fabrics including georgette or chiffon in dashing hues of green, yellow, or orange. These all colors relate to the spring season. You can use it with a crop top or a sleep blouse with modern cutouts or intricate embroidery for infusing a youthful vibe.<\/p><p><em><strong>Read More: <\/strong><\/em><a href=\"https:\/\/www.indyvogue.com\/blogs\/indyvogue-fashion-center\/not-1-but-5-most-loved-saree-fabrics-of-gen-zs\"><span style=\"text-decoration:underline\"><em><strong>Most Loved Saree Fabrics of Gen-Z’s<\/strong><\/em><\/span><\/a><\/p>",
+            "heading": "Sizzling Madhuri in Dil to Pagal Hai!",
+            "text": "<p>One more yester-year movie I must mention is <a href=\"https:\/\/en.wikipedia.org\/wiki\/Dil_To_Pagal_Hai\"><span style=\"text-decoration:underline\">Dil To Pagal Hai<\/span><\/a><strong> <\/strong>and every new lover from the 90s never miss to watch this movie on a repeated watch. To fall in love and to relaize the love nothing could have been better decoded than this movie. The love saga and quadrangle love story has been a new ball game.<\/p><p>Before Shahrukh take the stern move to propose <a href=\"https:\/\/en.wikipedia.org\/wiki\/Madhuri_Dixit\"><span style=\"text-decoration:underline\">Madhuri<\/span><\/a> on the Valentine’s eve and start visualizing a dreamy sequence, this red saree was never cliche to us. Yet another <em><strong>pure silk mark saree<\/strong><\/em> variety, you can find something similar is solid red color with us as well, from time to time. <\/p><p>Let us now move to the late 2000s, when he Gen-Z has started taking a shot on the red saree like never before. They are bold and beautiful!<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -323,10 +323,40 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
+        },
+        "bl_image_3zE6R7": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Madhuri_DTPH.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
         }
       },
       "block_order": [
-        "bl_text_dxxieh"
+        "bl_text_dxxieh",
+        "bl_image_3zE6R7"
       ],
       "settings": {
         "design_heading": "1",
