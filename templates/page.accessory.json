@@ -3,6 +3,7 @@
     "heading": {
       "type": "heading-template",
       "settings": {
+        "heading_fullwidth": false,
         "image": "shopify:\/\/shop_images\/peach_col.png",
         "use_specify_image": true,
         "parallax": false,
@@ -63,6 +64,15 @@
     "41d4f89f-9a27-4a68-934c-ceb4385c9560": {
       "type": "collections-list-manual",
       "blocks": {
+        "template--16754489819369__41d4f89f-9a27-4a68-934c-ceb4385c9560-1681859843f25942f1-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "designer-blouse",
+            "image": "shopify:\/\/shop_images\/Blouse_abff7b61-e56e-4335-b9ef-1e99c218c2f0.jpg",
+            "collection_title": "Designer Blouse",
+            "collection_link": ""
+          }
+        },
         "template--16754489819369__41d4f89f-9a27-4a68-934c-ceb4385c9560-1681859843f25942f1-0": {
           "type": "collection_item",
           "settings": {
@@ -80,20 +90,21 @@
             "collection_link": ""
           }
         },
-        "template--16754489819369__41d4f89f-9a27-4a68-934c-ceb4385c9560-1681859843f25942f1-2": {
+        "collection_item_bBURMd": {
           "type": "collection_item",
           "settings": {
-            "collection": "designer-blouse",
-            "image": "shopify:\/\/shop_images\/Blouse_abff7b61-e56e-4335-b9ef-1e99c218c2f0.jpg",
-            "collection_title": "Designer Blouse",
+            "collection": "stole",
+            "image": "shopify:\/\/shop_images\/Pashimina-Stole.png",
+            "collection_title": "Stoles",
             "collection_link": ""
           }
         }
       },
       "block_order": [
+        "template--16754489819369__41d4f89f-9a27-4a68-934c-ceb4385c9560-1681859843f25942f1-2",
         "template--16754489819369__41d4f89f-9a27-4a68-934c-ceb4385c9560-1681859843f25942f1-0",
         "template--16754489819369__41d4f89f-9a27-4a68-934c-ceb4385c9560-1681859843f25942f1-1",
-        "template--16754489819369__41d4f89f-9a27-4a68-934c-ceb4385c9560-1681859843f25942f1-2"
+        "collection_item_bBURMd"
       ],
       "settings": {
         "design_heading": "2",
@@ -118,7 +129,7 @@
         "img_effect": "none",
         "b_effect": "none",
         "image_position": "8",
-        "coll_layout": "3",
+        "coll_layout": "6",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -141,6 +152,14 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
+        "head_btn_label": "View All",
+        "head_btn_url": "",
+        "head_btn_icon": false,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
         "collection": "jewelry",
         "product_des": "1",
         "show_vendor": false,
@@ -205,6 +224,14 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
+        "head_btn_label": "View All",
+        "head_btn_url": "",
+        "head_btn_icon": false,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
         "collection": "designer-bags",
         "product_des": "1",
         "show_vendor": false,
@@ -269,6 +296,14 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
+        "head_btn_label": "View All",
+        "head_btn_url": "",
+        "head_btn_icon": false,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
         "collection": "designer-blouse",
         "product_des": "1",
         "show_vendor": false,
