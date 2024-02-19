@@ -1489,7 +1489,7 @@
             "type": "menu",
             "settings": {
               "title": "Sarees By TYPES",
-              "url": "",
+              "url": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
               "open_link": "_self",
               "menu": "sarees",
               "lb": "",
