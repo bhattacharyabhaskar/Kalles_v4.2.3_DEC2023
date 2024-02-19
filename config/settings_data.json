@@ -1580,7 +1580,7 @@
             "type": "menu",
             "settings": {
               "title": "ACCESSORIES",
-              "url": "",
+              "url": "shopify:\/\/pages\/accessory",
               "open_link": "_self",
               "menu": "accessories",
               "lb": "",
