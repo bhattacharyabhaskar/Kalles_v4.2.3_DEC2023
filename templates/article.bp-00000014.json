@@ -423,6 +423,132 @@
         "code_cus_css": ""
       }
     },
+    "featured_product_tCBw6E": {
+      "type": "featured-product",
+      "blocks": {
+        "title_H9GFF6": {
+          "type": "title",
+          "settings": {
+            "txt_tr_pr": "none",
+            "fnt_df_pr": "1",
+            "size_pr": 16,
+            "fw_pr": 600,
+            "lh_pr": 0,
+            "ls_pr": 0,
+            "pr_title_color": "#222",
+            "pr_title_color_hover": "#56cfe1"
+          }
+        },
+        "price_review_Pg9x8d": {
+          "type": "price_review",
+          "settings": {
+            "price": "0",
+            "type_sale": "0",
+            "tax_ship": true,
+            "rating": true,
+            "review_liquid": "",
+            "size_price_pr": 22,
+            "fw_price_pr": 400,
+            "price_color": "#696969",
+            "price_sale_color": "#ec0101"
+          }
+        },
+        "description_8nFaEc": {
+          "type": "description",
+          "settings": {
+            "des": "2",
+            "text": "",
+            "length": 31
+          }
+        },
+        "form_7F8L7K": {
+          "type": "form",
+          "settings": {
+            "selector_mode": "block2",
+            "color_mode": "color",
+            "enable_fit_ratio_img": false,
+            "color_size": "medium",
+            "show_qty": false,
+            "enable_wishlist": false,
+            "enable_compare": false,
+            "btn_atc_full": false,
+            "pr_btn_round": 40,
+            "ani": "none",
+            "time": 6,
+            "btn_txt": "3",
+            "btn_icon": false,
+            "button_style": "default",
+            "button_color": "dark",
+            "button_effect": "fade",
+            "wishlist_color": "#222222",
+            "wishlist_color_hover": "#56cfe1",
+            "wishlist_color_active": "#E81E1E",
+            "compare_color": "#222222",
+            "compare_color_hover": "#56cfe1",
+            "compare_color_active": "#222222",
+            "show_dynamic_checkout": false,
+            "btn_txt2": "3",
+            "button_color_payment": "dark",
+            "show_gift_card_recipient": true,
+            "product_list": [
+
+            ],
+            "show_product_current": true,
+            "qty_val": "0",
+            "advance_label": "Choose style",
+            "advance_pr_list": [
+
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "title_H9GFF6",
+        "price_review_Pg9x8d",
+        "description_8nFaEc",
+        "form_7F8L7K"
+      ],
+      "settings": {
+        "product": "purple-color-pure-katan-banarasi-saree-with-butta-work",
+        "enable_sticky_info": false,
+        "media_layout": "without_thumbnails",
+        "media_size": "small",
+        "thumb_lr_size": "small",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "main_click": "zoom",
+        "zoom_tp": "external",
+        "enable_zoom_icon": true,
+        "enable_zoom_click_mb": true,
+        "enable_video_looping": false,
+        "enable_video_muting": true,
+        "enable_video_autoplaying": true,
+        "eff": "fade",
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "outline",
+        "btn_shape": "round",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
     "image_text_paLmrB": {
       "type": "image_text",
       "blocks": {
@@ -434,8 +560,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Sizzling Madhuri in Dil to Pagal Hai!",
-            "text": "<p>One more yester-year movie I must mention is <a href=\"https:\/\/en.wikipedia.org\/wiki\/Dil_To_Pagal_Hai\"><span style=\"text-decoration:underline\">Dil To Pagal Hai<\/span><\/a><strong> <\/strong>and every new lover from the 90s never miss to watch this movie on a repeated watch. To fall in love and to relaize the love nothing could have been better decoded than this movie. The love saga and quadrangle love story has been a new ball game.<\/p><p>Before Shahrukh take the stern move to propose <a href=\"https:\/\/en.wikipedia.org\/wiki\/Madhuri_Dixit\"><span style=\"text-decoration:underline\">Madhuri<\/span><\/a> on the Valentine’s eve and start visualizing a dreamy sequence, this red saree was never cliche to us. Yet another <em><strong>pure silk mark saree<\/strong><\/em> variety, you can find something similar is solid red color with us as well, from time to time. <\/p><p>Let us now move to the late 2000s, when he Gen-Z has started taking a shot on the red saree like never before. They are bold and beautiful!<\/p>",
+            "heading": "“Dola Re’s” White and Red Saree",
+            "text": "<p>Bringing alive the greatest character of Sarat Chandra Chattopadhyay’s Chandrmukhi from Devdaas like never before. She has portrayed one of the best freestyle dramedy which not only left a mark in her acting career, but her collab with <a href=\"https:\/\/en.wikipedia.org\/wiki\/Birju_Maharaj\"><span style=\"text-decoration:underline\">Pandit Birju Maharaj<\/span><\/a> for this iconic movie is also a path-breaking adventure. However, the Dola Re, Dola Re dance was choreographed by Saroj Khan, and more than the dance, Bengalis started getting stereotyped with white-red saree and their classic <em><strong>aathpoure<\/strong><\/em> look.<\/p><p>Learn how to style Bengali Style saree here - <a href=\"https:\/\/www.indyvogue.com\/blogs\/indyvogue-fashion-center\/how-to-drape-a-bengali-style-saree\"><span style=\"text-decoration:underline\">How to Guide for Draping a Bengali Style Saree – IndyVogue<\/span><\/a><\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -453,7 +579,7 @@
         "bl_image_3zE6R7": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Madhuri_DTPH.jpg",
+            "image1": "shopify:\/\/shop_images\/Dola_re.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -901,132 +1027,6 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
-    },
-    "featured_product_tCBw6E": {
-      "type": "featured-product",
-      "blocks": {
-        "title_H9GFF6": {
-          "type": "title",
-          "settings": {
-            "txt_tr_pr": "none",
-            "fnt_df_pr": "1",
-            "size_pr": 16,
-            "fw_pr": 600,
-            "lh_pr": 0,
-            "ls_pr": 0,
-            "pr_title_color": "#222",
-            "pr_title_color_hover": "#56cfe1"
-          }
-        },
-        "price_review_Pg9x8d": {
-          "type": "price_review",
-          "settings": {
-            "price": "0",
-            "type_sale": "0",
-            "tax_ship": true,
-            "rating": true,
-            "review_liquid": "",
-            "size_price_pr": 22,
-            "fw_price_pr": 400,
-            "price_color": "#696969",
-            "price_sale_color": "#ec0101"
-          }
-        },
-        "description_8nFaEc": {
-          "type": "description",
-          "settings": {
-            "des": "2",
-            "text": "",
-            "length": 31
-          }
-        },
-        "form_7F8L7K": {
-          "type": "form",
-          "settings": {
-            "selector_mode": "block2",
-            "color_mode": "color",
-            "enable_fit_ratio_img": false,
-            "color_size": "medium",
-            "show_qty": false,
-            "enable_wishlist": false,
-            "enable_compare": false,
-            "btn_atc_full": false,
-            "pr_btn_round": 40,
-            "ani": "none",
-            "time": 6,
-            "btn_txt": "3",
-            "btn_icon": false,
-            "button_style": "default",
-            "button_color": "dark",
-            "button_effect": "fade",
-            "wishlist_color": "#222222",
-            "wishlist_color_hover": "#56cfe1",
-            "wishlist_color_active": "#E81E1E",
-            "compare_color": "#222222",
-            "compare_color_hover": "#56cfe1",
-            "compare_color_active": "#222222",
-            "show_dynamic_checkout": false,
-            "btn_txt2": "3",
-            "button_color_payment": "dark",
-            "show_gift_card_recipient": true,
-            "product_list": [
-
-            ],
-            "show_product_current": true,
-            "qty_val": "0",
-            "advance_label": "Choose style",
-            "advance_pr_list": [
-
-            ]
-          }
-        }
-      },
-      "block_order": [
-        "title_H9GFF6",
-        "price_review_Pg9x8d",
-        "description_8nFaEc",
-        "form_7F8L7K"
-      ],
-      "settings": {
-        "product": "purple-color-pure-katan-banarasi-saree-with-butta-work",
-        "enable_sticky_info": false,
-        "media_layout": "without_thumbnails",
-        "media_size": "small",
-        "thumb_lr_size": "small",
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "8",
-        "main_click": "zoom",
-        "zoom_tp": "external",
-        "enable_zoom_icon": true,
-        "enable_zoom_click_mb": true,
-        "enable_video_looping": false,
-        "enable_video_muting": true,
-        "enable_video_autoplaying": true,
-        "eff": "fade",
-        "nav_btn": true,
-        "btn_vi": "always",
-        "btn_owl": "outline",
-        "btn_shape": "round",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": false,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
-      }
     }
   },
   "order": [
@@ -1035,13 +1035,13 @@
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "featured_product_rCNgxk",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
+    "featured_product_tCBw6E",
     "image_text_paLmrB",
     "be349666-2469-4b59-9e48-269f0cd4f2cc",
     "image_text_mabHwt",
     "56412792-0cbb-4a76-a029-fca6374f64f7",
     "fc7db95d-b40d-4b73-8f9f-fae135c6e5df",
     "featured_collection_7DtPcJ",
-    "e7b55938-3dde-44ab-9365-66967e09d447",
-    "featured_product_tCBw6E"
+    "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
