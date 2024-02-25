@@ -159,7 +159,7 @@
           "settings": {
             "image1": "shopify:\/\/shop_images\/Sushmita_Sen_Main_Hoon_Na.png",
             "col_dk": "6",
-            "col_tb": "6",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
