@@ -845,19 +845,145 @@
         "code_cus_css": ""
       }
     },
+    "featured_product_cNb4Rx": {
+      "type": "featured-product",
+      "blocks": {
+        "title_xQJt9q": {
+          "type": "title",
+          "settings": {
+            "txt_tr_pr": "none",
+            "fnt_df_pr": "1",
+            "size_pr": 16,
+            "fw_pr": 600,
+            "lh_pr": 0,
+            "ls_pr": 0,
+            "pr_title_color": "#222",
+            "pr_title_color_hover": "#56cfe1"
+          }
+        },
+        "price_review_7emBMJ": {
+          "type": "price_review",
+          "settings": {
+            "price": "0",
+            "type_sale": "0",
+            "tax_ship": true,
+            "rating": true,
+            "review_liquid": "",
+            "size_price_pr": 22,
+            "fw_price_pr": 400,
+            "price_color": "#696969",
+            "price_sale_color": "#ec0101"
+          }
+        },
+        "description_zYeaUA": {
+          "type": "description",
+          "settings": {
+            "des": "2",
+            "text": "",
+            "length": 31
+          }
+        },
+        "form_hUehj9": {
+          "type": "form",
+          "settings": {
+            "selector_mode": "block2",
+            "color_mode": "color",
+            "enable_fit_ratio_img": false,
+            "color_size": "medium",
+            "show_qty": false,
+            "enable_wishlist": false,
+            "enable_compare": false,
+            "btn_atc_full": false,
+            "pr_btn_round": 40,
+            "ani": "none",
+            "time": 6,
+            "btn_txt": "3",
+            "btn_icon": false,
+            "button_style": "default",
+            "button_color": "dark",
+            "button_effect": "fade",
+            "wishlist_color": "#222222",
+            "wishlist_color_hover": "#56cfe1",
+            "wishlist_color_active": "#E81E1E",
+            "compare_color": "#222222",
+            "compare_color_hover": "#56cfe1",
+            "compare_color_active": "#222222",
+            "show_dynamic_checkout": false,
+            "btn_txt2": "3",
+            "button_color_payment": "dark",
+            "show_gift_card_recipient": true,
+            "product_list": [
+
+            ],
+            "show_product_current": true,
+            "qty_val": "0",
+            "advance_label": "Choose style",
+            "advance_pr_list": [
+
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "title_xQJt9q",
+        "price_review_7emBMJ",
+        "description_zYeaUA",
+        "form_hUehj9"
+      ],
+      "settings": {
+        "product": "zeus-black-color-katan-banarasi-saree-with-allover-jaali-work",
+        "enable_sticky_info": false,
+        "media_layout": "without_thumbnails",
+        "media_size": "small",
+        "thumb_lr_size": "small",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "main_click": "zoom",
+        "zoom_tp": "external",
+        "enable_zoom_icon": true,
+        "enable_zoom_click_mb": true,
+        "enable_video_looping": false,
+        "enable_video_muting": true,
+        "enable_video_autoplaying": true,
+        "eff": "fade",
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "outline",
+        "btn_shape": "round",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
     "image_text_mabHwt": {
       "type": "image_text",
       "blocks": {
         "bl_text_Pi33h8": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "12",
+            "col_dk": "6",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Sonam’s Bralette with Red Saree!",
-            "text": "<p>Sonam’s look in <a href=\"https:\/\/en.wikipedia.org\/wiki\/I_Hate_Luv_Storys\"><span style=\"text-decoration:underline\">I Hate Luv Story<\/span><\/a> was chic and urbane. But the song, “Sadka kiya” has her offsetting her red saree with a bikini style blouse. With minimal jewellery and subtle make-up, Sonam achieves the ‘sexy in a saree’ look. Not surprising it was a Manish Malhotra avatar.<\/p><p><a href=\"https:\/\/youtu.be\/n6m4lZ1TL0s?t=97\"><span style=\"text-decoration:underline\">Sadka Lyric Video - I Hate Luv Storys|Sonam Kapoor, Imran Khan|Suraj Jagan,Mahalaxmi Iyer<\/span><\/a><\/p>",
+            "heading": "“Dil Too Pagal Hai’s” Pinky Pink",
+            "text": "<p>This is something that you can style with anything close to pink, but also try the chiffon with a solid body with no other bead, resham, or zari work on it. A plain and solid saree on the wedding won't be great but you can pair it with a jeweled belt, a big kaan bali, and a zari embroidered jacket and you are sorted. But if you want to pull along just with the saree look you can do it easily with fresh flowers in your hair bun.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -871,10 +997,40 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
+        },
+        "bl_image_D8RBdB": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/DTPH.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
         }
       },
       "block_order": [
-        "bl_text_Pi33h8"
+        "bl_text_Pi33h8",
+        "bl_image_D8RBdB"
       ],
       "settings": {
         "design_heading": "1",
@@ -1154,10 +1310,10 @@
         "code_cus_css": ""
       }
     },
-    "featured_product_cNb4Rx": {
+    "featured_product_VYqb7H": {
       "type": "featured-product",
       "blocks": {
-        "title_xQJt9q": {
+        "title_kkmnUG": {
           "type": "title",
           "settings": {
             "txt_tr_pr": "none",
@@ -1170,7 +1326,7 @@
             "pr_title_color_hover": "#56cfe1"
           }
         },
-        "price_review_7emBMJ": {
+        "price_review_Ge4DAk": {
           "type": "price_review",
           "settings": {
             "price": "0",
@@ -1184,7 +1340,7 @@
             "price_sale_color": "#ec0101"
           }
         },
-        "description_zYeaUA": {
+        "description_wEJfBR": {
           "type": "description",
           "settings": {
             "des": "2",
@@ -1192,7 +1348,7 @@
             "length": 31
           }
         },
-        "form_hUehj9": {
+        "form_qHByt7": {
           "type": "form",
           "settings": {
             "selector_mode": "block2",
@@ -1234,13 +1390,13 @@
         }
       },
       "block_order": [
-        "title_xQJt9q",
-        "price_review_7emBMJ",
-        "description_zYeaUA",
-        "form_hUehj9"
+        "title_kkmnUG",
+        "price_review_Ge4DAk",
+        "description_wEJfBR",
+        "form_qHByt7"
       ],
       "settings": {
-        "product": "zeus-black-color-katan-banarasi-saree-with-allover-jaali-work",
+        "product": "pink-color-resham-kota-saree-with-embroidery-and-scallop-border",
         "enable_sticky_info": false,
         "media_layout": "without_thumbnails",
         "media_size": "small",
@@ -1291,11 +1447,12 @@
     "image_text_paLmrB",
     "featured_product_z6eEAB",
     "be349666-2469-4b59-9e48-269f0cd4f2cc",
+    "featured_product_cNb4Rx",
     "image_text_mabHwt",
     "56412792-0cbb-4a76-a029-fca6374f64f7",
     "fc7db95d-b40d-4b73-8f9f-fae135c6e5df",
     "featured_collection_7DtPcJ",
     "e7b55938-3dde-44ab-9365-66967e09d447",
-    "featured_product_cNb4Rx"
+    "featured_product_VYqb7H"
   ]
 }
