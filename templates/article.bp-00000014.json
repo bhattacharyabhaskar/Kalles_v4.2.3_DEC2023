@@ -1579,22 +1579,6 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
-    },
-    "line_eHPEbE": {
-      "type": "line",
-      "settings": {
-        "line_style": "solid",
-        "line_width": 100,
-        "line_height": 2,
-        "line_cl": "#b7499b",
-        "line_pos": "t4s-text-center",
-        "layout": "t4s-container-wrap",
-        "mg": ",,50px,",
-        "mg_tb": "",
-        "mg_mb": ",,30px,",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
     }
   },
   "order": [
@@ -1615,7 +1599,6 @@
     "featured_product_VYqb7H",
     "featured_collection_7DtPcJ",
     "56412792-0cbb-4a76-a029-fca6374f64f7",
-    "e7b55938-3dde-44ab-9365-66967e09d447",
-    "line_eHPEbE"
+    "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
