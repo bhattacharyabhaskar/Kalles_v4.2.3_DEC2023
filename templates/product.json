@@ -46,8 +46,15 @@
         },
         "custom_liquid_BqpJqy": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% assign is_sale = false %}\n{% for collection in product.collections %}\n  {% if collection.handle == \"sale\" %}\n    {% assign is_sale = true %}\n  {% endif %}\n{% endfor %}\n\n{% if product.type == \"Saree\" and is_sale %}\n  {%- comment -%} \n    Product belongs to the \"Sale\" category, do not display the discount message \n  {%- endcomment -%}\n{% else %}\n  {% assign price_in_dollars = product.price | divided_by: 100 %}\n  {%- if price_in_dollars > 200 and price_in_dollars < 300 -%}\n    <div class=\"discount-message\" style=\"background-color: #ffeeba;\">\n      <strong>Add to cart to get an additional $10 USD discount<\/strong>\n    <\/div>\n  {%- elsif price_in_dollars >= 300 and price_in_dollars < 500 -%}\n    <div class=\"discount-message\" style=\"background-color: #c3e6cb;\">\n      <strong>Add to cart to get an additional $20 USD discount<\/strong>\n    <\/div>\n  {%- elsif price_in_dollars >= 500 and price_in_dollars < 800 -%}\n    <div class=\"discount-message\" style=\"background-color: #d4edda;\">\n      <strong>Add to cart to get an additional $35 USD discount<\/strong>\n    <\/div>\n  {%- elsif price_in_dollars >= 800 and price_in_dollars < 1000 -%}\n    <div class=\"discount-message\" style=\"background-color: #cce5ff;\">\n      <strong>Add to cart to get an additional $65 USD discount<\/strong>\n    <\/div>\n  {%- elsif price_in_dollars >= 1000 -%}\n    <div class=\"discount-message\" style=\"background-color: #f8d7da;\">\n      <strong>Add to cart to get an additional 10% OFF<\/strong>\n    <\/div>\n  {%- else -%}\n    \n  {%- endif -%}\n{% endif %}"
+          }
+        },
+        "custom_liquid_ktk9BF": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign is_sale = false %}\n{% for collection in product.collections %}\n  {% if collection.handle == \"sale\" %}\n    {% assign is_sale = true %}\n  {% endif %}\n{% endfor %}\n\n{% if product.type == \"Saree\" and is_sale %}\n  {%- comment -%} \n    Product belongs to the \"Sale\" category, do not display the discount message \n  {%- endcomment -%}\n{% else %}\n \n    <div class=\"discount-message\" style=\"background-color: #ffeeba;\">\n      <strong>BUY 2 SAREES & GET 10% OFF. ONLY FOR A LIMITED PERIOD.<\/strong>\n    <\/div>\n{% endif %}"
           }
         },
         "meta": {
@@ -191,6 +198,7 @@
         "e2dbc4b8-572a-49d7-a5d1-8fec516020b8",
         "price_review",
         "custom_liquid_BqpJqy",
+        "custom_liquid_ktk9BF",
         "meta",
         "4fc47f4b-4ca4-4360-a778-51e9e8cc4ebf",
         "form",
