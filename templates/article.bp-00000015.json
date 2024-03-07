@@ -385,30 +385,6 @@
     "be349666-2469-4b59-9e48-269f0cd4f2cc": {
       "type": "image_text",
       "blocks": {
-        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Priyanka Chopra Jonas, a global icon of Indian cinema",
-            "text": "<p>Actress, producer, and global icon Priyanka Chopra Jonas is known for her versatile fashion sense. She has frequently donned sarees, both in India and internationally, representing Indian culture.<\/p><p>This light yellow handloom saree was worn by Priyanka to the Rashtrapati Bhawan for receiving the Padma Shri award in 2016, do you remember that? The floral <a href=\"https:\/\/www.indyvogue.com\/collections\/dhakai-jamdani-sarees\"><span style=\"text-decoration:underline\">Jamdani jaal work<\/span><\/a> brought out the softness in Priyanka's saree and looked something straight out of a fairytale. The color, the self-weaving, the weave, everything was on point and suited the occasion perfectly. You can always count on Priyanka for making the right saree-torial choices.<\/p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
         "8d6d2dc8-c237-4330-a53b-cc789ece3f7c": {
           "type": "bl_image",
           "settings": {
@@ -437,11 +413,35 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
+        },
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Priyanka Chopra Jonas, a global icon of Indian cinema",
+            "text": "<p>Actress, producer, and global icon Priyanka Chopra Jonas is known for her versatile fashion sense. She has frequently donned sarees, both in India and internationally, representing Indian culture.<\/p><p>This light yellow handloom saree was worn by Priyanka to the Rashtrapati Bhawan for receiving the Padma Shri award in 2016, do you remember that? The floral <a href=\"https:\/\/www.indyvogue.com\/collections\/dhakai-jamdani-sarees\"><span style=\"text-decoration:underline\">Jamdani jaal work<\/span><\/a> brought out the softness in Priyanka's saree and looked something straight out of a fairytale. The color, the self-weaving, the weave, everything was on point and suited the occasion perfectly. You can always count on Priyanka for making the right saree-torial choices.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
         }
       },
       "block_order": [
-        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1",
-        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c"
+        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c",
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1"
       ],
       "settings": {
         "design_heading": "1",
