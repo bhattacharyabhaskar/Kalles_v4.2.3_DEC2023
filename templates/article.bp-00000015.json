@@ -382,132 +382,6 @@
         "code_cus_css": ""
       }
     },
-    "featured_product_z6eEAB": {
-      "type": "featured-product",
-      "blocks": {
-        "title_36xd36": {
-          "type": "title",
-          "settings": {
-            "txt_tr_pr": "none",
-            "fnt_df_pr": "1",
-            "size_pr": 16,
-            "fw_pr": 600,
-            "lh_pr": 0,
-            "ls_pr": 0,
-            "pr_title_color": "#222222",
-            "pr_title_color_hover": "#56cfe1"
-          }
-        },
-        "price_review_Xr4rzB": {
-          "type": "price_review",
-          "settings": {
-            "price": "0",
-            "type_sale": "0",
-            "tax_ship": true,
-            "rating": true,
-            "review_liquid": "",
-            "size_price_pr": 22,
-            "fw_price_pr": 400,
-            "price_color": "#696969",
-            "price_sale_color": "#ec0101"
-          }
-        },
-        "description_3UQdcg": {
-          "type": "description",
-          "settings": {
-            "des": "1",
-            "text": "",
-            "length": 31
-          }
-        },
-        "form_EnR9LB": {
-          "type": "form",
-          "settings": {
-            "selector_mode": "circle",
-            "color_mode": "color",
-            "enable_fit_ratio_img": false,
-            "color_size": "medium",
-            "show_qty": false,
-            "enable_wishlist": false,
-            "enable_compare": false,
-            "btn_atc_full": true,
-            "pr_btn_round": 40,
-            "ani": "t4s-ani-shake",
-            "time": 6,
-            "btn_txt": "3",
-            "btn_icon": false,
-            "button_style": "default",
-            "button_color": "primary",
-            "button_effect": "fade",
-            "wishlist_color": "#222222",
-            "wishlist_color_hover": "#56cfe1",
-            "wishlist_color_active": "#e81e1e",
-            "compare_color": "#222222",
-            "compare_color_hover": "#56cfe1",
-            "compare_color_active": "#222222",
-            "show_dynamic_checkout": false,
-            "btn_txt2": "3",
-            "button_color_payment": "dark",
-            "show_gift_card_recipient": true,
-            "product_list": [
-
-            ],
-            "show_product_current": true,
-            "qty_val": "0",
-            "advance_label": "Choose style",
-            "advance_pr_list": [
-
-            ]
-          }
-        }
-      },
-      "block_order": [
-        "title_36xd36",
-        "price_review_Xr4rzB",
-        "description_3UQdcg",
-        "form_EnR9LB"
-      ],
-      "settings": {
-        "product": "white-and-red-color-pure-katan-banarasi-saree",
-        "enable_sticky_info": false,
-        "media_layout": "without_thumbnails",
-        "media_size": "small",
-        "thumb_lr_size": "small",
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "8",
-        "main_click": "zoom",
-        "zoom_tp": "external",
-        "enable_zoom_icon": true,
-        "enable_zoom_click_mb": true,
-        "enable_video_looping": false,
-        "enable_video_muting": true,
-        "enable_video_autoplaying": true,
-        "eff": "fade",
-        "nav_btn": true,
-        "btn_vi": "always",
-        "btn_owl": "outline",
-        "btn_shape": "round",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": false,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
-      }
-    },
     "be349666-2469-4b59-9e48-269f0cd4f2cc": {
       "type": "image_text",
       "blocks": {
@@ -519,8 +393,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "The Black Beauty of “Kalaank”",
-            "text": "<p>The latest movie of Madhuri Dixit shows her maturity over time and classic appearance in such a molded characterization. The black color dress she wears as a courtesan while also being respected all over the town, these attributes give Madhuri's character a bit of an edge and her ethnic ensembles a lot of authority and control. <\/p>",
+            "heading": "Priyanka Chopra Jonas, a global icon of Indian cinema",
+            "text": "<p>Actress, producer, and global icon Priyanka Chopra Jonas is known for her versatile fashion sense. She has frequently donned sarees, both in India and internationally, representing Indian culture.<\/p><p>This light yellow handloom saree was worn by Priyanka to the Rashtrapati Bhawan for receiving the Padma Shri award in 2016, do you remember that? The floral <a href=\"https:\/\/www.indyvogue.com\/collections\/dhakai-jamdani-sarees\"><span style=\"text-decoration:underline\">Jamdani jaal work<\/span><\/a> brought out the softness in Priyanka's saree and looked something straight out of a fairytale. The color, the self-weaving, the weave, everything was on point and suited the occasion perfectly. You can always count on Priyanka for making the right saree-torial choices.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -538,7 +412,7 @@
         "8d6d2dc8-c237-4330-a53b-cc789ece3f7c": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Kalaank.jpg",
+            "image1": "shopify:\/\/shop_images\/PC.webp",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -1191,7 +1065,6 @@
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
     "image_text_paLmrB",
-    "featured_product_z6eEAB",
     "be349666-2469-4b59-9e48-269f0cd4f2cc",
     "featured_product_cNb4Rx",
     "fc7db95d-b40d-4b73-8f9f-fae135c6e5df",
