@@ -1,0 +1,677 @@
+{
+  "sections": {
+    "d036730a-8d16-4983-945e-58174fb11f9c": {
+      "type": "banner",
+      "blocks": {
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": false,
+            "height_dk": 600,
+            "custom_tb": false,
+            "height_tb": 400,
+            "custom_mb": false,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/Saree_Blog_Banner_june_9b9da7cc-a1e6-4693-b74e-ce31fde0b60a.png",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "12",
+            "col_tb": "12",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 100,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 100,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_bl": true,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0"
+      ],
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "6869956b-0118-467c-98f0-cbb9ff121db9": {
+      "type": "image_text",
+      "blocks": {
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Nita Ambani to Priyanka Chopra Jonas: Tales of 5 Superwoman Wrapped in Six Yards",
+            "text": "<p>Numerous influential women worldwide, spanning politics, business, entertainment, and activism, have chosen to wear sarees on various occasions. Notable figures include the likes of <a href=\"https:\/\/en.wikipedia.org\/wiki\/Indira_Gandhi\"><span style=\"text-decoration:underline\">Indira Gandhi,<\/span><\/a> <a href=\"https:\/\/en.wikipedia.org\/wiki\/Oprah_Winfrey\"><span style=\"text-decoration:underline\">Oprah Winfrey<\/span><\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Kamala_Harris\"><span style=\"text-decoration:underline\">Kamala Harris<\/span><\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Aishwarya_Rai_Bachchan\"><span style=\"text-decoration:underline\">Aishwarya Rai Bachchan<\/span><\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Shabana_Azmi\"><span style=\"text-decoration:underline\">Shabana Azmi<\/span><\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Nita_Ambani\"><span style=\"text-decoration:underline\">Nita Ambani<\/span><\/a>, <a href=\"https:\/\/en.wikipedia.org\/wiki\/Priyanka_Chopra\"><span style=\"text-decoration:underline\">Priyanka Chopra Jonas<\/span><\/a>, and more. These women, celebrated for their achievements, have embraced the saree not only as a traditional garment but also as a symbol of cultural pride, grace, and individuality.<\/p><p>Not just that a saree holds a profound significance, almost akin to a spiritual connection. In numerous temples, devotees offer sarees to goddesses, considering them auspicious garments to be worn on special occasions. Goddesses such as Kali and Bhairavi emanate a power beyond ordinary comprehension, and remarkably, this energy is shared with us through their saree-clad appearance. Draped in meticulously pleated and precisely worn sarees, even today, women emerge triumphant. Witnessing women dance, charm, and even perform somersaults in this exquisite garment adds to its mesmerizing charm.<\/p><p>The coming of <a href=\"https:\/\/www.un.org\/en\/observances\/womens-day\"><span style=\"text-decoration:underline\">International Women’s Day<\/span><\/a> helps to embolden us to keep on meeting success in life without having any pressure and fear. There are a ton of women who hold a special place in my heart and I guess in most of your minds. Let me share their history and how they hold the integrity of the saree and India’s diversity through their appearance.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48": {
+      "type": "image_text",
+      "blocks": {
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Indira Gandhi and her eclectic choices of sarees",
+            "text": "<p>Indira Gandhi, the first and, to date, the only female Prime Minister of India, was often seen wearing sarees. She played a crucial role in shaping India's political landscape.Radhi Parekh, the founder of Mumbai’s Artisan Gallery feels that the time is right for such a memorializing collection. “We are seeing a resurgence of interest in iconic saris and such exhibitions could prompt young women to seek the best of India’s timeless saris,” she says. She wore embroidered garas, printed cotton, khadi, raw silk mark sarees, temple-bordered weaves, Ikats, and Kashmiri needlework saris.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/IG.jpg",
+            "col_dk": "6",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1",
+        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "1608235d-c3e9-4bd1-b190-b35ac6c54005": {
+      "type": "image_text",
+      "blocks": {
+        "a9a29052-0c8b-4e3f-ab5d-4efced60901a": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Chandra.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Chandra Kochar, Ex-CEO of ICICI in Crepes and Cottons",
+            "text": "<p>Former ICICI Bank CEO <a href=\"https:\/\/en.wikipedia.org\/wiki\/Chanda_Kochhar\"><span style=\"text-decoration:underline\">Chanda Kochhar<\/span><\/a> is a prominent Indian businesswoman who is often seen wearing <a href=\"https:\/\/www.sanskriticuttack.com\/product-category\/odisha-handloom\/sambalpuri-saree\/\"><em><strong>Ikat <\/strong><\/em><\/a><em><strong>silk sarees.<\/strong><\/em> To her, it is not just a traditional garment, but also a symbol of professionalism and culture. She has worn sarees to various business events and used her position to promote traditional Indian textiles and handicrafts. Kochhar is a role model for women in business and has worked towards promoting financial inclusion and supporting <a href=\"https:\/\/www.startupindia.gov.in\/content\/sih\/en\/women_entrepreneurs.html\"><span style=\"text-decoration:underline\">women entrepreneurs in India.<\/span><\/a><\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "a9a29052-0c8b-4e3f-ab5d-4efced60901a",
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_paLmrB": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_dxxieh": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Stylista Aparna Sen, the eminent filmmaker",
+            "text": "<p><a href=\"https:\/\/en.wikipedia.org\/wiki\/Aparna_Sen\"><span style=\"text-decoration:underline\">Aparna Sen<\/span><\/a> is not only an amazing actress but also a fashionista. Her grand fashion choices and acting flairs have always wowed us. She balances her style between sophistication and a cool look and that too in a saree. A leading Indian filmmaker and champion of women's rights, frequently dons <a href=\"https:\/\/www.indyvogue.com\/collections\/buy-silk-mark-certified-saree\"><span style=\"text-decoration:underline\">handloom sarees<\/span><\/a> at numerous film festivals and award ceremonies. She actively advocates for traditional Indian textiles and crafts. Through her films, which tackle societal issues and shed light on the challenges faced by women in India, she advocates for gender equality and women's empowerment. <\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_3zE6R7": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/AP.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_dxxieh",
+        "bl_image_3zE6R7"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "be349666-2469-4b59-9e48-269f0cd4f2cc": {
+      "type": "image_text",
+      "blocks": {
+        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/PC.webp",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Priyanka Chopra Jonas, a global icon of Indian cinema",
+            "text": "<p>Actress, producer, and global icon Priyanka Chopra Jonas is known for her versatile fashion sense. She has frequently donned sarees, both in India and internationally, representing Indian culture.<\/p><p>This light yellow handloom saree was worn by Priyanka to the Rashtrapati Bhawan for receiving the Padma Shri award in 2016, do you remember that? The floral <a href=\"https:\/\/www.indyvogue.com\/collections\/dhakai-jamdani-sarees\"><span style=\"text-decoration:underline\">Jamdani jaal work<\/span><\/a> brought out the softness in Priyanka's saree and looked something straight out of a fairytale. The color, the self-weaving, the weave, everything was on point and suited the occasion perfectly. You can always count on Priyanka for making the right saree-torial choices.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c",
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_mabHwt": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_Pi33h8": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Nita Ambani, the “RIL-Queen” & philanthropist, and her love for sarees",
+            "text": "<p><a href=\"https:\/\/en.wikipedia.org\/wiki\/Nita_Ambani\"><span style=\"text-decoration:underline\">Nita Ambani<\/span><\/a>, an Indian businesswoman and the wife of billionaire Mukesh Ambani, is often seen wearing sarees at various events. The business and philanthropist loves collecting Indian textiles and promotes a lot of Indian handloom. Whenever spotted in the conventional form of Indian ethnic wear without bells and whistles, she grabbed the attention just as fabulously. She has a varied choice of hand-embroidery to kanjeevaram, crepe silks to banarasi, she has it all. Like the gold <em><strong>Kanjeevaram silk saree,<\/strong><\/em> she wore during the opening of JIO World Plaza in Mumbai. <\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_D8RBdB": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/NA.webp",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_Pi33h8",
+        "bl_image_D8RBdB"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "56412792-0cbb-4a76-a029-fca6374f64f7": {
+      "type": "image_text",
+      "blocks": {
+        "template--17093650579689__56412792-0cbb-4a76-a029-fca6374f64f7-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Wrapping Up",
+            "text": "<p>If you are thinking of draping like these eminent women to uphold the integrity and culture of your roots - then don't be late and let <em><strong>IndyVogue<\/strong><\/em> be your partner in making the handloom industry of India eminent and promising like never. <\/p><p>The saree is a versatile and timeless garment that can be styled in a variety of ways to suit any professional environment. Whether you prefer the elegance of silk sarees or the comfort of cotton sarees, there is a saree for every workplace wardrobe. Try out our workplace wardrobe and celebrate International Women’s Day. <\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17093650579689__56412792-0cbb-4a76-a029-fca6374f64f7-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "e7b55938-3dde-44ab-9365-66967e09d447": {
+      "type": "image_text",
+      "blocks": {
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https:\/\/www.indyvogue.com\/\"><strong>IndyVogue<\/strong> <\/a>every day, every hour, every minute and every second. Salute to her and her undying spirit.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "d036730a-8d16-4983-945e-58174fb11f9c",
+    "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
+    "1608235d-c3e9-4bd1-b190-b35ac6c54005",
+    "image_text_paLmrB",
+    "be349666-2469-4b59-9e48-269f0cd4f2cc",
+    "image_text_mabHwt",
+    "56412792-0cbb-4a76-a029-fca6374f64f7",
+    "e7b55938-3dde-44ab-9365-66967e09d447"
+  ]
+}
