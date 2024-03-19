@@ -58,6 +58,12 @@
             "custom_liquid": "{% assign is_sale = false %}\n{% for collection in product.collections %}\n  {% if collection.handle == \"sale\" %}\n    {% assign is_sale = true %}\n  {% endif %}\n{% endfor %}\n\n{% if product.type == \"Saree\" and is_sale %}\n  {%- comment -%} \n    Product belongs to the \"Sale\" category, do not display the discount message \n  {%- endcomment -%}\n{% else %}\n \n    <div class=\"discount-message\" style=\"background-color: #7fda69;\">\n     <font color=\"#9900FF\"> <strong>ONLY THIS WEEK - BUY 2 & GET 10% OFF.<\/strong><\/font>\n    <\/div>\n{% endif %}"
           }
         },
+        "custom_liquid_9iLwHa": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- if product.type == 'Saree' -%}\n   {% for tag in product.tags %}\n       {% if tag contains 'FREE BLOUSE STITCHING' %}\n    \t<div class=\"discount-message\" style=\"background-color: #7fda69;\">\n     \t\t<font color=\"#9900FF\"> <strong>FREE BLOUSE STITCHING ON THIS SAREE.<\/strong><\/font>\n   \t<\/div>\n       {%- endif -%}\n   {% endfor %}\n{%- endif -%}"
+          }
+        },
         "meta": {
           "type": "meta",
           "settings": {
@@ -200,6 +206,7 @@
         "price_review",
         "custom_liquid_BqpJqy",
         "custom_liquid_ktk9BF",
+        "custom_liquid_9iLwHa",
         "meta",
         "4fc47f4b-4ca4-4360-a778-51e9e8cc4ebf",
         "form",
