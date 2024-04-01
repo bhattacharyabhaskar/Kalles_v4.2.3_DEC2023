@@ -61,7 +61,7 @@
         "custom_liquid_9iLwHa": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- if product.type == 'Saree' -%}\n   {% for tag in product.tags %}\n       {% if tag contains 'FREE BLOUSE STITCHING' %}\n    \t<div class=\"discount-message\" style=\"background-color: #7fda69;\">\n     \t\t<font color=\"#9900FF\"> <strong>FREE BLOUSE STITCHING ON THIS SAREE.<\/strong><\/font>\n   \t<\/div>\n       {%- endif -%}\n   {% endfor %}\n{%- endif -%}"
+            "custom_liquid": "{%- if product.type == 'Saree' -%}\n   {% for tag in product.tags %}\n       {% if tag contains 'FREE BLOUSE STITCHING' %}\n    \t<div class=\"discount-message\" style=\"background-color: #7fda69;\">\n     \t\t<font color=\"#9900FF\"> <strong>FREE BLOUSE STITCHING ON THIS SAREE.<\/strong><\/font>\n   \t<\/div>\n       {%- endif -%}\n{% if tag contains 'LIVE1' %}\n    \t<div class=\"discount-message\" style=\"background-color: #7fda69;\">\n     \t\t<font color=\"#9900FF\"> <strong>User Code LIVE01 to get $20 USD OFF<\/strong><\/font>\n   \t<\/div>\n       {%- endif -%}\n   {% endfor %}\n\n{%- endif -%}"
           }
         },
         "meta": {
