@@ -1190,11 +1190,27 @@
         "code_cus_css": ""
       }
     },
+    "custom_liquid_bB8QjJ": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"shopify-section-template--17089852604649__17022330082d8df317\" class=\"shopify-section\">\n  <div id=\"shopify-block-9ef838d1-083b-4f7c-9d77-1914496936a0\" class=\"shopify-block shopify-app-block\">\n    <div\n      class=\"__seguno-newsletter-form\"\n      style=\"\n        --color-background: 255, 255, 255;\n        --color-foreground: 26, 27, 24;\n        --color-button: 183, 73, 155;\n        --color-button-text: 255, 255, 255;\n        ;\n      \"\n    >\n      <h2 class=\"h1 __seguno-newsletter-form-heading\">Subscribe & Save<\/h2>\n\n      <div class=\"__seguno-newsletter-form-subheading\">\n        <p>\n          Subscribe to our NewsLetter and get <strong>$10 USD Off*<\/strong> your purchase. Get the latest & greatest\n          update on New Arrivals, Promotions and lots more.\n        <\/p>\n      <\/div>\n\n      <form\n        method=\"post\"\n        action=\"\/contact#__seguno_contact_form--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n        id=\"__seguno_contact_form--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n        accept-charset=\"UTF-8\"\n        class=\"__seguno-contact-form\"\n      >\n        <input type=\"hidden\" name=\"form_type\" value=\"customer\"><input type=\"hidden\" name=\"utf8\" value=\"✓\">\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter\">\n\n        <div class=\"__seguno-newsletter-field\">\n          <div class=\"field\">\n            <input\n              id=\"SegunoNewsletterForm-email--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n              type=\"email\"\n              name=\"contact[email]\"\n              class=\"field__input\"\n              value=\"\"\n              aria-required=\"true\"\n              autocorrect=\"off\"\n              autocapitalize=\"off\"\n              autocomplete=\"email\"\n\n              placeholder=\"email@email.com\"\n              required\n            >\n            <label\n              class=\"field__label\"\n              for=\"SegunoNewsletterForm-email--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n            >\n              Email\n            <\/label>\n          <\/div>\n        <\/div>\n\n        <div class=\"__seguno-newsletter-field\">\n          <div class=\"checkbox-field\">\n            <label\n              for=\"SegunoNewsletterForm-permission--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n              class=\"__seguno-permission-field\"\n            >\n              <input\n                id=\"SegunoNewsletterForm-permission--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n                type=\"checkbox\"\n                class=\"field__checkbox __seguno-newsletter-permission-checkbox\"\n              >\n              <div>\n                <p>I agree to receive marketing emails from IndyVogue.<\/p>\n              <\/div>\n            <\/label>\n          <\/div>\n        <\/div>\n\n        <button\n          type=\"submit\"\n          class=\"button\"\n          id=\"SegunoNewsletterForm-submit--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n          name=\"commit\"\n          disabled\n        >\n          Subscribe\n        <\/button>\n      <\/form>\n    <\/div>\n  <\/div>\n<\/div>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
     "17022330082d8df317": {
       "type": "apps",
       "blocks": {
         "9ef838d1-083b-4f7c-9d77-1914496936a0": {
           "type": "shopify:\/\/apps\/seguno-email\/blocks\/newsletter_form\/db65571f-fa4d-473d-baa2-283a96dc76bc",
+          "disabled": true,
           "settings": {
             "heading": "Subscribe & Save",
             "subheading": "<p>Subscribe to our NewsLetter and get <strong>$10 USD Off*<\/strong> your purchase. Get the latest & greatest update on New Arrivals, Promotions and lots more.<\/p>",
@@ -1222,6 +1238,7 @@
       "block_order": [
         "9ef838d1-083b-4f7c-9d77-1914496936a0"
       ],
+      "disabled": true,
       "settings": {
       }
     }
@@ -1244,6 +1261,7 @@
     "0b8b46e4-9f56-481f-a268-707914397b64",
     "16460368750174c54a",
     "d9739b17-f400-495b-a60f-9652e6c536ed",
+    "custom_liquid_bB8QjJ",
     "17022330082d8df317"
   ]
 }
