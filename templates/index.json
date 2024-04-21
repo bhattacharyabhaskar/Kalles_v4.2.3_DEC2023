@@ -534,7 +534,6 @@
       "blocks": {
         "c9c204cf-7c77-418f-9268-d32081a51485": {
           "type": "shopify:\/\/apps\/whatmore-shoppable-videos\/blocks\/app-block\/20db8a72-315a-4364-8885-64219ee48303",
-          "disabled": true,
           "settings": {
             "heading": "Watch and Buy!",
             "template-type": "template-a",
@@ -1238,7 +1237,6 @@
       "block_order": [
         "9ef838d1-083b-4f7c-9d77-1914496936a0"
       ],
-      "disabled": true,
       "settings": {
       }
     }
