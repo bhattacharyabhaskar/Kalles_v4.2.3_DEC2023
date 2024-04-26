@@ -688,7 +688,7 @@
           "top-bar-1": {
             "type": "text",
             "settings": {
-              "text": "<p>💃FREE DESIGNER BLOUSE STITCHING💃 <\/p><p><strong> <\/strong><a href=\"https:\/\/www.indyvogue.com\/pages\/current-offers-and-promotions\"><strong>Click for details<\/strong><\/a><\/p>",
+              "text": "<h1>🤱<strong>UPTO 10% OFF<\/strong>🤱<\/h1><p><strong> <\/strong><a href=\"https:\/\/www.indyvogue.com\/pages\/current-offers-and-promotions\"><strong>Click for details<\/strong><\/a><\/p>",
               "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
@@ -697,9 +697,9 @@
               "au_time": 3.5,
               "fw_bold": 400,
               "cl_a": "#222222",
-              "cl_bold": "#ec0101",
+              "cl_bold": "#b7499b",
               "cl_a_tr": "#ffffff",
-              "cl_bold_tr": "#ec0101",
+              "cl_bold_tr": "#b7499b",
               "hide": false,
               "text_align": "center",
               "col": "4"
