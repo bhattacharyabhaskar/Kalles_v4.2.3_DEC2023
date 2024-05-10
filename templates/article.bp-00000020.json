@@ -478,8 +478,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "#5. Nothing can go wrong with berry shades",
-            "text": "<p>If your red saree has cooler undertones, consider wearing a <a href=\"https:\/\/www.sephora.com\/product\/rare-beauty-by-selena-gomez-lip-souffle-matte-cream-lipstick-P87987897?skuId=2362309&icid2=products%20grid:p87987897:product\" title=\"https:\/\/www.sephora.com\/product\/rare-beauty-by-selena-gomez-lip-souffle-matte-cream-lipstick-P87987897?skuId=2362309&icid2=products%20grid:p87987897:product\">berry-colored lipstick<\/a>. This can create a balanced and coordinated look.<\/p>",
+            "heading": "#5. The aesthetic mujra look of Aditi Rao",
+            "text": "<p>Oh, she has been phenomenal throughout the series. She has been playing the mujra scenes, which have been experimental, and she has a bit of finesse in store as an actress. However, the zardozi weaving work on her lovely saree has also stolen my eyes and heart and kept me captive for a long time!<\/p><p>We also have something similar to this collection, if not the same - do you want to have a look? You can pair this with a black blouse like hers and look similar - <a href=\"https:\/\/www.indyvogue.com\/products\/offwhite-and-golden-color-color-georgette-saree-with-sequin-work-and-zari-stripes?_pos=15&_sid=0b4b06270&_ss=r&variant=46001547903209\"><span style=\"text-decoration:underline\">Georgette Saree with Zardozi work<\/span><\/a>.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -497,7 +497,7 @@
         "bl_image_D8RBdB": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Rare_Beauty.png",
+            "image1": "shopify:\/\/shop_images\/Aditi-rao.webp",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -563,8 +563,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "BONUS!",
-            "text": "<p>A beginner’s video link to apply the lipstick in a perfect way without making your lips appear messy.<\/p>",
+            "heading": "Wrap Up!",
+            "text": "<p>What do you think of my ideas to make your Mother’s Day special with these sarees? You are undoubtedly walking with the top 10 silk sare sites in the USA, and we will never let you down when it comes to picking the perfect saree for you to make moments!<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -586,90 +586,6 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "video_featured_NYYGX7": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=0Ygiw_i59IA",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_qctPb9": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_KJTanr": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Wrap up!",
-            "text": "<p>Let us know your opinion after you have tried my idea to use this swatch guide for the summer saree, wedding saree style, or whenever you accessorize.<\/p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_KJTanr"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-start",
         "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
@@ -756,8 +672,6 @@
     "be349666-2469-4b59-9e48-269f0cd4f2cc",
     "image_text_mabHwt",
     "56412792-0cbb-4a76-a029-fca6374f64f7",
-    "video_featured_NYYGX7",
-    "image_text_qctPb9",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
