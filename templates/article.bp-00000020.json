@@ -1,0 +1,763 @@
+{
+  "sections": {
+    "d036730a-8d16-4983-945e-58174fb11f9c": {
+      "type": "banner",
+      "blocks": {
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": false,
+            "height_dk": 600,
+            "custom_tb": false,
+            "height_tb": 400,
+            "custom_mb": false,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/lipstick_banner.png",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "12",
+            "col_tb": "12",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 100,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 100,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_bl": true,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0"
+      ],
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "6869956b-0118-467c-98f0-cbb9ff121db9": {
+      "type": "image_text",
+      "blocks": {
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Guide to Find the Right Lipstick Shade for Your Red Saree",
+            "text": "<p>This is a new blog series that I was likely to start to share all the lipstick details with my lovely patrons, who are regular blog readers.<\/p><p>Whether you buy a silk mark certified saree, a handloom saree, or any type of Indian silk saree in red, this guide will help you get the perfect swatch!<\/p><p>To complement my patrons to have no trouble, I am creating a library with all the possible colors on the <strong>VIBGYOR<\/strong>. To begin with, I have chosen the <strong>RED<\/strong> as the first on my list. Let my blog be the swatch for your lipstick shades, and you will find the perfect shades for the primary and daily colors we wear!<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48": {
+      "type": "image_text",
+      "blocks": {
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#1. If you are not trying bold makeup, then",
+            "text": "<p>Highlight your eyes using maroon shadows mixed with subtle brown shades. For your lips, it is best to choose<strong> <\/strong><a href=\"https:\/\/sephora.in\/product\/laura-mercier-rouge-essentiel-silky-creme-lipstick-v-blush-pink?srsltid=AfmBOop-ESZ8EszQlLMaf-SMMNDSxsCSJvuYvw7O3or7exhrOuufMEcNzuc_\" title=\"https:\/\/sephora.in\/product\/laura-mercier-rouge-essentiel-silky-creme-lipstick-v-blush-pink?srsltid=AfmBOop-ESZ8EszQlLMaf-SMMNDSxsCSJvuYvw7O3or7exhrOuufMEcNzuc_\"><strong>dark blush pink<\/strong><\/a><strong>. <\/strong>Here is the perfect shade I found for you all.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Laura_Mercier.png",
+            "col_dk": "6",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1",
+        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "1608235d-c3e9-4bd1-b190-b35ac6c54005": {
+      "type": "image_text",
+      "blocks": {
+        "a9a29052-0c8b-4e3f-ab5d-4efced60901a": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Rose_Inc.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#2. Who says you can't wear brown",
+            "text": "<p>Many women wonder whether they can wear a <a href=\"https:\/\/www.sephora.com\/product\/rose-inc-satin-lip-color-refillable-hydrating-lipstick-P482730?skuId=2529329&icid2=products%20grid:p482730:product\" title=\"https:\/\/www.sephora.com\/product\/rose-inc-satin-lip-color-refillable-hydrating-lipstick-P482730?skuId=2529329&icid2=products%20grid:p482730:product\">chocolate-brown lipstick<\/a> with a red saree. It's time to break the misconception. With glam eye makeup that should be a bit glossy, go for brown lipstick. <\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "a9a29052-0c8b-4e3f-ab5d-4efced60901a",
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_paLmrB": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_dxxieh": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#3. I have something for the glass skin makeup look as well",
+            "text": "<p>If you think nude makeup or <a href=\"https:\/\/www.sephora.com\/product\/anastasia-beverly-hills-matte-satin-velvet-lipstick-P480576?skuId=2650968&icid2=products%20grid:p480576:product\" title=\"https:\/\/www.sephora.com\/product\/anastasia-beverly-hills-matte-satin-velvet-lipstick-P480576?skuId=2650968&icid2=products%20grid:p480576:product\">glass skin<\/a> makeup look won’t go with a red dress, then you need to reevaluate. You can easily pair a nude lip shade and black mascara with your red saree. For someone who wants to keep their makeup light, this is perfect to take inspiration from.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_3zE6R7": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Anastasia.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_dxxieh",
+        "bl_image_3zE6R7"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "be349666-2469-4b59-9e48-269f0cd4f2cc": {
+      "type": "image_text",
+      "blocks": {
+        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Gucci.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#4. Warmth of the orange-red is never a miss",
+            "text": "<p>A coral or <a href=\"https:\/\/www.sephora.com\/product\/gucci-gucci-rouge-a-levres-mat-matte-lipstick-P453273?skuId=2310217&icid2=products%20grid:p453273:product\" title=\"https:\/\/www.sephora.com\/product\/gucci-gucci-rouge-a-levres-mat-matte-lipstick-P453273?skuId=2310217&icid2=products%20grid:p453273:product\">orange-red lipstick<\/a> can add a touch of warmth and playfulness to your look, especially if your saree has warm undertones.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c",
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_mabHwt": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_Pi33h8": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#5. Nothing can go wrong with berry shades",
+            "text": "<p>If your red saree has cooler undertones, consider wearing a <a href=\"https:\/\/www.sephora.com\/product\/rare-beauty-by-selena-gomez-lip-souffle-matte-cream-lipstick-P87987897?skuId=2362309&icid2=products%20grid:p87987897:product\" title=\"https:\/\/www.sephora.com\/product\/rare-beauty-by-selena-gomez-lip-souffle-matte-cream-lipstick-P87987897?skuId=2362309&icid2=products%20grid:p87987897:product\">berry-colored lipstick<\/a>. This can create a balanced and coordinated look.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_D8RBdB": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Rare_Beauty.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_Pi33h8",
+        "bl_image_D8RBdB"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "56412792-0cbb-4a76-a029-fca6374f64f7": {
+      "type": "image_text",
+      "blocks": {
+        "template--17093650579689__56412792-0cbb-4a76-a029-fca6374f64f7-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "BONUS!",
+            "text": "<p>A beginner’s video link to apply the lipstick in a perfect way without making your lips appear messy.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17093650579689__56412792-0cbb-4a76-a029-fca6374f64f7-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "video_featured_NYYGX7": {
+      "type": "video_featured",
+      "settings": {
+        "se_height": "t4s_ratio16_9",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=0Ygiw_i59IA",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_qctPb9": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_KJTanr": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Wrap up!",
+            "text": "<p>Let us know your opinion after you have tried my idea to use this swatch guide for the summer saree, wedding saree style, or whenever you accessorize.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_KJTanr"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "e7b55938-3dde-44ab-9365-66967e09d447": {
+      "type": "image_text",
+      "blocks": {
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https:\/\/www.indyvogue.com\/\"><strong>IndyVogue<\/strong> <\/a>every day, every hour, every minute and every second. Salute to her and her undying spirit.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "d036730a-8d16-4983-945e-58174fb11f9c",
+    "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
+    "1608235d-c3e9-4bd1-b190-b35ac6c54005",
+    "image_text_paLmrB",
+    "be349666-2469-4b59-9e48-269f0cd4f2cc",
+    "image_text_mabHwt",
+    "56412792-0cbb-4a76-a029-fca6374f64f7",
+    "video_featured_NYYGX7",
+    "image_text_qctPb9",
+    "e7b55938-3dde-44ab-9365-66967e09d447"
+  ]
+}
