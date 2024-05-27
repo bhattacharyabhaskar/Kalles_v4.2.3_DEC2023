@@ -1,0 +1,931 @@
+{
+  "sections": {
+    "d036730a-8d16-4983-945e-58174fb11f9c": {
+      "type": "banner",
+      "blocks": {
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": false,
+            "height_dk": 600,
+            "custom_tb": false,
+            "height_tb": 400,
+            "custom_mb": false,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/1_4faf8e6b-9603-4ecb-84ad-d9595aad523c.png",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "12",
+            "col_tb": "12",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 100,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 100,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_bl": true,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0"
+      ],
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "6869956b-0118-467c-98f0-cbb9ff121db9": {
+      "type": "image_text",
+      "blocks": {
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "5 Classy Inspired Saree Looks from Heeramandi You’ll Love to Try",
+            "text": "<p>The new series by <a href=\"https:\/\/www.imdb.com\/name\/nm0080220\/\"><span style=\"text-decoration:underline\">Sanjay Leela Bhansali<\/span><\/a> has hit the market, and it is taking the series crazy fans to rave. They are just going gaga over the new Sanjay Leela Bhansali creation. It is streaming on Netflix, and I think if you want to know about the enchanting world of Tawaifs or Courtesans of the Mughal era, this series is <a href=\"https:\/\/www.netflix.com\/title\/81122198\"><span style=\"text-decoration:underline\">streaming on Netflix<\/span><\/a>, so go ahead and watch!<\/p><p>It will undoubtedly take you to a realm where courtesans preside amidst a backdrop of pre-independence India. The concept can be roughly described as Imagine that <a href=\"https:\/\/www.hbo.com\/game-of-thrones\"><span style=\"text-decoration:underline\">Game of Thrones<\/span><\/a> meets the grace and beauty of Lahore, and you’ll get the idea.<\/p><p>It is an iconic series from the Indian director and rightfully captures the essence of a fading era. The courtesans here coexist, and with their impending obsoleteness, they find themselves swept up in the whirlpool of India’s freedom movement.<\/p><p>Leaving everything aside, what caught my eye was the costumes. They took center stage. Indian fabrics and textiles like brocade, phulkari, and jamewar work—everything just stole my heart. <\/p><p>Do you know you can recreate these <a href=\"https:\/\/www.imdb.com\/title\/tt15204292\/\"><span style=\"text-decoration:underline\">Heeramandi<\/span><\/a> looks with some picks from my IndyVogue closet? IndyVogeui, one of the <a href=\"https:\/\/www.indyvogue.com\/\"><span style=\"text-decoration:underline\">top 10 silk saree sites in the USA<\/span><\/a>, has been patronizing several Bollywood movies and their style and tries to keep our collection easy-peasy and in sync with them to help our patrons find their favorite celeb look any time!<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48": {
+      "type": "image_text",
+      "blocks": {
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#1. Sonakshi’s traditional sequin delicates",
+            "text": "<p>She dazzled in this traditional variety, which was adorned with delicate embellishments, and earned a well-deserved spot on our list of favorites. If this modern take on the traditional saree does not scream of woman power, then what else does?<\/p><p>We have this amazing collection in Crow black color, which will help you to recreate the saree look any time - <a href=\"https:\/\/www.indyvogue.com\/collections\/sequin-sarees\/products\/crow-black-color-designer-net-saree-with-sequin-weaving-work\"><span style=\"text-decoration:underline\">Buy Crow Black Color Designer Net Saree with Sequin Weaving Work At IndyVogue<\/span><\/a><\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/power-woman-and-a-half--1536x809.png",
+            "col_dk": "6",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1",
+        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "featured_product_fQGHrb": {
+      "type": "featured-product",
+      "blocks": {
+        "title_VcAkrP": {
+          "type": "title",
+          "settings": {
+            "txt_tr_pr": "none",
+            "fnt_df_pr": "1",
+            "size_pr": 16,
+            "fw_pr": 600,
+            "lh_pr": 0,
+            "ls_pr": 0,
+            "pr_title_color": "#222",
+            "pr_title_color_hover": "#56cfe1"
+          }
+        },
+        "price_review_pWVDUq": {
+          "type": "price_review",
+          "settings": {
+            "price": "0",
+            "type_sale": "0",
+            "tax_ship": true,
+            "rating": true,
+            "review_liquid": "",
+            "size_price_pr": 22,
+            "fw_price_pr": 400,
+            "price_color": "#696969",
+            "price_sale_color": "#ec0101"
+          }
+        },
+        "description_fy9NJb": {
+          "type": "description",
+          "settings": {
+            "des": "2",
+            "text": "",
+            "length": 31
+          }
+        },
+        "form_MUL4Dq": {
+          "type": "form",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "enable_fit_ratio_img": false,
+            "color_size": "medium",
+            "show_qty": true,
+            "enable_wishlist": true,
+            "enable_compare": true,
+            "btn_atc_full": false,
+            "pr_btn_round": 40,
+            "ani": "none",
+            "time": 6,
+            "btn_txt": "3",
+            "btn_icon": false,
+            "button_style": "default",
+            "button_color": "dark",
+            "button_effect": "fade",
+            "wishlist_color": "#222222",
+            "wishlist_color_hover": "#56cfe1",
+            "wishlist_color_active": "#E81E1E",
+            "compare_color": "#222222",
+            "compare_color_hover": "#56cfe1",
+            "compare_color_active": "#222222",
+            "show_dynamic_checkout": false,
+            "btn_txt2": "3",
+            "button_color_payment": "dark",
+            "show_gift_card_recipient": true,
+            "product_list": [
+
+            ],
+            "show_product_current": true,
+            "qty_val": "0",
+            "advance_label": "Choose style",
+            "advance_pr_list": [
+
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "title_VcAkrP",
+        "price_review_pWVDUq",
+        "description_fy9NJb",
+        "form_MUL4Dq"
+      ],
+      "settings": {
+        "product": "crow-black-color-designer-net-saree-with-sequin-weaving-work",
+        "enable_sticky_info": false,
+        "media_layout": "thumbnails_bottom",
+        "media_size": "small",
+        "thumb_lr_size": "medium",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "main_click": "zoom",
+        "zoom_tp": "external",
+        "enable_zoom_icon": true,
+        "enable_zoom_click_mb": true,
+        "enable_video_looping": false,
+        "enable_video_muting": true,
+        "enable_video_autoplaying": true,
+        "eff": "fade",
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "outline",
+        "btn_shape": "round",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "1608235d-c3e9-4bd1-b190-b35ac6c54005": {
+      "type": "image_text",
+      "blocks": {
+        "a9a29052-0c8b-4e3f-ab5d-4efced60901a": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/sonakshi-heeramandi.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#2. Pink and white embroidered saree of Sonakshi",
+            "text": "<p>In the context of the dialogue, “Sharafaat ke Liye Shareefzadiyaan hai na” and that amazing jacket blouse with button motif worn with the pink and white embroidered saree, majorly the profuse use of Phulkari and Gujrati stitch on the saree makes Sonakshi look more ravishing!<\/p><p>We have this amazing collection in pink and white combination which will help you to recreate the saree look any time - <a href=\"https:\/\/www.indyvogue.com\/collections\/machine-embroidery-sarees\/products\/blush-pink-color-georgette-saree-with-allover-embroidery?variant=46001535549673\"><span style=\"text-decoration:underline\">Blush Pink Color Georgette Saree with Embroidery Work<\/span><\/a><\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "a9a29052-0c8b-4e3f-ab5d-4efced60901a",
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "featured_product_HCYBz8": {
+      "type": "featured-product",
+      "blocks": {
+        "title_QbX4hn": {
+          "type": "title",
+          "settings": {
+            "txt_tr_pr": "none",
+            "fnt_df_pr": "1",
+            "size_pr": 16,
+            "fw_pr": 600,
+            "lh_pr": 0,
+            "ls_pr": 0,
+            "pr_title_color": "#222",
+            "pr_title_color_hover": "#56cfe1"
+          }
+        },
+        "price_review_6XwjU8": {
+          "type": "price_review",
+          "settings": {
+            "price": "0",
+            "type_sale": "0",
+            "tax_ship": true,
+            "rating": true,
+            "review_liquid": "",
+            "size_price_pr": 22,
+            "fw_price_pr": 400,
+            "price_color": "#696969",
+            "price_sale_color": "#ec0101"
+          }
+        },
+        "description_JUPXC8": {
+          "type": "description",
+          "settings": {
+            "des": "2",
+            "text": "",
+            "length": 31
+          }
+        },
+        "form_3nibhD": {
+          "type": "form",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "enable_fit_ratio_img": false,
+            "color_size": "medium",
+            "show_qty": true,
+            "enable_wishlist": true,
+            "enable_compare": true,
+            "btn_atc_full": false,
+            "pr_btn_round": 40,
+            "ani": "none",
+            "time": 6,
+            "btn_txt": "3",
+            "btn_icon": false,
+            "button_style": "default",
+            "button_color": "dark",
+            "button_effect": "fade",
+            "wishlist_color": "#222222",
+            "wishlist_color_hover": "#56cfe1",
+            "wishlist_color_active": "#E81E1E",
+            "compare_color": "#222222",
+            "compare_color_hover": "#56cfe1",
+            "compare_color_active": "#222222",
+            "show_dynamic_checkout": false,
+            "btn_txt2": "3",
+            "button_color_payment": "dark",
+            "show_gift_card_recipient": true,
+            "product_list": [
+
+            ],
+            "show_product_current": true,
+            "qty_val": "0",
+            "advance_label": "Choose style",
+            "advance_pr_list": [
+
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "title_QbX4hn",
+        "price_review_6XwjU8",
+        "description_JUPXC8",
+        "form_3nibhD"
+      ],
+      "settings": {
+        "product": "blush-pink-color-georgette-saree-with-allover-embroidery",
+        "enable_sticky_info": false,
+        "media_layout": "thumbnails_bottom",
+        "media_size": "small",
+        "thumb_lr_size": "medium",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "main_click": "zoom",
+        "zoom_tp": "external",
+        "enable_zoom_icon": true,
+        "enable_zoom_click_mb": true,
+        "enable_video_looping": false,
+        "enable_video_muting": true,
+        "enable_video_autoplaying": true,
+        "eff": "fade",
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "outline",
+        "btn_shape": "round",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "image_text_paLmrB": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_dxxieh": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#3. Manisha in Silver Sheen",
+            "text": "<p>She has worn a beautiful silver-sheen organza saree that sends out an aura of yesteryear, and this cannot be missed. You can try this combination, too, with our latest collection—like this one, an <a href=\"https:\/\/www.indyvogue.com\/products\/offwhite-color-organza-banarasi-saree-with-golden-and-silver-zari-buti-work?_pos=7&_sid=ab4682238&_ss=r&variant=46001540071657\"><span style=\"text-decoration:underline\">Organza banarasi saree<\/span><\/a>. Are you ready to give it a try?<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_3zE6R7": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/british-saree-1.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_dxxieh",
+        "bl_image_3zE6R7"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "be349666-2469-4b59-9e48-269f0cd4f2cc": {
+      "type": "image_text",
+      "blocks": {
+        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/richa-on-bhansali-01.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#4. A Clear Vision in White by Richa Chadha",
+            "text": "<p>Giving a powerful comeback after her betrayal, Richan Chandha looks subtle in the sheet white saree with beautiful and minimal use of red flowers, preferably roses. <\/p><p>We have something near to this collection in our inventory. You must give it a try and never let it go a miss! Well, there are two such in my collection at present -<\/p><ol><li><a href=\"https:\/\/www.indyvogue.com\/products\/dust-white-color-resham-kota-with-allover-embroidery-and-scallop-border?_pos=39&_sid=c59db2257&_ss=r&variant=45269989458153\"><span style=\"text-decoration:underline\">Resham Kota with Allover Embroidery<\/span><\/a> & <\/li><li><a href=\"https:\/\/www.indyvogue.com\/products\/offwhite-color-organza-saree-with-floral-machine-embtroidery?_pos=35&_sid=c59db2257&_ss=r&variant=45269969502441\"><span style=\"text-decoration:underline\">Floral Organza with Machine Embroidery<\/span><\/a><\/li><\/ol>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c",
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_mabHwt": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_Pi33h8": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#5. The aesthetic mujra look of Aditi Rao",
+            "text": "<p>Oh, she has been phenomenal throughout the series. She has been playing the mujra scenes, which have been experimental, and she has a bit of finesse in store as an actress. However, the zardozi weaving work on her lovely saree has also stolen my eyes and heart and kept me captive for a long time!<\/p><p>We also have something similar to this collection, if not the same - do you want to have a look? You can pair this with a black blouse like hers and look similar - <a href=\"https:\/\/www.indyvogue.com\/products\/offwhite-and-golden-color-color-georgette-saree-with-sequin-work-and-zari-stripes?_pos=15&_sid=0b4b06270&_ss=r&variant=46001547903209\"><span style=\"text-decoration:underline\">Georgette Saree with Zardozi work<\/span><\/a>.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_D8RBdB": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Aditi-rao.webp",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_Pi33h8",
+        "bl_image_D8RBdB"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "56412792-0cbb-4a76-a029-fca6374f64f7": {
+      "type": "image_text",
+      "blocks": {
+        "template--17093650579689__56412792-0cbb-4a76-a029-fca6374f64f7-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Wrap Up!",
+            "text": "<p>What do you think of my ideas to make your Mother’s Day special with these sarees? You are undoubtedly walking with the top 10 silk sare sites in the USA, and we will never let you down when it comes to picking the perfect saree for you to make moments!<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17093650579689__56412792-0cbb-4a76-a029-fca6374f64f7-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "e7b55938-3dde-44ab-9365-66967e09d447": {
+      "type": "image_text",
+      "blocks": {
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https:\/\/www.indyvogue.com\/\"><strong>IndyVogue<\/strong> <\/a>every day, every hour, every minute and every second. Salute to her and her undying spirit.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "d036730a-8d16-4983-945e-58174fb11f9c",
+    "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
+    "featured_product_fQGHrb",
+    "1608235d-c3e9-4bd1-b190-b35ac6c54005",
+    "featured_product_HCYBz8",
+    "image_text_paLmrB",
+    "be349666-2469-4b59-9e48-269f0cd4f2cc",
+    "image_text_mabHwt",
+    "56412792-0cbb-4a76-a029-fca6374f64f7",
+    "e7b55938-3dde-44ab-9365-66967e09d447"
+  ]
+}
