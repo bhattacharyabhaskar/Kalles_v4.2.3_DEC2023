@@ -1694,7 +1694,7 @@
             "settings": {
               "btn_icon": false,
               "button_style": "default",
-              "btn_cl": "custom2",
+              "btn_cl": "dark",
               "button_effect": "default"
             }
           },
