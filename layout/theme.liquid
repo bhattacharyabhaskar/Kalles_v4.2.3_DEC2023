@@ -119,7 +119,21 @@
         {% endcomment %}
         {% comment %}
             // BB: Adding criteo tracking & optimization-3.0 js
-        {% endcomment %}        
+        {% endcomment %} 
+          <script id='merchantWidgetScript' src="https://www.gstatic.com/shopping/merchant/merchantwidget.js" defer></script>
+          <script type="text/javascript">
+            merchantWidgetScript.addEventListener('load', function () {
+              merchantwidget.start({
+                position: 'LEFT_BOTTOM',
+                sideMargin: 21,
+                bottomMargin: 33,
+                mobileSideMargin: 11,
+                mobileBottomMargin: 19
+              });
+            });
+          </script>
+
+      
         {% render 'criteo-tracking' %}
         <script type="lazyload_int">
             setInterval(function() {
