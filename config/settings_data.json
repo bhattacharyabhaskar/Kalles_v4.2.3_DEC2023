@@ -688,7 +688,7 @@
           "top-bar-1": {
             "type": "text",
             "settings": {
-              "text": "<h1>🤱<strong>UPTO 10% OFF<\/strong>🤱<\/h1><p><strong> <\/strong><a href=\"https:\/\/www.indyvogue.com\/pages\/current-offers-and-promotions\"><strong>Click for details<\/strong><\/a><\/p>",
+              "text": "<h3>FREE SHIPPING ON ALL SAREES<\/h3><h1><\/h1>",
               "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
@@ -2367,6 +2367,12 @@
       },
       "6468128024931565999": {
         "type": "shopify:\/\/apps\/seguno-popups\/blocks\/popup-app-embed\/f53bd66f-9a20-4ce2-ae2e-ccbd0148bd4b",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "11877319286961345690": {
+        "type": "shopify:\/\/apps\/doc-404-broken-links-repair\/blocks\/404-fix-broken-links-widget\/f4f2d416-cb00-4540-bda9-816d588bad3e",
         "disabled": false,
         "settings": {
         }
