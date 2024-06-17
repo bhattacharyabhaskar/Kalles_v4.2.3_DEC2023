@@ -3,26 +3,26 @@
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "164602873867eb3815-0": {
+        "image_parent_PKckTb": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DT-BANNER-1.png",
-            "image_mb": "shopify:\/\/shop_images\/MB-BANNER-1_2.jpg",
+            "image": "shopify:\/\/shop_images\/Website-Desktop-Banner.jpg",
+            "image_mb": "shopify:\/\/shop_images\/WebSite-Mobile-Banner.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
             "open_link": "_self",
             "animate_slide": "none",
-            "text_align": "start",
-            "text_align_mb": "start",
+            "text_align": "center",
+            "text_align_mb": "center",
             "content_width": "auto",
             "cv_pos": 50,
-            "ch_pos": 0,
+            "ch_pos": 50,
             "cv_pos_mb": 50,
-            "ch_pos_mb": 0,
+            "ch_pos_mb": 50,
             "bg_overlay": "#000000",
             "bg_opacity": 0,
-            "bg_content_cl": "rgba(0,0,0,0)",
+            "bg_content_cl": "#ffffff",
             "bg_content_op": 0,
             "content_radius": 0,
             "box_square": false,
@@ -40,7 +40,7 @@
             "br_pd": 20,
             "br_pd_mb": 10,
             "time_animation": 1,
-            "animation_delay": 30
+            "animation_delay": 40
           }
         },
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336": {
@@ -165,7 +165,7 @@
         }
       },
       "block_order": [
-        "164602873867eb3815-0",
+        "image_parent_PKckTb",
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336",
         "a9dffc78-40cc-4111-a908-826833c0cded",
         "744d6198-1b2a-49f5-b7e8-3a0852ec2274"
@@ -547,7 +547,8 @@
             "title-font-size-portrait": 24,
             "landscape-padding": 40,
             "top-bottom-padding": 20,
-            "scroll-video-tile-size": 80
+            "scroll-video-tile-size": 80,
+            "scroll-video-tile-size-portrait": 80
           }
         }
       },
