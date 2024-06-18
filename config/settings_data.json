@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "purchase_code": "ac82ee1c-42bc-46ca-ba07-fec66c04717c",
@@ -688,7 +697,7 @@
           "top-bar-1": {
             "type": "text",
             "settings": {
-              "text": "<h3>FREE SHIPPING ON ALL SAREES<\/h3><h1><\/h1>",
+              "text": "<h2><strong>😎Summer Super Sale!😎<\/strong><\/h2><h5><a href=\"\/pages\/current-offers-and-promotions\" title=\"Current Offers and Promotions\"><strong>Click here for details<\/strong><\/a><\/h5><h1><\/h1>",
               "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
