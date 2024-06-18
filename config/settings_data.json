@@ -698,7 +698,7 @@
             "type": "text",
             "settings": {
               "text": "<h2><strong>😎Summer Super Sale!😎<\/strong><\/h2><h5><a href=\"\/pages\/current-offers-and-promotions\" title=\"Current Offers and Promotions\"><strong>Click here for details<\/strong><\/a><\/h5><h1><\/h1>",
-              "adding_border": false,
+              "adding_border": true,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
               "dayx": 0,
