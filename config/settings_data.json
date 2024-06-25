@@ -669,17 +669,17 @@
         ],
         "settings": {
           "show_announcement": true,
-          "effect": "0",
+          "effect": "1",
           "au_time": 3.5,
           "height": 45,
-          "fontsize": 12,
+          "fontsize": 16,
           "cl": "#ffffff",
           "bg": "#e91e63",
           "bg_op": 100,
-          "close": "1",
+          "close": "0",
           "cl_btn": "#ffffff",
           "version": "1",
-          "date": 60
+          "date": 1
         }
       },
       "top-bar": {
