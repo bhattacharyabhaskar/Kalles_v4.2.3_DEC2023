@@ -136,6 +136,93 @@
         "code_cus_css": ""
       }
     },
+    "image_text_ReTyfF": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_abdiNF": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Silk_fabric_care_label.png",
+            "image2": "shopify:\/\/shop_images\/Linen_saree_care_label.png",
+            "image3": "shopify:\/\/shop_images\/Cotton_saree_care_label.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_znGwCf": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#1. Check the Fabric Care Label",
+            "text": "<p>Every saree come with a fabric care tag. Before washing, always check the care label on the saree. It will give you specific instructions on how to wash that particular fabric. Whether to iron it, whether to tumble wash, whether to iron or not. If you don't remember then you can find this guide handy. Below are some of the images with care labels for various and common fabrics.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_abdiNF",
+        "bl_text_znGwCf"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -190,11 +277,128 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "feature_columns_inHbR3": {
+      "type": "feature_columns",
+      "blocks": {
+        "text_block_73NiBA": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Silk_fabric_care_label.png",
+            "title": "",
+            "text": "<p><em><strong>Care Labels for Silks: <\/strong><\/em><a href=\"https:\/\/www.indyvogue.com\/collections\/pure-silk-sarees\"><span style=\"text-decoration:underline\"><em>Raw<\/em><\/span><\/a><em>, <\/em><a href=\"https:\/\/www.indyvogue.com\/collections\/tussar-silk\"><span style=\"text-decoration:underline\"><em>Tussar<\/em><\/span><\/a><em>, <\/em><a href=\"https:\/\/www.indyvogue.com\/collections\/tissue-silk-saree\"><span style=\"text-decoration:underline\"><em>Tissue<\/em><\/span><\/a><em>, <\/em><a href=\"https:\/\/www.indyvogue.com\/collections\/banarasi-silk-saree\"><span style=\"text-decoration:underline\"><em>Banarasi<\/em><\/span><\/a><em>, <\/em><a href=\"https:\/\/www.indyvogue.com\/collections\/kanchipuram-sarees\"><span style=\"text-decoration:underline\"><em>Kanjeevaram<\/em><\/span><\/a><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_aykAiA": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Linen_saree_care_label.png",
+            "title": "",
+            "text": "<p><em><strong>Care Labels for Linen: <\/strong><\/em><a href=\"https:\/\/www.indyvogue.com\/collections\/linen-saree\"><span style=\"text-decoration:underline\"><em>Linen<\/em><\/span><\/a><em>, Chiffon, Chinon<\/em><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        },
+        "text_block_epG8dm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Cotton_saree_care_label.png",
+            "title": "",
+            "text": "<p><em><strong>Care Labels for Cotton: <\/strong><\/em><a href=\"https:\/\/www.indyvogue.com\/collections\/vendors?q=indyvogue\"><span style=\"text-decoration:underline\"><em>Jamdani<\/em><\/span><\/a><em>, Khadi, <\/em><a href=\"https:\/\/www.indyvogue.com\/collections\/kantha-stitch-hand-embroidery\"><span style=\"text-decoration:underline\"><em>Embroidered<\/em><\/span><\/a><em>, <\/em><a href=\"https:\/\/www.indyvogue.com\/collections\/hand-painted-sarees\"><span style=\"text-decoration:underline\"><em>Hand Painted<\/em><\/span><\/a><em>, Handloom<\/em><\/p>",
+            "button_label": "",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "fade"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_73NiBA",
+        "text_block_aykAiA",
+        "text_block_epG8dm"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "text_align": "center",
+        "pos_text": "default",
+        "fs_title": 22,
+        "fs_text": 14,
+        "fs_title_mb": 22,
+        "fs_text_mb": 12,
+        "image_ratio": "ratio16_9",
+        "image_size": "cover",
+        "image_position": "8",
+        "img_effect": "none",
+        "b_effect": "none",
+        "layout_des": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
-    "e7b55938-3dde-44ab-9365-66967e09d447"
+    "image_text_ReTyfF",
+    "e7b55938-3dde-44ab-9365-66967e09d447",
+    "feature_columns_inHbR3"
   ]
 }
