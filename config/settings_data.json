@@ -676,7 +676,7 @@
           "cl": "#ffffff",
           "bg": "#e91e63",
           "bg_op": 100,
-          "close": "1",
+          "close": "0",
           "cl_btn": "#ffffff",
           "version": "1",
           "date": 2
