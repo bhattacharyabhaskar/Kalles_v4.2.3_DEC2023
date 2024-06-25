@@ -672,14 +672,14 @@
           "effect": "1",
           "au_time": 3.5,
           "height": 45,
-          "fontsize": 16,
+          "fontsize": 15,
           "cl": "#ffffff",
           "bg": "#e91e63",
           "bg_op": 100,
-          "close": "0",
+          "close": "1",
           "cl_btn": "#ffffff",
           "version": "1",
-          "date": 1
+          "date": 2
         }
       },
       "top-bar": {
@@ -696,9 +696,8 @@
           },
           "top-bar-1": {
             "type": "text",
-            "disabled": true,
             "settings": {
-              "text": "<h2><strong>😎Summer Super Sale!😎<\/strong><\/h2><h5><a href=\"\/pages\/current-offers-and-promotions\" title=\"Current Offers and Promotions\"><strong>Click here for details<\/strong><\/a><\/h5><h1><\/h1>",
+              "text": "",
               "adding_border": true,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
@@ -726,7 +725,7 @@
               "open_link": "_self",
               "hide": false,
               "text_align": "end",
-              "col": "8"
+              "col": "4"
             }
           }
         },
