@@ -560,6 +560,16 @@
               "text_ls_mb": 0,
               "text_mgb_mobile": 10
             }
+          },
+          "image_Dq4ewn": {
+            "type": "image",
+            "settings": {
+              "link_img": "",
+              "img_width": 0,
+              "img_width_mb": 0,
+              "mgb": 20,
+              "mgb_mb": 20
+            }
           }
         },
         "block_order": [
@@ -586,7 +596,8 @@
           "footer-3",
           "4648284f-d313-4b25-9de3-80e952428e5e",
           "33eb929e-a001-4d96-82a0-5aab1aaabaea",
-          "22036a9b-89a6-421d-9f51-4f31d4c90a95"
+          "22036a9b-89a6-421d-9f51-4f31d4c90a95",
+          "image_Dq4ewn"
         ],
         "settings": {
           "sticky": false,
