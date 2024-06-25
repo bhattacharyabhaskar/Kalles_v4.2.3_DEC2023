@@ -631,9 +631,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "link": "",
-              "content": "<p>Today deal sale off <strong>70%<\/strong>. End in <strong>[countdown]<\/strong>. Hurry Up [icon_arrow]<\/p>",
-              "adding_border": false,
+              "link": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
+              "content": "<p><strong>😎<\/strong>Summer Super Sale, up to <strong>10% OFF<\/strong>.<strong>😎<\/strong> Hurry Up [icon_arrow]<\/p>",
+              "adding_border": true,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
               "dayx": 0
@@ -643,7 +643,7 @@
             "type": "announcement",
             "settings": {
               "link": "",
-              "content": "<p>Today deal sale off <strong>70%<\/strong>. End in <strong>[countdown]<\/strong>. Hurry Up [icon_arrow]<\/p>",
+              "content": "<p>Free Shipping on ALL Sarees<\/p>",
               "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
@@ -654,7 +654,7 @@
             "type": "announcement",
             "settings": {
               "link": "",
-              "content": "<p>Today deal sale off <strong>70%<\/strong>. End in <strong>[countdown]<\/strong>. Hurry Up [icon_arrow]<\/p>",
+              "content": "<p>Top Quality Store on Google<\/p>",
               "adding_border": false,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
@@ -668,8 +668,8 @@
           "announcement-bar-2"
         ],
         "settings": {
-          "show_announcement": false,
-          "effect": "1",
+          "show_announcement": true,
+          "effect": "0",
           "au_time": 3.5,
           "height": 45,
           "fontsize": 12,
@@ -696,6 +696,7 @@
           },
           "top-bar-1": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "<h2><strong>😎Summer Super Sale!😎<\/strong><\/h2><h5><a href=\"\/pages\/current-offers-and-promotions\" title=\"Current Offers and Promotions\"><strong>Click here for details<\/strong><\/a><\/h5><h1><\/h1>",
               "adding_border": true,
