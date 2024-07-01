@@ -12,6 +12,14 @@
    endif
    assign results_count = results.results_count | default: results.products_count -%}
 
+<script>
+function handleFilterClick(url) {
+    // Implement the logic to handle the filter click
+    console.log('Filter URL:', url);
+    // Example: Redirect to the URL
+    window.location.href = url;
+}
+</script>
 <link rel="stylesheet" href="{{ 'drawer.min.css' | asset_url }}" media="all">
 <link rel="stylesheet" href="{{ 'facets.css' | asset_url }}" media="all">
 <div data-filter-links id="t4s-filter-hidden" class="t4s-filter-hidden is--t4s-filter-native t4s-drawer t4s-drawer__left" aria-hidden="true">
@@ -63,9 +71,9 @@
                                       endif -%}
 
                                       {%- if value.active -%}
-                                          <li class="{% if value.count == 0 and value.active == false %}is--disabled {% endif %}is--selected"><a href="{{ value.url_to_remove }}"><div class="t4s-filter_color t4s-pr t4s-oh"><span class="bg_color_{{ value_label | handle }} lazyloadt4s"></span><svg focusable="false" viewBox="0 0 24 24" width="14" height="14" role="presentation"><path fill="currentColor" d="M9 20l-7-7 3-3 4 4L19 4l3 3z"></path></svg></div> {{ label }}<span class="t4s-value-count">({{ value.count }})</span></a></li>
+                                          <li class="{% if value.count == 0 and value.active == false %}is--disabled {% endif %}is--selected"><a href="javascript:void(0);" onclick="handleFilterClick('{{ value.url_to_remove }}')" rel="nofollow"><div class="t4s-filter_color t4s-pr t4s-oh"><span class="bg_color_{{ value_label | handle }} lazyloadt4s"></span><svg focusable="false" viewBox="0 0 24 24" width="14" height="14" role="presentation"><path fill="currentColor" d="M9 20l-7-7 3-3 4 4L19 4l3 3z"></path></svg></div> {{ label }}<span class="t4s-value-count">({{ value.count }})</span></a></li>
                                       {%- else -%}
-                                          <li {% if value.count == 0 and value.active == false %}class="is--disabled"{% endif %}><a href="{{ value.url_to_add }}"><div class="t4s-filter_color t4s-pr t4s-oh"><span class="bg_color_{{ value_label | handle }} lazyloadt4s"></span><svg focusable="false" viewBox="0 0 24 24" width="14" height="14" role="presentation"><path fill="currentColor" d="M9 20l-7-7 3-3 4 4L19 4l3 3z"></path></svg></div> {{ label }}<span class="t4s-value-count">({{ value.count }})</span></a></li>
+                                          <li {% if value.count == 0 and value.active == false %}class="is--disabled"{% endif %}><a href="javascript:void(0);" onclick="handleFilterClick('{{ value.url_to_add }}')" rel="nofollow"><div class="t4s-filter_color t4s-pr t4s-oh"><span class="bg_color_{{ value_label | handle }} lazyloadt4s"></span><svg focusable="false" viewBox="0 0 24 24" width="14" height="14" role="presentation"><path fill="currentColor" d="M9 20l-7-7 3-3 4 4L19 4l3 3z"></path></svg></div> {{ label }}<span class="t4s-value-count">({{ value.count }})</span></a></li>
                                       {%- endif -%}
 
                                     {%- endfor -%}
@@ -89,9 +97,9 @@
                                          endif -%}
 
                                          {%- if value.active -%}
-                                             <li class="{% if value.count == 0 and value.active == false %}is--disabled {% endif %}is--selected"><a href="{{ value.url_to_remove }}">{{ value.label | escape }}<span class="t4s-value-count">({{ value.count }})</span></a></li>
+                                             <li class="{% if value.count == 0 and value.active == false %}is--disabled {% endif %}is--selected"><a href="javascript:void(0);" onclick="handleFilterClick('{{ value.url_to_remove }}')" rel="nofollow">{{ value.label | escape }}<span class="t4s-value-count">({{ value.count }})</span></a></li>
                                          {%- else -%}
-                                             <li {% if value.count == 0 and value.active == false %}class="is--disabled"{% endif %}><a href="{{ value.url_to_add }}">{{ value.label | escape }}<span class="t4s-value-count">({{ value.count }})</span></a></li>
+                                             <li {% if value.count == 0 and value.active == false %}class="is--disabled"{% endif %}><a href="javascript:void(0);" onclick="handleFilterClick('{{ value.url_to_add }}')" rel="nofollow">{{ value.label | escape }}<span class="t4s-value-count">({{ value.count }})</span></a></li>
                                          {%- endif -%}
 
                                        {%- endfor -%}
@@ -115,11 +123,11 @@
                                             endif -%}
 
                                          {%- if value.active -%}
-                                             <li class="is--selected"><a href="{{ value.url_to_remove }}">
+                                             <li class="is--selected"><a href="javascript:void(0);" onclick="handleFilterClick('{{ value.url_to_remove }}')" rel="nofollow">
                                                 <div class="t4s-checkbox-wrapper t4s-pr t4s-oh"><svg focusable="false" viewBox="0 0 24 24" width="14" height="14" role="presentation"><path fill="currentColor" d="M9 20l-7-7 3-3 4 4L19 4l3 3z"></path></svg></div>{{ value.label | escape }}<span class="t4s-value-count">({{ value.count }})</span>
                                              </a></li>
                                          {%- else -%}
-                                             <li {% if value.count == 0 and value.active == false %}class="is--disabled"{% endif %}><a href="{{ value.url_to_add }}"><div class="t4s-checkbox-wrapper t4s-pr t4s-oh"><svg focusable="false" viewBox="0 0 24 24" width="14" height="14" role="presentation"><path fill="currentColor" d="M9 20l-7-7 3-3 4 4L19 4l3 3z"></path></svg></div>{{ value.label | escape }}<span class="t4s-value-count">({{ value.count }})</span></a></li>
+                                             <li {% if value.count == 0 and value.active == false %}class="is--disabled"{% endif %}><a href="javascript:void(0);" onclick="handleFilterClick('{{ value.url_to_add }}')" rel="nofollow"><div class="t4s-checkbox-wrapper t4s-pr t4s-oh"><svg focusable="false" viewBox="0 0 24 24" width="14" height="14" role="presentation"><path fill="currentColor" d="M9 20l-7-7 3-3 4 4L19 4l3 3z"></path></svg></div>{{ value.label | escape }}<span class="t4s-value-count">({{ value.count }})</span></a></li>
                                          {%- endif -%}
 
                                        {%- endfor -%}
@@ -162,7 +170,7 @@
       </div>
       {%- if total_active_values > 1 -%}
             <div class="t4s-drawer__bottom">
-               <a href="{{ results_url }}" class="t4s-mini-search__viewAll">{{ 'products.facets.clear_all' | t }} <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M 18.71875 6.78125 L 17.28125 8.21875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 17.28125 23.78125 L 18.71875 25.21875 L 27.21875 16.71875 L 27.90625 16 L 27.21875 15.28125 Z"/></svg></a>
+               <a href="{{ results_url }}" class="t4s-mini-search__viewAll" rel="nofollow">{{ 'products.facets.clear_all' | t }} <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M 18.71875 6.78125 L 17.28125 8.21875 L 24.0625 15 L 4 15 L 4 17 L 24.0625 17 L 17.28125 23.78125 L 18.71875 25.21875 L 27.21875 16.71875 L 27.90625 16 L 27.21875 15.28125 Z"/></svg></a>
             </div>
       {%- endif -%}
    </div>
