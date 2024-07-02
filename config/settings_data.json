@@ -693,7 +693,7 @@
         "settings": {
           "show_announcement": true,
           "effect": "1",
-          "au_time": 3.5,
+          "au_time": 6,
           "height": 45,
           "fontsize": 15,
           "cl": "#ffffff",
