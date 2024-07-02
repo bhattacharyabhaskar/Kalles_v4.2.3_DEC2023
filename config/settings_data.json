@@ -671,24 +671,12 @@
               "txt_day": "days",
               "dayx": 0
             }
-          },
-          "announcement_8qYKVr": {
-            "type": "announcement",
-            "settings": {
-              "link": "",
-              "content": "<p>Due to some procedural change for DHL shipments to USA, we are experiencing delays in shipments getting released in a timely fashion. We are working with the concerned authority in DHL to resolve the issues at the earliest. We are hoping to release all pending shipments by end of the week of July 5, 2024.<\/p>",
-              "adding_border": false,
-              "countdown": "2023\/12\/26",
-              "txt_day": "days",
-              "dayx": 0
-            }
           }
         },
         "block_order": [
           "announcement-bar-0",
           "announcement-bar-1",
-          "announcement-bar-2",
-          "announcement_8qYKVr"
+          "announcement-bar-2"
         ],
         "settings": {
           "show_announcement": true,
