@@ -344,6 +344,7 @@
       "block_order": [
         "1_6NYiEV"
       ],
+      "disabled": true,
       "settings": {
         "effect": "slider",
         "au_time": 3,
