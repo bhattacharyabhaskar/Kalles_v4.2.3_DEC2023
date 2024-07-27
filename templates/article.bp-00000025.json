@@ -147,8 +147,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Indira Gandhi and her eclectic choices of sarees",
-            "text": "<p>Indira Gandhi, the first and, to date, the only female Prime Minister of India, was often seen wearing sarees. She played a crucial role in shaping India's political landscape.Radhi Parekh, the founder of Mumbai’s Artisan Gallery feels that the time is right for such a memorializing collection. “We are seeing a resurgence of interest in iconic saris and such exhibitions could prompt young women to seek the best of India’s timeless saris,” she says. She wore embroidered garas, printed cotton, khadi, raw silk mark sarees, temple-bordered weaves, Ikats, and Kashmiri needlework saris.<\/p>",
+            "heading": "#1. Pre-Stitched or Pre-Draped Sarees:",
+            "text": "<ul><li><strong>Convenience:<\/strong> Pre-stitched sarees come with pleats and pallu already in place, making them easy to wear and manage.<\/li><li><strong>Style:<\/strong> They often have modern cuts and designs, making them look chic.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -166,7 +166,7 @@
         "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/IG.jpg",
+            "image1": "shopify:\/\/shop_images\/Belted_Drape.png",
             "col_dk": "6",
             "col_tb": "12",
             "layout_des": "carousel",
