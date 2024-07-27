@@ -312,13 +312,13 @@
         "bl_text_dxxieh": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "col_dk": "12",
+            "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Stylista Aparna Sen, the eminent filmmaker",
-            "text": "<p><a href=\"https:\/\/en.wikipedia.org\/wiki\/Aparna_Sen\"><span style=\"text-decoration:underline\">Aparna Sen<\/span><\/a> is not only an amazing actress but also a fashionista. Her grand fashion choices and acting flairs have always wowed us. She balances her style between sophistication and a cool look and that too in a saree. A leading Indian filmmaker and champion of women's rights, frequently dons <a href=\"https:\/\/www.indyvogue.com\/collections\/buy-silk-mark-certified-saree\"><span style=\"text-decoration:underline\">handloom sarees<\/span><\/a> at numerous film festivals and award ceremonies. She actively advocates for traditional Indian textiles and crafts. Through her films, which tackle societal issues and shed light on the challenges faced by women in India, she advocates for gender equality and women's empowerment. <\/p>",
+            "heading": "#3. Pant Style Saree:",
+            "text": "<ul><li><strong>Fusion Look:<\/strong> Drape the saree over a pair of trousers or leggings instead of a traditional petticoat. This gives a fusion look combining Western and Indian styles.<\/li><li><strong>Comfort:<\/strong> This style is comfortable and allows for easy movement.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -332,40 +332,10 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_3zE6R7": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/AP.jpg",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "bl_text_dxxieh",
-        "bl_image_3zE6R7"
+        "bl_text_dxxieh"
       ],
       "settings": {
         "design_heading": "1",
