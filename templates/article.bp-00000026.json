@@ -227,7 +227,7 @@
         "a9a29052-0c8b-4e3f-ab5d-4efced60901a": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Pant_style_drape.png",
+            "image1": "shopify:\/\/shop_images\/Jamdani_2.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -261,8 +261,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "#2. Belted Saree:",
-            "text": "<ul><li><strong>Accentuation:<\/strong> Adding a belt to your saree can help accentuate your waist and give a structured look.<\/li><li><strong>Variety:<\/strong> You can use a traditional Kamarbandh (waist belt) for an ethnic touch or a sleek leather or metal belt for a contemporary look.<\/li><\/ul>",
+            "heading": "#2. Design and Patterns:",
+            "text": "<p><strong>Intricate Patterns:<\/strong><\/p><ul><li>Jamdani sarees feature intricate, geometric, floral, or paisley patterns that are woven into the fabric, not printed or embroidered. The designs are usually created using supplementary weft threads.<\/li><\/ul><p><strong>Detailed and Symmetrical Motifs:<\/strong><\/p><ul><li>The motifs on a genuine Jamdani saree are detailed, well-defined, and symmetrical. They may include traditional patterns like vines, flowers, and birds.<\/li><\/ul><p><strong>Reverse Side:<\/strong><\/p><ul><li>On the reverse side of the saree, the motifs should be as visible as on the front, albeit slightly less defined. This is a sign of the weaving technique used in Jamdani.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -306,19 +306,19 @@
         "code_cus_css": ""
       }
     },
-    "image_text_paLmrB": {
+    "be349666-2469-4b59-9e48-269f0cd4f2cc": {
       "type": "image_text",
       "blocks": {
-        "bl_text_dxxieh": {
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "12",
+            "col_dk": "6",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "#3. Pant Style Saree:",
-            "text": "<ul><li><strong>Fusion Look:<\/strong> Drape the saree over a pair of trousers or leggings instead of a traditional petticoat. This gives a fusion look combining Western and Indian styles.<\/li><li><strong>Comfort:<\/strong> This style is comfortable and allows for easy movement.<\/li><\/ul>",
+            "heading": "#3. Craftsmanship:",
+            "text": "<p><strong>Labor-Intensive Process:<\/strong><\/p><ul><li>Authentic Jamdani sarees are created through a labor-intensive process that can take several weeks to months, depending on the complexity of the design. Each piece is a work of art.<\/li><\/ul><p><strong>Uneven Edges:<\/strong><\/p><ul><li>Handwoven sarees, including Jamdani, often have slightly uneven edges. This is a natural result of the handweaving process.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -332,42 +332,11 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        }
-      },
-      "block_order": [
-        "bl_text_dxxieh"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "be349666-2469-4b59-9e48-269f0cd4f2cc": {
-      "type": "image_text",
-      "blocks": {
+        },
         "8d6d2dc8-c237-4330-a53b-cc789ece3f7c": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Gown_Style_Drape.png",
+            "image1": "shopify:\/\/shop_images\/Jamdani_3.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -392,35 +361,11 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        },
-        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "#4. Gown Style Saree:",
-            "text": "<ul><li><strong>Elegance:<\/strong> Drape the saree in a way that it resembles a gown. This involves tucking and pleating the saree creatively to give it a flowing, gown-like appearance.<\/li><li><strong>Statement:<\/strong> This style is perfect for formal events and makes a strong fashion statement.<\/li><\/ul>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
         }
       },
       "block_order": [
-        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c",
-        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1"
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1",
+        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c"
       ],
       "settings": {
         "design_heading": "1",
@@ -774,7 +719,6 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
-    "image_text_paLmrB",
     "be349666-2469-4b59-9e48-269f0cd4f2cc",
     "image_text_mabHwt",
     "image_text_TztEMN",
