@@ -394,30 +394,6 @@
     "image_text_mabHwt": {
       "type": "image_text",
       "blocks": {
-        "bl_text_Pi33h8": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "#5. Layered Pallu:",
-            "text": "<ul><li><strong>Fashion-Forward:<\/strong> Instead of letting the pallu hang loosely, you can pleat it and layer it over your shoulder, or drape it around your neck like a scarf.<\/li><li><strong>Comfort:<\/strong> This style keeps the pallu in place and adds a touch of modernity to your saree.<\/li><\/ul>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
         "bl_image_D8RBdB": {
           "type": "bl_image",
           "settings": {
@@ -446,11 +422,35 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
+        },
+        "bl_text_Pi33h8": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "#4. Price and Source:",
+            "text": "<p><strong>Higher Price Point:<\/strong><\/p><ul><li>Authentic Jamdani sarees are generally more expensive due to the intricate craftsmanship and time required to produce them. Be cautious of unusually low prices.<\/li><\/ul><p><strong>Reputable Sellers:<\/strong><\/p><ul><li>Purchase from reputable and well-known sellers, preferably those specializing in handloom and traditional sarees. Ask for information about the origin and craftsmanship of the saree.<\/li><\/ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
         }
       },
       "block_order": [
-        "bl_text_Pi33h8",
-        "bl_image_D8RBdB"
+        "bl_image_D8RBdB",
+        "bl_text_Pi33h8"
       ],
       "settings": {
         "design_heading": "1",
