@@ -147,8 +147,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "#1. Pre-Stitched or Pre-Draped Sarees:",
-            "text": "<ul><li><strong>Convenience:<\/strong> Pre-stitched sarees come with pleats and pallu already in place, making them easy to wear and manage.<\/li><li><strong>Style:<\/strong> They often have modern cuts and designs, making them look chic.<\/li><\/ul>",
+            "heading": "#1. Fabric and Weave:",
+            "text": "<p><strong>Handwoven Texture:<\/strong><\/p><ul><li>Authentic Jamdani sarees are handwoven on traditional looms, resulting in a unique texture and slight irregularities that indicate manual craftsmanship.<\/li><\/ul><p><strong>Fine Cotton or Silk:<\/strong><\/p><ul><li>Genuine Jamdani sarees are typically made from high-quality cotton or silk. The fabric should feel soft, lightweight, and comfortable.<\/li><\/ul><p><strong>Appearance:<\/strong><\/p><ul><li>Due to the fine weave, pure Jamdani sarees often have a slightly sheer and translucent appearance, especially in the cotton variants.<\/li><\/ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -166,7 +166,7 @@
         "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/Belted_Drape.png",
+            "image1": "shopify:\/\/shop_images\/Jamdani_1.jpg",
             "col_dk": "6",
             "col_tb": "12",
             "layout_des": "carousel",
