@@ -242,6 +242,13 @@
             "url": ""
           }
         },
+        "logo_item_BWnwmH": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/top-quality.png",
+            "url": ""
+          }
+        },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-4": {
           "type": "logo_item",
           "settings": {
@@ -258,6 +265,7 @@
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-6": {
           "type": "logo_item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Service.png",
             "url": ""
@@ -268,6 +276,7 @@
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-1",
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-2",
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-3",
+        "logo_item_BWnwmH",
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-4",
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-5",
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-6"
@@ -329,7 +338,7 @@
             "countdown": "2023\/12\/20",
             "cus_cd": "%-D day%!D %H:%M:%S",
             "dayx": 0,
-            "cl_text": "#fff",
+            "cl_text": "#ffffff",
             "cl_link": "#56cfe1",
             "fw_text": 400,
             "fs_text": 14,
@@ -349,7 +358,7 @@
         "effect": "slider",
         "au_time": 3,
         "layout": "t4s-container-wrap",
-        "cl_bg": "#000",
+        "cl_bg": "#000000",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "12px,,12px,",
@@ -599,7 +608,8 @@
             "landscape-padding": 40,
             "top-bottom-padding": 20,
             "scroll-video-tile-size": 80,
-            "scroll-video-tile-size-portrait": 80
+            "scroll-video-tile-size-portrait": 80,
+            "min-height": 380
           }
         }
       },
