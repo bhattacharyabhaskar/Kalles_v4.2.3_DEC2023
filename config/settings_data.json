@@ -2373,12 +2373,6 @@
           "greeting_message": "👋 Hello! This is Sumana. Please message me if you have questions, or give an idea of what you’re looking for. We’re happy to make recommendations."
         }
       },
-      "13027630495364635475": {
-        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-assetless\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "6143736321357441667": {
         "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
         "disabled": false,
@@ -2394,6 +2388,12 @@
       "11877319286961345690": {
         "type": "shopify:\/\/apps\/doc-404-broken-links-repair\/blocks\/404-fix-broken-links-widget\/f4f2d416-cb00-4540-bda9-816d588bad3e",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "13027630495364635475": {
+        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-assetless\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": true,
         "settings": {
         }
       }

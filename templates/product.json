@@ -62,9 +62,8 @@
         },
         "custom_liquid_ktk9BF": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "{% assign is_sale = false %}\n{% for collection in product.collections %}\n  {% if collection.handle == \"sale\" %}\n    {% assign is_sale = true %}\n  {% endif %}\n{% endfor %}\n\n{% if product.type == \"Saree\" and is_sale %}\n  {%- comment -%} \n    Product belongs to the \"Sale\" category, do not display the discount message \n  {%- endcomment -%}\n{% else %}\n \n    <div class=\"discount-message\" style=\"background-color: #7fda69;\">\n     <font color=\"#9900FF\"> <strong>ONLY THIS WEEK - BUY 2 & GET 10% OFF.<\/strong><\/font>\n    <\/div>\n{% endif %}"
+            "custom_liquid": "{% assign is_sale = false %}\n{% for collection in product.collections %}\n  {% if collection.handle == \"sale\" %}\n    {% assign is_sale = true %}\n  {% endif %}\n{% endfor %}\n\n{% if product.type == \"Saree\" and is_sale %}\n  {%- comment -%} \n    Product belongs to the \"Sale\" category, do not display the discount message \n  {%- endcomment -%}\n{% else %}\n \n    <div class=\"discount-message\" style=\"background-color: #000000;\">\n     <font color=\"#fffff\"> <strong>😎 Summer Super Sale! - up to 10% Off 😎 <\/strong><\/font>\n    <\/div>\n{% endif %}"
           }
         },
         "custom_liquid_9iLwHa": {
