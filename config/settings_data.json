@@ -643,7 +643,7 @@
             "type": "announcement",
             "settings": {
               "link": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
-              "content": "<p><strong>😎<\/strong>Summer Super Sale, up to <strong>10% OFF<\/strong>.<strong>😎<\/strong> Hurry Up [icon_arrow]<\/p>",
+              "content": "<p><strong>😎<\/strong>Summer Super Sale, up to <strong>10% OFF<\/strong>.<strong>😎<\/strong> <a href=\"\/pages\/current-offers-and-promotions\" title=\"Current Offers and Promotions\">Details [icon_arrow]<\/a><\/p>",
               "adding_border": true,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
