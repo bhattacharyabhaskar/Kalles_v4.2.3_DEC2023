@@ -53,6 +53,12 @@
             "price_sale_color": "#ec0101"
           }
         },
+        "custom_liquid_XFy8qN": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<b>Price includes GST and IGST when sold in India<\/b>"
+          }
+        },
         "custom_liquid_BqpJqy": {
           "type": "custom_liquid",
           "disabled": true,
@@ -212,6 +218,7 @@
         "title",
         "e2dbc4b8-572a-49d7-a5d1-8fec516020b8",
         "price_review",
+        "custom_liquid_XFy8qN",
         "custom_liquid_BqpJqy",
         "custom_liquid_ktk9BF",
         "custom_liquid_9iLwHa",
