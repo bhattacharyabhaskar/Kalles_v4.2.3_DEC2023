@@ -643,7 +643,7 @@
             "type": "announcement",
             "settings": {
               "link": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
-              "content": "<p><strong>😎<\/strong>Summer Super Sale, up to <strong>10% OFF<\/strong>.<strong>😎<\/strong> <a href=\"\/pages\/current-offers-and-promotions\" title=\"Current Offers and Promotions\">Details [icon_arrow]<\/a><\/p>",
+              "content": "<p><em><strong>🎉Festival Super Sale<\/strong><\/em><strong>! Up to 10% Off<\/strong><em><strong>🎉<\/strong><\/em><a href=\"\/pages\/current-offers-and-promotions\" title=\"Current Offers and Promotions\">Details [icon_arrow]<\/a><\/p>",
               "adding_border": true,
               "countdown": "2023\/12\/26",
               "txt_day": "days",
@@ -2349,18 +2349,6 @@
 
     ],
     "blocks": {
-      "942670587456160541": {
-        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-embed-stable\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "14417550493701535262": {
-        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/discountninja-app-embed-latest\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
@@ -2388,12 +2376,6 @@
       "11877319286961345690": {
         "type": "shopify:\/\/apps\/doc-404-broken-links-repair\/blocks\/404-fix-broken-links-widget\/f4f2d416-cb00-4540-bda9-816d588bad3e",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "13027630495364635475": {
-        "type": "shopify:\/\/apps\/discount-ninja\/blocks\/la-dn-app-embed-core-v5-assetless\/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
-        "disabled": true,
         "settings": {
         }
       }
