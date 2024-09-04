@@ -664,10 +664,30 @@
             "total": 100,
             "available": 75
           }
+        },
+        "product_iyfCW4": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify:\/\/products\/light-cream-and-red-color-garad-saree-with-satin-border-and-zari-buti-work-with-gujrati-embroidery",
+            "total": 100,
+            "available": 75
+          }
+        },
+        "product_Nj9jQU": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify:\/\/products\/cream-offwhite-and-red-color-pure-garad-saree-with-satin-border-and-hand-gujarati-stitch-with-zari-work",
+            "total": 2,
+            "available": 1
+          }
         }
       },
       "block_order": [
-        "product_hW3whm"
+        "product_hW3whm",
+        "product_iyfCW4",
+        "product_Nj9jQU"
       ],
       "settings": {
         "heading_align": "t4s-text-center",
