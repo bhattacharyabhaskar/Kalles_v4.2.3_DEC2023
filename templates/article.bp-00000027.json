@@ -598,61 +598,6 @@
         "code_cus_css": ""
       }
     },
-    "56412792-0cbb-4a76-a029-fca6374f64f7": {
-      "type": "image_text",
-      "blocks": {
-        "template--17093650579689__56412792-0cbb-4a76-a029-fca6374f64f7-bl_text-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Wrapping Up",
-            "text": "<p>To know more such how-to and tips on the pure silk and cotton sarees we have this guide exclusively written and maintained for you. So look for all your clues and hints here. Keep this guide handy before you buy a jamdani saree. <\/p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "template--17093650579689__56412792-0cbb-4a76-a029-fca6374f64f7-bl_text-1"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -719,7 +664,6 @@
     "image_text_NwqF4U",
     "image_text_TztEMN",
     "featured_collection_pjXGyU",
-    "56412792-0cbb-4a76-a029-fca6374f64f7",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
