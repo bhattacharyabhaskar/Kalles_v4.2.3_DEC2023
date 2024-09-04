@@ -701,8 +701,8 @@
       ],
       "settings": {
         "heading_align": "t4s-text-center",
-        "top_heading": "Product deals of the day",
-        "cd_txt": "End in:",
+        "top_heading": "Garad Collection",
+        "cd_txt": "",
         "date": "2023\/12\/20",
         "cl_text": "#ffffff",
         "bg_cdt": "#e4573d",
