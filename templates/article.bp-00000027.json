@@ -682,12 +682,22 @@
             "total": 2,
             "available": 1
           }
+        },
+        "product_cEdWTB": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "link_product": "shopify:\/\/products\/offwhite-and-red-color-pure-garad-saree-with-satin-border-and-golden-zari-with-meenakari-buti-work",
+            "total": 100,
+            "available": 75
+          }
         }
       },
       "block_order": [
         "product_hW3whm",
         "product_iyfCW4",
-        "product_Nj9jQU"
+        "product_Nj9jQU",
+        "product_cEdWTB"
       ],
       "settings": {
         "heading_align": "t4s-text-center",
@@ -716,7 +726,7 @@
         "space_v_item": "30",
         "space_h_item_mb": "10",
         "space_v_item_mb": "10",
-        "show_stock_bar": true,
+        "show_stock_bar": false,
         "txt_sold": "Sold:",
         "txt_avai": "Available:",
         "cl_stock_1": "#4e97fd",
