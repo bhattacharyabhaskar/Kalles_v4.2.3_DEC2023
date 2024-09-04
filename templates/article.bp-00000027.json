@@ -224,45 +224,16 @@
     "1608235d-c3e9-4bd1-b190-b35ac6c54005": {
       "type": "image_text",
       "blocks": {
-        "a9a29052-0c8b-4e3f-ab5d-4efced60901a": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/Jamdani_2.jpg",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
         "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
+            "col_dk": "12",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "#2. Design and Patterns:",
-            "text": "<p><strong>Intricate Patterns:<\/strong><\/p><ul><li>Jamdani sarees feature intricate, geometric, floral, or paisley patterns that are woven into the fabric, not printed or embroidered. The designs are usually created using supplementary weft threads.<\/li><\/ul><p><strong>Detailed and Symmetrical Motifs:<\/strong><\/p><ul><li>The motifs on a genuine Jamdani saree are detailed, well-defined, and symmetrical. They may include traditional patterns like vines, flowers, and birds.<\/li><\/ul><p><strong>Reverse Side:<\/strong><\/p><ul><li>On the reverse side of the saree, the motifs should be as visible as on the front, albeit slightly less defined. This is a sign of the weaving technique used in Jamdani.<\/li><\/ul>",
+            "heading": "2. Draping Styles: Traditional with a Twist",
+            "text": "<p>The way you drape your saree can make a huge difference in your overall look. For Durga Puja, try these draping styles that blend tradition with modern flair:<\/p><ul><li><strong>The Traditional Bengali Drape:<\/strong> Nothing says Durga Puja like the classic Bengali drape. This style involves draping the saree around the waist and then pulling the pallu from the back to the front, letting it fall gracefully over your left shoulder. The end of the pallu can be tied in a knot or accessorized with a statement brooch.<\/li><li><strong>The Pleated Pallu Drape:<\/strong> If you prefer a more structured look, try the pleated pallu drape. Neatly pleat the pallu and pin it over your shoulder, allowing the intricate designs to be the focal point. This style adds elegance and is perfect for puja rituals.<\/li><li><strong>Belted Drape:<\/strong> For a modern twist, add a belt to your saree. Cinch it at the waist to give your Garad saree a contemporary look. You can use a traditional kamarbandh or even a metallic belt for a fusion effect.<\/li><\/ul><p><strong>Styling Tip:<\/strong> Pair your drape with a contrasting blouse, such as a gold zari blouse or one with intricate embroidery, to add depth to your outfit.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -279,7 +250,6 @@
         }
       },
       "block_order": [
-        "a9a29052-0c8b-4e3f-ab5d-4efced60901a",
         "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1"
       ],
       "settings": {
@@ -317,8 +287,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "#3. Craftsmanship:",
-            "text": "<p><strong>Labor-Intensive Process:<\/strong><\/p><ul><li>Authentic Jamdani sarees are created through a labor-intensive process that can take several weeks to months, depending on the complexity of the design. Each piece is a work of art.<\/li><\/ul><p><strong>Uneven Edges:<\/strong><\/p><ul><li>Handwoven sarees, including Jamdani, often have slightly uneven edges. This is a natural result of the handweaving process.<\/li><\/ul>",
+            "heading": "3. Accessorize Like a Bengali Diva",
+            "text": "<p>Accessorizing your Garad saree is key to completing your Durga Puja look. Here are some ideas to help you accessorize like a true Bengali diva:<\/p><ul><li><strong>Statement Jewelry:<\/strong> Go for traditional gold jewelry, which is a staple in Bengali culture. A gold choker necklace paired with long jhumkas or chandbalis can elevate your look. Don’t forget the classic shakha-pola bangles (red and white bangles worn by Bengali women) to add an authentic touch.<\/li><li><strong>Nath (Nose Ring):<\/strong> A statement nath can instantly uplift your festive look. Whether you choose a delicate one or a bold design, it adds a traditional charm to your Garad saree ensemble.<\/li><li><strong>Hair Accessories:<\/strong> Adorn your hair with fresh flowers, especially jasmine or roses, which are traditional favorites. You can also add a maang tikka or a matha patti to enhance your festive look.<\/li><\/ul><p><strong>Styling Tip:<\/strong> If you’re going for an elaborate jewelry set, keep your makeup subtle and dewy to balance the look.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
