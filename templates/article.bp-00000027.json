@@ -422,8 +422,8 @@
         "bl_text_ApyAFB": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "col_dk": "12",
+            "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
@@ -442,125 +442,10 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_rikYLT": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/Jamdani_5.jpg",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "bl_text_ApyAFB",
-        "bl_image_rikYLT"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_PQeUUy": {
-      "type": "image_text",
-      "blocks": {
-        "bl_image_3CGEfN": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/Jamdani_6.jpg",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
-        "bl_text_RmCz7e": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "#6. Color and Dye:",
-            "text": "<p><strong>Natural Dyes:<\/strong><\/p><ul><li>Traditional Jamdani sarees often use natural dyes, resulting in vibrant colors. The colors should not bleed or fade easily.<\/li><\/ul><p><strong>Consistency:<\/strong><\/p><ul><li>The color consistency should be even, but slight variations may be present due to the use of natural dyes.<\/li><\/ul>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_image_3CGEfN",
-        "bl_text_RmCz7e"
+        "bl_text_ApyAFB"
       ],
       "settings": {
         "design_heading": "1",
@@ -597,8 +482,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "BONUS! Weight",
-            "text": "<p>Jamdani sarees are known for their lightweight and soft texture. When you drape the saree, it should feel comfortable and not heavy.<\/p><p>By examining these characteristics carefully, you can identify an authentic Jamdani saree and appreciate the exquisite craftsmanship that goes into creating these traditional masterpieces.<\/p>",
+            "heading": "In a nutshell…",
+            "text": "<p>Styling a Garad saree for Durga Puja in 2024 allows you to celebrate tradition while embracing modern trends. By blending classic draping styles with contemporary accessories and makeup, you can create a look that is both timeless and stylish. This Durga Puja, let your Garad saree shine as you immerse yourself in the festivities, carrying forward the rich cultural heritage that this saree represents.<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -832,7 +717,6 @@
     "be349666-2469-4b59-9e48-269f0cd4f2cc",
     "image_text_mabHwt",
     "image_text_NwqF4U",
-    "image_text_PQeUUy",
     "image_text_TztEMN",
     "featured_collection_pjXGyU",
     "56412792-0cbb-4a76-a029-fca6374f64f7",
