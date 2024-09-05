@@ -413,6 +413,61 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "image_text_wa8faj": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_Cd6RJN": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "3. Gujarati Pallu",
+            "text": "<p>The <strong>Gujarati drape<\/strong>, also known as the seedha pallu, is popular in Gujarat and Rajasthan. In this style, the pallu is brought over the right shoulder from the back to the front, allowing the intricate designs of the pallu to be displayed prominently in the front. <\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_Cd6RJN"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -423,6 +478,7 @@
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
     "video_featured_NLYBmt",
     "image_text_TztEMN",
-    "e7b55938-3dde-44ab-9365-66967e09d447"
+    "e7b55938-3dde-44ab-9365-66967e09d447",
+    "image_text_wa8faj"
   ]
 }
