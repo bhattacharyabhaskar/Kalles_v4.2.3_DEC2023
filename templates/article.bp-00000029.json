@@ -665,6 +665,61 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "image_text_jULfBA": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_VyQbXY": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "6. The Nauvari Pallu",
+            "text": "<p>The <strong>Nauvari saree drape<\/strong> is a traditional Maharashtrian style that gives the appearance of a dhoti. In this style, the saree is draped in such a way that it allows free movement, making it ideal for festive dances and rituals. The pallu is wrapped around the torso and tucked at the waist, leaving the hands free.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_VyQbXY"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -681,6 +736,7 @@
     "image_text_apUHXy",
     "video_featured_PwWK6a",
     "image_text_eRETqq",
-    "video_featured_GLFriy"
+    "video_featured_GLFriy",
+    "image_text_jULfBA"
   ]
 }
