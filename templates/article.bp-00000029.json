@@ -501,41 +501,13 @@
     "image_text_apUHXy": {
       "type": "image_text",
       "blocks": {
-        "bl_image_UkLEVq": {
-          "type": "bl_image",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
         "bl_text_rd4tbm": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "col_dk": "12",
+            "col_tb": "12",
             "text_size": "40,15",
-            "txt_align": "center",
+            "txt_align": "start",
             "sub_heading": "",
             "heading": "Image with text",
             "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -555,7 +527,6 @@
         }
       },
       "block_order": [
-        "bl_image_UkLEVq",
         "bl_text_rd4tbm"
       ],
       "settings": {
