@@ -549,11 +549,34 @@
             "animation": "none"
           }
         },
+        "custom_text_gG4z6N": {
+          "type": "custom_text",
+          "settings": {
+            "text": "The Nivi drape is the most common and widely recognized way of wearing a saree, originating from Andhra Pradesh. This traditional style involves neatly pleating the pallu and pinning it over the left shoulder, letting it fall behind. The elegance of this drape lies in its simplicity and neatness.",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#fff",
+            "text_fs": 16,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "text_mgb": 15,
+            "font_italic": false,
+            "text_shadow": false,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
         "custom_button_xYA4mX": {
           "type": "custom_button",
           "settings": {
             "source": "1",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https:\/\/youtu.be\/r5eQzIDEi0E",
             "file_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0610\/5209\/2628\/files\/Share_your_brand_story_by_adding_a_video_to_your_store.mp4?v=1641630446",
             "au_video": true,
             "loop_video": true,
@@ -590,6 +613,7 @@
       "block_order": [
         "custom_text_QxxVXJ",
         "custom_text_GttpMg",
+        "custom_text_gG4z6N",
         "custom_button_xYA4mX"
       ],
       "settings": {
