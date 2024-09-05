@@ -1,0 +1,514 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "d036730a-8d16-4983-945e-58174fb11f9c": {
+      "type": "banner",
+      "blocks": {
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": false,
+            "height_dk": 600,
+            "custom_tb": false,
+            "height_tb": 400,
+            "custom_mb": false,
+            "height_mb": 300,
+            "image": "shopify:\/\/shop_images\/BANNER_IMAGE__Should_You_Use_Safety_Pins_on_Saree.png",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "12",
+            "col_tb": "12",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 100,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 100,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_bl": true,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0"
+      ],
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "6869956b-0118-467c-98f0-cbb9ff121db9": {
+      "type": "image_text",
+      "blocks": {
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Should We Use Safety Pins on Sarees?",
+            "text": "<p>Sarees are a timeless piece of clothing that exudes grace, tradition, and beauty. Whether it's for a wedding, a festival, or even a formal occasion, a saree can be styled to suit any event. <\/p><p>However, with their lengthy fabric and delicate draping, wearing a saree often raises one important question: should you use safety pins? <\/p><p>Safety pins have become a go-to accessory for many saree wearers, offering a sense of security and helping to keep the pleats and pallu in place. But is it the best choice? Let's explore the pros and cons of using safety pins on sarees and alternative solutions.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48": {
+      "type": "image_text",
+      "blocks": {
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Hey, Safety Pins on Sarees are Safe!!",
+            "text": "<ol><li><strong>Security and Confidence:<\/strong> For many women, safety pins offer peace of mind. Whether it's securing the pleats at the waist or fixing the pallu over the shoulder, pins provide an added layer of security that helps you move comfortably without worrying about the saree slipping or becoming loose.<\/li><li><strong>Maintaining Neatness:<\/strong> A well-pleated saree is a sight to behold, but keeping those pleats in place can be challenging, especially during long events or if you're actively moving. Safety pins help to maintain the neatness of your saree, ensuring that the drape stays perfectly in place throughout the day.<\/li><li><strong>Quick Fixes:<\/strong> Sometimes, a quick pin here and there can solve minor wardrobe malfunctions, especially if you're short on time or unable to re-drape your saree. Safety pins can act as a handy emergency solution for managing unexpected slips or loose ends.<\/li><li><strong>Experiment with Draping Styles:<\/strong> When experimenting with contemporary or non-traditional draping styles, safety pins can be your best friend. Whether you want to try a belted look, a pant drape, or an elaborate pleated design, pins help to secure your creation and keep it intact.<\/li><\/ol>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Safety_Ping_Blog_Image_1.webp",
+            "col_dk": "6",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16762835501289__c57fc7eb-b69c-45a5-9cce-eb58d9806d48-16831174407b348715-1",
+        "bbcb8a83-f77a-4e7c-8ad0-8bc929bf421f"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "1608235d-c3e9-4bd1-b190-b35ac6c54005": {
+      "type": "image_text",
+      "blocks": {
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Safety Pins on Sarees, Never - You’re Killing Your Sarees!",
+            "text": "<ol><li><strong>Damage to the Fabric:<\/strong> The biggest drawback of using safety pins on sarees is the potential damage to the fabric. Delicate materials like silk, chiffon, or georgette can be easily torn or punctured by pins, leaving visible holes or weakening the fabric over time. This is especially concerning for expensive sarees or heirloom pieces that need extra care.<\/li><li><strong>Visible Pins:<\/strong> No one wants their carefully styled saree to be marred by visible safety pins. Unfortunately, pins can sometimes peek out from behind pleats or pallu, disrupting the overall look of the saree. Even if the pins are hidden, they can create lumps or bumps, which can affect the smoothness of the drape.<\/li><li><strong>Restriction of Movement:<\/strong> While safety pins provide security, they can also restrict your movement. If the saree is pinned too tightly, it can feel uncomfortable, limiting your ability to walk, sit, or dance freely. This can become particularly bothersome during long events.<\/li><li><strong>Over-reliance:<\/strong> Relying too heavily on safety pins can take away from the art of draping a saree. Instead of mastering the skill of creating perfect pleats and drapes, you might become dependent on pins to do the work for you, which can ultimately hinder your ability to wear a saree with confidence and ease.<\/li><\/ol>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "video_featured_NLYBmt": {
+      "type": "video_featured",
+      "settings": {
+        "se_height": "t4s_ratio16_9",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=Q520n-lOkGg",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "be349666-2469-4b59-9e48-269f0cd4f2cc": {
+      "type": "image_text",
+      "blocks": {
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Are there any Alternatives to Safety Pins?",
+            "text": "<p>If you’re hesitant about using safety pins but still want to keep your saree secure, some alternatives can help:<\/p><ol><li><strong>Saree Shapewear:<\/strong> Saree shapewear, such as petticoats with an elastic waistband, can help to keep the saree in place without the need for pins. These garments are designed to support the saree, ensuring that it stays secure and neat.<\/li><li><strong>Double-sided Fashion Tape:<\/strong> Fashion tape is a great alternative for securing your saree without causing damage. It’s especially useful for keeping the pallu in place on your shoulder or preventing pleats from shifting.<\/li><li><strong>Brocade or Embroidered Belts:<\/strong> Adding a stylish belt to your saree not only enhances your look but also helps to keep the drape secure. Belts can add definition to your waist and hold the saree in place, making them a fashionable and functional alternative to pins.<\/li><li><strong>Perfecting Your Draping Technique:<\/strong> The best alternative to safety pins is to perfect your draping technique. With practice, you can learn how to fold and tuck your saree in such a way that it stays securely in place without the need for pins. This might take time, but once mastered, it allows you to wear your saree confidently and effortlessly.<\/li><\/ol>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/Safety_Pin_blog_2_image.webp",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16762835501289__be349666-2469-4b59-9e48-269f0cd4f2cc-16831174407b348715-1",
+        "8d6d2dc8-c237-4330-a53b-cc789ece3f7c"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_TztEMN": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_bbwXwi": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Wrap Up Time!",
+            "text": "<p>While safety pins can be a helpful tool for securing your saree, they also come with their own set of drawbacks, especially when it comes to delicate fabrics and aesthetic considerations. The decision to use safety pins ultimately depends on the type of saree you're wearing, the event, and your comfort level. <\/p><p>However, exploring alternatives like saree shapewear, fashion tape, and perfecting your draping technique can help you achieve a flawless look without the need for pins. Whether you choose to use pins or not, the key to wearing a saree gracefully lies in confidence, comfort, and practice.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_bbwXwi"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "e7b55938-3dde-44ab-9365-66967e09d447": {
+      "type": "image_text",
+      "blocks": {
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https:\/\/www.indyvogue.com\/\"><strong>IndyVogue<\/strong> <\/a>every day, every hour, every minute and every second. Salute to her and her undying spirit.<\/p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "d036730a-8d16-4983-945e-58174fb11f9c",
+    "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
+    "1608235d-c3e9-4bd1-b190-b35ac6c54005",
+    "video_featured_NLYBmt",
+    "be349666-2469-4b59-9e48-269f0cd4f2cc",
+    "image_text_TztEMN",
+    "e7b55938-3dde-44ab-9365-66967e09d447"
+  ]
+}
