@@ -1402,7 +1402,7 @@
           "44e33ba3-7ab7-432a-9094-caee8438a3af": {
             "type": "pr",
             "settings": {
-              "collection": "sale",
+              "collection": "double-savings-collection",
               "product_des": "1",
               "show_vendor": false,
               "use_cdt": false,
