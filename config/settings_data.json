@@ -864,8 +864,8 @@
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
             "type": "mega",
             "settings": {
-              "title": "Sale",
-              "url": "shopify:\/\/collections\/sale",
+              "title": "Double Savings",
+              "url": "shopify:\/\/collections\/double-savings-collection",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
