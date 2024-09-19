@@ -53,8 +53,8 @@
   assign final_price = price
 -%}
 
-{%- comment -%} Using regular Liquid syntax outside the {%- liquid -%} block {%- endcomment -%}
-{%- if is_sale_collection == false and product.type == "Saree" -%}
+{%- comment -%} Discount calculation if product is not on sale collection and is a "Saree" {%- endcomment -%}
+{%- if is_sale_collection == false  -%}
   {%- liquid
     if price >= 7500 and price < 20000
       assign discount = 1000
@@ -76,6 +76,11 @@
       assign final_price = price | minus: discount
     endif
   -%}
+{%- endif -%}
+
+{%- comment -%} Ensure no strike-through if compare_at_price equals final_price {%- endcomment -%}
+{%- if compare_at_price == final_price -%}
+  {%- assign is_sale = false -%}
 {%- endif -%}
 
 {%- liquid
