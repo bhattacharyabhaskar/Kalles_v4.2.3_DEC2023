@@ -331,119 +331,6 @@
         "code_cus_css": ""
       }
     },
-    "video_featured_FwD9Tn": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/8cNvgSVrC1M",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_apUHXy": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_rd4tbm": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "4. Lehenga Style Pallu",
-            "text": "<p>If you’re looking to blend tradition with modern fashion, the <strong>Lehenga-style drape</strong> is a perfect choice. This contemporary drape mimics the look of a lehenga by creating pleats all around the saree and tucking them into the waistband to resemble a skirt. The pallu is then draped over the shoulder like a dupatta. </p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_rd4tbm"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "video_featured_PwWK6a": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/JGCpccMHP4A",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_eRETqq": {
       "type": "image_text",
       "blocks": {
@@ -529,35 +416,6 @@
         "code_cus_css": ""
       }
     },
-    "video_featured_GLFriy": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/6c1ROz9BTsw",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_jULfBA": {
       "type": "image_text",
       "blocks": {
@@ -569,8 +427,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "6. The Nauvari Pallu",
-            "text": "<p>The <strong>Nauvari saree drape</strong> is a traditional Maharashtrian style that gives the appearance of a dhoti. In this style, the saree is draped in such a way that it allows free movement, making it ideal for festive dances and rituals. The pallu is wrapped around the torso and tucked at the waist, leaving the hands free.</p>",
+            "heading": "Celebrating Karvachauth in Austin",
+            "text": "<p>Karvachauth in Austin is always a special occasion. Though I’m far from India, celebrating with friends here makes me feel connected to my roots. The tradition of fasting and dressing up in beautiful sarees has become something I truly cherish. The upcoming Karvachauth will be no different, and I’m looking forward to enjoying the festivities in my red Katan Banarasi saree, surrounded by close friends and family.</p><p>I hope these GRWM tips help inspire your Karvachauth look, whether you’re celebrating in India or abroad. The joy of dressing up, sharing traditions, and being part of the festivities makes Karvachauth a beautiful celebration for all. Wishing you all a happy and stylish Karvachauth!</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -843,11 +701,7 @@
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
     "image_text_wa8faj",
-    "video_featured_FwD9Tn",
-    "image_text_apUHXy",
-    "video_featured_PwWK6a",
     "image_text_eRETqq",
-    "video_featured_GLFriy",
     "image_text_jULfBA",
     "video_featured_Nitxtx",
     "image_text_dPmxgk",
