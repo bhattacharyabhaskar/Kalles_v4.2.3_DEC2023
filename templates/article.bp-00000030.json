@@ -197,13 +197,13 @@
         "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "12",
+            "col_dk": "6",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "2. Bengali Draping Pallu",
-            "text": "<p>The <strong>Bengali drape</strong> is iconic for its simplicity and cultural significance. In this style, the pallu is wrapped around the body and draped over the left shoulder, with the front end of the pallu brought back to the right side and tucked at the waist. The pallu is often left wide and flowing, showcasing the intricate designs of the saree. </p>",
+            "heading": "",
+            "text": "<ul><li><strong>Underskirt and Blouse:</strong> To add to the comfort, I’ll wear a matching red satin underskirt, which ensures the saree drapes well and stays secure. My blouse will be tailored with a modern cut – a boat neck with half sleeves, embellished with subtle gold details to complement the richness of the saree without overwhelming it.</li></ul><p><em><strong>Image:</strong></em><em> 2021’s Classic drape - Nivi style look but with open Pallu!</em></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -217,10 +217,40 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
+        },
+        "bl_image_8mCJkd": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Drape-1.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
         }
       },
       "block_order": [
-        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1"
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1",
+        "bl_image_8mCJkd"
       ],
       "settings": {
         "design_heading": "1",
