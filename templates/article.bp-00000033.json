@@ -356,35 +356,6 @@
         "code_cus_css": ""
       }
     },
-    "video_featured_PwWK6a": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/JGCpccMHP4A",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_eRETqq": {
       "type": "image_text",
       "blocks": {
@@ -396,8 +367,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "5. Butterfly Style Pallu ",
-            "text": "<p>The <strong>Butterfly drape</strong>, also known as the Bollywood drape, is one of the most glamorous pallu styles. In this drape, the pallu is pleated thinly and pinned in the center of the chest, resembling butterfly wings. </p>",
+            "heading": "5. The Hanger Method",
+            "text": "<p>Who says you need to fold? Hang those sarees up and let them breathe!</p><p><strong>How to do it:</strong></p><ul><li>Drape your saree over a padded hanger, ensuring the pallu and pleats hang straight.</li><li>Cover it with a muslin or cotton cloth to keep dust away and protect the fabric.</li></ul><p><strong>Best for:</strong> Heavy sarees like <a href=\"https://www.indyvogue.com/collections/banarasi-silk-saree?srsltid=AfmBOopiSH8yF6Ogc9Sin5fzEknWrd-XAcWkx9a9-GA4idGx-ZTGhymo\"><span style=\"text-decoration:underline\">Banarasi</span></a> or velvet, which can lose their sheen if folded tightly.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -755,7 +726,6 @@
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
     "image_text_wa8faj",
     "image_text_apUHXy",
-    "video_featured_PwWK6a",
     "image_text_eRETqq",
     "video_featured_GLFriy",
     "image_text_jULfBA",
