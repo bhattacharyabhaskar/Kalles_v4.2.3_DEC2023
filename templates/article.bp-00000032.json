@@ -279,30 +279,6 @@
     "image_text_wa8faj": {
       "type": "image_text",
       "blocks": {
-        "bl_text_Cd6RJN": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Length Matters: Petticoat Tailoring 101",
-            "text": "<p>Your petticoat length is key! Too short, and you’ll be doing an accidental leg reveal; too long, and you might trip over. The perfect length should be just a couple of inches above the floor, letting your saree flow gracefully. Don’t forget to tailor it according to your height, especially if you’re wearing heels.</p><h2>Waistband Woes: Comfort vs. Fit</h2><p>You want your petticoat to fit snugly, but not so tight that you’re gasping for air after two gulab jamuns. Look for a comfortable, adjustable waistband—drawstrings or elastic, whatever works best for you. Elastic can be super convenient for easy wear, but if you prefer a more secure fit, go for drawstrings.</p><h2>Flair for the Perfect Flair</h2><p>Lastly, consider the flare of the petticoat. A mermaid-style petticoat works wonders with a fishtail saree, while a more flared petticoat gives volume to lighter fabrics. For a royal, princess-like look, opt for petticoats with more gathers.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
         "bl_image_cfmM8U": {
           "type": "bl_image",
           "settings": {
@@ -331,78 +307,17 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        }
-      },
-      "block_order": [
-        "bl_text_Cd6RJN",
-        "bl_image_cfmM8U"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "video_featured_FwD9Tn": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/8cNvgSVrC1M",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_apUHXy": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_rd4tbm": {
+        },
+        "bl_text_Cd6RJN": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "12",
+            "col_dk": "6",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "4. Lehenga Style Pallu",
-            "text": "<p>If you’re looking to blend tradition with modern fashion, the <strong>Lehenga-style drape</strong> is a perfect choice. This contemporary drape mimics the look of a lehenga by creating pleats all around the saree and tucking them into the waistband to resemble a skirt. The pallu is then draped over the shoulder like a dupatta. </p>",
+            "heading": "Length Matters: Petticoat Tailoring 101",
+            "text": "<p>Your petticoat length is key! Too short, and you’ll be doing an accidental leg reveal; too long, and you might trip over. The perfect length should be just a couple of inches above the floor, letting your saree flow gracefully. Don’t forget to tailor it according to your height, especially if you’re wearing heels.</p><h2>Waistband Woes: Comfort vs. Fit</h2><p>You want your petticoat to fit snugly, but not so tight that you’re gasping for air after two gulab jamuns. Look for a comfortable, adjustable waistband—drawstrings or elastic, whatever works best for you. Elastic can be super convenient for easy wear, but if you prefer a more secure fit, go for drawstrings.</p><h2>Flair for the Perfect Flair</h2><p>Lastly, consider the flare of the petticoat. A mermaid-style petticoat works wonders with a fishtail saree, while a more flared petticoat gives volume to lighter fabrics. For a royal, princess-like look, opt for petticoats with more gathers.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -419,7 +334,8 @@
         }
       },
       "block_order": [
-        "bl_text_rd4tbm"
+        "bl_image_cfmM8U",
+        "bl_text_Cd6RJN"
       ],
       "settings": {
         "design_heading": "1",
@@ -433,287 +349,6 @@
         "space_h_item_mb": "20",
         "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "video_featured_PwWK6a": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/JGCpccMHP4A",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_eRETqq": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_MqdVMW": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "5. Butterfly Style Pallu ",
-            "text": "<p>The <strong>Butterfly drape</strong>, also known as the Bollywood drape, is one of the most glamorous pallu styles. In this drape, the pallu is pleated thinly and pinned in the center of the chest, resembling butterfly wings. </p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_MqdVMW"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "video_featured_GLFriy": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/6c1ROz9BTsw",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_jULfBA": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_VyQbXY": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "6. The Nauvari Pallu",
-            "text": "<p>The <strong>Nauvari saree drape</strong> is a traditional Maharashtrian style that gives the appearance of a dhoti. In this style, the saree is draped in such a way that it allows free movement, making it ideal for festive dances and rituals. The pallu is wrapped around the torso and tucked at the waist, leaving the hands free.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_VyQbXY"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "video_featured_Nitxtx": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/7HXVXieq7pM",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_dPmxgk": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_dgdQ6z": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "7. Pant-Style Pallu",
-            "text": "<p>For those who want to experiment with fusion fashion, the <strong>pant-style draping</strong> is a great option. This modern draping technique involves pairing the saree with pants or leggings instead of a traditional petticoat. The pallu is usually pleated and tucked at the waist or worn loosely over the shoulder for a chic look. </p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_dgdQ6z"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "video_featured_CTEjUg": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/s7Qf4N1ATcI",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
@@ -737,8 +372,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Wrap Up!",
-            "text": "<p>The versatility of the saree allows it to be draped in numerous ways, and the pallu plays a significant role in defining your style. Whether you prefer a traditional drape like the Bengali or Gujarati style, or you want to experiment with modern looks like the Lehenga or Pant-style drape, each technique offers a unique way to express yourself. </p><p>So, the next time you drape a saree, don’t be afraid to try out one of these unique pallu draping styles and make a stunning statement!</p>",
+            "heading": "Do away with your Worries!",
+            "text": "<p>Your petticoat might not steal the limelight like your saree, but it plays a crucial supporting role in making sure your look is flawless. From fabric and color to length and fit, a little extra attention to detail can take your saree game to a whole new level. So next time, don’t just grab any petticoat—choose one that makes you feel fabulous from the inside out!</p><p>Remember, if your saree is the star, the petticoat is the director behind the scenes, making sure the magic happens.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -843,15 +478,6 @@
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
     "image_text_wa8faj",
-    "video_featured_FwD9Tn",
-    "image_text_apUHXy",
-    "video_featured_PwWK6a",
-    "image_text_eRETqq",
-    "video_featured_GLFriy",
-    "image_text_jULfBA",
-    "video_featured_Nitxtx",
-    "image_text_dPmxgk",
-    "video_featured_CTEjUg",
     "image_text_TztEMN",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
