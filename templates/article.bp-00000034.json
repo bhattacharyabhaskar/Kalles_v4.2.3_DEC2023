@@ -224,30 +224,6 @@
     "1608235d-c3e9-4bd1-b190-b35ac6c54005": {
       "type": "image_text",
       "blocks": {
-        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "What makes Paithani Sarees stand out",
-            "text": "<h4>A. Paithanis come with Intricate Craftsmanship</h4><p>One of the most distinguishing features of a Paithani saree is its intricate craftsmanship. The sarees are traditionally handwoven on wooden looms, with each saree taking months to complete, depending on the complexity of the design. The weaving technique used is known as the \"tapestry technique,\" where the weft threads are carefully interlocked to create elaborate patterns.</p><p>The borders and pallu (the part of the saree that drapes over the shoulder) of Paithani sarees are adorned with motifs inspired by nature, such as peacocks, parrots, lotuses, and vines. The designs are symmetrical, and the saree is often reversible, which is a testament to the skill of the weavers. The use of vibrant colors, like bright red, green, yellow, and purple, adds to the allure of these sarees, making them a visual delight.</p><p><strong>Read More:</strong> <a href=\"https://www.indyvogue.com/blogs/indyvogue-fashion-center/how-to-style-a-paithani-saree-this-ganesh-chaturthi-season\"><span style=\"text-decoration:underline\">How to Style Paitahnis in Ganesh Chaturthi</span></a></p><h4>B. Paithanis is a Symbol of Love</h4><p>Paithani sarees are often considered a saree of love, not just because of their beauty, but also because of the deep emotional connection they hold. In Maharashtrian culture, Paithani sarees are passed down through generations as heirlooms, symbolizing the love and legacy of the family. Brides are often gifted Paithani sarees by their mothers or grandmothers, making it a part of their wedding trousseau. The saree is cherished as a token of love, and wearing it evokes a sense of pride and belonging.</p><h4>C. Preserving Tradition in Modern Times</h4><p>In today’s world, where fast fashion dominates the market, Paithani sarees have managed to retain their timeless charm. While modern adaptations of Paithani sarees are available, with lighter fabrics and contemporary designs, the traditional handwoven Paithani remains the most coveted. Weavers in Maharashtra continue to create these sarees with the same dedication and skill that their ancestors did, preserving this ancient craft for future generations.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
         "bl_image_KHEGmF": {
           "type": "bl_image",
           "settings": {
@@ -276,69 +252,8 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        }
-      },
-      "block_order": [
-        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1",
-        "bl_image_KHEGmF"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_wa8faj": {
-      "type": "image_text",
-      "blocks": {
-        "bl_image_cfmM8U": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Petticoat_look_2.png",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         },
-        "bl_text_Cd6RJN": {
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
           "type": "bl_text",
           "settings": {
             "col_dk": "6",
@@ -346,8 +261,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Length Matters: Petticoat Tailoring 101",
-            "text": "<p>Your petticoat length is key! Too short, and you’ll be doing an accidental leg reveal; too long, and you might trip over. The perfect length should be just a couple of inches above the floor, letting your saree flow gracefully. Don’t forget to tailor it according to your height, especially if you’re wearing heels.</p><h2>Waistband Woes: Comfort vs. Fit</h2><p>You want your petticoat to fit snugly, but not so tight that you’re gasping for air after two gulab jamuns. Look for a comfortable, adjustable waistband—drawstrings or elastic, whatever works best for you. Elastic can be super convenient for easy wear, but if you prefer a more secure fit, go for drawstrings.</p><h2>Flair for the Perfect Flair</h2><p>Lastly, consider the flare of the petticoat. A mermaid-style petticoat works wonders with a fishtail saree, while a more flared petticoat gives volume to lighter fabrics. For a royal, princess-like look, opt for petticoats with more gathers.</p>",
+            "heading": "What makes Paithani Sarees stand out",
+            "text": "<h4>A. Paithanis come with Intricate Craftsmanship</h4><p>One of the most distinguishing features of a Paithani saree is its intricate craftsmanship. The sarees are traditionally handwoven on wooden looms, with each saree taking months to complete, depending on the complexity of the design. The weaving technique used is known as the \"tapestry technique,\" where the weft threads are carefully interlocked to create elaborate patterns.</p><p>The borders and pallu (the part of the saree that drapes over the shoulder) of Paithani sarees are adorned with motifs inspired by nature, such as peacocks, parrots, lotuses, and vines. The designs are symmetrical, and the saree is often reversible, which is a testament to the skill of the weavers. The use of vibrant colors, like bright red, green, yellow, and purple, adds to the allure of these sarees, making them a visual delight.</p><p><strong>Read More:</strong> <a href=\"https://www.indyvogue.com/blogs/indyvogue-fashion-center/how-to-style-a-paithani-saree-this-ganesh-chaturthi-season\"><span style=\"text-decoration:underline\">How to Style Paitahnis in Ganesh Chaturthi</span></a></p><h4>B. Paithanis is a Symbol of Love</h4><p>Paithani sarees are often considered a saree of love, not just because of their beauty, but also because of the deep emotional connection they hold. In Maharashtrian culture, Paithani sarees are passed down through generations as heirlooms, symbolizing the love and legacy of the family. Brides are often gifted Paithani sarees by their mothers or grandmothers, making it a part of their wedding trousseau. The saree is cherished as a token of love, and wearing it evokes a sense of pride and belonging.</p><h4>C. Preserving Tradition in Modern Times</h4><p>In today’s world, where fast fashion dominates the market, Paithani sarees have managed to retain their timeless charm. While modern adaptations of Paithani sarees are available, with lighter fabrics and contemporary designs, the traditional handwoven Paithani remains the most coveted. Weavers in Maharashtra continue to create these sarees with the same dedication and skill that their ancestors did, preserving this ancient craft for future generations.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -364,8 +279,8 @@
         }
       },
       "block_order": [
-        "bl_image_cfmM8U",
-        "bl_text_Cd6RJN"
+        "bl_image_KHEGmF",
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1"
       ],
       "settings": {
         "design_heading": "1",
@@ -402,8 +317,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Do away with your Worries!",
-            "text": "<p>Your petticoat might not steal the limelight like your saree, but it plays a crucial supporting role in making sure your look is flawless. From fabric and color to length and fit, a little extra attention to detail can take your saree game to a whole new level. So next time, don’t just grab any petticoat—choose one that makes you feel fabulous from the inside out!</p><p>Remember, if your saree is the star, the petticoat is the director behind the scenes, making sure the magic happens.</p>",
+            "heading": "In a nutshell…",
+            "text": "<p>Paithani sarees are not just garments; they are a testament to India's rich cultural heritage and the artistry of its weavers. From being patronized by the Peshwas to being cherished by the Nizams, these sarees have a legacy that transcends time. Woven with love and adorned with intricate designs, Paithani sarees continue to be a symbol of grace, tradition, and elegance for women across India and beyond. Whether worn at weddings, festivals, or special occasions, a Paithani saree carries with it a story of love and legacy, making it truly timeless.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -507,7 +422,6 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
-    "image_text_wa8faj",
     "image_text_TztEMN",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
