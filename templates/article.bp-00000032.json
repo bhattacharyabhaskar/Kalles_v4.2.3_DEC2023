@@ -191,48 +191,19 @@
         "code_cus_css": ""
       }
     },
-    "video_featured_EhtiPb": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/r5eQzIDEi0E",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "1608235d-c3e9-4bd1-b190-b35ac6c54005": {
       "type": "image_text",
       "blocks": {
         "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "12",
+            "col_dk": "6",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "2. Bengali Draping Pallu",
-            "text": "<p>The <strong>Bengali drape</strong> is iconic for its simplicity and cultural significance. In this style, the pallu is wrapped around the body and draped over the left shoulder, with the front end of the pallu brought back to the right side and tucked at the waist. The pallu is often left wide and flowing, showcasing the intricate designs of the saree. </p>",
+            "heading": "Color Code: The Matching Game",
+            "text": "<p>Let’s talk colors. While it’s tempting to grab any old petticoat, color coordination can make or break your look. Here are the rules of the game:</p><ul><li><strong>Exact Match:</strong> If you can, go for a petticoat that exactly matches the color of your saree. This ensures that if the petticoat peeks out, no one will notice!</li><li><strong>Contrast Colors:</strong> Feeling bold? Try a contrasting color petticoat. This works especially well with sarees that have light borders or sheer fabrics. Imagine a white organza saree with a hot pink or gold petticoat—an instant style statement!</li><li><strong>Neutral Shades:</strong> If you’re in a pinch and can’t find an exact match, go for neutral shades like beige, black, or gold. They blend well with most sarees.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -246,10 +217,40 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
+        },
+        "bl_image_KHEGmF": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Petticoat_look_1.png",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
         }
       },
       "block_order": [
-        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1"
+        "template--16761530319081__1608235d-c3e9-4bd1-b190-b35ac6c54005-168296955661740d93-1",
+        "bl_image_KHEGmF"
       ],
       "settings": {
         "design_heading": "1",
@@ -839,7 +840,6 @@
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
-    "video_featured_EhtiPb",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
     "video_featured_NLYBmt",
     "image_text_wa8faj",
