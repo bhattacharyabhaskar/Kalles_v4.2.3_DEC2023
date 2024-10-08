@@ -301,35 +301,6 @@
         "code_cus_css": ""
       }
     },
-    "video_featured_FwD9Tn": {
-      "type": "video_featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://youtu.be/8cNvgSVrC1M",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000000",
-        "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_apUHXy": {
       "type": "image_text",
       "blocks": {
@@ -341,8 +312,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "4. Lehenga Style Pallu",
-            "text": "<p>If you’re looking to blend tradition with modern fashion, the <strong>Lehenga-style drape</strong> is a perfect choice. This contemporary drape mimics the look of a lehenga by creating pleats all around the saree and tucking them into the waistband to resemble a skirt. The pallu is then draped over the shoulder like a dupatta. </p>",
+            "heading": "4. Accordion Fold",
+            "text": "<p>It’s time to channel your inner Marie Kondo with this satisfying fold!</p><p><strong>How to do it:</strong></p><ul><li>Lay the saree flat and smooth it out.</li><li>Begin by folding the pleats as if you’re about to wear the saree, but keep folding all the way across.</li><li>Once you’ve pleated the entire saree, fold it in half, then once more to fit into your drawer.</li></ul><p><strong>Why we love it:</strong> This method is perfect for starched cotton or crisp silk sarees as it maintains their shape and prevents fabric creasing.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -783,7 +754,6 @@
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
     "image_text_wa8faj",
-    "video_featured_FwD9Tn",
     "image_text_apUHXy",
     "video_featured_PwWK6a",
     "image_text_eRETqq",
