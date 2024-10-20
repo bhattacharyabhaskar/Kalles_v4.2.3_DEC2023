@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1646028739ae283905": {
@@ -15,11 +15,11 @@
         "image_parent_BLriGf": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Indyvogue-site-banner-web.jpg",
-            "image_mb": "shopify:\/\/shop_images\/Indyvogue-site-banner-mobile.jpg",
+            "image": "shopify://shop_images/DT-Banner-1_d3766196-df4b-4fd7-89fd-9b3cd4f4d270.jpg",
+            "image_mb": "shopify://shop_images/1_97bac6f1-d13b-466f-9c64-e10a1d73726e.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
+            "link_img1": "shopify://collections/buy-silk-mark-certified-saree",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
@@ -29,9 +29,9 @@
             "ch_pos": 50,
             "cv_pos_mb": 50,
             "ch_pos_mb": 50,
-            "bg_overlay": "#000",
+            "bg_overlay": "#000000",
             "bg_opacity": 0,
-            "bg_content_cl": "#fff",
+            "bg_content_cl": "#ffffff",
             "bg_content_op": 0,
             "content_radius": 0,
             "box_square": false,
@@ -42,8 +42,8 @@
             "content_pd_tb_mb": 10,
             "content_pd_lr_mb": 10,
             "border_bl": false,
-            "br_color": "#222",
-            "br_bg": "#fff",
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
             "br_opacity": 50,
             "br_style": "solid",
             "br_pd": 20,
@@ -55,11 +55,11 @@
         "image_parent_PKckTb": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Website-Desktop-Banner.jpg",
-            "image_mb": "shopify:\/\/shop_images\/WebSite-Mobile-Banner.jpg",
+            "image": "shopify://shop_images/DT-Banner-2.jpg",
+            "image_mb": "shopify://shop_images/2_53181936-ba56-4f99-9071-65dc3448b6cc.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
+            "link_img1": "shopify://collections/buy-silk-mark-certified-saree",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "center",
@@ -95,11 +95,11 @@
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/01022024-DT-Banner-03.jpg",
-            "image_mb": "shopify:\/\/shop_images\/MB-BANNER-2.jpg",
+            "image": "shopify://shop_images/DT-Banner-4.jpg",
+            "image_mb": "shopify://shop_images/4.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/dhakai-jamdani-sarees",
+            "link_img1": "shopify://collections/dhakai-jamdani-sarees",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "start",
@@ -135,11 +135,11 @@
         "a9dffc78-40cc-4111-a908-826833c0cded": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DT-BANNER-3.png",
-            "image_mb": "shopify:\/\/shop_images\/MB-BANNER-3.jpg",
+            "image": "shopify://shop_images/DT-Banner-3.jpg",
+            "image_mb": "shopify://shop_images/3.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/silk-mark",
+            "link_img1": "shopify://collections/silk-mark",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "start",
@@ -171,54 +171,13 @@
             "time_animation": 1,
             "animation_delay": 40
           }
-        },
-        "744d6198-1b2a-49f5-b7e8-3a0852ec2274": {
-          "type": "image_parent",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DT-BANNER-4.png",
-            "image_mb": "shopify:\/\/shop_images\/MB-BANNER-4.jpg",
-            "image_position": "8",
-            "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/kanchipuram-sarees",
-            "open_link": "_self",
-            "animate_slide": "none",
-            "text_align": "center",
-            "text_align_mb": "center",
-            "content_width": "auto",
-            "cv_pos": 50,
-            "ch_pos": 50,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 50,
-            "bg_overlay": "#000000",
-            "bg_opacity": 0,
-            "bg_content_cl": "#ffffff",
-            "bg_content_op": 0,
-            "content_radius": 0,
-            "box_square": false,
-            "content_pd_tb": 15,
-            "content_pd_lr": 15,
-            "content_pd_tb_tb": 15,
-            "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_bg": "#ffffff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 40
-          }
         }
       },
       "block_order": [
         "image_parent_BLriGf",
         "image_parent_PKckTb",
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336",
-        "a9dffc78-40cc-4111-a908-826833c0cded",
-        "744d6198-1b2a-49f5-b7e8-3a0852ec2274"
+        "a9dffc78-40cc-4111-a908-826833c0cded"
       ],
       "settings": {
         "se_height": "t4s_ratioadapt_f",
@@ -265,42 +224,42 @@
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-1": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shipping-HOME.png",
+            "image": "shopify://shop_images/Shipping-HOME.png",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-2": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Secured_9f9b44da-4256-4575-8859-7bff3d48cce6.png",
+            "image": "shopify://shop_images/Secured_9f9b44da-4256-4575-8859-7bff3d48cce6.png",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-3": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Silk-Mark.png",
+            "image": "shopify://shop_images/Silk-Mark.png",
             "url": ""
           }
         },
         "logo_item_BWnwmH": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/top-quality.png",
+            "image": "shopify://shop_images/top-quality.png",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-4": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hand_woven.png",
+            "image": "shopify://shop_images/hand_woven.png",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-5": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Stitching.png",
+            "image": "shopify://shop_images/Stitching.png",
             "url": ""
           }
         },
@@ -308,7 +267,7 @@
           "type": "logo_item",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Service.png",
+            "image": "shopify://shop_images/Service.png",
             "url": ""
           }
         }
@@ -375,8 +334,8 @@
         "1_6NYiEV": {
           "type": "1",
           "settings": {
-            "content": "<p>Due to some procedural change for DHL shipments to USA, we are experiencing delays in shipments getting released in a timely fashion. We are working with the concerned authority in DHL to resolve the issues at the earliest. We are hoping to release all pending shipments by end of the week of July 5, 2024.<\/p>",
-            "countdown": "2023\/12\/20",
+            "content": "<p>Due to some procedural change for DHL shipments to USA, we are experiencing delays in shipments getting released in a timely fashion. We are working with the concerned authority in DHL to resolve the issues at the earliest. We are hoping to release all pending shipments by end of the week of July 5, 2024.</p>",
+            "countdown": "2023/12/20",
             "cus_cd": "%-D day%!D %H:%M:%S",
             "dayx": 0,
             "cl_text": "#ffffff",
@@ -418,7 +377,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "kanchipuram-sarees",
-            "image": "shopify:\/\/shop_images\/Kanjeevaram-New.jpg",
+            "image": "shopify://shop_images/Kanjeevaram-New.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -430,7 +389,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "banarasi-silk-saree",
-            "image": "shopify:\/\/shop_images\/Banarasi-New_4da6ec00-e5c0-4d42-b9ef-dcab2bd045a6.webp",
+            "image": "shopify://shop_images/Banarasi-New_4da6ec00-e5c0-4d42-b9ef-dcab2bd045a6.webp",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -442,7 +401,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "georgette-silk-saree",
-            "image": "shopify:\/\/shop_images\/Georgette-New.webp",
+            "image": "shopify://shop_images/Georgette-New.webp",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -454,7 +413,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "gadwal-silk-saree",
-            "image": "shopify:\/\/shop_images\/Gadwal-New.jpg",
+            "image": "shopify://shop_images/Gadwal-New.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -466,7 +425,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "bishnupur-silk-saree",
-            "image": "shopify:\/\/shop_images\/Bishnupuri-Silk-New.webp",
+            "image": "shopify://shop_images/Bishnupuri-Silk-New.webp",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -478,7 +437,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "ikat-silk-saree",
-            "image": "shopify:\/\/shop_images\/Ikkat-New_b949539a-cff5-43cc-8683-a5928022f466.webp",
+            "image": "shopify://shop_images/Ikkat-New_b949539a-cff5-43cc-8683-a5928022f466.webp",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -490,7 +449,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "kantha-stitch-hand-embroidery",
-            "image": "shopify:\/\/shop_images\/Kantha-Stitch-New.jpg",
+            "image": "shopify://shop_images/Kantha-Stitch-New.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -502,7 +461,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "organza-silk-saree",
-            "image": "shopify:\/\/shop_images\/Organza-New.jpg",
+            "image": "shopify://shop_images/Organza-New.jpg",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -514,7 +473,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "shop-designer-sarees",
-            "image": "shopify:\/\/shop_images\/Designer-New_cc8121da-4f67-4399-b11e-31e3aceb6fbb.jpg",
+            "image": "shopify://shop_images/Designer-New_cc8121da-4f67-4399-b11e-31e3aceb6fbb.jpg",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -526,7 +485,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "dhakai-jamdani-sarees",
-            "image": "shopify:\/\/shop_images\/Jadani-New.jpg",
+            "image": "shopify://shop_images/Jadani-New.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -538,7 +497,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "raw-silk",
-            "image": "shopify:\/\/shop_images\/Raw-Silk-New.jpg",
+            "image": "shopify://shop_images/Raw-Silk-New.jpg",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -550,7 +509,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "sambalpuri-silk",
-            "image": "shopify:\/\/shop_images\/Oddisha-Silk-New.jpg",
+            "image": "shopify://shop_images/Oddisha-Silk-New.jpg",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -576,7 +535,7 @@
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
-        "top_heading": "<h2>Exclusive Designer Silk Saree Collections<\/h2>",
+        "top_heading": "<h2>Exclusive Designer Silk Saree Collections</h2>",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -618,7 +577,7 @@
     "custom_liquid_MQ67PY": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"shopify-section-template--17089852604649__1702155301c8da60ce\" class=\"shopify-section\">\n  <div id=\"shopify-block-c9c204cf-7c77-418f-9268-d32081a51485\" class=\"shopify-block shopify-app-block\">\n    <div class=\"whatmore-base\" style=\"min-height: 380px;\">\n      <div id=\"whatmoreShopId\" data-wh=\"14697362\"><\/div>\n      <div id=\"whatmoreHeading\" data-wh=\"Watch and Buy!\"><\/div>\n      <div id=\"whatmorePrimaryColor\" data-wh=\"#343434\"><\/div>\n      <div id=\"whatmoreSecondaryColor\" data-wh=\"#343434\"><\/div>\n      <div id=\"whatmoreTitleFontSize\" data-wh=\"40\"><\/div>\n      <div id=\"whatmoreTitleFontSizePortrait\" data-wh=\"24\"><\/div>\n      <div id=\"whatmoreLandscapePadding\" data-wh=\"40\"><\/div>\n      <div id=\"whatmoreTopBottomPadding\" data-wh=\"20\"><\/div>\n      <div id=\"whatmoreVideoTileSize\" data-wh=\"80\"><\/div>\n\n      <style data-shopify><\/style>\n\n      <!-- <div id=\"whatmoreTitleFont\" data-wh=-apple-system> <\/div> -->\n      <div id=\"whatmoreTitleFont\" data-wh=\"whatmoreTitleFontFamily\"><\/div>\n\n      <style data-shopify><\/style>\n\n      <div id=\"whatmorePrimaryFont\" data-wh=\"videoShoppingFontFamily\"><\/div>\n      <div id=\"whatmoreShowViews\" data-wh=\"show\"><\/div>\n      <div id=\"whatmoreUITheme\" data-wh=\"round\"><\/div>\n      <div class=\"whatmore-template-type\" data-wh=\"template-a\"><\/div>\n      <div id=\"whatmoreIsInDesignMode\" data-wh=\"false\"><\/div>\n\n      <div class=\"whatmore-render-root\"><\/div>\n    <\/div>\n  <\/div>\n<\/div>",
+        "custom_liquid": "<div id=\"shopify-section-template--17089852604649__1702155301c8da60ce\" class=\"shopify-section\">\n  <div id=\"shopify-block-c9c204cf-7c77-418f-9268-d32081a51485\" class=\"shopify-block shopify-app-block\">\n    <div class=\"whatmore-base\" style=\"min-height: 380px;\">\n      <div id=\"whatmoreShopId\" data-wh=\"14697362\"></div>\n      <div id=\"whatmoreHeading\" data-wh=\"Watch and Buy!\"></div>\n      <div id=\"whatmorePrimaryColor\" data-wh=\"#343434\"></div>\n      <div id=\"whatmoreSecondaryColor\" data-wh=\"#343434\"></div>\n      <div id=\"whatmoreTitleFontSize\" data-wh=\"40\"></div>\n      <div id=\"whatmoreTitleFontSizePortrait\" data-wh=\"24\"></div>\n      <div id=\"whatmoreLandscapePadding\" data-wh=\"40\"></div>\n      <div id=\"whatmoreTopBottomPadding\" data-wh=\"20\"></div>\n      <div id=\"whatmoreVideoTileSize\" data-wh=\"80\"></div>\n\n      <style data-shopify></style>\n\n      <!-- <div id=\"whatmoreTitleFont\" data-wh=-apple-system> </div> -->\n      <div id=\"whatmoreTitleFont\" data-wh=\"whatmoreTitleFontFamily\"></div>\n\n      <style data-shopify></style>\n\n      <div id=\"whatmorePrimaryFont\" data-wh=\"videoShoppingFontFamily\"></div>\n      <div id=\"whatmoreShowViews\" data-wh=\"show\"></div>\n      <div id=\"whatmoreUITheme\" data-wh=\"round\"></div>\n      <div class=\"whatmore-template-type\" data-wh=\"template-a\"></div>\n      <div id=\"whatmoreIsInDesignMode\" data-wh=\"false\"></div>\n\n      <div class=\"whatmore-render-root\"></div>\n    </div>\n  </div>\n</div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -634,7 +593,7 @@
       "type": "apps",
       "blocks": {
         "c9c204cf-7c77-418f-9268-d32081a51485": {
-          "type": "shopify:\/\/apps\/whatmore-shoppable-videos\/blocks\/app-block\/20db8a72-315a-4364-8885-64219ee48303",
+          "type": "shopify://apps/whatmore-shoppable-videos/blocks/app-block/20db8a72-315a-4364-8885-64219ee48303",
           "settings": {
             "heading": "Watch and Buy!",
             "template-type": "template-a",
@@ -719,7 +678,7 @@
     "9a92f768-a23c-411b-b99c-809c4aae84e0": {
       "type": "custom-html",
       "settings": {
-        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #fff;color: #fff;\">\n<div data-romw-token=\"SuXYREMYz4nTRed4TUFHciHAwv1qXhpiEuFE4aGRGxvvhK3AdI\"><\/div>\n<script data-src=\"https:\/\/reviewsonmywebsite.com\/js\/v2\/embed.js?id=7bf8acda5d5930b1a9db343a4ec1b31c\" type=\"lazyload_int\"><\/script>\n<\/div>",
+        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #fff;color: #fff;\">\n<div data-romw-token=\"SuXYREMYz4nTRed4TUFHciHAwv1qXhpiEuFE4aGRGxvvhK3AdI\"></div>\n<script data-src=\"https://reviewsonmywebsite.com/js/v2/embed.js?id=7bf8acda5d5930b1a9db343a4ec1b31c\" type=\"lazyload_int\"></script>\n</div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -751,7 +710,7 @@
             "des_color": "#878787",
             "use_shadow": false,
             "button_label": "SEE ALL REVIEWS",
-            "button_link": "shopify:\/\/pages\/indyvogue-reviews",
+            "button_link": "shopify://pages/indyvogue-reviews",
             "open_link": "_self",
             "btn_icon": true,
             "button_style": "default",
@@ -868,7 +827,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "bollywood-sarees",
-            "image": "shopify:\/\/shop_images\/ind-bollywood.jpg",
+            "image": "shopify://shop_images/ind-bollywood.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -880,7 +839,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "festival-collection",
-            "image": "shopify:\/\/shop_images\/ind-festival.jpg",
+            "image": "shopify://shop_images/ind-festival.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -892,7 +851,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "indian-wedding-sarees",
-            "image": "shopify:\/\/shop_images\/ind-wedding.jpg",
+            "image": "shopify://shop_images/ind-wedding.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -904,7 +863,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "the-kolkata-collection",
-            "image": "shopify:\/\/shop_images\/Kolkata-Collection-Category_1140_x_600_px.jpg",
+            "image": "shopify://shop_images/Kolkata-Collection-Category_1140_x_600_px.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -916,7 +875,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "silk-mark",
-            "image": "shopify:\/\/shop_images\/ind-silkmark.jpg",
+            "image": "shopify://shop_images/ind-silkmark.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -928,7 +887,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "bold-solid-sarees",
-            "image": "shopify:\/\/shop_images\/Sold-Bold-HomePage-Category_1_8bd26c8c-7ccd-4a0f-b8e6-41b552eeafea.webp",
+            "image": "shopify://shop_images/Sold-Bold-HomePage-Category_1_8bd26c8c-7ccd-4a0f-b8e6-41b552eeafea.webp",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -948,7 +907,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "<h2>Special Collections<\/h2>",
+        "top_heading": "<h2>Special Collections</h2>",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -1295,7 +1254,7 @@
     "custom_liquid_bB8QjJ": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"shopify-section-template--17089852604649__17022330082d8df317\" class=\"shopify-section\">\n  <div id=\"shopify-block-9ef838d1-083b-4f7c-9d77-1914496936a0\" class=\"shopify-block shopify-app-block\">\n    <div\n      class=\"__seguno-newsletter-form\"\n      style=\"\n        --color-background: 255, 255, 255;\n        --color-foreground: 26, 27, 24;\n        --color-button: 183, 73, 155;\n        --color-button-text: 255, 255, 255;\n        ;\n      \"\n    >\n      <h2 class=\"h1 __seguno-newsletter-form-heading\">Subscribe & Save<\/h2>\n\n      <div class=\"__seguno-newsletter-form-subheading\">\n        <p>\n          Subscribe to our NewsLetter and get <strong>$10 USD Off*<\/strong> your purchase. Get the latest & greatest\n          update on New Arrivals, Promotions and lots more.\n        <\/p>\n      <\/div>\n\n      <form\n        method=\"post\"\n        action=\"\/contact#__seguno_contact_form--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n        id=\"__seguno_contact_form--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n        accept-charset=\"UTF-8\"\n        class=\"__seguno-contact-form\"\n      >\n        <input type=\"hidden\" name=\"form_type\" value=\"customer\"><input type=\"hidden\" name=\"utf8\" value=\"✓\">\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter\">\n\n        <div class=\"__seguno-newsletter-field\">\n          <div class=\"field\">\n            <input\n              id=\"SegunoNewsletterForm-email--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n              type=\"email\"\n              name=\"contact[email]\"\n              class=\"field__input\"\n              value=\"\"\n              aria-required=\"true\"\n              autocorrect=\"off\"\n              autocapitalize=\"off\"\n              autocomplete=\"email\"\n\n              placeholder=\"email@email.com\"\n              required\n            >\n            <label\n              class=\"field__label\"\n              for=\"SegunoNewsletterForm-email--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n            >\n              Email\n            <\/label>\n          <\/div>\n        <\/div>\n\n        <div class=\"__seguno-newsletter-field\">\n          <div class=\"checkbox-field\">\n            <label\n              for=\"SegunoNewsletterForm-permission--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n              class=\"__seguno-permission-field\"\n            >\n              <input\n                id=\"SegunoNewsletterForm-permission--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n                type=\"checkbox\"\n                class=\"field__checkbox __seguno-newsletter-permission-checkbox\"\n              >\n              <div>\n                <p>I agree to receive marketing emails from IndyVogue.<\/p>\n              <\/div>\n            <\/label>\n          <\/div>\n        <\/div>\n\n        <button\n          type=\"submit\"\n          class=\"button\"\n          id=\"SegunoNewsletterForm-submit--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n          name=\"commit\"\n          disabled\n        >\n          Subscribe\n        <\/button>\n      <\/form>\n    <\/div>\n  <\/div>\n<\/div>",
+        "custom_liquid": "<div id=\"shopify-section-template--17089852604649__17022330082d8df317\" class=\"shopify-section\">\n  <div id=\"shopify-block-9ef838d1-083b-4f7c-9d77-1914496936a0\" class=\"shopify-block shopify-app-block\">\n    <div\n      class=\"__seguno-newsletter-form\"\n      style=\"\n        --color-background: 255, 255, 255;\n        --color-foreground: 26, 27, 24;\n        --color-button: 183, 73, 155;\n        --color-button-text: 255, 255, 255;\n        ;\n      \"\n    >\n      <h2 class=\"h1 __seguno-newsletter-form-heading\">Subscribe & Save</h2>\n\n      <div class=\"__seguno-newsletter-form-subheading\">\n        <p>\n          Subscribe to our NewsLetter and get <strong>$10 USD Off*</strong> your purchase. Get the latest & greatest\n          update on New Arrivals, Promotions and lots more.\n        </p>\n      </div>\n\n      <form\n        method=\"post\"\n        action=\"/contact#__seguno_contact_form--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n        id=\"__seguno_contact_form--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n        accept-charset=\"UTF-8\"\n        class=\"__seguno-contact-form\"\n      >\n        <input type=\"hidden\" name=\"form_type\" value=\"customer\"><input type=\"hidden\" name=\"utf8\" value=\"✓\">\n\n        <input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter\">\n\n        <div class=\"__seguno-newsletter-field\">\n          <div class=\"field\">\n            <input\n              id=\"SegunoNewsletterForm-email--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n              type=\"email\"\n              name=\"contact[email]\"\n              class=\"field__input\"\n              value=\"\"\n              aria-required=\"true\"\n              autocorrect=\"off\"\n              autocapitalize=\"off\"\n              autocomplete=\"email\"\n\n              placeholder=\"email@email.com\"\n              required\n            >\n            <label\n              class=\"field__label\"\n              for=\"SegunoNewsletterForm-email--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n            >\n              Email\n            </label>\n          </div>\n        </div>\n\n        <div class=\"__seguno-newsletter-field\">\n          <div class=\"checkbox-field\">\n            <label\n              for=\"SegunoNewsletterForm-permission--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n              class=\"__seguno-permission-field\"\n            >\n              <input\n                id=\"SegunoNewsletterForm-permission--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n                type=\"checkbox\"\n                class=\"field__checkbox __seguno-newsletter-permission-checkbox\"\n              >\n              <div>\n                <p>I agree to receive marketing emails from IndyVogue.</p>\n              </div>\n            </label>\n          </div>\n        </div>\n\n        <button\n          type=\"submit\"\n          class=\"button\"\n          id=\"SegunoNewsletterForm-submit--9ef838d1-083b-4f7c-9d77-1914496936a0\"\n          name=\"commit\"\n          disabled\n        >\n          Subscribe\n        </button>\n      </form>\n    </div>\n  </div>\n</div>",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -1311,11 +1270,11 @@
       "type": "apps",
       "blocks": {
         "9ef838d1-083b-4f7c-9d77-1914496936a0": {
-          "type": "shopify:\/\/apps\/seguno-email\/blocks\/newsletter_form\/db65571f-fa4d-473d-baa2-283a96dc76bc",
+          "type": "shopify://apps/seguno-email/blocks/newsletter_form/db65571f-fa4d-473d-baa2-283a96dc76bc",
           "disabled": true,
           "settings": {
             "heading": "Subscribe & Save",
-            "subheading": "<p>Subscribe to our NewsLetter and get <strong>$10 USD Off*<\/strong> your purchase. Get the latest & greatest update on New Arrivals, Promotions and lots more.<\/p>",
+            "subheading": "<p>Subscribe to our NewsLetter and get <strong>$10 USD Off*</strong> your purchase. Get the latest & greatest update on New Arrivals, Promotions and lots more.</p>",
             "show_first_name": false,
             "show_last_name": false,
             "show_permission_checkbox": true,
@@ -1327,7 +1286,7 @@
             "placeholder_last_name": "",
             "label_email": "Email",
             "placeholder_email": "email@email.com",
-            "label_permission": "<p>I agree to receive marketing emails from IndyVogue.<\/p>",
+            "label_permission": "<p>I agree to receive marketing emails from IndyVogue.</p>",
             "label_subscribe": "Subscribe",
             "success_message": "Thanks for subscribing",
             "background_color": "#ffffff",
