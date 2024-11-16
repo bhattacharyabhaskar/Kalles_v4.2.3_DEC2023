@@ -309,6 +309,30 @@
     "image_text_ynEwH3": {
       "type": "image_text",
       "blocks": {
+        "bl_text_TymGAA": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "3. Aishwarya Rai's Blue and Gold Saree in Devdas",
+            "text": "<p>Aishwarya Rai's ornate blue and gold saree in <em>Devdas</em> captures the opulent style of the film's era. With rich, hand embroidery details, this drape style is all about showcasing luxury.</p><h3>How to Drape:</h3><ol><li>Tuck the saree at your waist, creating broad pleats for volume.</li><li>Bring the pallu over your right shoulder and drape it elegantly.</li><li>Allow the pallu to hang longer, showcasing the intricate design.</li><li>Use ornate jewelry to accentuate the theme.</li></ol>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
         "bl_image_3aAjXU": {
           "type": "bl_image",
           "settings": {
@@ -337,35 +361,11 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        },
-        "bl_text_TymGAA": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "3. Aishwarya Rai's Blue and Gold Saree in Devdas",
-            "text": "<p>Aishwarya Rai's ornate blue and gold saree in <em>Devdas</em> captures the opulent style of the film's era. With rich, hand embroidery details, this drape style is all about showcasing luxury.</p><h3>How to Drape:</h3><ol><li>Tuck the saree at your waist, creating broad pleats for volume.</li><li>Bring the pallu over your right shoulder and drape it elegantly.</li><li>Allow the pallu to hang longer, showcasing the intricate design.</li><li>Use ornate jewelry to accentuate the theme.</li></ol>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
         }
       },
       "block_order": [
-        "bl_image_3aAjXU",
-        "bl_text_TymGAA"
+        "bl_text_TymGAA",
+        "bl_image_3aAjXU"
       ],
       "settings": {
         "design_heading": "1",
@@ -394,30 +394,6 @@
     "image_text_8qjwjC": {
       "type": "image_text",
       "blocks": {
-        "bl_text_aXJrkG": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "4. Mumtaaz Style from Brahmachari",
-            "text": "<p>The Mumtaaz saree drape from the film <em>Brahmachari</em> remains a favorite for its modern simplicity. Without basic pleats, it offers a sleek, fitted look that's ideal for contemporary events.</p><h3>How to Drape:</h3><ol><li>Wrap the saree tightly around your waist, skipping pleats.</li><li>Bring the pallu over your shoulder, securing it with a pin.</li><li>Allow the saree to contour to your body, emphasizing the border.</li><li>Accessorize minimally to keep the focus on the drape.</li></ol>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
         "bl_image_qih4YD": {
           "type": "bl_image",
           "settings": {
@@ -446,11 +422,35 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
+        },
+        "bl_text_aXJrkG": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "4. Mumtaaz Style from Brahmachari",
+            "text": "<p>The Mumtaaz saree drape from the film <em>Brahmachari</em> remains a favorite for its modern simplicity. Without basic pleats, it offers a sleek, fitted look that's ideal for contemporary events.</p><h3>How to Drape:</h3><ol><li>Wrap the saree tightly around your waist, skipping pleats.</li><li>Bring the pallu over your shoulder, securing it with a pin.</li><li>Allow the saree to contour to your body, emphasizing the border.</li><li>Accessorize minimally to keep the focus on the drape.</li></ol>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
         }
       },
       "block_order": [
-        "bl_text_aXJrkG",
-        "bl_image_qih4YD"
+        "bl_image_qih4YD",
+        "bl_text_aXJrkG"
       ],
       "settings": {
         "design_heading": "1",
@@ -479,6 +479,30 @@
     "image_text_qkbByh": {
       "type": "image_text",
       "blocks": {
+        "bl_text_fDtmrA": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "5. The Royal Drapes of Jodha Akbar",
+            "text": "<p>For those drawn to historical elegance, the sarees in <em>Jodha Akbar</em> offer majestic inspiration. This style is characterized by rich fabrics and layered draping, suitable for royal occasions.</p><h3>How to Drape:</h3><ol><li>Tuck the saree at the waist, with numerous pleats to create volume.</li><li>Bring the pallu over your left shoulder, using a brooch for a regal touch.</li><li>Layer another portion of the saree over your shoulder for added drama.</li><li>Pair with traditional jewelry to complete the look.</li></ol>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
         "bl_image_Q3teDh": {
           "type": "bl_image",
           "settings": {
@@ -507,35 +531,11 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        },
-        "bl_text_fDtmrA": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "5. The Royal Drapes of Jodha Akbar",
-            "text": "<p>For those drawn to historical elegance, the sarees in <em>Jodha Akbar</em> offer majestic inspiration. This style is characterized by rich fabrics and layered draping, suitable for royal occasions.</p><h3>How to Drape:</h3><ol><li>Tuck the saree at the waist, with numerous pleats to create volume.</li><li>Bring the pallu over your left shoulder, using a brooch for a regal touch.</li><li>Layer another portion of the saree over your shoulder for added drama.</li><li>Pair with traditional jewelry to complete the look.</li></ol>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
         }
       },
       "block_order": [
-        "bl_image_Q3teDh",
-        "bl_text_fDtmrA"
+        "bl_text_fDtmrA",
+        "bl_image_Q3teDh"
       ],
       "settings": {
         "design_heading": "1",
@@ -572,8 +572,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "In a nutshell…",
-            "text": "<p>Paithani sarees are not just garments; they are a testament to India's rich cultural heritage and the artistry of its weavers. From being patronized by the Peshwas to being cherished by the Nizams, these sarees have a legacy that transcends time. Woven with love and adorned with intricate designs, Paithani sarees continue to be a symbol of grace, tradition, and elegance for women across India and beyond. Whether worn at weddings, festivals, or special occasions, a Paithani saree carries with it a story of love and legacy, making it truly timeless.</p>",
+            "heading": "Conclusion",
+            "text": "<p>These unique saree draping styles from recent Bollywood films bring cinematic elegance to your wardrobe. Whether you're purchasing silk sarees online in the USA or visiting a saree boutique online, these styles will help you exude the timeless charm that Bollywood icons have mastered. Ready to transform your saree game? Explore the top 10 silk saree sites in the USA or visit Indyvogue for the best pure silk sarees in the USA.</p><p><a href=\"https://www.indyvogue.com/collections/buy-silk-mark-certified-saree\" target=\"_blank\">Learn more about our collection and join our community of fashion-forward saree lovers today!</a></p><p>With these draping styles, you'll not only honor traditional craftsmanship but also infuse your personal style with Bollywood glamour. Remember, the best saree collection is just a click away, waiting to inspire your next look? Shop Now!</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
