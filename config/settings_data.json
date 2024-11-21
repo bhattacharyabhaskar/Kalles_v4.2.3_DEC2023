@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "purchase_code": "ac82ee1c-42bc-46ca-ba07-fec66c04717c",
@@ -16,20 +16,20 @@
     "use_rtl": "0",
     "checkbox_mail": true,
     "header_design": "inline",
-    "logo": "shopify:\/\/shop_images\/Logo-Light-New_5f505c73-77f1-4d5d-863c-3b869b661d24.png",
+    "logo": "shopify://shop_images/Logo-Light-New_5f505c73-77f1-4d5d-863c-3b869b661d24.png",
     "logo_width": 95,
-    "logos": "shopify:\/\/shop_images\/kalles.png",
+    "logos": "shopify://shop_images/kalles.png",
     "logos_width": 95,
-    "logo_mb": "shopify:\/\/shop_images\/jbn.jpg",
+    "logo_mb": "shopify://shop_images/jbn.jpg",
     "logo_mb_width": 95,
-    "logo_tr": "shopify:\/\/shop_images\/header-logo-01.png",
+    "logo_tr": "shopify://shop_images/header-logo-01.png",
     "logo_tr_width": 95,
     "mobile_nav_type": "1",
     "accent_color": "#b7499b",
     "border_color": "#ddd",
     "price_secondary": "#878787",
     "use_cus_lz": true,
-    "cus_lz": "shopify:\/\/shop_images\/Logo-Light-Anime.gif",
+    "cus_lz": "shopify://shop_images/Logo-Light-Anime.gif",
     "size_cus_lz": 150,
     "font_source": "2",
     "fnt_fm_sp2": "poppins_n4",
@@ -85,22 +85,22 @@
     "share_tumblr": true,
     "share_telegram": true,
     "share_whatsapp": false,
-    "social_facebook_link": "https:\/\/facebook.com\/IndyVogue",
-    "social_twitter_link": "https:\/\/twitter.com\/IndyVogue",
-    "social_instagram_link": "http:\/\/instagram.com\/indyvoguellc",
+    "social_facebook_link": "https://facebook.com/IndyVogue",
+    "social_twitter_link": "https://twitter.com/IndyVogue",
+    "social_instagram_link": "http://instagram.com/indyvoguellc",
     "social_dribbble_link": "",
-    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/indyvogue\/",
-    "social_pinterest_link": "https:\/\/pinterest.com\/IndyVogue",
+    "social_linkedin_link": "https://www.linkedin.com/company/indyvogue/",
+    "social_pinterest_link": "https://pinterest.com/IndyVogue",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCeaXLec9gXoTNK-Jowt-bJw",
+    "social_youtube_link": "https://www.youtube.com/channel/UCeaXLec9gXoTNK-Jowt-bJw",
     "social_vimeo_link": "",
     "social_behance_link": "",
     "social_soundcloud_link": "",
     "social_tiktok_link": "",
-    "favicon": "shopify:\/\/shop_images\/Logo-Light-New-FavIcon.png",
-    "favicon_apple": "shopify:\/\/shop_images\/Logo-Light-New-Retina.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Logo-Light-New_5f505c73-77f1-4d5d-863c-3b869b661d24.png",
+    "favicon": "shopify://shop_images/Logo-Light-New-FavIcon.png",
+    "favicon_apple": "shopify://shop_images/Logo-Light-New-Retina.png",
+    "checkout_logo_image": "shopify://shop_images/Logo-Light-New_5f505c73-77f1-4d5d-863c-3b869b661d24.png",
     "checkout_logo_size": "large",
     "pr_incoming_mess": true,
     "use_vimg": true,
@@ -128,7 +128,7 @@
           "67b11f56-907e-476f-aa16-dc965c499ef7": {
             "type": "html",
             "settings": {
-              "html_content": "<script type=\"lazyload_int\" data-src=\"https:\/\/reviewsonmywebsite.com\/js\/v2\/embed.js?id=8e7313fc946fd3d8c15c886f791a7ab8\"><\/script>\n<script type=\"lazyload_int\" data-src=\"https:\/\/reviewsonmywebsite.com\/js\/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34\"><\/script>",
+              "html_content": "<script type=\"lazyload_int\" data-src=\"https://reviewsonmywebsite.com/js/v2/embed.js?id=8e7313fc946fd3d8c15c886f791a7ab8\"></script>\n<script type=\"lazyload_int\" data-src=\"https://reviewsonmywebsite.com/js/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34\"></script>",
               "hidden_mobile": false
             }
           },
@@ -145,7 +145,7 @@
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08": {
             "type": "copyR",
             "settings": {
-              "text": "Copyright © [year] <span class=\"t4s-cp\">IndyVogue LLC<\/span> all rights reserved.",
+              "text": "Copyright © [year] <span class=\"t4s-cp\">IndyVogue LLC</span> all rights reserved.",
               "mgb": 0,
               "mgb_mb": 0
             }
@@ -153,7 +153,7 @@
           "7a4106c0-adf6-4755-b5df-f8f290046188": {
             "type": "html",
             "settings": {
-              "html_content": "<p>9724 Castle Pines Dr<br>Austin, TX 78717<br><\/p><p>Phone: <a href=\"tel:+19133784722\" target=\"_blank\" title=\"tel:+19133784722\">+19133784722<\/a>(9:00 AM - 10:00 PM CST)<\/p><p>Email: <a href=\"mailto:sumanab@indyvogue.com\" target=\"_blank\" title=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com<\/a><\/p>",
+              "html_content": "<p>9724 Castle Pines Dr<br>Austin, TX 78717<br></p><p>Phone: <a href=\"tel:+19133784722\" target=\"_blank\" title=\"tel:+19133784722\">+19133784722</a>(9:00 AM - 10:00 PM CST)</p><p>Email: <a href=\"mailto:sumanab@indyvogue.com\" target=\"_blank\" title=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com</a></p>",
               "hidden_mobile": false
             }
           },
@@ -488,7 +488,7 @@
           "7994aaf6-ec3a-43cf-8fb9-09e4979c2001": {
             "type": "html",
             "settings": {
-              "html_content": "<p style=\"display:flex;\"><svg style=\"width: 30px;height: 30px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 16.001 1.072 c 5.291 0 9.596 4.305 9.596 9.597 c 0 1.683 -0.446 3.341 -1.29 4.799 l -8.307 14.394 l -8.308 -14.395 c -0.843 -1.456 -1.289 -3.115 -1.289 -4.798 c 0 -5.292 4.305 -9.597 9.597 -9.597 Z M 16.001 14.4 c 2.058 0 3.731 -1.674 3.731 -3.731 s -1.674 -3.731 -3.731 -3.731 c -2.058 0 -3.732 1.674 -3.732 3.731 s 1.674 3.731 3.732 3.731 Z M 16.001 0.006 c -5.889 0 -10.663 4.775 -10.663 10.663 c 0 1.945 0.523 3.762 1.432 5.332 l 9.23 15.994 l 9.23 -15.994 c 0.909 -1.57 1.432 -3.387 1.432 -5.332 c 0 -5.888 -4.774 -10.663 -10.662 -10.663 v 0 Z M 16.001 13.334 c -1.472 0 -2.666 -1.193 -2.666 -2.665 c 0 -1.471 1.194 -2.665 2.666 -2.665 s 2.665 1.194 2.665 2.665 c 0 1.472 -1.193 2.665 -2.665 2.665 v 0 Z\"><\/path><\/svg><span><a href=\"https:\/\/goo.gl\/maps\/7ne5aC4hkZ7zpqux7\">9724 Castle Pines Dr Austin TX 78717 US<\/a><\/span><\/p> <p style=\"display:flex;\"><svg style=\"width: 24px;height: 24px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 28.244 7.47 h -25.572 v 17.06 h 26.656 v -17.06 h -1.084 Z M 27.177 8.536 l -10.298 10.298 c -0.47 0.47 -1.289 0.47 -1.759 0 l -10.3 -10.298 h 22.356 Z M 3.738 8.961 l 6.923 6.922 l -6.923 6.923 v -13.846 Z M 4.589 23.464 l 6.827 -6.826 l 2.951 2.95 c 0.436 0.436 1.016 0.677 1.633 0.677 s 1.197 -0.241 1.633 -0.677 l 2.951 -2.951 l 6.826 6.826 h -22.822 Z M 28.262 22.807 l -6.923 -6.924 l 6.923 -6.924 v 13.848 Z\"><\/path><\/svg><span><a href=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com<\/a>\n<\/span><\/p> \n<p style=\"display:flex;\"><svg style=\"width: 24px;height: 24px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 23.407 30.394 c -2.431 0 -8.341 -3.109 -13.303 -9.783 c -4.641 -6.242 -6.898 -10.751 -6.898 -13.785 c 0 -2.389 1.65 -3.529 2.536 -4.142 l 0.219 -0.153 c 0.979 -0.7 2.502 -0.927 3.086 -0.927 c 1.024 0 1.455 0.599 1.716 1.121 c 0.222 0.442 2.061 4.39 2.247 4.881 c 0.286 0.755 0.192 1.855 -0.692 2.488 l -0.155 0.108 c -0.439 0.304 -1.255 0.869 -1.368 1.557 c -0.055 0.334 0.057 0.684 0.342 1.068 c 1.423 1.918 5.968 7.55 6.787 8.314 c 0.642 0.6 1.455 0.685 2.009 0.218 c 0.573 -0.483 0.828 -0.768 0.83 -0.772 l 0.059 -0.057 c 0.048 -0.041 0.496 -0.396 1.228 -0.396 c 0.528 0 1.065 0.182 1.596 0.541 c 1.378 0.931 4.487 3.011 4.487 3.011 l 0.05 0.038 c 0.398 0.341 0.973 1.323 0.302 2.601 c -0.695 1.327 -2.85 4.066 -5.079 4.066 Z M 9.046 2.672 c -0.505 0 -1.746 0.213 -2.466 0.728 l -0.232 0.162 c -0.827 0.572 -2.076 1.435 -2.076 3.265 c 0 2.797 2.188 7.098 6.687 13.149 c 4.914 6.609 10.532 9.353 12.447 9.353 c 1.629 0 3.497 -2.276 4.135 -3.494 c 0.392 -0.748 0.071 -1.17 -0.04 -1.284 c -0.36 -0.241 -3.164 -2.117 -4.453 -2.988 c -0.351 -0.238 -0.688 -0.358 -0.999 -0.358 c -0.283 0 -0.469 0.1 -0.532 0.14 c -0.104 0.111 -0.39 0.405 -0.899 0.833 c -0.951 0.801 -2.398 0.704 -3.424 -0.254 c -0.923 -0.862 -5.585 -6.666 -6.916 -8.459 c -0.46 -0.62 -0.641 -1.252 -0.538 -1.877 c 0.187 -1.133 1.245 -1.866 1.813 -2.26 l 0.142 -0.099 c 0.508 -0.363 0.4 -1.02 0.316 -1.242 c -0.157 -0.414 -1.973 -4.322 -2.203 -4.781 c -0.188 -0.376 -0.336 -0.533 -0.764 -0.533 Z\"><\/path><\/svg><span><a href=\"tel:19133784722\">+1 913-378-4722<\/a>\n<\/span><\/p>",
+              "html_content": "<p style=\"display:flex;\"><svg style=\"width: 30px;height: 30px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 16.001 1.072 c 5.291 0 9.596 4.305 9.596 9.597 c 0 1.683 -0.446 3.341 -1.29 4.799 l -8.307 14.394 l -8.308 -14.395 c -0.843 -1.456 -1.289 -3.115 -1.289 -4.798 c 0 -5.292 4.305 -9.597 9.597 -9.597 Z M 16.001 14.4 c 2.058 0 3.731 -1.674 3.731 -3.731 s -1.674 -3.731 -3.731 -3.731 c -2.058 0 -3.732 1.674 -3.732 3.731 s 1.674 3.731 3.732 3.731 Z M 16.001 0.006 c -5.889 0 -10.663 4.775 -10.663 10.663 c 0 1.945 0.523 3.762 1.432 5.332 l 9.23 15.994 l 9.23 -15.994 c 0.909 -1.57 1.432 -3.387 1.432 -5.332 c 0 -5.888 -4.774 -10.663 -10.662 -10.663 v 0 Z M 16.001 13.334 c -1.472 0 -2.666 -1.193 -2.666 -2.665 c 0 -1.471 1.194 -2.665 2.666 -2.665 s 2.665 1.194 2.665 2.665 c 0 1.472 -1.193 2.665 -2.665 2.665 v 0 Z\"></path></svg><span><a href=\"https://goo.gl/maps/7ne5aC4hkZ7zpqux7\">9724 Castle Pines Dr Austin TX 78717 US</a></span></p> <p style=\"display:flex;\"><svg style=\"width: 24px;height: 24px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 28.244 7.47 h -25.572 v 17.06 h 26.656 v -17.06 h -1.084 Z M 27.177 8.536 l -10.298 10.298 c -0.47 0.47 -1.289 0.47 -1.759 0 l -10.3 -10.298 h 22.356 Z M 3.738 8.961 l 6.923 6.922 l -6.923 6.923 v -13.846 Z M 4.589 23.464 l 6.827 -6.826 l 2.951 2.95 c 0.436 0.436 1.016 0.677 1.633 0.677 s 1.197 -0.241 1.633 -0.677 l 2.951 -2.951 l 6.826 6.826 h -22.822 Z M 28.262 22.807 l -6.923 -6.924 l 6.923 -6.924 v 13.848 Z\"></path></svg><span><a href=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com</a>\n</span></p> \n<p style=\"display:flex;\"><svg style=\"width: 24px;height: 24px;vertical-align: middle;margin-right: 5px;\" viewbox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"currentColor\" d=\"M 23.407 30.394 c -2.431 0 -8.341 -3.109 -13.303 -9.783 c -4.641 -6.242 -6.898 -10.751 -6.898 -13.785 c 0 -2.389 1.65 -3.529 2.536 -4.142 l 0.219 -0.153 c 0.979 -0.7 2.502 -0.927 3.086 -0.927 c 1.024 0 1.455 0.599 1.716 1.121 c 0.222 0.442 2.061 4.39 2.247 4.881 c 0.286 0.755 0.192 1.855 -0.692 2.488 l -0.155 0.108 c -0.439 0.304 -1.255 0.869 -1.368 1.557 c -0.055 0.334 0.057 0.684 0.342 1.068 c 1.423 1.918 5.968 7.55 6.787 8.314 c 0.642 0.6 1.455 0.685 2.009 0.218 c 0.573 -0.483 0.828 -0.768 0.83 -0.772 l 0.059 -0.057 c 0.048 -0.041 0.496 -0.396 1.228 -0.396 c 0.528 0 1.065 0.182 1.596 0.541 c 1.378 0.931 4.487 3.011 4.487 3.011 l 0.05 0.038 c 0.398 0.341 0.973 1.323 0.302 2.601 c -0.695 1.327 -2.85 4.066 -5.079 4.066 Z M 9.046 2.672 c -0.505 0 -1.746 0.213 -2.466 0.728 l -0.232 0.162 c -0.827 0.572 -2.076 1.435 -2.076 3.265 c 0 2.797 2.188 7.098 6.687 13.149 c 4.914 6.609 10.532 9.353 12.447 9.353 c 1.629 0 3.497 -2.276 4.135 -3.494 c 0.392 -0.748 0.071 -1.17 -0.04 -1.284 c -0.36 -0.241 -3.164 -2.117 -4.453 -2.988 c -0.351 -0.238 -0.688 -0.358 -0.999 -0.358 c -0.283 0 -0.469 0.1 -0.532 0.14 c -0.104 0.111 -0.39 0.405 -0.899 0.833 c -0.951 0.801 -2.398 0.704 -3.424 -0.254 c -0.923 -0.862 -5.585 -6.666 -6.916 -8.459 c -0.46 -0.62 -0.641 -1.252 -0.538 -1.877 c 0.187 -1.133 1.245 -1.866 1.813 -2.26 l 0.142 -0.099 c 0.508 -0.363 0.4 -1.02 0.316 -1.242 c -0.157 -0.414 -1.973 -4.322 -2.203 -4.781 c -0.188 -0.376 -0.336 -0.533 -0.764 -0.533 Z\"></path></svg><span><a href=\"tel:19133784722\">+1 913-378-4722</a>\n</span></p>",
               "hidden_mobile": false
             }
           },
@@ -643,10 +643,10 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "link": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
-              "content": "<p><em><strong>🎉Festival Super Sale<\/strong><\/em><strong>! Up to 10% Off<\/strong><em><strong>🎉<\/strong><\/em><a href=\"\/pages\/current-offers-and-promotions\" title=\"Current Offers and Promotions\">Details [icon_arrow]<\/a><\/p>",
+              "link": "shopify://collections/buy-silk-mark-certified-saree",
+              "content": "<p>🎁 Thanksgiving Sale, FLAT 10% OFF<em><strong>🎉</strong></em><a href=\"/pages/current-offers-and-promotions\" title=\"Current Offers and Promotions\">Details [icon_arrow]</a></p>",
               "adding_border": true,
-              "countdown": "2023\/12\/26",
+              "countdown": "2023/12/26",
               "txt_day": "days",
               "dayx": 0
             }
@@ -655,9 +655,9 @@
             "type": "announcement",
             "settings": {
               "link": "",
-              "content": "<p>Free Shipping on ALL Sarees<\/p>",
+              "content": "<p>Free Shipping on ALL Sarees</p>",
               "adding_border": false,
-              "countdown": "2023\/12\/26",
+              "countdown": "2023/12/26",
               "txt_day": "days",
               "dayx": 0
             }
@@ -666,9 +666,9 @@
             "type": "announcement",
             "settings": {
               "link": "",
-              "content": "<p>Top Quality Store on Google<\/p>",
+              "content": "<p>Top Quality Store on Google</p>",
               "adding_border": false,
-              "countdown": "2023\/12\/26",
+              "countdown": "2023/12/26",
               "txt_day": "days",
               "dayx": 0
             }
@@ -700,7 +700,7 @@
           "top-bar-0": {
             "type": "html",
             "settings": {
-              "html": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 32 32\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\">\n   <path d=\"M23.407 30.394c-2.431 0-8.341-3.109-13.303-9.783-4.641-6.242-6.898-10.751-6.898-13.785 0-2.389 1.65-3.529 2.536-4.142l0.219-0.153c0.979-0.7 2.502-0.927 3.086-0.927 1.024 0 1.455 0.599 1.716 1.121 0.222 0.442 2.061 4.39 2.247 4.881 0.286 0.755 0.192 1.855-0.692 2.488l-0.155 0.108c-0.439 0.304-1.255 0.869-1.368 1.557-0.055 0.334 0.057 0.684 0.342 1.068 1.423 1.918 5.968 7.55 6.787 8.314 0.642 0.6 1.455 0.685 2.009 0.218 0.573-0.483 0.828-0.768 0.83-0.772l0.059-0.057c0.048-0.041 0.496-0.396 1.228-0.396 0.528 0 1.065 0.182 1.596 0.541 1.378 0.931 4.487 3.011 4.487 3.011l0.050 0.038c0.398 0.341 0.973 1.323 0.302 2.601-0.695 1.327-2.85 4.066-5.079 4.066zM9.046 2.672c-0.505 0-1.746 0.213-2.466 0.728l-0.232 0.162c-0.827 0.572-2.076 1.435-2.076 3.265 0 2.797 2.188 7.098 6.687 13.149 4.914 6.609 10.532 9.353 12.447 9.353 1.629 0 3.497-2.276 4.135-3.494 0.392-0.748 0.071-1.17-0.040-1.284-0.36-0.241-3.164-2.117-4.453-2.988-0.351-0.238-0.688-0.358-0.999-0.358-0.283 0-0.469 0.1-0.532 0.14-0.104 0.111-0.39 0.405-0.899 0.833-0.951 0.801-2.398 0.704-3.424-0.254-0.923-0.862-5.585-6.666-6.916-8.459-0.46-0.62-0.641-1.252-0.538-1.877 0.187-1.133 1.245-1.866 1.813-2.26l0.142-0.099c0.508-0.363 0.4-1.020 0.316-1.242-0.157-0.414-1.973-4.322-2.203-4.781-0.188-0.376-0.336-0.533-0.764-0.533z\" fill=\"currentColor\"><\/path>\n<\/svg>\n<a class=\"t4s-ct\" href=\"tel:%20+019133784722\"> +1 9133784722<\/a> \n<svg class=\"ml__15\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 32 32\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink \">\n   <path d=\"M28.244 7.47h-25.572v17.060h26.656v-17.060h-1.084zM27.177 8.536l-10.298 10.298c-0.47 0.47-1.289 0.47-1.759 0l-10.3-10.298h22.356zM3.738 8.961l6.923 6.922-6.923 6.923v-13.846zM4.589 23.464l6.827-6.826 2.951 2.95c0.436 0.436 1.016 0.677 1.633 0.677s1.197-0.241 1.633-0.677l2.951-2.951 6.826 6.826h-22.822zM28.262 22.807l-6.923-6.924 6.923-6.924v13.848z\" fill=\"currentColor\"><\/path>\n<\/svg> \n<a class=\"t4s-ct\" href=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com<\/a>",
+              "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 32 32\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n   <path d=\"M23.407 30.394c-2.431 0-8.341-3.109-13.303-9.783-4.641-6.242-6.898-10.751-6.898-13.785 0-2.389 1.65-3.529 2.536-4.142l0.219-0.153c0.979-0.7 2.502-0.927 3.086-0.927 1.024 0 1.455 0.599 1.716 1.121 0.222 0.442 2.061 4.39 2.247 4.881 0.286 0.755 0.192 1.855-0.692 2.488l-0.155 0.108c-0.439 0.304-1.255 0.869-1.368 1.557-0.055 0.334 0.057 0.684 0.342 1.068 1.423 1.918 5.968 7.55 6.787 8.314 0.642 0.6 1.455 0.685 2.009 0.218 0.573-0.483 0.828-0.768 0.83-0.772l0.059-0.057c0.048-0.041 0.496-0.396 1.228-0.396 0.528 0 1.065 0.182 1.596 0.541 1.378 0.931 4.487 3.011 4.487 3.011l0.050 0.038c0.398 0.341 0.973 1.323 0.302 2.601-0.695 1.327-2.85 4.066-5.079 4.066zM9.046 2.672c-0.505 0-1.746 0.213-2.466 0.728l-0.232 0.162c-0.827 0.572-2.076 1.435-2.076 3.265 0 2.797 2.188 7.098 6.687 13.149 4.914 6.609 10.532 9.353 12.447 9.353 1.629 0 3.497-2.276 4.135-3.494 0.392-0.748 0.071-1.17-0.040-1.284-0.36-0.241-3.164-2.117-4.453-2.988-0.351-0.238-0.688-0.358-0.999-0.358-0.283 0-0.469 0.1-0.532 0.14-0.104 0.111-0.39 0.405-0.899 0.833-0.951 0.801-2.398 0.704-3.424-0.254-0.923-0.862-5.585-6.666-6.916-8.459-0.46-0.62-0.641-1.252-0.538-1.877 0.187-1.133 1.245-1.866 1.813-2.26l0.142-0.099c0.508-0.363 0.4-1.020 0.316-1.242-0.157-0.414-1.973-4.322-2.203-4.781-0.188-0.376-0.336-0.533-0.764-0.533z\" fill=\"currentColor\"></path>\n</svg>\n<a class=\"t4s-ct\" href=\"tel:%20+019133784722\"> +1 9133784722</a> \n<svg class=\"ml__15\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 32 32\" xmlns:xlink=\"http://www.w3.org/1999/xlink \">\n   <path d=\"M28.244 7.47h-25.572v17.060h26.656v-17.060h-1.084zM27.177 8.536l-10.298 10.298c-0.47 0.47-1.289 0.47-1.759 0l-10.3-10.298h22.356zM3.738 8.961l6.923 6.922-6.923 6.923v-13.846zM4.589 23.464l6.827-6.826 2.951 2.95c0.436 0.436 1.016 0.677 1.633 0.677s1.197-0.241 1.633-0.677l2.951-2.951 6.826 6.826h-22.822zM28.262 22.807l-6.923-6.924 6.923-6.924v13.848z\" fill=\"currentColor\"></path>\n</svg> \n<a class=\"t4s-ct\" href=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com</a>",
               "hide": false,
               "text_align": "start",
               "col": "4"
@@ -711,7 +711,7 @@
             "settings": {
               "text": "",
               "adding_border": true,
-              "countdown": "2023\/12\/26",
+              "countdown": "2023/12/26",
               "txt_day": "days",
               "dayx": 0,
               "effect": "1",
@@ -733,7 +733,7 @@
               "show_language": false,
               "use_location": false,
               "txt_location": "Location",
-              "url_location": "shopify:\/\/blogs\/lingeries\/5-best-swimsuits-for-big-busts",
+              "url_location": "shopify://blogs/lingeries/5-best-swimsuits-for-big-busts",
               "open_link": "_self",
               "hide": false,
               "text_align": "end",
@@ -772,7 +772,7 @@
             "type": "mega",
             "settings": {
               "title": "Sarees",
-              "url": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
+              "url": "shopify://collections/buy-silk-mark-certified-saree",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -812,7 +812,7 @@
             "type": "mega",
             "settings": {
               "title": "Accessories",
-              "url": "shopify:\/\/pages\/accessory",
+              "url": "shopify://pages/accessory",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -832,7 +832,7 @@
             "type": "mega",
             "settings": {
               "title": "About Us",
-              "url": "shopify:\/\/pages\/about-us",
+              "url": "shopify://pages/about-us",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -852,7 +852,7 @@
             "type": "base",
             "settings": {
               "title": "Reviews",
-              "url": "shopify:\/\/pages\/indyvogue-reviews",
+              "url": "shopify://pages/indyvogue-reviews",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -865,7 +865,7 @@
             "type": "mega",
             "settings": {
               "title": "Double Savings",
-              "url": "shopify:\/\/collections\/double-savings-collection",
+              "url": "shopify://collections/double-savings-collection",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -885,7 +885,7 @@
             "type": "mega",
             "settings": {
               "title": "Blog",
-              "url": "shopify:\/\/blogs\/indyvogue-fashion-center",
+              "url": "shopify://blogs/indyvogue-fashion-center",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -1348,7 +1348,7 @@
               "collection": "bold-solid-sarees",
               "collection_title": "Bold & Solid",
               "collection_subtitle": "",
-              "image": "shopify:\/\/shop_images\/Sold-Bold-HomePage-Category_1_8bd26c8c-7ccd-4a0f-b8e6-41b552eeafea.webp",
+              "image": "shopify://shop_images/Sold-Bold-HomePage-Category_1_8bd26c8c-7ccd-4a0f-b8e6-41b552eeafea.webp",
               "collection_des": "1",
               "title_cl": "#ffffff",
               "title_cl_hover": "#222222",
@@ -1510,7 +1510,7 @@
             "type": "menu",
             "settings": {
               "title": "Sarees By TYPES",
-              "url": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
+              "url": "shopify://collections/buy-silk-mark-certified-saree",
               "open_link": "_self",
               "menu": "sarees",
               "lb": "",
@@ -1601,7 +1601,7 @@
             "type": "menu",
             "settings": {
               "title": "ACCESSORIES",
-              "url": "shopify:\/\/pages\/accessory",
+              "url": "shopify://pages/accessory",
               "open_link": "_self",
               "menu": "accessories",
               "lb": "",
@@ -1614,7 +1614,7 @@
             "type": "menu",
             "settings": {
               "title": "REVIEWS",
-              "url": "shopify:\/\/pages\/indyvogue-reviews",
+              "url": "shopify://pages/indyvogue-reviews",
               "open_link": "_self",
               "menu": "",
               "lb": "",
@@ -1640,7 +1640,7 @@
             "type": "menu",
             "settings": {
               "title": "BLOGS",
-              "url": "shopify:\/\/blogs\/indyvogue-fashion-center",
+              "url": "shopify://blogs/indyvogue-fashion-center",
               "open_link": "_self",
               "menu": "",
               "lb": "",
@@ -1651,25 +1651,22 @@
           },
           "c2cbc856-31fb-47c2-ac59-9c65824f5b62": {
             "type": "sea",
-            "settings": {
-            }
+            "settings": {}
           },
           "41b188ca-d089-4c5b-8a80-608ea2b6d6e9": {
             "type": "acc",
-            "settings": {
-            }
+            "settings": {}
           },
           "315ffad2-e93d-41ce-aa57-427a13ee3177": {
             "type": "help",
             "settings": {
               "title": "Need help?",
-              "text": "<a href=\"tel:%20+19133784722\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 32 32\" fill=\"currentColor\"><path d=\"M 8.65625 3 C 8.132813 3 7.617188 3.1875 7.1875 3.53125 L 7.125 3.5625 L 7.09375 3.59375 L 3.96875 6.8125 L 4 6.84375 C 3.035156 7.734375 2.738281 9.066406 3.15625 10.21875 C 3.160156 10.226563 3.152344 10.242188 3.15625 10.25 C 4.003906 12.675781 6.171875 17.359375 10.40625 21.59375 C 14.65625 25.84375 19.402344 27.925781 21.75 28.84375 L 21.78125 28.84375 C 22.996094 29.25 24.3125 28.960938 25.25 28.15625 L 28.40625 25 C 29.234375 24.171875 29.234375 22.734375 28.40625 21.90625 L 24.34375 17.84375 L 24.3125 17.78125 C 23.484375 16.953125 22.015625 16.953125 21.1875 17.78125 L 19.1875 19.78125 C 18.464844 19.433594 16.742188 18.542969 15.09375 16.96875 C 13.457031 15.40625 12.621094 13.609375 12.3125 12.90625 L 14.3125 10.90625 C 15.152344 10.066406 15.167969 8.667969 14.28125 7.84375 L 14.3125 7.8125 L 14.21875 7.71875 L 10.21875 3.59375 L 10.1875 3.5625 L 10.125 3.53125 C 9.695313 3.1875 9.179688 3 8.65625 3 Z M 8.65625 5 C 8.730469 5 8.804688 5.035156 8.875 5.09375 L 12.875 9.1875 L 12.96875 9.28125 C 12.960938 9.273438 13.027344 9.378906 12.90625 9.5 L 10.40625 12 L 9.9375 12.4375 L 10.15625 13.0625 C 10.15625 13.0625 11.304688 16.136719 13.71875 18.4375 L 13.9375 18.625 C 16.261719 20.746094 19 21.90625 19 21.90625 L 19.625 22.1875 L 22.59375 19.21875 C 22.765625 19.046875 22.734375 19.046875 22.90625 19.21875 L 27 23.3125 C 27.171875 23.484375 27.171875 23.421875 27 23.59375 L 23.9375 26.65625 C 23.476563 27.050781 22.988281 27.132813 22.40625 26.9375 C 20.140625 26.046875 15.738281 24.113281 11.8125 20.1875 C 7.855469 16.230469 5.789063 11.742188 5.03125 9.5625 C 4.878906 9.15625 4.988281 8.554688 5.34375 8.25 L 5.40625 8.1875 L 8.4375 5.09375 C 8.507813 5.035156 8.582031 5 8.65625 5 Z\"><\/path><\/svg> +1 913 378 4722<\/a>\n<br>\n<a href=\"mailto:sumanab@indyvogue.com\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 32 32\" fill=\"currentColor\"><path d=\"M 3 8 L 3 26 L 29 26 L 29 8 Z M 7.3125 10 L 24.6875 10 L 16 15.78125 Z M 5 10.875 L 15.4375 17.84375 L 16 18.1875 L 16.5625 17.84375 L 27 10.875 L 27 24 L 5 24 Z\"><\/path><\/svg>\nsumanab@indyvogue.com<\/a>"
+              "text": "<a href=\"tel:%20+19133784722\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 32 32\" fill=\"currentColor\"><path d=\"M 8.65625 3 C 8.132813 3 7.617188 3.1875 7.1875 3.53125 L 7.125 3.5625 L 7.09375 3.59375 L 3.96875 6.8125 L 4 6.84375 C 3.035156 7.734375 2.738281 9.066406 3.15625 10.21875 C 3.160156 10.226563 3.152344 10.242188 3.15625 10.25 C 4.003906 12.675781 6.171875 17.359375 10.40625 21.59375 C 14.65625 25.84375 19.402344 27.925781 21.75 28.84375 L 21.78125 28.84375 C 22.996094 29.25 24.3125 28.960938 25.25 28.15625 L 28.40625 25 C 29.234375 24.171875 29.234375 22.734375 28.40625 21.90625 L 24.34375 17.84375 L 24.3125 17.78125 C 23.484375 16.953125 22.015625 16.953125 21.1875 17.78125 L 19.1875 19.78125 C 18.464844 19.433594 16.742188 18.542969 15.09375 16.96875 C 13.457031 15.40625 12.621094 13.609375 12.3125 12.90625 L 14.3125 10.90625 C 15.152344 10.066406 15.167969 8.667969 14.28125 7.84375 L 14.3125 7.8125 L 14.21875 7.71875 L 10.21875 3.59375 L 10.1875 3.5625 L 10.125 3.53125 C 9.695313 3.1875 9.179688 3 8.65625 3 Z M 8.65625 5 C 8.730469 5 8.804688 5.035156 8.875 5.09375 L 12.875 9.1875 L 12.96875 9.28125 C 12.960938 9.273438 13.027344 9.378906 12.90625 9.5 L 10.40625 12 L 9.9375 12.4375 L 10.15625 13.0625 C 10.15625 13.0625 11.304688 16.136719 13.71875 18.4375 L 13.9375 18.625 C 16.261719 20.746094 19 21.90625 19 21.90625 L 19.625 22.1875 L 22.59375 19.21875 C 22.765625 19.046875 22.734375 19.046875 22.90625 19.21875 L 27 23.3125 C 27.171875 23.484375 27.171875 23.421875 27 23.59375 L 23.9375 26.65625 C 23.476563 27.050781 22.988281 27.132813 22.40625 26.9375 C 20.140625 26.046875 15.738281 24.113281 11.8125 20.1875 C 7.855469 16.230469 5.789063 11.742188 5.03125 9.5625 C 4.878906 9.15625 4.988281 8.554688 5.34375 8.25 L 5.40625 8.1875 L 8.4375 5.09375 C 8.507813 5.035156 8.582031 5 8.65625 5 Z\"></path></svg> +1 913 378 4722</a>\n<br>\n<a href=\"mailto:sumanab@indyvogue.com\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 32 32\" fill=\"currentColor\"><path d=\"M 3 8 L 3 26 L 29 26 L 29 8 Z M 7.3125 10 L 24.6875 10 L 16 15.78125 Z M 5 10.875 L 15.4375 17.84375 L 16 18.1875 L 16.5625 17.84375 L 27 10.875 L 27 24 L 5 24 Z\"></path></svg>\nsumanab@indyvogue.com</a>"
             }
           },
           "7188c7d2-3ffd-4a3f-92ce-d980f144bbc4": {
             "type": "cur",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1689,26 +1686,22 @@
           "315ffad2-e93d-41ce-aa57-427a13ee3177",
           "7188c7d2-3ffd-4a3f-92ce-d980f144bbc4"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "mb_cat": {
         "type": "mb_cat",
-        "settings": {
-        }
+        "settings": {}
       },
       "mini_cart": {
         "type": "mini_cart",
         "blocks": {
           "mini_cart-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "mini_cart-1": {
             "type": "tax",
-            "settings": {
-            }
+            "settings": {}
           },
           "mini_cart-3": {
             "type": "btnc",
@@ -1739,7 +1732,7 @@
             "type": "btn",
             "settings": {
               "title": "Return To Shop",
-              "url": "shopify:\/\/collections\/buy-silk-mark-certified-saree",
+              "url": "shopify://collections/buy-silk-mark-certified-saree",
               "btn_icon": false,
               "button_style": "default",
               "btn_cl": "primary",
@@ -1800,7 +1793,7 @@
           "custom_liquid_ayYani": {
             "type": "custom_liquid",
             "settings": {
-              "custom_liquid": "{% assign is_sale = false %}\n{% assign adjusted_cart_total = 0 %}\n\n{% for item in cart.items %}\n  {% assign is_sale = false %}\n\n  {% for collection in item.product.collections %}\n    {% if collection.handle == \"sale\" %}\n      {% assign is_sale = true %}\n    {% endif %}\n  {% endfor %}\n\n  {% if item.product.type == \"Saree\" and is_sale %}\n  {% else %}\n    {% assign adjusted_cart_total = adjusted_cart_total | plus: item.line_price %}\n  {% endif %}\n{% endfor %}\n\n{% if product.type == \"Saree\" and is_sale %}\n{% else %}\n\n  {% assign show_discount_block = false %} <!-- Initialize to false -->\n\n  {% for variant in product.variants %}\n    {% assign price_in_dollars = variant.price %}\n    {% assign compare_at_price_in_dollars = variant.compare_at_price %}\n    {% assign total_price_with_cart = adjusted_cart_total | plus: price_in_dollars %}\n    {% assign discount = 0 %}\n\n    {%- if total_price_with_cart >= 7500 and total_price_with_cart < 20000 -%}\n      {% assign discount = 1000 %}\n    {%- elsif total_price_with_cart >= 20000 and total_price_with_cart < 30000 -%}\n      {% assign discount = total_price_with_cart | times: 0.05 %}\n    {%- elsif total_price_with_cart >= 30000 and total_price_with_cart < 50000 -%}\n      {% assign discount = total_price_with_cart | times: 0.06 %}\n    {%- elsif total_price_with_cart >= 50000 and total_price_with_cart < 80000 -%}\n      {% assign discount = total_price_with_cart | times: 0.07 %}\n    {%- elsif total_price_with_cart >= 80000 and total_price_with_cart < 100000 -%}\n      {% assign discount = total_price_with_cart | times: 0.08 %}\n    {%- elsif total_price_with_cart >= 100000 -%}\n      {% assign discount = total_price_with_cart | times: 0.10 %}\n    {%- endif -%}\n\n    {% if discount > 0 %}\n      {% assign proportional_discount = discount | times: price_in_dollars | divided_by: total_price_with_cart %}\n      {% assign final_price = price_in_dollars | minus: proportional_discount %}\n    {% else %}\n      {% assign final_price = price_in_dollars %}\n    {% endif %}\n\n    {% assign savings = compare_at_price_in_dollars | minus: final_price %}\n\n    {% if compare_at_price_in_dollars > final_price %}\n      {% assign show_discount_block = true %} <!-- Set to true when discount exists -->\n    {% endif %}\n\n  {% endfor %}\n\n  {% if show_discount_block %}\n    <div style=\"border: 2px solid #ffcc00; background-color: #fff3cd; border-radius: 10px; padding: 20px; margin-bottom: 20px;\">\n      <h2 style=\"color: #ff9900; font-weight: bold; font-size: 1.8em; text-align: center;\">🎉 Festival Super Sale 🎉<\/h2>\n\n      {% for variant in product.variants %}\n        {% assign price_in_dollars = variant.price %}\n        {% assign compare_at_price_in_dollars = variant.compare_at_price %}\n        {% assign total_price_with_cart = adjusted_cart_total | plus: price_in_dollars %}\n        {% assign discount = 0 %}\n\n        {%- if total_price_with_cart >= 7500 and total_price_with_cart < 20000 -%}\n          {% assign discount = 1000 %}\n        {%- elsif total_price_with_cart >= 20000 and total_price_with_cart < 30000 -%}\n          {% assign discount = total_price_with_cart | times: 0.05 %}\n        {%- elsif total_price_with_cart >= 30000 and total_price_with_cart < 50000 -%}\n          {% assign discount = total_price_with_cart | times: 0.06 %}\n        {%- elsif total_price_with_cart >= 50000 and total_price_with_cart < 80000 -%}\n          {% assign discount = total_price_with_cart | times: 0.07 %}\n        {%- elsif total_price_with_cart >= 80000 and total_price_with_cart < 100000 -%}\n          {% assign discount = total_price_with_cart | times: 0.08 %}\n        {%- elsif total_price_with_cart >= 100000 -%}\n          {% assign discount = total_price_with_cart | times: 0.10 %}\n        {%- endif -%}\n\n        {% if discount > 0 %}\n          {% assign proportional_discount = discount | times: price_in_dollars | divided_by: total_price_with_cart %}\n          {% assign final_price = price_in_dollars | minus: proportional_discount %}\n        {% else %}\n          {% assign final_price = price_in_dollars %}\n        {% endif %}\n\n        {% assign savings = compare_at_price_in_dollars | minus: final_price %}\n\n        {% if compare_at_price_in_dollars > final_price %}\n          <div style=\"padding: 8px 0; border-bottom: 1px solid #ddd;\">\n            <span style=\"font-weight: bold; font-size: 1.1em;\">\n              {{ variant.title }}:\n            <\/span> \n            <span style=\"text-decoration: line-through; color: red; font-size: 1.2em; margin-left: 10px;\">\n              {{ compare_at_price_in_dollars | money }}\n            <\/span>\n            <span style=\"color: #28a745; font-weight: bold; font-size: 1.2em; margin-left: 10px;\">\n              {{ final_price | money }} *\n            <\/span>\n            <span style=\"font-size: 1.1em; color: #ff9900; margin-left: 10px;\">\n              (Save: {{ savings | money }})\n            <\/span>\n          <\/div>\n        {% endif %}\n\n      {% endfor %}\n\n      {% if adjusted_cart_total > 0 %}\n        <div style=\"text-align: right; font-size: 0.9em; color: #555;\">\n          *Price calculation based on current cart total of <strong>{{ adjusted_cart_total | money }}<\/strong>.\n        <\/div>\n      {% endif %}\n\n    <\/div>\n  {% endif %}\n{% endif %}"
+              "custom_liquid": "{% assign is_sale = false %}\n{% assign adjusted_cart_total = 0 %}\n\n{% for item in cart.items %}\n  {% assign is_sale = false %}\n\n  {% for collection in item.product.collections %}\n    {% if collection.handle == \"sale\" %}\n      {% assign is_sale = true %}\n    {% endif %}\n  {% endfor %}\n\n  {% if item.product.type == \"Saree\" and is_sale %}\n  {% else %}\n    {% assign adjusted_cart_total = adjusted_cart_total | plus: item.line_price %}\n  {% endif %}\n{% endfor %}\n\n{% if product.type == \"Saree\" and is_sale %}\n{% else %}\n\n  {% assign show_discount_block = false %} <!-- Initialize to false -->\n\n  {% for variant in product.variants %}\n    {% assign price_in_dollars = variant.price %}\n    {% assign compare_at_price_in_dollars = variant.compare_at_price %}\n    {% assign total_price_with_cart = adjusted_cart_total | plus: price_in_dollars %}\n    {% assign discount = 0 %}\n\n    {%- if total_price_with_cart >= 7500 and total_price_with_cart < 20000 -%}\n      {% assign discount = 1000 %}\n    {%- elsif total_price_with_cart >= 20000 and total_price_with_cart < 30000 -%}\n      {% assign discount = total_price_with_cart | times: 0.05 %}\n    {%- elsif total_price_with_cart >= 30000 and total_price_with_cart < 50000 -%}\n      {% assign discount = total_price_with_cart | times: 0.06 %}\n    {%- elsif total_price_with_cart >= 50000 and total_price_with_cart < 80000 -%}\n      {% assign discount = total_price_with_cart | times: 0.07 %}\n    {%- elsif total_price_with_cart >= 80000 and total_price_with_cart < 100000 -%}\n      {% assign discount = total_price_with_cart | times: 0.08 %}\n    {%- elsif total_price_with_cart >= 100000 -%}\n      {% assign discount = total_price_with_cart | times: 0.10 %}\n    {%- endif -%}\n\n    {% if discount > 0 %}\n      {% assign proportional_discount = discount | times: price_in_dollars | divided_by: total_price_with_cart %}\n      {% assign final_price = price_in_dollars | minus: proportional_discount %}\n    {% else %}\n      {% assign final_price = price_in_dollars %}\n    {% endif %}\n\n    {% assign savings = compare_at_price_in_dollars | minus: final_price %}\n\n    {% if compare_at_price_in_dollars > final_price %}\n      {% assign show_discount_block = true %} <!-- Set to true when discount exists -->\n    {% endif %}\n\n  {% endfor %}\n\n  {% if show_discount_block %}\n    <div style=\"border: 2px solid #ffcc00; background-color: #fff3cd; border-radius: 10px; padding: 20px; margin-bottom: 20px;\">\n      <h2 style=\"color: #ff9900; font-weight: bold; font-size: 1.8em; text-align: center;\">🎉 Festival Super Sale 🎉</h2>\n\n      {% for variant in product.variants %}\n        {% assign price_in_dollars = variant.price %}\n        {% assign compare_at_price_in_dollars = variant.compare_at_price %}\n        {% assign total_price_with_cart = adjusted_cart_total | plus: price_in_dollars %}\n        {% assign discount = 0 %}\n\n        {%- if total_price_with_cart >= 7500 and total_price_with_cart < 20000 -%}\n          {% assign discount = 1000 %}\n        {%- elsif total_price_with_cart >= 20000 and total_price_with_cart < 30000 -%}\n          {% assign discount = total_price_with_cart | times: 0.05 %}\n        {%- elsif total_price_with_cart >= 30000 and total_price_with_cart < 50000 -%}\n          {% assign discount = total_price_with_cart | times: 0.06 %}\n        {%- elsif total_price_with_cart >= 50000 and total_price_with_cart < 80000 -%}\n          {% assign discount = total_price_with_cart | times: 0.07 %}\n        {%- elsif total_price_with_cart >= 80000 and total_price_with_cart < 100000 -%}\n          {% assign discount = total_price_with_cart | times: 0.08 %}\n        {%- elsif total_price_with_cart >= 100000 -%}\n          {% assign discount = total_price_with_cart | times: 0.10 %}\n        {%- endif -%}\n\n        {% if discount > 0 %}\n          {% assign proportional_discount = discount | times: price_in_dollars | divided_by: total_price_with_cart %}\n          {% assign final_price = price_in_dollars | minus: proportional_discount %}\n        {% else %}\n          {% assign final_price = price_in_dollars %}\n        {% endif %}\n\n        {% assign savings = compare_at_price_in_dollars | minus: final_price %}\n\n        {% if compare_at_price_in_dollars > final_price %}\n          <div style=\"padding: 8px 0; border-bottom: 1px solid #ddd;\">\n            <span style=\"font-weight: bold; font-size: 1.1em;\">\n              {{ variant.title }}:\n            </span> \n            <span style=\"text-decoration: line-through; color: red; font-size: 1.2em; margin-left: 10px;\">\n              {{ compare_at_price_in_dollars | money }}\n            </span>\n            <span style=\"color: #28a745; font-weight: bold; font-size: 1.2em; margin-left: 10px;\">\n              {{ final_price | money }} *\n            </span>\n            <span style=\"font-size: 1.1em; color: #ff9900; margin-left: 10px;\">\n              (Save: {{ savings | money }})\n            </span>\n          </div>\n        {% endif %}\n\n      {% endfor %}\n\n      {% if adjusted_cart_total > 0 %}\n        <div style=\"text-align: right; font-size: 0.9em; color: #555;\">\n          *Price calculation based on current cart total of <strong>{{ adjusted_cart_total | money }}</strong>.\n        </div>\n      {% endif %}\n\n    </div>\n  {% endif %}\n{% endif %}"
             }
           },
           "main-qv-3": {
@@ -1832,15 +1825,11 @@
               "btn_txt2": "3",
               "button_color_payment": "dark",
               "show_gift_card_recipient": true,
-              "product_list": [
-
-              ],
+              "product_list": [],
               "show_product_current": true,
               "qty_val": "0",
               "advance_label": "Choose style",
-              "advance_pr_list": [
-
-              ]
+              "advance_pr_list": []
             }
           },
           "main-qv-5": {
@@ -1957,8 +1946,7 @@
       },
       "search-hidden": {
         "type": "search-hidden",
-        "settings": {
-        }
+        "settings": {}
       },
       "login-sidebar": {
         "type": "login-sidebar",
@@ -2007,7 +1995,7 @@
           "heading-template-0"
         ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/shopping-cart-head.jpg",
+          "image": "shopify://shop_images/shopping-cart-head.jpg",
           "parallax": false,
           "color": "#000000",
           "overlay": 54,
@@ -2028,8 +2016,7 @@
         "blocks": {
           "main-wishlist-0": {
             "type": "layout",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -2075,8 +2062,7 @@
         "blocks": {
           "main-compare-0": {
             "type": "basic",
-            "settings": {
-            }
+            "settings": {}
           },
           "main-compare-1": {
             "type": "availability",
@@ -2180,7 +2166,7 @@
             "type": "base",
             "settings": {
               "title": "base",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2228,7 +2214,7 @@
           "bg_hc": "#000000",
           "cl_hc": "#ffffff",
           "source": "2",
-          "txt": "<p>Welcome to our store!<\/p>",
+          "txt": "<p>Welcome to our store!</p>",
           "enable_active": false,
           "h_navmb": 62,
           "fm_nav": "1",
@@ -2239,8 +2225,7 @@
       },
       "popups": {
         "type": "popups",
-        "settings": {
-        }
+        "settings": {}
       },
       "t4s_custom_color": {
         "type": "t4s_custom_color",
@@ -2258,8 +2243,7 @@
         "block_order": [
           "06eaa184-e59c-4525-ac5d-eac6fc91f3e8"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "main-qs": {
         "type": "main-qs",
@@ -2344,21 +2328,17 @@
         "block_order": [
           "14770600-c9ef-4dc1-afbb-0efa120a1bd4"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "extras": {
         "type": "extras",
-        "settings": {
-        }
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#8c258a",
@@ -2370,22 +2350,19 @@
         }
       },
       "6143736321357441667": {
-        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
+        "type": "shopify://apps/tidio-live-chat-chatbots/blocks/app-embed/1002274d-fb18-4939-98f6-5f05a8deeadc",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6468128024931565999": {
-        "type": "shopify:\/\/apps\/seguno-popups\/blocks\/popup-app-embed\/f53bd66f-9a20-4ce2-ae2e-ccbd0148bd4b",
+        "type": "shopify://apps/seguno-popups/blocks/popup-app-embed/f53bd66f-9a20-4ce2-ae2e-ccbd0148bd4b",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11877319286961345690": {
-        "type": "shopify:\/\/apps\/doc-404-broken-links-repair\/blocks\/404-fix-broken-links-widget\/f4f2d416-cb00-4540-bda9-816d588bad3e",
+        "type": "shopify://apps/doc-404-broken-links-repair/blocks/404-fix-broken-links-widget/f4f2d416-cb00-4540-bda9-816d588bad3e",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
