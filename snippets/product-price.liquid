@@ -59,19 +59,7 @@
     if price >= 7500 and price < 20000
       assign discount = 1000
       assign final_price = price | minus: discount
-    elsif price >= 20000 and price < 30000
-      assign discount = price | times: 0.05
-      assign final_price = price | minus: discount
-    elsif price >= 30000 and price < 50000
-      assign discount = price | times: 0.06
-      assign final_price = price | minus: discount
-    elsif price >= 50000 and price < 80000
-      assign discount = price | times: 0.07
-      assign final_price = price | minus: discount
-    elsif price >= 80000 and price < 100000
-      assign discount = price | times: 0.08
-      assign final_price = price | minus: discount
-    elsif price >= 100000
+    elsif price >= 20000
       assign discount = price | times: 0.10
       assign final_price = price | minus: discount
     endif
