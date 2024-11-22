@@ -15,7 +15,7 @@
         "image_parent_BLriGf": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/DT-Banner-1_d3766196-df4b-4fd7-89fd-9b3cd4f4d270.jpg",
+            "image": "shopify://shop_images/Desktop-Banner-11212024.jpg",
             "image_mb": "shopify://shop_images/1_97bac6f1-d13b-466f-9c64-e10a1d73726e.jpg",
             "image_position": "8",
             "cl_img": "",
@@ -597,12 +597,6 @@
           "settings": {
             "heading": "Watch and Buy!",
             "template-type": "template-a",
-            "show-views": "show",
-            "ui-theme": "round",
-            "color-primary": "#343434",
-            "color-secondary": "#343434",
-            "title-font": "sans-serif",
-            "primary-font": "sans-serif",
             "title-font-size": 40,
             "title-font-size-portrait": 24,
             "landscape-padding": 40,
@@ -617,8 +611,7 @@
         "c9c204cf-7c77-418f-9268-d32081a51485"
       ],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "fb664c52-a0c2-4006-8fd2-65d6011f492c": {
       "type": "image_text",
@@ -1299,8 +1292,7 @@
       "block_order": [
         "9ef838d1-083b-4f7c-9d77-1914496936a0"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
