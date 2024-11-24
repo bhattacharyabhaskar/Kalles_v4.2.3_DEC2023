@@ -1016,7 +1016,7 @@
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
-        "top_heading": "Jewelry & Trendy Designer Bags Collection",
+        "top_heading": "Jewelry, Stole & Trendy Designer Bags Collection",
         "icon_heading": "gem",
         "top_subheading": "THE MUST HAVE'S",
         "tophead_mb": 30,
@@ -1100,7 +1100,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "designer-bags",
+        "collection": "stole",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
