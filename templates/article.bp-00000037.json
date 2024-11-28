@@ -355,7 +355,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Designer Saree Collection",
+        "top_heading": "Blue Saree Collection",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -367,7 +367,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "shop-designer-sarees",
+        "collection": "blue-sarees",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
