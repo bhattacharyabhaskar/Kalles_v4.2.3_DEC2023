@@ -627,116 +627,6 @@
         "code_cus_css": ""
       }
     },
-    "image_text_TztEMN": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_bbwXwi": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Winter Saree Fashion Tips",
-            "text": "<ol><li><strong>Layer Smartly</strong>: Opt for warmer materials like velvet or pashmina stoles to layer over your saree. These add an extra layer of warmth and a touch of luxury.</li><li><strong>Choose the Right Footwear</strong>: Ankle boots or embellished juttis are perfect companions for your winter saree, keeping your feet cozy and stylish.</li><li><strong>Accessorize Wisely</strong>: Pearls, metallic jewelry, or traditional temple jewelry add elegance to any saree. They reflect the season's spirit and elevate your overall look.</li><li><strong>Experiment with Drapes</strong>: Try unique draping styles like the butterfly drape or the mermaid drape to make your saree stand out.</li><li><strong>Fabric Choice</strong>: When selecting sarees online, prioritize fabrics that offer warmth, such as silk, wool-blend, or heavier cotton.</li></ol>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_bbwXwi"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_FLxcRk": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_drW7pq": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Why IndyVogue?",
-            "text": "<p><a href=\"https://www.indyvogue.com/\" target=\"_blank\">IndyVogue</a> stands out in the market with its exclusive designer silk saree collections. Specializing in hand-woven sarees with the prestigious silk mark certification, IndyVogue offers everything from traditional to contemporary styles. Our range is crafted by skilled artisans, ensuring each piece's uniqueness and quality, making us a trusted source for sarees in the USA and beyond.</p><p>By shopping at IndyVogue, you not only indulge in unmatched elegance but also support the heritage of Indian handloom artistry. Join our community of satisfied customers who cherish our commitment to quality and authenticity.</p><p>2024 has been a remarkable year for saree fashion, with trends that celebrate traditional elegance and contemporary innovation. As we look towards the upcoming season, there's no better time to update your wardrobe with these stunning styles.</p><p>Ready to make a statement this winter? Explore IndyVogue's exclusive saree collection today. <a href=\"https://www.indyvogue.com/\" target=\"_blank\">Shop Now</a> and add a touch of sophistication to your wardrobe. Whether you're attending a festive gathering or a formal event, our sarees promise to turn heads and make you feel like royalty.</p><p>Thank you for joining us on this sartorial journey. We hope this guide inspires you to explore the beauty and versatility of sarees and to create unforgettable fashion moments. Stay warm, stylish, and glamorous this winter!</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_drW7pq"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -804,8 +694,6 @@
     "image_text_AQcVfJ",
     "image_text_ahi7Pb",
     "image_text_8eT787",
-    "image_text_TztEMN",
-    "image_text_FLxcRk",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
