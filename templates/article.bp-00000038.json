@@ -578,13 +578,13 @@
         "bl_text_mrzdEN": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "col_dk": "12",
+            "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Celebrity Saree Looks",
-            "text": "<p>Celebrities have played a significant role in setting saree trends this year. From Bollywood icons to international stars, the saree has been embraced on numerous red carpets and high-profile events. Celebrity-inspired looks often feature daring drapes, bold prints, and innovative blouse designs, offering endless inspiration for saree enthusiasts.</p>",
+            "heading": "Final Thoughts: Be the Star of the Celebration",
+            "text": "<p>This Christmas and New Year, ditch the predictable and embrace the saree. It’s timeless, it’s elegant, and most importantly, it’s <em>you</em>!</p><p>So, are you ready to sparkle, slay, and wrap yourself in festive magic? Let IndyVogue help you shine brighter than the Christmas star.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -598,42 +598,10 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_NNWxyg": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/2_3cb0a20d-10ac-428c-a5c2-8ed6fb9d7ca7.jpg",
-            "image2": "shopify://shop_images/107163173.webp",
-            "image3": "shopify://shop_images/kareena-saree.webp",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 2.5,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "bl_text_mrzdEN",
-        "bl_image_NNWxyg"
+        "bl_text_mrzdEN"
       ],
       "settings": {
         "design_heading": "1",
