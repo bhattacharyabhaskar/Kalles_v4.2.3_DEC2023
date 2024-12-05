@@ -520,46 +520,16 @@
     "image_text_ahi7Pb": {
       "type": "image_text",
       "blocks": {
-        "bl_image_8eGyQB": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/168553553.o4TRyGek.ND4_3277.jpg",
-            "image2": "shopify://shop_images/NL_3.jpg",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 2.5,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
         "bl_text_83ee4m": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "col_dk": "12",
+            "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Standout Blouse Styles",
-            "text": "<p>No saree ensemble is complete without a striking blouse. This winter, <a href=\"https://www.indyvogue.com/collections/designer-blouse\" target=\"_blank\">custom designer blouses</a> featuring intricate embroidery and embellishments have been a game-changer. High-neck blouses with full sleeves and velvet fabrics are particularly favored, providing both style and comfort. For a modern twist, off-shoulder and cape-style blouses have made a significant mark on the fashion scene.</p>",
+            "heading": "Pro Tips to Ace the Christmas & New Year Saree Look",
+            "text": "<ul><li><strong>Layer It Right:</strong> Toss on a chic jacket or shawl for those chilly winter nights. (Psst—fur stoles are back in!)</li><li><strong>Footwear Fun:</strong> Comfortable heels or sparkly juttis are a must—no one wants a shoe struggle on the dance floor!</li><li><strong>Drape Game Strong:</strong> Try trendy draping styles—belted, dhoti, or butterfly—for a modern twist.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -576,7 +546,6 @@
         }
       },
       "block_order": [
-        "bl_image_8eGyQB",
         "bl_text_83ee4m"
       ],
       "settings": {
