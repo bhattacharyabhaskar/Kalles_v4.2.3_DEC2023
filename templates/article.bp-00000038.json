@@ -136,6 +136,61 @@
         "code_cus_css": ""
       }
     },
+    "image_text_Vzydyc": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_X4TKQF": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Why Sarees Are the Real MVP of Christmas & New Year Fashion",
+            "text": "<p>Forget sequined dresses and boring jumpsuits. A saree is like a Christmas tree: festive, versatile, and gets all the attention! Why?</p><p>Well, in particular for the Gen-Zs, you can see I have the 3 main reasons. </p><ul><li>It hugs you in all the right places (hello, graceful pleats!).</li><li>It’s perfect for layering—pair it with a shawl or jacket for cozy glam.</li><li>The accessories? Endless possibilities—statement earrings, bangles, or a chic clutch!</li></ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_X4TKQF"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48": {
       "type": "image_text",
       "blocks": {
@@ -147,8 +202,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Gadwal Silk & Handloom Wonders",
-            "text": "<p><a href=\"https://www.indyvogue.com/collections/gadwal-silk-saree\" target=\"_blank\">Gadwal silk</a>, a treasured fabric from the heart of India, has gained immense popularity this season. Its blend of cotton and silk provides warmth without compromising elegance, making it ideal for winter. Handloom sarees, celebrated for their artisanal craftsmanship, continue to captivate saree lovers with their unique patterns and sustainable production methods.</p>",
+            "heading": "Spread Some Christmas Saree Magic",
+            "text": "<p>Whether you’re hosting or toasting, here’s how to channel festive vibes with sarees:</p><ol><li><strong>The Scarlet Siren:</strong> A classic red silk saree with gold zari work screams Christmas more than Rudolph. Pair it with a bold red lip, and you’re basically Santa’s favorite fashionista.</li><li><strong>Winter Wonderland Whites:</strong> Opt for an off-white tussar silk with subtle silver embellishments for an elegant yet frosty look. Add a pearl necklace, and voilà—you’re the queen of winter chic!</li><li><strong>Green Goddess:</strong> Emerald green sarees with intricate embroidery or Kalamkari prints are a nod to the Christmas tree—just add a touch of sparkle with gold jewelry.</li></ol>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -196,7 +251,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Gadwal Silk Collection",
+        "top_heading": "Red Sarees Collection",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -208,7 +263,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "gadwal-silk-saree",
+        "collection": "red-sarees",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
@@ -831,66 +886,12 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
-    },
-    "image_text_Vzydyc": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_X4TKQF": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Why Sarees Are the Real MVP of Christmas & New Year Fashion",
-            "text": "<p>Forget sequined dresses and boring jumpsuits. A saree is like a Christmas tree: festive, versatile, and gets all the attention! Why?</p><p>Well, in particular for the Gen-Zs, you can see I have the 3 main reasons. </p><ul><li>It hugs you in all the right places (hello, graceful pleats!).</li><li>It’s perfect for layering—pair it with a shawl or jacket for cozy glam.</li><li>The accessories? Endless possibilities—statement earrings, bangles, or a chic clutch!</li></ul>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_X4TKQF"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
     }
   },
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "image_text_Vzydyc",
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "featured_collection_EcyjYg",
     "image_text_AQcVfJ",
@@ -900,7 +901,6 @@
     "image_text_8eT787",
     "image_text_TztEMN",
     "image_text_FLxcRk",
-    "e7b55938-3dde-44ab-9365-66967e09d447",
-    "image_text_Vzydyc"
+    "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
