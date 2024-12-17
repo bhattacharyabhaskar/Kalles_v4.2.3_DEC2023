@@ -43,8 +43,15 @@
    <div class="limoniapps-discountninja-cart-item-product-comment" data-limoniapps-discountninja-cart-key="{{item_key}}"></div>
                  <div class="t4s-page_cart__meta">
                     {%- assign qv_key = item_pr.id -%}
-                    {%- unless item_pr.has_only_default_variant or item_variant.title contains 'mczr_price_' -%}{%- assign qv_key = item_id -%}{%- for option in item.options_with_values -%}<p class="t4s-cart_meta_variant">{{ option.name }}: <strong>{{ option.value }}</strong></p>{%- endfor -%}{%- endunless -%}               
-                    SKU: {{item.sku }}<br /> 
+                    {%- unless item_pr.has_only_default_variant or item_variant.title contains 'mczr_price_' -%}
+                      {%- assign qv_key = item_id -%}
+                      {%- for option in item.options_with_values -%}
+                        {%- if option.name != 'Size' or option.value != 'One size' -%}
+                          <p class="t4s-cart_meta_variant">{{ option.name }}: <strong>{{ option.value }}</strong></p>
+                        {%- endif -%}
+                      {%- endfor -%}
+                    {%- endunless -%}                    
+                   SKU: {{item.sku }}<br /> 
                     {% comment %}
                     // BB: Adding the note about Blouse measurement form in Shopping Cart
                     {% endcomment %}
