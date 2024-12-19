@@ -658,6 +658,61 @@
         "code_cus_css": ""
       }
     },
+    "image_text_E8LPJ7": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_zzDw4D": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "Image with text",
+            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_zzDw4D"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -724,6 +779,7 @@
     "image_text_qkbByh",
     "featured_collection_V6fBWd",
     "image_text_TztEMN",
+    "image_text_E8LPJ7",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
