@@ -81,6 +81,61 @@
         "code_cus_css": ""
       }
     },
+    "6869956b-0118-467c-98f0-cbb9ff121db9": {
+      "type": "image_text",
+      "blocks": {
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Madhuri to Alia: Bollywood’s Georgette Saree Saga!",
+            "text": "<p>When it comes to Bollywood, sarees have always held a timeless allure. Among the various types of sarees, <a href=\"https://www.indyvogue.com/collections/georgette-silk-saree\"><span style=\"text-decoration:underline\"><strong>georgette sarees</strong></span></a> have emerged as a favorite on and off the screen. They’re light, graceful, and effortlessly versatile—qualities that resonate with the evolving tastes of Bollywood divas over decades. </p><p>From the dreamy drapes of <a href=\"https://en.wikipedia.org/wiki/Madhuri_Dixit\"><span style=\"text-decoration:underline\">Madhuri Dixit</span></a> to the breezy elegance of <a href=\"https://en.wikipedia.org/wiki/Alia_Bhatt\"><span style=\"text-decoration:underline\">Alia Bhatt</span></a>, let’s take a nostalgic stroll through Bollywood’s love affair with georgette sarees!</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "image_text_wDa7LX": {
       "type": "image_text",
       "blocks": {
@@ -141,61 +196,6 @@
       "block_order": [
         "bl_image_eYqCYK",
         "bl_text_fGPQjq"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "6869956b-0118-467c-98f0-cbb9ff121db9": {
-      "type": "image_text",
-      "blocks": {
-        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Madhuri to Alia: Bollywood’s Georgette Saree Saga!",
-            "text": "<p>When it comes to Bollywood, sarees have always held a timeless allure. Among the various types of sarees, <a href=\"https://www.indyvogue.com/collections/georgette-silk-saree\"><span style=\"text-decoration:underline\"><strong>georgette sarees</strong></span></a> have emerged as a favorite on and off the screen. They’re light, graceful, and effortlessly versatile—qualities that resonate with the evolving tastes of Bollywood divas over decades. </p><p>From the dreamy drapes of <a href=\"https://en.wikipedia.org/wiki/Madhuri_Dixit\"><span style=\"text-decoration:underline\">Madhuri Dixit</span></a> to the breezy elegance of <a href=\"https://en.wikipedia.org/wiki/Alia_Bhatt\"><span style=\"text-decoration:underline\">Alia Bhatt</span></a>, let’s take a nostalgic stroll through Bollywood’s love affair with georgette sarees!</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
       ],
       "settings": {
         "design_heading": "1",
@@ -759,8 +759,8 @@
   },
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
-    "image_text_wDa7LX",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "image_text_wDa7LX",
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
     "image_text_ynEwH3",
