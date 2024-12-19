@@ -718,7 +718,7 @@ endif -%}
                           </div>
                       </div>
                     </div>
-                {%- when 'inventory_qty' and product.type != 'Dress' %}
+                {%- when 'inventory_qty'%}
                   {% if bk_stts.mess == blank or isProductAvailable == false %}{% continue %}{% endif -%}
                   {%- assign arr_mess = bk_stts.mess | split: '[stock_number]' -%}
                   <div id="t4s-stock{{ bk_id }}" class="t4s-inventory_qty t4s-text-{{ bk_stts.al }}" data-inventory-qty='{ "reduce":{{ bk_stts.reduce | default: false }}, "inventoryQty":{{ inventory_quantity | default: 0 }}, "id":{{ current_variant.id | default: product.id }}, "stock":"{{ bk_stts.stock }}", "qty":{{ bk_stts.qty }}, "total":{{ bk_stts.total_items }}, "min":{{ bk_stts.stock_from }}, "max":{{ bk_stts.stock_to }}, "bgprocess":"{{ bk_stts.stock_bg_process }}", "bgten":"{{ bk_stts.bgten }}" }' data-prid="{{ product.id }}" {{ block.shopify_attributes }}>
