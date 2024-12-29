@@ -466,6 +466,13 @@
               "text_mgb_mobile": 10
             }
           },
+          "cus_menu_4z4txn": {
+            "type": "cus_menu",
+            "settings": {
+              "menu": "suites-dresses",
+              "menu_style": "1"
+            }
+          },
           "90f277ca-5c66-49fd-a5dc-142d18a6dcd1": {
             "type": "bl_col",
             "settings": {
@@ -621,6 +628,7 @@
           "71d6e12f-a577-44f5-b2e2-469b8ed5e8c7",
           "html_XzqLGH",
           "custom_text_WGfLLh",
+          "cus_menu_4z4txn",
           "90f277ca-5c66-49fd-a5dc-142d18a6dcd1",
           "7330fb8b-a457-40c8-9a5b-dd5d1566e3c4",
           "43ef043c-a5db-4349-914d-36a766944044",
