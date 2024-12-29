@@ -437,6 +437,35 @@
               "menu_style": "1"
             }
           },
+          "html_XzqLGH": {
+            "type": "html",
+            "settings": {
+              "html_content": "<br>",
+              "hidden_mobile": false
+            }
+          },
+          "custom_text_WGfLLh": {
+            "type": "custom_text",
+            "settings": {
+              "text": "SUITES & DRESSES",
+              "remove_br_tag": false,
+              "tag": "p",
+              "fontf": "inherit",
+              "text_cl": "#dddddd",
+              "text_fs": 16,
+              "text_lh": 0,
+              "text_fw": 400,
+              "text_ls": 0,
+              "font_italic": false,
+              "text_shadow": false,
+              "text_mgb": 15,
+              "hidden_mobile": false,
+              "text_fs_mb": 16,
+              "text_lh_mb": 0,
+              "text_ls_mb": 0,
+              "text_mgb_mobile": 10
+            }
+          },
           "90f277ca-5c66-49fd-a5dc-142d18a6dcd1": {
             "type": "bl_col",
             "settings": {
@@ -590,6 +619,8 @@
           "080cf48c-2d41-46a4-ae73-5c683e4e120d",
           "406442bd-b184-402f-825c-abb40f8604a1",
           "71d6e12f-a577-44f5-b2e2-469b8ed5e8c7",
+          "html_XzqLGH",
+          "custom_text_WGfLLh",
           "90f277ca-5c66-49fd-a5dc-142d18a6dcd1",
           "7330fb8b-a457-40c8-9a5b-dd5d1566e3c4",
           "43ef043c-a5db-4349-914d-36a766944044",
