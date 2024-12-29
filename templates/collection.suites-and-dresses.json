@@ -11,7 +11,6 @@
   "sections": {
     "top": {
       "type": "top-collections",
-      "disabled": true,
       "settings": {
         "show_top_collections": true,
         "source": "3",
