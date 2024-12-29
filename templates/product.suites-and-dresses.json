@@ -94,6 +94,7 @@
         },
         "4fc47f4b-4ca4-4360-a778-51e9e8cc4ebf": {
           "type": "inventory_qty",
+          "disabled": true,
           "settings": {
             "icon": "1",
             "icon_name": "",
