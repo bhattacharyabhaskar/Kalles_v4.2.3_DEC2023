@@ -788,6 +788,26 @@
               "r_s_v_item": "30"
             }
           },
+          "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
+            "type": "mega",
+            "settings": {
+              "title": "Suites & Dresses",
+              "url": "shopify://collections/double-savings-collection",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "Just Launched",
+              "lb_cl": "#ec0101",
+              "pos_sub": "bottom",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "id": 4,
+              "enable_packery": true,
+              "r_s_h_item": "20",
+              "r_s_v_item": "30"
+            }
+          },
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53": {
             "type": "mega",
             "settings": {
@@ -861,26 +881,6 @@
               "lb_cl": ""
             }
           },
-          "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
-            "type": "mega",
-            "settings": {
-              "title": "Suites & Dresses",
-              "url": "shopify://collections/double-savings-collection",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "Just Launched",
-              "lb_cl": "#ec0101",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 1200,
-              "id": 4,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0": {
             "type": "mega",
             "settings": {
@@ -904,11 +904,11 @@
         },
         "block_order": [
           "9883384a-d19a-4abe-9a94-388d91fce9b6",
+          "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
           "ab886db1-7d4b-480d-8ef7-12f529243e9d",
           "5b6c83d1-eb1d-42b8-a11c-5df6ac1cfce1",
-          "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0"
         ],
         "settings": {
