@@ -1584,6 +1584,19 @@
               "icon": "las la-search-dollar"
             }
           },
+          "menu_zdHwrG": {
+            "type": "menu",
+            "settings": {
+              "title": "SUITES & DRESSES",
+              "url": "shopify://collections/suites-dresses",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-tshirt"
+            }
+          },
           "1696b437-baa3-4a20-b9df-4a313378650d": {
             "type": "menu",
             "settings": {
@@ -1676,6 +1689,7 @@
           "cb643dc3-619e-4923-8fcc-24e00c3ca571",
           "96cd5ee2-7fb3-4347-af0d-62d296d2ada2",
           "266053f4-3578-4642-b1c4-51d728350217",
+          "menu_zdHwrG",
           "1696b437-baa3-4a20-b9df-4a313378650d",
           "cd715ea2-0793-40bd-8faa-298e85285527",
           "menu_zFEjm4",
