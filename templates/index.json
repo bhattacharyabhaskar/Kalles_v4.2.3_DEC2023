@@ -15,8 +15,8 @@
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/DT-Banner-4.jpg",
-            "image_mb": "shopify://shop_images/4.jpg",
+            "image": "shopify://shop_images/11.jpg",
+            "image_mb": "shopify://shop_images/16.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/dhakai-jamdani-sarees",
@@ -55,11 +55,11 @@
         "a9dffc78-40cc-4111-a908-826833c0cded": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/DT-Banner-3.jpg",
-            "image_mb": "shopify://shop_images/3.jpg",
+            "image": "shopify://shop_images/10.jpg",
+            "image_mb": "shopify://shop_images/15.jpg",
             "image_position": "8",
             "cl_img": "",
-            "link_img1": "shopify://collections/silk-mark",
+            "link_img1": "shopify://collections/buy-silk-mark-certified-saree",
             "open_link": "_self",
             "animate_slide": "none",
             "text_align": "start",
