@@ -39,9 +39,13 @@
 
 {%- comment -%} Check if the product belongs to the "Sale" collection {%- endcomment -%}
 {% assign is_sale_collection = false %}
+{% assign is_suite_collection = false %}
 {% for collection in product.collections %}
   {% if collection.handle == "sale" %}
     {% assign is_sale_collection = true %}
+  {% endif %}
+  {% if collection.handle == "suites-dresses" %}
+    {% assign is_suite_collection = true %}
   {% endif %}
 {% endfor %}
 
@@ -54,7 +58,7 @@
 -%}
 
 {%- comment -%} Discount calculation if product is not on sale collection and is a "Saree" {%- endcomment -%}
-{%- if is_sale_collection == false  -%}
+{%- if is_sale_collection == false and  is_suite_collection == false-%}
   {%- liquid
     if price >= 7500 and price < 20000
       assign discount = 1000
