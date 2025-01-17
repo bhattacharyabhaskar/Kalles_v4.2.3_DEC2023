@@ -112,7 +112,7 @@
           "type": "bl_image",
           "settings": {
             "image1": "shopify://shop_images/Image_1.png",
-            "col_dk": "6",
+            "col_dk": "12",
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
@@ -198,7 +198,7 @@
           "settings": {
             "image1": "shopify://shop_images/Image_1.png",
             "image2": "shopify://shop_images/Image_2_83d24199-51f9-4f89-a19e-a84964c2f6a9.png",
-            "col_dk": "6",
+            "col_dk": "12",
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
