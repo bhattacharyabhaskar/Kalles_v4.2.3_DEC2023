@@ -61,6 +61,7 @@
         },
         "custom_liquid_BqpJqy": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div style=\"background-color: #ffeb3b; padding: 15px; text-align: center; border-radius: 8px; margin-top: 20px;\">\n    <h3 style=\"color: #d32f2f; font-family: Arial, sans-serif; font-weight: bold; margin: 0;\">\n        🎉 Get Additional 10% Off! 🎉\n    </h3>\n    <p style=\"color: #555; font-family: Arial, sans-serif; margin: 5px 0 0;\">\n        Don't miss out on this exclusive offer!\n    </p>\n</div>"
           }
