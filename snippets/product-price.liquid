@@ -57,36 +57,15 @@
   assign final_price = price
 -%}
 
-{%- comment -%} Discount calculation if product is not on sale collection and is a "Saree" {%- endcomment -%}
-{%- if is_sale_collection == false and is_suite_collection == false-%}
-  {%- liquid
-    if price >= 7500 and price < 20000
-      assign discount = 1000
-      assign final_price = price | minus: discount
-    elsif price >= 20000 and price < 30000
-      assign discount = price | times: 0.05
-      assign final_price = price | minus: discount
-    elsif price >= 30000 and price < 50000
-      assign discount = price | times: 0.06
-      assign final_price = price | minus: discount
-    elsif price >= 50000 and price < 80000
-      assign discount = price | times: 0.07
-      assign final_price = price | minus: discount
-    elsif price >= 80000 and price < 100000
-      assign discount = price | times: 0.08
-      assign final_price = price | minus: discount
-    elsif price >= 100000
-      assign discount = price | times: 0.10
-      assign final_price = price | minus: discount
-    endif
-  -%}
-{%- endif -%}
-{%- if is_sale_collection == false and is_suite_collection == true-%}
-  {%- liquid
-      assign discount = price | times: 0.10
-      assign final_price = price | minus: discount
-  -%}
-{%- endif -%}
+{%- comment -%} Include the discount-calculation snippet {%- endcomment -%}
+{%- capture global_final_price_cents_raw -%}
+  {% render 'discount-calculation', price_cents: price, is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection %}
+{%- endcapture -%}
+
+{%- assign global_final_price_cents = global_final_price_cents_raw | split: '<!-- FINAL PRICE START -->' | last | split: '<!-- FINAL PRICE END -->' | first | strip -%}
+
+
+{%- assign final_price = global_final_price_cents -%}
 
 {%- comment -%} Ensure no strike-through if compare_at_price equals final_price {%- endcomment -%}
 {%- if compare_at_price == final_price -%}
