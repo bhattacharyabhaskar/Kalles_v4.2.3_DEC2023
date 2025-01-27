@@ -3427,3 +3427,96 @@ border-radius: 50% !important;
         transform: translateX(-100%)
     }
 } */
+
+
+
+.tiered-discounts-container {
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff;
+}
+
+/* Header */
+.tiered-discounts-title {
+  font-size: 2rem;
+  color: #ff5722;
+  text-align: left;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* General Messages */
+.tiered-discounts-message {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.sale-message {
+  color: #e53935;
+  font-weight: bold;
+}
+
+.suite-message {
+  color: #1e88e5;
+  font-weight: bold;
+}
+
+/* List Styling */
+.tiered-discounts-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tiered-discounts-list li {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.tier-unlocked {
+  color: #43a047;
+  font-weight: bold;
+  position: relative;
+}
+
+.tier-next {
+  animation: scale-text 2.0s infinite;
+}
+
+@keyframes scale-text {
+  0%, 100% {
+    transform: scale(1);
+    color: #f57c00;
+  }
+  50% {
+    transform: scale(1.1);
+    color: #ff9800;
+  }
+}
+
+/* Animated Icon for Next Tier */
+.animated-icon {
+  display: inline-block;
+  margin-right: 10px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+/* Debug Output */
+.tiered-discounts-debug {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: #666;
+}
