@@ -3429,24 +3429,28 @@ border-radius: 50% !important;
 } */
 
 /* Container styling */
-
-/* General container reset to prevent sticky behavior */
-.tiered-discounts-container {
-  position: static !important; /* Ensure no sticky or fixed positioning */
-  top: auto; /* Reset any positioning offsets */
-  z-index: auto; /* Avoid overlapping issues */
+/* Tiered Discounts Title */
+.tiered-discounts-title {
+  font-size: 1.5rem; /* Make the title slightly larger */
+  font-weight: bold;
+  color: #d63384; /* Bright pink for the title */
+  margin-bottom: 10px;
 }
 
-/* Reset styles for any list or child elements that may inherit sticky or fixed properties */
-.tiered-discounts-list,
-.tiered-discounts-container * {
-  position: static !important; /* Ensure all child elements are not sticky or fixed */
-  overflow: visible; /* Reset overflow to avoid clipping */
+/* Unlocked Tier */
+.tier-unlocked {
+  font-size: 1rem;
+  color: #198754; /* Green to signify success */
+  font-weight: bold;
+  list-style-type: "✔️ "; /* Add a checkmark bullet point */
+  margin: 5px 0;
 }
 
-/* Ensure the parent container on the product page isn't affecting behavior */
-.product-page-container, .product-details-section {
-  position: relative; /* Make sure the parent container is not affecting child layout */
-  overflow: visible;
+/* Next Tier */
+.tier-next {
+  font-size: 1rem;
+  color: #dc3545; /* Red to signify urgency */
+  font-weight: bold;
+  list-style-type: "➔ "; /* Add an arrow bullet point */
+  margin: 5px 0;
 }
-
