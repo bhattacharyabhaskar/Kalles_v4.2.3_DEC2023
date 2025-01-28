@@ -12,10 +12,13 @@
 {%- assign tiers = general_tiers | split: ',' -%}
 {%- assign current_cart_total = cart.total_price | divided_by: 100.0 -%}
   
+
+
 {%- if current_cart_total > 0 -%}
-  
-<!-- Header -->
+  <!-- Header -->
    <h3 class="tiered-discounts-title">🎉 New Year Super Sale! 🎉</h3> 
+  {%- else -%}
+  <h3 class="tiered-discounts-title">🎉 New Year Super Sale, with upto 10% discount! 🎉</h3> 
 {%- endif -%}
 
 
