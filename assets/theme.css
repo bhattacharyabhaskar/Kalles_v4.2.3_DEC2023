@@ -3432,30 +3432,3 @@ border-radius: 50% !important;
 /* Tiered Discounts Title */
 /* Tiered Discounts Container */
 
-
-/* Tiered Discounts Title */
-.tiered-discounts-title {
-  font-size: 1.5rem; /* Make the title slightly larger */
-  font-weight: bold;
-  color: #d63384; /* Bright pink for the title */
-  margin-bottom: 10px;
-  text-align: center; /* Center-align the title */
-}
-
-/* Unlocked Tier */
-.tier-unlocked {
-  font-size: 1.3rem;
-  color: #198754; /* Green to signify success */
-  font-weight: bold;
-  list-style-type: "✔️ "; /* Add a checkmark bullet point */
-  margin: 5px 0;
-}
-
-/* Next Tier */
-.tier-next {
-  font-size: 1.3rem;
-  color: #dc3545; /* Red to signify urgency */
-  font-weight: bold;
-  list-style-type: "➔ "; /* Add an arrow bullet point */
-  margin: 5px 0;
-}
