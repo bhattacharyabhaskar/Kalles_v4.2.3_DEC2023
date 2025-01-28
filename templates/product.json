@@ -53,6 +53,12 @@
             "price_sale_color": "#ec0101"
           }
         },
+        "custom_liquid_XFy8qN": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<b>Price includes GST and IGST when sold in India</b>{%- assign is_sale_collection = false -%}\n                  {%- assign is_suite_collection = false -%}\n                  {% for collection in product.collections %}\n                    {% if collection.handle == \"sale\" %}\n                      {% assign is_sale_collection = true %}\n                    {% endif %}\n                    {% if collection.handle == \"suites-dresses\" %}\n                      {% assign is_suite_collection = true %}\n                    {% endif %}\n                  {% endfor %}\n                \n                {%- render 'tiered-discounts-display', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}"
+          }
+        },
         "custom_liquid_BqpJqy": {
           "type": "custom_liquid",
           "disabled": true,
@@ -143,12 +149,6 @@
             "advance_pr_list": []
           }
         },
-        "custom_liquid_XFy8qN": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<b>Price includes GST and IGST when sold in India</b>{%- assign is_sale_collection = false -%}\n                  {%- assign is_suite_collection = false -%}\n                  {% for collection in product.collections %}\n                    {% if collection.handle == \"sale\" %}\n                      {% assign is_sale_collection = true %}\n                    {% endif %}\n                    {% if collection.handle == \"suites-dresses\" %}\n                      {% assign is_suite_collection = true %}\n                    {% endif %}\n                  {% endfor %}\n                \n                {%- render 'tiered-discounts-display', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}"
-          }
-        },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
           "type": "img",
           "settings": {
@@ -215,13 +215,13 @@
         "title",
         "e2dbc4b8-572a-49d7-a5d1-8fec516020b8",
         "price_review",
+        "custom_liquid_XFy8qN",
         "custom_liquid_BqpJqy",
         "custom_liquid_ktk9BF",
         "custom_liquid_9iLwHa",
         "meta",
         "4fc47f4b-4ca4-4360-a778-51e9e8cc4ebf",
         "form",
-        "custom_liquid_XFy8qN",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "1074fa19-58dd-4700-8ace-d3a90133e24d",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
