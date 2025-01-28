@@ -3431,14 +3431,7 @@ border-radius: 50% !important;
 /* Container styling */
 /* Tiered Discounts Title */
 /* Tiered Discounts Container */
-.tiered-discounts-container {
-  background-color: #f9f9f9; /* Light gray background for contrast */
-  border: 1px solid #e0e0e0; /* Subtle border for separation */
-  border-radius: 8px; /* Rounded corners for a soft look */
-  padding: 15px; /* Add some padding inside the container */
-  margin-bottom: 20px; /* Space below the section */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-}
+
 
 /* Tiered Discounts Title */
 .tiered-discounts-title {
