@@ -53,12 +53,6 @@
             "price_sale_color": "#ec0101"
           }
         },
-        "custom_liquid_XFy8qN": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<b>Price includes GST and IGST when sold in India</b>{%- assign is_sale_collection = false -%}\n                  {%- assign is_suite_collection = false -%}\n                  {% for collection in product.collections %}\n                    {% if collection.handle == \"sale\" %}\n                      {% assign is_sale_collection = true %}\n                    {% endif %}\n                    {% if collection.handle == \"suites-dresses\" %}\n                      {% assign is_suite_collection = true %}\n                    {% endif %}\n                  {% endfor %}\n                \n                {%- render 'tiered-discounts-display', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}"
-          }
-        },
         "custom_liquid_BqpJqy": {
           "type": "custom_liquid",
           "disabled": true,
@@ -77,6 +71,12 @@
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{%- if product.type == 'Saree' -%}\n   {% for tag in product.tags %}\n       {% if tag contains 'FREE BLOUSE STITCHING' %}\n    \t<div class=\"discount-message\" style=\"background-color: #7fda69;\">\n     \t\t<font color=\"#9900FF\"> <strong>FREE BLOUSE STITCHING ON THIS SAREE.</strong></font>\n   \t</div>\n       {%- endif -%}\n{% if tag contains 'Live1' %}\n    \t<div class=\"discount-message\" style=\"background-color: #7fda69;\">\n     \t\t<font color=\"#9900FF\"> <strong>User Code LIVE01 to get $20 USD OFF, ONLY till April 3, 2024</strong></font>\n   \t</div>\n       {%- endif -%}\n   {% endfor %}\n\n{%- endif -%}"
+          }
+        },
+        "custom_liquid_XFy8qN": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<b>Price includes GST and IGST when sold in India</b>{%- assign is_sale_collection = false -%}\n                  {%- assign is_suite_collection = false -%}\n                  {% for collection in product.collections %}\n                    {% if collection.handle == \"sale\" %}\n                      {% assign is_sale_collection = true %}\n                    {% endif %}\n                    {% if collection.handle == \"suites-dresses\" %}\n                      {% assign is_suite_collection = true %}\n                    {% endif %}\n                  {% endfor %}\n                \n                {%- render 'tiered-discounts-display', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}"
           }
         },
         "meta": {
@@ -215,10 +215,10 @@
         "title",
         "e2dbc4b8-572a-49d7-a5d1-8fec516020b8",
         "price_review",
-        "custom_liquid_XFy8qN",
         "custom_liquid_BqpJqy",
         "custom_liquid_ktk9BF",
         "custom_liquid_9iLwHa",
+        "custom_liquid_XFy8qN",
         "meta",
         "4fc47f4b-4ca4-4360-a778-51e9e8cc4ebf",
         "form",
