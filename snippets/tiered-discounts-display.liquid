@@ -23,7 +23,6 @@
 <!-- If the product belongs to the Sale collection -->
 {%- if is_sale_collection == true -%}
   <p class="tiered-discounts-message sale-message">🚨 This product is already on sale! </p>
-  <p class="tiered-discounts-debug">{{ debug_output }}</p>
   <!-- Skip further content by ending the block here -->
   {%- assign stop_processing = true -%}
 {%- endif -%}
@@ -31,7 +30,6 @@
 <!-- If the product belongs to the Suites & Dresses collection -->
 {%- if is_suite_collection == true and stop_processing != true -%}
   <p class="tiered-discounts-message suite-message">👗 <strong>Suites & Dresses:</strong> Save {{ suite_discount }} on any order!</p>
-  <p class="tiered-discounts-debug">{{ debug_output }}</p>
   <!-- Skip further content by ending the block here -->
   {%- assign stop_processing = true -%}
 {%- endif -%}
