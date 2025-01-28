@@ -436,7 +436,6 @@ endif -%}
                     </div>
                   {%- endif -%}
 
-                {% comment %}
                   
                 {%- assign is_sale_collection = false -%}
                   {%- assign is_suite_collection = false -%}
@@ -451,7 +450,6 @@ endif -%}
                 
                 {%- render 'tiered-discounts-display', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}
                 
-                {% endcomment %}
 
                 {%- when 'description' -%}
                   {%- assign pr_des = product.description -%}
