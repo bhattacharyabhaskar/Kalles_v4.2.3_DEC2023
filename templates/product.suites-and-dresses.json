@@ -59,26 +59,6 @@
             "custom_liquid": "<b>Price includes GST and IGST when sold in India</b>{%- assign is_sale_collection = false -%}\n                  {%- assign is_suite_collection = false -%}\n                  {% for collection in product.collections %}\n                    {% if collection.handle == \"sale\" %}\n                      {% assign is_sale_collection = true %}\n                    {% endif %}\n                    {% if collection.handle == \"suites-dresses\" %}\n                      {% assign is_suite_collection = true %}\n                    {% endif %}\n                  {% endfor %}\n                \n                {%- render 'tiered-discounts-display', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}"
           }
         },
-        "custom_liquid_BqpJqy": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div style=\"background-color: #ffeb3b; padding: 15px; text-align: center; border-radius: 8px; margin-top: 20px;\">\n    <h3 style=\"color: #d32f2f; font-family: Arial, sans-serif; font-weight: bold; margin: 0;\">\n        🎉 Get Additional 10% Off! 🎉\n    </h3>\n    <p style=\"color: #555; font-family: Arial, sans-serif; margin: 5px 0 0;\">\n        Don't miss out on this exclusive offer!\n    </p>\n</div>"
-          }
-        },
-        "custom_liquid_ktk9BF": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{% assign is_sale = false %}\n{% assign adjusted_cart_total = 0 %}\n\n{%- comment -%} Calculate Adjusted Cart Total Excluding Sarees on Sale {%- endcomment -%}\n{% for item in cart.items %}\n  {% assign is_sale = false %}\n\n  {% for collection in item.product.collections %}\n    {% if collection.handle == \"sale\" %}\n      {% assign is_sale = true %}\n    {% endif %}\n  {% endfor %}\n\n  {% if item.product.type == \"Saree\" and is_sale %}\n  {% else %}\n    {% assign adjusted_cart_total = adjusted_cart_total | plus: item.line_price %}\n  {% endif %}\n{% endfor %}\n\n{% if product.type == \"Saree\" and is_sale %}\n{% else %}\n\n  {% assign show_discount_block = false %} <!-- Initialize to false -->\n\n  {% for variant in product.variants %}\n    {% assign price_in_dollars = variant.price %}\n    {% assign compare_at_price_in_dollars = variant.compare_at_price %}\n    {% assign total_price_with_cart = adjusted_cart_total | plus: price_in_dollars %}\n    {% assign discount = 0 %}\n\n    {%- if total_price_with_cart >= 7500 and total_price_with_cart < 20000 -%}\n      {% assign discount = 1000 %}\n    {%- elsif total_price_with_cart >= 20000 -%}\n      {% assign discount = total_price_with_cart | times: 0.10 %}\n    {%- endif -%}\n\n    {% if discount > 0 %}\n      {% assign proportional_discount = discount | times: price_in_dollars | divided_by: total_price_with_cart %}\n      {% assign final_price = price_in_dollars | minus: proportional_discount %}\n    {% else %}\n      {% assign final_price = price_in_dollars %}\n    {% endif %}\n\n    {% assign savings = compare_at_price_in_dollars | minus: final_price %}\n\n    {% if compare_at_price_in_dollars > final_price %}\n      {% assign show_discount_block = true %} <!-- Set to true when discount exists -->\n    {% endif %}\n\n  {% endfor %}\n\n  {% if show_discount_block %}\n    <div style=\"border: 2px solid #ffcc00; background-color: #fff3cd; border-radius: 10px; padding: 20px; margin-bottom: 20px;\">\n      <h2 style=\"color: #fffff; font-weight: bold; font-size: 1.8em; text-align: center;\">🎁 Year End Sale 🎉</h2>\n\n      {% for variant in product.variants %}\n        {% assign price_in_dollars = variant.price %}\n        {% assign compare_at_price_in_dollars = variant.compare_at_price %}\n        {% assign total_price_with_cart = adjusted_cart_total | plus: price_in_dollars %}\n        {% assign discount = 0 %}\n\n        {%- if total_price_with_cart >= 7500 and total_price_with_cart < 20000 -%}\n          {% assign discount = 1000 %}\n        {%- elsif total_price_with_cart >= 20000 -%}\n          {% assign discount = total_price_with_cart | times: 0.10 %}\n        {%- endif -%}\n\n        {% if discount > 0 %}\n          {% assign proportional_discount = discount | times: price_in_dollars | divided_by: total_price_with_cart %}\n          {% assign final_price = price_in_dollars | minus: proportional_discount %}\n        {% else %}\n          {% assign final_price = price_in_dollars %}\n        {% endif %}\n\n        {% assign savings = compare_at_price_in_dollars | minus: final_price %}\n\n        {% if compare_at_price_in_dollars > final_price %}\n          <div style=\"padding: 8px 0; border-bottom: 1px solid #ddd;\">\n            <span style=\"font-weight: bold; font-size: 1.1em;\">\n              {{ variant.title | split: \"/\" | first | trim }}: <!-- Remove \"/ one-size\" and trim extra spaces -->\n            </span> \n            <span style=\"text-decoration: line-through; color: red; font-size: 1.2em; margin-left: 10px;\">\n              {{ compare_at_price_in_dollars | money }}\n            </span>\n            <span style=\"color: #28a745; font-weight: bold; font-size: 1.2em; margin-left: 10px;\">\n              {{ final_price | money }} *\n            </span>\n            <span style=\"font-size: 1.1em; color: #ff9900; margin-left: 10px;\">\n              (Save: {{ savings | money }})\n            </span>\n          </div>\n        {% endif %}\n\n      {% endfor %}\n\n      {% if adjusted_cart_total > 0 %}\n        <div style=\"text-align: right; font-size: 0.9em; color: #555;\">\n          *Price calculation based on current cart total of <strong>{{ adjusted_cart_total | money }}</strong>.\n        </div>\n      {% endif %}\n\n    </div>\n  {% endif %}\n{% endif %}"
-          }
-        },
-        "custom_liquid_9iLwHa": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{%- if product.type == 'Saree' -%}\n   {% for tag in product.tags %}\n       {% if tag contains 'FREE BLOUSE STITCHING' %}\n    \t<div class=\"discount-message\" style=\"background-color: #7fda69;\">\n     \t\t<font color=\"#9900FF\"> <strong>FREE BLOUSE STITCHING ON THIS SAREE.</strong></font>\n   \t</div>\n       {%- endif -%}\n{% if tag contains 'Live1' %}\n    \t<div class=\"discount-message\" style=\"background-color: #7fda69;\">\n     \t\t<font color=\"#9900FF\"> <strong>User Code LIVE01 to get $20 USD OFF, ONLY till April 3, 2024</strong></font>\n   \t</div>\n       {%- endif -%}\n   {% endfor %}\n\n{%- endif -%}"
-          }
-        },
         "meta": {
           "type": "meta",
           "settings": {
@@ -217,9 +197,6 @@
         "e2dbc4b8-572a-49d7-a5d1-8fec516020b8",
         "price_review",
         "custom_liquid_XFy8qN",
-        "custom_liquid_BqpJqy",
-        "custom_liquid_ktk9BF",
-        "custom_liquid_9iLwHa",
         "meta",
         "4fc47f4b-4ca4-4360-a778-51e9e8cc4ebf",
         "form",
