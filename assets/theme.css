@@ -3446,7 +3446,7 @@ border-radius: 50% !important;
   font-weight: bold;
   color: #d63384; /* Bright pink for the title */
   margin-bottom: 10px;
-  text-align: right; /* Center-align the title */
+  text-align: left; /* Center-align the title */
 }
 
 /* Unlocked Tier */
