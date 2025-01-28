@@ -3451,7 +3451,7 @@ border-radius: 50% !important;
 
 /* Unlocked Tier */
 .tier-unlocked {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #198754; /* Green to signify success */
   font-weight: bold;
   list-style-type: "✔️ "; /* Add a checkmark bullet point */
@@ -3460,7 +3460,7 @@ border-radius: 50% !important;
 
 /* Next Tier */
 .tier-next {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #dc3545; /* Red to signify urgency */
   font-weight: bold;
   list-style-type: "➔ "; /* Add an arrow bullet point */
