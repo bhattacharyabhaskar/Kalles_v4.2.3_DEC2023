@@ -3428,41 +3428,128 @@ border-radius: 50% !important;
     }
 } */
 
-/* Container styling */
-/* Tiered Discounts Title */
-/* Tiered Discounts Container */
-.tiered-discounts-container {
-  background-color: #f9f9f9; /* Light gray background for contrast */
-  border: 1px solid #e0e0e0; /* Subtle border for separation */
-  border-radius: 8px; /* Rounded corners for a soft look */
-  padding: 15px; /* Add some padding inside the container */
-  margin-bottom: 20px; /* Space below the section */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+/* Tiered discount PDP */
+
+/* Title */
+/* Title for Empty Cart */
+.tiered-discounts-title-empty {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff; /* White text for clarity */
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #007bff; /* Trustworthy blue background */
+  border-radius: 8px; /* Subtle rounded corners */
+  margin-bottom: 15px; /* Add spacing */
 }
 
-/* Tiered Discounts Title */
+
+
 .tiered-discounts-title {
-  font-size: 1.5rem; /* Make the title slightly larger */
+  font-size: 1.5rem;
   font-weight: bold;
-  color: #d63384; /* Bright pink for the title */
+  color: #d63384;
   margin-bottom: 10px;
-  text-align: left; /* Center-align the title */
+  text-align: left;
 }
 
-/* Unlocked Tier */
+/* Unlocked Tier - Green Shade */
 .tier-unlocked {
-  font-size: 1.3rem;
-  color: #198754; /* Green to signify success */
+  font-size: 1.2rem;
+  color: #198754;
   font-weight: bold;
-  list-style-type: "✔️ "; /* Add a checkmark bullet point */
-  margin: 5px 0;
+  list-style-type: none;
+  background-color: #e9f7ef; /* Light green shade */
+  border-left: 4px solid #198754; /* Green border */
+  padding: 10px;
+  margin: 10px 0;
+  position: relative; /* For the arrow positioning */
 }
 
-/* Next Tier */
+.tier-unlocked::before {
+  content: "➤"; /* Static Green arrow */
+  color: #198754;
+  font-size: 1.5rem; /* Larger arrow */
+  position: absolute;
+  left: -30px; /* Position the arrow on the left */
+}
+
+/* Next Tier - Red Shade with Left-to-Right Arrow */
 .tier-next {
-  font-size: 1.3rem;
-  color: #dc3545; /* Red to signify urgency */
+  font-size: 1.2rem;
+  color: #dc3545;
   font-weight: bold;
-  list-style-type: "➔ "; /* Add an arrow bullet point */
-  margin: 5px 0;
+  list-style-type: none;
+  background-color: #fdecea; /* Light red shade */
+  border-left: 4px solid #dc3545; /* Red border */
+  padding: 10px;
+  margin: 10px 0;
+  position: relative; /* For the arrow positioning */
+  animation: glow-pulse 2s infinite; /* Glow effect */
+}
+
+.tier-next::before {
+  content: "➤"; /* Moving Red arrow */
+  color: #dc3545;
+  font-size: 1.5rem; /* Larger arrow */
+  position: absolute;
+  left: -30px; /* Initial position */
+  animation: arrow-slide 1.5s infinite; /* Slide animation */
+}
+
+/* Glow Effect Animation */
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(220, 53, 69, 0.6);
+  }
+}
+
+/* Left-to-Right Arrow Animation */
+@keyframes arrow-slide {
+  0% {
+    transform: translateX(0); /* Start position */
+  }
+  50% {
+    transform: translateX(10px); /* Slide to the right */
+  }
+  100% {
+    transform: translateX(0); /* Return to start */
+  }
+}
+
+/* Suites & Dresses Message */
+.tiered-discounts-message.suite-message {
+  font-size: 1.2rem; /* Same size as tier-next */
+  color: #0d6efd; /* Blue text */
+  font-weight: bold;
+  background-color: #e7f1ff; /* Light blue background */
+  border-left: 4px solid #0d6efd; /* Blue border */
+  padding: 10px;
+  margin: 10px 0;
+  animation: glow-pulse-blue 2s infinite; /* Add glow pulse animation */
+  position: relative; /* For arrow positioning */
+}
+
+/* Blue Arrow */
+.tiered-discounts-message.suite-message::before {
+  content: "➤"; /* Blue arrow */
+  color: #0d6efd;
+  font-size: 1.5rem; /* Larger arrow */
+  position: absolute;
+  left: -30px; /* Position the arrow on the left */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Keyframes for Blue Glow Pulse */
+@keyframes glow-pulse-blue {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(13, 110, 253, 0.6);
+  }
 }
