@@ -3429,6 +3429,28 @@ border-radius: 50% !important;
 } */
 
 /* Container styling */
+
+/* General container reset to prevent sticky behavior */
+.tiered-discounts-container {
+  position: static !important; /* Ensure no sticky or fixed positioning */
+  top: auto; /* Reset any positioning offsets */
+  z-index: auto; /* Avoid overlapping issues */
+}
+
+/* Reset styles for any list or child elements that may inherit sticky or fixed properties */
+.tiered-discounts-list,
+.tiered-discounts-container * {
+  position: static !important; /* Ensure all child elements are not sticky or fixed */
+  overflow: visible; /* Reset overflow to avoid clipping */
+}
+
+/* Ensure the parent container on the product page isn't affecting behavior */
+.product-page-container, .product-details-section {
+  position: relative; /* Make sure the parent container is not affecting child layout */
+  overflow: visible;
+}
+
+
 .tiered-discounts-container {
   font-family: Arial, sans-serif;
   padding: 20px;
