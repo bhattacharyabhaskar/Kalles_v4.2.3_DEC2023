@@ -3428,88 +3428,90 @@ border-radius: 50% !important;
     }
 } */
 
-
-
+/* Container styling */
 .tiered-discounts-container {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
+  padding: 20px;
   margin-top: 20px;
-  padding: 15px;
-  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
-/* Header */
+/* Title styling */
 .tiered-discounts-title {
-  font-size: 2rem;
-  color: #ff5722;
-  text-align: left;
-  margin-bottom: 20px;
-  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
-/* General Messages */
+/* Message styling for sale and suite collections */
 .tiered-discounts-message {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .sale-message {
-  color: #e53935;
-  font-weight: bold;
+  background-color: #ffe6e6;
+  color: #d9534f;
 }
 
 .suite-message {
-  color: #1e88e5;
-  font-weight: bold;
+  background-color: #e6f7ff;
+  color: #007bff;
 }
 
-/* List Styling */
+/* List styling */
 .tiered-discounts-list {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-.tiered-discounts-list li {
-  font-size: 1.3rem;
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
-
+/* Unlocked tier styling */
 .tier-unlocked {
-  color: #43a047;
+  background-color: #d4edda; /* Light green */
+  color: #155724; /* Dark green */
   font-weight: bold;
-  position: relative;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #c3e6cb;
 }
 
+/* Next tier styling */
 .tier-next {
-  animation: scale-text 2.0s infinite;
+  background-color: #fff3cd; /* Light yellow */
+  color: #856404; /* Dark yellow */
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ffeeba;
 }
 
-@keyframes scale-text {
-  0%, 100% {
-    transform: scale(1);
-    color: #f57c00;
-  }
-  50% {
-    transform: scale(1.1);
-    color: #ff9800;
-  }
+/* Default tier styling */
+.tier-other {
+  background-color: #e2e3e5; /* Light gray */
+  color: #383d41; /* Dark gray */
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #d6d8db;
 }
 
-/* Animated Icon for Next Tier */
-.animated-icon {
-  display: inline-block;
-  margin-right: 10px;
-  animation: pulse 1.5s infinite;
+/* Arrow styling */
+.animated-arrow {
+  font-size: 1.2rem;
+  margin-right: 5px;
+  color: #28a745; /* Green arrow */
+  font-weight: bold;
 }
 
-@keyframes pulse {
-  0%, 100% {
-    opacity: 0.7;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
+.tier-next .animated-arrow {
+  color: #ffc107; /* Yellow arrow for next tier */
 }
