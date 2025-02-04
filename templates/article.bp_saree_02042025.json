@@ -92,7 +92,7 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Salwar Suits Reimagined: Trends to Try in 2025",
+            "heading": "7 Saree Trends in 2025 You Can’t Afford to Miss!",
             "text": "<p>When it comes to timeless fashion staples in the world of ethnic wear, salwar suits have always been at the forefront. But in 2025, these classic ensembles are getting a dazzling makeover! From fusion silhouettes to innovative fabrics, salwar suits are embracing a modern twist while keeping their cultural charm intact. </p><p>With the beginning of 2025, IndyVogue has put their efforts to push a bit far other than sarees and has been bathing their hands in new couture-like ethnic dresses, majorly <a href=\"https://www.indyvogue.com/collections/suites-dresses\"><span style=\"text-decoration:underline\">salwar suits in USA. </span></a></p><p>Ready to elevate your ethnic wardrobe? Here’s a playful dive into the hottest salwar suit trends to watch out for this year!</p><h3><strong>1. The Rise of Fusion Silhouettes</strong></h3><p>Do you think <em><strong>Indian Salwar Suits for Women</strong></em> are all about tradition? Think again! Designers in 2025 are merging the traditional with the contemporary, giving birth to jaw-dropping fusion silhouettes.</p><ul><li><strong>Sharara + Gown Combo</strong>: Sharara bottoms paired with floor-length asymmetrical tops or gowns are making waves. It’s the perfect blend of flowy elegance and dramatic flair.<br/><br/></li><li><strong>Cape-Cut Kurtas</strong>: Capes aren’t just for superheroes anymore! Kurtas with attached capes are stealing the show, adding a touch of regal charm.<br/><br/></li><li><strong>Pant-Suit Hybrids</strong>: Sleek cigarette pants combined with structured kurtas offer a chic and modern vibe for the power-dressing ethnic queen.</li></ul><p></p><p><a href=\"https://www.indyvogue.com/collections/suites-dresses\"><span style=\"text-decoration:underline\">https://www.indyvogue.com/collections/suites-dresses</span></a> </p><p></p><p></p><h3><strong>2. Luxe Fabrics to Adore</strong></h3><p>Fabric innovation is redefining comfort and style. 2025’s <strong>designer salwar suits in USA</strong> are all about luxurious textures that feel as good as they look.</p><ul><li><strong>Georgette & Organza Love</strong>: Lightweight and dreamy, organza and georgette is the go-to fabric for flowy kurtas and dupattas that sway with every step.<br/><br/></li><li><strong>Sustainable Silks</strong>: Eco-friendly handloom silks are making sustainability stylish. They add a touch of elegance while keeping Mother Earth happy.<br/><br/></li></ul><p><strong>Sheer Delight</strong>: Think sheer sleeves, sheer yokes, and even sheer dupattas—subtle yet sensual!</p><p></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
@@ -324,6 +324,90 @@
         "code_cus_css": ""
       }
     },
+    "image_text_XKq6Wf": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_h48D9d": {
+          "type": "bl_image",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_y9LmPw": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "Image with text",
+            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_h48D9d",
+        "bl_text_y9LmPw"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "image_text_TztEMN": {
       "type": "image_text",
       "blocks": {
@@ -433,90 +517,6 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
-    },
-    "image_text_XKq6Wf": {
-      "type": "image_text",
-      "blocks": {
-        "bl_image_h48D9d": {
-          "type": "bl_image",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
-        "bl_text_y9LmPw": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "center",
-            "sub_heading": "",
-            "heading": "Image with text",
-            "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_image_h48D9d",
-        "bl_text_y9LmPw"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
     }
   },
   "order": [
@@ -524,8 +524,8 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "image_text_cy6tq9",
     "featured_collection_acG9t6",
+    "image_text_XKq6Wf",
     "image_text_TztEMN",
-    "e7b55938-3dde-44ab-9365-66967e09d447",
-    "image_text_XKq6Wf"
+    "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
