@@ -614,8 +614,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "",
-            "text": "<h3><strong>5. Minimalist Charm</strong></h3><p>While embellishments reign supreme, the minimalist aesthetic has its own fan base in 2025.</p><ul><li><strong>Monochrome Magic</strong>: Head-to-toe shades in ivory, beige, or pastel pinks for a subtle yet sophisticated appearance.<br/><br/></li><li><strong>Straight Cuts</strong>: Simple straight-cut kurtas paired with <em><strong>palazzos or churidar suits in USA </strong></em>are a major hit and bring effortless elegance.<br/><br/></li><li><strong>Soft Pastels</strong>: Think lavender, mint green, and blush tones for a soothing palette that works for any occasion.</li></ul><p></p><p></p><h3></h3><h3><strong>BONUS TIP: The Power of Accessories</strong></h3><p>No salwar suit look is complete without the perfect accessories. Here’s what’s trending:</p><ul><li><strong>Oversized Earrings</strong>: Go big or go home! Chandbalis and jhumkas in bold designs are a must.<br/><br/></li><li><strong>Belts on Kurtas</strong>: Cinch your waist with a sleek belt for a modern silhouette.<br/><br/></li><li><strong>Statement Dupattas</strong>: Printed or embroidered dupattas with plain suits create a fabulous contrast.</li></ul><h3></h3><h3></h3><h3><strong>Why Sumana feels that you need to embrace these trends</strong></h3><p>According to me, 2025 is the year to experiment, to mix and match, and to step out of your comfort zone. Salwar suits are no longer just traditional wear; they’re a canvas for your style. Whether you’re going for bold and vibrant or subtle and minimal, there’s a trend waiting to elevate your ethnic wardrobe.</p><p>So, what are you waiting for? Dive into the reimagined world of salwar suits and let your outfit do the talking. After all, fashion is fun, and 2025 is here to prove it!</p>",
+            "heading": "6. Back to Roots: Traditional Weaves with a Twist",
+            "text": "<p>While innovation is thriving, 2025 is also seeing a revival of timeless classics—with a modern touch.</p><ul><li><a href=\"https://www.indyvogue.com/collections/banarasi-silk-saree\"><span style=\"text-decoration:underline\"><strong>Banarasi Bliss</strong></span></a>: Neon accents and quirky motifs like bicycles or hot air balloons.<br/><br/></li><li><a href=\"https://www.indyvogue.com/collections/kanchipuram-sarees?srsltid=AfmBOoq4BDNmeleinVZwcc_ol-4hkKR-yd91vS20bSC9OseMnixomFKT\"><span style=\"text-decoration:underline\"><strong>Kanjeevaram Cool</strong></span></a>: Lightweight versions for all-day wear.<br/><br/></li><li><a href=\"https://www.indyvogue.com/collections/chanderi-silk-saree?srsltid=AfmBOop4p4ZNEn9JYr1TpxXP_LEGs6fdzXMSckdDYrMbVvsCEqZV6XV1\"><span style=\"text-decoration:underline\"><strong>Chanderi Charm</strong></span></a>: Subtle metallic threadwork for a contemporary vibe.</li></ul><p><strong>Why Own It?</strong> Nothing beats the allure of tradition with a modern twist. These sarees are heirlooms in the making.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -658,6 +658,61 @@
         "code_cus_css": ""
       }
     },
+    "image_text_UJNYXg": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_JaYrhJ": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "7. Feather-Light Fabrics: Tissue and Liva",
+            "text": "<h3></h3><p>Float through your day with ultra-light fabrics that are big in 2025.</p><ul><li><a href=\"https://www.indyvogue.com/collections/tissue-silk-saree?srsltid=AfmBOor4SL_NXF7mcx60rJgGs0LUg6Eblngv7vGevfEd_lA8z_aFqKq8\"><span style=\"text-decoration:underline\"><strong>Tissue Sarees</strong></span></a>: Ethereal shine with delicate zari work.<br/><br/></li><li><strong>Liva Blends</strong>: Sustainable, soft, and flowy.<br/><br/></li><li><strong>Feather Detailing</strong>: Sometimes, you just want to feel like a bird.</li></ul><p><strong>Why Own It?</strong> These sarees are perfect for women on the go who refuse to compromise on style.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_JaYrhJ"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -669,8 +724,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "About the author",
-            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "heading": "Wrapping Up!",
+            "text": "<h3></h3><p>Sarees in 2025 are a celebration of individuality, innovation, and inclusivity. Whether you’re a lover of tradition or a fan of experimental styles, there’s a trend waiting for you to embrace it.</p><p>So, which of these trends are you adding to your wardrobe this year? Don’t wait too long—fashion waits for no one! And guess what this year, you will meet more hand-picked collections by me as I am gonna supervise and pick them directly from the artisans on your behalf. </p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -712,6 +767,61 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "image_text_eXpbbr": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_cWb3MQ": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_cWb3MQ"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -724,6 +834,8 @@
     "featured_collection_acG9t6",
     "image_text_QRPqr3",
     "image_text_TztEMN",
-    "e7b55938-3dde-44ab-9365-66967e09d447"
+    "image_text_UJNYXg",
+    "e7b55938-3dde-44ab-9365-66967e09d447",
+    "image_text_eXpbbr"
   ]
 }
