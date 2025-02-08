@@ -1013,7 +1013,50 @@ endif -%}
     {%- endcase -%}
 }
 </script>
-  
+{%- assign video_found = false -%}
+{%- for media in product.media -%}
+  {%- if media.media_type == 'video' and video_found == false -%}
+    
+    {%- assign video_url = "" -%}
+    
+    {%- for source in media.sources -%}
+      {%- if source.format == "mp4" -%}
+        {%- assign video_url = source.url -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+    
+    {%- if video_url != "" -%}
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "VideoObject",
+        "name": {{ product.title | json }},
+        "description": {{ product.description | strip_html | truncate: 160 | json }},
+        "thumbnailUrl": "https:{{ media.preview_image | image_url: width: 160 }}",
+        "uploadDate": "{{ product.created_at | date: '%Y-%m-%d' }}",
+        "contentUrl": "https:{{ video_url }}",
+        "embedUrl": "https:{{ video_url }}",
+        "publisher": {
+          "@type": "Organization",
+          "name": "IndyVogue",
+          "logo": {
+            "@type": "ImageObject",
+            "url": {%- if shop.logo -%}"{{ shop.logo | image_url: width: 500 }}"{%- else -%}"{{ 'logo.png' | asset_url }}"{%- endif -%}
+          }
+        },
+        "subjectOf": {
+          "@type": "Product",
+          "name": {{ product.title | json }},
+          "url": "{{ request.origin }}{{ product.url }}"
+        }
+      }
+      </script>
+      {%- assign video_found = true -%}
+    {%- endif -%}
+
+  {%- endif -%}
+{%- endfor -%}  
 {%- schema -%}
 {
   "name": "Product main",
