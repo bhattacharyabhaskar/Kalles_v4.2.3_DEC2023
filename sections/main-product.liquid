@@ -949,7 +949,7 @@ endif -%}
         {{ not_change }}
         "sku": "{{ variant.sku | default: variant.id }}",
         "price" : "{{ variant.price | divided_by: 100.00 }}",
-        "mpn": "{{ variant.barcode }}",
+        "mpn": "N/A",
         {%- if barcode_size == 12 or barcode_size == 13 or barcode_size == 14 -%}"gtin{{ barcode_size }}": "{{ variant.barcode }}",{%- endif -%}
         "url" : "{{ request.origin }}{{ variant.url }}"
       }{% unless forloop.last %},{% endunless -%}
