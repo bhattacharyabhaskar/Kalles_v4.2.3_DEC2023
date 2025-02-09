@@ -1034,7 +1034,7 @@ endif -%}
         "name": {{ product.title | json }},
         "description": {{ product.description | strip_html | truncate: 160 | json }},
         "thumbnailUrl": "https:{{ media.preview_image | image_url: width: 160 }}",
-        "uploadDate": "{{ product.created_at | date: '%Y-%m-%d' }}",
+        "uploadDate": "{{ product.created_at | date: '%Y-%m-%dT%H:%M:%S%:z' }}", 
         "contentUrl": "https:{{ video_url }}",
         "embedUrl": "https:{{ video_url }}",
         "publisher": {
