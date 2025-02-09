@@ -3,13 +3,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
-  <!-- Checking collections: buy-silk-mark-certified-saree, suites-dresses -->
 
   {% assign target_collections = "buy-silk-mark-certified-saree,suites-dresses" | split: "," %}
 
   {% for collection in collections %}
     {% if target_collections contains collection.handle %}
-      {% paginate collection.products by 500 %}  {# Increase limit from 50 to 100 per page #}
+      {% paginate collection.products by 500 %}  
       
         {% for product in collection.products %}
           {% assign has_inventory = false %}
