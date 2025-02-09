@@ -4,16 +4,22 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
 {% assign found_videos = false %}
-
 {% assign collections_to_check = "buy-silk-mark-certified-saree,suites-dresses" | split: "," %}
+
+<!-- Checking collections: {{ collections_to_check | join: ", " }} -->
 
 {% for collection_handle in collections_to_check %}
   {% assign collection = collections[collection_handle] %}
   
+  <!-- Processing collection: {{ collection.title }} ({{ collection.products.size }} products) -->
+
   {% for product in collection.products %}
     {% if product.available and product.total_inventory > 0 %}
+      
+      <!-- Checking product: {{ product.title }} (Inventory: {{ product.total_inventory }}) -->
+
       {% for media in product.media %}
-        {% if media.media_type == 'video' %}
+        {% if media.media_type == 'video' or media.media_type == 'external_video' %}
           {% assign found_videos = true %}
           <url>
             <loc>{{ shop.url }}{{ product.url }}</loc>
@@ -26,8 +32,12 @@
               <video:publication_date>{{ product.created_at | date: "%Y-%m-%dT%H:%M:%SZ" }}</video:publication_date>
             </video:video>
           </url>
+        {% else %}
+          <!-- Product {{ product.title }} has media type: {{ media.media_type }} -->
         {% endif %}
       {% endfor %}
+    {% else %}
+      <!-- Skipping product: {{ product.title }} (Out of stock) -->
     {% endif %}
   {% endfor %}
 {% endfor %}
