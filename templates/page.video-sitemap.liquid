@@ -1,0 +1,26 @@
+{% layout none %}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+{% for product in collections.all.products %}
+  {% if product.available and product.total_inventory > 0 %}
+    {% for media in product.media %}
+      {% if media.media_type == 'video' %}
+        <url>
+          <loc>{{ shop.url }}{{ product.url }}</loc>
+          <video:video>
+            <video:thumbnail_loc>{{ media.preview_image | image_url: width: 800 }}</video:thumbnail_loc>
+            <video:title><![CDATA[{{ product.title }}]]></video:title>
+            <video:description><![CDATA[{{ product.description | strip_html | truncate: 200 }}]]></video:description>
+            <video:content_loc>{{ media.sources[0].url }}</video:content_loc>
+            <video:player_loc>{{ media.sources[0].url }}?autoplay=1</video:player_loc>
+            <video:publication_date>{{ product.created_at | date: "%Y-%m-%dT%H:%M:%SZ" }}</video:publication_date>
+          </video:video>
+        </url>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+</urlset>
