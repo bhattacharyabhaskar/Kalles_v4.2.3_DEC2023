@@ -30,11 +30,11 @@
             {% for media in product.media %}
               {% if media.media_type == 'video' or media.media_type == 'external_video' %}
                 <video:video>
-                  <video:thumbnail_loc>{{ media.preview_image | image_url: width: 800 }}</video:thumbnail_loc>
+                  <video:thumbnail_loc>{{ media.preview_image | image_url: width: 800 | prepend: "https:" }}</video:thumbnail_loc>
                   <video:title><![CDATA[{{ product.title }}]]></video:title>
                   <video:description><![CDATA[{{ product.description | strip_html | truncate: 200 }}]]></video:description>
-                  <video:content_loc>{{ media.sources[0].url }}</video:content_loc>
-                  <video:player_loc>{{ media.sources[0].url }}?autoplay=1</video:player_loc>
+                  <video:content_loc>{{ media.sources[0].url | prepend: "https:" }}</video:content_loc>
+                  <video:player_loc>{{ media.sources[0].url | prepend: "https:" }}?autoplay=1</video:player_loc>
                   <video:publication_date>{{ product.created_at | date: "%Y-%m-%dT%H:%M:%SZ" }}</video:publication_date>
                 </video:video>
               {% endif %}
