@@ -2,61 +2,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-  {% assign target_collections = "buy-silk-mark-certified-saree,suites-dresses" | split: "," %}
+  
+  {% assign collections_to_include = "buy-silk-mark-certified-saree,suites-dresses" | split: "," %}
+  
+  {% for collection_handle in collections_to_include %}
+    {% assign collection = collections[collection_handle] %}
+    
+    {% for product in collection.products %}
+      {% assign has_inventory = false %}
+      {% for variant in product.variants %}
+        {% if variant.inventory_quantity > 0 or variant.inventory_policy == 'continue' %}
+          {% assign has_inventory = true %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
 
-  {% for collection in collections %}
-    {% if target_collections contains collection.handle %}
-      {% paginate collection.products by 500 %}  
-      
-        {% for product in collection.products %}
-          {% assign has_inventory = false %}
-          {% assign video_found = false %}
-          {% assign video_url = "" %}
-          {% assign thumbnail_url = "" %}
-          
-          {% for variant in product.variants %}
-            {% if variant.inventory_quantity > 0 %}
-              {% assign has_inventory = true %}
-              {% break %}
-            {% endif %}
-          {% endfor %}
-
-          {% if has_inventory %}
-            {% for media in product.media %}
-              {% if media.media_type == 'video' and video_found == false %}
-                
-                {% for source in media.sources %}
-                  {% if source.format == "mp4" %}
-                    {% assign video_url = source.url %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
-
-                {% if video_url != "" %}
-                  {% assign thumbnail_url = media.preview_image | image_url: width: 800 %}
-                  {% assign video_found = true %}
-                {% endif %}
+      {% if has_inventory %}
+        {% assign video_found = false %}
+        {% for media in product.media %}
+          {% if media.media_type == "video" and video_found == false %}
+            
+            {% assign video_url = "" %}
+            {% for source in media.sources %}
+              {% if source.format == "mp4" %}
+                {% assign video_url = source.url %}
+                {% break %}
               {% endif %}
             {% endfor %}
 
-            {% if video_found %}
+            {% if video_url != "" %}
               <url>
-                <loc>{{ shop.url }}{{ product.url }}</loc>
+                <loc>{{ product.url | prepend: shop.url }}</loc>
                 <video:video>
-                  <video:thumbnail_loc>{{ thumbnail_url | prepend: "https:" }}</video:thumbnail_loc>
+                  <video:thumbnail_loc>{{ media.preview_image | image_url: width: 800 | prepend: "https:" }}</video:thumbnail_loc>
                   <video:title><![CDATA[{{ product.title }}]]></video:title>
-                  <video:description><![CDATA[{{ product.description | strip_html | truncate: 200 }}]]></video:description>
+                  <video:description><![CDATA[{{ product.description | strip_html | truncate: 160 }}]]></video:description>
                   <video:content_loc>{{ video_url | prepend: "https:" }}</video:content_loc>
                   <video:player_loc>{{ video_url | prepend: "https:" }}?autoplay=1</video:player_loc>
-                  <video:publication_date>{{ product.created_at | date: "%Y-%m-%dT%H:%M:%SZ" }}</video:publication_date>
+                  <video:publication_date>{{ product.created_at | date: "%Y-%m-%dT%H:%M:%S%:z" }}</video:publication_date>
                 </video:video>
               </url>
+              {% assign video_found = true %}
             {% endif %}
           {% endif %}
         {% endfor %}
-
-      {% endpaginate %}
-    {% endif %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
-
 </urlset>
