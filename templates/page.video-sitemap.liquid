@@ -3,10 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
+{% assign found_videos = false %}
+
 {% for product in collections.all.products %}
   {% if product.available and product.total_inventory > 0 %}
     {% for media in product.media %}
       {% if media.media_type == 'video' %}
+        {% assign found_videos = true %}
         <url>
           <loc>{{ shop.url }}{{ product.url }}</loc>
           <video:video>
@@ -22,5 +25,9 @@
     {% endfor %}
   {% endif %}
 {% endfor %}
+
+{% if found_videos == false %}
+  <!-- No videos found in products -->
+{% endif %}
 
 </urlset>
