@@ -1044,11 +1044,6 @@ endif -%}
             "@type": "ImageObject",
             "url": {%- if shop.logo -%}"{{ shop.logo | image_url: width: 500 }}"{%- else -%}"{{ 'logo.png' | asset_url }}"{%- endif -%}
           }
-        },
-        "subjectOf": {
-          "@type": "Product",
-          "name": {{ product.title | json }},
-          "url": "{{ request.origin }}{{ product.url }}"
         }
       }
       </script>
