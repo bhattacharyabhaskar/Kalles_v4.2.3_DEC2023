@@ -12,7 +12,7 @@
       
       <!-- Processing collection: {{ collection.title }} -->
 
-      {% paginate collection.products by 100 %}  {# Increase limit from 50 to 100 per page #}
+      {% paginate collection.products by 500 %}  {# Increase limit from 50 to 100 per page #}
       
         {% for product in collection.products %}
           {% assign has_inventory = false %}
