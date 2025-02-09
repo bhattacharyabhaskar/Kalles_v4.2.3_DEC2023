@@ -9,9 +9,6 @@
 
   {% for collection in collections %}
     {% if target_collections contains collection.handle %}
-      
-      <!-- Processing collection: {{ collection.title }} -->
-
       {% paginate collection.products by 500 %}  {# Increase limit from 50 to 100 per page #}
       
         {% for product in collection.products %}
@@ -20,7 +17,6 @@
           {% assign video_url = "" %}
           {% assign thumbnail_url = "" %}
           
-          <!-- Check if any variant has inventory -->
           {% for variant in product.variants %}
             {% if variant.inventory_quantity > 0 %}
               {% assign has_inventory = true %}
@@ -29,11 +25,9 @@
           {% endfor %}
 
           {% if has_inventory %}
-            <!-- Check for videos -->
             {% for media in product.media %}
               {% if media.media_type == 'video' and video_found == false %}
                 
-                <!-- Find the MP4 video URL -->
                 {% for source in media.sources %}
                   {% if source.format == "mp4" %}
                     {% assign video_url = source.url %}
@@ -61,9 +55,6 @@
                 </video:video>
               </url>
             {% endif %}
-
-          {% else %}
-            <!-- Skipping product: {{ product.title }} (Out of stock) -->
           {% endif %}
         {% endfor %}
 
