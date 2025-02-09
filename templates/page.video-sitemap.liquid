@@ -16,6 +16,9 @@
       
         {% for product in collection.products %}
           {% assign has_inventory = false %}
+          {% assign video_found = false %}
+          {% assign video_url = "" %}
+          {% assign thumbnail_url = "" %}
           
           <!-- Check if any variant has inventory -->
           {% for variant in product.variants %}
@@ -26,41 +29,39 @@
           {% endfor %}
 
           {% if has_inventory %}
-            <url>
-              <loc>{{ shop.url }}{{ product.url }}</loc>
-
-              {% assign video_found = false %}
-              {% assign video_url = "" %}
-              {% assign thumbnail_url = "" %}
-              
-              {% for media in product.media %}
-                {% if media.media_type == 'video' and video_found == false %}
-                  
-                  <!-- Find the MP4 video URL -->
-                  {% for source in media.sources %}
-                    {% if source.format == "mp4" %}
-                      {% assign video_url = source.url %}
-                      {% break %}
-                    {% endif %}
-                  {% endfor %}
-
-                  {% if video_url != "" %}
-                    {% assign thumbnail_url = media.preview_image | image_url: width: 800 %}
-                    
-                    <video:video>
-                      <video:thumbnail_loc>{{ thumbnail_url | prepend: "https:" }}</video:thumbnail_loc>
-                      <video:title><![CDATA[{{ product.title }}]]></video:title>
-                      <video:description><![CDATA[{{ product.description | strip_html | truncate: 200 }}]]></video:description>
-                      <video:content_loc>{{ video_url | prepend: "https:" }}</video:content_loc>
-                      <video:player_loc>{{ video_url | prepend: "https:" }}?autoplay=1</video:player_loc>
-                      <video:publication_date>{{ product.created_at | date: "%Y-%m-%dT%H:%M:%SZ" }}</video:publication_date>
-                    </video:video>
-
-                    {% assign video_found = true %}
+            <!-- Check for videos -->
+            {% for media in product.media %}
+              {% if media.media_type == 'video' and video_found == false %}
+                
+                <!-- Find the MP4 video URL -->
+                {% for source in media.sources %}
+                  {% if source.format == "mp4" %}
+                    {% assign video_url = source.url %}
+                    {% break %}
                   {% endif %}
+                {% endfor %}
+
+                {% if video_url != "" %}
+                  {% assign thumbnail_url = media.preview_image | image_url: width: 800 %}
+                  {% assign video_found = true %}
                 {% endif %}
-              {% endfor %}
-            </url>
+              {% endif %}
+            {% endfor %}
+
+            {% if video_found %}
+              <url>
+                <loc>{{ shop.url }}{{ product.url }}</loc>
+                <video:video>
+                  <video:thumbnail_loc>{{ thumbnail_url | prepend: "https:" }}</video:thumbnail_loc>
+                  <video:title><![CDATA[{{ product.title }}]]></video:title>
+                  <video:description><![CDATA[{{ product.description | strip_html | truncate: 200 }}]]></video:description>
+                  <video:content_loc>{{ video_url | prepend: "https:" }}</video:content_loc>
+                  <video:player_loc>{{ video_url | prepend: "https:" }}?autoplay=1</video:player_loc>
+                  <video:publication_date>{{ product.created_at | date: "%Y-%m-%dT%H:%M:%SZ" }}</video:publication_date>
+                </video:video>
+              </url>
+            {% endif %}
+
           {% else %}
             <!-- Skipping product: {{ product.title }} (Out of stock) -->
           {% endif %}
