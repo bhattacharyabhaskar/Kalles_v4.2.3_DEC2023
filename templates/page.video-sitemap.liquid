@@ -25,7 +25,7 @@
             {% assign video_url = "" %}
             {% for source in media.sources %}
               {% if source.format == "mp4" %}
-                {% assign video_url = source.url %}
+                {% assign video_url = source.url | split: '?' | first %}
                 {% break %}
               {% endif %}
             {% endfor %}
