@@ -34,7 +34,7 @@
               <url>
                 <loc>{{ product.url | prepend: shop.url }}</loc>
                 <video:video>
-                  <video:thumbnail_loc>{{ media.preview_image | image_url: width: 800 | prepend: "https:" }}</video:thumbnail_loc>
+                  <video:thumbnail_loc>{{ media.preview_image | image_url: width: 800 | split: '?' | first | prepend: "https:" }}</video:thumbnail_loc>
                   <video:title><![CDATA[{{ product.title }}]]></video:title>
                   <video:description><![CDATA[{{ product.description | strip_html | truncate: 160 }}]]></video:description>
                   <video:content_loc>{{ video_url | prepend: "https:" }}</video:content_loc>
