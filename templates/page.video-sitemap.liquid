@@ -8,7 +8,7 @@
   {% for collection_handle in collections_to_include %}
     {% assign collection = collections[collection_handle] %}
     
-    {% paginate collection.products by 100 %}
+    {% paginate collection.products by 500 %}
       {% for product in collection.products %}
         {% assign has_inventory = false %}
         {% for variant in product.variants %}
