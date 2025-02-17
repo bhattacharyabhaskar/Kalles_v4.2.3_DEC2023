@@ -1864,6 +1864,7 @@
           },
           "main-qv-5": {
             "type": "meta",
+            "disabled": true,
             "settings": {
               "show_options": true,
               "show_vendor": false,
