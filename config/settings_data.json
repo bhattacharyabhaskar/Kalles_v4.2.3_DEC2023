@@ -1800,6 +1800,12 @@
               "pr_title_color_hover": "#56cfe1"
             }
           },
+          "custom_liquid_ayYani": {
+            "type": "custom_liquid",
+            "settings": {
+              "custom_liquid": "<div data-romw-token=\"z3J4XYe2bw8ecUBKzL0nc4CrpLmXeP9yvhYDZtcs4ToXaQEY0t\"></div>\n<script  type=\"lazyload_int\" data-src=\"https://reviewsonmywebsite.com/js/v2/embed.js?id=7bf8acda5d5930b1a9db343a4ec1b31c\" ></script>"
+            }
+          },
           "main-qv-1": {
             "type": "price_review",
             "settings": {
@@ -1814,7 +1820,7 @@
               "price_sale_color": "#ec0101"
             }
           },
-          "custom_liquid_ayYani": {
+          "custom_liquid_fLjhqA": {
             "type": "custom_liquid",
             "settings": {
               "custom_liquid": "<b>Price includes GST and IGST when sold in India</b>{%- assign is_sale_collection = false -%}\n                  {%- assign is_suite_collection = false -%}\n                  {% for collection in product.collections %}\n                    {% if collection.handle == \"sale\" %}\n                      {% assign is_sale_collection = true %}\n                    {% endif %}\n                    {% if collection.handle == \"suites-dresses\" %}\n                      {% assign is_suite_collection = true %}\n                    {% endif %}\n                  {% endfor %}\n                \n                {%- render 'tiered-discounts-display', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}"
@@ -1910,8 +1916,9 @@
         },
         "block_order": [
           "main-qv-0",
-          "main-qv-1",
           "custom_liquid_ayYani",
+          "main-qv-1",
+          "custom_liquid_fLjhqA",
           "main-qv-3",
           "main-qv-5",
           "86d5eb2e-7431-4c02-bcd9-03207e0e7058",
