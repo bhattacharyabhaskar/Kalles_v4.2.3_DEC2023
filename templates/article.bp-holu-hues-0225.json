@@ -221,6 +221,91 @@
         "code_cus_css": ""
       }
     },
+    "image_text_Hehxyx": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_rbA7MQ": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/holi-indyvogye-1.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_JtzpnR": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3><strong>5. The Golden Glow of Tussar & Tissue Sarees</strong></h3><p>If you’re looking for something that shimmers like Holi morning sunshine, opt for a golden-hued <a href=\"/collections/tussar-silk\" title=\"Pure Tussar Silk Sarees\">Tussar silk or Tissue saree</a>. The subtle glow of these fabrics beautifully complements the festive aura and adds a touch of elegance to your celebration.</p><p><br/><br/></p><h3><strong>Styling Tips for a Perfect Holi Look:</strong></h3><h3></h3><p>✔ <strong>Go Floral:</strong> Pair your saree with floral jewelry for a boho-chic festive look.<br/><br/>✔ <strong>Experiment with Blouses:</strong> Opt for embroidered, halter-neck, or contrast blouses to elevate your style.<br/><br/>✔ <strong>Drape It Differently:</strong> Try a dhoti-style or butterfly drape for a trendy Holi look.<br/><br/>✔ <strong>Minimal Makeup, Maximum Glow:</strong> Let your saree do the talking with a fresh, dewy makeup look.</p><p><br/></p><h3><strong>Wrapping Up</strong></h3><p>Holi is a celebration of colors, love, and happiness. Whether you’re indulging in the festivities or just soaking in the joyful vibes, the right saree can make your celebrations even more memorable. So, why wait? Pick your favorite Holi-inspired saree and paint your world with vibrant hues!</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_rbA7MQ",
+        "bl_text_JtzpnR"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -281,6 +366,7 @@
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "image_text_yiUAYH",
+    "image_text_Hehxyx",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
