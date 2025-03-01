@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -27,7 +36,7 @@
         "190dccc0-921d-4bc6-8dbb-51e27461095d": {
           "type": "2",
           "settings": {
-            "content": "<p>Sub title page content<\/p>",
+            "content": "<p>Sub title page content</p>",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 16,
@@ -79,9 +88,8 @@
     },
     "slider": {
       "type": "blog_slider",
-      "disabled": true,
       "settings": {
-        "blog": "news",
+        "blog": "indyvogue-fashion-center",
         "limit": 6,
         "date": "date",
         "col_dk": "3",
