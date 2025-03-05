@@ -263,7 +263,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong><br/>Pushpak Sen: The Man Who Wore a Saree to Milan</strong></h3><p>From Tollywood to the streets of Milan, saree-clad men are making waves. Enter <strong>Pushpak Sen</strong>, the <a href=\"https://www.firstpost.com/india/kolkata-man-goes-viral-for-donning-a-saree-on-the-streets-of-milan-10096591.html\"><span style=\"text-decoration:underline\">Kolkata-based influencer and artist who went viral for walking the streets of Milan in a saree</span></a>. And not just any saree—Pushpak chose <strong>bold patterns, contemporary drapes, and accessories</strong> that screamed “timeless meets modern.”</p><p>Imagine the cobblestone streets of Milan—bustling with high-fashion ensembles—and here comes Pushpak, radiating confidence, blending tradition with avant-garde street style. His ability to pair the saree with quirky accessories like chunky boots and edgy jewelry showcases how the garment can transcend cultural and gender norms.</p><p>Pushpak’s bold statement challenges global fashion narratives while celebrating India’s rich sartorial heritage. His Instagram captions often talk about breaking stereotypes, and his Milan moment became a beacon for embracing inclusivity in fashion.</p>",
+            "text": "<h3><strong><br/>Pushpak Sen: The Man Who Wore a Saree to Milan</strong></h3><p>From Tollywood to the streets of Milan, saree-clad men are making waves. Enter <strong>Pushpak Sen</strong>, the <a href=\"https://www.firstpost.com/india/kolkata-man-goes-viral-for-donning-a-saree-on-the-streets-of-milan-10096591.html\" title=\"https://www.firstpost.com/india/kolkata-man-goes-viral-for-donning-a-saree-on-the-streets-of-milan-10096591.html\">Kolkata-based influencer and artist who went viral for walking the streets of Milan in a saree</a>. And not just any saree—Pushpak chose <strong>bold patterns, contemporary drapes, and accessories</strong> that screamed “timeless meets modern.”</p><p>Imagine the cobblestone streets of Milan—bustling with high-fashion ensembles—and here comes Pushpak, radiating confidence, blending tradition with avant-garde street style. His ability to pair the saree with quirky accessories like chunky boots and edgy jewelry showcases how the garment can transcend cultural and gender norms.</p><p>Pushpak’s bold statement challenges global fashion narratives while celebrating India’s rich sartorial heritage. His Instagram captions often talk about breaking stereotypes, and his Milan moment became a beacon for embracing inclusivity in fashion.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -310,35 +310,11 @@
     "image_text_Ay4akT": {
       "type": "image_text",
       "blocks": {
-        "bl_text_RPfVid": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2><strong>3. Drape it Right: Elegance Meets Efficiency</strong></h2><p>You don’t want to keep adjusting your saree while handling an important presentation. The right drape can make all the difference!</p><p>✅ <strong>Nivi Style</strong> – The classic, neatly pleated drape that’s sleek, formal, and practical.<br/>✅ <strong>Belted Saree Look</strong> – Adds a structured feel while keeping your pallu in place all day.<br/>✅ <strong>Pleated Pallu Drape</strong> – Tuck the pallu neatly over your shoulder for a sharp, no-fuss appearance.</p><h2><strong>4. Keep Accessories Chic & Minimal</strong></h2><p>Less is more when it comes to office accessories. You want to complement your saree, not overpower it.</p><p>💎 <strong>Statement Studs or Pearl Earrings</strong> – Classy, elegant, and never distracting.<br/>💎 <strong>A Sleek Watch & Bracelet</strong> – Add just the right amount of sophistication.<br/>💎 <strong>Neutral or Solid-Colored Handbag</strong> – A structured tote or satchel keeps the look professional.</p><p><em>Boss Babe Tip:</em> Swap out chunky bangles for a <strong>single elegant kada</strong> to keep it minimal yet striking.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
         "bl_image_JYiUCk": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Footwear_Style.png",
-            "col_dk": "12",
+            "image1": "shopify://shop_images/Siddhartha_Batra.png",
+            "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
@@ -362,40 +338,8 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
-        }
-      },
-      "block_order": [
-        "bl_text_RPfVid",
-        "bl_image_JYiUCk"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_9kiKfh": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_ycCTE4": {
+        },
+        "bl_text_RPfVid": {
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
@@ -404,7 +348,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2><strong>5. Footwear Matters: Walk the Talk</strong></h2><p>Your saree deserves the perfect finishing touch—<em>stylish yet comfortable footwear!</em></p><p>👠 <strong>Block Heels or Wedges</strong> – Adds height without compromising comfort.<br/>👠 <strong>Pointed-Toe Flats or Mules</strong> – A power move that’s chic and effortless.<br/>👠 <strong>Classic Pumps</strong> – Nothing screams ‘boss babe’ louder than a pair of sleek pumps.</p><h2><strong>Confidence is Your Ultimate Power Accessory!</strong></h2><p>No outfit, no saree, and no pair of heels can replace the magic of confidence. Walk tall, own your space, and radiate that boss-babe energy. Whether you’re leading a meeting, cracking a deal, or simply making a statement with your fashion choices—<strong>remember, you are the power in your power dressing!</strong></p><p>So go ahead, embrace the saree like the corporate queen you are, and redefine boardroom fashion—one stunning drape at a time! And once again, <strong>Happy Women’s Day!</strong></p>",
+            "text": "<h3><strong><br/>Siddhartha Batra’s Saree Draping Masterclass</strong></h3><p>Siddhartha Batra, the poster boy for experimental fashion, didn’t just wear a saree—he redefined couple goals by draping his girlfriend <a href=\"https://www.instagram.com/komalpandeyofficial/?hl=en\"><span style=\"text-decoration:underline\"><strong>Komaal Pandey’s</strong></span></a><strong> saree</strong> on himself. And boy, did he ace it!</p><p>The saree, a pastel chiffon with intricate embroidery, was styled with finesse as Siddhartha wrapped it around himself with effortless grace. The photoshoot captured his poise and confidence, making the internet frenzy. He paired the saree with a crisp white shirt and minimal jewelry, showing that less is more when it comes to rocking this nine-yard wonder.</p><p>What made this moment even more iconic was its subtle messaging: fashion is about <strong>expression, not boundaries</strong>. Siddhartha’s embrace of the saree wasn’t just about style; it was about creating a space where clothing became a tool for self-expression, irrespective of gender norms.</p><h3><strong>The Power of Men in Sarees</strong></h3><p>What’s common across these trailblazers is their <strong>unwavering confidence</strong> and the way they embrace sarees without conforming to societal expectations. Be it Allu Arjun’s larger-than-life cinematic portrayal, Pushpak Sen’s international street style statement, or Siddhartha Batra’s intimate fashion experiment, each moment redefines what it means to wear a saree.</p><p>And why not? The saree is one of the most versatile garments ever created. It’s timeless, gender-neutral, and a true canvas for cultural and personal storytelling. From festivals to fashion weeks, it’s high time we all agreed: a saree’s charm knows no boundaries, and when men embrace it, they bring a whole new layer of elegance to the table.</p><h3><strong>A Sip of Freedom</strong></h3><p>Whether Allu Arjun’s cinematic brilliance inspires you, Pushpak Sen’s Milanese moment, or Siddhartha Batra’s heartfelt sartorial experiment, one thing is clear: the saree is no longer just a woman’s garment. It’s a universal symbol of style, grace, and rebellion against the mundane.</p><p>So, to all the men out there—are you ready to drape your story in nine yards of magic? The world is watching, and the saree is waiting!</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -421,7 +365,8 @@
         }
       },
       "block_order": [
-        "bl_text_ycCTE4"
+        "bl_image_JYiUCk",
+        "bl_text_RPfVid"
       ],
       "settings": {
         "design_heading": "1",
@@ -509,7 +454,6 @@
     "image_text_cy6tq9",
     "image_text_TztEMN",
     "image_text_Ay4akT",
-    "image_text_9kiKfh",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
