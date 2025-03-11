@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Allu Arjun in a Saree (SURPRISED!) Men in Sarees Stealing Hearts from Streets to Movies!",
-            "text": "<p>Who said sarees are just for women? Well, it’s 2025, and the age-old notion that sarees are solely a woman’s domain is crumbling faster than a crispy dosa.</p><p>From South Indian superstars like <a href=\"https://en.wikipedia.org/wiki/Allu_Arjun\"><span style=\"text-decoration:underline\">Allu Arjun</span></a> to street fashion trailblazers like <a href=\"https://www.instagram.com/pushpaksen_/\"><span style=\"text-decoration:underline\">Kolkata’s Pushpak Sen</span></a> and Instagram’s fashion favorite <a href=\"https://www.instagram.com/siddharth93batra/?hl=en\"><span style=\"text-decoration:underline\">Siddhartha Batra</span></a>, or <a href=\"https://www.instagram.com/boseoninsta/?hl=en\"><span style=\"text-decoration:underline\">Rohit Bose</span></a> the Insta Dhoti Drape Influencer, all these men in sarees are not just turning heads but also rewriting the rule book of traditional style.</p><p>Let’s dive in and explore how men in sarees are breaking stereotypes and winning hearts everywhere!</p>",
+            "heading": "Sustainable Sarees to Celebrate Ugadi & Gudi Padwa in Style!",
+            "text": "<p>The arrival of <a href=\"https://en.wikipedia.org/wiki/Ugadi\"><span style=\"text-decoration:underline\">Ugadi</span></a> and <a href=\"https://en.wikipedia.org/wiki/Gudi_Padwa\"><span style=\"text-decoration:underline\">Gudi Padwa</span></a> marks the beginning of a new year, a fresh start filled with prosperity, joy, and tradition. These festivals are not just about delectable treats and vibrant decorations—they’re also about dressing in our cultural best. </p><p>This year, why not celebrate in an eco-friendly style with sustainable sarees that honor both tradition and nature?</p><h3><strong>Why Choose Sustainable Sarees?</strong></h3><p>Fashion with a conscience is the way forward! Sustainable sarees are crafted using environmentally friendly materials and ethical weaving practices. Choosing these sarees supports artisans, reduces carbon footprints, and ensures you wear something as pure as the celebrations themselves.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -142,7 +142,7 @@
         "bl_image_Ae9rL7": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Allu_Arjun.jpg",
+            "image1": "shopify://shop_images/Body_Image.png",
             "image2": "shopify://shop_images/Image_2_83d24199-51f9-4f89-a19e-a84964c2f6a9.png",
             "col_dk": "12",
             "col_tb": "6",
@@ -177,8 +177,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "",
-            "text": "<h3><strong><br/>Allu Arjun in “Pushpa 2”: A Scene-Stealing Saree Moment</strong></h3><p>When the <a href=\"https://www.youtube.com/watch?v=1kVK0MZlbI4\"><span style=\"text-decoration:underline\"><em>teaser for Pushpa 2</em></span></a><em> </em>dropped, fans went wild over Allu Arjun’s swag, rugged persona, and intense action sequences. But what truly made jaws drop was the breathtaking scene where he dons a saree to perform a ritual and, in true Pushpa style, breaks into an electrifying dance.</p><p><strong>Picture this:</strong> Allu Arjun wrapped in a traditional <strong>silk saree</strong>, styled as a dhoti, with the pallu flowing gracefully over his shoulder. It’s not just a fashion statement—it’s a cultural ode, deeply rooted in rituals. The moment is cinematic gold: with rhythmic beats in the background, he performs the traditional puja and then transitions into a high-energy dance that only Allu Arjun can pull off. His steps, synchrony, and unapologetic confidence prove that masculinity and grace can go hand in hand.</p><p>What’s remarkable here is how effortlessly he carries the saree, showcasing the versatility of this garment. The scene’s emotional depth paired with the visual grandeur makes it one of the most memorable moments in Indian cinema. Trust Allu Arjun to make even a saree look like a power suit of style and swag!</p>",
+            "heading": "Top Sustainable Sarees for Ugadi & Gudi Padwa",
+            "text": "<h4><strong>1. Organic Cotton Sarees – Breathable, Comfortable & Ethical</strong></h4><p>Nothing beats the comfort of <strong>handwoven organic cotton</strong> sarees. Made using natural dyes and free from synthetic chemicals, these sarees are perfect for all-day wear, keeping you comfortable while looking effortlessly elegant.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -225,35 +225,6 @@
     "image_text_TztEMN": {
       "type": "image_text",
       "blocks": {
-        "bl_image_9CmbH3": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Pushpak_Sen.png",
-            "col_dk": "12",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
         "bl_text_bbwXwi": {
           "type": "bl_text",
           "settings": {
@@ -280,7 +251,6 @@
         }
       },
       "block_order": [
-        "bl_image_9CmbH3",
         "bl_text_bbwXwi"
       ],
       "settings": {
