@@ -142,7 +142,7 @@
         "bl_image_Ae9rL7": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Allu_Arjun.jpg",
+            "image1": "shopify://shop_images/allu-arjun_pushpa2.webp",
             "image2": "shopify://shop_images/Image_2_83d24199-51f9-4f89-a19e-a84964c2f6a9.png",
             "col_dk": "12",
             "col_tb": "6",
@@ -342,13 +342,13 @@
         "bl_text_RPfVid": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "12",
+            "col_dk": "6",
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong><br/>Siddhartha Batra’s Saree Draping Masterclass</strong></h3><p>Siddhartha Batra, the poster boy for experimental fashion, didn’t just wear a saree—he redefined couple goals by draping his girlfriend <a href=\"https://www.instagram.com/komalpandeyofficial/?hl=en\"><span style=\"text-decoration:underline\"><strong>Komaal Pandey’s</strong></span></a><strong> saree</strong> on himself. And boy, did he ace it!</p><p>The saree, a pastel chiffon with intricate embroidery, was styled with finesse as Siddhartha wrapped it around himself with effortless grace. The photoshoot captured his poise and confidence, making the internet frenzy. He paired the saree with a crisp white shirt and minimal jewelry, showing that less is more when it comes to rocking this nine-yard wonder.</p><p>What made this moment even more iconic was its subtle messaging: fashion is about <strong>expression, not boundaries</strong>. Siddhartha’s embrace of the saree wasn’t just about style; it was about creating a space where clothing became a tool for self-expression, irrespective of gender norms.</p><h3><strong>The Power of Men in Sarees</strong></h3><p>What’s common across these trailblazers is their <strong>unwavering confidence</strong> and the way they embrace sarees without conforming to societal expectations. Be it Allu Arjun’s larger-than-life cinematic portrayal, Pushpak Sen’s international street style statement, or Siddhartha Batra’s intimate fashion experiment, each moment redefines what it means to wear a saree.</p><p>And why not? The saree is one of the most versatile garments ever created. It’s timeless, gender-neutral, and a true canvas for cultural and personal storytelling. From festivals to fashion weeks, it’s high time we all agreed: a saree’s charm knows no boundaries, and when men embrace it, they bring a whole new layer of elegance to the table.</p><h3><strong>A Sip of Freedom</strong></h3><p>Whether Allu Arjun’s cinematic brilliance inspires you, Pushpak Sen’s Milanese moment, or Siddhartha Batra’s heartfelt sartorial experiment, one thing is clear: the saree is no longer just a woman’s garment. It’s a universal symbol of style, grace, and rebellion against the mundane.</p><p>So, to all the men out there—are you ready to drape your story in nine yards of magic? The world is watching, and the saree is waiting!</p>",
+            "text": "<h3><strong><br/>Siddhartha Batra’s Saree Draping Masterclass</strong></h3><p>Siddhartha Batra, the poster boy for experimental fashion, didn’t just wear a saree—he redefined couple goals by draping his girlfriend <a href=\"https://www.instagram.com/komalpandeyofficial/?hl=en\"><span style=\"text-decoration:underline\"><strong>Komaal Pandey’s</strong></span></a><strong> saree</strong> on himself. And boy, did he ace it!</p><p>The saree, a pastel chiffon with intricate embroidery, was styled with finesse as Siddhartha wrapped it around himself with effortless grace. The photoshoot captured his poise and confidence, making the internet frenzy. He paired the saree with a crisp white shirt and minimal jewelry, showing that less is more when it comes to rocking this nine-yard wonder.</p><p>What made this moment even more iconic was its subtle messaging: fashion is about <strong>expression, not boundaries</strong>. Siddhartha’s embrace of the saree wasn’t just about style; it was about creating a space where clothing became a tool for self-expression, irrespective of gender norms.</p><h3><strong>The Power of Men in Sarees</strong></h3><p>What’s common across these trailblazers is their <strong>unwavering confidence</strong> and the way they embrace sarees without conforming to societal expectations. Be it Allu Arjun’s larger-than-life cinematic portrayal, Pushpak Sen’s international street style statement, or Siddhartha Batra’s intimate fashion experiment, each moment redefines what it means to wear a saree.</p><p>And why not? The saree is one of the most versatile garments ever created. It’s timeless, gender-neutral, and a true canvas for cultural and personal storytelling. From festivals to fashion weeks, it’s high time we all agreed: a saree’s charm knows no boundaries, and when men embrace it, they bring a whole new layer of elegance to the table.</p><p></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -367,6 +367,61 @@
       "block_order": [
         "bl_image_JYiUCk",
         "bl_text_RPfVid"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_BGGwj7": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_eHjUxT": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3></h3><h3><strong>A Sip of Freedom</strong></h3><p>Whether Allu Arjun’s cinematic brilliance inspires you, Pushpak Sen’s Milanese moment, or Siddhartha Batra’s heartfelt sartorial experiment, one thing is clear: the saree is no longer just a woman’s garment. It’s a universal symbol of style, grace, and rebellion against the mundane.</p><p>So, to all the men out there—are you ready to drape your story in nine yards of magic? The world is watching, and the saree is waiting!</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_eHjUxT"
       ],
       "settings": {
         "design_heading": "1",
@@ -454,6 +509,7 @@
     "image_text_cy6tq9",
     "image_text_TztEMN",
     "image_text_Ay4akT",
+    "image_text_BGGwj7",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
