@@ -316,7 +316,7 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "head_btn_label": "View All",
-        "head_btn_url": "shopify://collections/kani-silk",
+        "head_btn_url": "https://www.indyvogue.com/collections/kani-silk",
         "head_btn_icon": false,
         "head_btn_style": "default",
         "head_btn_size": "medium",
