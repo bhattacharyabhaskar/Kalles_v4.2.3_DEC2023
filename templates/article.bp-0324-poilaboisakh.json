@@ -348,10 +348,180 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
+        },
+        "bl_image_JFkwCy": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_for_the_blog_3.png",
+            "col_dk": "12",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
         }
       },
       "block_order": [
-        "bl_text_bbwXwi"
+        "bl_text_bbwXwi",
+        "bl_image_JFkwCy"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_RrFnU8": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_bNYP9A": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p>Imagine the bustling markets of Gariahat or College Street before Poila Baisakh—shoppers bargaining over gorgeous reds, crisp whites with broad borders, and pastel shades perfect for the summer heat. <strong>It’s not just shopping; it’s a ritual!</strong></p><h2>A Celebration Beyond Borders</h2><p>Whether you’re in Kolkata, New Jersey, or London, Poila Baisakh brings every Bengali heart back home. The saree draping, the sindoor-laced smiles, and the rhythmic beats of <strong>Rabindra Sangeet in the background</strong>—it’s a feeling that transcends distance. And thanks to online saree boutiques, every Bengali woman, no matter where she is, can embrace this tradition with a stunning six yards of grace.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        },
+        "bl_image_3ErRE8": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_for_the_blog_2.png",
+            "col_dk": "12",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_bNYP9A",
+        "bl_image_3ErRE8"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_hLCWNm": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_6PymUH": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Drape the New Year in Style</h2><p>So, as we welcome <strong>Bengali Year 1431</strong>, let’s do it with flair. Whether it’s a regal <strong>Banarasi</strong>, a breezy <strong>Linen</strong>, or a heritage-rich <strong>Kantha-stitch saree</strong>, let your drape reflect the beauty of our culture.</p><p>After all, <strong>what’s Poila Baisakh without the perfect saree?</strong></p><p>Shubho Nobo Borsho! May your year be as vibrant and beautiful as your saree!</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_6PymUH"
       ],
       "settings": {
         "design_heading": "1",
@@ -440,6 +610,8 @@
     "featured_collection_acG9t6",
     "video_featured_6LByNR",
     "image_text_TztEMN",
+    "image_text_RrFnU8",
+    "image_text_hLCWNm",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
