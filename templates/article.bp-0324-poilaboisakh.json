@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/A_Teeny-Weeny_Bengali_Valentine_s_Day_Story.png",
+            "image": "shopify://shop_images/Banner_image_166f10e0-16c3-40c3-87ae-784816a796f5.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "A Teeny-Weeny Bengali Valentine’s Day Story",
-            "text": "<p><strong>This is a story shared by one of my patrons, (won’t reveal her name, it’s a girl’ secret) and I have loved to pen it down in the form of a diary note, as she quoted her whole thing from an old diary of hers. And remember the date and time are also kept fictional so as not to reveal her age 😛. </strong></p><p><strong>Hope this jogs up all our Bengali Valentine's Day memories and those Mum’s saree or heirlooms we have!</strong></p><p>Dear Diary,</p><p>2025 is here, and so is Saraswati Puja—but this year, thanks to my dreadful exams, it’s just me, my books, and you. No saree, no hustle, and certainly no dream boy waiting at the pandal. But before I drown in self-pity, let me rewind to last year’s Puja — the most magical, awkward, and unforgettable day of my life.</p><h3>The First Glimpse (Prothom Dekhaa!)</h3><p>It all started at school when I spotted him during the assembly. Let’s call him “Mr. Dimples” because, oh my, those dimples could sink a ship! He was standing there, completely oblivious to my existence, but something told me Saraswati Puja 2024 would change that. And so, the grand planning began.</p>",
+            "heading": "Poila Baisakh: A New Year, A New Saree, A New Celebration!",
+            "text": "<p>নিশি অবসানপ্রায়, ওই পুরাতন<br/>            বর্ষ হয় গত!<br/>      আমি আজি ধূলিতলে এ জীর্ণ জীবন<br/>            করিলাম নত।<br/>বন্ধু হও, শত্রু হও,   \tযেখানে যে কেহ রও,<br/>      ক্ষমা করো আজিকার মতো<br/>           \tপুরাতন বরষের সাথে<br/>           \tপুরাতন অপরাধ যত।<br/><br/>~ Rabindranath Tagore~</p><p>Beginning the context of this blog with Rabindranath, and as he correctly says that as soon as the night is over, a new sunrise bringing a new day and ringing the bell of the new year, he asks us to forgive and forget the bygones and start afresh!</p><p>So with his notes imprinted in mind, let's celebrate Poila Baisakh together this year with a new spirit!</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -111,7 +111,7 @@
         "bl_image_KhNdWx": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Image_1.png",
+            "image1": "shopify://shop_images/Image_for_the_blog.png",
             "col_dk": "12",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -178,7 +178,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong>Raiding Mum’s Wardrobe (Maa er Deraaj Ghantaa)</strong></h3><p>“Maa, where are your sarees?” I shouted, rummaging through her neatly stacked wardrobe. <strong>Yellow</strong>? Too bright. <strong>Orange</strong>? Too loud. <strong>Green</strong>? Too meh. <strong>White</strong> with a gold border? Perfect! Maa walked in just as I held up her favorite saree. </p><p>“You’ll ruin it,” she said, half-annoyed, half-amused. But even she couldn’t resist my wide-eyed plea. “Okay, okay,” she sighed. “Let me help you drape it.”</p><h3><strong>Learning the Saree Secrets (Saree Boddo Jhamela)</strong></h3><p>Turns out, draping a saree isn’t as simple as it looks in movies. Maa folded, tucked, and pinned with the precision of a scientist while I tried to stay still. “Stop fidgeting,” she scolded. </p><p>By the time she finished, I looked at myself in the mirror and…wow! Who was this elegant person staring back? It was like saree magic transformed me from a regular girl into a goddess-in-training.</p><h3><strong>To Ponytail or Not to Ponytail (Khola chule elokeshi)<br/></strong></h3><p>The next dilemma: Hair! My school-girl instincts screamed ponytail, but Maa had other ideas. “Open hair,” she insisted, brushing it out and adding a small flower pin for effect. </p><p>One last glance in the mirror, and I couldn’t believe it. Maybe…just maybe, Mr. Dimples would notice me today.</p>",
+            "text": "<p>Bengalis across the globe know that when the calendar flips to <strong>Poila Baisakh</strong>, it’s not just about a new year—it’s about new beginnings, new clothes, and, most importantly, <strong>new sarees! And this time let the new sarees be from IndyVogue.</strong></p><p>The air is filled with the aroma of <strong>shorshe ilish</strong> and freshly made sweets, but let’s be honest—Poila Baisakh truly begins when you step into your finest drape, adjusting the pleats with a smile, ready to take on the new year in style!</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -192,41 +192,10 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_Ae9rL7": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Image_1.png",
-            "image2": "shopify://shop_images/Image_2_83d24199-51f9-4f89-a19e-a84964c2f6a9.png",
-            "col_dk": "12",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "bl_text_tjKJ4H",
-        "bl_image_Ae9rL7"
+        "bl_text_tjKJ4H"
       ],
       "settings": {
         "design_heading": "1",
@@ -324,6 +293,35 @@
         "code_cus_css": ""
       }
     },
+    "video_featured_6LByNR": {
+      "type": "video_featured",
+      "settings": {
+        "se_height": "t4s_ratio16_9",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "image_text_TztEMN": {
       "type": "image_text",
       "blocks": {
@@ -336,7 +334,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong>The Saree Shuffle (Prothom honchot)</strong></h3><p>But elegance came at a price. Walking in a saree is like navigating an obstacle course. First, sitting on the floor for the puja without crumpling the pleats. Next, walking without tripping over the pallu. Let’s just say my inner monologue was a constant chant of “Don’t fall, don’t fall.”</p><h3><strong>Making Heads Turn (Kella fateh!)</strong></h3><p>The moment finally arrived. I entered the pandal with my friends, my heart thumping louder than the dhaak. And there he was, Mr. Dimples, chatting with his friends. </p><p>I nervously adjusted my pallu, and as if on cue, he turned and…paused. Was that a smile? Yes, it was! His eyes scanned my saree, and my face, and for a split second, I felt like the queen of the universe.</p><h3><strong>First Words, First Magic (Sundor muhurto gulo)</strong></h3><p>He walked over. Yes, walked over! “You look…nice,” he said, scratching his head like he’d never complimented anyone before. </p><p>My cheeks turned the same shade as Maa’s red bindi. We chatted, and laughed, and for the first time, I realized why Saraswati Puja is called the Bengali Valentine’s Day.<strong><br/><br/></strong>And now, here I am, sulking in my room with physics formulas instead of pleats and pallu. Maa’s sarees are untouched this year, and the pandal feels a million miles away. But you know what, Diary? </p><p>This wait is just making next year’s Puja all the more special. Until then, I’ll dream of the yellow saree, open hair, and maybe…just maybe…another magical moment with Mr. Dimples.</p><p>Love,</p><p>Your saree-smitten, daydreaming girl.</p>",
+            "text": "<h2>The Spirit of Poila Baisakh in a Saree</h2><p>For Bengali women, a <strong>saree on Poila Baisakh is not just an outfit—it’s tradition, it’s pride, it’s nostalgia.</strong> From the crisp rustling of a <strong>taant saree</strong> to the luxurious drape of a <a href=\"https://www.indyvogue.com/collections/baluchari-silk-saree?srsltid=AfmBOoo_7OYb8p1eHRhc-pKqe6oF9YehVOGW30GbKT9Ejww4B1eigoRC\"><span style=\"text-decoration:underline\"><strong>Baluchari</strong></span></a><strong> or a </strong><a href=\"https://www.indyvogue.com/collections/dhakai-jamdani-sarees?srsltid=AfmBOopNerHJXFoT9c46NRCCqMgJvqhTM2SQdf6M3jLJt2VYY-QD29XB\"><span style=\"text-decoration:underline\"><strong>Dhakai Jamdani</strong></span></a>, every weave tells a story. It’s a tribute to our roots, a reminder of the artistry that makes Bengal’s handloom world-famous.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -440,6 +438,7 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "image_text_cy6tq9",
     "featured_collection_acG9t6",
+    "video_featured_6LByNR",
     "image_text_TztEMN",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
