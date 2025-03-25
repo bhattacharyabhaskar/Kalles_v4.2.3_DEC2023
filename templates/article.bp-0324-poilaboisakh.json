@@ -322,7 +322,7 @@
         "loop_video": true,
         "bg_overlay": "#000000",
         "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
+        "layout": "t4s-se-container",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
