@@ -437,7 +437,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "ikat-silk-saree",
-            "image": "shopify://shop_images/Ikkat-New_b949539a-cff5-43cc-8683-a5928022f466.webp",
+            "image": "shopify://shop_images/Ikkat_HP.jpg",
             "col_dk": "3",
             "col_tb": "3",
             "col_mb": "6",
@@ -449,7 +449,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "kantha-stitch-hand-embroidery",
-            "image": "shopify://shop_images/Kantha-Stitch-New.jpg",
+            "image": "shopify://shop_images/Kantha_HP.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
