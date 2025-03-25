@@ -166,91 +166,6 @@
         "code_cus_css": ""
       }
     },
-    "image_text_TcnK7r": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_EU6Xn4": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Poila Baisakh: A New Year, A New Saree, A New Celebration!",
-            "text": "<p>নিশি অবসানপ্রায়, ওই পুরাতন<br/>            বর্ষ হয় গত!<br/>      আমি আজি ধূলিতলে এ জীর্ণ জীবন<br/>            করিলাম নত।<br/>বন্ধু হও, শত্রু হও,   \tযেখানে যে কেহ রও,<br/>      ক্ষমা করো আজিকার মতো<br/>           \tপুরাতন বরষের সাথে<br/>           \tপুরাতন অপরাধ যত।<br/><br/>~ Rabindranath Tagore~</p><p>Beginning the context of this blog with Rabindranath, and as he correctly says that as soon as the night is over, a new sunrise bringing a new day and ringing the bell of the new year, he asks us to forgive and forget the bygones and start afresh!</p><p>So with his notes imprinted in mind, let's celebrate Poila Baisakh together this year with a new spirit!</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
-        "bl_image_dFK3Lt": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Image_for_the_blog.png",
-            "col_dk": "12",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_EU6Xn4",
-        "bl_image_dFK3Lt"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_cy6tq9": {
       "type": "image_text",
       "blocks": {
@@ -691,7 +606,6 @@
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
-    "image_text_TcnK7r",
     "image_text_cy6tq9",
     "video_featured_6LByNR",
     "image_text_TztEMN",
