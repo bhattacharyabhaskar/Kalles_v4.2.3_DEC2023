@@ -377,7 +377,7 @@
           "type": "collection_item",
           "settings": {
             "collection": "kanchipuram-sarees",
-            "image": "shopify://shop_images/Kanjeevaram-New.jpg",
+            "image": "shopify://shop_images/Kanji_HP.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "col_mb": "12",
@@ -535,7 +535,7 @@
       "settings": {
         "design_heading": "2",
         "heading_align": "t4s-text-center",
-        "top_heading": "<h2>Exclusive Designer Silk Saree Collections</h2>",
+        "top_heading": "Exclusive Designer Silk Saree Collections",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
