@@ -90,10 +90,65 @@
             "col_dk": "12",
             "col_tb": "12",
             "text_size": "40,15",
-            "txt_align": "start",
+            "txt_align": "center",
             "sub_heading": "",
             "heading": "Poila Baisakh: A New Year, A New Saree, A New Celebration!",
-            "text": "<p>নিশি অবসানপ্রায়, ওই পুরাতন<br/>            বর্ষ হয় গত!<br/>      আমি আজি ধূলিতলে এ জীর্ণ জীবন<br/>            করিলাম নত।<br/>বন্ধু হও, শত্রু হও,   \tযেখানে যে কেহ রও,<br/>      ক্ষমা করো আজিকার মতো<br/>           \tপুরাতন বরষের সাথে<br/>           \tপুরাতন অপরাধ যত।<br/><br/>~ Rabindranath Tagore~</p><p>Beginning the context of this blog with Rabindranath, and as he correctly says that as soon as the night is over, a new sunrise bringing a new day and ringing the bell of the new year, he asks us to forgive and forget the bygones and start afresh!</p><p>So with his notes imprinted in mind, let's celebrate Poila Baisakh together this year with a new spirit!</p>",
+            "text": "<p>নিশি অবসানপ্রায়, ওই পুরাতন<br/>            বর্ষ হয় গত!<br/>      আমি আজি ধূলিতলে এ জীর্ণ জীবন<br/>            করিলাম নত।<br/>বন্ধু হও, শত্রু হও,   \tযেখানে যে কেহ রও,<br/>      ক্ষমা করো আজিকার মতো<br/>           \tপুরাতন বরষের সাথে<br/>           \tপুরাতন অপরাধ যত।<br/><br/>~ Rabindranath Tagore~</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_TcnK7r": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_EU6Xn4": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p>Beginning the context of this blog with Rabindranath, and as he correctly says that as soon as the night is over, a new sunrise bringing a new day and ringing the bell of the new year, he asks us to forgive and forget the bygones and start afresh!</p><p>So with his notes imprinted in mind, let's celebrate Poila Baisakh together this year with a new spirit!</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -108,7 +163,7 @@
             "button_effect": "default"
           }
         },
-        "bl_image_KhNdWx": {
+        "bl_image_dFK3Lt": {
           "type": "bl_image",
           "settings": {
             "image1": "shopify://shop_images/Image_for_the_blog.png",
@@ -139,8 +194,8 @@
         }
       },
       "block_order": [
-        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1",
-        "bl_image_KhNdWx"
+        "bl_text_EU6Xn4",
+        "bl_image_dFK3Lt"
       ],
       "settings": {
         "design_heading": "1",
@@ -235,7 +290,7 @@
         "video_url": "https://youtu.be/GGkvw4yTdNI",
         "au_video": false,
         "loop_video": true,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "bg_opacity": 0,
         "layout": "t4s-container-fluid",
         "cl_bg": "",
@@ -475,6 +530,78 @@
         "code_cus_css": ""
       }
     },
+    "featured_collection_7Pk8Ep": {
+      "type": "featured-collection",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "head_btn_label": "View All",
+        "head_btn_url": "",
+        "head_btn_icon": false,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
+        "collection": "red-and-white-saree-collection",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "rationt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "limit": 8,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btns_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "use_pagination": "none",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "default",
+        "btns_size": "large",
+        "btns_cl": "dark",
+        "button_effect": "default",
+        "btn_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -534,11 +661,13 @@
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "image_text_TcnK7r",
     "image_text_cy6tq9",
     "video_featured_6LByNR",
     "image_text_TztEMN",
     "image_text_RrFnU8",
     "image_text_hLCWNm",
+    "featured_collection_7Pk8Ep",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
