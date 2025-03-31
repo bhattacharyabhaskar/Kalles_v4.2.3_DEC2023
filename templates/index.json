@@ -373,7 +373,7 @@
         "height_mb": 250,
         "eff": "fade",
         "loop": true,
-        "au_time": 0,
+        "au_time": 3,
         "au_hover": true,
         "nav_btn": false,
         "btn_vi": "hover",
