@@ -32,7 +32,7 @@
             "bg_overlay": "#000",
             "bg_opacity": 14,
             "bg_content_cl": "#fff",
-            "bg_content_op": 28,
+            "bg_content_op": 0,
             "content_radius": 0,
             "box_square": false,
             "content_pd_tb": 15,
