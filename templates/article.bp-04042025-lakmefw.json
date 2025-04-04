@@ -598,6 +598,7 @@
             "height_tb": 400,
             "custom_mb": true,
             "height_mb": 300,
+            "image": "shopify://shop_images/Shilpa_Shetty_in_LFW.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -630,52 +631,6 @@
             "br_pd_mb": 10,
             "time_animation": 1,
             "animation_delay": 40
-          }
-        },
-        "custom_text_DB8B4a": {
-          "type": "custom_text",
-          "settings": {
-            "text": "LOOKBOOK 2023",
-            "remove_br_tag": false,
-            "tag": "p",
-            "fontf": "inherit",
-            "text_cl": "#ffffff",
-            "text_fs": 24,
-            "text_lh": 24,
-            "text_fw": 500,
-            "text_ls": 0,
-            "font_italic": false,
-            "text_shadow": false,
-            "text_mgb": 5,
-            "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
-            "text_ls_mb": 0,
-            "text_mgb_mobile": 10,
-            "animation": "none"
-          }
-        },
-        "custom_text_KPnnBx": {
-          "type": "custom_text",
-          "settings": {
-            "text": "MAKE LOVE THIS LOOK",
-            "remove_br_tag": false,
-            "tag": "p",
-            "fontf": "inherit",
-            "text_cl": "#ffffff",
-            "text_fs": 14,
-            "text_lh": 24,
-            "text_fw": 400,
-            "text_ls": 0,
-            "font_italic": false,
-            "text_shadow": false,
-            "text_mgb": 5,
-            "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
-            "text_ls_mb": 0,
-            "text_mgb_mobile": 10,
-            "animation": "none"
           }
         },
         "b_item_znnwdz": {
@@ -725,8 +680,6 @@
       },
       "block_order": [
         "b_item_mPXheE",
-        "custom_text_DB8B4a",
-        "custom_text_KPnnBx",
         "b_item_znnwdz"
       ],
       "settings": {
@@ -736,6 +689,61 @@
         "space_h_item": "30",
         "space_v_item": "30",
         "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_tJYM7V": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_cQVarF": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Shilpa Shetty's Futuristic Flair</h2><p>Shilpa Shetty brought a futuristic twist to traditional sarees, donning a structured blouse paired with a bold monochrome drape. Her ensemble showcased the innovative direction designers are exploring, merging classic styles with avant-garde elements. </p><p><a href=\"https://www.instagram.com/reel/DHvxwu_MtfS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==\"><span style=\"text-decoration:underline\">https://www.instagram.com/reel/DHvxwu_MtfS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==</span></a> </p><p></p><p></p><h2>Embracing Tradition with a Modern Twist</h2><p>Designers like <a href=\"https://www.thehindu.com/life-and-style/fashion/at-the-lakm%C3%A9-fashion-week-2025-x-fdci-artisans-take-the-runway/article69389826.ece\"><span style=\"text-decoration:underline\">Amruta Vankar</span></a> paid homage to traditional art forms, presenting sarees that featured intricate weaves and patterns reinterpreted for the contemporary audience. This fusion of heritage and modernity resonated with attendees, highlighting the saree's versatility and enduring appeal. </p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_cQVarF"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
         "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
@@ -760,6 +768,7 @@
     "image_text_Ay4akT",
     "image_text_BGGwj7",
     "e7b55938-3dde-44ab-9365-66967e09d447",
-    "banner_nLKYFb"
+    "banner_nLKYFb",
+    "image_text_tJYM7V"
   ]
 }
