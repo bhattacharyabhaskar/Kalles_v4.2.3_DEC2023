@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/Banner_Image_802f6005-f243-4575-99e2-de86851a6c54.png",
+            "image": "shopify://shop_images/Lakme_Fashion_Week_Banner.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Allu Arjun in a Saree (SURPRISED!) Men in Sarees Stealing Hearts from Streets to Movies!",
-            "text": "<p>Who said sarees are just for women? Well, it’s 2025, and the age-old notion that sarees are solely a woman’s domain is crumbling faster than a crispy dosa.</p><p>From South Indian superstars like <a href=\"https://en.wikipedia.org/wiki/Allu_Arjun\"><span style=\"text-decoration:underline\">Allu Arjun</span></a> to street fashion trailblazers like <a href=\"https://www.instagram.com/pushpaksen_/\"><span style=\"text-decoration:underline\">Kolkata’s Pushpak Sen</span></a> and Instagram’s fashion favorite <a href=\"https://www.instagram.com/siddharth93batra/?hl=en\"><span style=\"text-decoration:underline\">Siddhartha Batra</span></a>, or <a href=\"https://www.instagram.com/boseoninsta/?hl=en\"><span style=\"text-decoration:underline\">Rohit Bose</span></a> the Insta Dhoti Drape Influencer, all these men in sarees are not just turning heads but also rewriting the rule book of traditional style.</p><p>Let’s dive in and explore how men in sarees are breaking stereotypes and winning hearts everywhere!</p>",
+            "heading": "Lakmé Fashion Week 2025: How Sarees Stole the Spotlight on the Runway",
+            "text": "<p>Here is my take on the 25-year celebration of the promising fashion extravaganza of India, nothing other than Lakmé Fashion Week. </p><p><a href=\"https://www.instagram.com/lakmefashionwk/?hl=de\"><span style=\"text-decoration:underline\">Lakmé Fashion Week 2025</span></a> has once again set the stage for India's fashion evolution, and this year, sarees have remarkably reclaimed their spotlight on the runway. Designers seamlessly blended traditional drapery with contemporary aesthetics, offering a fresh perspective on this timeless attire.​<br/><br/></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -142,7 +142,7 @@
         "bl_image_Ae9rL7": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/allu-arjun_pushpa2.webp",
+            "image1": "shopify://shop_images/Anamika_Khanna.png",
             "image2": "shopify://shop_images/Image_2_83d24199-51f9-4f89-a19e-a84964c2f6a9.png",
             "col_dk": "12",
             "col_tb": "6",
@@ -178,7 +178,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong><br/>Allu Arjun in “Pushpa 2”: A Scene-Stealing Saree Moment</strong></h3><p>When the <a href=\"https://www.youtube.com/watch?v=1kVK0MZlbI4\"><span style=\"text-decoration:underline\"><em>teaser for Pushpa 2</em></span></a><em> </em>dropped, fans went wild over Allu Arjun’s swag, rugged persona, and intense action sequences. But what truly made jaws drop was the breathtaking scene where he dons a saree to perform a ritual and, in true Pushpa style, breaks into an electrifying dance.</p><p><strong>Picture this:</strong> Allu Arjun wrapped in a traditional <strong>silk saree</strong>, styled as a dhoti, with the pallu flowing gracefully over his shoulder. It’s not just a fashion statement—it’s a cultural ode, deeply rooted in rituals. The moment is cinematic gold: with rhythmic beats in the background, he performs the traditional puja and then transitions into a high-energy dance that only Allu Arjun can pull off. His steps, synchrony, and unapologetic confidence prove that masculinity and grace can go hand in hand.</p><p>What’s remarkable here is how effortlessly he carries the saree, showcasing the versatility of this garment. The scene’s emotional depth paired with the visual grandeur makes it one of the most memorable moments in Indian cinema. Trust Allu Arjun to make even a saree look like a power suit of style and swag!</p>",
+            "text": "<h2>Anamika Khanna's Modern Revival</h2><p>Anamika Khanna opened the event with a collection that redefined power dressing for the modern woman. Her sarees featured fluid silhouettes adorned with intricate silver embellishments, effortlessly transitioning from day to night. The collection emphasized versatility, catering to the dynamic lifestyle of today's women.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -307,6 +307,90 @@
         "code_cus_css": ""
       }
     },
+    "image_gallery_NR77YG": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_item_pJ8jcE": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_item_4gWnpa": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_item_wTNgqd": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_item_iUkiW4": {
+          "type": "image_item",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_item_pJ8jcE",
+        "image_item_4gWnpa",
+        "image_item_wTNgqd",
+        "image_item_iUkiW4"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Gallery",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "layout_des": "1",
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": false,
+        "nav_dot": true,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": false,
+        "dots_space": 10,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "image_text_Ay4akT": {
       "type": "image_text",
       "blocks": {
@@ -404,7 +488,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3></h3><h3><strong>A Sip of Freedom</strong></h3><p>Whether Allu Arjun’s cinematic brilliance inspires you, Pushpak Sen’s Milanese moment, or Siddhartha Batra’s heartfelt sartorial experiment, one thing is clear: the saree is no longer just a woman’s garment. It’s a universal symbol of style, grace, and rebellion against the mundane.</p><p>So, to all the men out there—are you ready to drape your story in nine yards of magic? The world is watching, and the saree is waiting!</p>",
+            "text": "",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -501,6 +585,170 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "banner_nLKYFb": {
+      "type": "banner",
+      "blocks": {
+        "b_item_mPXheE": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": true,
+            "height_dk": 600,
+            "custom_tb": true,
+            "height_tb": 400,
+            "custom_mb": true,
+            "height_mb": 300,
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000",
+            "bg_opacity": 0,
+            "bg_content_bl": false,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222",
+            "br_bg": "#fff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "custom_text_DB8B4a": {
+          "type": "custom_text",
+          "settings": {
+            "text": "LOOKBOOK 2023",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 24,
+            "text_lh": 24,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "custom_text_KPnnBx": {
+          "type": "custom_text",
+          "settings": {
+            "text": "MAKE LOVE THIS LOOK",
+            "remove_br_tag": false,
+            "tag": "p",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 14,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10,
+            "animation": "none"
+          }
+        },
+        "b_item_znnwdz": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": true,
+            "height_dk": 600,
+            "custom_tb": true,
+            "height_tb": 400,
+            "custom_mb": true,
+            "height_mb": 300,
+            "image": "shopify://shop_images/Amruta_Vankar_in_LFW.png",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000",
+            "bg_opacity": 0,
+            "bg_content_bl": false,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222",
+            "br_bg": "#fff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "b_item_mPXheE",
+        "custom_text_DB8B4a",
+        "custom_text_KPnnBx",
+        "b_item_znnwdz"
+      ],
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -508,8 +756,10 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "image_text_cy6tq9",
     "image_text_TztEMN",
+    "image_gallery_NR77YG",
     "image_text_Ay4akT",
     "image_text_BGGwj7",
-    "e7b55938-3dde-44ab-9365-66967e09d447"
+    "e7b55938-3dde-44ab-9365-66967e09d447",
+    "banner_nLKYFb"
   ]
 }
