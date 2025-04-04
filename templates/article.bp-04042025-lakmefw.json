@@ -222,10 +222,10 @@
         "code_cus_css": ""
       }
     },
-    "image_text_TztEMN": {
+    "image_text_BizJA7": {
       "type": "image_text",
       "blocks": {
-        "bl_image_9CmbH3": {
+        "bl_image_emMJF9": {
           "type": "bl_image",
           "settings": {
             "image1": "shopify://shop_images/Pushpak_Sen.png",
@@ -254,7 +254,7 @@
             "dots_hidden_mobile": false
           }
         },
-        "bl_text_bbwXwi": {
+        "bl_text_E4mXYU": {
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
@@ -280,8 +280,8 @@
         }
       },
       "block_order": [
-        "bl_image_9CmbH3",
-        "bl_text_bbwXwi"
+        "bl_image_emMJF9",
+        "bl_text_E4mXYU"
       ],
       "settings": {
         "design_heading": "1",
@@ -294,90 +294,6 @@
         "space_v_item": "10",
         "space_h_item_mb": "20",
         "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_gallery_NR77YG": {
-      "type": "image-gallery",
-      "blocks": {
-        "image_item_pJ8jcE": {
-          "type": "image_item",
-          "settings": {
-            "link": ""
-          }
-        },
-        "image_item_4gWnpa": {
-          "type": "image_item",
-          "settings": {
-            "link": ""
-          }
-        },
-        "image_item_wTNgqd": {
-          "type": "image_item",
-          "settings": {
-            "link": ""
-          }
-        },
-        "image_item_iUkiW4": {
-          "type": "image_item",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_item_pJ8jcE",
-        "image_item_4gWnpa",
-        "image_item_wTNgqd",
-        "image_item_iUkiW4"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "Gallery",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "layout_des": "1",
-        "click_image": "data-t4s-gallery",
-        "nav_thumbs": true,
-        "open_link": "_blank",
-        "item_rd": 0,
-        "img_effect": "none",
-        "b_effect": "none",
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "8",
-        "col_dk": "4",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_item": "30",
-        "space_item_mb": "10",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": true,
-        "btn_vi": "hover",
-        "btn_owl": "default",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": false,
-        "nav_dot": true,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": false,
-        "dots_space": 10,
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -757,18 +673,159 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "image_text_TztEMN": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_9CmbH3": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Khadi_India_LFW.png",
+            "col_dk": "12",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_bbwXwi": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2><br/>Contemporary Interpretation of Khadi India</h2><p>Khadi India captivated audiences with its contemporary reinterpretation of traditional sarees. The collection drew inspiration from India's rich folk art, showcasing designs influenced by Gond, Madhubani, and Picchwai paintings. Crafted from hand-spun and handwoven khadi fabrics—including wool from Bikaner, cotton from Kanpur, muslin from Murshidabad, and Eri silk from Assam—the sarees exemplified India's diverse textile heritage. Enhanced with hand embroidery, natural dyeing, and hand block printing, each piece seamlessly blended age-old artistry with modern aesthetics, reaffirming Khadi's status as a symbol of sustainable luxury.</p><p>'Mahboob' by Nikasha at Lakme Fashion Week is a heartfelt expression of India’s most treasured fabric-Khadi, by honoring the legacy of artisanal fashion through timeless elegance. </p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_9CmbH3",
+        "bl_text_bbwXwi"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_jRM4Hb": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_wQmr9A": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Wrapping Up</h2><p>Lakmé Fashion Week 2025 has reaffirmed the saree's prominence in the fashion world, illustrating its adaptability and timelessness. By integrating traditional craftsmanship with modern design sensibilities, designers have ensured that the saree remains a cherished and fashionable choice for generations to come.​</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_wQmr9A"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "image_text_cy6tq9",
-    "image_text_TztEMN",
-    "image_gallery_NR77YG",
+    "image_text_BizJA7",
     "image_text_Ay4akT",
     "image_text_BGGwj7",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "banner_nLKYFb",
-    "image_text_tJYM7V"
+    "image_text_tJYM7V",
+    "image_text_TztEMN",
+    "image_text_jRM4Hb"
   ]
 }
