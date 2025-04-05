@@ -126,7 +126,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
+        "mg": ",,0px,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
@@ -185,7 +185,7 @@
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
-        "mg_mb": ",,30px,",
+        "mg_mb": ",,0px,",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
