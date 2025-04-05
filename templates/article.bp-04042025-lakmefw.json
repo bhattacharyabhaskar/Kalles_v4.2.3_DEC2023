@@ -488,7 +488,7 @@
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
-        "mg": ",,0px,",
+        "mg": "0px,,40px,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
