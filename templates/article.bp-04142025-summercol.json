@@ -642,7 +642,7 @@
         "bl_text_RPfVid": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
+            "col_dk": "8",
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
