@@ -315,7 +315,7 @@
         "bl_image_JYiUCk": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Saree_style_with_bodysuit.png",
+            "image1": "shopify://shop_images/saree_style_with_Cancan_skirt.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -350,7 +350,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Why This Trend is Here to Stay</h3><p>Rohit’s styling is more than just a fashion moment—it’s a movement. Sarees are no longer confined to traditional wear; they are becoming a symbol of self-expression, fluidity, and versatility. Whether draped as a dhoti, styled as a lungi, or layered over a kurta, the saree is proving its adaptability in men’s fashion.</p><p>So what I have learnt viewing the videos of Rohit is summarized below for all the saree lovers!<br/><br/></p><h2>How to Style a Saree as a Dhoti Like a Pro</h2><ol><li> – Opt for lighter weaves like <strong>Sambalpuri silk, Chanderi, or Linen</strong> for an easy drape.<br/><br/></li><li> – Pleat and tuck at the waist to create the perfect dhoti look.<br/><br/></li><li> – Pair it with an <strong>oversized blazer, structured kurta, or even a cropped jacket</strong>.<br/><br/></li><li> – Think statement belts, boots, or bold jewelry to amp up the look.<br/><br/></li></ol><p><strong>Confidence is Key</strong> – The best style tip? Own it. Fashion is about self-expression, and if Rohit’s look teaches us anything, it’s that confidence makes the outfit.</p>",
+            "text": "<h3>3. Saree with a Skirt or Ghagra</h3><p>This is a great traditional-meets-modern choice. A flowy skirt or lehenga can add volume, flair, and elegance to your saree drape—especially for festive or wedding wear. Match the saree with a skirt in a complementary color or go full contrast for drama.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -449,78 +449,6 @@
         "code_cus_css": ""
       }
     },
-    "featured_collection_6fT49N": {
-      "type": "featured-collection",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "head_btn_label": "View All",
-        "head_btn_url": "",
-        "head_btn_icon": false,
-        "head_btn_style": "default",
-        "head_btn_size": "medium",
-        "head_btn_cl": "dark",
-        "head_btn_effect": "default",
-        "head_btn_hidden_mb": false,
-        "collection": "sambalpuri-silk",
-        "product_des": "1",
-        "show_vendor": false,
-        "use_cdt": false,
-        "image_ratio": "rationt",
-        "image_size": "cover",
-        "image_position": "8",
-        "content_align": "default",
-        "limit": 8,
-        "col_dk": "4",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "layout_des": "2",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": false,
-        "btns_pos": "default",
-        "btn_vi": "hover",
-        "btn_owl": "default",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": true,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "use_pagination": "none",
-        "enable_bar_lm": true,
-        "btn_icon": false,
-        "button_style": "default",
-        "btns_size": "large",
-        "btns_cl": "dark",
-        "button_effect": "default",
-        "btn_pos": "t4s-text-center",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -575,6 +503,91 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "image_text_jEQWcB": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_hTCbTx": {
+          "type": "bl_image",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_zhDQcp": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Image with text",
+            "text": "<h3>4. Dhoti-Style Saree Drape</h3><p>No petticoat needed here! Use leggings, dhoti pants, or drape the saree around your legs directly. This style gives you full freedom to move and is ideal for dancers or women on the go.</p><p>Read our recent blog where the famous fashion influencer <a href=\"https://www.instagram.com/boseoninsta/?hl=de\"><span style=\"text-decoration:underline\">Rohit Bose</span></a> has tried a Samablpuri SIlk from us to wear in Delhi Book Fair 2025 and styled it as a Dhoti. Click this: <a href=\"https://www.indyvogue.com/blogs/indyvogue-fashion-center/breaking-barriers-men-styling-sarees-as-dhotis-a-bold-fashion-statement\"><span style=\"text-decoration:underline\"><em>Breaking Barriers: Men Styling Sarees as Dhotis—A Bold Fashion Stateme – IndyVogue</em></span></a><em> <br/><br/></em></p><h2>Tips to Ace the Look<br/><br/></h2><ul><li><strong>Use safety pins wisely</strong>: Since you won’t have a waistband to tuck into, pins become your best friend for securing pleats and pallus.<br/><br/></li><li><strong>Choose a stiffer fabric</strong>: Georgette, linen, or cotton blends stay in place better than soft silks or chiffons.<br/><br/></li><li><strong>Layer smartly</strong>: If you’re concerned about coverage, add a jacket-style blouse or cape.<br/><br/></li><li><strong>Add a belt</strong>: It holds the saree in place and adds definition to your waist.</li></ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_hTCbTx",
+        "bl_text_zhDQcp"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -584,7 +597,7 @@
     "image_text_cy6tq9",
     "image_text_Ay4akT",
     "image_text_BGGwj7",
-    "featured_collection_6fT49N",
-    "e7b55938-3dde-44ab-9365-66967e09d447"
+    "e7b55938-3dde-44ab-9365-66967e09d447",
+    "image_text_jEQWcB"
   ]
 }
