@@ -136,187 +136,14 @@
         "code_cus_css": ""
       }
     },
-    "banner_9tknhg": {
-      "type": "banner",
-      "blocks": {
-        "b_item_YaeAJQ": {
-          "type": "b_item",
-          "settings": {
-            "custom_dk": true,
-            "height_dk": 600,
-            "custom_tb": true,
-            "height_tb": 400,
-            "custom_mb": true,
-            "height_mb": 300,
-            "image": "shopify://shop_images/Saree_style_with_Pants.jpg",
-            "b_link": "",
-            "open_link": "_self",
-            "img_effect": "none",
-            "b_effect": "none",
-            "col_dk": "6",
-            "col_tb": "6",
-            "col_mb": "12",
-            "content_align": "center",
-            "content_align_mobile": "center",
-            "content_width": "auto",
-            "cv_pos": 50,
-            "ch_pos": 50,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 50,
-            "bg_overlay": "#000",
-            "bg_opacity": 0,
-            "bg_content_bl": false,
-            "bg_content_cl": "#fff",
-            "bg_content_op": 50,
-            "content_pd_tb": 20,
-            "content_pd_lr": 20,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222",
-            "br_bg": "#fff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 40
-          }
-        },
-        "b_item_CdDRzw": {
-          "type": "b_item",
-          "settings": {
-            "custom_dk": true,
-            "height_dk": 600,
-            "custom_tb": true,
-            "height_tb": 400,
-            "custom_mb": true,
-            "height_mb": 300,
-            "image": "shopify://shop_images/Saree_style_with_bodysuit.png",
-            "b_link": "",
-            "open_link": "_self",
-            "img_effect": "none",
-            "b_effect": "none",
-            "col_dk": "6",
-            "col_tb": "6",
-            "col_mb": "12",
-            "content_align": "center",
-            "content_align_mobile": "center",
-            "content_width": "auto",
-            "cv_pos": 50,
-            "ch_pos": 50,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 50,
-            "bg_overlay": "#000",
-            "bg_opacity": 0,
-            "bg_content_bl": false,
-            "bg_content_cl": "#fff",
-            "bg_content_op": 50,
-            "content_pd_tb": 20,
-            "content_pd_lr": 20,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222",
-            "br_bg": "#fff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 40
-          }
-        }
-      },
-      "block_order": [
-        "b_item_YaeAJQ",
-        "b_item_CdDRzw"
-      ],
-      "name": "Banner custom",
-      "settings": {
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "8",
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_cy6tq9": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_tjKJ4H": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h3>1. Saree with Pants or Trousers</h3><p>Pair your saree with cigarette pants, palazzos, or even slim-fit jeans. This Indo-western combo is perfect for cocktail parties or destination weddings. Choose high-waisted pants to secure your saree well and let the pallu flow freely or pleat it up for a sharp, structured look.</p><h3>2. Saree over a Bodysuit or Swimsuit</h3><p>Sounds bold? Yes. Looks fabulous? Absolutely! This style is perfect for a fashion shoot, beach wedding, or edgy summer event. The bodysuit provides a sleek silhouette and holds everything in place without any bulk. I saw <a href=\"https://www.instagram.com/tiabhuva/\"><span style=\"text-decoration:underline\">Tia Bhuva</span></a> wearing this cancan style skirt with Kanjeevaram and sharing it on her Instagram profile. </p><p></p><p></p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_tjKJ4H"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_Ay4akT": {
       "type": "image_text",
       "blocks": {
         "bl_image_JYiUCk": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/saree_style_with_Cancan_skirt.png",
-            "col_dk": "6",
+            "image1": "shopify://shop_images/draping-style.png",
+            "col_dk": "12",
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
@@ -344,13 +171,13 @@
         "bl_text_RPfVid": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
+            "col_dk": "12",
             "col_tb": "6",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>3. Saree with a Skirt or Ghagra</h3><p>This is a great traditional-meets-modern choice. A flowy skirt or lehenga can add volume, flair, and elegance to your saree drape—especially for festive or wedding wear. Match the saree with a skirt in a complementary color or go full contrast for drama.</p>",
+            "text": "<h3></h3><h3></h3><h3></h3><h3>1. Saree with Pants or Trousers</h3><p>Pair your saree with cigarette pants, palazzos, or even slim-fit jeans. This Indo-western combo is perfect for cocktail parties or destination weddings. Choose high-waisted pants to secure your saree well and let the pallu flow freely or pleat it up for a sharp, structured look.</p><h3>2. Saree over a Bodysuit or Swimsuit</h3><p>Sounds bold? Yes. Looks fabulous? Absolutely! This style is perfect for a fashion shoot, beach wedding, or edgy summer event. The bodysuit provides a sleek silhouette and holds everything in place without any bulk. I saw <a href=\"https://www.instagram.com/tiabhuva/\"><span style=\"text-decoration:underline\">Tia Bhuva</span></a> wearing this cancan style skirt with Kanjeevaram and sharing it on her Instagram profile. </p><p></p><p></p><p></p><h3>3. Saree with a Skirt or Ghagra</h3><p>This is a great traditional-meets-modern choice. A flowy skirt or lehenga can add volume, flair, and elegance to your saree drape—especially for festive or wedding wear. Match the saree with a skirt in a complementary color or go full contrast for drama.</p><p></p><p></p><h3></h3><h2>Ready to Experiment?</h2><p>Inspired by Rohit’s bold styling? It’s time to step up your fashion game! Explore our latest collection of <strong>Sambalpuri silks and handwoven treasures</strong>, and dare to style them your way.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -373,116 +200,6 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_BGGwj7": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_eHjUxT": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h3></h3><h2>Ready to Experiment?</h2><p>Inspired by Rohit’s bold styling? It’s time to step up your fashion game! Explore our latest collection of <strong>Sambalpuri silks and handwoven treasures</strong>, and dare to style them your way.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_eHjUxT"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "e7b55938-3dde-44ab-9365-66967e09d447": {
-      "type": "image_text",
-      "blocks": {
-        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "About the author",
-            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-start",
         "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
@@ -589,16 +306,68 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "e7b55938-3dde-44ab-9365-66967e09d447": {
+      "type": "image_text",
+      "blocks": {
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
-    "banner_9tknhg",
-    "image_text_cy6tq9",
     "image_text_Ay4akT",
-    "image_text_BGGwj7",
-    "e7b55938-3dde-44ab-9365-66967e09d447",
-    "image_text_jEQWcB"
+    "image_text_jEQWcB",
+    "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
