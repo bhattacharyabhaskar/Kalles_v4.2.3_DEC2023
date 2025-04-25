@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/Banner_Image_8ad2e187-f4e8-4051-a7f6-006da7f6f2cf.png",
+            "image": "shopify://shop_images/How_to_style_a_saree_without_petticoat_banner.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Breaking Barriers: Men Styling Sarees as Dhotis—A Bold Fashion Statement",
-            "text": "<p>Fashion is ever-evolving, and if there’s one thing we love at IndyVogue, it’s when tradition meets fearless expression. One trend that’s making waves is men styling sarees as dhotis, redefining how we view gender-fluid fashion. </p><p>Some time back in one of our blogs, we were discussing how Allu Arjun took a bold fashion insignia in Pushpa 2 and wore a Gadwal Saree to dazzle on the set. And while I was penning down the blog, I found a lot of real life fashionistas who made a mark.</p><p>And then to my astonishment, it was one of my <a href=\"https://www.indyvogue.com/collections/sambalpuri-silk\"><span style=\"text-decoration:underline\">Sambalpuri Silks</span></a> purchased some time back that was tried by a Content Creator to style it as a Dhoti with this Jacket! And the output was Walaah!</p><p>And who better to take inspiration from than <strong>Rohit Bose</strong>—known as <strong>@</strong><a href=\"https://www.instagram.com/stories/boseoninsta/\"><span style=\"text-decoration:underline\"><strong>boseoninsta</strong></span></a>—who recently turned heads with his bold and street-smart styling at the <strong>Delhi Book Fair 2025</strong>?</p>",
+            "heading": "How to Wear a Saree Without a Petticoat (Yes, It’s a Thing!)",
+            "text": "<p>Tradition tells us to wear a saree with a petticoat—but modern style rebels are rewriting the rules, and <em>we are loving it</em>. Yes, wearing a saree <strong>without a petticoat</strong> is not just possible, it’s super stylish, easy, and totally on-trend!</p><p>From fashion influencers to runway stylists, the no-petticoat saree drape is having a moment. Whether you want to break free from the conventional or just try something comfortable and fuss-free, here’s how you can wear a saree without a petticoat and still turn heads.</p><h2>Why Skip the Petticoat?</h2><p>Let’s be real—petticoats can sometimes be bulky, restrictive, and downright uncomfortable in hot or humid weather. For women constantly on the move or those attending events where dancing, lounging, or comfort is key, skipping the petticoat can feel like a breath of fresh air.</p><p>The no-petticoat look also opens up exciting styling options and adds a touch of fusion, minimalism, or boldness to your outfit—depending on how you want to wear it.</p><p></p><p></p><h2>Stylish Alternatives to Petticoats</h2><p><strong>Here’s how you can wear your saree without compromising on coverage or grace:</strong></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -136,39 +136,127 @@
         "code_cus_css": ""
       }
     },
+    "banner_9tknhg": {
+      "type": "banner",
+      "blocks": {
+        "b_item_YaeAJQ": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": true,
+            "height_dk": 600,
+            "custom_tb": true,
+            "height_tb": 400,
+            "custom_mb": true,
+            "height_mb": 300,
+            "image": "shopify://shop_images/Saree_style_with_Pants.jpg",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000",
+            "bg_opacity": 0,
+            "bg_content_bl": false,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222",
+            "br_bg": "#fff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "b_item_CdDRzw": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": true,
+            "height_dk": 600,
+            "custom_tb": true,
+            "height_tb": 400,
+            "custom_mb": true,
+            "height_mb": 300,
+            "image": "shopify://shop_images/Saree_style_with_bodysuit.png",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000",
+            "bg_opacity": 0,
+            "bg_content_bl": false,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222",
+            "br_bg": "#fff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "b_item_YaeAJQ",
+        "b_item_CdDRzw"
+      ],
+      "name": "Banner custom",
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "image_text_cy6tq9": {
       "type": "image_text",
       "blocks": {
-        "bl_image_Ae9rL7": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/7_a054516b-1afe-40b1-8aee-bfba43dba05c.png",
-            "image2": "shopify://shop_images/Image_2_83d24199-51f9-4f89-a19e-a84964c2f6a9.png",
-            "col_dk": "12",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
         "bl_text_tjKJ4H": {
           "type": "bl_text",
           "settings": {
@@ -178,7 +266,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2><br/>Sambalpuri Silk Meets Street Fashion</h2><p>Earlier this year, Rohit attended an important book event at the Delhi Book Fair, where he made a striking statement by draping a <strong>Sambalpuri silk saree</strong> from IndyVogue—one his mom had lovingly picked from us. Instead of the usual drape, he <strong>styled it as a dhoti, pairing it with a structured jacket, bold accessories, and classic sneakers</strong>—a perfect blend of heritage and contemporary streetwear. The result? A look that was both effortlessly elegant and powerfully modern.</p>",
+            "text": "<h3>1. Saree with Pants or Trousers</h3><p>Pair your saree with cigarette pants, palazzos, or even slim-fit jeans. This Indo-western combo is perfect for cocktail parties or destination weddings. Choose high-waisted pants to secure your saree well and let the pallu flow freely or pleat it up for a sharp, structured look.</p><h3>2. Saree over a Bodysuit or Swimsuit</h3><p>Sounds bold? Yes. Looks fabulous? Absolutely! This style is perfect for a fashion shoot, beach wedding, or edgy summer event. The bodysuit provides a sleek silhouette and holds everything in place without any bulk. I saw <a href=\"https://www.instagram.com/tiabhuva/\"><span style=\"text-decoration:underline\">Tia Bhuva</span></a> wearing this cancan style skirt with Kanjeevaram and sharing it on her Instagram profile. </p><p></p><p></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -195,7 +283,6 @@
         }
       },
       "block_order": [
-        "bl_image_Ae9rL7",
         "bl_text_tjKJ4H"
       ],
       "settings": {
@@ -228,7 +315,7 @@
         "bl_image_JYiUCk": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Rphit_Bose_4.jpg",
+            "image1": "shopify://shop_images/Saree_style_with_bodysuit.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -362,61 +449,6 @@
         "code_cus_css": ""
       }
     },
-    "e7b55938-3dde-44ab-9365-66967e09d447": {
-      "type": "image_text",
-      "blocks": {
-        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "About the author",
-            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-start",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "featured_collection_6fT49N": {
       "type": "featured-collection",
       "settings": {
@@ -488,11 +520,67 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "e7b55938-3dde-44ab-9365-66967e09d447": {
+      "type": "image_text",
+      "blocks": {
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "banner_9tknhg",
     "image_text_cy6tq9",
     "image_text_Ay4akT",
     "image_text_BGGwj7",
