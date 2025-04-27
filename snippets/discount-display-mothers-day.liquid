@@ -14,7 +14,7 @@
 {%- assign current_cart_total = 0 -%}
 {%- for item in cart.items -%}
   {%- assign is_item_in_sale = false -%}
-  {%- assign is_item_in_suites = false -%}
+  {%- assign is_item_in_suits = false -%}
 
   <!-- Check if the item belongs to the sale collection -->
   {%- for collection in item.product.collections -%}
@@ -22,12 +22,12 @@
       {%- assign is_item_in_sale = true -%}
     {%- endif -%}
     {%- if collection.handle == 'suits-dresses' -%}
-      {%- assign is_item_in_suites = true -%}
+      {%- assign is_item_in_suits = true -%}
     {%- endif -%}
   {%- endfor -%}
 
-  <!-- Exclude sale and suites-dresses items from the cart total -->
-  {%- if is_item_in_sale == false and is_item_in_suites == false -%}
+  <!-- Exclude sale and suits-dresses items from the cart total -->
+  {%- if is_item_in_sale == false and is_item_in_suits == false -%}
     {%- assign current_cart_total = current_cart_total | plus: item.line_price -%}
   {%- endif -%}
 {%- endfor -%}
@@ -51,9 +51,9 @@
   <!-- Skip further content by ending the block here -->
   {%- assign stop_processing = true -%}
 {%- endif -%}
-<!-- If the product belongs to the Suites & Dresses collection -->
+<!-- If the product belongs to the Suits & Dresses collection -->
 {%- if is_suite_collection == true and stop_processing != true -%}
-  <p class="tiered-discounts-message suite-message">👗 <strong>Suites & Dresses:</strong> Save FLAT {{ suite_discount }} on any Suites & Dresses!</p>
+  <p class="tiered-discounts-message suite-message">👗 <strong>Suits & Dresses:</strong> Save FLAT {{ suite_discount }} on any Suits & Dresses!</p>
   <!-- Skip further content by ending the block here -->
   {%- assign stop_processing = true -%}
 {%- endif -%}
