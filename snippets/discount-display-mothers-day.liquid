@@ -1,0 +1,110 @@
+{%- comment -%}
+  Displays tiered discounts dynamically based on collection type.
+  Accepts:
+  - is_sale_collection: {Boolean} (optional)
+  - is_suite_collection: {Boolean} (optional)
+{%- endcomment -%}
+
+
+<!-- Initialize variables -->
+{%- assign general_tiers = settings.general_discount_tiers | default: '7500:1000,20000:5%,30000:6%,50000:7%,80000:8%,100000:10%' -%}
+{%- assign suite_discount = settings.suite_discount | default: '10%' -%}
+{%- assign tiers = general_tiers | split: ',' -%}
+
+{%- assign current_cart_total = 0 -%}
+{%- for item in cart.items -%}
+  {%- assign is_item_in_sale = false -%}
+  {%- assign is_item_in_suites = false -%}
+
+  <!-- Check if the item belongs to the sale collection -->
+  {%- for collection in item.product.collections -%}
+    {%- if collection.handle == 'sale' -%}
+      {%- assign is_item_in_sale = true -%}
+    {%- endif -%}
+    {%- if collection.handle == 'suits-dresses' -%}
+      {%- assign is_item_in_suites = true -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  <!-- Exclude sale and suites-dresses items from the cart total -->
+  {%- if is_item_in_sale == false and is_item_in_suites == false -%}
+    {%- assign current_cart_total = current_cart_total | plus: item.line_price -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign current_cart_total = current_cart_total | divided_by: 100.0 -%}
+  
+{%- if is_suite_collection == false  -%}
+    {%- if current_cart_total > 0  -%}
+      <!-- Header -->
+       <h3 class="tiered-discounts-title">🎉 New Year Super Sale! 🎉</h3> 
+      {%- else -%}
+      <h3 class="tiered-discounts-title-empty">🎉 New Year Super Sale, with upto 10% discount! 🎉</h3> 
+    {%- endif -%}
+{%- endif -%}
+
+
+
+<!-- If the product belongs to the Sale collection -->
+{%- if is_sale_collection == true -%}
+  <p class="tiered-discounts-message sale-message">🚨 This product is already on sale! </p>
+  <!-- Skip further content by ending the block here -->
+  {%- assign stop_processing = true -%}
+{%- endif -%}
+<!-- If the product belongs to the Suites & Dresses collection -->
+{%- if is_suite_collection == true and stop_processing != true -%}
+  <p class="tiered-discounts-message suite-message">👗 <strong>Suites & Dresses:</strong> Save FLAT {{ suite_discount }} on any Suites & Dresses!</p>
+  <!-- Skip further content by ending the block here -->
+  {%- assign stop_processing = true -%}
+{%- endif -%}
+
+<!-- Loop through tiers for General Discounts -->
+{%- if stop_processing != true -%}
+  <ul class="tiered-discounts-list">
+    {%- assign unlocked_tier = '' -%}
+    {%- assign next_tier_difference = '' -%}
+    {%- assign max_price = 0 -%} <!-- Initialize max_price -->
+    {%- for tier in tiers -%}
+      {%- assign tier_parts = tier | split: ':' -%}
+      {%- assign min_price = tier_parts[0] | divided_by: 100.0 -%}
+      {%- assign discount = tier_parts[1] -%}
+
+      <!-- Determine next tier for max_price -->
+      {%- if forloop.index < tiers.size -%}
+        {%- assign next_tier = tiers[forloop.index] -%}
+        {%- assign next_tier_parts = next_tier | split: ':' -%}
+        {%- assign max_price = next_tier_parts[0] | divided_by: 100.0 -%}
+      {%- else -%}
+        {%- assign max_price = 9999999 -%} <!-- Set a very high value for the last tier -->
+      {%- endif -%}
+
+    
+      <!-- Check if cart total qualifies for this tier -->
+      {%- if current_cart_total >= min_price and current_cart_total < max_price -%}
+        {%- assign unlocked_tier = discount -%}
+      <li class="tier-unlocked">
+          You’ve unlocked: 
+          {% if discount contains '%' %}
+            Save {{ discount }}
+          {% else %}
+            Save {{ discount | money }}
+          {% endif %}
+          on orders above {{ min_price | times: 100 | money }}.
+        </li>
+      {%- elsif next_tier_difference == '' and current_cart_total < min_price -%}
+        {%- assign next_tier_difference = min_price | minus: current_cart_total -%}
+        {%- unless unlocked_tier == '' -%}
+      <li class="tier-next">
+              Spend <strong>{{ next_tier_difference | times: 100 | money }}</strong> more to 
+            {% if discount contains '%' %}
+              save {{ discount }}
+            {% else %}
+              save {{ discount | money }}
+            {% endif %}
+            on Saree orders above {{ min_price | times: 100 | money }}.
+          </li>
+        {%- endunless -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
