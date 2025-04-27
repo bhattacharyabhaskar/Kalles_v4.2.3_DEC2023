@@ -3435,7 +3435,7 @@ border-radius: 50% !important;
 .tiered-discounts-title-empty {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #ffffff; /* White text for clarity */
+  color: #000000; /* White text for clarity */
   text-align: center;
   padding: 15px 20px;
   background-color: #FFC0CB; /* Trustworthy blue background */
