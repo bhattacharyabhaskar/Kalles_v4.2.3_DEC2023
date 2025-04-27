@@ -37,9 +37,9 @@
 {%- if is_suite_collection == false  -%}
     {%- if current_cart_total > 0  -%}
       <!-- Header -->
-       <h3 class="tiered-discounts-title">🎉 New Year Super Sale! 🎉</h3> 
+       <h3 class="tiered-discounts-title">👩‍🍼 Mother's Day Special - Buy 2 Sarees, get 10% Off 👩‍🍼</h3> 
       {%- else -%}
-      <h3 class="tiered-discounts-title-empty">🎉 New Year Super Sale, with upto 10% discount! 🎉</h3> 
+      <h3 class="tiered-discounts-title-empty">🎉 Mother's Day Special - Buy 2 Sarees, get 10% Off! 🎉</h3> 
     {%- endif -%}
 {%- endif -%}
 
@@ -59,6 +59,7 @@
 {%- endif -%}
 
 <!-- Loop through tiers for General Discounts -->
+{% comment %}
 {%- if stop_processing != true -%}
   <ul class="tiered-discounts-list">
     {%- assign unlocked_tier = '' -%}
@@ -108,3 +109,4 @@
     {%- endfor -%}
   </ul>
 {%- endif -%}
+{% endcomment %}
