@@ -80,9 +80,9 @@
         <select name="id" id="product-select-{{ pr_se_id }}" class="t4s-product__select t4s-d-none">
         {%- for variant in pr_variants -%}
           {%- if variant.available -%}
-            <option value="{{ variant.id }}" data-mdid="{{ variant.featured_media.id | json }}" data-incoming="{{ variant.incoming }}" data-inventoryQuantity="{{ variant.inventory_quantity | json }}" data-inventoryPolicy={{ variant.inventory_policy | json }} data-nextIncomingDate="{{ variant.next_incoming_date | date: date_in }}"{% if variant.id == current_variant.id %} selected="selected"{% endif %}>{{ variant.title | escape }}</option>
+            <option value="{{ variant.id }}" data-mdid="{{ variant.featured_media.id | json }}" data-incoming="{{ variant.incoming }}" data-inventoryQuantity="{{ variant.inventory_quantity | json }}" data-inventoryPolicy={{ variant.inventory_policy | json }} data-nextIncomingDate="{{ variant.next_incoming_date | date: date_in }}"{% if variant.id == current_variant.id %} selected="selected"{% endif %}>{{ variant.title | escape }} - {{ variant.price | money }}</option>
           {%- else -%}
-            <option value="{{ variant.id }}" data-mdid="{{ variant.featured_media.id | json }}" data-incoming="{{ variant.incoming }}" data-inventoryQuantity="{{ variant.inventory_quantity | json }}" data-inventoryPolicy={{ variant.inventory_policy | json }} data-nextIncomingDate="{{ variant.next_incoming_date | date: date_in }}"{% if remove_soldout %} disabled="disabled"{% endif %} class="is--sold-out">{{ variant.title | escape }}</option>
+            <option value="{{ variant.id }}" data-mdid="{{ variant.featured_media.id | json }}" data-incoming="{{ variant.incoming }}" data-inventoryQuantity="{{ variant.inventory_quantity | json }}" data-inventoryPolicy={{ variant.inventory_policy | json }} data-nextIncomingDate="{{ variant.next_incoming_date | date: date_in }}"{% if remove_soldout %} disabled="disabled"{% endif %} class="is--sold-out">{{ variant.title | escape }} - {{ variant.price | money }}</option>
           {%- endif -%}
         {%- endfor -%}
         </select>
@@ -105,12 +105,12 @@
             -%}
             
             {%- if get_color contains name_downcase -%}
-              
               <div data-swatch-option data-id="{{ forloop.index0 }}" class="t4s-swatch__option is-t4s-style__color is-t4s-name__{{ option_name | handle }} {% cycle 'is--first-color', '', '' %}">
                 <h4 class="t4s-swatch__title"><span>{{ option_name }}: <span data-current-value class="t4s-dib t4s-swatch__current">{{ selected_value | default: choose_an_option }}</span></span>{% if name_sizeg == name_downcase %}{{ html_sizeg }}{% endif %}</h4>
                 <div data-swatch-list class="t4s-swatch__list">
                   {%- if color_mode != 'dropdown' -%}
                     {%- for value in option.values -%}
+                      bbbbbbb
                     <div data-swatch-item data-tooltip{{ show_tooltip }}="top" title="{{ value | escape }}" class="t4s-swatch__item {{ color_swatch }}bg_color_{{ value | handle }} lazyloadt4s{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}">{{ value }}</div>
                     {%- endfor -%}
 
@@ -133,14 +133,55 @@
               </div>
 
             {%- else -%}
-
               <div data-swatch-option data-id="{{ forloop.index0 }}" class="t4s-swatch__option is-t4s-name__{{ option_name | handle }}">
                 <h4 class="t4s-swatch__title"><span>{{ option_name }}: <span data-current-value class="t4s-dib t4s-swatch__current">{{ selected_value | default: choose_an_option }}</span></span>{% if name_sizeg == name_downcase %}{{ html_sizeg }}{% endif %}</h4>
                 <div class="t4s-swatch__list">
                   {%- if selector_mode != 'dropdown' -%}
                     {%- for value in option.values -%}
-                    <div data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}">{{ value }}</div>
-                    {%- endfor -%}
+                          {%- assign option_handle = option.name | handleize -%}
+                            {%- assign matched_variant = nil -%}
+                            {%- for variant in product.variants -%}
+                              {%- assign match = true -%}
+                            
+                              {%- for i in (1..product.options.size) -%}
+                                {%- assign opt_idx = i | minus: 1 -%}
+                                {%- assign opt_name = product.options[opt_idx] | handleize -%}
+                            
+                                {%- if opt_name == option_handle -%}
+                                  {%- if variant.options[opt_idx] != value -%}
+                                    {%- assign match = false -%}
+                                  {%- endif -%}
+                                {%- else -%}
+                                  {%- assign selected_opt = current_variant.options[opt_idx] -%}
+                                  {%- if variant.options[opt_idx] != selected_opt -%}
+                                    {%- assign match = false -%}
+                                  {%- endif -%}
+                                {%- endif -%}
+                              {%- endfor -%}
+                            
+                              {%- if match -%}
+                                {%- assign matched_variant = variant -%}
+                                {%- break -%}
+                              {%- endif -%}
+                            {%- endfor -%}
+                         <div data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}">
+                          {{ value }}
+                          {%- if matched_variant -%}
+                            {%- assign matched_price = matched_variant.price | plus: 0 -%}
+                            {%- assign base_price = product.variants.first.price | plus: 0 -%}
+                            {%- assign delta_cents = matched_price | minus: base_price -%}
+                             {%- assign sku_last = matched_variant.sku | slice: -1 | upcase -%}
+                              {%- if sku_last == 'P' or sku_last == 'S' -%}
+                                <span style="color: red; font-weight: bold;">&nbsp;New</span>
+                              {%- endif -%}
+                              {%- if delta_cents > 0 -%}
+                                <b>(+{{ delta_cents | money }})</b>
+                              {%- elsif delta_cents < 0 -%}
+                                -{{ delta_cents | abs | money }}
+                              {%- endif -%}
+                          {%- endif -%}
+                        </div>
+                      {%- endfor -%}
 
                   {%- else -%}
                     <button type="button" data-dropdown-open data-position="bottom-end" data-id="t4s_nt_{{ pr_se_id }}{{ forloop.index }}"><span data-current-value>{{ selected_value | default: choose_an_option }}</span><svg class="t4s-icon-select-arrow" role="presentation" viewBox="0 0 19 12"><use xlink:href="#t4s-select-arrow"></use></svg></button>
