@@ -254,6 +254,37 @@
         "time": 3
       }
     },
+    "video_featured_RaQheV": {
+      "type": "video_featured",
+      "name": "Video featured",
+      "settings": {
+        "se_height": "t4s_ratio_po",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/The Minute Drape - 3.mp4",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "sidebar": {
       "type": "sidebar-product",
       "blocks": {
@@ -585,6 +616,7 @@
   "order": [
     "breadcrumb",
     "main",
+    "video_featured_RaQheV",
     "sidebar",
     "71125f6e-6720-42c9-8c7e-1843761c8c68",
     "a5252000-c9b6-49b6-94a0-478c097c965f",
