@@ -268,7 +268,7 @@
         "source": "2",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video": "shopify://files/videos/The Minute Drape - 3.mp4",
-        "au_video": true,
+        "au_video": false,
         "loop_video": false,
         "bg_overlay": "#000000",
         "bg_opacity": 0,
