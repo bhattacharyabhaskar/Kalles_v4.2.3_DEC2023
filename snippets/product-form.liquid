@@ -174,11 +174,13 @@
                               {%- if sku_last == 'P' or sku_last == 'S' -%}
                                 <span style="color: red; font-weight: bold;">&nbsp;New</span>
                               {%- endif -%}
+                              {% comment %}
                               {%- if delta_cents > 0 -%}
                                 <b>(+{{ delta_cents | money }})</b>
                               {%- elsif delta_cents < 0 -%}
                                 -{{ delta_cents | abs | money }}
                               {%- endif -%}
+                              {% endcomment %}
                           {%- endif -%}
                         </div>
                       {%- endfor -%}
