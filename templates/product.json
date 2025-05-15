@@ -258,7 +258,7 @@
       "type": "video_featured",
       "name": "Video featured",
       "settings": {
-        "se_height": "t4s_ratio_po",
+        "se_height": "t4s_ratio16_9",
         "custom_dk": true,
         "height_dk": 600,
         "custom_tb": true,
