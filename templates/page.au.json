@@ -522,6 +522,97 @@
         "code_cus_css": ""
       }
     },
+    "testimonials_NjecKM": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_eeKMaG": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>I received a saree from IndyVogoue today, it's my first time. Feeling good to shop from here. It seems to me their sarees are really different with good qualities and I like many of them.</p><p>From Melbourne I got free shipping. If I get free shipping opportunity hope I'll buy more in the next.<br/>Nice to introduce you IndyVogoue! Thanks.</p>",
+            "title": "নীরা নীলাম্বরি, Melbourne, Australia",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_nfkxWq": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>Yesterday I received my saree, and it was gorgeous, and I loved it. The stitched blouse is a perfect fit which is rare in an online order. Very satisfied with the purchases and the service. IndyVogue has an exceptional collection of sarees, and I can't wait for my next purchase.  </p>",
+            "title": "SHAHANAZ, Queensland, Australia",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_dzPFDU": {
+          "type": "quote",
+          "settings": {
+            "heading": "",
+            "content": "<p>They are quite professional and very helpful. Recently ordered a saree from Australia and it reached within time. The saree quality is satisfactory.</p>",
+            "title": "Sudeshna, Perth, Australia",
+            "pos": "",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_eeKMaG",
+        "quote_nfkxWq",
+        "quote_dzPFDU"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "💬 Patron Testimonials",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "ter_des": "1",
+        "cl_name": "#222222",
+        "cl_content": "#878787",
+        "cl_bd": "",
+        "cl_bg_item": "",
+        "bdr": 0,
+        "content_align": "text-start",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "featured_collection_weRhFY": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -657,6 +748,7 @@
         "bl_image_XpUDit": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/7H6A1157.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -777,6 +869,7 @@
     "collections_list_bPxnM4",
     "featured_collection_HG63fh",
     "image_text_FTXrbm",
+    "testimonials_NjecKM",
     "featured_collection_weRhFY",
     "image_text_gMpfq3",
     "image_text_GtPMM8",
