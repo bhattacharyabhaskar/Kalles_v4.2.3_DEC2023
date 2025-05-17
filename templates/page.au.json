@@ -131,7 +131,7 @@
           "settings": {
             "collection": "banarasi-silk-saree",
             "icon": "las la-gem",
-            "collection_title": "",
+            "collection_title": "Banarasi Silk Sarees",
             "collection_link": ""
           }
         },
@@ -158,7 +158,7 @@
           "settings": {
             "collection": "kanchipuram-sarees",
             "icon": "las la-gem",
-            "collection_title": "Collection",
+            "collection_title": "",
             "collection_link": ""
           }
         }
@@ -278,7 +278,7 @@
           "settings": {
             "collection": "dhakai-jamdani-sarees",
             "icon": "las la-gem",
-            "collection_title": "Jamdani Saree Collection",
+            "collection_title": "Jamdani Sarees",
             "collection_link": ""
           }
         }
