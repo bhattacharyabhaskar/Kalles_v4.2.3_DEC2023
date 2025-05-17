@@ -147,16 +147,16 @@
         "collection_item_V4NnDE": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "gadwal-silk-saree",
             "icon": "las la-gem",
-            "collection_title": "Collection",
+            "collection_title": "",
             "collection_link": ""
           }
         },
         "collection_item_ejfQYX": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "kanchipuram-sarees",
             "icon": "las la-gem",
             "collection_title": "Collection",
             "collection_link": ""
@@ -249,36 +249,36 @@
         "collection_item_babTGj": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "bishnupur-silk-saree",
             "icon": "las la-gem",
-            "collection_title": "Collection",
+            "collection_title": "",
             "collection_link": ""
           }
         },
         "collection_item_ME6cAz": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "chanderi-silk-saree",
             "icon": "las la-gem",
-            "collection_title": "Collection",
+            "collection_title": "",
             "collection_link": ""
           }
         },
         "collection_item_bCyE3J": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "ikat-silk-saree",
             "icon": "las la-gem",
-            "collection_title": "Collection",
+            "collection_title": "",
             "collection_link": ""
           }
         },
         "collection_item_3AUH7P": {
           "type": "collection_item",
           "settings": {
-            "collection": "",
+            "collection": "dhakai-jamdani-sarees",
             "icon": "las la-gem",
-            "collection_title": "Collection",
+            "collection_title": "Jamdani Saree Collection",
             "collection_link": ""
           }
         }
@@ -293,7 +293,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Collections list",
+        "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
