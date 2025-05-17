@@ -32,17 +32,17 @@
         "ch_pos": 50,
         "cv_pos_mb": 50,
         "ch_pos_mb": 50,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "bg_opacity": 0,
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "bg_content_op": 0,
         "content_pd_tb": 15,
         "content_pd_lr": 15,
         "content_pd_tb_mb": 10,
         "content_pd_lr_mb": 10,
         "border_bl": false,
-        "br_color": "#222",
-        "br_bg": "#fff",
+        "br_color": "#222222",
+        "br_bg": "#ffffff",
         "br_opacity": 50,
         "br_style": "solid",
         "br_pd": 20,
@@ -363,126 +363,6 @@
         "code_cus_css": ""
       }
     },
-    "collections_list_qaqmyy": {
-      "type": "collections-list",
-      "blocks": {
-        "collection_item_aCgYat": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "",
-            "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
-          }
-        },
-        "collection_item_pk9bYD": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "",
-            "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
-          }
-        },
-        "collection_item_GCGrHq": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "",
-            "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
-          }
-        },
-        "collection_item_UctKBy": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "",
-            "icon": "las la-gem",
-            "collection_title": "Collection",
-            "collection_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_item_aCgYat",
-        "collection_item_pk9bYD",
-        "collection_item_GCGrHq",
-        "collection_item_UctKBy"
-      ],
-      "name": "Collections list",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "Collections list",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "head_btn_label": "View All",
-        "head_btn_url": "",
-        "head_btn_icon": false,
-        "head_btn_style": "default",
-        "head_btn_size": "medium",
-        "head_btn_cl": "dark",
-        "head_btn_effect": "default",
-        "head_btn_hidden_mb": false,
-        "collection_des": "1",
-        "title_cl": "#ffffff",
-        "title_cl_hover": "#222222",
-        "subtitle_cl": "#878787",
-        "count_cl": "#222222",
-        "border_cl": "#e5e5e5",
-        "collection_subtitle": "Products",
-        "open_link": "_self",
-        "source": "image",
-        "space_bottom": 20,
-        "space_bottom_tb": 20,
-        "space_bottom_mb": 10,
-        "border": false,
-        "item_pd": 0,
-        "item_rd": 0,
-        "img_effect": "none",
-        "b_effect": "none",
-        "image_ratio": "ratio1_1",
-        "image_size": "cover",
-        "image_position": "8",
-        "layout_des": "1",
-        "col_dk": "4",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": false,
-        "btn_pos": "default",
-        "btn_vi": "hover",
-        "btn_owl": "default",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": false,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "featured_collection_HG63fh": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -555,6 +435,92 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "image_text_FTXrbm": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_z9bdLk": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/au-flag.jpg",
+            "col_dk": "6",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_rrwFL3": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "6",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Why Australia  ❤️ IndyVogue",
+            "text": "<p><strong>✅ Fast FREE Delivery</strong></p><p><strong>✅ Transparent Pricing – No Hidden Fees</strong></p><p><strong>✅ Over 10,000 Happy Customers Globally</strong></p><p><strong>✅ 700+ 5-Star Verified Reviews</strong></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_z9bdLk",
+        "bl_text_rrwFL3"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -564,7 +530,7 @@
     "sidebar-page",
     "collections_list_hpceGT",
     "collections_list_bPxnM4",
-    "collections_list_qaqmyy",
-    "featured_collection_HG63fh"
+    "featured_collection_HG63fh",
+    "image_text_FTXrbm"
   ]
 }
