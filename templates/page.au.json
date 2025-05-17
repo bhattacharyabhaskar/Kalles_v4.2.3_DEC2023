@@ -572,7 +572,7 @@
         "ter_des": "1",
         "cl_name": "#222222",
         "cl_content": "#878787",
-        "cl_bd": "",
+        "cl_bd": "#222222",
         "cl_bg_item": "",
         "bdr": 0,
         "content_align": "text-start",
@@ -600,6 +600,62 @@
         "dots_round": true,
         "dots_space": 10,
         "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#dddddd",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_KWbzGz": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_xawqwi": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "",
+            "text": "",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "SEE ALL REVIEWS",
+            "button_link": "shopify://pages/indyvogue-reviews",
+            "open_link": "_self",
+            "btn_icon": true,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_xawqwi"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -784,6 +840,7 @@
     "featured_collection_HG63fh",
     "image_text_FTXrbm",
     "testimonials_NjecKM",
+    "image_text_KWbzGz",
     "featured_collection_weRhFY",
     "image_text_gMpfq3",
     "video_featured_4rXnWF"
