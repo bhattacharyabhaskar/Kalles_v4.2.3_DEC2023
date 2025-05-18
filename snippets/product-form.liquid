@@ -165,8 +165,6 @@
                               {%- endif -%}
                             {%- endfor -%}
                          <div data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}">
-                           <div style="display: flex; flex-direction: column;">
-                            <span style="font-size: 14px;">{{ value }}</span>
                           <span style="display: inline-block; width: 70%; white-space: nowrap;">{{ value }}</span>
                           {%- if matched_variant -%}
                             {%- assign matched_price = matched_variant.price | plus: 0 -%}
@@ -186,8 +184,6 @@
                               {% endcomment %}
                           {%- endif -%}
                         </div>
-                      </div>
-
                       {%- endfor -%}
 
                   {%- else -%}
