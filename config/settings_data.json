@@ -807,7 +807,7 @@
           "fontsize": 12,
           "cl": "#878787",
           "cl_a_hover": "#56cfe1",
-          "bg": "#f6f6f8",
+          "bg": "#fcfaf7",
           "bg_op": 100,
           "show_border": false,
           "bd_cl": "#000000",
