@@ -164,8 +164,12 @@
                                 {%- break -%}
                               {%- endif -%}
                             {%- endfor -%}
-                         <div data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}">
-                          <span style="display: inline-block; width: 70%; white-space: nowrap;">{{ value }}</span>
+                            <div data-swatch-item 
+                                 class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" 
+                                 data-value="{{ value | escape }}"
+                                 {% if selected_value == value %}
+                                 style="background-color: #fdf5dc; border-radius: 8px; border: 1px solid #e0d7c5;"
+                                 {% endif %}>                          <span style="display: inline-block; width: 70%; white-space: nowrap;">{{ value }}</span>
                           {%- if matched_variant -%}
                             {%- assign matched_price = matched_variant.price | plus: 0 -%}
                             {%- assign base_price = product.variants.first.price | plus: 0 -%}
