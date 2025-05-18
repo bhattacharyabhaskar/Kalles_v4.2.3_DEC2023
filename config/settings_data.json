@@ -11,6 +11,7 @@
   "current": {
     "purchase_code": "ac82ee1c-42bc-46ca-ba07-fec66c04717c",
     "animations_reveal_on_scroll": false,
+    "body_bg": "#fcfaf7",
     "home_keywords": "designer indian sarees online, indian wedding sarees online, ethnic sarees online, designer silk sarees, buy indian sarees online, buy sarees from india, traditional sarees. latest sarees collection, ethnic wear for women",
     "shop_author": "IndyVogue",
     "use_rtl": "0",
@@ -53,7 +54,7 @@
     "hd_ffamily": "1",
     "fs_h1": 34,
     "fs_h2": 25,
-    "fs_h3": 20.5,
+    "fs_h3": 22,
     "fs_h4": 17.5,
     "fs_h5": 14,
     "fs_h6": 12.5,
