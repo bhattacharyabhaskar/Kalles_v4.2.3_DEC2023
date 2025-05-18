@@ -172,8 +172,8 @@
                             {%- assign delta_cents = matched_price | minus: base_price -%}
                              {%- assign sku_last = matched_variant.sku | slice: -1 | upcase -%}
                               {%- if sku_last == 'P' or sku_last == 'S' -%}
-                                <span style="color: red; font-weight: bold; margin-right: 6px;">New</span>
-                                  <a href="#shopify-section-template--17089850704105__video_featured_RaQheV" style="font-size: 13px; text-decoration: underline; color: #0070aa;">How to</a>
+                                <span style="color: red; font-weight: bold;">&nbsp;New</span>
+                                <a href="#shopify-section-template--17089850704105__video_featured_RaQheV" style="margin-left: 6px;  text-decoration: underline;">How to</a>
                               {%- endif -%}
                               {% comment %}
                               {%- if delta_cents > 0 -%}
