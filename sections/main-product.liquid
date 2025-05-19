@@ -266,7 +266,7 @@ endif -%}
   {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}
     {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}
 
-<div class="mobile-top-icons" style="display: flex; flex-wrap: wrap; gap: 10px 12px; margin-bottom: 16px; align: center;">
+<div class="mobile-top-icons" style="display: flex; flex-wrap: wrap; gap: 10px 12px; margin-bottom: 16px;">
       {%- if inventory_quantity == 1 -%}
         <span style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; border: 1px solid #f1e1d6; background-color: #fff7f2; font-weight: 600; font-size: 13.5px;">
           <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/only-1-piece.webp?v=1747610113" width="20" height="20" alt="Only 1 Piece Left" />
