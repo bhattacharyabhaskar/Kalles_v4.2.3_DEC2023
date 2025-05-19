@@ -250,6 +250,14 @@ endif -%}
 <link rel="stylesheet" data-href="{{ 'main-product.css' | asset_url }}">
 
 
+
+<div class="mobile-product-title t4s-product__title-wrapper">
+  <h1 class="t4s-product__title"
+    style="--title-family:var(--font-family-{{ bk_stts.fnt_df_pr }}); --title-style:{{ bk_stts.txt_tr_pr }}; --title-size:{{ bk_stts.size_pr }}px; --title-weight:{{ bk_stts.fw_pr }}; --title-line-height:{{ lh_pr }}; --title-spacing:{{ bk_stts.ls_pr }}px; --title-color:{{ bk_stts.pr_title_color }}; --title-color-hover:{{ bk_stts.pr_title_color }};"
+    {{ block.shopify_attributes }}>
+    {{ product.title }}
+  </h1>
+</div>
 <div class="t4s-container t4s-main-product__content is--layout_{{ se_stts.pr_layout }} t4s-product-media__{{ media_layout }} t4s-product-thumb-size__{{ se_stts.thumb_lr_size }}">
   <div class="t4s-row">
     <div class="t4s-col-item t4s-col-12 t4s-main-area">
@@ -390,8 +398,10 @@ endif -%}
                       assign lh_pr = bk_stts.lh_pr | append: 'px'
                     endif
                   %}
-                  <h1 class="t4s-product__title" style="--title-family:var(--font-family-{{ bk_stts.fnt_df_pr }});--title-style:{{ bk_stts.txt_tr_pr }};--title-size:{{ bk_stts.size_pr }}px;--title-weight:{{ bk_stts.fw_pr }};--title-line-height:{{ lh_pr }};--title-spacing:{{ bk_stts.ls_pr }}px;--title-color:{{ bk_stts.pr_title_color }};--title-color-hover:{{ bk_stts.pr_title_color }};" {{ block.shopify_attributes }}>{{ product.title }}</h1>
-              
+                  <div class="hide-on-mobile">
+                    <h1 class="t4s-product__title" style="--title-family:var(--font-family-{{ bk_stts.fnt_df_pr }});--title-style:{{ bk_stts.txt_tr_pr }};--title-size:{{ bk_stts.size_pr }}px;--title-weight:{{ bk_stts.fw_pr }};--title-line-height:{{ lh_pr }};--title-spacing:{{ bk_stts.ls_pr }}px;--title-color:{{ bk_stts.pr_title_color }};--title-color-hover:{{ bk_stts.pr_title_color }};" {{ block.shopify_attributes }}>{{ product.title }}</h1>
+                  </div>
+
                 {%- when 'price_review' -%}
                   <div class="t4s-product__price-review" style="--price-size:{{ bk_stts.size_price_pr }}px;--price-weight:{{ bk_stts.fw_price_pr }};--price-color:{{ bk_stts.price_color }};--price-sale-color:{{ bk_stts.price_sale_color }};">
                     {%- render 'product-price-single', variant: current_variant, product: product, PR_no_pick: PR_no_pick, type_sale: bk_stts.type_sale, price_varies_style: bk_stts.price -%}
