@@ -35,8 +35,3 @@ a.t4s-nav-back {
 .t4s-pr-breadcrumb > span {
     opacity: 0.6;
 }
-@media only screen and (max-width: 749px) {
-  .breadcrumb_pr_wrap {
-    display: none !important;
-  }
-}
