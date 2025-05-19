@@ -63,7 +63,7 @@
         "custom_liquid_XFy8qN": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<b>Price includes GST and IGST when sold in India</b>{%- assign is_sale_collection = false -%}\n                  {%- assign is_suite_collection = false -%}\n                  {% for collection in product.collections %}\n                    {% if collection.handle == \"sale\" %}\n                      {% assign is_sale_collection = true %}\n                    {% endif %}\n                    {% if collection.handle == \"suites-dresses\" %}\n                      {% assign is_suite_collection = true %}\n                    {% endif %}\n                  {% endfor %}\n                \n                {%- render 'discount-display-mothers-day', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}"
+            "custom_liquid": "{%- assign is_sale_collection = false -%}\n                  {%- assign is_suite_collection = false -%}\n                  {% for collection in product.collections %}\n                    {% if collection.handle == \"sale\" %}\n                      {% assign is_sale_collection = true %}\n                    {% endif %}\n                    {% if collection.handle == \"suites-dresses\" %}\n                      {% assign is_suite_collection = true %}\n                    {% endif %}\n                  {% endfor %}\n                \n                {%- render 'discount-display-mothers-day', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}"
           }
         },
         "meta": {
