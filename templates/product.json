@@ -12,9 +12,9 @@
     "breadcrumb": {
       "type": "brc-nav-product",
       "settings": {
-        "breadcrumb_pr": true,
-        "back_next_pr": true,
-        "cl_bg": "#f6f6f6",
+        "breadcrumb_pr": false,
+        "back_next_pr": false,
+        "cl_bg": "#fcfaf7",
         "cl_link": "#222222"
       }
     },
