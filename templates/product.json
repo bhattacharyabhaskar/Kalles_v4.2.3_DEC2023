@@ -256,10 +256,10 @@
         "bg_mb": "#fcfaf7",
         "product_list": "{{ product.metafields.theme.fbt.value }}",
         "sticky_mode": "2",
-        "sticky_show": "2",
+        "sticky_show": "1",
         "sticky_layout_mb": "minimal",
         "enable_select": true,
-        "ani": "t4s-ani-shake",
+        "ani": "none",
         "time": 3
       }
     },
