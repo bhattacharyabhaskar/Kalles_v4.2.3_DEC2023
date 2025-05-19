@@ -263,8 +263,7 @@ endif -%}
       {{ product.title }}
     </h1>
   </div>
-  {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}
-    {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}
+ 
 
 <div class="mobile-top-icons" style="display: flex; flex-wrap: wrap; gap: 10px 12px; margin-bottom: 16px;">
       {%- if inventory_quantity == 1 -%}
