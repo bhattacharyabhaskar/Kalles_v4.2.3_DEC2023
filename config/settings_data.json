@@ -50,6 +50,7 @@
     "bd_ffamily": "2",
     "bd_fsize": 16,
     "bd_fweight": 500,
+    "bd_lheight": 1.7,
     "bd_lspacing": 0.2,
     "hd_ffamily": "1",
     "fs_h1": 34,
