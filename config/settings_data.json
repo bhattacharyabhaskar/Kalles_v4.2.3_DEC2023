@@ -708,6 +708,7 @@
           },
           "announcement-bar-1": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "link": "",
               "content": "<p>Free Shipping on ALL Sarees</p>",
@@ -719,6 +720,7 @@
           },
           "announcement-bar-2": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "link": "",
               "content": "<p>Top Quality Store on Google</p>",
@@ -739,7 +741,7 @@
           "effect": "1",
           "au_time": 6,
           "height": 45,
-          "fontsize": 15,
+          "fontsize": 18,
           "cl": "#ffffff",
           "bg": "#e91e63",
           "bg_op": 100,
