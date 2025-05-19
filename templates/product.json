@@ -26,8 +26,8 @@
           "settings": {
             "txt_tr_pr": "none",
             "fnt_df_pr": "1",
-            "size_pr": 24.5,
-            "fw_pr": 500,
+            "size_pr": 20,
+            "fw_pr": 600,
             "lh_pr": 0,
             "ls_pr": 4,
             "pr_title_color": "#222222"
