@@ -251,13 +251,18 @@ endif -%}
 
 
 
-<div class="mobile-product-title t4s-product__title-wrapper">
-  <h1 class="t4s-product__title"
-    style="--title-family:var(--font-family-{{ bk_stts.fnt_df_pr }}); --title-style:{{ bk_stts.txt_tr_pr }}; --title-size:{{ bk_stts.size_pr }}px; --title-weight:{{ bk_stts.fw_pr }}; --title-line-height:{{ lh_pr }}; --title-spacing:{{ bk_stts.ls_pr }}px; --title-color:{{ bk_stts.pr_title_color }}; --title-color-hover:{{ bk_stts.pr_title_color }};"
-    {{ block.shopify_attributes }}>
-    {{ product.title }}
-  </h1>
-</div>
+<div class="mobile-product-title t4s-product__title-wrapper" style="margin: 20px 16px 12px;">
+    <h1 class="t4s-product__title" style="
+      font-family: 'Playfair Display';
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.3;
+      letter-spacing: 0.3px;
+      color: #1c1c1c;
+      margin: 0;">
+      {{ product.title }}
+    </h1>
+  </div>
 <div class="t4s-container t4s-main-product__content is--layout_{{ se_stts.pr_layout }} t4s-product-media__{{ media_layout }} t4s-product-thumb-size__{{ se_stts.thumb_lr_size }}">
   <div class="t4s-row">
     <div class="t4s-col-item t4s-col-12 t4s-main-area">
