@@ -875,7 +875,11 @@ button.t4s-product__description_readm:hover {
   font-weight: 400;
   margin-bottom: 7px;
 }
+/* Mobile Only */
 @media only screen and (max-width: 749px) {
+  .show-on-mobile {
+    display: block !important;
+  }
   .hide-on-mobile {
     display: none !important;
   }
@@ -885,8 +889,15 @@ button.t4s-product__description_readm:hover {
   }
 }
 
+/* Desktop Only */
 @media only screen and (min-width: 750px) {
-  .mobile-product-title .mobile-top-icons {
+  .show-on-desktop {
+    display: block !important;
+  }
+  .hide-on-desktop {
+    display: none !important;
+  }
+  .mobile-top-icons {
     display: none !important;
   }
 }
