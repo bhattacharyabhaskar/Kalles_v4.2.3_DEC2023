@@ -251,18 +251,19 @@ endif -%}
 
 
 
-  <div class="mobile-product-title t4s-product__title-wrapper" style="margin: 20px 16px 12px;">
-    <h1 class="t4s-product__title" style="
-      font-family: 'Playfair Display';
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 1.3;
-      letter-spacing: 0.3px;
-      color: #1c1c1c;
-      margin: 0;">
-      {{ product.title }}
-    </h1>
-  </div>
+  <div class="mobile-product-title t4s-product__title-wrapper hide-on-desktop" style="margin: 20px 16px 12px;">
+  <h1 class="t4s-product__title" style="
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 0.3px;
+    color: #1c1c1c;
+    margin: 0;">
+    {{ product.title }}
+  </h1>
+</div>
+
   {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}
     {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}
 
