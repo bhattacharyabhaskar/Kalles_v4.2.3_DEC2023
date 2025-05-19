@@ -164,15 +164,15 @@
                                 {%- break -%}
                               {%- endif -%}
                             {%- endfor -%}
-                         <div data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}">
-                          <span style="display: inline-block; white-space: nowrap;">{{ value }}</span>
+                      <div data-swatch-item class="t4s-swatch__item{% if selected_value == value %} is--selected{% endif %}" data-value="{{ value | escape }}" style="display: flex; align-items: center;">
+                        <span style="display: inline-block; margin-left: 6px;">{{ value }}</span>
                           {%- if matched_variant -%}
                             {%- assign matched_price = matched_variant.price | plus: 0 -%}
                             {%- assign base_price = product.variants.first.price | plus: 0 -%}
                             {%- assign delta_cents = matched_price | minus: base_price -%}
                              {%- assign sku_last = matched_variant.sku | slice: -1 | upcase -%}
                               {%- if sku_last == 'P' or sku_last == 'S' -%}
-                                <span style="color: red; font-weight: bold; text-decoration: none;">&nbsp;New</span>
+                                  <span style="color: red; font-weight: bold; margin-left: 6px;">New</span>
                                   <a href="#shopify-section-template--17089850704105__video_featured_RaQheV" style="margin-left: 6px; text-decoration: underline; text-decoration-thickness: 1px; color: #531010;">How to</a>
                                 {%- endif -%}
                               {% comment %}
