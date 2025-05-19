@@ -259,7 +259,7 @@
         "sticky_show": "2",
         "sticky_layout_mb": "minimal",
         "enable_select": true,
-        "ani": "none",
+        "ani": "t4s-ani-shake",
         "time": 3
       }
     },
