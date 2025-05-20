@@ -909,7 +909,7 @@ endif -%}
                <div data-sticky-select class="t4s-dropdown__content t4s-current-scrollbar">
                 {%- for variant in pr_variants -%}
                   {%- if variant.available -%}
-                  <button data-dropdown-item data-value="{{ variant.id }}"{% if variant.id == current_variant.id %} class="is--selected"{% endif %}>{{ variant.title | replace: ' / one-size', '' | escape }}</button>
+                  <button data-dropdown-item data-value="{{ variant.id }}"{% if variant.id == current_variant.id %} class="is--selected"{% endif %}>{{ variant.title | escape }}</button>
                   {%- else -%}
                   <button data-dropdown-item data-value="{{ variant.id }}" disabled="disabled"{% if variant.id == current_variant.id %} class="is--selected"{% endif %}>{{ variant.title | escape }} - {{ 'products.product.sold_out' | t | escape }}</button>
                   {%- endif -%}
