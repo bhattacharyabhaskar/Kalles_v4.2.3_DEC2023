@@ -106,6 +106,7 @@ endif -%}
 class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
     <div data-cacl-slide class="t4s-product-inner t4s-pr t4s-oh">
      image:: {{ image }}
+     imgatt:: {{ imgatt }}
       {%- if image != blank %}{% render 'product-img', image: image, imgatt: imgatt %}{% endif -%}
       <div data-product-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-product-badge"></div>
       <div class="t4s-product-btns">
