@@ -1,0 +1,73 @@
+{% comment %}
+  Template: page.wiki.liquid
+  Purpose: To structure SEO-friendly wiki-style content pages (e.g., Saree Encyclopedia) with optional dynamic collection embed.
+{% endcomment %}
+
+{% layout 'page' %}
+
+<section class="wiki-page container">
+  <div class="wiki-header">
+    <h1 class="wiki-title">{{ page.title }}</h1>
+  </div>
+
+  <div class="wiki-content">
+    {{ page.content }}
+  </div>
+
+  {% assign coll_handle = page.metafields.custom.collection_handle %}
+  {% if collections[coll_handle] != nil %}
+    <div class="wiki-collection">
+      <h2>Shop {{ collections[coll_handle].title }} at IndyVogue</h2>
+      <div class="wiki-products grid grid--2-col-tablet grid--4-col-desktop">
+        {% for product in collections[coll_handle].products limit: 4 %}
+          <div class="wiki-product-item">
+            {% render 'product-grid-item1', product: product %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</section>
+
+<style>
+  .wiki-page {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Georgia, serif;
+  }
+  .wiki-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .wiki-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .wiki-content h2, .wiki-content h3 {
+    margin-top: 32px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+  }
+  .wiki-content p {
+    margin-top: 16px;
+    line-height: 1.7;
+  }
+  .wiki-collection {
+    margin-top: 50px;
+  }
+  .wiki-collection h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .wiki-products {
+    display: grid;
+    gap: 20px;
+  }
+  .wiki-product-item {
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+  }
+</style>
