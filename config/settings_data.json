@@ -1297,8 +1297,8 @@
           "toolbar_mobile-3"
         ],
         "settings": {
-          "enable_toolbar": true,
-          "show_txt": true,
+          "enable_toolbar": false,
+          "show_txt": false,
           "bg_color": "#ffffff",
           "icon_color": "#222222",
           "label_color": "#222222",
