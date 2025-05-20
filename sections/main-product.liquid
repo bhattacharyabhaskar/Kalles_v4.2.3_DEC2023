@@ -900,7 +900,7 @@ endif -%}
        {%- if se_stts.enable_select -%}
           <link rel="stylesheet" href="{{ 'base_drop.min.css' | asset_url }}" media="all">
           <div class="t4s-dropdown t4s-dropdown__sortby">
-            <button type="button" data-dropdown-open data-position="bottom-end" data-id="t4s__dropdown-{{ pr_se_id }}" class="t4s-truncate"><span>{{ current_variant.title | replace: ' / one-size', '' | escape }}</span><svg class="t4s-icon-select-arrow" role="presentation" viewBox="0 0 19 12"><use xlink:href="#t4s-select-arrow"></use></svg></button>
+            <button type="button" data-dropdown-open data-position="bottom-end" data-id="t4s__dropdown-{{ pr_se_id }}" class="t4s-truncate"><span>{{ current_variant.title | escape }}</span><svg class="t4s-icon-select-arrow" role="presentation" viewBox="0 0 19 12"><use xlink:href="#t4s-select-arrow"></use></svg></button>
             <div data-dropdown-wrapper class="t4s-dropdown__wrapper t4s-current-scrollbar" id="t4s__dropdown-{{ pr_se_id }}">
                <div class="t4s-drop-arrow"></div>
                <div class="t4s-dropdown__header">
@@ -911,7 +911,7 @@ endif -%}
                   {%- if variant.available -%}
                   <button data-dropdown-item data-value="{{ variant.id }}"{% if variant.id == current_variant.id %} class="is--selected"{% endif %}>{{ variant.title | replace: ' / one-size', '' | escape }}</button>
                   {%- else -%}
-                  <button data-dropdown-item data-value="{{ variant.id }}" disabled="disabled"{% if variant.id == current_variant.id %} class="is--selected"{% endif %}>{{ variant.title | replace: ' / one-size', '' | escape }} - {{ 'products.product.sold_out' | t | escape }}</button>
+                  <button data-dropdown-item data-value="{{ variant.id }}" disabled="disabled"{% if variant.id == current_variant.id %} class="is--selected"{% endif %}>{{ variant.title | escape }} - {{ 'products.product.sold_out' | t | escape }}</button>
                   {%- endif -%}
                 {%- endfor -%}
               </div>
