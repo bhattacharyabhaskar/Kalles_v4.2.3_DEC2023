@@ -20,9 +20,29 @@
       <h2>Shop {{ collections[coll_handle].title }} at IndyVogue</h2>
       <div class="wiki-products grid grid--2-col-tablet grid--4-col-desktop">
         {% assign col = 't4s-col-lg-3 t4s-col-md-4 t4s-col-6' %}
+        {% assign prefix_url = '' %}
+        {% assign isGrowaveWishlist = false %}
+        {% assign show_img = true %}
+        {% assign show_vendor = true %}
+        {% assign use_link_vendor = true %}
+        {% assign enable_pr_color = true %}
+        {% assign show_cl_type = '1' %}
+        {% assign get_color = 'color' %}
+        {% assign enable_pr_size = true %}
+        {% assign pr_size_pos = '1' %}
+        {% assign get_size = 'size' %}
+        {% assign show_size_type = '1' %}
+        {% assign price_varies_style = '' %}
+        {% assign app_review = '' %}
+        {% assign enable_rating = true %}
+        {% assign use_countdown = false %}
+        {% assign imgatt = 'loading="lazy" decoding="async" class="motion-reduce"' %}
+        {% assign show_list_btns = false %}
+        {% assign placeholder_img = settings.placeholder_img %}
+
         {% for product in collections[coll_handle].products limit: 4 %}
           <div class="wiki-product-item">
-            {% render 'product-grid-item1', product: product, col: col %}
+            {% render 'product-grid-item1', product: product, prefix_url: prefix_url, isGrowaveWishlist: isGrowaveWishlist, show_img: show_img, show_vendor: show_vendor, use_link_vendor: use_link_vendor, enable_pr_color: enable_pr_color, show_cl_type: show_cl_type, get_color: get_color, enable_pr_size: enable_pr_size, pr_size_pos: pr_size_pos, get_size: get_size, show_size_type: show_size_type, price_varies_style: price_varies_style, app_review: app_review, enable_rating: enable_rating, use_countdown: use_countdown, imgatt: imgatt, show_list_btns: show_list_btns, placeholder_img: placeholder_img, col: col %}
           </div>
         {% endfor %}
       </div>
