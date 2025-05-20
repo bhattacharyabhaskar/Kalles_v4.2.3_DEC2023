@@ -918,7 +918,7 @@ endif -%}
             </div>
         </div>
        {%- else -%}
-          {{ current_variant.title }}
+         {{ current_variant.title | replace: ' / one-size', '' | escape }}
        {%- endif -%}
       {%- endunless -%}
      </div>
