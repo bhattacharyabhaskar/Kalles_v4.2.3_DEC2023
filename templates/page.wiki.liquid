@@ -15,13 +15,14 @@
   </div>
 
   {% assign coll_handle = page.metafields.custom.collection_handle %}
-  {% if collections[coll_handle] != nil %}
+  {% if collections[coll_handle] %}
     <div class="wiki-collection">
       <h2>Shop {{ collections[coll_handle].title }} at IndyVogue</h2>
       <div class="wiki-products grid grid--2-col-tablet grid--4-col-desktop">
+        {% assign col = 't4s-col-lg-3 t4s-col-md-4 t4s-col-6' %}
         {% for product in collections[coll_handle].products limit: 4 %}
           <div class="wiki-product-item">
-            {% render 'product-grid-item1', product: product %}
+            {% render 'product-grid-item1', product: product, col: col %}
           </div>
         {% endfor %}
       </div>
@@ -62,12 +63,17 @@
     text-align: center;
   }
   .wiki-products {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
   }
   .wiki-product-item {
-    padding: 10px;
-    border: 1px solid #eee;
-    border-radius: 6px;
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+  }
+  @media (max-width: 768px) {
+    .wiki-product-item {
+      flex: 1 1 calc(50% - 20px);
+    }
   }
 </style>
