@@ -105,8 +105,13 @@ endif -%}
   <div 
 class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
     <div data-cacl-slide class="t4s-product-inner t4s-pr t4s-oh">
-                {%- if image != blank %}{% render 'product-img', image: image, imgatt: imgatt %}{% endif -%}
-
+      {%- if image != blank %}
+          {%- if product.featured_image -%}
+            <img src="{{ product.featured_image | img_url: '600x' }}" alt="{{ product.title | escape }}" class="t4s-product-main-img" style="width: 100%; height: auto;" />
+          {%- else -%}
+            <img src="{{ placeholder_img | img_url: '600x' }}" alt="Placeholder" class="t4s-product-main-img" style="width: 100%; height: auto;" />
+          {%- endif -%}
+        {% endif -%}
       <div data-product-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-product-badge"></div>
       <div class="t4s-product-btns">
          <div data-replace-quickview></div>
