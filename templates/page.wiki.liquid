@@ -109,3 +109,15 @@
     padding: 10px;
   }
 </style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Trigger lazyload (if not already)
+    if (window.lazySizes && typeof lazySizes.init === 'function') {
+      lazySizes.init();
+    }
+
+    // Force theme grid layout scripts to re-run
+    document.dispatchEvent(new Event('shopify:section:load'));
+    document.dispatchEvent(new Event('theme:section:load'));
+  });
+</script>
