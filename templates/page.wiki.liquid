@@ -28,9 +28,6 @@
 
   {% assign coll_handle = page.metafields.custom.collection_handle %}
   {% if collections[coll_handle] %}
-    <div class="wiki-collection">
-      <h2>Shop {{ collections[coll_handle].title }} at IndyVogue</h2>
-      <div class="wiki-products t4s-row t4s-row-cols-lg-4 t4s-row-cols-md-2 t4s-row-cols-1">
         {% assign col = 't4s-col-lg-3 t4s-col-md-4 t4s-col-6' %}
         {% assign prefix_url = '' %}
         {% assign isGrowaveWishlist = false %}
@@ -51,10 +48,11 @@
         {% assign imgatt = 'data-' %}
         {% assign show_list_btns = false %}
         {% assign placeholder_img = settings.placeholder_img %}
-
+    <div class="t4s-container">
+      <div class="t4s-row t4s-row-cols-lg-4 t4s-row-cols-md-2 t4s-row-cols-1">
         {% for product in collections[coll_handle].products limit: 4 %}
-          <div class="wiki-product-item {{ col }}">
-            {% render 'product-grid-item-wiki', product: product, prefix_url: prefix_url, isGrowaveWishlist: isGrowaveWishlist, show_img: show_img, show_vendor: show_vendor, use_link_vendor: use_link_vendor, enable_pr_color: enable_pr_color, show_cl_type: show_cl_type, get_color: get_color, enable_pr_size: enable_pr_size, pr_size_pos: pr_size_pos, get_size: get_size, show_size_type: show_size_type, price_varies_style: price_varies_style, app_review: app_review, enable_rating: enable_rating, use_countdown: use_countdown, imgatt: imgatt, show_list_btns: show_list_btns, placeholder_img: placeholder_img, col: col %}
+          <div class="t4s-col-item t4s-col-lg-3 t4s-col-md-6 t4s-col-12">
+            {% render 'product-grid-item1', product: product, ... %}
           </div>
         {% endfor %}
       </div>
