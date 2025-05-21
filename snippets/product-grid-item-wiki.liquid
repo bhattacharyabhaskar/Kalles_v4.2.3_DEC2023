@@ -35,18 +35,7 @@ if  meta_theme.grouped != blank
    assign isGrouped = true 
 endif
 
-assign custom_badge = meta_theme.custom_badge
-if custom_badge != blank
-   assign arr_badge = custom_badge | replace: '  ', '' | replace: ' ;', ';' | replace: '; ', ';' | split: ';' | join: 'nt-t4s' | escape | split: 'nt-t4s'
-   assign arr_badge_handle = arr_badge | join: 'nt-t4s' | handle | split: 'nt-t4s'
-else
-   assign badge_tags = product.tags | where: "badge_"
-   if badge_tags.size > 0
-      assign arr_badge_tags   = badge_tags | join: 'nt-t4s' | remove: 'badge_' | escape
-      assign arr_badge        = arr_badge_tags | split: 'nt-t4s'
-      assign arr_badge_handle = arr_badge_tags | handle | split: 'nt-t4s'
-   endif
-endif
+
 
 assign countdown = time_meta | default: meta_theme.countdown | date: '%Y/%m/%d %H:%M:%S'
 unless placeholder_img
