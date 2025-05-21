@@ -108,4 +108,27 @@
       flex: 1 1 calc(50% - 20px);
     }
   }
+  .wiki-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.wiki-product-item {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .wiki-product-item {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 640px) {
+  .wiki-product-item {
+    flex: 1 1 100%;
+  }
+}
 </style>
