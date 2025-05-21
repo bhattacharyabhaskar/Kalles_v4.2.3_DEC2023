@@ -2,14 +2,20 @@
   Template: page.wiki.liquid
   Purpose: To structure SEO-friendly wiki-style content pages (e.g., Saree Encyclopedia) with optional dynamic collection embed.
 {% endcomment %}
-<!-- Include necessary CSS for product grid -->
-<link rel="stylesheet" data-href="{{ 'section.css' | asset_url }}">
-<link rel="stylesheet" data-href="{{ 'collection-products.css' | asset_url }}">
-<link rel="stylesheet" data-href="{{ 'slider-settings.css' | asset_url }}">
-<link rel="stylesheet" data-href="{{ 'pre_flickityt4s.min.css' | asset_url }}">
-<link data-href="{{ 'loading.css' | asset_url }}" rel="stylesheet" >
+
+<!-- Quick patch: include CSS and JS for product image rendering -->
+<link rel="stylesheet" href="{{ 'section.css' | asset_url }}">
+<link rel="stylesheet" href="{{ 'collection-pages.css' | asset_url }}">
+<link rel="stylesheet" href="{{ 'collection-products.css' | asset_url }}">
+<link rel="stylesheet" href="{{ 'collection-products-list.css' | asset_url }}">
+<link rel="stylesheet" href="{{ 'pagination.css' | asset_url }}">
+<link rel="stylesheet" href="{{ 'button-style.css' | asset_url }}">
+<link rel="stylesheet" href="{{ 'custom-effect.css' | asset_url }}">
+<link rel="stylesheet" href="{{ 'loading.css' | asset_url }}">
+<script src="{{ 'lazysizes.min.js' | asset_url }}" async></script>
 
 {% layout 'page' %}
+
 
 <section class="wiki-page container">
   <div class="wiki-header">
