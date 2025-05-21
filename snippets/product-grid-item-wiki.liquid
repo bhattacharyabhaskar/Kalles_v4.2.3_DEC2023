@@ -46,56 +46,19 @@ assign image = product.featured_media | default: placeholder_img
 assign color_count = 0
 assign size_count = 0
 
-if isDefault == false and enable_pr_color or enable_pr_size
-   assign pr_options = product.options_with_values
-   
-   assign img_variants = pr_variants | where: "featured_image"
-   assign available_variants = product.variants | where: "available"
-   for option in pr_options
-      assign name = option.name | downcase
-
-      if enable_pr_color and get_color contains name and color_count == 0
-
-        assign pr_option_color = 'option' | append: forloop.index
-        assign color_variants_avai = available_variants | map: pr_option_color | uniq
-        assign featured_imgs = img_variants | map: 'featured_image'
-        
-        assign color_variants = option.values
-        if show_cl_type == '1'
-          assign color_count = color_variants.size
-        else
-          if pr_options.size == 1
-            assign color_variants = color_variants_avai
-          endif
-          assign color_count = color_variants_avai.size
-        endif
-       
-
-      elsif enable_pr_size and get_size contains name and size_count == 0
-
-        assign pr_option_size = 'option' | append: forloop.index 
-        assign size_variants_avai = available_variants | map: pr_option_size | uniq
-        assign size_variants = option.values
-        if show_size_type == '1'
-          assign size_count = size_variants.size
-        else
-          if pr_options.size == 1
-            assign size_variants = size_variants_avai
-          endif
-          assign size_count = size_variants_avai.size
-        endif
-
-      endif
-
-   endfor
-endif -%}
+-%}
 
 <div class="t4s-product t4s-pr-grid t4s-pr-style1 t4s-pr-{{ pid }} {{ col }} t4s-col-item" data-product-options='{ "id":"{{ pid }}","cusQty":"{{ cus_qty }}","available":{{ product.available }}, "handle":"{{ product.handle }}", "isDefault": {{ isDefault }}, "VariantFirstID": {{ current_variant.id }}, "customBadge":{{ arr_badge | json }}, "customBadgeHandle":{{ arr_badge_handle | json }},"dateStart":{{ product.created_at | date: "%s" }}, "compare_at_price":{{ current_variant.compare_at_price | json }},"price":{{ current_variant.price | json }}, "isPreoder":{{ isPreoder }},"isExternal":{{ isExternal }}{% if isExternal %},"external_title":{{ external_title | json }},"external_link":"{{ external_link | escape }}"{% endif %},"image2":{% if product.media[1] != blank %}{{ product.media[1] | image_url: width: 1 | json }},"alt":{{ product.media[1].alt | escape | json }}{% else %}false{% endif %},"isGrouped":{{ isGrouped }},"maxQuantity":{% if isDefault and isPreoder == false %}{{ max_qty }}{% else %}9999{% endif %} }'>
   <div 
 class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
     <div data-cacl-slide class="t4s-product-inner t4s-pr t4s-oh">
-            {%- if image != blank %}{% render 'product-img', image: image, imgatt: imgatt %}{% endif -%}
-
+      {%- if image != blank %}
+          {%- if product.featured_image -%}
+            <img src="{{ product.featured_image | img_url: '600x' }}" alt="{{ product.title | escape }}" class="t4s-product-main-img" style="width: 100%; height: auto;" />
+          {%- else -%}
+            <img src="{{ placeholder_img | img_url: '600x' }}" alt="Placeholder" class="t4s-product-main-img" style="width: 100%; height: auto;" />
+          {%- endif -%}
+        {% endif -%}
       <div data-product-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-product-badge"></div>
       <div class="t4s-product-btns">
          <div data-replace-quickview></div>
