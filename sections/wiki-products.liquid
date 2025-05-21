@@ -25,7 +25,7 @@
 
       {% for product in collections[coll_handle].products limit: 4 %}
         <div class="{{ col }}">
-          {% render 'product-grid-item1',
+          {% render 'product-grid-item-wiki',
             product: product,
             prefix_url: prefix_url,
             isGrowaveWishlist: isGrowaveWishlist,
