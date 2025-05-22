@@ -39,13 +39,6 @@
             "custom_liquid": "<div class=\"hide-on-mobile\">\n{%- if product.type == 'Saree' -%}\n  {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}\n  {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}\n\n  <div style=\"display: flex; flex-wrap: wrap; gap: 12px 16px; margin-top: 20px; margin-bottom: 20px; justify-content: flex-start;\">\n\n    {%- if inventory_quantity == 1 -%}\n      <span style=\"display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 8px; border: 1.5px solid #f4d7cd; box-shadow: 0 3px 8px rgba(0,0,0,0.08); background-color: #fff7f2; font-weight: 600; font-size: 14px; white-space: nowrap;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1469/7362/files/only-1-piece.webp?v=1747610113\" width=\"20\" height=\"20\" alt=\"Only 1 Piece Left\"/>\n        <span>Single Piece Only</span>\n      </span>\n    {%- endif -%}\n\n    {%- if fabric_value contains 'Silk Mark Certified' -%}\n      <span style=\"display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 8px; border: 1.5px solid #d1e7d0; box-shadow: 0 3px 8px rgba(0,0,0,0.08); background-color: #f6fff5; font-weight: 600; font-size: 14px; white-space: nowrap;\">\n        <img src=\"https://cdn.shopify.com/s/files/1/1469/7362/files/silk-mark_43bc972a-84be-414c-94b1-a7905176acd5.webp?v=1747610113\" width=\"20\" height=\"20\" alt=\"Silk Mark Certified\"/>\n        <span>Silk Mark Certified</span>\n      </span>\n    {%- endif -%}\n\n    <span style=\"display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 8px; border: 1.5px solid #cde0f9; box-shadow: 0 3px 8px rgba(0,0,0,0.08); background-color: #f2f8ff; font-weight: 600; font-size: 14px; white-space: nowrap;\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1469/7362/files/free-shipping.webp?v=1747610113\" width=\"20\" height=\"20\" alt=\"Free Shipping\"/>\n      <span>Free Shipping</span>\n    </span>\n\n  </div>\n{%- endif -%}\n</div>"
           }
         },
-        "e2dbc4b8-572a-49d7-a5d1-8fec516020b8": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<div data-romw-token=\"z3J4XYe2bw8ecUBKzL0nc4CrpLmXeP9yvhYDZtcs4ToXaQEY0t\"></div>\n<script  type=\"lazyload_int\" data-src=\"https://reviewsonmywebsite.com/js/v2/embed.js?id=7bf8acda5d5930b1a9db343a4ec1b31c\" ></script>"
-          }
-        },
         "price_review": {
           "type": "price_review",
           "settings": {
@@ -202,7 +195,6 @@
       "block_order": [
         "title",
         "custom_liquid_WweMRz",
-        "e2dbc4b8-572a-49d7-a5d1-8fec516020b8",
         "price_review",
         "custom_liquid_XFy8qN",
         "meta",
