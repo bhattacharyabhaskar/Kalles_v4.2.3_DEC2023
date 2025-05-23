@@ -2334,7 +2334,7 @@
           "main-qs-2": {
             "type": "form",
             "settings": {
-              "selector_mode": "circle",
+              "selector_mode": "radio is-sw__full",
               "color_mode": "variant_image",
               "enable_fit_ratio_img": true,
               "color_size": "large",
