@@ -131,6 +131,7 @@ assign variant_images = product.images | where: 'attached_to_variant?', true | m
           {%- when 'price' -%}
             <div class="t4s-product-qs__price" style="--price-size:{{ bk_stts.size_price_pr }}px;--price-weight:{{ bk_stts.fw_price_pr }};--price-color:{{ bk_stts.price_color }};--price-sale-color:{{ bk_stts.price_sale_color }};">
               {%- render 'product-price-single', variant: current_variant, product: product, PR_no_pick: PR_no_pick, type_sale: bk_stts.type_sale, price_varies_style: bk_stts.price -%}
+               <div class="review-widget">[<i>Price includes GST and IGST when sold in India]</i></div>        
             </div>
 
           {%- when 'form' -%}
