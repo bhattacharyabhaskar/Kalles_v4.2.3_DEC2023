@@ -15,8 +15,8 @@
         "image_parent_KL4Eff": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/indyvogue_banner_986446f0-0b5e-4af1-9ab7-4930e64fa4d4.jpg",
-            "image_mb": "shopify://shop_images/indyvogue_banner_mobile.jpg",
+            "image": "shopify://shop_images/indyvogue-banner-general.webp",
+            "image_mb": "shopify://shop_images/indyvogue-banner-mobile-general.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/buy-silk-mark-certified-saree",
