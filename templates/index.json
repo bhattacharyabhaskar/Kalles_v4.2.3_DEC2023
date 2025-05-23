@@ -55,8 +55,8 @@
         "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/indyvogue-banner-jamdani.jpg",
-            "image_mb": "shopify://shop_images/indyvogue-banner-jamdani-mobile.jpg",
+            "image": "shopify://shop_images/indyvogue-banner-jamdani.webp",
+            "image_mb": "shopify://shop_images/indyvogue-banner-jamdani-mobile.webp",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "shopify://collections/dhakai-jamdani-sarees",
