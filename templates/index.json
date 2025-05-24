@@ -710,7 +710,7 @@
         "heading_alignment": "center",
         "description_alignment": "center",
         "desktop_layout": "six-inline",
-        "mobile_layout": "single",
+        "mobile_layout": "two-column",
         "content_alignment": "center",
         "font_size_desktop": 16,
         "font_size_mobile": 14,
