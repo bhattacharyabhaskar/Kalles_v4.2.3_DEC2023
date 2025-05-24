@@ -1,0 +1,308 @@
+<style>
+  .crafted-video-gallery {
+    padding: 3rem 1rem;
+    background-color: {{ section.settings.background_color }};
+  }
+  .crafted-video-gallery h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: {{ section.settings.heading_alignment }};
+  }
+  .crafted-video-gallery p {
+    text-align: {{ section.settings.description_alignment }};
+  }
+  .crafted-video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2rem;
+  }
+  .video-layout-two-column .crafted-video-block { flex: 1 1 45%; max-width: 45%; }
+  .video-layout-three-column .crafted-video-block { flex: 1 1 30%; max-width: 30%; }
+  .video-layout-six-inline .crafted-video-block { flex: 1 1 16%; max-width: 16%; }
+  @media(max-width: 768px) {
+    .video-layout-mobile-two-column .crafted-video-block { flex: 1 1 48%; max-width: 48%; }
+    .video-layout-mobile-single .crafted-video-block { flex: 1 1 100%; max-width: 100%; }
+    .crafted-video-caption { font-size: {{ section.settings.font_size_mobile }}px; }
+  }
+  .crafted-video-block {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: #fff;
+    text-align: {{ section.settings.content_alignment }};
+  }
+  .crafted-video-block video,
+  .crafted-video-block img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+  .video-thumbnail-wrapper {
+    position: relative;
+    cursor: pointer;
+  }
+  .play-overlay, .lazy-play-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .video-mute-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    border-radius: 6px;
+    cursor: pointer;
+    z-index: 2;
+  }
+</style>
+
+<div class="crafted-video-gallery">
+  <h2>{{ section.settings.section_heading }}</h2>
+  <p>{{ section.settings.section_description }}</p>
+  <div class="crafted-video-grid video-layout-{{ section.settings.desktop_layout }} video-layout-mobile-{{ section.settings.mobile_layout }}">
+    {% for block in section.blocks %}
+      <div class="crafted-video-block">
+        {% if block.settings.autoplay %}
+          <div class="lazy-video" data-video="{{ block.settings.video_url }}">
+            <img src="{{ block.settings.thumbnail | img_url: '480x' }}" alt="Video Placeholder" loading="lazy">
+            <div class="lazy-play-overlay">▶️</div>
+          </div>
+          {% if section.settings.show_mute_toggle %}
+            <div class="video-mute-button" onclick="toggleSingleMute(this)">🔇</div>
+          {% endif %}
+        {% else %}
+          <div class="video-thumbnail-wrapper" onclick="playManualVideo(this)">
+            {% if block.settings.thumbnail %}
+              <img src="{{ block.settings.thumbnail | img_url: '480x' }}" alt="{{ block.settings.video_title }}">
+            {% endif %}
+            <div class="play-overlay">▶️</div>
+            <video class="manual-video" controls style="display:none;">
+              <source src="{{ block.settings.video_url }}" type="video/mp4">
+            </video>
+          </div>
+        {% endif %}
+        <div class="crafted-video-title">{{ block.settings.video_title }}</div>
+        <div class="crafted-video-caption" style="font-size: {{ section.settings.font_size_desktop }}px;">{{ block.settings.video_caption }}</div>
+        <div class="crafted-video-tags" style="font-size: 0.8rem; color: #777;">{{ block.settings.video_tags }}</div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  function toggleSingleMute(button) {
+    const video = button.parentElement.querySelector('video');
+    video.muted = !video.muted;
+    button.innerText = video.muted ? '🔇' : '🔊';
+  }
+
+  function playManualVideo(wrapper) {
+    const img = wrapper.querySelector('img');
+    const overlay = wrapper.querySelector('.play-overlay');
+    const video = wrapper.querySelector('.manual-video');
+
+    if (img) img.style.display = 'none';
+    if (overlay) overlay.style.display = 'none';
+    if (video) {
+      video.style.display = 'block';
+      video.play();
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const lazyVideos = document.querySelectorAll(".lazy-video");
+
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const container = entry.target;
+          const videoURL = container.getAttribute("data-video");
+
+          const video = document.createElement("video");
+          video.setAttribute("playsinline", "");
+          video.setAttribute("autoplay", "");
+          video.setAttribute("muted", "");
+          video.setAttribute("loop", "");
+          video.setAttribute("poster", container.querySelector('img').src);
+
+          const source = document.createElement("source");
+          source.src = videoURL;
+          source.type = "video/mp4";
+          video.appendChild(source);
+
+          container.innerHTML = "";
+          container.appendChild(video);
+          obs.unobserve(container);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    lazyVideos.forEach(video => observer.observe(video));
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Crafted Video Gallery",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "From Loom to Elegance"
+    },
+    {
+      "type": "textarea",
+      "id": "section_description",
+      "label": "Section Description",
+      "default": "Watch how our sarees and blouses come to life — handcrafted by master artisans across India."
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Section Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Section Heading Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "description_alignment",
+      "label": "Section Description Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "desktop_layout",
+      "label": "Desktop Layout",
+      "default": "three-column",
+      "options": [
+        { "value": "two-column", "label": "2 Columns" },
+        { "value": "three-column", "label": "3 Columns" },
+        { "value": "six-inline", "label": "6 Inline" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "mobile_layout",
+      "label": "Mobile Layout",
+      "default": "two-column",
+      "options": [
+        { "value": "single", "label": "1 Column" },
+        { "value": "two-column", "label": "2 Columns" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "label": "Content Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "font_size_desktop",
+      "label": "Font Size for Desktop (px)",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "font_size_mobile",
+      "label": "Font Size for Mobile (px)",
+      "min": 10,
+      "max": 22,
+      "step": 1,
+      "default": 14
+    },
+    {
+      "type": "checkbox",
+      "id": "show_mute_toggle",
+      "label": "Show Mute Toggle Button Inside Each Video",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Video Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "video_title",
+          "label": "Video Title",
+          "default": "Crafting Banarasi Silk"
+        },
+        {
+          "type": "textarea",
+          "id": "video_caption",
+          "label": "Caption",
+          "default": "An inside look at our artisan’s weaving process."
+        },
+        {
+          "type": "text",
+          "id": "video_tags",
+          "label": "Tags (comma-separated)",
+          "default": "Banarasi, Handwoven"
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video URL (.mp4 or .webm)"
+        },
+        {
+          "type": "image_picker",
+          "id": "thumbnail",
+          "label": "Thumbnail (used if autoplay is off)"
+        },
+        {
+          "type": "checkbox",
+          "id": "autoplay",
+          "label": "Autoplay video",
+          "default": true
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Crafted Video Gallery",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
