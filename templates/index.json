@@ -636,6 +636,87 @@
         "code_cus_css": ""
       }
     },
+    "crafted_videos_hHUEyy": {
+      "type": "crafted_videos",
+      "blocks": {
+        "video_aNUpgk": {
+          "type": "video",
+          "settings": {
+            "video_title": "A Pure Gold Zari Kanjeevaram",
+            "video_caption": "",
+            "video_tags": "Kanjeevaram, Handwoven, Kanchipuram, Pure Gold, Silk mark",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b2907bf27efc40d79373e78d5dc5bb5a.mp4",
+            "thumbnail": "shopify://shop_images/Kanjeevaram.webp",
+            "autoplay": true
+          }
+        },
+        "video_WWfnqV": {
+          "type": "video",
+          "settings": {
+            "video_title": "Garad Silk - A Bengal tradition",
+            "video_caption": "",
+            "video_tags": "Bengal, Handwoven, Garad, Silk mark",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/86b4ec8129f24bcaad4ca627bacf87d1.mp4",
+            "thumbnail": "shopify://shop_images/Garad-Silk.webp",
+            "autoplay": true
+          }
+        },
+        "video_M9PLEq": {
+          "type": "video",
+          "settings": {
+            "video_title": "The Lost Art - Madhubani Painting",
+            "video_caption": "",
+            "video_tags": "Madhubani, Hand Painted, Hand Woven, Silk Mark",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/3f062e26064b4279baf62e4243791fab.mp4",
+            "thumbnail": "shopify://shop_images/Madhubani.webp",
+            "autoplay": true
+          }
+        },
+        "video_jAyhBj": {
+          "type": "video",
+          "settings": {
+            "video_title": "The Jamdani Heritage",
+            "video_caption": "",
+            "video_tags": "Banarasi, Handwoven",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/a5a4f024da15418f969feb62003fbbcf.mp4",
+            "thumbnail": "shopify://shop_images/Jamdani.webp",
+            "autoplay": true
+          }
+        },
+        "video_VfTneQ": {
+          "type": "video",
+          "settings": {
+            "video_title": "A work of Art",
+            "video_caption": "An inside look at our artisan’s weaving process.",
+            "video_tags": "Bishnupuri Silk, Handwoven, Hand Painted, Silk Mark",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/e3433a736c7349da8600d68ac7b58f42.mp4",
+            "thumbnail": "shopify://shop_images/HandPinted.webp",
+            "autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "video_aNUpgk",
+        "video_WWfnqV",
+        "video_M9PLEq",
+        "video_jAyhBj",
+        "video_VfTneQ"
+      ],
+      "name": "Crafted Video Gallery",
+      "settings": {
+        "section_heading": "From Loom to Elegance",
+        "section_description": "Watch how our sarees come to life — handcrafted by master artisans.",
+        "background_color": "#fcfaf7",
+        "heading_alignment": "center",
+        "description_alignment": "center",
+        "desktop_layout": "three-column",
+        "mobile_layout": "single",
+        "content_alignment": "center",
+        "font_size_desktop": 16,
+        "font_size_mobile": 14,
+        "show_mute_toggle": true
+      }
+    },
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370": {
       "type": "collections-list-packery",
       "blocks": {
@@ -1709,6 +1790,7 @@
     "1646028739ae283905",
     "d98aa1b1-f414-49a2-be42-55dd82743bc1",
     "promo_text_DwDFQ7",
+    "crafted_videos_hHUEyy",
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
     "custom_liquid_MQ67PY",
     "1702155301c8da60ce",
