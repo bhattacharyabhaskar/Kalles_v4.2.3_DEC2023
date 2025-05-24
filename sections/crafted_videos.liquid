@@ -71,36 +71,33 @@
 
 <div class="crafted-video-gallery">
   <h2>{{ section.settings.section_heading }}</h2>
-  <p>{{ section.settings.section_description }}</p>
-  <div class="crafted-video-grid video-layout-{{ section.settings.desktop_layout }} video-layout-mobile-{{ section.settings.mobile_layout }}">
-    {% for block in section.blocks %}
-      <div class="crafted-video-block">
-        {% if block.settings.autoplay %}
-          <div class="lazy-video" data-video="{{ block.settings.video_url }}">
-            <img src="{{ block.settings.thumbnail | img_url: '480x' }}" alt="Video Placeholder" loading="lazy">
-            <div class="lazy-play-overlay">▶️</div>
-          </div>
-          {% if section.settings.show_mute_toggle %}
-            <div class="video-mute-button" onclick="toggleSingleMute(this)">🔇</div>
-          {% endif %}
-        {% else %}
-          <div class="video-thumbnail-wrapper" onclick="playManualVideo(this)">
-            {% if block.settings.thumbnail %}
-              <img src="{{ block.settings.thumbnail | img_url: '480x' }}" alt="{{ block.settings.video_title }}">
-            {% endif %}
-            <div class="play-overlay">▶️</div>
-            <video class="manual-video" controls style="display:none;">
-              <source src="{{ block.settings.video_url }}" type="video/mp4">
-            </video>
-          </div>
-        {% endif %}
-        <div class="crafted-video-title">{{ block.settings.video_title }}</div>
-        <div class="crafted-video-caption" style="font-size: {{ section.settings.font_size_desktop }}px;">{{ block.settings.video_caption }}</div>
-        <div class="crafted-video-tags" style="font-size: 0.8rem; color: #777;">{{ block.settings.video_tags }}</div>
+  <p>{{ section.settings.section_description }}</p><div class="crafted-video-grid video-layout-{{ section.settings.desktop_layout }} video-layout-mobile-{{ section.settings.mobile_layout }}">
+  {% for block in section.blocks %}
+    <div class="crafted-video-block">
+      <video
+        controls
+        playsinline
+        muted
+        preload="metadata"
+        loop
+        poster="{{ block.settings.thumbnail | img_url: '480x' }}"
+        aria-label="{{ block.settings.video_title }}"
+        style="border-radius: 12px; width: 100%; display: block;"
+      >
+        <source src="{{ block.settings.video_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="crafted-video-title">{{ block.settings.video_title }}</div>
+      <div class="crafted-video-caption" style="font-size: {{ section.settings.font_size_desktop }}px;">
+        {{ block.settings.video_caption }}
       </div>
-    {% endfor %}
-  </div>
+      <div class="crafted-video-tags" style="font-size: 0.8rem; color: #777;">
+        {{ block.settings.video_tags }}
+      </div>
+    </div>
+  {% endfor %}
 </div>
+
 
 <script>
   function toggleSingleMute(button) {
