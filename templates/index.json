@@ -1703,6 +1703,23 @@
         "9ef838d1-083b-4f7c-9d77-1914496936a0"
       ],
       "settings": {}
+    },
+    "crafted_videos_zAf4MP": {
+      "type": "crafted_videos",
+      "name": "Crafted Video Gallery",
+      "settings": {
+        "section_heading": "From Loom to Elegance",
+        "section_description": "Watch how our Sarees come to life — handcrafted by master artisans.",
+        "background_color": "#fcfaf7",
+        "heading_alignment": "center",
+        "description_alignment": "center",
+        "desktop_layout": "six-inline",
+        "mobile_layout": "single",
+        "content_alignment": "center",
+        "font_size_desktop": 16,
+        "font_size_mobile": 14,
+        "show_mute_toggle": true
+      }
     }
   },
   "order": [
@@ -1727,6 +1744,7 @@
     "16460368750174c54a",
     "d9739b17-f400-495b-a60f-9652e6c536ed",
     "custom_liquid_bB8QjJ",
-    "17022330082d8df317"
+    "17022330082d8df317",
+    "crafted_videos_zAf4MP"
   ]
 }
