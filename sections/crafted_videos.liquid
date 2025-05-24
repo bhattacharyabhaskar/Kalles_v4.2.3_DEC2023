@@ -130,7 +130,7 @@
           const videoURL = container.getAttribute("data-video");
           const poster = container.querySelector('img')?.src;
           const label = container.getAttribute("data-label") || "Crafted Video";
-
+          console.log("video_play triggered:", label, src);
           const video = document.createElement("video");
           video.setAttribute("playsinline", "");
           video.setAttribute("autoplay", "");
@@ -161,7 +161,6 @@
               console.warn("gtag not defined for GA4 event.");
             }
           });
-          console.log("video_play triggered:", label, src);
 
           container.innerHTML = "";
           container.appendChild(video);
