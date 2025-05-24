@@ -647,7 +647,7 @@
             "video_tags": "Kanjeevaram, Handwoven, Kanchipuram, Pure Gold, Silk mark",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/b2907bf27efc40d79373e78d5dc5bb5a.mp4",
             "thumbnail": "shopify://shop_images/Kanjeevaram.webp",
-            "autoplay": true
+            "autoplay": false
           }
         },
         "video_WWfnqV": {
@@ -658,7 +658,7 @@
             "video_tags": "Bengal, Handwoven, Garad, Silk mark",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/86b4ec8129f24bcaad4ca627bacf87d1.mp4",
             "thumbnail": "shopify://shop_images/Garad-Silk.webp",
-            "autoplay": true
+            "autoplay": false
           }
         },
         "video_M9PLEq": {
@@ -669,7 +669,7 @@
             "video_tags": "Madhubani, Hand Painted, Hand Woven, Silk Mark",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/3f062e26064b4279baf62e4243791fab.mp4",
             "thumbnail": "shopify://shop_images/Madhubani.webp",
-            "autoplay": true
+            "autoplay": false
           }
         },
         "video_jAyhBj": {
@@ -680,7 +680,7 @@
             "video_tags": "Banarasi, Handwoven",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/a5a4f024da15418f969feb62003fbbcf.mp4",
             "thumbnail": "shopify://shop_images/Jamdani.webp",
-            "autoplay": true
+            "autoplay": false
           }
         },
         "video_VfTneQ": {
@@ -691,7 +691,7 @@
             "video_tags": "Bishnupuri Silk, Handwoven, Hand Painted, Silk Mark",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/e3433a736c7349da8600d68ac7b58f42.mp4",
             "thumbnail": "shopify://shop_images/HandPinted.webp",
-            "autoplay": true
+            "autoplay": false
           }
         }
       },
