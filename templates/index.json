@@ -1103,6 +1103,40 @@
         "code_cus_css": ""
       }
     },
+    "line_mxepEr": {
+      "type": "line",
+      "name": "Custom line",
+      "settings": {
+        "line_style": "solid",
+        "line_width": 100,
+        "line_height": 2.5,
+        "line_cl": "#b7499b",
+        "line_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "mg": ",,50px,",
+        "mg_tb": "",
+        "mg_mb": ",,30px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "line_w49wWj": {
+      "type": "line",
+      "name": "Custom line",
+      "settings": {
+        "line_style": "solid",
+        "line_width": 100,
+        "line_height": 2.5,
+        "line_cl": "#b7499b",
+        "line_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "mg": ",,50px,",
+        "mg_tb": "",
+        "mg_mb": ",,30px,",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff": {
       "type": "our_mission",
       "blocks": {
@@ -1789,7 +1823,9 @@
   "order": [
     "1646028739ae283905",
     "d98aa1b1-f414-49a2-be42-55dd82743bc1",
+    "line_w49wWj",
     "crafted_videos_zAf4MP",
+    "line_mxepEr",
     "promo_text_DwDFQ7",
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
     "custom_liquid_MQ67PY",
