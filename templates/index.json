@@ -1706,6 +1706,66 @@
     },
     "crafted_videos_zAf4MP": {
       "type": "crafted_videos",
+      "blocks": {
+        "video_yf84Gw": {
+          "type": "video",
+          "settings": {
+            "video_title": "A Pure Gold Zari Kanjeevaram",
+            "video_caption": "",
+            "video_tags": "Kanjeevaram, Kanchipuram, Pure Gold, Handloom, Silk Mark, India Heritage",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b2907bf27efc40d79373e78d5dc5bb5a.mp4",
+            "thumbnail": "shopify://shop_images/Kanjeevaram.webp",
+            "autoplay": true
+          }
+        },
+        "video_ArxPYH": {
+          "type": "video",
+          "settings": {
+            "video_title": "Crafting Banarasi Silk",
+            "video_caption": "An inside look at our artisan’s weaving process.",
+            "video_tags": "Banarasi, Handwoven",
+            "video_url": "",
+            "autoplay": true
+          }
+        },
+        "video_FYLcYx": {
+          "type": "video",
+          "settings": {
+            "video_title": "Crafting Banarasi Silk",
+            "video_caption": "An inside look at our artisan’s weaving process.",
+            "video_tags": "Banarasi, Handwoven",
+            "video_url": "",
+            "autoplay": true
+          }
+        },
+        "video_hr8NHz": {
+          "type": "video",
+          "settings": {
+            "video_title": "Crafting Banarasi Silk",
+            "video_caption": "An inside look at our artisan’s weaving process.",
+            "video_tags": "Banarasi, Handwoven",
+            "video_url": "",
+            "autoplay": true
+          }
+        },
+        "video_9qneT8": {
+          "type": "video",
+          "settings": {
+            "video_title": "Crafting Banarasi Silk",
+            "video_caption": "An inside look at our artisan’s weaving process.",
+            "video_tags": "Banarasi, Handwoven",
+            "video_url": "",
+            "autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "video_yf84Gw",
+        "video_ArxPYH",
+        "video_FYLcYx",
+        "video_hr8NHz",
+        "video_9qneT8"
+      ],
       "name": "Crafted Video Gallery",
       "settings": {
         "section_heading": "From Loom to Elegance",
