@@ -130,6 +130,7 @@
           const videoURL = container.getAttribute("data-video");
           const poster = container.querySelector('img')?.src;
           const label = container.getAttribute("data-label") || "Crafted Video";
+
           const video = document.createElement("video");
           video.setAttribute("playsinline", "");
           video.setAttribute("autoplay", "");
@@ -143,13 +144,19 @@
           source.src = videoURL;
           source.type = "video/mp4";
           video.appendChild(source);
-          console.log("video_play triggered:", label, src);
 
-          // ✅ GA4 tracking on first play
+          // ✅ Insert video into DOM first
+          container.innerHTML = "";
+          container.appendChild(video);
+          obs.unobserve(container);
+
+          // ✅ Add GA4 tracking on play
           let hasPlayed = false;
           video.addEventListener("play", function () {
             if (hasPlayed) return;
             hasPlayed = true;
+
+            console.log("video_play triggered:", label, videoURL); // ✅ Correct placement
 
             if (typeof gtag === "function") {
               gtag("event", "video_play", {
@@ -161,10 +168,6 @@
               console.warn("gtag not defined for GA4 event.");
             }
           });
-
-          container.innerHTML = "";
-          container.appendChild(video);
-          obs.unobserve(container);
         }
       });
     }, { threshold: 0.5 });
