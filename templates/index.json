@@ -709,7 +709,7 @@
         "background_color": "#fcfaf7",
         "heading_alignment": "center",
         "description_alignment": "center",
-        "desktop_layout": "three-column",
+        "desktop_layout": "six-inline",
         "mobile_layout": "single",
         "content_alignment": "center",
         "font_size_desktop": 16,
