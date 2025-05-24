@@ -128,18 +128,39 @@
         if (entry.isIntersecting) {
           const container = entry.target;
           const videoURL = container.getAttribute("data-video");
+          const poster = container.querySelector('img')?.src;
+          const label = container.getAttribute("data-label") || "Crafted Video";
 
           const video = document.createElement("video");
           video.setAttribute("playsinline", "");
           video.setAttribute("autoplay", "");
           video.setAttribute("muted", "");
           video.setAttribute("loop", "");
-          video.setAttribute("poster", container.querySelector('img').src);
+          video.setAttribute("poster", poster);
+          video.setAttribute("aria-label", label);
+          video.setAttribute("preload", "metadata");
 
           const source = document.createElement("source");
           source.src = videoURL;
           source.type = "video/mp4";
           video.appendChild(source);
+
+          // ✅ GA4 tracking on first play
+          let hasPlayed = false;
+          video.addEventListener("play", function () {
+            if (hasPlayed) return;
+            hasPlayed = true;
+
+            if (typeof gtag === "function") {
+              gtag("event", "video_play", {
+                event_category: "Video",
+                event_label: label,
+                video_url: videoURL
+              });
+            } else {
+              console.warn("gtag not defined for GA4 event.");
+            }
+          });
 
           container.innerHTML = "";
           container.appendChild(video);
