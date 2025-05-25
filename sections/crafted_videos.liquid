@@ -74,13 +74,12 @@
   <p>{{ section.settings.section_description }}</p><div class="crafted-video-grid video-layout-{{ section.settings.desktop_layout }} video-layout-mobile-{{ section.settings.mobile_layout }}">
   {% for block in section.blocks %}
   {% assign autoplay_enabled = block.settings.autoplay %}
-    -{{ autoplay_enabled }}
     <div class="crafted-video-block">
       <video
         controls
         playsinline
         muted
-        {% if autoplay %}autoplay{% endif %}
+        {% if autoplay_enabled %}autoplay{% endif %}
         preload="metadata"
         loop
         poster="{{ block.settings.thumbnail | img_url: '480x' }}"
