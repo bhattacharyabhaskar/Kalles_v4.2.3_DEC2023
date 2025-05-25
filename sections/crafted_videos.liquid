@@ -79,8 +79,8 @@
         controls
         playsinline
         muted
-        preload="metadata"
         {% if autoplay %}autoplay{% endif %}
+        preload="metadata"
         loop
         poster="{{ block.settings.thumbnail | img_url: '480x' }}"
         aria-label="{{ block.settings.video_title }}"
