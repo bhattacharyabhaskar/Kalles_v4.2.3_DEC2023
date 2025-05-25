@@ -80,8 +80,8 @@
         playsinline
         muted
         preload="metadata"
-        loop
         {% if autoplay %}autoplay{% endif %}
+        loop
         poster="{{ block.settings.thumbnail | img_url: '480x' }}"
         aria-label="{{ block.settings.video_title }}"
         style="border-radius: 12px; width: 100%; display: block;"
