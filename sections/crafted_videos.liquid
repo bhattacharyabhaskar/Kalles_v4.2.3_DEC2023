@@ -73,8 +73,8 @@
   <h2>{{ section.settings.section_heading }}</h2>
   <p>{{ section.settings.section_description }}</p><div class="crafted-video-grid video-layout-{{ section.settings.desktop_layout }} video-layout-mobile-{{ section.settings.mobile_layout }}">
   {% for block in section.blocks %}
-      {%- assign autoplay = section.blocks.au_video -%}
-    {{ autoplay }}
+      {%- assign autoplay = section.blocks.autoplay -%}
+    aa{{ autoplay }}
     <div class="crafted-video-block">
       <video
         controls
