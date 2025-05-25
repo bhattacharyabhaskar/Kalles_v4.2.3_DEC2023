@@ -633,7 +633,7 @@
             "video_tags": "Bengal, Bangladesh, Handwoven, Jamdani, Heritage",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/a5a4f024da15418f969feb62003fbbcf.mp4",
             "thumbnail": "shopify://shop_images/Jamdani.webp",
-            "autoplay": false
+            "autoplay": true
           }
         },
         "video_FYLcYx": {
@@ -644,7 +644,7 @@
             "video_tags": "Madhubani, Art, Hand Painted, Silk mark, Heritage",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/3f062e26064b4279baf62e4243791fab.mp4",
             "thumbnail": "shopify://shop_images/Madhubani.webp",
-            "autoplay": false
+            "autoplay": true
           }
         },
         "video_hr8NHz": {
@@ -655,7 +655,7 @@
             "video_tags": "Bengal, Hand Woven, Garad, Silk Mark",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/86b4ec8129f24bcaad4ca627bacf87d1.mp4",
             "thumbnail": "shopify://shop_images/Garad-Silk.webp",
-            "autoplay": false
+            "autoplay": true
           }
         },
         "video_9qneT8": {
@@ -666,7 +666,7 @@
             "video_tags": "Bishnupur , Handwoven, Hand painted",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/e3433a736c7349da8600d68ac7b58f42.mp4",
             "thumbnail": "shopify://shop_images/HandPinted.webp",
-            "autoplay": false
+            "autoplay": true
           }
         }
       },
