@@ -122,60 +122,65 @@
     }
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
-    const lazyVideos = document.querySelectorAll(".lazy-video");
+ document.addEventListener("DOMContentLoaded", function () {
+  const lazyVideos = document.querySelectorAll(".lazy-video");
 
-    const observer = new IntersectionObserver((entries, obs) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const container = entry.target;
-          const videoURL = container.getAttribute("data-video");
-          const poster = container.querySelector('img')?.src;
-          const label = container.getAttribute("data-label") || "Crafted Video";
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const container = entry.target;
+        const videoURL = container.getAttribute("data-video");
+        const poster = container.querySelector('img')?.src;
+        const label = container.getAttribute("data-label") || "Crafted Video";
 
-          const video = document.createElement("video");
-          video.setAttribute("playsinline", "");
-          video.setAttribute("autoplay", "");
-          video.setAttribute("muted", "");
-          video.setAttribute("loop", "");
-          video.setAttribute("poster", poster);
-          video.setAttribute("aria-label", label);
-          video.setAttribute("preload", "metadata");
+        const video = document.createElement("video");
+        video.setAttribute("playsinline", "");
+        video.setAttribute("autoplay", "");
+        video.setAttribute("muted", "");
+        video.setAttribute("loop", "");
+        video.setAttribute("poster", poster);
+        video.setAttribute("aria-label", label);
+        video.setAttribute("preload", "metadata");
 
-          const source = document.createElement("source");
-          source.src = videoURL;
-          source.type = "video/mp4";
-          video.appendChild(source);
+        const source = document.createElement("source");
+        source.src = videoURL;
+        source.type = "video/mp4";
+        video.appendChild(source);
 
-          // ✅ Insert video into DOM first
-          container.innerHTML = "";
-          container.appendChild(video);
-          obs.unobserve(container);
+        // ✅ Insert video into DOM
+        container.innerHTML = "";
+        container.appendChild(video);
+        obs.unobserve(container);
 
-          // ✅ Add GA4 tracking on play
-          let hasPlayed = false;
-          video.addEventListener("play", function () {
-            if (hasPlayed) return;
-            hasPlayed = true;
+        // ✅ Try to play if muted (autoplay allowed)
+        video.play().catch(err => {
+          console.warn("Autoplay failed:", err);
+        });
 
-            console.log("video_play triggered:", label, videoURL); // ✅ Correct placement
+        // ✅ GA4 tracking on play
+        let hasPlayed = false;
+        video.addEventListener("play", function () {
+          if (hasPlayed) return;
+          hasPlayed = true;
 
-            if (typeof gtag === "function") {
-              gtag("event", "video_play", {
-                event_category: "Video",
-                event_label: label,
-                video_url: videoURL
-              });
-            } else {
-              console.warn("gtag not defined for GA4 event.");
-            }
-          });
-        }
-      });
-    }, { threshold: 0.5 });
+          console.log("video_play triggered:", label, videoURL);
 
-    lazyVideos.forEach(video => observer.observe(video));
-  });
+          if (typeof gtag === "function") {
+            gtag("event", "video_play", {
+              event_category: "Video",
+              event_label: label,
+              video_url: videoURL
+            });
+          } else {
+            console.warn("gtag not defined for GA4 event.");
+          }
+        });
+      }
+    });
+  }, { threshold: 0.5 });
+
+  lazyVideos.forEach(video => observer.observe(video));
+});
 </script>
 
 {% schema %}
