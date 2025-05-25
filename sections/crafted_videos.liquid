@@ -73,6 +73,7 @@
   <h2>{{ section.settings.section_heading }}</h2>
   <p>{{ section.settings.section_description }}</p><div class="crafted-video-grid video-layout-{{ section.settings.desktop_layout }} video-layout-mobile-{{ section.settings.mobile_layout }}">
   {% for block in section.blocks %}
+      {%- assign autoplay = 'section.blocks.au_video' -%}
     <div class="crafted-video-block">
       <video
         controls
@@ -80,6 +81,7 @@
         muted
         preload="metadata"
         loop
+        {% if autoplay %}autoplay{% endif %}
         poster="{{ block.settings.thumbnail | img_url: '480x' }}"
         aria-label="{{ block.settings.video_title }}"
         style="border-radius: 12px; width: 100%; display: block;"
