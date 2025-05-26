@@ -1,0 +1,71 @@
+
+    {%- assign fabric_value = product.metafields.saree.fabric_type | metafield_text -%}
+    {%- assign work_value = product.metafields.saree.new_work | metafield_text -%}
+    {%- assign bp_value = product.metafields.saree.BlousePiece -%}
+    <div class="t4s-product-icons" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px;">
+      {%- if fabric_value contains 'Silk Mark' -%}
+        <span class="t4s-icon-label">
+          <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/silk-mark_43bc972a-84be-414c-94b1-a7905176acd5.webp?v=1747610113" width="20" height="20" alt="Silk Mark Certified" style="vertical-align: middle;">
+          Silk Mark
+        </span>
+      {%- endif -%}
+      {%- if work_value contains 'Hand Woven' -%}
+        <span class="t4s-icon-label">
+          <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/hand-woven.webp?v=1747610113" width="20" height="20" alt="Handwoven" style="vertical-align: middle;">
+          Handwoven
+        </span>
+      {%- endif -%}
+      {%- if work_value contains 'Hand Embroidery' -%}
+        <span class="t4s-icon-label">
+          <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/hand-stitched.webp?v=1747610113" width="20" height="20" alt="Hand Embroidered" style="vertical-align: middle;">
+          Hand Embroidered
+        </span>
+      {%- endif -%}
+      {%- if work_value contains 'Hand Paint' -%}
+        <span class="t4s-icon-label">
+          <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/hand-painted.webp?v=1747610113" width="20" height="20" alt="Hand Painted" style="vertical-align: middle;">
+          Hand Painted
+        </span>
+      {%- endif -%}
+      {%- if work_value contains 'Print' -%}
+        <span class="t4s-icon-label">
+          <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/printed.webp?v=1747610113" width="20" height="20" alt="Printed" style="vertical-align: middle;">
+          Printed
+        </span>
+      {%- endif -%}
+      {%- if bp_value contains 'Contrast' -%}
+        <span class="t4s-icon-label">
+          <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/contrast_41c16f34-c484-4dc0-942e-e7fb084f512a.webp?v=1747610113" width="20" height="20" alt="Contrast Blouse" style="vertical-align: middle;">
+          Contrast Blouse Piece
+        </span>
+      {%- endif -%}
+      {%- if bp_value contains 'Matching' -%}
+        <span class="t4s-icon-label">
+          <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/matching.webp?v=1747610113" width="20" height="20" alt="Matching Blouse" style="vertical-align: middle;">
+          Matching Blouse Piece
+        </span>
+      {%- endif -%}
+      {%- for variant in product.variants -%}
+        {% assign last_char = variant.sku | slice: -1 | upcase %}
+        {% if last_char == 'B' %}
+          <span class="t4s-icon-label">
+            <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/blouse-stitching.webp?v=1747618807" width="20" height="20" alt="Stitched Blouse" style="vertical-align: middle;">
+            Designer Blouse Option
+          </span>
+        {% endif %}
+        {% if last_char == 'P' %}
+          <span class="t4s-icon-label">
+            <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/pre-stitched.webp?v=1747610113" width="20" height="20" alt="Pre-Stitched" style="vertical-align: middle;">
+            Pre-Stitched Option
+          </span>
+        {% endif %}
+      {%- endfor -%}
+      <span class="t4s-icon-label">
+        <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/fall-pico_354c6f50-c915-453a-82c5-e5812eecf41b.webp?v=1747610113" width="20" height="20" alt="Fall & Pico" style="vertical-align: middle;">
+        Fall & Pico Ready
+      </span>
+      <span class="t4s-icon-label">
+        <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/free-shipping.webp?v=1747610113" width="20" height="20" alt="Free Shipping" style="vertical-align: middle;">
+        Free Shipping
+      </span>
+    </div>
