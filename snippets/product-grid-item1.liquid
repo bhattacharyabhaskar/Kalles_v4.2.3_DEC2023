@@ -132,6 +132,7 @@ class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
         // BB: Adding SKU in grid
         {% endcomment %}
         <div class="grid_vendor">SKU: {{ product.variants.first.sku }}</div>
+          {%- if product.type == 'Saree' -%}{% render 'product-icons-graphic' with product as product %}{%- endif -%}
          {%- if enable_rating %}{%- render 'product-rating', product: product, app_review: app_review -%}{% endif -%}
         {%- if show_list_btns -%}
          {%- assign description_excerpt = product.metafields.theme.description_excerpt -%}
