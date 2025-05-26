@@ -155,7 +155,7 @@
         "221aa22f-5c6c-40c9-9403-6d3cd2c23e93"
       ],
       "settings": {
-        "enable_drawer": false,
+        "enable_drawer": true,
         "space": 50,
         "size": "medium",
         "br_style": "none",
