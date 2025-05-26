@@ -126,7 +126,7 @@ class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
     <div class="t4s-product-info">
       <div class="t4s-product-info__inner">
          {%- if product.vendor.size > 0 and show_vendor -%}{% if use_link_vendor %}{% assign pr_vendor_handle = product.vendor | handle %}{% assign collection_vendor = collections[pr_vendor_handle] %}{% endif %}<div class="t4s-product-vendor"><a href="{% if use_link_vendor and collection_vendor.url != blank %}{{ collection_vendor.url }}{% else %}{{ product.vendor | url_for_vendor }}{% endif %}">{{ product.vendor }}</a></div>{%- endif -%}
-         <h3 class="t4s-product-title"><a data-pr-href href="{{ pr_url }}">{{ product.title }}</a></h3>
+         <h3 class="t4s-product-title"><a data-pr-href href="{{ pr_url }}">{{ product.title | truncate: 55 }}</a></h3>
          {%- render 'product-price', product: product, price_varies_style: price_varies_style, type: 'card', isGrouped: isGrouped -%}
         {% comment %}  
         // BB: Adding SKU in grid
