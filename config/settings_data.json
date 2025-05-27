@@ -2433,6 +2433,7 @@
       ".t4s-pr-style6 .t4s-product-badge {align-items: flex-end;}",
       ".t4s-pr-style6 .t4s-product-btns2 {display: none;}",
       ".type_mn_link .t4s-sub-column li a:not(:hover) {color: #003300;}",
+      ".shopify-payment-button__more-options {margin: 1.6rem 0 1rem; letter-spacing: 0.05rem; text-decoration: underline; text-underline-offset: 0.3rem;}",
       ".is-t4s-name__size {display: none !important;}"
     ]
   }
