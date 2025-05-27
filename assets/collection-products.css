@@ -324,6 +324,9 @@
   text-decoration: none;
   margin-left: 6px;
   display: inline-block;
+  font-weight: 700;
+  font-size: 1.65rem;
+
 }
 .t4s-product .t4s-price-from {
   color: var(--product-price-color);
