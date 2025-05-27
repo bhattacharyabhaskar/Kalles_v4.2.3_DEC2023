@@ -250,43 +250,6 @@ endif -%}
 <link rel="stylesheet" data-href="{{ 'main-product.css' | asset_url }}">
 
 
-
-  <div class="mobile-product-title t4s-product__title-wrapper hide-on-desktop" style="margin: 20px 16px 12px;">
-  <h1 class="t4s-product__title" style="
-    font-family: 'Playfair Display';
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.3;
-    letter-spacing: 2px;
-    color: #1c1c1c;
-    margin: 0;">
-    {{ product.title }}
-  </h1>
-</div>
-
-  {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}
-    {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}
-
-<div class="mobile-top-icons" style="display: flex; flex-wrap: wrap; gap: 10px 12px; margin-bottom: 16px;">
-      {%- if inventory_quantity == 1 -%}
-        <span style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; border: 1px solid #f1e1d6; background-color: #fff7f2; font-weight: 600; font-size: 13.5px;">
-          <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/only-1-piece.webp?v=1747610113" width="20" height="20" alt="Only 1 Piece Left" />
-          <span>Single Piece Only</span>
-        </span>
-      {%- endif -%}
-
-      {%- if fabric_value contains 'Silk Mark Certified' -%}
-        <span style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; border: 1px solid #d6ecd6; background-color: #f6fff5; font-weight: 600; font-size: 13.5px;">
-          <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/silk-mark_43bc972a-84be-414c-94b1-a7905176acd5.webp?v=1747610113" width="20" height="20" alt="Silk Mark Certified" />
-          <span>Silk Mark Certified</span>
-        </span>
-      {%- endif -%}
-
-      <span style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; border: 1px solid #c6dff6; background-color: #f2f8ff; font-weight: 600; font-size: 13.5px;">
-        <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/free-shipping.webp?v=1747610113" width="20" height="20" alt="Free Shipping" />
-        <span>Free Shipping</span>
-      </span>
-    </div>
 <div class="t4s-container t4s-main-product__content is--layout_{{ se_stts.pr_layout }} t4s-product-media__{{ media_layout }} t4s-product-thumb-size__{{ se_stts.thumb_lr_size }}">
   <div class="t4s-row">
     <div class="t4s-col-item t4s-col-12 t4s-main-area">
@@ -427,9 +390,7 @@ endif -%}
                       assign lh_pr = bk_stts.lh_pr | append: 'px'
                     endif
                   %}
-                  <div class="hide-on-mobile">
                     <h1 class="t4s-product__title" style="--title-family:var(--font-family-{{ bk_stts.fnt_df_pr }});--title-style:{{ bk_stts.txt_tr_pr }};--title-size:{{ bk_stts.size_pr }}px;--title-weight:{{ bk_stts.fw_pr }};--title-line-height:{{ lh_pr }};--title-spacing:{{ bk_stts.ls_pr }}px;--title-color:{{ bk_stts.pr_title_color }};--title-color-hover:{{ bk_stts.pr_title_color }};" {{ block.shopify_attributes }}>{{ product.title }}</h1>
-                  </div>
 
                 {%- when 'price_review' -%}
                   <div class="t4s-product__price-review" style="--price-size:{{ bk_stts.size_price_pr }}px;--price-weight:{{ bk_stts.fw_price_pr }};--price-color:{{ bk_stts.price_color }};--price-sale-color:{{ bk_stts.price_sale_color }};">
