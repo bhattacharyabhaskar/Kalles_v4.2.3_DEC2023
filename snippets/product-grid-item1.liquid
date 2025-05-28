@@ -127,7 +127,6 @@ class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
          {%- if isGrowaveWishlist -%} 
             {%- capture the_snippet_fave_icon %}{% render 'ssw-widget-faveicon' with pid %}{% endcapture -%}
             {%- unless the_snippet_fave_icon contains 'Liquid error' -%}<div class="t4s-pr-item-btn t4s-pr-wishlist is--growave">{{ the_snippet_fave_icon }}</div>{%- endunless -%}
-         {%- else -%}<div data-replace-wishlist data-tooltip="right"></div>
          {%- endif -%}
          <div data-replace-compare data-tooltip="right"></div>
       </div>
