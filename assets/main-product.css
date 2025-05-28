@@ -900,4 +900,19 @@ button.t4s-product__description_readm:hover {
   .mobile-top-icons {
     display: none !important;
   }
+
+
+.ivy-silkmark-topright {
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  z-index: 4;
+  padding: 2px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
 }
+
+.t4s-product__media-wrapper {
+  position: relative;
+}
+
