@@ -2332,3 +2332,28 @@
     font-size: 10px;
   }
 }
+
+.ivy-badge-logo-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px; /* spacing between icons */
+}
+
+.ivy-badge-logo-left img {
+  width: 40px;
+  height: auto;
+  border-radius: 4px;
+  background: white;
+  padding: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+@media (max-width: 480px) {
+  .ivy-badge-logo-left img {
+    width: 32px;
+    padding: 1px;
+  }
