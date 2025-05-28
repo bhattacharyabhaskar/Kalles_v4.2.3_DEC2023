@@ -924,6 +924,5 @@ button.t4s-product__description_readm:hover {
 
 .t4s-product-price ins .money {
   font-weight: 700; /* Bolder actual price */
-  font-size: 1.05em; /* Optional: slightly larger */
-  color: #000; /* Optional: ensure it's clearly visible */
+  font-size: 1.25em; /* Optional: slightly larger */
 }
