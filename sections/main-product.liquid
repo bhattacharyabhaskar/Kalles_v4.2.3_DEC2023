@@ -75,7 +75,10 @@ if meta_theme.grouped != blank
    assign isGrouped = true 
 endif
 assign custom_badge = meta_theme.custom_badge
-if custom_badge != blank
+if custom_badge != blank 
+   if custom_badge contains 'Silk Mark Certified'
+      assign custom_badge = custom_badge | replace: 'Silk Mark Certified', ''
+   endif
    assign arr_badge = custom_badge | replace: '  ', '' | replace: ' ;', ';' | replace: '; ', ';' | split: ';' | join: 'nt-t4s' | escape | split: 'nt-t4s'
    assign arr_badge_handle = arr_badge | join: 'nt-t4s' | handle | split: 'nt-t4s'
 else
@@ -250,11 +253,20 @@ endif -%}
 <link rel="stylesheet" data-href="{{ 'main-product.css' | asset_url }}">
 
 
+{%- if product.type == 'Saree' -%}
+  {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}
+{%- endif -%}
 <div class="t4s-container t4s-main-product__content is--layout_{{ se_stts.pr_layout }} t4s-product-media__{{ media_layout }} t4s-product-thumb-size__{{ se_stts.thumb_lr_size }}">
   <div class="t4s-row">
     <div class="t4s-col-item t4s-col-12 t4s-main-area">
       <div data-product-featured='{"id":"{{ product.id }}","isMainProduct":true, "sectionId":"{{ se_id }}", "disableSwatch":{{ isProductDefault }}, "media": {% if media_size > 1 %}true{% else %}false{% endif %},"enableHistoryState": {{ enableHistoryState }}, "formID": "#product-form-{{ pr_se_id }}", "removeSoldout":{{ remove_soldout }}, "changeVariantByImg":{{ settings.use_change_variant_by_img }}, "isNoPick":{{ PR_no_pick }},"hasSoldoutUnavailable":{{ ck_so_un }},"enable_zoom_click_mb":{{ se_stts.enable_zoom_click_mb }},"main_click":"{{ main_click }}","canMediaGroup":{{ canMedia_group }},"isGrouped":{{ isGrouped }},"hasIsotope":{{ hasIsotope }},"available":{{ product.available }}, "customBadge":{{ arr_badge | json }}, "customBadgeHandle":{{ arr_badge_handle | json }},"dateStart":{{ product.created_at | date: "%s" }}, "compare_at_price":{{ current_variant.compare_at_price | json }},"price":{{ current_variant.price | json }}, "isPreoder":{{ isPreoder }}, "showFirstMedia":{{ settings.show_first_media }}, "isSticky":{{ isSticky }}, "isStickyMB":{{ isStickyMB }}, "stickyShow":"{{ se_stts.sticky_show }}", "useStickySelect": {{ se_stts.enable_select }} }' class="t4s-row t4s-row__product is-zoom-type__{{ se_stts.zoom_tp }}" data-t4s-zoom-main{% if main_click == 'zoom' %} data-zoom-options='{"type":"{{ se_stts.zoom_tp }}", "magnify":2, "touch":false, "pr_type":"1","isZoomPR": true}'{% endif %}>
         <div class="t4s-{{ class_media }} t4s-col-12 t4s-col-item t4s-product__media-wrapper">
+          {%- if fabric_value contains 'Silk Mark Certified' -%}
+          <div class="ivy-silkmark-topright">
+            <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/Collection-Silk-Mark.webp?v=1748391956" alt="Silk Mark Certified" width="50" height="50">
+          </div>
+        {%- endif -%}
+
           {%- case media_layout -%}
 
           {%- when 'no_media_size' -%}
