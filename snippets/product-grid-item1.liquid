@@ -37,6 +37,9 @@ endif
 
 assign custom_badge = meta_theme.custom_badge
 if custom_badge != blank
+   if custom_badge contains 'Silk Mark Certified'
+      assign custom_badge = custom_badge | replace: 'Silk Mark Certified', ''
+   endif
    assign arr_badge = custom_badge | replace: '  ', '' | replace: ' ;', ';' | replace: '; ', ';' | split: ';' | join: 'nt-t4s' | escape | split: 'nt-t4s'
    assign arr_badge_handle = arr_badge | join: 'nt-t4s' | handle | split: 'nt-t4s'
 else
@@ -101,11 +104,20 @@ if isDefault == false and enable_pr_color or enable_pr_size
    endfor
 endif -%}
 
+{%- if product.type == 'Saree' -%}
+  {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}
+{%- endif -%}
 <div class="t4s-product t4s-pr-grid t4s-pr-style1 t4s-pr-{{ pid }} {{ col }} t4s-col-item" data-product-options='{ "id":"{{ pid }}","cusQty":"{{ cus_qty }}","available":{{ product.available }}, "handle":"{{ product.handle }}", "isDefault": {{ isDefault }}, "VariantFirstID": {{ current_variant.id }}, "customBadge":{{ arr_badge | json }}, "customBadgeHandle":{{ arr_badge_handle | json }},"dateStart":{{ product.created_at | date: "%s" }}, "compare_at_price":{{ current_variant.compare_at_price | json }},"price":{{ current_variant.price | json }}, "isPreoder":{{ isPreoder }},"isExternal":{{ isExternal }}{% if isExternal %},"external_title":{{ external_title | json }},"external_link":"{{ external_link | escape }}"{% endif %},"image2":{% if product.media[1] != blank %}{{ product.media[1] | image_url: width: 1 | json }},"alt":{{ product.media[1].alt | escape | json }}{% else %}false{% endif %},"isGrouped":{{ isGrouped }},"maxQuantity":{% if isDefault and isPreoder == false %}{{ max_qty }}{% else %}9999{% endif %} }'>
   <div 
 class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
     <div data-cacl-slide class="t4s-product-inner t4s-pr t4s-oh">
       {%- if image != blank %}{% render 'product-img', image: image, imgatt: imgatt %}{% endif -%}
+      
+      {%- if fabric_value contains 'Silk Mark Certified' -%}
+        <div class="ivy-badge-logo-left">
+            <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/Collection-Silk-Mark.webp?v=1748391956" alt="Silk Mark Certified" width="50" height="50">
+        </div>
+      {%- endif -%}
       <div data-product-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-product-badge"></div>
       <div class="t4s-product-btns">
          <div data-replace-quickview></div>
