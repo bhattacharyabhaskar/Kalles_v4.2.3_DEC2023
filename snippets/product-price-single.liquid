@@ -86,7 +86,7 @@ endif -%}
 {%- endcapture -%}
 {% comment %}Added/Modified by Limoni Apps on 11/12/22 to support Discount Ninja{% endcomment %}
 
-<div class="4s-product-price"{%- if variant_unit_price_measurement == nil and isRangePrices == false or pr_no_pick_prices -%} data-pr-price data-product-price data-saletype="{{ type_sale }}"{% else %} data-product-unit-price{% endif %} {{ style_inline }}>
+<div class="t4s-product-price"{%- if variant_unit_price_measurement == nil and isRangePrices == false or pr_no_pick_prices -%} data-pr-price data-product-price data-saletype="{{ type_sale }}"{% else %} data-product-unit-price{% endif %} {{ style_inline }}>
    
   {%- if isRangePrices -%}
 
