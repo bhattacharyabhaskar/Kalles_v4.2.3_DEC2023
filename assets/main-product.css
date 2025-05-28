@@ -923,6 +923,6 @@ button.t4s-product__description_readm:hover {
 }
 
 .t4s-product-price ins .money {
-  font-weight: 700; /* Bolder actual price */
-  font-size: 1.25em; /* Optional: slightly larger */
+  font-weight: 500; /* Bolder actual price */
+  font-size: 1.15em; /* Optional: slightly larger */
 }
