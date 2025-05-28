@@ -49,5 +49,14 @@
     display: none !important;
   }
 }
+  /* Adjust strikethrough and actual price appearance */
+.t4s-product-price del .money {
+  font-size: 0.85em; /* Smaller font size */
+}
+
+.t4s-product-price ins .money {
+  font-weight: 600; /* Bolder actual price */
+  font-size: 1.15em; /* Optional: slightly larger */
+}
 {% endif %}
 </style>
