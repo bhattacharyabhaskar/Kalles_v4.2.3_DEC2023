@@ -904,15 +904,23 @@ button.t4s-product__description_readm:hover {
 
 .ivy-silkmark-topright {
   position: absolute;
-  top: 5px;
-  left: 18px;
-  z-index: 4;
-  padding: 2px;
+  top: 12px;
+  left: 16px; /* was 10px — shifted right */
+  z-index: 5;
+  background: white;
+  padding: 3px;
   border-radius: 4px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
 }
 
 .t4s-product__media-wrapper {
   position: relative;
+}
+  @media (max-width: 480px) {
+  .ivy-silkmark-topright {
+    top: 16px;
+    left: 20px;
+    padding: 4px;
+  }
 }
 
