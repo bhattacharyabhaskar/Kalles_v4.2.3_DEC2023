@@ -917,3 +917,13 @@ button.t4s-product__description_readm:hover {
     left: 20px; /* Adjust this value as needed */
   }
 }
+  /* Adjust strikethrough and actual price appearance */
+.t4s-product-price del .money {
+  font-size: 0.85em; /* Smaller font size */
+}
+
+.t4s-product-price ins .money {
+  font-weight: 700; /* Bolder actual price */
+  font-size: 1.05em; /* Optional: slightly larger */
+  color: #000; /* Optional: ensure it's clearly visible */
+}
