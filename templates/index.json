@@ -596,7 +596,6 @@
     },
     "line_w49wWj": {
       "type": "line",
-      "name": "Custom line",
       "settings": {
         "line_style": "solid",
         "line_width": 100,
@@ -665,7 +664,7 @@
             "video_caption": "",
             "video_tags": "Bishnupur , Handwoven, Hand painted",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/e3433a736c7349da8600d68ac7b58f42.mp4",
-            "thumbnail": "shopify://shop_images/HandPinted.webp",
+            "thumbnail": "shopify://shop_images/Hand-Painted-thumb.gif",
             "autoplay": false
           }
         }
@@ -677,7 +676,6 @@
         "video_hr8NHz",
         "video_9qneT8"
       ],
-      "name": "Crafted Video Gallery",
       "settings": {
         "section_heading": "From Loom to Elegance",
         "section_description": "Watch how our Sarees come to life — handcrafted by master artisans.",
@@ -694,7 +692,6 @@
     },
     "line_mxepEr": {
       "type": "line",
-      "name": "Custom line",
       "settings": {
         "line_style": "solid",
         "line_width": 100,
