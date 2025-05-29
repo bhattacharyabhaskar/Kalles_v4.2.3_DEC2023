@@ -685,8 +685,8 @@
         "desktop_layout": "six-inline",
         "mobile_layout": "single",
         "content_alignment": "center",
-        "font_size_desktop": 16,
-        "font_size_mobile": 14,
+        "font_size_desktop": 18,
+        "font_size_mobile": 15,
         "show_mute_toggle": true
       }
     },
