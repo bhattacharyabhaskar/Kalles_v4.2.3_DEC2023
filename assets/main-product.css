@@ -928,32 +928,49 @@ button.t4s-product__description_readm:hover {
 }
 
 
-.ivy-trust-badges-wrapper {
-  width: 100%;
+/* -----------------------------------------
+   ✅ TRUST BADGE STYLES (Mobile-Responsive Final Version)
+------------------------------------------ */
+.ivy-badge-row {
+  display: flex;
+  flex-wrap: nowrap;
   overflow-x: auto;
+  gap: 12px;
+  padding: 12px 4px;
+  scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
 }
 
-.ivy-trust-badges {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 12px;
-  padding: 12px 4px;
-  min-width: max-content;
-}
-
-.ivy-trust-badges span {
+.ivy-badge {
+  flex: 0 0 auto;
   white-space: nowrap;
-  padding: 6px 12px;
-  border-radius: 6px;
   font-size: 13.5px;
   font-weight: 700;
-  border: 1.5px solid #e63946;
-  background-color: #fff1f1;
-  color: #b10000;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  border-radius: 6px;
+  padding: 6px 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+  scroll-snap-align: start;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
+
+/* Color variations */
+.ivy-red {
+  border: 1.5px solid #e63946;
+  background-color: #fff1f1;
+  color: #b10000;
+}
+
+.ivy-green {
+  border: 1.5px solid #5cb85c;
+  background-color: #f1fff1;
+  color: #1f7a1f;
+}
+
+.ivy-blue {
+  border: 1.5px solid #5bc0de;
+  background-color: #f1faff;
+  color: #007baf;
+}
+
