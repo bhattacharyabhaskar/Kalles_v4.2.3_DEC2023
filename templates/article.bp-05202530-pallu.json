@@ -93,7 +93,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "India on a Pallu: 8 Regional Saree Drapes You Shouldn’t Miss",
-            "text": "<p>From the snow-capped valleys of Kashmir to the coconut-lined coasts of Kerala, India’s diversity is beautifully woven—sometimes quite literally—into its <strong>regional saree drapes</strong>. Each state, each community, has its unique way of draping the saree. These aren’t just styles; they’re stories of tradition, functionality, and cultural identity.</p><p>Across India’s vast landscape, saree draping styles differ not just by region, but by ritual, occasion, and story. From warrior queens to temple priestesses, every pleat and pallu has its place.</p><p>So let’s unfold the elegance—here are <strong>8 regional saree drapes</strong> you absolutely must try at least once in your life. Whether you're a saree beginner or a seasoned draper, these styles bring you closer to the vibrant traditions stitched into India's soul.</p><h2></h2><h2>1. Nauvari Drape – Maharashtra’s Warrior Elegance</h2><p>Also known as the <strong>Nauvari saree drape or Kashtha</strong>, this iconic 9-yard style is worn like a dhoti, allowing for free movement and power-packed grace. The Nauvari (literally “nine-yard”) saree is worn like a dhoti—tucked at the back, pleated in front, and often worn without a petticoat. Traditionally used by women warriors, this drape allows ease of movement and grace.</p><p><strong>Perfect For:</strong> Traditional Maharashtrian weddings, Ganesh Chaturthi, or classical dance.</p><p><strong>Style Tip:</strong> Pair with a <strong>nath</strong>, moon-shaped bindi, and green bangles for the full Peshwa bride look.</p><p><strong>Best Saree Fabrics:</strong> Cotton, silk blends, or <a href=\"https://www.indyvogue.com/collections/paithani-silk-saree?srsltid=AfmBOooilGWfWeRQi-Dn75d-INyIfKufhMK9CmVspkra7cwYBt3ijLSB\"><span style=\"text-decoration:underline\">Paithani</span></a>.<br/><br/></p><p></p><h2>2. Bengali Draping Style – Two Pleats, Endless Drama</h2><p>Worn during Durga Puja and Bengali weddings, this drape is also called atpoure known for its <strong>broad pleats</strong> and the pallu thrown elegantly over both shoulders, often accessorized with a keyring or chain.</p><p><strong>Perfect For:</strong> Durga Puja, bridal events, heritage shoots.</p><p><strong>Style Tip:</strong> Add bold <strong>red lipstick</strong>, big red bindis, kohl-rimmed eyes, and white-and-red bangles (shakha pola) to complete the look.</p><p><strong>Best Saree Fabrics:</strong><a href=\"https://www.indyvogue.com/collections/tussar-silk?srsltid=AfmBOooK5M9suuNjr3gfMbDKv3bXW28cIl5WTrPIrQzSuntVm2QsF1SB\"><span style=\"text-decoration:underline\">Tussar silk</span></a>, Baluchari, or <a href=\"https://www.indyvogue.com/collections/red-and-white-saree-collection\"><span style=\"text-decoration:underline\">red and white</span></a> Garad saree.<br/><br/></p>",
+            "text": "<p>From the snow-capped valleys of Kashmir to the coconut-lined coasts of Kerala, India’s diversity is beautifully woven—sometimes quite literally—into its <strong>regional saree drapes</strong>. Each state, each community, has its unique way of draping the saree. These aren’t just styles; they’re stories of tradition, functionality, and cultural identity.</p><p>Across India’s vast landscape, saree draping styles differ not just by region, but by ritual, occasion, and story. From warrior queens to temple priestesses, every pleat and pallu has its place.</p><p>So let’s unfold the elegance—here are <strong>8 regional saree drapes</strong> you absolutely must try at least once in your life. Whether you're a saree beginner or a seasoned draper, these styles bring you closer to the vibrant traditions stitched into India's soul.</p><h2></h2><h2>1. Nauvari Drape – Maharashtra’s Warrior Elegance</h2><p>Also known as the <strong>Nauvari saree drape or Kashtha</strong>, this iconic 9-yard style is worn like a dhoti, allowing for free movement and power-packed grace. The Nauvari (literally “nine-yard”) saree is worn like a dhoti—tucked at the back, pleated in front, and often worn without a petticoat. Traditionally used by women warriors, this drape allows ease of movement and grace.</p><p><strong>Perfect For:</strong> Traditional Maharashtrian weddings, Ganesh Chaturthi, or classical dance.</p><p><strong>Style Tip:</strong> Pair with a <strong>nath</strong>, moon-shaped bindi, and green bangles for the full Peshwa bride look.</p><p><strong>Best Saree Fabrics:</strong> Cotton, silk blends, or <a href=\"https://www.indyvogue.com/collections/paithani-silk-saree?srsltid=AfmBOooilGWfWeRQi-Dn75d-INyIfKufhMK9CmVspkra7cwYBt3ijLSB\"><span style=\"text-decoration:underline\">Paithani</span></a>.<br/></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -115,6 +115,91 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "video_featured_bfn9eH": {
+      "type": "video_featured",
+      "name": "Video featured",
+      "settings": {
+        "se_height": "t4s_ratio16_9",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https://www.youtube.com/watch?v=td-Gf050g4o",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_WMAbUq": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_LNjMT3": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>2. Bengali Draping Style – Two Pleats, Endless Drama</h2><p>Worn during Durga Puja and Bengali weddings, this drape is also called atpoure known for its <strong>broad pleats</strong> and the pallu thrown elegantly over both shoulders, often accessorized with a keyring or chain.</p><p><strong>Perfect For:</strong> Durga Puja, bridal events, heritage shoots.</p><p><strong>Style Tip:</strong> Add bold <strong>red lipstick</strong>, big red bindis, kohl-rimmed eyes, and white-and-red bangles (shakha pola) to complete the look.</p><p><strong>Best Saree Fabrics:</strong><a href=\"https://www.indyvogue.com/collections/tussar-silk?srsltid=AfmBOooK5M9suuNjr3gfMbDKv3bXW28cIl5WTrPIrQzSuntVm2QsF1SB\"><span style=\"text-decoration:underline\">Tussar silk</span></a>, Baluchari, or <a href=\"https://www.indyvogue.com/collections/red-and-white-saree-collection\"><span style=\"text-decoration:underline\">red and white</span></a> Garad saree.<br/><br/></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_LNjMT3"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
         "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
@@ -246,7 +331,7 @@
         "code_cus_css": ""
       }
     },
-    "video_featured_bfn9eH": {
+    "video_featured_f4nDNE": {
       "type": "video_featured",
       "name": "Video featured",
       "settings": {
@@ -416,10 +501,10 @@
         "code_cus_css": ""
       }
     },
-    "image_text_WMAbUq": {
+    "image_text_KNjchk": {
       "type": "image_text",
       "blocks": {
-        "bl_text_LNjMT3": {
+        "bl_text_K4DaMJ": {
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
@@ -445,7 +530,7 @@
         }
       },
       "block_order": [
-        "bl_text_LNjMT3"
+        "bl_text_K4DaMJ"
       ],
       "settings": {
         "design_heading": "1",
@@ -475,12 +560,14 @@
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "video_featured_bfn9eH",
+    "image_text_WMAbUq",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "image_text_zJPfjT",
-    "video_featured_bfn9eH",
+    "video_featured_f4nDNE",
     "image_text_Re3nTp",
     "video_featured_8nht3M",
     "image_text_kEXUYA",
-    "image_text_WMAbUq"
+    "image_text_KNjchk"
   ]
 }
