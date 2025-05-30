@@ -973,13 +973,7 @@ button.t4s-product__description_readm:hover {
   color: #005e9f;
   border-color: #005e9f;
 }
-/* Remove inner span styling */
-.t4s-liquid_custom_liquid_WweMRz .w3_bg span span {
-  all: unset;
-  display: inline;
-  font-size: inherit;
-  font-weight: inherit;
-}
+
 
 /* Mobile tweaks */
 @media (max-width: 749px) {
