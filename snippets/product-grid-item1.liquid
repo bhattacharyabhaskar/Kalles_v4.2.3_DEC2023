@@ -142,6 +142,7 @@ class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
          <h3 class="t4s-product-title"><a data-pr-href href="{{ pr_url }}">{{ product.title | truncate: 55 }}</a></h3>
          <div class="grid_vendor">SKU: {{ product.variants.first.sku }}</div>
          {%- render 'product-price', product: product, price_varies_style: price_varies_style, type: 'card', isGrouped: isGrouped -%}
+          {% render 'product-video-button', product: product %}
         {% comment %}  
         // BB: Adding SKU in grid
         {% endcomment %}
