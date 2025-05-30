@@ -263,7 +263,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>3. Coorgi (Kodava) Drape – The Back Pallu Wonder</h2><p>From Karnataka’s Coorg region, this unique style of Coorgi saree drape tucks the pleats at the <strong>back</strong> and drapes the pallu <strong>over the shoulder from behind</strong>, symbolizing martial heritage. Originally designed for women working in coffee plantations, it’s practical and elegant.</p><p><strong>Perfect For:</strong> Ethnic day at work, heritage festivals, or a fusion wedding look.</p><p><strong>Style Tip:</strong> Use a checked or solid <strong>silk saree</strong> with a traditional Coorgi blouse. Cinch the waist with a <strong>gold belt</strong> (<em>kamarbandh</em>) and add temple jewelry to elevate the look.</p><p><strong>Best Saree Fabrics:</strong> Cotton silks or Mysore silk.</p><p></p><p></p><h2>4. Madisar – Tamil Tradition with a Twist</h2><p>Worn by Tamil Brahmin women, this sacred 9-yard saree is draped in a way that combines a dhoti style with a flowing pallu. Madisar saree draping is rich in ritual significance, especially during weddings and religious ceremonies.</p><p><strong>Perfect For:</strong> Wedding rituals, poojas, South Indian functions.</p><p><strong>Style Tip:</strong> Team with traditional <strong>gold jhumkas</strong>, a long braid with flowers, or don a traditional chignon bun and temple jewellery for a divine look.</p><p><strong>Best Saree Fabrics:</strong> Kanjivaram silk, cotton, or silk-cotton blends.</p><p></p><p></p><h2>5. Gujarati Seedha Pallu Saree – Front-Facing Glamour</h2><p>Popular in Gujarat and parts of Rajasthan, this style brings the <strong>pallu to the front</strong> over the right shoulder, showcasing intricate embroidery or zari work.</p><p><strong>Perfect For:</strong> Weddings, Garba nights, festive events.</p><p><strong>Style Tip:</strong> Choose a heavily embellished saree, add a <strong>choker necklace</strong>, and let your pallu shine! Add oxidized silver jewelry or kundan pieces for festive flair.</p><p><strong>Best Saree Fabrics:</strong> Bandhani, georgette, patola, or mirror work sarees.<br/><br/></p>",
+            "text": "<h2>3. Coorgi (Kodava) Drape – The Back Pallu Wonder</h2><p>From Karnataka’s Coorg region, this unique style of Coorgi saree drape tucks the pleats at the <strong>back</strong> and drapes the pallu <strong>over the shoulder from behind</strong>, symbolizing martial heritage. Originally designed for women working in coffee plantations, it’s practical and elegant.</p><p><strong>Perfect For:</strong> Ethnic day at work, heritage festivals, or a fusion wedding look.</p><p><strong>Style Tip:</strong> Use a checked or solid <strong>silk saree</strong> with a traditional Coorgi blouse. Cinch the waist with a <strong>gold belt</strong> (<em>kamarbandh</em>) and add temple jewelry to elevate the look.</p><p><strong>Best Saree Fabrics:</strong> Cotton silks or Mysore silk.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -306,10 +306,40 @@
         "code_cus_css": ""
       }
     },
-    "image_text_zJPfjT": {
+    "video_featured_JGUTFb": {
+      "type": "video_featured",
+      "name": "Video featured",
+      "settings": {
+        "se_height": "t4s_ratio16_9",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https://www.youtube.com/watch?v=_Xc0gb2GgbY",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_haTnjT": {
       "type": "image_text",
       "blocks": {
-        "bl_text_YyqEft": {
+        "bl_text_TDznCk": {
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
@@ -318,7 +348,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>3. Coorgi (Kodava) Drape – The Back Pallu Wonder</h2><p>From Karnataka’s Coorg region, this unique style of Coorgi saree drape tucks the pleats at the <strong>back</strong> and drapes the pallu <strong>over the shoulder from behind</strong>, symbolizing martial heritage. Originally designed for women working in coffee plantations, it’s practical and elegant.</p><p><strong>Perfect For:</strong> Ethnic day at work, heritage festivals, or a fusion wedding look.</p><p><strong>Style Tip:</strong> Use a checked or solid <strong>silk saree</strong> with a traditional Coorgi blouse. Cinch the waist with a <strong>gold belt</strong> (<em>kamarbandh</em>) and add temple jewelry to elevate the look.</p><p><strong>Best Saree Fabrics:</strong> Cotton silks or Mysore silk.</p><p></p><p></p><h2>4. Madisar – Tamil Tradition with a Twist</h2><p>Worn by Tamil Brahmin women, this sacred 9-yard saree is draped in a way that combines a dhoti style with a flowing pallu. Madisar saree draping is rich in ritual significance, especially during weddings and religious ceremonies.</p><p><strong>Perfect For:</strong> Wedding rituals, poojas, South Indian functions.</p><p><strong>Style Tip:</strong> Team with traditional <strong>gold jhumkas</strong>, a long braid with flowers, or don a traditional chignon bun and temple jewellery for a divine look.</p><p><strong>Best Saree Fabrics:</strong> Kanjivaram silk, cotton, or silk-cotton blends.</p><p></p><p></p><h2>5. Gujarati Seedha Pallu Saree – Front-Facing Glamour</h2><p>Popular in Gujarat and parts of Rajasthan, this style brings the <strong>pallu to the front</strong> over the right shoulder, showcasing intricate embroidery or zari work.</p><p><strong>Perfect For:</strong> Weddings, Garba nights, festive events.</p><p><strong>Style Tip:</strong> Choose a heavily embellished saree, add a <strong>choker necklace</strong>, and let your pallu shine! Add oxidized silver jewelry or kundan pieces for festive flair.</p><p><strong>Best Saree Fabrics:</strong> Bandhani, georgette, patola, or mirror work sarees.</p>",
+            "text": "<h2>4. Madisar – Tamil Tradition with a Twist</h2><p>Worn by Tamil Brahmin women, this sacred 9-yard saree is draped in a way that combines a dhoti style with a flowing pallu. Madisar saree draping is rich in ritual significance, especially during weddings and religious ceremonies.</p><p><strong>Perfect For:</strong> Wedding rituals, poojas, South Indian functions.</p><p><strong>Style Tip:</strong> Team with traditional <strong>gold jhumkas</strong>, a long braid with flowers, or don a traditional chignon bun and temple jewellery for a divine look.</p><p><strong>Best Saree Fabrics:</strong> Kanjivaram silk, cotton, or silk-cotton blends.</p><p></p><p></p><h2>5. Gujarati Seedha Pallu Saree – Front-Facing Glamour</h2><p>Popular in Gujarat and parts of Rajasthan, this style brings the <strong>pallu to the front</strong> over the right shoulder, showcasing intricate embroidery or zari work.</p><p><strong>Perfect For:</strong> Weddings, Garba nights, festive events.</p><p><strong>Style Tip:</strong> Choose a heavily embellished saree, add a <strong>choker necklace</strong>, and let your pallu shine! Add oxidized silver jewelry or kundan pieces for festive flair.</p><p><strong>Best Saree Fabrics:</strong> Bandhani, georgette, patola, or mirror work sarees.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -335,7 +365,7 @@
         }
       },
       "block_order": [
-        "bl_text_YyqEft"
+        "bl_text_TDznCk"
       ],
       "settings": {
         "design_heading": "1",
@@ -594,7 +624,8 @@
     "image_text_WMAbUq",
     "video_featured_dqAUEt",
     "e7b55938-3dde-44ab-9365-66967e09d447",
-    "image_text_zJPfjT",
+    "video_featured_JGUTFb",
+    "image_text_haTnjT",
     "video_featured_f4nDNE",
     "image_text_Re3nTp",
     "video_featured_8nht3M",
