@@ -900,81 +900,88 @@ button.t4s-product__description_readm:hover {
   .mobile-top-icons {
     display: none !important;
   }
-
+}
 .ivy-silkmark-topright {
   position: absolute;
-  top: 12px;
-  left: 16px;
-  z-index: 5;
-  background: white;
-  padding: 3px;
+  top: 5px;
+  left: 18px;
+  z-index: 4;
+  padding: 2px;
   border-radius: 4px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 480px) {
-  .ivy-silkmark-topright {
-    left: 20px; /* Adjust this value as needed */
+.t4s-product__media-wrapper {
+  position: relative;
+}
+@media (max-width: 767px) {
+  .is--shown.sticky_layout_mb--minimal .t4s-sticky-atc__product {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .is--shown.sticky_layout_mb--minimal .t4s-sticky-atc__btns {
+    display: flex !important;
   }
 }
-  /* Adjust strikethrough and actual price appearance */
-.t4s-product-price del .money {
-  font-size: 0.85em; /* Smaller font size */
-}
-
-.t4s-product-price ins .money {
-  font-weight: 600; /* Bolder actual price */
-  font-size: 1.15em; /* Optional: slightly larger */
-}
-
+/* -----------------------------------------
+   ✅ TRUST BADGE STYLES — Always in 1 Row
+------------------------------------------ */
 
 /* -----------------------------------------
-   ✅ TRUST BADGE STYLES (Mobile-Responsive Final Version)
+   ✅ TRUST BADGE STYLES (Final - No Animation, No Inner Border)
 ------------------------------------------ */
-/* Base styles (apply everywhere including mobile) */
-.ivy-badge-row {
+
+/* Force 1-row layout */
+.t4s-liquid_custom_liquid_WweMRz .w3_bg {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   overflow-x: auto;
-  gap: 12px;
-  padding: 12px 4px;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
 }
 
-.ivy-badge-row::-webkit-scrollbar {
-  display: none;
-}
-
-.ivy-badge {
-  flex: 0 0 auto;
-  white-space: nowrap;
-  padding: 8px 14px;
+/* Badge pill styles */
+.t4s-liquid_custom_liquid_WweMRz .w3_bg span {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 100%;
+  padding: 6px 8px;
   font-size: 13.5px;
+  text-align: center;
+  white-space: nowrap;
+
+  border: 1.5px solid #e63946 !important;
+  background-color: #fff1f1 !important;
+  color: #b10000 !important;
   font-weight: 700;
   border-radius: 8px;
-  border: 2px solid;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  scroll-snap-align: start;
+  gap: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+/* Remove inner span styling */
+.t4s-liquid_custom_liquid_WweMRz .w3_bg span span {
+  all: unset;
+  display: inline;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
-/* Color variants */
-.ivy-badge-red {
-  color: #c60000;
-  border-color: #c60000;
-  background: #fff1f1;
-}
+/* Mobile tweaks */
+@media (max-width: 749px) {
+  .t4s-liquid_custom_liquid_WweMRz .w3_bg {
+    gap: 8px;
+    padding-inline: 4px;
+  }
 
-.ivy-badge-green {
-  color: #207a1f;
-  border-color: #207a1f;
-  background: #f0fff0;
-}
-
-.ivy-badge-blue {
-  color: #007baf;
-  border-color: #007baf;
-  background: #f1faff;
+  .t4s-liquid_custom_liquid_WweMRz .w3_bg span {
+    font-size: 13px;
+    padding: 6px 8px;
+  }
 }
