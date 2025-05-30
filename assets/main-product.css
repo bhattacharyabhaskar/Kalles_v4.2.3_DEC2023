@@ -924,25 +924,37 @@ button.t4s-product__description_readm:hover {
 
 /* Force 1-row layout */
 .t4s-liquid_custom_liquid_WweMRz .w3_bg {
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 6px 8px;
-  padding: 6px 0 4px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 10px;
+  margin-top: 5px;
+    margin-bottom: 10px;
+  overflow-x: auto;
 }
 
+/* Badge pill styles */
 .t4s-liquid_custom_liquid_WweMRz .w3_bg span {
-  flex: 0 0 auto;
-  font-size: 12px;
-  padding: 5px 10px;
-  border-width: 1.2px;
-  border-radius: 6px;
-  font-weight: 600;
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 100%;
+  padding: 6px 8px;
+  font-size: 13.5px;
+  text-align: center;
   white-space: nowrap;
-  display: inline-flex;
+
+  border: 1.5px solid #e63946 !important;
+  background-color: #fff1f1 !important;
+  color: #b10000 !important;
+  font-weight: 700;
+  border-radius: 8px;
+  display: flex;
   align-items: center;
   justify-content: center;
+  gap: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
-
 /* 🎯 Distinct Colors */
 .t4s-liquid_custom_liquid_WweMRz .w3_bg span:nth-child(1) {
   background-color: #fff1f1;
@@ -960,6 +972,13 @@ button.t4s-product__description_readm:hover {
   background-color: #f1f8ff;
   color: #005e9f;
   border-color: #005e9f;
+}
+/* Remove inner span styling */
+.t4s-liquid_custom_liquid_WweMRz .w3_bg span span {
+  all: unset;
+  display: inline;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 /* Mobile tweaks */
