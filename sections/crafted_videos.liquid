@@ -20,10 +20,7 @@
   }
   .video-layout-two-column .crafted-video-block { flex: 1 1 45%; max-width: 45%; }
   .video-layout-three-column .crafted-video-block { flex: 1 1 30%; max-width: 30%; }
-.video-layout-six-inline .crafted-video-block {
-  flex: 1 1 calc((100% - 5 * 20px) / 6); /* account for 5 gaps */
-  max-width: calc((100% - 5 * 20px) / 6);
-}  
+  .video-layout-six-inline .crafted-video-block { flex: 1 1 16%; max-width: 16%; }
   @media(max-width: 768px) {
     .video-layout-mobile-two-column .crafted-video-block { flex: 1 1 48%; max-width: 48%; }
     .video-layout-mobile-single .crafted-video-block { flex: 1 1 100%; max-width: 100%; }
@@ -70,35 +67,14 @@
     cursor: pointer;
     z-index: 2;
   }
-  @media (max-width: 1400px) {
-  .video-layout-six-inline .crafted-video-block {
-    flex: 1 1 30%;
-    max-width: 30%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .video-layout-six-inline .crafted-video-block {
-    flex: 1 1 45%;
-    max-width: 45%;
-  }
-}
-
-@media (max-width: 768px) {
-  .video-layout-six-inline .crafted-video-block {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-
 </style>
 
-<div class="crafted-video-lazy" data-video-block>
+<div class="crafted-video-gallery">
   <h2>{{ section.settings.section_heading }}</h2>
   <p>{{ section.settings.section_description }}</p><div class="crafted-video-grid video-layout-{{ section.settings.desktop_layout }} video-layout-mobile-{{ section.settings.mobile_layout }}">
   {% for block in section.blocks %}
   {% assign autoplay_enabled = block.settings.autoplay %}
     <div class="crafted-video-block">
-
       <video
         controls
         playsinline
@@ -113,7 +89,6 @@
         <source src="{{ block.settings.video_url }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-        <div class="center-play-overlay">▶</div>
       <div class="crafted-video-title">{{ block.settings.video_title }}</div>
       <div class="crafted-video-caption" style="font-size: {{ section.settings.font_size_desktop }}px;">
         {{ block.settings.video_caption }}
@@ -128,53 +103,85 @@
 
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const lazyBlocks = document.querySelectorAll("[data-video-block]");
+  function toggleSingleMute(button) {
+    const video = button.parentElement.querySelector('video');
+    video.muted = !video.muted;
+    button.innerText = video.muted ? '🔇' : '🔊';
+  }
 
-    const observer = new IntersectionObserver((entries, obs) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const block = entry.target;
-          const template = block.querySelector("template");
+  function playManualVideo(wrapper) {
+    const img = wrapper.querySelector('img');
+    const overlay = wrapper.querySelector('.play-overlay');
+    const video = wrapper.querySelector('.manual-video');
 
-          if (template) {
-            block.innerHTML = template.innerHTML;
+    if (img) img.style.display = 'none';
+    if (overlay) overlay.style.display = 'none';
+    if (video) {
+      video.style.display = 'block';
+      video.play();
+    }
+  }
 
-            const video = block.querySelector("video");
-            const label = video.getAttribute("aria-label") || "Crafted Video";
-            const videoURL = video.querySelector("source")?.src;
+ document.addEventListener("DOMContentLoaded", function () {
+  const lazyVideos = document.querySelectorAll(".lazy-video");
 
-            // Try autoplay (especially useful for muted videos)
-            video.play().catch(err => {
-              console.warn("Autoplay failed:", err);
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const container = entry.target;
+        const videoURL = container.getAttribute("data-video");
+        const poster = container.querySelector('img')?.src;
+        const label = container.getAttribute("data-label") || "Crafted Video";
+
+        const video = document.createElement("video");
+        video.setAttribute("playsinline", "");
+        video.setAttribute("autoplay", "");
+        video.setAttribute("muted", "");
+        video.setAttribute("loop", "");
+        video.setAttribute("poster", poster);
+        video.setAttribute("aria-label", label);
+        video.setAttribute("preload", "metadata");
+
+        const source = document.createElement("source");
+        source.src = videoURL;
+        source.type = "video/mp4";
+        video.appendChild(source);
+
+        // ✅ Insert video into DOM
+        container.innerHTML = "";
+        container.appendChild(video);
+        obs.unobserve(container);
+
+        // ✅ Try to play if muted (autoplay allowed)
+        video.play().catch(err => {
+          console.warn("Autoplay failed:", err);
+        });
+
+        // ✅ GA4 tracking on play
+        let hasPlayed = false;
+        video.addEventListener("play", function () {
+          if (hasPlayed) return;
+          hasPlayed = true;
+
+          console.log("video_play triggered:", label, videoURL);
+
+          if (typeof gtag === "function") {
+            gtag("event", "video_play", {
+              event_category: "Video",
+              event_label: label,
+              video_url: videoURL
             });
-
-            // GA4 tracking
-            let hasPlayed = false;
-            video.addEventListener("play", function () {
-              if (hasPlayed) return;
-              hasPlayed = true;
-
-              console.log("video_play triggered:", label, videoURL);
-              if (typeof gtag === "function") {
-                gtag("event", "video_play", {
-                  event_category: "Video",
-                  event_label: label,
-                  video_url: videoURL
-                });
-              }
-            });
+          } else {
+            console.warn("gtag not defined for GA4 event.");
           }
+        });
+      }
+    });
+  }, { threshold: 0.5 });
 
-          obs.unobserve(block);
-        }
-      });
-    }, { threshold: 0.25 });
-
-    lazyBlocks.forEach(block => observer.observe(block));
-  });
+  lazyVideos.forEach(video => observer.observe(video));
+});
 </script>
-
 
 {% schema %}
 {
