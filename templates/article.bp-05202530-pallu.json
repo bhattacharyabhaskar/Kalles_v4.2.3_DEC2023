@@ -136,49 +136,6 @@
         "code_cus_css": ""
       }
     },
-    "crafted_videos_HeVDxN": {
-      "type": "crafted_videos",
-      "blocks": {
-        "video_NzYhiJ": {
-          "type": "video",
-          "settings": {
-            "video_title": "Watch this video below to know how to wear a nauvari saree",
-            "video_caption": "",
-            "video_tags": "",
-            "video_url": "",
-            "autoplay": true
-          }
-        },
-        "video_jTqyke": {
-          "type": "video",
-          "settings": {
-            "video_title": "Crafting Banarasi Silk",
-            "video_caption": "An inside look at our artisan’s weaving process.",
-            "video_tags": "Banarasi, Handwoven",
-            "video_url": "https://www.youtube.com/watch?v=td-Gf050g4o",
-            "autoplay": true
-          }
-        }
-      },
-      "block_order": [
-        "video_NzYhiJ",
-        "video_jTqyke"
-      ],
-      "name": "Crafted Video Gallery",
-      "settings": {
-        "section_heading": "",
-        "section_description": "",
-        "background_color": "#fcfaf7",
-        "heading_alignment": "center",
-        "description_alignment": "center",
-        "desktop_layout": "two-column",
-        "mobile_layout": "single",
-        "content_alignment": "center",
-        "font_size_desktop": 16,
-        "font_size_mobile": 14,
-        "show_mute_toggle": true
-      }
-    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -453,15 +410,45 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "video_featured_bfn9eH": {
+      "type": "video_featured",
+      "name": "Video featured",
+      "settings": {
+        "se_height": "t4s_ratio16_9",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https://www.youtube.com/watch?app=desktop&v=0l8gM_nDxp0",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
-    "crafted_videos_HeVDxN",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "image_text_zJPfjT",
     "image_text_Re3nTp",
+    "video_featured_bfn9eH",
     "image_text_kEXUYA",
     "image_text_WMAbUq"
   ]
