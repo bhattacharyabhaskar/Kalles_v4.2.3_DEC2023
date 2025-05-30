@@ -955,25 +955,14 @@ button.t4s-product__description_readm:hover {
   gap: 6px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
-/* 🎯 Distinct Colors */
-.t4s-liquid_custom_liquid_WweMRz .w3_bg span:nth-child(1) {
-  background-color: #fff1f1;
-  color: #c60000;
-  border-color: #c60000;
-}
 
-.t4s-liquid_custom_liquid_WweMRz .w3_bg span:nth-child(2) {
-  background-color: #f1fff3;
-  color: #207a1f;
-  border-color: #207a1f;
+/* Remove inner span styling */
+.t4s-liquid_custom_liquid_WweMRz .w3_bg span span {
+  all: unset;
+  display: inline;
+  font-size: inherit;
+  font-weight: inherit;
 }
-
-.t4s-liquid_custom_liquid_WweMRz .w3_bg span:nth-child(3) {
-  background-color: #f1f8ff;
-  color: #005e9f;
-  border-color: #005e9f;
-}
-
 
 /* Mobile tweaks */
 @media (max-width: 749px) {
