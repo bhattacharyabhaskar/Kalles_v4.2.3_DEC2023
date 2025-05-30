@@ -21,6 +21,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_WweMRz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- if product.type == 'Saree' -%}\n  {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}\n  {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}\n\n  <div class=\"ivy-badge-row\">\n    {%- if inventory_quantity == 1 -%}\n      <span class=\"ivy-badge ivy-badge-red\">SINGLE PIECE ONLY</span>\n    {%- endif -%}\n    {%- if fabric_value contains 'Silk Mark Certified' -%}\n      <span class=\"ivy-badge ivy-badge-green\">SILK MARK CERTIFIED</span>\n    {%- endif -%}\n    <span class=\"ivy-badge ivy-badge-blue\">FREE SHIPPING</span>\n  </div>\n{%- endif -%}"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -31,12 +37,6 @@
             "lh_pr": 0,
             "ls_pr": 4,
             "pr_title_color": "#222222"
-          }
-        },
-        "custom_liquid_WweMRz": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{%- if product.type == 'Saree' -%}\n  {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}\n  {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}\n\n  <div class=\"ivy-badge-row\">\n    {%- if inventory_quantity == 1 -%}\n      <span class=\"ivy-badge ivy-badge-red\">SINGLE PIECE ONLY</span>\n    {%- endif -%}\n    {%- if fabric_value contains 'Silk Mark Certified' -%}\n      <span class=\"ivy-badge ivy-badge-green\">SILK MARK CERTIFIED</span>\n    {%- endif -%}\n    <span class=\"ivy-badge ivy-badge-blue\">FREE SHIPPING</span>\n  </div>\n{%- endif -%}"
           }
         },
         "price_review": {
@@ -193,8 +193,8 @@
         }
       },
       "block_order": [
-        "title",
         "custom_liquid_WweMRz",
+        "title",
         "price_review",
         "custom_liquid_XFy8qN",
         "meta",
