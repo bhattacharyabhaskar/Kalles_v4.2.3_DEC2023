@@ -968,10 +968,15 @@ button.t4s-product__description_readm:hover {
   .t4s-liquid_custom_liquid_WweMRz .w3_bg {
     gap: 8px;
     padding-inline: 4px;
+    justify-content: flex-start; /* ← changed from space-between */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
   }
 
   .t4s-liquid_custom_liquid_WweMRz .w3_bg span {
+    flex: 0 0 auto; /* ← changed from flex: 1 1 0 */
     font-size: 13px;
-    padding: 6px 8px;
+    padding: 6px 10px;
+    scroll-snap-align: start;
   }
 }
