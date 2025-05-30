@@ -931,6 +931,7 @@ button.t4s-product__description_readm:hover {
 /* -----------------------------------------
    ✅ TRUST BADGE STYLES (Mobile-Responsive Final Version)
 ------------------------------------------ */
+/* Base styles (apply everywhere including mobile) */
 .ivy-badge-row {
   display: flex;
   flex-wrap: nowrap;
@@ -941,36 +942,39 @@ button.t4s-product__description_readm:hover {
   -webkit-overflow-scrolling: touch;
 }
 
+.ivy-badge-row::-webkit-scrollbar {
+  display: none;
+}
+
 .ivy-badge {
   flex: 0 0 auto;
   white-space: nowrap;
+  padding: 8px 14px;
   font-size: 13.5px;
   font-weight: 700;
-  border-radius: 6px;
-  padding: 6px 12px;
-  display: flex;
+  border-radius: 8px;
+  border: 2px solid;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   scroll-snap-align: start;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
 
-/* Color variations */
-.ivy-red {
-  border: 1.5px solid #e63946;
-  background-color: #fff1f1;
-  color: #b10000;
+/* Color variants */
+.ivy-badge.red {
+  color: #c60000;
+  border-color: #c60000;
+  background: #fff1f1;
 }
 
-.ivy-green {
-  border: 1.5px solid #5cb85c;
-  background-color: #f1fff1;
-  color: #1f7a1f;
+.ivy-badge.green {
+  color: #207a1f;
+  border-color: #207a1f;
+  background: #f0fff0;
 }
 
-.ivy-blue {
-  border: 1.5px solid #5bc0de;
-  background-color: #f1faff;
+.ivy-badge.blue {
   color: #007baf;
+  border-color: #007baf;
+  background: #f1faff;
 }
-
