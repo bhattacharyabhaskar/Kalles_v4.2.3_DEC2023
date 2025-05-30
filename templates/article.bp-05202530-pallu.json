@@ -146,7 +146,7 @@
             "video_caption": "",
             "video_tags": "",
             "video_url": "",
-            "autoplay": false
+            "autoplay": true
           }
         },
         "video_jTqyke": {
@@ -166,9 +166,9 @@
       ],
       "name": "Crafted Video Gallery",
       "settings": {
-        "section_heading": "From Loom to Elegance",
-        "section_description": "Watch how our sarees and blouses come to life — handcrafted by master artisans across India.",
-        "background_color": "#ffffff",
+        "section_heading": "",
+        "section_description": "",
+        "background_color": "#fcfaf7",
         "heading_alignment": "center",
         "description_alignment": "center",
         "desktop_layout": "two-column",
@@ -190,8 +190,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "About the author",
-            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "heading": "",
+            "text": "<h2>3. Coorgi (Kodava) Drape – The Back Pallu Wonder</h2><p>From Karnataka’s Coorg region, this unique style of Coorgi saree drape tucks the pleats at the <strong>back</strong> and drapes the pallu <strong>over the shoulder from behind</strong>, symbolizing martial heritage. Originally designed for women working in coffee plantations, it’s practical and elegant.</p><p><strong>Perfect For:</strong> Ethnic day at work, heritage festivals, or a fusion wedding look.</p><p><strong>Style Tip:</strong> Use a checked or solid <strong>silk saree</strong> with a traditional Coorgi blouse. Cinch the waist with a <strong>gold belt</strong> (<em>kamarbandh</em>) and add temple jewelry to elevate the look.</p><p><strong>Best Saree Fabrics:</strong> Cotton silks or Mysore silk.</p><p></p><p></p><h2>4. Madisar – Tamil Tradition with a Twist</h2><p>Worn by Tamil Brahmin women, this sacred 9-yard saree is draped in a way that combines a dhoti style with a flowing pallu. Madisar saree draping is rich in ritual significance, especially during weddings and religious ceremonies.</p><p><strong>Perfect For:</strong> Wedding rituals, poojas, South Indian functions.</p><p><strong>Style Tip:</strong> Team with traditional <strong>gold jhumkas</strong>, a long braid with flowers, or don a traditional chignon bun and temple jewellery for a divine look.</p><p><strong>Best Saree Fabrics:</strong> Kanjivaram silk, cotton, or silk-cotton blends.</p><p></p><p></p><h2>5. Gujarati Seedha Pallu Saree – Front-Facing Glamour</h2><p>Popular in Gujarat and parts of Rajasthan, this style brings the <strong>pallu to the front</strong> over the right shoulder, showcasing intricate embroidery or zari work.</p><p><strong>Perfect For:</strong> Weddings, Garba nights, festive events.</p><p><strong>Style Tip:</strong> Choose a heavily embellished saree, add a <strong>choker necklace</strong>, and let your pallu shine! Add oxidized silver jewelry or kundan pieces for festive flair.</p><p><strong>Best Saree Fabrics:</strong> Bandhani, georgette, patola, or mirror work sarees.<br/><br/></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -234,129 +234,214 @@
         "code_cus_css": ""
       }
     },
-    "background_video_fwiLqT": {
-      "type": "background_video",
+    "image_text_zJPfjT": {
+      "type": "image_text",
       "blocks": {
-        "custom_text_rWNm9e": {
-          "type": "custom_text",
+        "bl_text_YyqEft": {
+          "type": "bl_text",
           "settings": {
-            "text": "Theme Kalles",
-            "remove_br_tag": false,
-            "tag": "p",
-            "fontf": "inherit",
-            "text_cl": "#fff",
-            "text_fs": 16,
-            "text_lh": 0,
-            "text_fw": 400,
-            "text_ls": 1,
-            "text_mgb": 15,
-            "font_italic": false,
-            "text_shadow": false,
-            "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
-            "text_ls_mb": 0,
-            "text_mgb_mobile": 10,
-            "animation": "none"
-          }
-        },
-        "custom_text_KGLKTm": {
-          "type": "custom_text",
-          "settings": {
-            "text": "Best shopify theme",
-            "remove_br_tag": false,
-            "tag": "p",
-            "fontf": "inherit",
-            "text_cl": "#fff",
-            "text_fs": 70,
-            "text_lh": 70,
-            "text_fw": 300,
-            "text_ls": 0,
-            "text_mgb": 25,
-            "font_italic": false,
-            "text_shadow": false,
-            "hidden_mobile": false,
-            "text_fs_mb": 16,
-            "text_lh_mb": 0,
-            "text_ls_mb": 0,
-            "text_mgb_mobile": 10,
-            "animation": "none"
-          }
-        },
-        "custom_button_AeyQEp": {
-          "type": "custom_button",
-          "settings": {
-            "button_text": "Button label",
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>3. Coorgi (Kodava) Drape – The Back Pallu Wonder</h2><p>From Karnataka’s Coorg region, this unique style of Coorgi saree drape tucks the pleats at the <strong>back</strong> and drapes the pallu <strong>over the shoulder from behind</strong>, symbolizing martial heritage. Originally designed for women working in coffee plantations, it’s practical and elegant.</p><p><strong>Perfect For:</strong> Ethnic day at work, heritage festivals, or a fusion wedding look.</p><p><strong>Style Tip:</strong> Use a checked or solid <strong>silk saree</strong> with a traditional Coorgi blouse. Cinch the waist with a <strong>gold belt</strong> (<em>kamarbandh</em>) and add temple jewelry to elevate the look.</p><p><strong>Best Saree Fabrics:</strong> Cotton silks or Mysore silk.</p><p></p><p></p><h2>4. Madisar – Tamil Tradition with a Twist</h2><p>Worn by Tamil Brahmin women, this sacred 9-yard saree is draped in a way that combines a dhoti style with a flowing pallu. Madisar saree draping is rich in ritual significance, especially during weddings and religious ceremonies.</p><p><strong>Perfect For:</strong> Wedding rituals, poojas, South Indian functions.</p><p><strong>Style Tip:</strong> Team with traditional <strong>gold jhumkas</strong>, a long braid with flowers, or don a traditional chignon bun and temple jewellery for a divine look.</p><p><strong>Best Saree Fabrics:</strong> Kanjivaram silk, cotton, or silk-cotton blends.</p><p></p><p></p><h2>5. Gujarati Seedha Pallu Saree – Front-Facing Glamour</h2><p>Popular in Gujarat and parts of Rajasthan, this style brings the <strong>pallu to the front</strong> over the right shoulder, showcasing intricate embroidery or zari work.</p><p><strong>Perfect For:</strong> Weddings, Garba nights, festive events.</p><p><strong>Style Tip:</strong> Choose a heavily embellished saree, add a <strong>choker necklace</strong>, and let your pallu shine! Add oxidized silver jewelry or kundan pieces for festive flair.</p><p><strong>Best Saree Fabrics:</strong> Bandhani, georgette, patola, or mirror work sarees.<br/><br/></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
             "button_link": "",
-            "target_link": "_self",
-            "fontf": "inherit",
-            "button_icon_w": 0,
+            "open_link": "_blank",
+            "btn_icon": false,
             "button_style": "default",
-            "button_effect": "default",
-            "pri_cl": "#222",
-            "second_cl": "#fff",
-            "pri_cl_hover": "#56cfe1",
-            "second_cl_hover": "#fff",
-            "fsbutton": 14,
-            "fwbutton": 400,
-            "button_ls": 0,
-            "button_mh": 42,
-            "button_bdr": 0,
-            "button_pd_lr": 20,
-            "button_mgb": 0,
-            "hidden_mobile": false,
-            "button_icon_w_mb": 0,
-            "fsbutton_mb": 10,
-            "button_mh_mb": 36,
-            "button_pd_lr_mb": 15,
-            "button_ls_mb": 0,
-            "button_mgb_mb": 0,
-            "animation": "none"
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
           }
         }
       },
       "block_order": [
-        "custom_text_rWNm9e",
-        "custom_text_KGLKTm",
-        "custom_button_AeyQEp"
+        "bl_text_YyqEft"
       ],
-      "name": "Background video",
       "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "3",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "file_link": "https://cdn.shopify.com/s/files/1/0610/5209/2628/files/Share_your_brand_story_by_adding_a_video_to_your_store.mp4?v=1641630446",
-        "text_align": "center",
-        "text_align_mb": "center",
-        "content_width": "auto",
-        "cv_pos": 50,
-        "ch_pos": 50,
-        "cv_pos_mb": 50,
-        "ch_pos_mb": 50,
-        "bg_overlay": "#000",
-        "bg_opacity": 0,
-        "bg_content_cl": "#fff",
-        "bg_content_op": 0,
-        "content_pd_tb": 15,
-        "content_pd_lr": 15,
-        "content_pd_tb_mb": 10,
-        "content_pd_lr_mb": 10,
-        "border_bl": false,
-        "br_color": "#222",
-        "br_bg": "#fff",
-        "br_opacity": 50,
-        "br_style": "solid",
-        "br_pd": 20,
-        "br_pd_mb": 10,
-        "time_animation": 1,
-        "animation_delay": 40,
-        "layout": "t4s-container-fluid",
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_Re3nTp": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_rCBH6c": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>6. Mumtaz Drape – The Retro Bollywood Icon</h2><p>Made famous by actress Mumtaz in the 60s, this wraparound style hugs the body in multiple layers, creating a flared, figure-hugging silhouette.</p><p><strong>Perfect For:</strong> Cocktail nights, Bollywood-themed parties, sangeet.</p><p><strong>Style Tip:</strong> Choose a lightweight fabric like <strong>chiffon or georgette</strong>, pair this realtor saree style with retro makeup and a bouffant hairstyle.</p><p><strong>Best Saree Fabrics:</strong> Net, shimmer, chiffon.</p><h2>7. Kerala Mundum Neriyathum – The Golden Glow</h2><p>This traditional two-piece saree is draped to look like a half saree, with a <strong>white base and gold border</strong>, symbolic of Kerala’s rich culture. This two-piece Kerala saree draping features a pleated bottom (<em>mundu</em>) and a pallu (<em>neriyathu</em>) tucked over the blouse.</p><p><strong>Perfect For:</strong> Onam, Vishu, classical dance, minimal bridal looks.</p><p><strong>Style Tip:</strong> Add a <strong>kasavu blouse</strong>, jasmine flowers, and gold bangles.</p><p><strong>Best Saree Fabrics:</strong> Cotton, kasavu, or tissue.</p><h2>8. Mekhela Chador Drape (Assam)</h2><p>This traditional two-piece attire includes the <em>mekhela</em> (bottom) and <em>chador</em> (top drape). It’s draped more like a wrap than pleated.</p><p><strong>Perfect For:</strong> Bihu, folk dance, bridal looks.</p><p><strong>Style Tip:</strong> Pair the silk saree with Pair with Assamese-style <strong>gamkharu</strong> bangles and a red bindi.</p><p><strong>Best Saree Fabrics:</strong> Muga silk<br/><br/></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_rCBH6c"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_kEXUYA": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_aM37Vq": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>Final Tips for Trying Regional Saree Drapes</h3><ul><li>Practice each drape with the <strong>right saree length and fabric</strong>.<br/><br/></li><li>Use <strong>safety pins</strong> smartly to secure pleats and pallus.<br/><br/></li><li>Don’t hesitate to mix a traditional drape with <strong>modern blouses or belts</strong> for a unique fusion look.<br/><br/></li><li>Watch tutorials or book a <strong>virtual saree styling session</strong> for hands-on help.</li></ul><h2>Ready to Try These Saree Drapes?</h2><p>Whether you're heading to a wedding, celebrating a festival, or just love experimenting with ethnic fashion, these regional saree drapes bring India’s heritage <strong>right onto your pallu</strong>.<br/><br/></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_aM37Vq"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_WMAbUq": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_LNjMT3": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_LNjMT3"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
@@ -375,6 +460,9 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "crafted_videos_HeVDxN",
     "e7b55938-3dde-44ab-9365-66967e09d447",
-    "background_video_fwiLqT"
+    "image_text_zJPfjT",
+    "image_text_Re3nTp",
+    "image_text_kEXUYA",
+    "image_text_WMAbUq"
   ]
 }
