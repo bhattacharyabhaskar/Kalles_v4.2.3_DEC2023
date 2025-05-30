@@ -246,6 +246,36 @@
         "code_cus_css": ""
       }
     },
+    "video_featured_bfn9eH": {
+      "type": "video_featured",
+      "name": "Video featured",
+      "settings": {
+        "se_height": "t4s_ratio16_9",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https://www.youtube.com/watch?v=8cNvgSVrC1M",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-se-container",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "image_text_Re3nTp": {
       "type": "image_text",
       "blocks": {
@@ -289,6 +319,36 @@
         "space_h_item_mb": "20",
         "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "video_featured_8nht3M": {
+      "type": "video_featured",
+      "name": "Video featured",
+      "settings": {
+        "se_height": "t4s_ratio16_9",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https://www.youtube.com/watch?app=desktop&v=0l8gM_nDxp0",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-se-container",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
@@ -410,36 +470,6 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
-    },
-    "video_featured_bfn9eH": {
-      "type": "video_featured",
-      "name": "Video featured",
-      "settings": {
-        "se_height": "t4s_ratio16_9",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://www.youtube.com/watch?app=desktop&v=0l8gM_nDxp0",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000",
-        "bg_opacity": 0,
-        "layout": "t4s-se-container",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
     }
   },
   "order": [
@@ -447,8 +477,9 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "image_text_zJPfjT",
-    "image_text_Re3nTp",
     "video_featured_bfn9eH",
+    "image_text_Re3nTp",
+    "video_featured_8nht3M",
     "image_text_kEXUYA",
     "image_text_WMAbUq"
   ]
