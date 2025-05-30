@@ -92,7 +92,7 @@
 
 </style>
 
-<div class="crafted-video-gallery">
+<div class="crafted-video-lazy" data-video-block>
   <h2>{{ section.settings.section_heading }}</h2>
   <p>{{ section.settings.section_description }}</p><div class="crafted-video-grid video-layout-{{ section.settings.desktop_layout }} video-layout-mobile-{{ section.settings.mobile_layout }}">
   {% for block in section.blocks %}
@@ -128,85 +128,53 @@
 
 
 <script>
-  function toggleSingleMute(button) {
-    const video = button.parentElement.querySelector('video');
-    video.muted = !video.muted;
-    button.innerText = video.muted ? '🔇' : '🔊';
-  }
+  document.addEventListener("DOMContentLoaded", function () {
+    const lazyBlocks = document.querySelectorAll("[data-video-block]");
 
-  function playManualVideo(wrapper) {
-    const img = wrapper.querySelector('img');
-    const overlay = wrapper.querySelector('.play-overlay');
-    const video = wrapper.querySelector('.manual-video');
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const block = entry.target;
+          const template = block.querySelector("template");
 
-    if (img) img.style.display = 'none';
-    if (overlay) overlay.style.display = 'none';
-    if (video) {
-      video.style.display = 'block';
-      video.play();
-    }
-  }
+          if (template) {
+            block.innerHTML = template.innerHTML;
 
- document.addEventListener("DOMContentLoaded", function () {
-  const lazyVideos = document.querySelectorAll(".lazy-video");
+            const video = block.querySelector("video");
+            const label = video.getAttribute("aria-label") || "Crafted Video";
+            const videoURL = video.querySelector("source")?.src;
 
-  const observer = new IntersectionObserver((entries, obs) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const container = entry.target;
-        const videoURL = container.getAttribute("data-video");
-        const poster = container.querySelector('img')?.src;
-        const label = container.getAttribute("data-label") || "Crafted Video";
-
-        const video = document.createElement("video");
-        video.setAttribute("playsinline", "");
-        video.setAttribute("autoplay", "");
-        video.setAttribute("muted", "");
-        video.setAttribute("loop", "");
-        video.setAttribute("poster", poster);
-        video.setAttribute("aria-label", label);
-        video.setAttribute("preload", "metadata");
-
-        const source = document.createElement("source");
-        source.src = videoURL;
-        source.type = "video/mp4";
-        video.appendChild(source);
-
-        // ✅ Insert video into DOM
-        container.innerHTML = "";
-        container.appendChild(video);
-        obs.unobserve(container);
-
-        // ✅ Try to play if muted (autoplay allowed)
-        video.play().catch(err => {
-          console.warn("Autoplay failed:", err);
-        });
-
-        // ✅ GA4 tracking on play
-        let hasPlayed = false;
-        video.addEventListener("play", function () {
-          if (hasPlayed) return;
-          hasPlayed = true;
-
-          console.log("video_play triggered:", label, videoURL);
-
-          if (typeof gtag === "function") {
-            gtag("event", "video_play", {
-              event_category: "Video",
-              event_label: label,
-              video_url: videoURL
+            // Try autoplay (especially useful for muted videos)
+            video.play().catch(err => {
+              console.warn("Autoplay failed:", err);
             });
-          } else {
-            console.warn("gtag not defined for GA4 event.");
-          }
-        });
-      }
-    });
-  }, { threshold: 0.5 });
 
-  lazyVideos.forEach(video => observer.observe(video));
-});
+            // GA4 tracking
+            let hasPlayed = false;
+            video.addEventListener("play", function () {
+              if (hasPlayed) return;
+              hasPlayed = true;
+
+              console.log("video_play triggered:", label, videoURL);
+              if (typeof gtag === "function") {
+                gtag("event", "video_play", {
+                  event_category: "Video",
+                  event_label: label,
+                  video_url: videoURL
+                });
+              }
+            });
+          }
+
+          obs.unobserve(block);
+        }
+      });
+    }, { threshold: 0.25 });
+
+    lazyBlocks.forEach(block => observer.observe(block));
+  });
 </script>
+
 
 {% schema %}
 {
