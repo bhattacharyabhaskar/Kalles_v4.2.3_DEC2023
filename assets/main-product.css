@@ -961,19 +961,19 @@ button.t4s-product__description_readm:hover {
 }
 
 /* Color variants */
-.ivy-badge.red {
+.ivy-badge-red {
   color: #c60000;
   border-color: #c60000;
   background: #fff1f1;
 }
 
-.ivy-badge.green {
+.ivy-badge-green {
   color: #207a1f;
   border-color: #207a1f;
   background: #f0fff0;
 }
 
-.ivy-badge.blue {
+.ivy-badge-blue {
   color: #007baf;
   border-color: #007baf;
   background: #f1faff;
