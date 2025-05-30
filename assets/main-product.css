@@ -966,16 +966,16 @@ button.t4s-product__description_readm:hover {
 /* Mobile tweaks */
 @media (max-width: 749px) {
   .t4s-liquid_custom_liquid_WweMRz .w3_bg {
-    flex-wrap: wrap;              /* allow badges to go to 2nd line */
-    justify-content: center;      /* center-align rows */
-    gap: 10px 12px;               /* row-gap and column-gap */
-    padding: 8px 4px;
-    overflow-x: visible !important; /* disable scroll */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px 8px;               /* tighter spacing */
+    padding: 6px 0 4px;
   }
 
   .t4s-liquid_custom_liquid_WweMRz .w3_bg span {
-    flex: 0 0 auto;               /* take only as much space as needed */
-    font-size: 13px;
-    padding: 6px 12px;
+    font-size: 12px;           /* smaller text */
+    padding: 5px 10px;         /* reduced pill padding */
+    border-width: 1.2px;
+    border-radius: 6px;
   }
 }
