@@ -36,7 +36,7 @@
         "custom_liquid_WweMRz": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- if product.type == 'Saree' -%}\n  {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}\n  {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}\n\n  <div class=\"ivy-trust-wrapper\">\n    <div class=\"ivy-trust-badges\">\n      {%- if inventory_quantity == 1 -%}\n        <span>SINGLE PIECE ONLY</span>\n      {%- endif -%}\n\n      {%- if fabric_value contains 'Silk Mark Certified' -%}\n        <span>SILK MARK CERTIFIED</span>\n      {%- endif -%}\n\n      <span>FREE SHIPPING</span>\n    </div>\n  </div>\n{%- endif -%}"
+            "custom_liquid": "{%- if product.type == 'Saree' -%}\n  {% assign fabric_value = product.metafields.saree.fabric_type | metafield_text %}\n  {% assign inventory_quantity = product.selected_or_first_available_variant.inventory_quantity %}\n\n  <div class=\"ivy-trust-badges-wrapper\">\n    <div class=\"ivy-trust-badges\">\n      {%- if inventory_quantity == 1 -%}\n        <span>SINGLE PIECE ONLY</span>\n      {%- endif -%}\n      {%- if fabric_value contains 'Silk Mark Certified' -%}\n        <span>SILK MARK CERTIFIED</span>\n      {%- endif -%}\n      <span>FREE SHIPPING</span>\n    </div>\n  </div>\n{%- endif -%}"
           }
         },
         "price_review": {
