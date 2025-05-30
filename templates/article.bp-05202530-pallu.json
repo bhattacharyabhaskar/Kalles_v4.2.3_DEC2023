@@ -193,6 +193,32 @@
     },
     "crafted_videos_HeVDxN": {
       "type": "crafted_videos",
+      "blocks": {
+        "video_NzYhiJ": {
+          "type": "video",
+          "settings": {
+            "video_title": "Crafting Banarasi Silk",
+            "video_caption": "An inside look at our artisan’s weaving process.",
+            "video_tags": "Banarasi, Handwoven",
+            "video_url": "https://www.youtube.com/watch?v=td-Gf050g4o",
+            "autoplay": true
+          }
+        },
+        "video_jTqyke": {
+          "type": "video",
+          "settings": {
+            "video_title": "Crafting Banarasi Silk",
+            "video_caption": "An inside look at our artisan’s weaving process.",
+            "video_tags": "Banarasi, Handwoven",
+            "video_url": "https://www.youtube.com/watch?v=td-Gf050g4o",
+            "autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "video_NzYhiJ",
+        "video_jTqyke"
+      ],
       "name": "Crafted Video Gallery",
       "settings": {
         "section_heading": "From Loom to Elegance",
