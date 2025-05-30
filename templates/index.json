@@ -667,6 +667,17 @@
             "thumbnail": "shopify://shop_images/Hand-Painted-thumb1.gif",
             "autoplay": false
           }
+        },
+        "video_VgmYQ9": {
+          "type": "video",
+          "settings": {
+            "video_title": "Hand Embroidery at its Best",
+            "video_caption": "",
+            "video_tags": "Hand Embroidery, Pure Silk, Silk Mark, Artisan",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/e1cb58a1097a4183b2b49b1029d56630.mp4",
+            "thumbnail": "shopify://shop_images/hand-embroidery-thumb.gif",
+            "autoplay": false
+          }
         }
       },
       "block_order": [
@@ -674,7 +685,8 @@
         "video_ArxPYH",
         "video_FYLcYx",
         "video_hr8NHz",
-        "video_9qneT8"
+        "video_9qneT8",
+        "video_VgmYQ9"
       ],
       "settings": {
         "section_heading": "From Loom to Elegance",
