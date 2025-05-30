@@ -932,55 +932,35 @@ button.t4s-product__description_readm:hover {
    ✅ TRUST BADGE STYLES (Mobile-Responsive Final Version)
 ------------------------------------------ */
 
-/* Main badge container */
-.t4s-liquid_custom_liquid_WweMRz .w3_bg {
-  display: flex;
-  flex-wrap: nowrap; /* Prevent wrapping */
-  overflow-x: auto;   /* Allow horizontal scroll on small screens */
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
-  padding: 6px 8px;
+.ivy-trust-wrapper {
   margin: 16px 0;
-  scrollbar-width: none; /* Hide scrollbar (Firefox) */
-}
-.t4s-liquid_custom_liquid_WweMRz .w3_bg::-webkit-scrollbar {
-  display: none; /* Hide scrollbar (Chrome/Safari) */
 }
 
-/* Individual badge pill */
-.t4s-liquid_custom_liquid_WweMRz .w3_bg span {
+.ivy-trust-badges {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 6px 8px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.ivy-trust-badges::-webkit-scrollbar {
+  display: none;
+}
+
+.ivy-trust-badges span {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-
   padding: 8px 12px;
   font-size: 13.5px;
   font-weight: 700;
-  text-align: center;
-  white-space: nowrap;
   border-radius: 8px;
-
-  background-color: #fff1f1 !important;
-  border: 1.5px solid #e63946 !important;
-  color: #b10000 !important;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-/* Remove unwanted nested span styling */
-.t4s-liquid_custom_liquid_WweMRz .w3_bg span span {
-  all: unset;
-  display: inline;
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-/* Optional: Adjust font slightly smaller on very narrow screens */
-@media (max-width: 479px) {
-  .t4s-liquid_custom_liquid_WweMRz .w3_bg span {
-    font-size: 12.5px;
-    padding: 6px 10px;
-  }
+  white-space: nowrap;
+  background-color: #fff1f1;
+  border: 1.5px solid #e63946;
+  color: #b10000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
