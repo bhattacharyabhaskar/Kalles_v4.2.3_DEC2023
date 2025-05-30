@@ -115,6 +115,8 @@
   {% for block in section.blocks %}
   {% assign autoplay_enabled = block.settings.autoplay %}
     <div class="crafted-video-block">
+        <div class="video-wrapper">
+
       <video
         controls
         playsinline
@@ -130,6 +132,7 @@
         Your browser does not support the video tag.
       </video>
         <div class="center-play-overlay">▶</div>
+        </div>
       <div class="crafted-video-title">{{ block.settings.video_title }}</div>
       <div class="crafted-video-caption" style="font-size: {{ section.settings.font_size_desktop }}px;">
         {{ block.settings.video_caption }}
