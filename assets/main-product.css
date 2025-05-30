@@ -914,16 +914,6 @@ button.t4s-product__description_readm:hover {
 .t4s-product__media-wrapper {
   position: relative;
 }
-@media (max-width: 767px) {
-  .is--shown.sticky_layout_mb--minimal .t4s-sticky-atc__product {
-    display: flex !important;
-    flex-direction: row;
-  }
-
-  .is--shown.sticky_layout_mb--minimal .t4s-sticky-atc__btns {
-    display: flex !important;
-  }
-}
 /* -----------------------------------------
    ✅ TRUST BADGE STYLES — Always in 1 Row
 ------------------------------------------ */
