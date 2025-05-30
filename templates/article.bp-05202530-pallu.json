@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/Banner_Image_802f6005-f243-4575-99e2-de86851a6c54.png",
+            "image": "shopify://shop_images/8_regional_saree_drape.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -201,7 +201,7 @@
             "video_caption": "An inside look at our artisan’s weaving process.",
             "video_tags": "Banarasi, Handwoven",
             "video_url": "https://www.youtube.com/watch?v=td-Gf050g4o",
-            "autoplay": true
+            "autoplay": false
           }
         },
         "video_jTqyke": {
