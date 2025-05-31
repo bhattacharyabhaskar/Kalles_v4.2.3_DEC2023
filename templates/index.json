@@ -610,95 +610,96 @@
         "code_cus_css": ""
       }
     },
-    "crafted_videos_zAf4MP": {
-      "type": "crafted_videos",
+    "crafted_videos_carousel_CLAFLA": {
+      "type": "crafted_videos_carousel",
       "blocks": {
-        "video_yf84Gw": {
+        "video_y93UqY": {
+          "type": "video",
+          "settings": {
+            "video_title": "Hand Embroidery at its Best",
+            "video_caption": "Hand Embroidery, Pure Silk, Silk Mark, Artisan, Women Empowerment",
+            "video_tags": "",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/e1cb58a1097a4183b2b49b1029d56630.mp4",
+            "thumbnail": "shopify://shop_images/hand-embroidery-thumb.gif",
+            "autoplay": false
+          }
+        },
+        "video_VUWUzQ": {
           "type": "video",
           "settings": {
             "video_title": "A Pure Gold Zari Kanjeevaram",
-            "video_caption": "",
-            "video_tags": "Kanjeevaram, Kanchipuram, Pure Gold, Handloom, Silk Mark, India Heritage",
+            "video_caption": "Kanjeevaram, Kanchipuram, Pure Gold, Handloom, Silk Mark, India Heritage",
+            "video_tags": "",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/b2907bf27efc40d79373e78d5dc5bb5a.mp4",
             "thumbnail": "shopify://shop_images/Kanjeevaram-thumbnail.gif",
             "autoplay": false
           }
         },
-        "video_ArxPYH": {
-          "type": "video",
-          "settings": {
-            "video_title": "The Heritage Jamdani in the making",
-            "video_caption": "",
-            "video_tags": "Bengal, Bangladesh, Handwoven, Jamdani, Heritage",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/a5a4f024da15418f969feb62003fbbcf.mp4",
-            "thumbnail": "shopify://shop_images/Jamdani-thumbnail-1.gif",
-            "autoplay": false
-          }
-        },
-        "video_FYLcYx": {
+        "video_g6UKH3": {
           "type": "video",
           "settings": {
             "video_title": "Reviving the lost Madhubani Art",
-            "video_caption": "",
-            "video_tags": "Madhubani, Art, Hand Painted, Silk mark, Heritage",
+            "video_caption": "Madhubani, Art, Hand Painted, Silk mark, Heritage, Bihar",
+            "video_tags": "",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/3f062e26064b4279baf62e4243791fab.mp4",
             "thumbnail": "shopify://shop_images/Madhubani-thumb.gif",
             "autoplay": false
           }
         },
-        "video_hr8NHz": {
+        "video_qyNLhh": {
           "type": "video",
           "settings": {
-            "video_title": "Garad Silk, a Bengal Tradition",
-            "video_caption": "",
-            "video_tags": "Bengal, Hand Woven, Garad, Silk Mark",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/86b4ec8129f24bcaad4ca627bacf87d1.mp4",
-            "thumbnail": "shopify://shop_images/garad-thumb.gif",
+            "video_title": "The Heritage Jamdani in the making",
+            "video_caption": "Bengal, Bangladesh, Handwoven, Jamdani, Heritage",
+            "video_tags": "",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/a5a4f024da15418f969feb62003fbbcf.mp4",
+            "thumbnail": "shopify://shop_images/Jamdani-thumbnail-1.gif",
             "autoplay": false
           }
         },
-        "video_9qneT8": {
+        "video_k8yJ6e": {
           "type": "video",
           "settings": {
             "video_title": "A canvas in Silk",
-            "video_caption": "",
-            "video_tags": "Bishnupur , Handwoven, Hand painted",
+            "video_caption": "Bishnupur , Handwoven, Hand painted, Silk mark, Bengal, Art",
+            "video_tags": "",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/e3433a736c7349da8600d68ac7b58f42.mp4",
             "thumbnail": "shopify://shop_images/Hand-Painted-thumb1.gif",
             "autoplay": false
           }
         },
-        "video_VgmYQ9": {
+        "video_gc7N9T": {
           "type": "video",
           "settings": {
-            "video_title": "Hand Embroidery at its Best",
-            "video_caption": "",
-            "video_tags": "Hand Embroidery, Pure Silk, Silk Mark, Artisan",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/e1cb58a1097a4183b2b49b1029d56630.mp4",
-            "thumbnail": "shopify://shop_images/hand-embroidery-thumb.gif",
+            "video_title": "Garad Silk, a Bengal Tradition",
+            "video_caption": "Bengal, Hand Woven, Garad, Silk Mark, Puja, Durga Puja, Tradition",
+            "video_tags": "Banarasi, Handwoven",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/86b4ec8129f24bcaad4ca627bacf87d1.mp4",
+            "thumbnail": "shopify://shop_images/garad-thumb.gif",
             "autoplay": false
           }
         }
       },
       "block_order": [
-        "video_yf84Gw",
-        "video_ArxPYH",
-        "video_FYLcYx",
-        "video_hr8NHz",
-        "video_9qneT8",
-        "video_VgmYQ9"
+        "video_y93UqY",
+        "video_VUWUzQ",
+        "video_g6UKH3",
+        "video_qyNLhh",
+        "video_k8yJ6e",
+        "video_gc7N9T"
       ],
+      "name": "Crafted Video Carousel",
       "settings": {
         "section_heading": "From Loom to Elegance",
-        "section_description": "Watch how our Sarees come to life — handcrafted by master artisans.",
+        "section_description": "Watch how our sarees and blouses come to life — handcrafted by master artisans across India.",
         "background_color": "#fcfaf7",
         "heading_alignment": "center",
         "description_alignment": "center",
-        "desktop_layout": "six-inline",
-        "mobile_layout": "single",
+        "desktop_layout": "three-column",
+        "mobile_layout": "two-column",
         "content_alignment": "center",
-        "font_size_desktop": 18,
-        "font_size_mobile": 15,
+        "font_size_desktop": 16,
+        "font_size_mobile": 14,
         "show_mute_toggle": true
       }
     },
@@ -1791,7 +1792,7 @@
     "1646028739ae283905",
     "d98aa1b1-f414-49a2-be42-55dd82743bc1",
     "line_w49wWj",
-    "crafted_videos_zAf4MP",
+    "crafted_videos_carousel_CLAFLA",
     "line_mxepEr",
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
     "custom_liquid_MQ67PY",
