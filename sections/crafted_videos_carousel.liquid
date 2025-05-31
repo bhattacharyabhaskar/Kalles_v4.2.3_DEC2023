@@ -1,0 +1,341 @@
+<!-- Flickity for Mobile Carousel -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flickity@2/dist/flickity.min.css" defer>
+<script src="https://cdn.jsdelivr.net/npm/flickity@2/dist/flickity.pkgd.min.js" defer></script>
+
+<style>
+  .crafted-video-gallery {
+    padding: 3rem 1rem;
+    background-color: {{ section.settings.background_color }};
+    overflow: hidden;
+  }
+
+  .crafted-video-gallery h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-align: {{ section.settings.heading_alignment }};
+  }
+
+  .crafted-video-gallery p {
+    text-align: {{ section.settings.description_alignment }};
+  }
+
+  .crafted-video-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2rem;
+  }
+
+  .crafted-video-block {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: #fff;
+    text-align: {{ section.settings.content_alignment }};
+  }
+
+  .crafted-video-block video,
+  .crafted-video-block img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+
+  .crafted-video-title {
+    font-weight: bold;
+    margin-top: 0.75rem;
+  }
+
+  .crafted-video-caption {
+    font-size: {{ section.settings.font_size_desktop }}px;
+  }
+
+  .crafted-video-tags {
+    font-size: 0.8rem;
+    color: #777;
+  }
+
+  /* Desktop Layouts */
+  .video-layout-two-column .crafted-video-block { flex: 1 1 45%; max-width: 45%; }
+  .video-layout-three-column .crafted-video-block { flex: 1 1 30%; max-width: 30%; }
+  .video-layout-six-inline .crafted-video-block {
+    flex: 1 1 calc((100% - 5 * 20px) / 6);
+    max-width: calc((100% - 5 * 20px) / 6);
+  }
+
+  @media(max-width: 1400px) {
+    .video-layout-six-inline .crafted-video-block {
+      flex: 1 1 30%;
+      max-width: 30%;
+    }
+  }
+
+  @media(max-width: 1024px) {
+    .video-layout-six-inline .crafted-video-block {
+      flex: 1 1 45%;
+      max-width: 45%;
+    }
+  }
+
+  /* Mobile Flickity Fix */
+  @media(max-width: 768px) {
+    .crafted-video-carousel {
+      display: block !important;
+    }
+
+    .flickity-enabled .crafted-video-block {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin: 0 10px;
+    }
+
+    .crafted-video-carousel .crafted-video-block {
+      width: calc(100% - 20px);
+      margin: 0 10px;
+    }
+
+    .flickity-page-dots {
+      bottom: -25px;
+    }
+
+    .crafted-video-caption {
+      font-size: {{ section.settings.font_size_mobile }}px;
+    }
+  }
+</style>
+
+<div class="crafted-video-gallery">
+  <h2>{{ section.settings.section_heading }}</h2>
+  <p>{{ section.settings.section_description }}</p>
+
+  <div class="crafted-video-carousel video-layout-{{ section.settings.desktop_layout }}">
+    {% for block in section.blocks %}
+      <div class="crafted-video-block">
+        <video
+          controls
+          playsinline
+          muted
+          {% if block.settings.autoplay %}autoplay{% endif %}
+          loop
+          preload="metadata"
+          poster="{{ block.settings.thumbnail | img_url: '480x' }}"
+          aria-label="{{ block.settings.video_title }}"
+        >
+          <source src="{{ block.settings.video_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="crafted-video-title">{{ block.settings.video_title }}</div>
+        <div class="crafted-video-caption">
+          {{ block.settings.video_caption }}
+        </div>
+        <div class="crafted-video-tags">
+          {{ block.settings.video_tags }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let flkty = null;
+    const carousel = document.querySelector('.crafted-video-carousel');
+
+    function initFlickity() {
+      if (carousel && typeof Flickity !== 'undefined') {
+        flkty = new Flickity(carousel, {
+          cellAlign: 'left',
+          contain: true,
+          pageDots: true,
+          prevNextButtons: true,
+          wrapAround: true,
+          percentPosition: true,
+          setGallerySize: true
+        });
+        carousel.classList.add('flickity-enabled');
+      }
+    }
+
+    function destroyFlickity() {
+      if (flkty) {
+        flkty.destroy();
+        flkty = null;
+        carousel.classList.remove('flickity-enabled');
+      }
+    }
+
+    function handleResize() {
+      const isMobile = window.innerWidth <= 768;
+      const isCurrentlyInitialized = flkty !== null;
+
+      if (isMobile && !isCurrentlyInitialized) {
+        initFlickity();
+      } else if (!isMobile && isCurrentlyInitialized) {
+        destroyFlickity();
+      }
+    }
+
+    // Initial check
+    handleResize();
+
+    // Watch for browser resize
+    window.addEventListener("resize", handleResize);
+  });
+</script>
+
+
+
+{% schema %}
+{
+  "name": "Crafted Video Carousel",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "From Loom to Elegance"
+    },
+    {
+      "type": "textarea",
+      "id": "section_description",
+      "label": "Section Description",
+      "default": "Watch how our sarees and blouses come to life — handcrafted by master artisans across India."
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Section Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Section Heading Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "description_alignment",
+      "label": "Section Description Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "desktop_layout",
+      "label": "Desktop Layout",
+      "default": "three-column",
+      "options": [
+        { "value": "two-column", "label": "2 Columns" },
+        { "value": "three-column", "label": "3 Columns" },
+        { "value": "six-inline", "label": "6 Inline" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "mobile_layout",
+      "label": "Mobile Layout",
+      "default": "two-column",
+      "options": [
+        { "value": "single", "label": "1 Column" },
+        { "value": "two-column", "label": "2 Columns" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "label": "Content Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "font_size_desktop",
+      "label": "Font Size for Desktop (px)",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "font_size_mobile",
+      "label": "Font Size for Mobile (px)",
+      "min": 10,
+      "max": 22,
+      "step": 1,
+      "default": 14
+    },
+    {
+      "type": "checkbox",
+      "id": "show_mute_toggle",
+      "label": "Show Mute Toggle Button Inside Each Video",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Video Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "video_title",
+          "label": "Video Title",
+          "default": "Crafting Banarasi Silk"
+        },
+        {
+          "type": "textarea",
+          "id": "video_caption",
+          "label": "Caption",
+          "default": "An inside look at our artisan’s weaving process."
+        },
+        {
+          "type": "text",
+          "id": "video_tags",
+          "label": "Tags (comma-separated)",
+          "default": "Banarasi, Handwoven"
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video URL (.mp4 or .webm)"
+        },
+        {
+          "type": "image_picker",
+          "id": "thumbnail",
+          "label": "Thumbnail (used if autoplay is off)"
+        },
+        {
+          "type": "checkbox",
+          "id": "autoplay",
+          "label": "Autoplay video",
+          "default": true
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Crafted Video Carousel",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
