@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -51,14 +60,13 @@
       "blocks": {
         "5d8ed9ba-5120-4ca1-a8e8-67dd44b88bd2": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "74a2487d-dac7-4195-9e12-0f6eb118b1a1": {
           "type": "btn",
           "settings": {
             "title": "Return To Shop",
-            "url": "\/",
+            "url": "shopify://collections/buy-silk-mark-certified-saree",
             "btn_icon": false,
             "button_style": "default",
             "btn_cl": "primary",
@@ -67,15 +75,14 @@
         },
         "2fef20ad-861c-4d15-aca6-4c26b6ee96f9": {
           "type": "tax",
-          "settings": {
-          }
+          "settings": {}
         },
         "683a32d9-dc0c-4210-b04b-08b2c90dff29": {
           "type": "btnck",
           "settings": {
             "btn_icon": false,
             "button_style": "default",
-            "btn_size": "large",
+            "btn_size": "extra-large",
             "btn_cl": "primary",
             "button_effect": "default",
             "btn_icon2": false,
@@ -87,8 +94,7 @@
         },
         "5ae3c0ee-4bc7-4818-af8a-d10d3958189a": {
           "type": "btnmr",
-          "settings": {
-          }
+          "settings": {}
         },
         "9f0f4b67-92cb-4f7e-ae91-e921e23ed3ff": {
           "type": "img",
@@ -245,8 +251,7 @@
     },
     "1702155384d67660bd": {
       "type": "apps",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
