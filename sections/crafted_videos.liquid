@@ -132,15 +132,24 @@
   video.muted = !video.muted;
   button.innerText = video.muted ? '🔇' : '🔊';
 
+  const label = video.getAttribute("aria-label") || "Crafted Video";
+  const state = video.muted ? "Muted" : "Unmuted";
+
+  // ✅ Console log for debugging
+  console.log(`Mute toggle clicked: ${label} is now ${state}`);
+
   // ✅ GA4 tracking
   if (typeof gtag === "function") {
     gtag("event", "mute_toggle_click", {
       event_category: "Video",
-      event_label: video.getAttribute("aria-label") || "Crafted Video",
-      value: video.muted ? 0 : 1 // 0 = muted, 1 = unmuted
+      event_label: label,
+      value: video.muted ? 0 : 1
     });
+  } else {
+    console.warn("gtag is not defined. GA4 event not sent.");
   }
 }
+
 
   function playManualVideo(wrapper) {
     const img = wrapper.querySelector('img');
