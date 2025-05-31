@@ -718,48 +718,6 @@
         "code_cus_css": ""
       }
     },
-    "promo_text_DwDFQ7": {
-      "type": "promo_text",
-      "blocks": {
-        "1_6NYiEV": {
-          "type": "1",
-          "settings": {
-            "content": "<p>Due to some procedural change for DHL shipments to USA, we are experiencing delays in shipments getting released in a timely fashion. We are working with the concerned authority in DHL to resolve the issues at the earliest. We are hoping to release all pending shipments by end of the week of July 5, 2024.</p>",
-            "countdown": "2023/12/20",
-            "cus_cd": "%-D day%!D %H:%M:%S",
-            "dayx": 0,
-            "cl_text": "#ffffff",
-            "cl_link": "#56cfe1",
-            "fw_text": 400,
-            "fs_text": 14,
-            "lh_text": 16,
-            "ls_text": 2,
-            "fs_mb_text": 13.5,
-            "lh_text_mb": 14.5,
-            "ls_mb_text": 0
-          }
-        }
-      },
-      "block_order": [
-        "1_6NYiEV"
-      ],
-      "disabled": true,
-      "settings": {
-        "effect": "slider",
-        "au_time": 3,
-        "layout": "t4s-container-wrap",
-        "cl_bg": "#000000",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "12px,,12px,",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "10px,,10px,",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370": {
       "type": "collections-list-packery",
       "blocks": {
@@ -1835,7 +1793,6 @@
     "line_w49wWj",
     "crafted_videos_zAf4MP",
     "line_mxepEr",
-    "promo_text_DwDFQ7",
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
     "custom_liquid_MQ67PY",
     "1702155301c8da60ce",
