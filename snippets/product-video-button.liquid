@@ -5,51 +5,197 @@
 {%- if mp4_source and this_product.id -%}
   {%- assign unique_id = 'video_' | append: this_product.id -%}
 
+  <!-- Trigger Button -->
   <div class="t4s-video-button-wrapper" style="margin: 10px 0; text-align: center;">
     <button id="watchVideoBtn-{{ unique_id }}" class="watch-video-btn" style="padding: 8px 16px; background-color: #b33c3c; color: white; font-size: 13px; font-weight: 700; border: none; border-radius: 4px;">
     {%- if this_product.type == 'Dress' -%}
       ▶️ WATCH & BUY
       {%- else -%}
-      ▶️ WATCH & BUY 
+      ▶️ SINGLE PIECE, WATCH & BUY 
     {%- endif -%}
     </button>
   </div>
 
-  <div id="videoModal-{{ unique_id }}" class="video-modal" style="display:none; position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8);">
-    <div style="position:relative; width:90%; max-width:500px; margin:10% auto;">
-      <span class="close-video" style="position:absolute; top:-30px; right:0; font-size:30px; color:white; cursor:pointer;">&times;</span>
-      <video id="productVideo-{{ unique_id }}" controls style="width: 100%; height: auto;">
-        <source src="{{ mp4_source.url }}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+  <!-- Modal -->
+  <div id="videoModal-{{ unique_id }}" class="video-modal">
+    <div class="video-modal-content">
+      <span class="close-video">&times;</span>
+
+      <!-- Title and Price -->
+      <div class="video-header">
+        <div class="video-title">{{ this_product.title }}</div>
+        <div class="video-price">{%- render 'product-price', product: this_product, price_varies_style: price_varies_style, type: 'card', isGrouped: isGrouped -%}</div>
+      </div>
+
+      <!-- Lazy Video Load Target -->
+      <div class="video-wrapper" id="videoContainer-{{ unique_id }}" data-video="{{ mp4_source.url }}" data-label="{{ this_product.title }}"></div>
+
+      <!-- Add to Cart Button -->
+      <form method="post" action="/cart/add" class="bottom-add-to-cart-form">
+        <input type="hidden" name="id" value="{{ this_product.variants.first.id }}">
+        <button type="submit" class="bottom-add-to-cart-btn"
+          onclick="gtag && gtag('event', 'add_to_cart_button_click', {
+            event_category: 'Video Modal',
+            event_label: '{{ this_product.title }}'
+          })">
+          Buy Now
+        </button>
+      </form>
     </div>
   </div>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      var btn = document.getElementById("watchVideoBtn-{{ unique_id }}");
-      var modal = document.getElementById("videoModal-{{ unique_id }}");
-      var video = document.getElementById("productVideo-{{ unique_id }}");
-      var close = modal.querySelector(".close-video");
+      const btn = document.getElementById("watchVideoBtn-{{ unique_id }}");
+      const modal = document.getElementById("videoModal-{{ unique_id }}");
+      const videoContainer = document.getElementById("videoContainer-{{ unique_id }}");
+      const close = modal.querySelector(".close-video");
+      let videoEl = null;
 
       btn?.addEventListener("click", function () {
-        modal.style.display = "block";
-        video.play();
+        modal.style.display = "flex";
+
+        if (!videoEl) {
+          const videoURL = videoContainer.getAttribute("data-video");
+
+          videoEl = document.createElement("video");
+          videoEl.setAttribute("playsinline", "");
+          videoEl.setAttribute("autoplay", "");
+          videoEl.setAttribute("muted", "");
+          videoEl.setAttribute("loop", "");
+          videoEl.setAttribute("controls", "");
+          videoEl.setAttribute("preload", "metadata");
+          videoEl.style.width = "100%";
+          videoEl.style.borderRadius = "12px";
+
+          const source = document.createElement("source");
+          source.src = videoURL;
+          source.type = "video/mp4";
+          videoEl.appendChild(source);
+
+          videoContainer.appendChild(videoEl);
+          videoEl.play().catch(e => console.warn("Autoplay blocked:", e));
+        } else {
+          videoEl.play();
+        }
       });
 
       close?.addEventListener("click", function () {
         modal.style.display = "none";
-        video.pause();
-        video.currentTime = 0;
+        if (videoEl) {
+          videoEl.pause();
+          videoEl.currentTime = 0;
+        }
       });
 
       window.addEventListener("click", function (e) {
         if (e.target === modal) {
           modal.style.display = "none";
-          video.pause();
-          video.currentTime = 0;
+          if (videoEl) {
+            videoEl.pause();
+            videoEl.currentTime = 0;
+          }
         }
       });
     });
   </script>
+
+  <style>
+    .video-modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.88);
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    .video-modal-content {
+      position: relative;
+      background: #000;
+      width: 100%;
+      max-width: 500px;
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 20px; /* reserve space for bottom button */
+    }
+
+  .close-video {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 28px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  cursor: pointer !important;
+}
+
+.video-header {
+  padding: 1.25rem 1.5rem 0;
+  color: #fff;
+  text-align: left;
+}
+
+.video-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.25rem;
+}
+
+.video-price {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+    .video-wrapper {
+  padding: 0 1rem;
+    }
+
+    
+.bottom-add-to-cart-form {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 99999;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
+}
+ .bottom-add-to-cart-btn {
+  width: 100%;
+  background-color: #FFF;
+  color: #000000;
+  font-size: 16px;
+  padding: 10px 0;
+  font-weight: 700;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.bottom-add-to-cart-btn:hover {
+  background-color: ##000000;
+}
+
+  </style>
 {%- endif -%}
