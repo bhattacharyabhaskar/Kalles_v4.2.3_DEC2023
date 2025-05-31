@@ -613,17 +613,6 @@
     "crafted_videos_carousel_CLAFLA": {
       "type": "crafted_videos_carousel",
       "blocks": {
-        "video_y93UqY": {
-          "type": "video",
-          "settings": {
-            "video_title": "Hand Embroidery at its Best",
-            "video_caption": "Hand Embroidery, Pure Silk, Silk Mark, Artisan, Women Empowerment",
-            "video_tags": "",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/e1cb58a1097a4183b2b49b1029d56630.mp4",
-            "thumbnail": "shopify://shop_images/hand-embroidery-thumb.gif",
-            "autoplay": false
-          }
-        },
         "video_VUWUzQ": {
           "type": "video",
           "settings": {
@@ -632,6 +621,17 @@
             "video_tags": "",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/b2907bf27efc40d79373e78d5dc5bb5a.mp4",
             "thumbnail": "shopify://shop_images/Kanjeevaram-thumbnail.gif",
+            "autoplay": false
+          }
+        },
+        "video_y93UqY": {
+          "type": "video",
+          "settings": {
+            "video_title": "Hand Embroidery at its Best",
+            "video_caption": "Hand Embroidery, Pure Silk, Silk Mark, Artisan, Women Empowerment",
+            "video_tags": "",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/e1cb58a1097a4183b2b49b1029d56630.mp4",
+            "thumbnail": "shopify://shop_images/hand-embroidery-thumb.gif",
             "autoplay": false
           }
         },
@@ -681,8 +681,8 @@
         }
       },
       "block_order": [
-        "video_y93UqY",
         "video_VUWUzQ",
+        "video_y93UqY",
         "video_g6UKH3",
         "video_qyNLhh",
         "video_k8yJ6e",
