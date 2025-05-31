@@ -128,10 +128,19 @@
 
 <script>
   function toggleSingleMute(button) {
-    const video = button.parentElement.querySelector('video');
-    video.muted = !video.muted;
-    button.innerText = video.muted ? '🔇' : '🔊';
+  const video = button.parentElement.querySelector('video');
+  video.muted = !video.muted;
+  button.innerText = video.muted ? '🔇' : '🔊';
+
+  // ✅ GA4 tracking
+  if (typeof gtag === "function") {
+    gtag("event", "mute_toggle_click", {
+      event_category: "Video",
+      event_label: video.getAttribute("aria-label") || "Crafted Video",
+      value: video.muted ? 0 : 1 // 0 = muted, 1 = unmuted
+    });
   }
+}
 
   function playManualVideo(wrapper) {
     const img = wrapper.querySelector('img');
