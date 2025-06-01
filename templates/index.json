@@ -1721,22 +1721,6 @@
         "code_cus_css": ".SectionID {\nbackground-color:red\n}"
       }
     },
-    "d9739b17-f400-495b-a60f-9652e6c536ed": {
-      "type": "line",
-      "settings": {
-        "line_style": "solid",
-        "line_width": 100,
-        "line_height": 2.5,
-        "line_cl": "#b7499b",
-        "line_pos": "t4s-text-start",
-        "layout": "t4s-container-wrap",
-        "mg": ",,50px,",
-        "mg_tb": "",
-        "mg_mb": ",,30px,",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "custom_liquid_bB8QjJ": {
       "type": "custom-liquid",
       "settings": {
@@ -1786,9 +1770,111 @@
         "9ef838d1-083b-4f7c-9d77-1914496936a0"
       ],
       "settings": {}
+    },
+    "header_menu_home_PBrchU": {
+      "type": "header_menu_home",
+      "blocks": {
+        "nav_item_gPddKJ": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Logo-Light-Anime.gif",
+            "label": "Home",
+            "link": ""
+          }
+        },
+        "nav_item_3mnPLc": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/mobile_banner_5.webp",
+            "label": "Sarees",
+            "link": "shopify://collections/buy-silk-mark-certified-saree"
+          }
+        },
+        "nav_item_aH9NRD": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/mobile_banner_4.webp",
+            "label": "Suits & Dresses",
+            "link": "shopify://collections/suits-dresses"
+          }
+        },
+        "nav_item_8963Cc": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/pink-color-monalisa-stonework-and-ad-stone-setting-choker-necklace-set_ac1a91cc.jpg",
+            "label": "Jewelry",
+            "link": "shopify://collections/jewelry"
+          }
+        },
+        "nav_item_dGHn36": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Silk-Blouse.jpg",
+            "label": "Designer Blouse",
+            "link": ""
+          }
+        },
+        "nav_item_HnMCx8": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/cream-white-color-box-clutch-bag-with-zari-and-pearl-embroidery-5.jpg",
+            "label": "Bags",
+            "link": "shopify://collections/designer-bags"
+          }
+        },
+        "nav_item_pe3NcN": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/royal-green-color-pashmina-stole-with-allover-weaving.jpg",
+            "label": "Menu Label",
+            "link": "shopify://collections/stole"
+          }
+        },
+        "nav_item_qgH8GH": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Banner_Image_d6ac878a-d9e7-40fb-a9d3-b728dd8bdfa6.png",
+            "label": "About Us",
+            "link": "shopify://pages/about-us"
+          }
+        },
+        "nav_item_WymbCj": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/review_1ca2d914-e015-4019-b879-020d777837ea.png",
+            "label": "Reviews",
+            "link": "shopify://pages/indyvogue-reviews"
+          }
+        },
+        "nav_item_zJyqU6": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/blog-img_ba8e17a1-3508-4797-bb4a-18fd0a96be08.jpg",
+            "label": "Blogs",
+            "link": "shopify://blogs/indyvogue-fashion-center"
+          }
+        }
+      },
+      "block_order": [
+        "nav_item_gPddKJ",
+        "nav_item_3mnPLc",
+        "nav_item_aH9NRD",
+        "nav_item_8963Cc",
+        "nav_item_dGHn36",
+        "nav_item_HnMCx8",
+        "nav_item_pe3NcN",
+        "nav_item_qgH8GH",
+        "nav_item_WymbCj",
+        "nav_item_zJyqU6"
+      ],
+      "name": "Circle Icon Navigation",
+      "settings": {
+        "section_heading": ""
+      }
     }
   },
   "order": [
+    "header_menu_home_PBrchU",
     "1646028739ae283905",
     "d98aa1b1-f414-49a2-be42-55dd82743bc1",
     "line_w49wWj",
@@ -1810,7 +1896,6 @@
     "0b8b46e4-9f56-481f-a268-707914397b64",
     "featured_collection_pEfbVz",
     "16460368750174c54a",
-    "d9739b17-f400-495b-a60f-9652e6c536ed",
     "custom_liquid_bB8QjJ",
     "17022330082d8df317"
   ]
