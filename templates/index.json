@@ -15,7 +15,7 @@
         "nav_item_gPddKJ": {
           "type": "nav_item",
           "settings": {
-            "icon_image": "shopify://shop_images/Logo-Light-Anime.gif",
+            "icon_image": "shopify://shop_images/Logo-Light-New.webp",
             "label": "Home",
             "link": ""
           }
@@ -23,7 +23,7 @@
         "nav_item_3mnPLc": {
           "type": "nav_item",
           "settings": {
-            "icon_image": "shopify://shop_images/mobile_banner_5.webp",
+            "icon_image": "shopify://shop_images/Sarees.webp",
             "label": "Sarees",
             "link": "shopify://collections/buy-silk-mark-certified-saree"
           }
@@ -31,7 +31,7 @@
         "nav_item_aH9NRD": {
           "type": "nav_item",
           "settings": {
-            "icon_image": "shopify://shop_images/mobile_banner_4.webp",
+            "icon_image": "shopify://shop_images/Suites.webp",
             "label": "Suits & Dresses",
             "link": "shopify://collections/suits-dresses"
           }
@@ -39,7 +39,7 @@
         "nav_item_8963Cc": {
           "type": "nav_item",
           "settings": {
-            "icon_image": "shopify://shop_images/pink-color-monalisa-stonework-and-ad-stone-setting-choker-necklace-set_ac1a91cc.jpg",
+            "icon_image": "shopify://shop_images/Jewelry.webp",
             "label": "Jewelry",
             "link": "shopify://collections/jewelry"
           }
@@ -47,7 +47,7 @@
         "nav_item_dGHn36": {
           "type": "nav_item",
           "settings": {
-            "icon_image": "shopify://shop_images/Silk-Blouse.jpg",
+            "icon_image": "shopify://shop_images/Blouse.webp",
             "label": "Designer Blouse",
             "link": ""
           }
@@ -55,7 +55,7 @@
         "nav_item_HnMCx8": {
           "type": "nav_item",
           "settings": {
-            "icon_image": "shopify://shop_images/cream-white-color-box-clutch-bag-with-zari-and-pearl-embroidery-5.jpg",
+            "icon_image": "shopify://shop_images/bags.webp",
             "label": "Bags",
             "link": "shopify://collections/designer-bags"
           }
@@ -63,15 +63,15 @@
         "nav_item_pe3NcN": {
           "type": "nav_item",
           "settings": {
-            "icon_image": "shopify://shop_images/royal-green-color-pashmina-stole-with-allover-weaving.jpg",
-            "label": "Menu Label",
+            "icon_image": "shopify://shop_images/Stoles.webp",
+            "label": "Stoles",
             "link": "shopify://collections/stole"
           }
         },
         "nav_item_qgH8GH": {
           "type": "nav_item",
           "settings": {
-            "icon_image": "shopify://shop_images/Banner_Image_d6ac878a-d9e7-40fb-a9d3-b728dd8bdfa6.png",
+            "icon_image": "shopify://shop_images/AboutUs.webp",
             "label": "About Us",
             "link": "shopify://pages/about-us"
           }
@@ -79,7 +79,7 @@
         "nav_item_WymbCj": {
           "type": "nav_item",
           "settings": {
-            "icon_image": "shopify://shop_images/review_1ca2d914-e015-4019-b879-020d777837ea.png",
+            "icon_image": "shopify://shop_images/review.webp",
             "label": "Reviews",
             "link": "shopify://pages/indyvogue-reviews"
           }
@@ -87,7 +87,7 @@
         "nav_item_zJyqU6": {
           "type": "nav_item",
           "settings": {
-            "icon_image": "shopify://shop_images/blog-img_ba8e17a1-3508-4797-bb4a-18fd0a96be08.jpg",
+            "icon_image": "shopify://shop_images/Blogs.webp",
             "label": "Blogs",
             "link": "shopify://blogs/indyvogue-fashion-center"
           }
