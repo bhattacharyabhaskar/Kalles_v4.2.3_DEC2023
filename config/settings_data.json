@@ -2422,6 +2422,11 @@
         "type": "shopify://apps/doc-404-broken-links-repair/blocks/404-fix-broken-links-widget/f4f2d416-cb00-4540-bda9-816d588bad3e",
         "disabled": false,
         "settings": {}
+      },
+      "8194784159926722659": {
+        "type": "shopify://apps/gg-product-gallery/blocks/app-embed-block/09c0440b-b921-435c-a2f5-3fc8f53b0424",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
