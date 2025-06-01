@@ -2427,6 +2427,11 @@
         "type": "shopify://apps/gg-product-gallery/blocks/app-embed-block/09c0440b-b921-435c-a2f5-3fc8f53b0424",
         "disabled": false,
         "settings": {}
+      },
+      "10891472601742428568": {
+        "type": "shopify://apps/gg-hover-slider/blocks/app-embed-block/614990d1-808d-4cde-ad6d-38290e605d06",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
