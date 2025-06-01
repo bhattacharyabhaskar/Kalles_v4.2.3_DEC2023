@@ -1,6 +1,132 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Circle Icon Navigation",
+  "tag": "section",
+  "class": "circle-icon-nav",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Explore Categories"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "nav_item",
+      "name": "Navigation Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label Text",
+          "default": "Menu Label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link URL"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "Circle Icon Navigation",
+      "category": "Custom",
+      "blocks": []
+    }
+  ]
+}
 {% endschema %}
+
+{% stylesheet %}
+.circle-nav-section {
+  padding: 2rem 1rem 3rem 1.5rem;
+  overflow-x: hidden;
+}
+
+.circle-nav-items {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding: 0 1rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  justify-content: flex-start; /* ✅ works well on mobile */
+}
+
+.circle-nav-items::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .circle-nav-items {
+    justify-content: center; /* ✅ only center on desktop */
+  }
+}
+
+/* Individual Item */
+.circle-nav-item {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+  text-align: center;
+  width: 75px;
+}
+
+.circle-nav-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.circle-nav-item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #8b0000;
+}
+
+.circle-nav-item span {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #000;
+  white-space: nowrap;
+}
+
+.circle-nav-item a:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+{% endstylesheet %}
+
+<div class="circle-nav-section">
+  <h2>{{ section.settings.section_heading }}</h2>
+  <div class="circle-nav-items">
+    {% for block in section.blocks %}
+      <div class="circle-nav-item">
+        <a href="{{ block.settings.link }}">
+          {% if block.settings.icon_image %}
+            <img src="{{ block.settings.icon_image | image_url: width: 160 }}" alt="{{ block.settings.label }}">
+          {% endif %}
+          <span>{{ block.settings.label }}</span>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
