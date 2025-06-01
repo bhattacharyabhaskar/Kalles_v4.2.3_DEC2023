@@ -9,129 +9,110 @@
  */
 {
   "sections": {
+    "header_menu_home_PBrchU": {
+      "type": "header_menu_home",
+      "blocks": {
+        "nav_item_gPddKJ": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Logo-Light-Anime.gif",
+            "label": "Home",
+            "link": ""
+          }
+        },
+        "nav_item_3mnPLc": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/mobile_banner_5.webp",
+            "label": "Sarees",
+            "link": "shopify://collections/buy-silk-mark-certified-saree"
+          }
+        },
+        "nav_item_aH9NRD": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/mobile_banner_4.webp",
+            "label": "Suits & Dresses",
+            "link": "shopify://collections/suits-dresses"
+          }
+        },
+        "nav_item_8963Cc": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/pink-color-monalisa-stonework-and-ad-stone-setting-choker-necklace-set_ac1a91cc.jpg",
+            "label": "Jewelry",
+            "link": "shopify://collections/jewelry"
+          }
+        },
+        "nav_item_dGHn36": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Silk-Blouse.jpg",
+            "label": "Designer Blouse",
+            "link": ""
+          }
+        },
+        "nav_item_HnMCx8": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/cream-white-color-box-clutch-bag-with-zari-and-pearl-embroidery-5.jpg",
+            "label": "Bags",
+            "link": "shopify://collections/designer-bags"
+          }
+        },
+        "nav_item_pe3NcN": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/royal-green-color-pashmina-stole-with-allover-weaving.jpg",
+            "label": "Menu Label",
+            "link": "shopify://collections/stole"
+          }
+        },
+        "nav_item_qgH8GH": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Banner_Image_d6ac878a-d9e7-40fb-a9d3-b728dd8bdfa6.png",
+            "label": "About Us",
+            "link": "shopify://pages/about-us"
+          }
+        },
+        "nav_item_WymbCj": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/review_1ca2d914-e015-4019-b879-020d777837ea.png",
+            "label": "Reviews",
+            "link": "shopify://pages/indyvogue-reviews"
+          }
+        },
+        "nav_item_zJyqU6": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/blog-img_ba8e17a1-3508-4797-bb4a-18fd0a96be08.jpg",
+            "label": "Blogs",
+            "link": "shopify://blogs/indyvogue-fashion-center"
+          }
+        }
+      },
+      "block_order": [
+        "nav_item_gPddKJ",
+        "nav_item_3mnPLc",
+        "nav_item_aH9NRD",
+        "nav_item_8963Cc",
+        "nav_item_dGHn36",
+        "nav_item_HnMCx8",
+        "nav_item_pe3NcN",
+        "nav_item_qgH8GH",
+        "nav_item_WymbCj",
+        "nav_item_zJyqU6"
+      ],
+      "name": "Circle Icon Navigation",
+      "settings": {
+        "section_heading": ""
+      }
+    },
     "1646028739ae283905": {
       "type": "slideshow",
       "blocks": {
-        "image_parent_KL4Eff": {
-          "type": "image_parent",
-          "settings": {
-            "image": "shopify://shop_images/indyvogue-banner-general.webp",
-            "image_mb": "shopify://shop_images/indyvogue-banner-mobile-general.webp",
-            "image_position": "8",
-            "cl_img": "",
-            "link_img1": "shopify://collections/buy-silk-mark-certified-saree",
-            "open_link": "_self",
-            "animate_slide": "none",
-            "text_align": "center",
-            "text_align_mb": "center",
-            "content_width": "auto",
-            "cv_pos": 50,
-            "ch_pos": 50,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 50,
-            "bg_overlay": "#000000",
-            "bg_opacity": 0,
-            "bg_content_cl": "#ffffff",
-            "bg_content_op": 0,
-            "content_radius": 0,
-            "box_square": false,
-            "content_pd_tb": 15,
-            "content_pd_lr": 15,
-            "content_pd_tb_tb": 15,
-            "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_bg": "#ffffff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 40
-          }
-        },
-        "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336": {
-          "type": "image_parent",
-          "settings": {
-            "image": "shopify://shop_images/indyvogue-banner-jamdani.webp",
-            "image_mb": "shopify://shop_images/indyvogue-banner-jamdani-mobile.webp",
-            "image_position": "8",
-            "cl_img": "",
-            "link_img1": "shopify://collections/dhakai-jamdani-sarees",
-            "open_link": "_self",
-            "animate_slide": "none",
-            "text_align": "start",
-            "text_align_mb": "center",
-            "content_width": "container",
-            "cv_pos": 70,
-            "ch_pos": 0,
-            "cv_pos_mb": 70,
-            "ch_pos_mb": 0,
-            "bg_overlay": "#000000",
-            "bg_opacity": 0,
-            "bg_content_cl": "#222222",
-            "bg_content_op": 0,
-            "content_radius": 0,
-            "box_square": false,
-            "content_pd_tb": 15,
-            "content_pd_lr": 15,
-            "content_pd_tb_tb": 15,
-            "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_bg": "#ffffff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 30
-          }
-        },
-        "image_parent_b8TTqh": {
-          "type": "image_parent",
-          "settings": {
-            "image": "shopify://shop_images/mothers-day-banner-2025.jpg",
-            "image_mb": "shopify://shop_images/mothers-day-banner-mobile-2025.jpg",
-            "image_position": "8",
-            "cl_img": "",
-            "link_img1": "",
-            "open_link": "_self",
-            "animate_slide": "none",
-            "text_align": "center",
-            "text_align_mb": "center",
-            "content_width": "auto",
-            "cv_pos": 50,
-            "ch_pos": 50,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 50,
-            "bg_overlay": "#000000",
-            "bg_opacity": 0,
-            "bg_content_cl": "#ffffff",
-            "bg_content_op": 0,
-            "content_radius": 0,
-            "box_square": false,
-            "content_pd_tb": 15,
-            "content_pd_lr": 15,
-            "content_pd_tb_tb": 15,
-            "content_pd_lr_tb": 15,
-            "content_pd_tb_mb": 10,
-            "content_pd_lr_mb": 10,
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_bg": "#ffffff",
-            "br_opacity": 50,
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10,
-            "time_animation": 1,
-            "animation_delay": 40
-          }
-        },
         "image_parent_Wy7ekQ": {
           "type": "image_parent",
           "settings": {
@@ -247,6 +228,86 @@
             "button_ls_mb": 0,
             "button_mgb_mb": 0,
             "animation": "none"
+          }
+        },
+        "image_parent_KL4Eff": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify://shop_images/indyvogue-banner-general.webp",
+            "image_mb": "shopify://shop_images/indyvogue-banner-mobile-general.webp",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "shopify://collections/buy-silk-mark-certified-saree",
+            "open_link": "_self",
+            "animate_slide": "none",
+            "text_align": "center",
+            "text_align_mb": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 50,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 50,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        },
+        "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336": {
+          "type": "image_parent",
+          "settings": {
+            "image": "shopify://shop_images/indyvogue-banner-jamdani.webp",
+            "image_mb": "shopify://shop_images/indyvogue-banner-jamdani-mobile.webp",
+            "image_position": "8",
+            "cl_img": "",
+            "link_img1": "shopify://collections/dhakai-jamdani-sarees",
+            "open_link": "_self",
+            "animate_slide": "none",
+            "text_align": "start",
+            "text_align_mb": "center",
+            "content_width": "container",
+            "cv_pos": 70,
+            "ch_pos": 0,
+            "cv_pos_mb": 70,
+            "ch_pos_mb": 0,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_cl": "#222222",
+            "bg_content_op": 0,
+            "content_radius": 0,
+            "box_square": false,
+            "content_pd_tb": 15,
+            "content_pd_lr": 15,
+            "content_pd_tb_tb": 15,
+            "content_pd_lr_tb": 15,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 30
           }
         },
         "image_parent_MqK7P8": {
@@ -431,13 +492,12 @@
         }
       },
       "block_order": [
-        "image_parent_KL4Eff",
-        "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336",
-        "image_parent_b8TTqh",
         "image_parent_Wy7ekQ",
         "custom_text_P8g8Nz",
         "custom_text_4jTWR4",
         "custom_button_B3wbPe",
+        "image_parent_KL4Eff",
+        "4a71bd79-9a7f-494f-a8f1-bf0ce9ebc336",
         "image_parent_MqK7P8",
         "custom_text_9ANyV8",
         "custom_text_NzAHtz",
@@ -1770,107 +1830,6 @@
         "9ef838d1-083b-4f7c-9d77-1914496936a0"
       ],
       "settings": {}
-    },
-    "header_menu_home_PBrchU": {
-      "type": "header_menu_home",
-      "blocks": {
-        "nav_item_gPddKJ": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/Logo-Light-Anime.gif",
-            "label": "Home",
-            "link": ""
-          }
-        },
-        "nav_item_3mnPLc": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/mobile_banner_5.webp",
-            "label": "Sarees",
-            "link": "shopify://collections/buy-silk-mark-certified-saree"
-          }
-        },
-        "nav_item_aH9NRD": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/mobile_banner_4.webp",
-            "label": "Suits & Dresses",
-            "link": "shopify://collections/suits-dresses"
-          }
-        },
-        "nav_item_8963Cc": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/pink-color-monalisa-stonework-and-ad-stone-setting-choker-necklace-set_ac1a91cc.jpg",
-            "label": "Jewelry",
-            "link": "shopify://collections/jewelry"
-          }
-        },
-        "nav_item_dGHn36": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/Silk-Blouse.jpg",
-            "label": "Designer Blouse",
-            "link": ""
-          }
-        },
-        "nav_item_HnMCx8": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/cream-white-color-box-clutch-bag-with-zari-and-pearl-embroidery-5.jpg",
-            "label": "Bags",
-            "link": "shopify://collections/designer-bags"
-          }
-        },
-        "nav_item_pe3NcN": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/royal-green-color-pashmina-stole-with-allover-weaving.jpg",
-            "label": "Menu Label",
-            "link": "shopify://collections/stole"
-          }
-        },
-        "nav_item_qgH8GH": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/Banner_Image_d6ac878a-d9e7-40fb-a9d3-b728dd8bdfa6.png",
-            "label": "About Us",
-            "link": "shopify://pages/about-us"
-          }
-        },
-        "nav_item_WymbCj": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/review_1ca2d914-e015-4019-b879-020d777837ea.png",
-            "label": "Reviews",
-            "link": "shopify://pages/indyvogue-reviews"
-          }
-        },
-        "nav_item_zJyqU6": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/blog-img_ba8e17a1-3508-4797-bb4a-18fd0a96be08.jpg",
-            "label": "Blogs",
-            "link": "shopify://blogs/indyvogue-fashion-center"
-          }
-        }
-      },
-      "block_order": [
-        "nav_item_gPddKJ",
-        "nav_item_3mnPLc",
-        "nav_item_aH9NRD",
-        "nav_item_8963Cc",
-        "nav_item_dGHn36",
-        "nav_item_HnMCx8",
-        "nav_item_pe3NcN",
-        "nav_item_qgH8GH",
-        "nav_item_WymbCj",
-        "nav_item_zJyqU6"
-      ],
-      "name": "Circle Icon Navigation",
-      "settings": {
-        "section_heading": ""
-      }
     }
   },
   "order": [
