@@ -83,7 +83,7 @@
         "bg_repeat": "inherit",
         "bg_size": "cover",
         "use_cus_css": false,
-        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+        "code_cus_css": ""
       }
     },
     "main": {
