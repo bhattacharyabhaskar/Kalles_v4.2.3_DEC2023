@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "top": {
@@ -173,13 +182,11 @@
         },
         "68c58c07-8f22-4443-9d36-d081841d0cb0": {
           "type": "layout",
-          "settings": {
-          }
+          "settings": {}
         },
         "9375b7e8-1193-4527-a6bd-dd4bcd8660ac": {
           "type": "sortby",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -200,7 +207,7 @@
         "enable_listing_default": false,
         "col_dk": "4",
         "col_tb": "2",
-        "col_mb": "2",
+        "col_mb": "1",
         "space_h_item": "30",
         "space_v_item": "30",
         "space_h_item_mb": "10",
