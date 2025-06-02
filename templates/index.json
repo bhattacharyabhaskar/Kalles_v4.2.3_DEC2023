@@ -983,21 +983,6 @@
         "code_cus_css": ""
       }
     },
-    "custom_liquid_MQ67PY": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div id=\"shopify-section-template--17089852604649__1702155301c8da60ce\" class=\"shopify-section\">\n  <div id=\"shopify-block-c9c204cf-7c77-418f-9268-d32081a51485\" class=\"shopify-block shopify-app-block\">\n    <div class=\"whatmore-base\" style=\"min-height: 380px;\">\n      <div id=\"whatmoreShopId\" data-wh=\"14697362\"></div>\n      <div id=\"whatmoreHeading\" data-wh=\"Watch and Buy!\"></div>\n      <div id=\"whatmorePrimaryColor\" data-wh=\"#343434\"></div>\n      <div id=\"whatmoreSecondaryColor\" data-wh=\"#343434\"></div>\n      <div id=\"whatmoreTitleFontSize\" data-wh=\"40\"></div>\n      <div id=\"whatmoreTitleFontSizePortrait\" data-wh=\"24\"></div>\n      <div id=\"whatmoreLandscapePadding\" data-wh=\"40\"></div>\n      <div id=\"whatmoreTopBottomPadding\" data-wh=\"20\"></div>\n      <div id=\"whatmoreVideoTileSize\" data-wh=\"80\"></div>\n\n      <style data-shopify></style>\n\n      <!-- <div id=\"whatmoreTitleFont\" data-wh=-apple-system> </div> -->\n      <div id=\"whatmoreTitleFont\" data-wh=\"whatmoreTitleFontFamily\"></div>\n\n      <style data-shopify></style>\n\n      <div id=\"whatmorePrimaryFont\" data-wh=\"videoShoppingFontFamily\"></div>\n      <div id=\"whatmoreShowViews\" data-wh=\"show\"></div>\n      <div id=\"whatmoreUITheme\" data-wh=\"round\"></div>\n      <div class=\"whatmore-template-type\" data-wh=\"template-a\"></div>\n      <div id=\"whatmoreIsInDesignMode\" data-wh=\"false\"></div>\n\n      <div class=\"whatmore-render-root\"></div>\n    </div>\n  </div>\n</div>",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": "",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
-      }
-    },
     "fb664c52-a0c2-4006-8fd2-65d6011f492c": {
       "type": "image_text",
       "blocks": {
@@ -1816,7 +1801,6 @@
     "crafted_videos_carousel_CLAFLA",
     "line_mxepEr",
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
-    "custom_liquid_MQ67PY",
     "fb664c52-a0c2-4006-8fd2-65d6011f492c",
     "9a92f768-a23c-411b-b99c-809c4aae84e0",
     "216bf813-5b7d-4f42-88f7-accc66e62ae1",
