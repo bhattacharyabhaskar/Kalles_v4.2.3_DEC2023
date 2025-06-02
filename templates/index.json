@@ -998,30 +998,6 @@
         "pd_mb": ""
       }
     },
-    "1702155301c8da60ce": {
-      "type": "apps",
-      "blocks": {
-        "c9c204cf-7c77-418f-9268-d32081a51485": {
-          "type": "shopify://apps/whatmore-shoppable-videos/blocks/app-block/20db8a72-315a-4364-8885-64219ee48303",
-          "settings": {
-            "heading": "Watch and Buy!",
-            "template-type": "template-a",
-            "title-font-size": 40,
-            "title-font-size-portrait": 24,
-            "landscape-padding": 40,
-            "top-bottom-padding": 20,
-            "scroll-video-tile-size": 80,
-            "scroll-video-tile-size-portrait": 80,
-            "min-height": 380
-          }
-        }
-      },
-      "block_order": [
-        "c9c204cf-7c77-418f-9268-d32081a51485"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
     "fb664c52-a0c2-4006-8fd2-65d6011f492c": {
       "type": "image_text",
       "blocks": {
@@ -1841,7 +1817,6 @@
     "line_mxepEr",
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
     "custom_liquid_MQ67PY",
-    "1702155301c8da60ce",
     "fb664c52-a0c2-4006-8fd2-65d6011f492c",
     "9a92f768-a23c-411b-b99c-809c4aae84e0",
     "216bf813-5b7d-4f42-88f7-accc66e62ae1",
