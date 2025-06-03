@@ -112,9 +112,18 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.mobile-only {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
 
 {% endstylesheet %}
-
+<div class="mobile-only">
 <div class="circle-nav-section">
   <h2>{{ section.settings.section_heading }}</h2>
   <div class="circle-nav-items">
@@ -129,4 +138,5 @@
       </div>
     {% endfor %}
   </div>
+</div>
 </div>
