@@ -93,7 +93,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "Celebrities in Sarees at Cannes 2025: A Celebration of Tradition on the Global Stage",
-            "text": "<p>If you're anything like us, you've probably binged <em>The Royals</em> on Netflix and found yourself pausing, not for the plot twists (though, <em>wow</em>), but for the <strong>jaw-dropping royal fashion</strong>. And for Indian fashion lovers, one thing stood out like a peacock in a palace: <strong>those timeless sarees. </strong>Netflix’s latest series, <a href=\"https://www.imdb.com/title/tt33098081/\"><span style=\"text-decoration:underline\"><em>The Royals</em></span></a>, is not just a romantic drama set against the backdrop of a fading royal family in Rajasthan; it's a visual treat that has captivated saree enthusiasts and fashion aficionados alike. </p>",
+            "text": "<p>The <a href=\"https://www.festival-cannes.com/en/\"><span style=\"text-decoration:underline\">Cannes Film Festival</span></a> has long been a runway for the world’s most iconic fashion moments—and this year, Indian celebrities made an unforgettable statement by draping themselves in timeless tradition. </p><p>The saree, India’s six-yard symbol of grace and culture, was proudly showcased by leading stars at Cannes 2025. From heartfelt tributes to fashion-forward fusions, here’s a look at the showstopping saree moments that turned heads and won hearts.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -136,85 +136,59 @@
         "code_cus_css": ""
       }
     },
-    "image_text_NgTfyR": {
-      "type": "image_text",
+    "image_gallery_packery_LQeGec": {
+      "type": "image-gallery-packery",
       "blocks": {
-        "bl_image_YPbMwp": {
-          "type": "bl_image",
+        "image_item_8ThyHi": {
+          "type": "image_item",
           "settings": {
-            "image1": "shopify://shop_images/The_Royal_poster.jpg",
-            "col_dk": "4",
-            "col_tb": "12",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
+            "image": "shopify://shop_images/Aishwarya_Rai.png",
+            "link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12"
           }
         },
-        "bl_text_VqTdtQ": {
-          "type": "bl_text",
+        "image_item_yUpxMj": {
+          "type": "image_item",
           "settings": {
-            "col_dk": "8",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<p>Yes, the Queens, Maharanis, and their court stole the show in layered silks, rich handlooms, and diaphanous drapes that looked like they’d stepped right out of a Sabyasachi mood board. And suddenly, every saree lover in India and beyond is asking: <em>“Where can I get a saree like that?”<br/><br/></em></p><p>Let’s talk about how <em>The Royals</em> is rewriting the saree story—and why now might be the perfect time to dust off your grandmother’s <a href=\"https://www.indyvogue.com/collections/banarasi-silk-saree?srsltid=AfmBOoq2mIZ0FtwyIsH1QDFwUqxXfGVIj91m_HKvEH4fVSzaQoASXIsH\"><span style=\"text-decoration:underline\">Banarasi</span></a> or invest in a new heirloom of your own.<br/><br/></p><h2>A Royal Return to the Roots<br/><br/></h2><p>From <strong>Bhumi Pednekar’s fierce silhouettes</strong> to <a href=\"https://en.wikipedia.org/wiki/Zeenat_Aman\"><span style=\"text-decoration:underline\"><strong>Zeenat Aman’s </strong></span></a><strong>timeless grace</strong>, the show gave us not just a gripping story but also a visual feast of <strong>saree styling that blends tradition with bold femininity</strong>. And let’s be honest—some of us watched it twice… just for the drapes.<br/><br/></p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
+            "image": "shopify://shop_images/Aditi_Rao.png",
+            "link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12"
           }
         }
       },
       "block_order": [
-        "bl_image_YPbMwp",
-        "bl_text_VqTdtQ"
+        "image_item_8ThyHi",
+        "image_item_yUpxMj"
       ],
-      "name": "Image with text",
+      "name": "Image gallery packery",
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "",
+        "top_heading": "Packery gallery",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_item": "30",
+        "space_item_mb": "10",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
-        "mg_tb": "",
+        "mg_tb": ",,50px,",
         "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": "",
@@ -225,35 +199,6 @@
     "image_text_c8UhLh": {
       "type": "image_text",
       "blocks": {
-        "bl_image_fBYyKA": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Bhumi_Pednekar.png",
-            "col_dk": "12",
-            "col_tb": "12",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
         "bl_text_QTLBpH": {
           "type": "bl_text",
           "settings": {
@@ -263,7 +208,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<p>(Source: Instagram)</p><h4><strong>Bhumi Pednekar – The Modern Rani in Metallics<br/><br/></strong></h4><p>At the heart of <em>The Royals</em> is Sophia Shekhar, portrayed by <a href=\"https://www.instagram.com/bhumipednekar/?hl=en\"><span style=\"text-decoration:underline\">Bhumi Pednekar</span></a>—a self-made CEO whose wardrobe evolves as she navigates the complexities of royal life. Her saree choices reflect this journey, transitioning from structured, corporate styles to more opulent, regal drapes. </p><p>Bhumi’s character ruled the screen with a wardrobe that screamed <strong>power, poise, and modern maharani</strong>. Think structured blouses, sculpted pleats, and <strong>metallic silk sarees</strong> that shimmered with authority.</p><p>Celebrity stylist <a href=\"https://www.instagram.com/aasthasharma/?hl=en\"><span style=\"text-decoration:underline\">Aastha Sharma</span></a>, known for her work with Aishwarya Rai Bachchan, curated Sophia's wardrobe to mirror her character's growth. Sharma collaborated with designers like <a href=\"https://www.instagram.com/falgunishanepeacockindia/?hl=en\"><span style=\"text-decoration:underline\">Falguni & Shane Peacock</span></a>, <a href=\"https://www.instagram.com/abujanisandeepkhosla/?hl=en\"><span style=\"text-decoration:underline\">Abu Jani Sandeep Khosla</span></a>, and <a href=\"https://www.instagram.com/nikhilthampi/?hl=en\"><span style=\"text-decoration:underline\">Nikhil Thampi</span></a> to create ensembles that are both contemporary and rooted in Indian tradition.</p><p><strong>Style takeaway:</strong> Pair metallic or tissue silk sarees with strong shoulder blouses and cinched belts for that queen-in-command look.</p><p><strong>Vibe:</strong> Boss bride. Statement-maker. She who signs the cheques.<br/><br/></p>",
+            "text": "<h2>Aishwarya Rai Bachchan: The Fusion Queen</h2><p>A Cannes veteran, <a href=\"https://www.instagram.com/aishwaryaraibachchan_arb/?hl=de\"><span style=\"text-decoration:underline\">Aishwarya Rai Bachchan</span></a> once again proved why she’s the queen of red carpet transformations. This year, she played with duality—opting for a sleek, monochrome mauve pantsuit in one appearance and switching to a traditional Indian ensemble in another. </p><p>Her looks showcased the seamless blend of East and West, tradition and trend, elegance and edge. Whether in draped fabric or tailored couture, Aishwarya's fashion choices echoed one message: versatility is the new royalty.</p><p></p><p></p><h2>Aditi Rao Hydari’s Traditional Elegance</h2><p><a href=\"https://www.instagram.com/aditiraohydari/?hl=de\"><span style=\"text-decoration:underline\">Aditi Rao Hydari</span></a> lit up the French Riviera in a radiant red saree that was nothing short of cinematic. But what truly stole the spotlight was her traditional gesture—donning a delicate streak of <em>‘ek chutki sindoor’</em>. </p><p>This wasn’t just a fashion statement—it was a cultural moment. The ensemble blended timeless tradition with quiet grace, and Aditi’s poised presence reminded the global audience of the power and beauty of rooted identity. Social media was abuzz, declaring it “the best Cannes look of the year”—and we couldn’t agree more.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -280,266 +225,7 @@
         }
       },
       "block_order": [
-        "bl_image_fBYyKA",
         "bl_text_QTLBpH"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_qLdEyz": {
-      "type": "image_text",
-      "blocks": {
-        "bl_image_9GLBez": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/royals.jpg",
-            "col_dk": "12",
-            "col_tb": "12",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
-        "bl_text_yfwNfX": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<p><strong><br/></strong>(Source: Instagram)</p><h4><strong>Sakshi Tanwar – Grace with Gravitas</strong></h4><p>Oh Sakshi! A lesson in <strong>how elegance doesn’t scream—it speaks softly and shines brighter</strong>. Her cotton silks, muted golds, and handwoven drapes reminded us of our grandmothers’ trunks, just reimagined for 2025.</p><p><strong>Style takeaway:</strong> Go for earthy tones, minimal embroidery, and heirloom weaves. Pair with antique jewelry and a classic bun.</p><p><strong>Vibe:</strong> Matriarch goals. Regal calm. Saree whisperer.</p><p></p><p>(Source: Instagram)</p><h4><strong>Zeenat Aman – Vintage Royalty Redefined</strong></h4><p>Zeenat Aman did what only Zeenat Aman can do—<strong>make vintage look like tomorrow’s trend</strong>. Her chiffon sarees, soft drapes, and full-sleeved blouses were straight out of a 70s film reel… and we’re <em>living</em> for it.</p><p><strong>Style takeaway:</strong> Floaty fabrics like chiffon or georgette, paired with retro blouses and winged eyeliner.</p><p><strong>Vibe:</strong> Timeless diva. Queen of cool. Old-school, never outdated.<br/><br/><br/>(Source: Instagram)</p><h4><strong>Nora Fatehi – The Glamour Gamechanger</strong></h4><p>Nora brought the fire. Her looks gave us <strong>fusion saree meets red carpet couture</strong>—sequins, bold necklines, and daring drapes that had Insta stylists in a frenzy.</p><p><strong>Style takeaway:</strong> Go bold with sequin sarees, dramatic pallu styling, and statement earrings.</p><p><strong>Vibe:</strong> Cocktail glam. Saree, but make it sass. Eyes-on-me energy.<br/></p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_image_9GLBez",
-        "bl_text_yfwNfX"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_tUKghW": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_WFwdAf": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>Standout Saree Moments That Inspired Fashion Enthusiasts</h2><p>Sophia's saree, as seen in <em>The Royals,</em> has become a source of inspiration for many.</p><ul><li><strong>The Power Saree</strong>: In the initial episodes, Sophia dons crisp, monochromatic sarees paired with tailored blouses, embodying her role as a formidable entrepreneur.</li></ul><p>Read our blog to know more about the Corporate saree styling step by step: <a href=\"https://www.indyvogue.com/blogs/indyvogue-fashion-center/a-guide-to-corporate-saree-styling-how-to-rock-it-at-work-like-a-boss-babe-this-women-s-day\"><span style=\"text-decoration:underline\">A Guide to Corporate Saree Styling - How to Rock It At Work Like a Boss Babe This Women's Day!</span></a> </p><ul><li><strong>The Regal Transformation</strong>: As she becomes more entwined with the royal family, her sarees feature richer fabrics and intricate embroidery, reflecting her adaptation to royal customs.<br/><br/></li><li><strong>The Fusion Look</strong>: In a memorable scene, Sophia wears a saree with a contemporary twist, paired with a belt and modern accessories, symbolizing the blend of her independent spirit with traditional expectations.</li></ul><p>These sartorial choices not only define Sophia's character arc but also set new trends in saree styling, encouraging viewers to experiment with their looks.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
-        "bl_image_XCUatF": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/The_Royals_inside_photo_2.png",
-            "col_dk": "12",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_WFwdAf",
-        "bl_image_XCUatF"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_zGJYGW": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_eWewWH": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>The Impact on Saree Lovers and Fashion Trends</h2><p>The series has sparked a renewed interest in saree fashion:</p><ul><li><strong>Modern Draping Techniques</strong>: Viewers are exploring unconventional draping styles inspired by everyone’s saree looks.<br/><br/></li><li><strong>Mixing Textures and Accessories</strong>: The combination of traditional sarees with contemporary accessories, as seen in the show, has encouraged fashion enthusiasts to blend different elements in their attire.<br/><br/></li></ul><p><strong>Empowerment Through Attire</strong>: Everyone’s confident portrayal in diverse saree styles has resonated with many, highlighting the saree as a symbol of empowerment and versatility.<br/><br/></p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
-        "bl_image_hr8Dki": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/The_Royals_Inside_photo_1.png",
-            "col_dk": "12",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_eWewWH",
-        "bl_image_hr8Dki"
       ],
       "name": "Image with text",
       "settings": {
@@ -681,11 +367,8 @@
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
-    "image_text_NgTfyR",
+    "image_gallery_packery_LQeGec",
     "image_text_c8UhLh",
-    "image_text_qLdEyz",
-    "image_text_tUKghW",
-    "image_text_zGJYGW",
     "image_text_axdKkE",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
