@@ -238,7 +238,7 @@
         "filter_AHRyYa"
       ],
       "settings": {
-        "enable_drawer": false,
+        "enable_drawer": true,
         "space": 50,
         "size": "medium",
         "br_style": "none",
