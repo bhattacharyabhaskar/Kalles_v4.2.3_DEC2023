@@ -153,6 +153,7 @@
       "block_order": [
         "3b0cc506-49ea-4851-b5a6-ff7c2153b0e6"
       ],
+      "disabled": true,
       "settings": {
         "heading_fullwidth": false,
         "use_specify_image": true,
