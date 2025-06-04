@@ -11,6 +11,7 @@
   "sections": {
     "top": {
       "type": "top-collections",
+      "disabled": true,
       "settings": {
         "show_top_collections": true,
         "source": "3",
@@ -84,6 +85,188 @@
         "bg_size": "cover",
         "use_cus_css": false,
         "code_cus_css": ""
+      }
+    },
+    "header_menu_home_BpWrJt": {
+      "type": "header_menu_home",
+      "blocks": {
+        "nav_item_Cd8RXD": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Group-3.webp",
+            "label": "All Sarees",
+            "link": "shopify://collections/from-the-east"
+          }
+        },
+        "nav_item_Bg69er": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Banarasi-1.webp",
+            "label": "Banarasi",
+            "link": "shopify://collections/banarasi-silk-saree"
+          }
+        },
+        "nav_item_Wy3DTm": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Balu-1_e8f86829-c91c-40b0-bc0d-8dfc76ee4bbf.webp",
+            "label": "Baluchari",
+            "link": "shopify://collections/baluchari-silk-saree"
+          }
+        },
+        "nav_item_9mnCCz": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Bish-1.webp",
+            "label": "Bishnupuri",
+            "link": "shopify://collections/bishnupur-silk-saree"
+          }
+        },
+        "nav_item_zW44B9": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Chanderi-1.webp",
+            "label": "Chanderi",
+            "link": "shopify://collections/chanderi-silk-saree"
+          }
+        },
+        "nav_item_nw6AJb": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Designer-1.webp",
+            "label": "Designer",
+            "link": "shopify://collections/shop-designer-sarees"
+          }
+        },
+        "nav_item_QcmTxp": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Embroidery-1.webp",
+            "label": "Embroidery",
+            "link": "shopify://collections/kantha-stitch-hand-embroidery"
+          }
+        },
+        "nav_item_gwVM8q": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Gadwal-2.webp",
+            "label": "Gadwal",
+            "link": "shopify://collections/gadwal-silk-saree"
+          }
+        },
+        "nav_item_48ceXM": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Georgette-1.webp",
+            "label": "Georgette",
+            "link": "shopify://collections/georgette-silk-saree"
+          }
+        },
+        "nav_item_FLEJEt": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Ikkat-1.webp",
+            "label": "Ikkat",
+            "link": "shopify://collections/ikat-silk-saree"
+          }
+        },
+        "nav_item_Jih63G": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Jamdani-1.webp",
+            "label": "Jamdani",
+            "link": "shopify://collections/dhakai-jamdani-sarees"
+          }
+        },
+        "nav_item_i6TNtz": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Kanjee-1.webp",
+            "label": "Kanchipuram",
+            "link": "shopify://collections/kanchipuram-sarees"
+          }
+        },
+        "nav_item_MU8qPe": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Organza-1.webp",
+            "label": "Organza",
+            "link": "shopify://collections/organza-silk-saree"
+          }
+        },
+        "nav_item_GfjVLp": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Paint-1.webp",
+            "label": "Hand Paint",
+            "link": "https://www.indyvogue.com/collections/buy-silk-mark-certified-saree?filter.p.m.saree.new_work=Hand+Paint"
+          }
+        },
+        "nav_item_9YrLqz": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Paithani-1.webp",
+            "label": "Paithani",
+            "link": "shopify://collections/paithani-silk-saree"
+          }
+        },
+        "nav_item_96pn7J": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Raw-1.webp",
+            "label": "Raw Silk",
+            "link": "shopify://collections/raw-silk"
+          }
+        },
+        "nav_item_TwRfMF": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Sambalpuri-1.webp",
+            "label": "Sambalpuri",
+            "link": "shopify://collections/sambalpuri-silk"
+          }
+        },
+        "nav_item_EmnJCx": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Tissue-2.webp",
+            "label": "Tissue Silk",
+            "link": "shopify://collections/tissue-silk-saree"
+          }
+        },
+        "nav_item_aRWG6E": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Tussar-1.webp",
+            "label": "Tussar Silk",
+            "link": "shopify://collections/tussar-silk"
+          }
+        }
+      },
+      "block_order": [
+        "nav_item_Cd8RXD",
+        "nav_item_Bg69er",
+        "nav_item_Wy3DTm",
+        "nav_item_9mnCCz",
+        "nav_item_zW44B9",
+        "nav_item_nw6AJb",
+        "nav_item_QcmTxp",
+        "nav_item_gwVM8q",
+        "nav_item_48ceXM",
+        "nav_item_FLEJEt",
+        "nav_item_Jih63G",
+        "nav_item_i6TNtz",
+        "nav_item_MU8qPe",
+        "nav_item_GfjVLp",
+        "nav_item_9YrLqz",
+        "nav_item_96pn7J",
+        "nav_item_TwRfMF",
+        "nav_item_EmnJCx",
+        "nav_item_aRWG6E"
+      ],
+      "name": "Circle Icon Navigation",
+      "settings": {
+        "section_heading": ""
       }
     },
     "main": {
@@ -225,11 +408,114 @@
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
+    },
+    "header_menu_home_nxJEFC": {
+      "type": "header_menu_home",
+      "blocks": {
+        "nav_item_6AhYy4": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Logo-Light-New.webp",
+            "label": "Home",
+            "link": "/"
+          }
+        },
+        "nav_item_K6tGPN": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Sarees.webp",
+            "label": "Sarees",
+            "link": "shopify://collections/from-the-east"
+          }
+        },
+        "nav_item_PcHbiM": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Suites.webp",
+            "label": "Suits & Dresses",
+            "link": "shopify://collections/suits-dresses"
+          }
+        },
+        "nav_item_AjfGKk": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Jewelry.webp",
+            "label": "Jewelry",
+            "link": "shopify://collections/jewelry"
+          }
+        },
+        "nav_item_VDN7pg": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Blouse.webp",
+            "label": "Designer Blouse",
+            "link": "shopify://collections/designer-blouse"
+          }
+        },
+        "nav_item_ygPNYB": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/bags.webp",
+            "label": "Bags",
+            "link": "shopify://collections/designer-bags"
+          }
+        },
+        "nav_item_qT8cim": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Stoles.webp",
+            "label": "Stoles",
+            "link": "shopify://collections/stole"
+          }
+        },
+        "nav_item_mNeQzx": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/AboutUs.webp",
+            "label": "About Us",
+            "link": "shopify://pages/about-us"
+          }
+        },
+        "nav_item_nfLeiB": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/review.webp",
+            "label": "Reviews",
+            "link": "shopify://pages/indyvogue-reviews"
+          }
+        },
+        "nav_item_AGUR9C": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Blogs.webp",
+            "label": "Blogs",
+            "link": "shopify://blogs/indyvogue-fashion-center"
+          }
+        }
+      },
+      "block_order": [
+        "nav_item_6AhYy4",
+        "nav_item_K6tGPN",
+        "nav_item_PcHbiM",
+        "nav_item_AjfGKk",
+        "nav_item_VDN7pg",
+        "nav_item_ygPNYB",
+        "nav_item_qT8cim",
+        "nav_item_mNeQzx",
+        "nav_item_nfLeiB",
+        "nav_item_AGUR9C"
+      ],
+      "name": "Circle Icon Navigation",
+      "settings": {
+        "section_heading": ""
+      }
     }
   },
   "order": [
     "top",
+    "header_menu_home_nxJEFC",
     "heading_template",
+    "header_menu_home_BpWrJt",
     "main",
     "sidebar",
     "7d718934-b470-4c5d-91d0-14cf08576650",
