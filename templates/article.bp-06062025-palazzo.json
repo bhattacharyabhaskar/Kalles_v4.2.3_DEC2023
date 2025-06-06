@@ -596,66 +596,6 @@
         "code_cus_css": ""
       }
     },
-    "image_gallery_packery_BEJqqA": {
-      "type": "image-gallery-packery",
-      "blocks": {
-        "image_item_7qHM33": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify://shop_images/Chhaya_Kadam.png",
-            "link": "",
-            "col_dk": "6",
-            "col_tb": "6",
-            "col_mb": "12"
-          }
-        },
-        "image_item_Ncd9Le": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify://shop_images/Preity-Zinta1.jpg",
-            "link": "",
-            "col_dk": "6",
-            "col_tb": "6",
-            "col_mb": "12"
-          }
-        }
-      },
-      "block_order": [
-        "image_item_7qHM33",
-        "image_item_Ncd9Le"
-      ],
-      "name": "Image gallery packery",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "click_image": "data-t4s-gallery",
-        "nav_thumbs": true,
-        "open_link": "_blank",
-        "item_rd": 0,
-        "img_effect": "none",
-        "b_effect": "none",
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "8",
-        "space_item": "30",
-        "space_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": ",,50px,",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_TKtrCR": {
       "type": "image_text",
       "blocks": {
@@ -667,8 +607,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "About the author",
-            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "heading": "",
+            "text": "<h2>From the messy desk, I call life</h2><p>Palazzo salwars? They’re more than a trend. They’re <em>freedom disguised as fashion</em>. Whether you’re dressing up for a wedding, a Zoom call, or a lazy Sunday chai run, they just <em>work</em>. Every time.</p><p>And let’s be real, style isn’t about your body type. It’s about how you feel when you catch a glimpse of yourself in the mirror and think, <em>“Damn. That’s me.”</em></p><p>So, pull out that palazzo. Pair it with something you love. Spin around in your room. Take that selfie. And own the day.</p><p>With love,</p><p><strong>Your style-obsessed diary-writer (and palazzo fangirl forever)</strong> 💕</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -710,6 +650,61 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "image_text_4YtHFc": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_Q8xbUB": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_Q8xbUB"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -720,7 +715,7 @@
     "image_text_cc4bCL",
     "image_text_VVVd4B",
     "image_text_HN3NiL",
-    "image_gallery_packery_BEJqqA",
-    "image_text_TKtrCR"
+    "image_text_TKtrCR",
+    "image_text_4YtHFc"
   ]
 }
