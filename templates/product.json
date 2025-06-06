@@ -130,6 +130,24 @@
             "advance_pr_list": []
           }
         },
+        "order_r7eYXW": {
+          "type": "order",
+          "settings": {
+            "hide_pre": true,
+            "icon": "2",
+            "icon_name": "las la-truck",
+            "ani": "none",
+            "txt": "Order in the next [hour] to get it between [date_start] and [date_end]",
+            "ds": 10,
+            "de": 15,
+            "mode": "1",
+            "cut_day": "SAT,SUN",
+            "frm_day": "t44, t45 t46",
+            "time": "16:00:00",
+            "hr": "hours",
+            "min": "minutes"
+          }
+        },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
           "type": "img",
           "settings": {
@@ -200,6 +218,7 @@
         "meta",
         "4fc47f4b-4ca4-4360-a778-51e9e8cc4ebf",
         "form",
+        "order_r7eYXW",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "1074fa19-58dd-4700-8ace-d3a90133e24d",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
