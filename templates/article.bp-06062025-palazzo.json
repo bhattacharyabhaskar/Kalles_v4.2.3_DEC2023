@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/Celebs_at_Cannes_2025.png",
+            "image": "shopify://shop_images/Banner_Image_0adf8759-b1ab-45e4-82d4-a7ea1b8ce959.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Celebrities in Sarees at Cannes 2025: A Celebration of Tradition on the Global Stage",
-            "text": "<p>The <a href=\"https://www.festival-cannes.com/en/\"><span style=\"text-decoration:underline\">Cannes Film Festival</span></a> has long been a runway for the world’s most iconic fashion moments—and this year, Indian celebrities made an unforgettable statement by draping themselves in timeless tradition. </p><p>The saree, India’s six-yard symbol of grace and culture, was proudly showcased by leading stars at Cannes 2025. From heartfelt tributes to fashion-forward fusions, here’s a look at the showstopping saree moments that turned heads and won hearts.</p>",
+            "heading": "Dear Diary, Let’s Talk: How to Style Palazzo Salwars for Every Body Type",
+            "text": "<p><strong>Dear Diary,</strong></p><p>So today was one of <em>those</em> days — the kind where you stare at your closet for 20 minutes thinking, <em>“What do I wear that’s comfy but doesn’t scream ‘I gave up’?”</em></p><p>And like a true hero, my <strong>palazzo salwar</strong> came to the rescue. Again.</p><p>There’s something magical about them — they’re breezy, stylish, and secretly feel like PJs (but shhh… the world doesn’t need to know). But here’s what I’ve figured out over time — <strong>not all palazzos flatter all body types the same way</strong>. And if you get the pairing right? Girl, it’s a whole <em>main character moment</em>.</p><p>So, here it is — from my closet to yours — a little guide on how to style <strong>palazzo salwars for every body type</strong> (with a lot of love, and a little chai on the side).</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -107,10 +107,40 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
+        },
+        "bl_image_V9cpBU": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Style_Palazzo.jpg",
+            "col_dk": "12",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
         }
       },
       "block_order": [
-        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1",
+        "bl_image_V9cpBU"
       ],
       "settings": {
         "design_heading": "1",
