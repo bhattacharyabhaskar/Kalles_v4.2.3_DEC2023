@@ -430,7 +430,7 @@
         "bl_text_6TTUWP": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
+            "col_dk": "9",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
@@ -455,7 +455,7 @@
           "type": "bl_image",
           "settings": {
             "image1": "shopify://shop_images/light-lavender-color-georgette-flare-style-sharara-suit-set-with-chikankari-work_263e4336-2c7e-4944-8708-309fb2f9942d.webp",
-            "col_dk": "4",
+            "col_dk": "3",
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
@@ -517,7 +517,7 @@
           "type": "bl_image",
           "settings": {
             "image1": "shopify://shop_images/light-green-color.jpg",
-            "col_dk": "4",
+            "col_dk": "3",
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
@@ -545,13 +545,13 @@
         "bl_text_mqerMp": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
+            "col_dk": "9",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>5. For Tall Girls (Because You Were Born to Drape)<br/><br/></h2><p>Oh, the drama you can pull off! Big prints, bold flares, and floor-kissing palazzos — <strong>go big or go home</strong>, right?</p><p>✅ What works:</p><ul><li>Wide-leg palazzos with long or short tops<br/><br/></li><li>Bold colors and co-ord sets<br/><br/></li><li>Statement belts and oversized accessories</li></ul><p>🚫 Avoid: Too-short kurtis — they break the silhouette awkwardly.</p><p>📝 Diary Note: My mustard wide-leg palazzo + oversized shirt combo made me feel like I should be walking down a runway… or at least through the mall in slow motion.</p>",
+            "text": "<h2>5. For Tall Girls (Because You Were Born to Drape)<br/></h2><p>Oh, the drama you can pull off! Big prints, bold flares, and floor-kissing palazzos — <strong>go big or go home</strong>, right?</p><p>✅ What works:</p><ul><li>Wide-leg palazzos with long or short tops<br/><br/></li><li>Bold colors and co-ord sets<br/><br/></li><li>Statement belts and oversized accessories</li></ul><p>🚫 Avoid: Too-short kurtis — they break the silhouette awkwardly.</p><p>📝 Diary Note: My mustard wide-leg palazzo + oversized shirt combo made me feel like I should be walking down a runway… or at least through the mall in slow motion.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
