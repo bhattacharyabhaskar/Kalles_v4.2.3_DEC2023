@@ -48,14 +48,8 @@ assign size_count = 0
   <div class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
     <div data-cacl-slide class="t4s-product-inner t4s-pr t4s-oh">
       {%- if featured_image -%}
-        <img
-          src="{{ featured_image | image_url: width: 500 }}"
-          alt="{{ product.title | escape }}"
-          loading="lazy"
-          width="{{ featured_image.width }}"
-          height="{{ featured_image.height }}"
-          style="width: 100%; height: auto; object-fit: cover;"
-        >
+        <img src="{{ product.featured_image | img_url: '600x' }}" alt="{{ product.title | escape }}" class="wiki-product-img" />
+
       {%- endif -%}
       <div data-product-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-product-badge"></div>
       <div class="t4s-product-btns">
