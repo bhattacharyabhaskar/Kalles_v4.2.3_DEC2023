@@ -13,7 +13,7 @@
     <div class="wiki-collection">
       <h2>Shop {{ collections[coll_handle].title }} Sarees</h2>
       <div class="t4s-row">
-        {% assign col = 't4s-col-lg-3 t4s-col-md-4 t4s-col-6' %}
+{% assign col = 't4s-col-lg-3 t4s-col-md-4 t4s-col-12' %}
         {% for product in collections[coll_handle].products %}
           <div class="{{ col }}">
             {% render 'product-grid-item-wiki',
