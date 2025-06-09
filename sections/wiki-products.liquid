@@ -16,6 +16,8 @@
 {% assign col = 't4s-col-lg-3 t4s-col-md-4 t4s-col-12' %}
         {% for product in collections[coll_handle].products %}
           <div class="{{ col }}">
+            <div class="wiki-grid">
+
             {% render 'product-grid-item-wiki',
               product: product,
               col: col,
@@ -39,6 +41,7 @@
               show_list_btns: false,
               placeholder_img: settings.placeholder_img,
               show_badges: false %}
+            </div>
           </div>
         {% endfor %}
       </div>
