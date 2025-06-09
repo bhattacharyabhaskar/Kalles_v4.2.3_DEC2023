@@ -1,4 +1,4 @@
-{%- liquid
+{%- liquid 
 assign pr_url = product.url
 assign pid = product.id
 assign isDefault = product.has_only_default_variant
@@ -31,7 +31,7 @@ if external_title != blank and external_link != blank
    assign isExternal = true 
 endif
 assign isGrouped = false 
-if  meta_theme.grouped != blank
+if meta_theme.grouped != blank
    assign isGrouped = true 
 endif
 
@@ -39,7 +39,7 @@ assign countdown = time_meta | default: meta_theme.countdown | date: '%Y/%m/%d %
 unless placeholder_img
    assign placeholder_img = settings.placeholder_img
 endunless
-assign image = product.featured_media.preview_image | default: placeholder_img
+assign featured_image = product.featured_media.preview_image | default: product.featured_image
 assign color_count = 0
 assign size_count = 0
 -%}
@@ -47,25 +47,46 @@ assign size_count = 0
 <div class="t4s-product t4s-pr-grid t4s-pr-style1 t4s-pr-{{ pid }} {{ col }} t4s-col-item" data-product-options='{ "id":"{{ pid }}","cusQty":"{{ cus_qty }}","available":{{ product.available }}, "handle":"{{ product.handle }}", "isDefault": {{ isDefault }}, "VariantFirstID": {{ current_variant.id }}, "customBadge":{{ arr_badge | json }}, "customBadgeHandle":{{ arr_badge_handle | json }},"dateStart":{{ product.created_at | date: "%s" }}, "compare_at_price":{{ current_variant.compare_at_price | json }},"price":{{ current_variant.price | json }}, "isPreoder":{{ isPreoder }},"isExternal":{{ isExternal }}{% if isExternal %},"external_title":{{ external_title | json }},"external_link":"{{ external_link | escape }}"{% endif %},"image2":{% if product.media[1] != blank %}{{ product.media[1] | image_url: width: 1 | json }},"alt":{{ product.media[1].alt | escape | json }}{% else %}false{% endif %},"isGrouped":{{ isGrouped }},"maxQuantity":{% if isDefault and isPreoder == false %}{{ max_qty }}{% else %}9999{% endif %} }'>
   <div class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
     <div data-cacl-slide class="t4s-product-inner t4s-pr t4s-oh">
-      {%- if image != blank -%}
+      {%- if featured_image -%}
         <img
-          src="{{ image | image_url: width: 600 }}"
+          src="{{ featured_image | image_url: width: 500 }}"
           alt="{{ product.title | escape }}"
           loading="lazy"
-          decoding="async"
-          width="{{ image.width }}"
-          height="{{ image.height }}"
-          style="width: 100%; height: auto;"
+          width="{{ featured_image.width }}"
+          height="{{ featured_image.height }}"
+          style="width: 100%; height: auto; object-fit: cover;"
         >
       {%- endif -%}
+      <div data-product-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-product-badge"></div>
+      <div class="t4s-product-btns">
+         <div data-replace-quickview></div>
+         <div data-replace-atc data-has-qty></div>
+      </div>
+      <div class="t4s-product-btns2">
+         {%- if isGrowaveWishlist -%} 
+            {%- capture the_snippet_fave_icon %}{% render 'ssw-widget-faveicon' with pid %}{% endcapture -%}
+            {%- unless the_snippet_fave_icon contains 'Liquid error' -%}<div class="t4s-pr-item-btn t4s-pr-wishlist is--growave">{{ the_snippet_fave_icon }}</div>{%- endunless -%}
+         {%- else -%}<div data-replace-wishlist data-tooltip="right"></div>
+         {%- endif -%}
+         <div data-replace-compare data-tooltip="right"></div>
+      </div>
+      {%- if size_count > 0 and pr_size_pos == '1' %}{%- render 'product-size', size_variants: size_variants, size_variants_avai: size_variants_avai, show_size_type: show_size_type -%}{% endif -%}
+      {%- if use_countdown and countdown != blank %}{%- render 'product-countdown', countdown: countdown %}{% endif -%}
       <a data-pr-href class="t4s-full-width-link" href="{{ pr_url }}"></a>
     </div>
     <div class="t4s-product-info">
       <div class="t4s-product-info__inner">
+         {%- if product.vendor.size > 0 and show_vendor -%}{% if use_link_vendor %}{% assign pr_vendor_handle = product.vendor | handle %}{% assign collection_vendor = collections[pr_vendor_handle] %}{% endif %}<div class="t4s-product-vendor"><a href="{% if use_link_vendor and collection_vendor.url != blank %}{{ collection_vendor.url }}{% else %}{{ product.vendor | url_for_vendor }}{% endif %}">{{ product.vendor }}</a></div>{%- endif -%}
          <h3 class="t4s-product-title"><a data-pr-href href="{{ pr_url }}">{{ product.title }}</a></h3>
          {%- render 'product-price', product: product, price_varies_style: price_varies_style, type: 'card', isGrouped: isGrouped -%}
-         <div class="grid_vendor">SKU: {{ product.variants.first.sku }}</div>
+        <div class="grid_vendor">SKU: {{ product.variants.first.sku }}</div>
+         {%- if enable_rating %}{%- render 'product-rating', product: product, app_review: app_review -%}{% endif -%}
+        {%- if show_list_btns -%}
+         {%- assign description_excerpt = product.metafields.theme.description_excerpt -%}
+         <div class="t4s-rte">{% if description_excerpt != blank %}{{ description_excerpt }}{% else %}{{ product.content | strip_html | truncatewords: 30 }}{% endif %}</div>
+        {%- endif -%}
       </div>
     </div>
   </div>
+  {{- append_stock -}}
 </div>
