@@ -281,71 +281,61 @@ t4s_group_btns_split
    </div>
    {%- endif -%}
 	{%- if shop.customer_accounts_enabled and se_stts.show_acc -%}
-  <div class="t4s-site-nav__icon t4s-site-nav__account t4s-pr t4s-d-none t4s-d-md-inline-block">
-    <a class="t4s-pr" href="{% if customer %}https://account.indyvogue.com/orders{% else %}https://account.indyvogue.com/account{% endif %}">
-      <svg class="t4s-icon t4s-icon--account" aria-hidden="true" focusable="false" role="presentation"><use href="#icon-h-account"></use></svg>
-    </a>
-    
-    {%- if customer -%}
-      <ul class="t4s-my-account">
-        <li><a class="t4s-d-block" href="https://account.indyvogue.com/orders">My Orders</a></li>
-        <li><a class="t4s-d-block" href="https://account.indyvogue.com/profile">My Profile</a></li>
-        <li><a class="t4s-d-block" href="https://account.indyvogue.com/settings">My Settings</a></li>
-        <li><a class="t4s-d-block" href="https://www.indyvogue.com/customer_identity/logout" data-no-instant>{{ 'customer.account.log_out' | t }}</a></li>
-      </ul>
-
-      {%- style -%}
-        .t4s-site-nav__account .t4s-my-account {
-          position: absolute;
-          top: 100%;
-          z-index: 380;
-          background-color: var(--t4s-body-background);
-          box-shadow: 0 0 3px rgb(0 0 0 / 15%);
-          list-style: none;
-          right: -5px;
-          width: 165px;
-          padding: 10px 0;
-          line-height: 1.4;
-          margin-top: 12px;
-          border-radius: 3px;
-          transform: translateY(15px) translateZ(0);
-          visibility: hidden;
-          transition: opacity .2s, visibility .2s, transform .2s;
-          opacity: 0;
-          text-align: start;
-        }
-        .t4s-site-nav__account .t4s-my-account::after {
-          content: "";
-          position: absolute;
-          bottom: 100%;
-          left: 0;
-          width: auto;
-          height: 12px;
-        }
-        .t4s-site-nav__account .t4s-my-account a {
-          padding: 8px 18px;
-          color: var(--text-color);
-        }
-        .rtl_true .t4s-site-nav__account .t4s-my-account {
-          left: -5px;
-          right: auto;
-        }
-        @media (-moz-touch-enabled: 0), (hover: hover) and (min-width: 1025px) {
-          .t4s-site-nav__account .t4s-my-account a:hover {
-            color: var(--accent-color) !important;
-          }
-          .t4s-site-nav__account:hover .t4s-my-account {
-            pointer-events: auto;
-            visibility: visible;
-            opacity: 1;
-            transform: none;
-          }
-        }
-      {%- endstyle -%}
-    {%- endif -%}
-  </div>
-{%- endif -%}
-
+		<div class="t4s-site-nav__icon t4s-site-nav__account t4s-pr t4s-d-none t4s-d-md-inline-block">
+			<a class="t4s-pr" href="{{ routes.account_url }}"{% unless customer or request.page_type contains 'customers' or settings.login_side == false %} data-drawer-delay- data-drawer-options='{ "id":"#t4s-login-sidebar" }' {% endunless %}>
+				<svg class="t4s-icon t4s-icon--account" aria-hidden="true" focusable="false" role="presentation"><use href="#icon-h-account"></use></svg>
+			</a>
+			{%- if customer -%}
+				<ul class="t4s-my-account">
+					<li><a class="t4s-d-block" href="{{ routes.account_url }}">{{ 'customer.account.dashboard' | t }}</a></li>
+					<li><a class="t4s-d-block" href="{{ routes.account_addresses_url }}">{{ 'customer.menu.addresses' | t }}</a></li>
+					<li><a class="t4s-d-block" href="{{ routes.account_logout_url }}" data-no-instant>{{ 'customer.account.log_out' | t }}</a></li>
+				</ul>
+				{%- style -%}
+					.t4s-site-nav__account .t4s-my-account{
+						position: absolute;
+						top: 100%;
+						z-index: 380;
+						background-color: var(--t4s-body-background);
+						box-shadow: 0 0 3px rgb(0 0 0 / 15%);
+						list-style: none;
+						right: -5px;
+						width: 165px;
+						padding: 10px 0;
+						line-height: 1.4;
+						margin-top: 12px;
+						border-radius: 3px;
+						transform: translateY(15px) translateZ(0);
+						visibility: hidden;
+						transition: opacity .2s,visibility .2s,transform .2s;
+						opacity:0;
+						text-align: start;
+					}
+					.t4s-site-nav__account .t4s-my-account::after{
+						content: "";
+						position: absolute;
+						top: auto;
+						right: 0;
+						bottom: 100%;
+						left: 0;
+						width: auto;
+						height: 12px;
+					}
+					.t4s-site-nav__account .t4s-my-account a{padding: 8px 18px;color:var(--text-color);}
+					.rtl_true .t4s-site-nav__account .t4s-my-account{left:-5px;right:auto;}
+					@media (-moz-touch-enabled: 0), (hover: hover) and (min-width: 1025px){
+						.t4s-site-nav__account .t4s-my-account a:hover{color: var(--accent-color)!important;}
+						.t4s-site-nav__account:hover .t4s-my-account{
+							pointer-events: auto;
+							visibility: visible;
+							opacity: 1;
+							transform: none;
+						}
+					}
+				{%- endstyle -%}
+			{%- endif -%}
+		</div>
+	{%- endif -%}
 	{%- if se_stts.show_wis -%}
    <div class="t4s-site-nav__icon t4s-site-nav__heart t4s-d-none t4s-d-md-inline-block">
       {%- if settings.wishlist_mode != '3' -%}		
