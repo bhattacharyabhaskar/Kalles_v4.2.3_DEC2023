@@ -1,70 +1,46 @@
-<div class="t4s-container">
-  <div class="t4s-row">
-    {% assign coll_handle = page.metafields.custom.collection_handle %}
-    {% if collections[coll_handle] %}
-      {% assign col = 't4s-col-lg-3 t4s-col-md-4 t4s-col-6' %}
-      {% assign prefix_url = '' %}
-      {% assign isGrowaveWishlist = false %}
-      {% assign show_img = '2' %}
-      {% assign show_vendor = false %}
-      {% assign use_link_vendor = false %}
-      {% assign enable_pr_color = false %}
-      {% assign show_cl_type = '1' %}
-      {% assign get_color = 'color' %}
-      {% assign enable_pr_size = false %}
-      {% assign pr_size_pos = '1' %}
-      {% assign get_size = 'size' %}
-      {% assign show_size_type = '1' %}
-      {% assign price_varies_style = '' %}
-      {% assign app_review = '' %}
-      {% assign enable_rating = false %}
-      {% assign use_countdown = false %}
-      {% assign imgatt = 'data-' %}
-      {% assign show_list_btns = false %}
-      {% assign show_badges = false %}
-      {% assign placeholder_img = settings.placeholder_img %}
-
-      {% for product in collections[coll_handle].products limit: 4 %}
-        <div class="{{ col }}">
-          {% render 'product-grid-item-wiki',
-            product: product,
-             show_badges: show_badges,
-            prefix_url: prefix_url,
-            isGrowaveWishlist: isGrowaveWishlist,
-            show_img: show_img,
-            show_vendor: show_vendor,
-            use_link_vendor: use_link_vendor,
-            enable_pr_color: enable_pr_color,
-            show_cl_type: show_cl_type,
-            get_color: get_color,
-            enable_pr_size: enable_pr_size,
-            pr_size_pos: pr_size_pos,
-            get_size: get_size,
-            show_size_type: show_size_type,
-            price_varies_style: price_varies_style,
-            app_review: app_review,
-            enable_rating: enable_rating,
-            use_countdown: use_countdown,
-            imgatt: imgatt,
-            show_list_btns: show_list_btns,
-            placeholder_img: placeholder_img,
-            col: col %}
-        </div>
-      {% endfor %}
-    {% else %}
-      <p class="center">No products found in this category.</p>
-    {% endif %}
+<div class="t4s-container wiki-section">
+  <div class="wiki-header">
+    <h1 class="wiki-title">{{ page.title }}</h1>
   </div>
-</div>
 
-{% schema %}
-{
-  "name": "Wiki Product Grid",
-  "settings": [],
-  "presets": [
-    {
-      "name": "Wiki Product Grid"
-    }
-  ]
-}
-{% endschema %}
+  <div class="wiki-page-content">
+    {{ page.content }}
+  </div>
+
+  {% assign coll_handle = page.metafields.custom.collection_handle %}
+  {% if collections[coll_handle] and collections[coll_handle].products_count > 0 %}
+    <div class="wiki-collection">
+      <h2>Shop {{ collections[coll_handle].title }} Sarees</h2>
+      <div class="t4s-row">
+        {% assign col = 't4s-col-lg-3 t4s-col-md-4 t4s-col-6' %}
+        {% for product in collections[coll_handle].products %}
+          <div class="{{ col }}">
+            {% render 'product-grid-item1',
+              product: product,
+              col: col,
+              prefix_url: '',
+              isGrowaveWishlist: false,
+              show_img: true,
+              show_vendor: false,
+              use_link_vendor: false,
+              enable_pr_color: false,
+              show_cl_type: '1',
+              get_color: 'color',
+              enable_pr_size: false,
+              pr_size_pos: '1',
+              get_size: 'size',
+              show_size_type: '1',
+              price_varies_style: '',
+              app_review: '',
+              enable_rating: false,
+              use_countdown: false,
+              imgatt: 'loading=\"lazy\" decoding=\"async\"',
+              show_list_btns: false,
+              placeholder_img: settings.placeholder_img,
+              show_badges: false %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>
