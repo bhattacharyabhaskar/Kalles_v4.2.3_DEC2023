@@ -1,45 +1,38 @@
 {%- assign pr_url = product.url -%}
+{%- assign pid = product.id -%}
 {%- assign current_variant = product.variants.first -%}
 {%- assign image = product.featured_image | default: product.images.first -%}
 {%- assign sku = current_variant.sku -%}
 
-<div class="t4s-product t4s-pr-grid t4s-pr-style1 t4s-col-lg-3 t4s-col-md-4 t4s-col-6 t4s-col-item">
+<div class="t4s-product t4s-pr-grid t4s-col-lg-3 t4s-col-md-4 t4s-col-6 t4s-col-item">
   <div class="t4s-product-wrapper">
-    <div class="t4s-product-inner">
+    <div class="t4s-product-inner t4s-oh">
 
-      {% if image %}
-        <a href="{{ pr_url }}" class="t4s-product-img t4s_ratio" style="--aspect-ratioapt: {{ image.aspect_ratio | default: 1 }}">
-          <img
-            src="{{ image | image_url: width: 600 }}"
-            alt="{{ product.title | escape }}"
-            loading="lazy"
-            decoding="async"
-            width="{{ image.width }}"
-            height="{{ image.height }}"
-            style="width: 100%; height: auto;"
-          >
-        </a>
-      {% else %}
-        <a href="{{ pr_url }}">
-          <div style="background: #f0f0f0; width: 100%; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center;">
-            <span>No Image</span>
-          </div>
-        </a>
-      {% endif %}
+      <a href="{{ pr_url }}" class="t4s-product-img t4s_ratio" style="--aspect-ratioapt: {{ image.aspect_ratio | default: 1 }}">
+        <img
+          src="{{ image | image_url: width: 600 }}"
+          alt="{{ product.title | escape }}"
+          loading="lazy"
+          decoding="async"
+          width="{{ image.width }}"
+          height="{{ image.height }}"
+          style="width: 100%; height: auto;"
+        >
+      </a>
 
     </div>
 
-    <div class="t4s-product-info">
-      <div class="t4s-product-info__inner" style="margin-top: 10px;">
+    <div class="t4s-product-info" style="margin-top: 10px;">
+      <div class="t4s-product-info__inner">
         <h3 class="t4s-product-title" style="font-size: 1rem; font-weight: 600;">
           <a href="{{ pr_url }}">{{ product.title | truncate: 40 }}</a>
         </h3>
 
         <div class="t4s-product-price" style="font-weight: 600; color: #2e7d32; margin-top: 0.25rem;">
           {% if current_variant.compare_at_price > current_variant.price %}
-            <del><span>${{ current_variant.compare_at_price | money_without_currency }}</span></del>
+            <del style="color: #999;"><span>${{ current_variant.compare_at_price | money_without_currency }}</span></del>
           {% endif %}
-          <ins><span>${{ current_variant.price | money_without_currency }}</span></ins>
+          <ins style="margin-left: 6px;"><span>${{ current_variant.price | money_without_currency }}</span></ins>
         </div>
 
         <div class="grid_vendor" style="font-size: 0.85rem; color: #777; margin-top: 6px;">
