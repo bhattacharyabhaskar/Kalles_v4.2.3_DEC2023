@@ -8,7 +8,8 @@
   </div>
 
   {% assign coll_handle = page.metafields.custom.collection_handle %}
-  {% if collections[coll_handle] and collections[coll_handle].products_count > 0 %}
+  {% assign products_count = collections[coll_handle].products_count | plus: 0 %}
+  {% if collections[coll_handle] and products_count > 0 %}
     <div class="wiki-collection">
       <h2>Shop {{ collections[coll_handle].title }} Sarees</h2>
       <div class="t4s-row">
