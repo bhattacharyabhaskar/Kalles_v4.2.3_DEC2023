@@ -286,11 +286,12 @@ t4s_group_btns_split
 				<svg class="t4s-icon t4s-icon--account" aria-hidden="true" focusable="false" role="presentation"><use href="#icon-h-account"></use></svg>
 			</a>
 			{%- if customer -%}
-				<ul class="t4s-my-account">
-					<li><a class="t4s-d-block" href="{{ routes.account_url }}">{{ 'customer.account.dashboard' | t }}</a></li>
-					<li><a class="t4s-d-block" href="{{ routes.account_addresses_url }}">{{ 'customer.menu.addresses' | t }}</a></li>
-					<li><a class="t4s-d-block" href="{{ routes.account_logout_url }}" data-no-instant>{{ 'customer.account.log_out' | t }}</a></li>
-				</ul>
+                <ul class="t4s-my-account">
+                  <li><a class="t4s-d-block" href="https://account.indyvogue.com/orders">My Orders</a></li>
+                  <li><a class="t4s-d-block" href="https://account.indyvogue.com/profile">My Profile</a></li>
+                  <li><a class="t4s-d-block" href="https://account.indyvogue.com/settings">My Settings</a></li>
+                  <li><a class="t4s-d-block" href="https://www.indyvogue.com/customer_identity/logout" data-no-instant>{{ 'customer.account.log_out' | t }}</a></li>
+                </ul>
 				{%- style -%}
 					.t4s-site-nav__account .t4s-my-account{
 						position: absolute;
