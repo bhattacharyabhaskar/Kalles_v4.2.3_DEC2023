@@ -45,3 +45,24 @@
     </div>
   {% endif %}
 </div>
+<style>
+
+  .wiki-product-img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+  @media (max-width: 768px) {
+  .wiki-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 16px;
+  }
+  .wiki-product-img {
+    aspect-ratio: 1/1;
+  }
+}
+</style>
