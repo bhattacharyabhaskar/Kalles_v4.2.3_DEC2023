@@ -18,29 +18,8 @@
           <div class="{{ col }}">
             <div class="wiki-grid">
 
-            {% render 'product-grid-item-wiki',
-              product: product,
-              col: col,
-              prefix_url: '',
-              isGrowaveWishlist: false,
-              show_img: true,
-              show_vendor: false,
-              use_link_vendor: false,
-              enable_pr_color: false,
-              show_cl_type: '1',
-              get_color: 'color',
-              enable_pr_size: false,
-              pr_size_pos: '1',
-              get_size: 'size',
-              show_size_type: '1',
-              price_varies_style: '',
-              app_review: '',
-              enable_rating: false,
-              use_countdown: false,
-              imgatt: 'loading=\"lazy\" decoding=\"async\"',
-              show_list_btns: false,
-              placeholder_img: settings.placeholder_img,
-              show_badges: false %}
+            {% render 'product-grid-item1', product: product, col: 't4s-col-lg-3 t4s-col-md-4 t4s-col-6' %}
+
             </div>
           </div>
         {% endfor %}
