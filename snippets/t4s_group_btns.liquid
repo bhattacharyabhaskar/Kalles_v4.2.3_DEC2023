@@ -282,7 +282,7 @@ t4s_group_btns_split
    {%- endif -%}
 	{%- if shop.customer_accounts_enabled and se_stts.show_acc -%}
 		<div class="t4s-site-nav__icon t4s-site-nav__account t4s-pr t4s-d-none t4s-d-md-inline-block">
-			<a class="t4s-pr" href="{{ routes.account_url }}"{% unless customer or request.page_type contains 'customers' or settings.login_side == false %} data-drawer-delay- data-drawer-options='{ "id":"#t4s-login-sidebar" }' {% endunless %}>
+			<a class="t4s-pr" href="https://account.indyvogue.com/account" {% unless customer or request.page_type contains 'customers' or settings.login_side == false %} data-drawer-delay- data-drawer-options='{ "id":"#t4s-login-sidebar" }' {% endunless %}>
 				<svg class="t4s-icon t4s-icon--account" aria-hidden="true" focusable="false" role="presentation"><use href="#icon-h-account"></use></svg>
 			</a>
 			{%- if customer -%}
