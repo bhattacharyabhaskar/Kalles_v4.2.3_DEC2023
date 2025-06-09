@@ -1,39 +1,41 @@
 {%- assign pr_url = product.url -%}
 {%- assign current_variant = product.variants.first -%}
 {%- assign sku = current_variant.sku -%}
-{%- assign image = product.featured_image | image_url: width: 600 -%}
+{%- assign image_url = product.featured_image | image_url: width: 600 -%}
 
 <div class="t4s-product t4s-pr-grid t4s-pr-style1 {{ col }} t4s-col-item">
   <div class="t4s-product-wrapper">
     <div class="t4s-product-inner">
-      <a href="{{ pr_url }}" class="t4s-product-img t4s_ratio" style="--aspect-ratioapt: {{ product.featured_image.aspect_ratio | default: 1 }}">
-        <img
-          src="{{ image }}"
-          alt="{{ product.featured_image.alt | escape }}"
-          class="t4s-product-main-img"
-          loading="lazy"
-          decoding="async"
-          width="{{ product.featured_image.width }}"
-          height="{{ product.featured_image.height }}"
-        >
-      </a>
+      {% if product.featured_image %}
+        <a href="{{ pr_url }}" class="t4s-product-img t4s_ratio" style="--aspect-ratioapt: {{ product.featured_image.aspect_ratio | default: 1 }}">
+          <img
+            src="{{ image_url }}"
+            alt="{{ product.title | escape }}"
+            class="t4s-product-main-img"
+            loading="lazy"
+            decoding="async"
+            width="{{ product.featured_image.width }}"
+            height="{{ product.featured_image.height }}"
+            style="width: 100%; height: auto;"
+          >
+        </a>
+      {% endif %}
     </div>
 
     <div class="t4s-product-info">
-      <div class="t4s-product-info__inner">
-        <h3 class="t4s-product-title">
+      <div class="t4s-product-info__inner" style="margin-top: 8px;">
+        <h3 class="t4s-product-title" style="font-size: 1rem; font-weight: 600;">
           <a href="{{ pr_url }}">{{ product.title | truncate: 40 }}</a>
         </h3>
 
-        <div class="t4s-product-price">
+        <div class="t4s-product-price" style="font-weight: 600; color: #2e7d32; margin-top: 0.25rem;">
           {% if current_variant.compare_at_price > current_variant.price %}
             <del><span class="money">{{ current_variant.compare_at_price | money }}</span></del>
           {% endif %}
           <ins><span class="money">{{ current_variant.price | money }}</span></ins>
-          <div class="t4s-price-currency">USD</div>
         </div>
 
-        <div class="grid_vendor">
+        <div class="grid_vendor" style="font-size: 0.85rem; color: #777; margin-top: 6px;">
           SKU: {{ sku }}
         </div>
       </div>
