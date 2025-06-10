@@ -228,7 +228,7 @@
         "bl_text_XGjaD9": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "9",
+            "col_dk": "7",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
@@ -253,7 +253,7 @@
           "type": "bl_image",
           "settings": {
             "image1": "shopify://shop_images/Shruti_Hasaan.png",
-            "col_dk": "3",
+            "col_dk": "5",
             "col_tb": "6",
             "layout_des": "carousel",
             "post_mobile": "default",
@@ -314,7 +314,7 @@
         "bl_image_aWBzxA": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/ivory-white-color.webp",
+            "image1": "shopify://shop_images/Keerthi_Suresh.png",
             "col_dk": "3",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -349,7 +349,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>3. For Apple-Shaped Beauties (Hello Midriff, We Love You)<br/></h2><p>You’ve got killer legs and fabulous shoulders. The trick? Draw attention <strong>upward and downward</strong>, and keep the tummy area comfy but cute.</p><p>✅ What works:</p><ul><li>Flowing palazzos with a defined waistband<br/><br/></li><li>Longer, structured kurtas with slits or V-necks<br/><br/></li><li>Layering with long shrugs or a statement dupatta</li></ul><p>🚫 Avoid: Boxy tops or elastic waistbands that cut into your midsection.</p><p>📝 Diary Note: My rust palazzo with a deep green slit kurta made me feel like I walked out of a FabIndia ad. Bless. Check the white one from my store which is something similar:</p>",
+            "text": "<h2>Kerala: The Grace of Simplicity – Kasavu Sarees</h2><h2><br/></h2><h2></h2><p>And finally, we arrive in Kerala, where less is truly more.</p><p><strong>Kasavu sarees</strong>, with their off-white base and gold borders, are the ultimate lesson in understated elegance. Traditionally worn during Onam and temple visits, these sarees are symbols of purity and grace. But don’t let the simplicity fool you—when styled right, a Kasavu can be just as glamorous as any red carpet look.</p><p>Modern versions now come with pastel hues, printed motifs, and even fusion drapes, making them a favorite among brides who love tradition with a twist.</p><p></p><p>s.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -400,185 +400,13 @@
         "bl_text_6TTUWP": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "9",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>4. For Rectangle Shapes (Straight Up, Chic Always)</h2><p><br/>You’ve got that model-off-duty silhouette. Want to create curves? Palazzo salwars are your canvas!</p><p>✅ What works:</p><ul><li>Ruffled or pleated palazzos to add volume<br/><br/></li><li>Belted or peplum tops<br/><br/></li><li>Crop tops with layered dupattas for movement</li></ul><p>🚫 Avoid: Super boxy kurtas with zero definition.</p><p>📝 Diary Note: Wore an ivory palazzo with a cinched peplum top to brunch — felt like a Pinterest board that came alive.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
-        "bl_image_bzbLUK": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/light-lavender-color-georgette-flare-style-sharara-suit-set-with-chikankari-work_263e4336-2c7e-4944-8708-309fb2f9942d.webp",
-            "col_dk": "3",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_6TTUWP",
-        "bl_image_bzbLUK"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_HN3NiL": {
-      "type": "image_text",
-      "blocks": {
-        "bl_image_7Xz9PX": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/light-green-color.jpg",
-            "col_dk": "3",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
-        "bl_text_mqerMp": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "9",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>5. For Tall Girls (Because You Were Born to Drape)<br/></h2><p>Oh, the drama you can pull off! Big prints, bold flares, and floor-kissing palazzos — <strong>go big or go home</strong>, right?</p><p>✅ What works:</p><ul><li>Wide-leg palazzos with long or short tops<br/><br/></li><li>Bold colors and co-ord sets<br/><br/></li><li>Statement belts and oversized accessories</li></ul><p>🚫 Avoid: Too-short kurtis — they break the silhouette awkwardly.</p><p>📝 Diary Note: My mustard wide-leg palazzo + oversized shirt combo made me feel like I should be walking down a runway… or at least through the mall in slow motion.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_image_7Xz9PX",
-        "bl_text_mqerMp"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_TKtrCR": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_tV73Xt": {
-          "type": "bl_text",
-          "settings": {
             "col_dk": "12",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>From the messy desk, I call life</h2><p>Palazzo salwars? They’re more than a trend. They’re <em>freedom disguised as fashion</em>. Whether you’re dressing up for a wedding, a Zoom call, or a lazy Sunday chai run, they just <em>work</em>. Every time.</p><p>And let’s be real, style isn’t about your body type. It’s about how you feel when you catch a glimpse of yourself in the mirror and think, <em>“Damn. That’s me.”</em></p><p>So, pull out that palazzo. Pair it with something you love. Spin around in your room. Take that selfie. And own the day.</p><p>With love,</p><p><strong>Your style-obsessed diary-writer (and palazzo fangirl forever)</strong> 💕</p>",
+            "text": "<h2>Bringing the Loom to the Lounge<br/><br/></h2><p>Here’s what’s beautiful—these sarees, once reserved for ceremonies and festivals, are now making their way into our everyday wardrobes. Whether it’s a Kasavu worn with a denim jacket or a Narayanpet paired with sneakers (yes, it works!), South Indian weaves are finding their groove in the global fashion scene.</p><p>Designers and influencers are giving these classics a fresh spin, but the heart of the saree remains the same: it’s about where it came from, who made it, and the stories it carries.</p><h2>Final Wrap<br/><br/></h2><p>South Indian sarees are not just garments—they're woven stories of artistry, legacy, and fierce pride. From the intricate weaves of Pochampally to the buttery drape of Mysore silk, every saree carries a piece of the land, the people, and the soul of South India.</p><p>So the next time you drape a saree, remember—it’s not just fashion. It’s history. It’s heritage. And it looks absolutely fabulous on you.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -595,11 +423,12 @@
         }
       },
       "block_order": [
-        "bl_text_tV73Xt"
+        "bl_text_6TTUWP"
       ],
+      "name": "Image with text",
       "settings": {
         "design_heading": "1",
-        "heading_align": "t4s-text-start",
+        "heading_align": "t4s-text-center",
         "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
@@ -684,8 +513,6 @@
     "image_text_MLpmY7",
     "image_text_cc4bCL",
     "image_text_VVVd4B",
-    "image_text_HN3NiL",
-    "image_text_TKtrCR",
     "image_text_4YtHFc"
   ]
 }
