@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/Banner_Image_0adf8759-b1ab-45e4-82d4-a7ea1b8ce959.png",
+            "image": "shopify://shop_images/Banner_Image_05078668-042b-4500-a8a0-637115c45015.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Dear Diary, Let’s Talk: How to Style Palazzo Salwars for Every Body Type",
-            "text": "<p><strong>Dear Diary,</strong></p><p>So today was one of <em>those</em> days — the kind where you stare at your closet for 20 minutes thinking, <em>“What do I wear that’s comfy but doesn’t scream ‘I gave up’?”</em></p><p>And like a true hero, my <strong>palazzo salwar</strong> came to the rescue. Again.</p><p>There’s something magical about them — they’re breezy, stylish, and secretly feel like PJs (but shhh… the world doesn’t need to know). But here’s what I’ve figured out over time — <strong>not all palazzos flatter all body types the same way</strong>. And if you get the pairing right? Girl, it’s a whole <em>main character moment</em>.</p><p>So, here it is — from my closet to yours — a little guide on how to style <strong>palazzo salwars for every body type</strong> (with a lot of love, and a little chai on the side).</p>",
+            "heading": "From Temple Towns to Trendy Closets: The Story Behind Each South Indian Saree",
+            "text": "<p>There’s something magical about a South Indian saree. The way it flows, the richness of the weave, the stories it whispers from temple towns and artisan homes—it’s more than just six yards of fabric. It’s tradition, culture, and pride, all wrapped into one.</p><p>Today, we’re taking a vibrant stroll through Tamil Nadu, Andhra Pradesh, Karnataka, and Kerala to uncover the soul of South India’s most iconic sarees. And spoiler alert: by the end, you’ll want one (or five) in your closet too!</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -107,40 +107,10 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_V9cpBU": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Style_Palazzo.jpg",
-            "col_dk": "12",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1",
-        "bl_image_V9cpBU"
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
       ],
       "settings": {
         "design_heading": "1",
@@ -207,7 +177,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>1. For My Curvy Queens (Hourglass & Pear)<br/></h2><p>Oh, how I envy the balance of curves and confidence! The key for this body type? <strong>Structured palazzos</strong> that cinch at the waist and <strong>flare just right</strong> at the bottom.</p><p>✅ What works:</p><ul><li>High-waisted palazzos<br/><br/></li><li>A-line cuts or soft flares<br/><br/></li><li>Fitted or short kurtas, cropped tops, or even tucked-in shirts</li></ul><p>🚫 Avoid: Baggy tops with flowy bottoms. We’re aiming for <em>snatched</em>, not swallowed.</p><p>📝 Diary Note: Wore a black palazzo with a short brocade kurti last Diwali. Compliments flowed. I have something similar, which is black in color and might be something you are looking for - </p>",
+            "text": "<h2>Tamil Nadu: The Queen of Silks – Kanjeevaram<br/></h2><p>Let’s begin in Tamil Nadu, home to the crown jewel of sarees—<a href=\"https://www.indyvogue.com/collections/kanchipuram-sarees\"><span style=\"text-decoration:underline\"><strong>Kanjeevaram</strong></span></a> (or Kanchipuram). Born in the temple town of Kanchipuram, these sarees are the epitome of grandeur. With their thick silk, vibrant colors, and gold zari borders, Kanjeevarams have long been the go-to choice for South Indian brides.</p><p>What makes them so special? Apart from the fact that each piece takes days (sometimes weeks!) to weave, it’s the motifs—peacocks, temple pillars, elephants—that make each saree feel like a wearable piece of architecture. Pair it with heirloom jewelry, and you’re royalty.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
