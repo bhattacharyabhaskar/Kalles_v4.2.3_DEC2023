@@ -545,6 +545,14 @@ endif -%}
                       <div class="t4s-sku-wrapper{% if current_variant.sku == blank %} t4s-dn{% endif %}" data-product-sku>{{ 'products.product.product_sku' | t }} <span class="t4s-productMeta__value t4s-sku-value t4s-csecondary" data-product__sku-number>{{ current_variant.sku }}</span></div>
                       {%- endif -%}
 
+                       <div id="measurement-modal" class="measurement-modal t4s-dn">
+                        <div class="modal-content">
+                          <span class="close-btn" id="close-measurement-modal">&times;</span>
+                          <p>Link to measurement form will be sent once you place the order.</p>
+                          <button id="got-it-btn" class="got-it-btn">Got it</button>
+                        </div>
+                      </div>
+
                       {%- if bk_stts.show_barcode -%} {%- assign ck_meta = true -%}
                       <div class="t4s-barcode-wrapper{% if current_variant.barcode == blank %} t4s-dn{% endif %}" data-product-barcode>{{ 'products.product.product_barcode' | t }} <span class="t4s-productMeta__value t4s-barcode-value t4s-csecondary" data-product__barcode-number>{{ current_variant.barcode }}</span></div>
                       {%- endif -%}
@@ -922,6 +930,62 @@ endif -%}
     {{ product.media | where: 'media_type', 'model' | json }}
   </script>
 {%- endunless -%}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("measurement-modal");
+  const skuEl = document.querySelector('[data-product__sku-number]');
+  const closeBtn = document.getElementById("close-measurement-modal");
+  const gotItBtn = document.getElementById("got-it-btn");
+
+  let autoCloseTimer = null;
+
+  function updateModalVisibility() {
+    const sku = skuEl?.textContent?.trim();
+    if (!sku) return;
+
+    const lastChar = sku.slice(-1).toUpperCase();
+    const shouldShow = ["B", "S", "P"].includes(lastChar);
+
+    if (shouldShow && !localStorage.getItem("hide_modal_for_" + sku)) {
+      modal.classList.remove("t4s-dn");
+
+      if (autoCloseTimer) clearTimeout(autoCloseTimer);
+      autoCloseTimer = setTimeout(() => {
+        modal.classList.add("t4s-dn");
+      }, 10000);
+    } else {
+      modal.classList.add("t4s-dn");
+      if (autoCloseTimer) clearTimeout(autoCloseTimer);
+    }
+  }
+
+  // Close actions
+  function closeModal() {
+    modal.classList.add("t4s-dn");
+    if (autoCloseTimer) clearTimeout(autoCloseTimer);
+  }
+
+  closeBtn.addEventListener("click", closeModal);
+
+  gotItBtn.addEventListener("click", function () {
+    const sku = skuEl?.textContent?.trim();
+    if (sku) {
+      localStorage.setItem("hide_modal_for_" + sku, "true");
+    }
+    closeModal();
+  });
+
+  // Observe changes in SKU
+  const observer = new MutationObserver(updateModalVisibility);
+  if (skuEl) {
+    observer.observe(skuEl, { childList: true, subtree: true });
+  }
+
+  // Initial run
+  updateModalVisibility();
+});
+</script>
 
 <script type="application/ld+json">
 {
