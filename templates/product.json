@@ -246,23 +246,6 @@
         "time": 3
       }
     },
-    "a5252000-c9b6-49b6-94a0-478c097c965f": {
-      "type": "custom-html",
-      "settings": {
-        "code": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #fff;color: #fff;\">\n<div data-romw-token=\"1YgsvR6Xq5Nj26FIOzPfzobpHwDAgE0r0gmqomf6bPQ9JAmARK\"></div>\n</div>",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "video_featured_RaQheV": {
       "type": "video_featured",
       "settings": {
@@ -607,7 +590,6 @@
   "order": [
     "breadcrumb",
     "main",
-    "a5252000-c9b6-49b6-94a0-478c097c965f",
     "video_featured_RaQheV",
     "sidebar",
     "71125f6e-6720-42c9-8c7e-1843761c8c68",
