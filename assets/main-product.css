@@ -980,3 +980,82 @@ button.t4s-product__description_readm:hover {
     border-radius: 6px;
   }
 }
+
+/* -----------------------------------------
+   ✅ Measurement Modal PDP Start
+------------------------------------------ */
+.measurement-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #b75e09;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px 24px 20px 24px;
+  z-index: 9999;
+  max-width: 380px;
+  width: 90%;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #b75e09;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.measurement-modal:not(.t4s-dn) {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-content {
+  position: relative;
+  padding-right: 30px; /* give space for the close button */
+}
+
+.close-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #fff;
+  border: 1px solid #b75e09;
+  color: #b75e09;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  line-height: 22px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, color 0.3s;
+}
+
+.close-btn:hover {
+  background-color: #b75e09;
+  color: #fff;
+}
+
+.got-it-btn {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #b75e09;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.got-it-btn:hover {
+  background-color: #944709;
+}
+
+/* -----------------------------------------
+   ✅ Measurement Modal PDP End
+------------------------------------------ */
