@@ -144,12 +144,6 @@
             "custom_liquid": "<div class=\"t4s-text-center\" style=\"padding: 15px 0;background-color: #fff;color: #fff;\">\n<div data-romw-token=\"1YgsvR6Xq5Nj26FIOzPfzobpHwDAgE0r0gmqomf6bPQ9JAmARK\"></div>\n</div>"
           }
         },
-        "custom_liquid_3a7Qc4": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"margin-top: 10px; text-align: center;\">\n  <a href=\"https://www.indyvogue.com/pages/indyvogue-reviews\" style=\"\n    display: inline-block;\n    padding: 8px 18px;\n    background-color: #d43f00;\n    color: white;\n    font-size: 14px;\n    font-weight: bold;\n    border-radius: 6px;\n    text-decoration: none;\n    transition: background-color 0.3s ease;\n  \" onmouseover=\"this.style.backgroundColor='#b83600'\" onmouseout=\"this.style.backgroundColor='#d43f00'\">\n    SEE ALL REVIEWS\n  </a>\n</div>"
-          }
-        },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
           "type": "tab_des",
           "settings": {
@@ -206,7 +200,6 @@
         "1074fa19-58dd-4700-8ace-d3a90133e24d",
         "custom_liquid_4K3h6f",
         "custom_liquid_ymPNVq",
-        "custom_liquid_3a7Qc4",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "3c829590-521f-47d0-928f-f9536217964f",
         "c0d955b4-82ca-4319-9c89-c02dd5efdebd",
