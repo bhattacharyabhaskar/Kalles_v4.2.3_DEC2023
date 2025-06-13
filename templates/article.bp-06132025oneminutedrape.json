@@ -309,7 +309,7 @@
     "video_featured_DeAkYb": {
       "type": "video_featured",
       "settings": {
-        "se_height": "t4s_ratio_fh",
+        "se_height": "t4s_ratio_po",
         "custom_dk": false,
         "height_dk": 0,
         "custom_tb": false,
