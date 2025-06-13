@@ -346,6 +346,7 @@
             "video_caption": "An inside look at our artisan’s weaving process.",
             "video_tags": "Banarasi, Handwoven",
             "video_url": "https://www.youtube.com/shorts/k7QNmwSGvFw",
+            "thumbnail": "shopify://shop_images/Inside_Image_1.png",
             "autoplay": true
           }
         }
