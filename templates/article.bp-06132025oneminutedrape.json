@@ -311,12 +311,12 @@
       "settings": {
         "se_height": "t4s_ratio_po",
         "custom_dk": false,
-        "height_dk": 0,
+        "height_dk": 720,
         "custom_tb": false,
         "height_tb": 400,
         "custom_mb": false,
         "height_mb": 250,
-        "source": "2",
+        "source": "1",
         "video_url": "",
         "video": "shopify://files/videos/drape.mp4",
         "au_video": false,
@@ -334,39 +334,6 @@
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
-      }
-    },
-    "crafted_videos_wmpwTx": {
-      "type": "crafted_videos",
-      "blocks": {
-        "video_bwPh3t": {
-          "type": "video",
-          "settings": {
-            "video_title": "Crafting Banarasi Silk",
-            "video_caption": "An inside look at our artisan’s weaving process.",
-            "video_tags": "Banarasi, Handwoven",
-            "video_url": "https://www.youtube.com/shorts/k7QNmwSGvFw",
-            "thumbnail": "shopify://shop_images/Inside_Image_1.png",
-            "autoplay": true
-          }
-        }
-      },
-      "block_order": [
-        "video_bwPh3t"
-      ],
-      "name": "Crafted Video Gallery",
-      "settings": {
-        "section_heading": "From Loom to Elegance",
-        "section_description": "Watch how our sarees and blouses come to life — handcrafted by master artisans across India.",
-        "background_color": "#ffffff",
-        "heading_alignment": "center",
-        "description_alignment": "center",
-        "desktop_layout": "three-column",
-        "mobile_layout": "two-column",
-        "content_alignment": "center",
-        "font_size_desktop": 16,
-        "font_size_mobile": 14,
-        "show_mute_toggle": true
       }
     },
     "image_text_C7aMgc": {
@@ -486,7 +453,6 @@
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "image_text_LfVYaD",
     "video_featured_DeAkYb",
-    "crafted_videos_wmpwTx",
     "image_text_C7aMgc",
     "image_text_ww6kAw"
   ]
