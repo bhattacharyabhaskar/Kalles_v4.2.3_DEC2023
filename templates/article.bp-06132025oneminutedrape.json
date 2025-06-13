@@ -306,36 +306,34 @@
         "code_cus_css": ""
       }
     },
-    "crafted_videos_MDT4ED": {
-      "type": "crafted_videos",
-      "blocks": {
-        "video_jLqdhG": {
-          "type": "video",
-          "settings": {
-            "video_title": "Crafting Banarasi Silk",
-            "video_caption": "An inside look at our artisan’s weaving process.",
-            "video_tags": "Banarasi, Handwoven",
-            "video_url": "",
-            "autoplay": true
-          }
-        }
-      },
-      "block_order": [
-        "video_jLqdhG"
-      ],
-      "name": "Crafted Video Gallery",
+    "video_featured_DeAkYb": {
+      "type": "video_featured",
+      "name": "Video featured",
       "settings": {
-        "section_heading": "",
-        "section_description": "",
-        "background_color": "#ffffff",
-        "heading_alignment": "center",
-        "description_alignment": "center",
-        "desktop_layout": "two-column",
-        "mobile_layout": "two-column",
-        "content_alignment": "left",
-        "font_size_desktop": 16,
-        "font_size_mobile": 14,
-        "show_mute_toggle": true
+        "se_height": "t4s_ratio16_9",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "image_text_C7aMgc": {
@@ -454,7 +452,7 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "image_text_LfVYaD",
-    "crafted_videos_MDT4ED",
+    "video_featured_DeAkYb",
     "image_text_C7aMgc",
     "image_text_ww6kAw"
   ]
