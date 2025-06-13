@@ -308,7 +308,6 @@
     },
     "video_featured_DeAkYb": {
       "type": "video_featured",
-      "name": "Video featured",
       "settings": {
         "se_height": "t4s_ratio16_9",
         "custom_dk": true,
@@ -321,9 +320,9 @@
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "au_video": false,
         "loop_video": true,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "bg_opacity": 0,
-        "layout": "t4s-container-fluid",
+        "layout": "t4s-se-container",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
@@ -348,7 +347,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>How to Wear It in 1 Minute (Yes, Really)</h2><p><strong>Step 1:</strong> Put on the matching blouse and petticoat (or shapewear, if that’s your vibe).</p><p><strong>Step 2:</strong> Step into the pre-stitched saree skirt and fasten it (zip or hook).</p><p><strong>Step 3:</strong> Drape the pallu over your shoulder. It’s already pre-pleated and stitched in place, so it just falls perfectly every single time.</p><p>Done. Twirl. Pose. Slay.</p><h2>Styling Tips for First-Time Buyers</h2><p>Now that you’ve mastered the drape, here are some quick ways to elevate your look:</p><ul><li><strong>Choose your fabric wisely:</strong> Our 1-minute sarees come in georgette, organza, silk blends, and even lightweight linen. For beginners, georgette and crepe are easiest to handle and most forgiving.</li><li><strong>Match your blouse smartly:</strong> Go for a readymade blouse or pair it with one of our IndyVogue statement blouses.</li><li><strong>Add a belt:</strong> A chic belt over the pallu can make your drape look contemporary and edgy.</li><li><strong>Play with accessories:</strong> Jhumkas, bold bangles, or even sneakers if you want that Indo-western twist.</li></ul><h2>What Our Customers Are Saying</h2><p>“I wore the IndyVogue 1-minute saree to a friend’s mehendi and EVERYONE thought I had a personal stylist.” – Priya S.</p><p>“Honestly, I never thought I could pull off a saree. Now I want one in every color!” – Meghna R.</p><p>“From Zoom meetings to festive nights — this saree’s been my secret weapon.” – Alisha D.</p><h2>Final Thoughts: Why This Is <em>Your</em> Moment</h2><p>The saree isn’t going anywhere. It’s iconic, powerful, and feminine — and it deserves to be worn more often, by more people, with less stress. That’s why we created the IndyVogue 1-Minute Saree.</p><p>Whether it’s your first saree or your fiftieth, this drape makes every moment effortless and unforgettable. So go ahead — twirl into tradition, snap that selfie, and remind the world that nothing is more timeless than a woman in a saree.</p><p>And now, there are no excuses. Just one minute to glam. </p>",
+            "text": "<h2>How to Wear It in 1 Minute (Yes, Really)</h2><p><strong>Step 1:</strong> Put on the matching blouse and petticoat (or shapewear, if that’s your vibe).</p><p><strong>Step 2:</strong> Step into the pre-stitched saree skirt and fasten it (zip or hook).</p><p><strong>Step 3:</strong> Drape the pallu over your shoulder. It’s already pre-pleated and stitched in place, so it just falls perfectly every single time.</p><p>Done. Twirl. Pose. Slay.<br/><br/></p><h2>Styling Tips for First-Time Buyers</h2><p>Now that you’ve mastered the drape, here are some quick ways to elevate your look:</p><ul><li><strong>Choose your fabric wisely:</strong> Our 1-minute sarees come in georgette, organza, silk blends, and even lightweight linen. For beginners, georgette and crepe are easiest to handle and most forgiving.</li><li><strong>Match your blouse smartly:</strong> Go for a readymade blouse or pair it with one of our IndyVogue statement blouses.</li><li><strong>Add a belt:</strong> A chic belt over the pallu can make your drape look contemporary and edgy.</li><li><strong>Play with accessories:</strong> Jhumkas, bold bangles, or even sneakers if you want that Indo-western twist.<br/><br/></li></ul><h2>What Our Customers Are Saying</h2><p>“I wore the IndyVogue 1-minute saree to a friend’s mehendi and EVERYONE thought I had a personal stylist.” – Priya S.</p><p>“Honestly, I never thought I could pull off a saree. Now I want one in every color!” – Meghna R.</p><p>“From Zoom meetings to festive nights — this saree’s been my secret weapon.” – Alisha D.<br/><br/></p><h2>Final Thoughts: Why This Is <em>Your</em> Moment</h2><p>The saree isn’t going anywhere. It’s iconic, powerful, and feminine — and it deserves to be worn more often, by more people, with less stress. That’s why we created the IndyVogue 1-Minute Saree.</p><p>Whether it’s your first saree or your fiftieth, this drape makes every moment effortless and unforgettable. So go ahead — twirl into tradition, snap that selfie, and remind the world that nothing is more timeless than a woman in a saree.</p><p>And now, there are no excuses. Just one minute to glam. </p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
