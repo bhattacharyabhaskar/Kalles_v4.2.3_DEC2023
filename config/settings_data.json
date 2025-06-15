@@ -1377,7 +1377,7 @@
             "type": "cat",
             "settings": {
               "collection": "the-kolkata-collection",
-              "collection_title": "The Kolkata Collection",
+              "collection_title": "",
               "collection_subtitle": "",
               "collection_des": "1",
               "title_cl": "#ffffff",
@@ -1404,7 +1404,7 @@
             "type": "cat",
             "settings": {
               "collection": "silk-mark",
-              "collection_title": "Silk Mark Collection",
+              "collection_title": "",
               "collection_subtitle": "",
               "collection_des": "1",
               "title_cl": "#ffffff",
