@@ -1400,6 +1400,33 @@
               "col": "6"
             }
           },
+          "cat_C6GLXx": {
+            "type": "cat",
+            "settings": {
+              "collection": "silk-mark",
+              "collection_title": "Silk Mark Collection",
+              "collection_subtitle": "",
+              "collection_des": "1",
+              "title_cl": "#ffffff",
+              "title_cl_hover": "#222222",
+              "subtitle_cl": "#878787",
+              "count_cl": "#222222",
+              "border_cl": "#e5e5e5",
+              "open_link": "_self",
+              "space_bottom": 20,
+              "space_bottom_mb": 10,
+              "border": false,
+              "item_pd": 0,
+              "item_rd": 0,
+              "img_effect": "none",
+              "b_effect": "none",
+              "image_ratio": "ratio2_1",
+              "image_size": "cover",
+              "image_position": "8",
+              "collection_link": "",
+              "col": "6"
+            }
+          },
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1": {
             "type": "mega",
             "settings": {
@@ -1518,6 +1545,7 @@
           "6122e966-0272-4c46-a1a0-051bdc2ae08c",
           "45fa281e-2be5-4727-bd01-942824713769",
           "c53d29e9-8b9b-4e62-afa9-e64393205337",
+          "cat_C6GLXx",
           "5bdb6eec-e820-4415-ac9b-9c6096eb20c1",
           "cc1a7875-8010-421e-b69c-efc19a6043d6",
           "5952e385-42a5-4603-9be9-64b76f15ef48",
