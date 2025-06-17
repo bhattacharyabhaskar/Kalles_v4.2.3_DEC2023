@@ -574,7 +574,7 @@ input.t4s-search-form__input {
 
 .ivy-promo-banner .banner-text {
   font-size: 16px;
-  color: #FF0000;
+  color: #333;
   max-width: 780px;
   margin: 0 auto;
   line-height: 1.6;
@@ -584,7 +584,7 @@ input.t4s-search-form__input {
   display: block;
   margin-top: 8px;
   font-size: 14px;
-  color: #666;
+  color: #FF0000;
 }
 
 .ivy-promo-banner.full-width-banner {
