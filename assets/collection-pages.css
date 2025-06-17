@@ -550,3 +550,55 @@ input.t4s-search-form__input {
     list-style: none;
     margin-bottom: 5px;
 }
+
+/*Collection Page Banners*/
+
+.ivy-promo-banner {
+  width: 100%;
+  background-color: #fffdf5;
+  border: 1px solid #e26d11;
+  border-left: 6px solid #e26d11;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 40px 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.ivy-promo-banner .banner-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #3d1f00;
+  margin-bottom: 12px;
+}
+
+.ivy-promo-banner .banner-text {
+  font-size: 16px;
+  color: #333;
+  max-width: 780px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.ivy-promo-banner .banner-text span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.ivy-promo-banner.full-width-banner {
+  padding: 0;
+  margin: 40px 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.ivy-banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0;
+}
