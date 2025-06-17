@@ -249,7 +249,6 @@
                 {%- if layout_des == "1" -%}
                     <div data-contentlm-replace class="t4s_box_pr_grid t4s-products {{ class_listview }} t4s-text-{{ section.settings.content_align }} t4s_{{ image_ratio }} t4s_position_{{ section.settings.image_position }} t4s_{{ section.settings.image_size }} t4s-row t4s-justify-content-center t4s-row-cols-{{ col_mobile }} t4s-row-cols-md-{{ col_tablet }} t4s-row-cols-lg-{{ col_desktop }} t4s-gx-md-{{ section.settings.space_h_item }} t4s-gy-md-{{ section.settings.space_v_item }} t4s-gx-{{ section.settings.space_h_item_mb }} t4s-gy-{{ section.settings.space_v_item_mb }}">
                   
-                      {%- assign banner_html = collection.metafields.custom.banner_html_1.value -%}
                       {%- assign product_index = 0 -%}
                   
                       {%- for product in collection.products -%}
