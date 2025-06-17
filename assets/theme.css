@@ -3556,8 +3556,3 @@ border-radius: 50% !important;
     box-shadow: 0 0 15px rgba(13, 110, 253, 0.6);
   }
 }
-
-.watch-video-btn:hover {
-  background: linear-gradient(to right, #a93232, #922727);
-  transform: scale(1.02);
-}
