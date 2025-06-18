@@ -41,8 +41,8 @@ if custom_badge != blank
       assign custom_badge = custom_badge | replace: 'Silk Mark Certified', ''
    endif
   
-   if custom_badge contains 'Silk Mark Certified;'
-      assign custom_badge = custom_badge | replace: 'Silk Mark Certified;', ''
+   if meta_theme.custom_badge contains 'Silk Mark Certified;'
+      assign custom_badge = meta_theme.custom_badge | replace: 'Silk Mark Certified;', ''
    endif
     
    assign arr_badge = custom_badge | replace: '  ', '' | replace: ' ;', ';' | replace: '; ', ';' | split: ';' | join: 'nt-t4s' | escape | split: 'nt-t4s'
