@@ -40,6 +40,11 @@ if custom_badge != blank
    if custom_badge contains 'Silk Mark Certified'
       assign custom_badge = custom_badge | replace: 'Silk Mark Certified', ''
    endif
+  
+   if custom_badge contains 'Silk Mark Certified;'
+      assign custom_badge = custom_badge | replace: 'Silk Mark Certified;', ''
+   endif
+    
    assign arr_badge = custom_badge | replace: '  ', '' | replace: ' ;', ';' | replace: '; ', ';' | split: ';' | join: 'nt-t4s' | escape | split: 'nt-t4s'
    assign arr_badge_handle = arr_badge | join: 'nt-t4s' | handle | split: 'nt-t4s'
 else
