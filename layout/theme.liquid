@@ -131,6 +131,7 @@
         {% comment %}
             // BB: Adding criteo tracking & optimization-3.0 js
         {% endcomment %} 
+      {% comment %}
           <script id='merchantWidgetScript' src="https://www.gstatic.com/shopping/merchant/merchantwidget.js" defer></script>
           <script type="text/javascript">
             merchantWidgetScript.addEventListener('load', function () {
@@ -143,7 +144,7 @@
               });
             });
           </script>
-
+        {% endcomment %} 
       
         {% render 'criteo-tracking' %}
         <script type="lazyload_int">
