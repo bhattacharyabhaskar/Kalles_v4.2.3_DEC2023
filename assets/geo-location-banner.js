@@ -4,7 +4,7 @@ function createTexasMessageElement({ inline = false } = {}) {
   const wrapper = document.createElement('div');
   wrapper.id = 'ivy-texas-banner';
   wrapper.innerHTML = `
-    <div style="font-size: 20px;">🎉</div>
+    <div style="font-size: 18px;">🎉</div>
     <div style="flex: 1;">
       <strong style="font-size: 16.5px;">Shipping to Texas?</strong><br>
       Get your sales tax back in <strong>IndyVogue eGift Card</strong> within <strong>10 days</strong> of delivery.
@@ -25,15 +25,15 @@ function createTexasMessageElement({ inline = false } = {}) {
   Object.assign(wrapper.style, {
     background: '#fff4c2',
     color: '#3d1f00',
-    padding: '14px 20px',
+    padding: '8px 12px',
     borderRadius: inline ? '10px' : '0 0 10px 10px',
-    fontSize: '15.8px',
+    fontSize: '14.5px',
     fontWeight: '500',
     borderBottom: '2px solid #e3b43f',
     boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
     display: 'flex',
     alignItems: 'flex-start',
-    gap: '12px',
+    gap: '8px',
     zIndex: '9999',
     position: inline ? 'relative' : 'fixed',
     top: inline ? '' : '0',
