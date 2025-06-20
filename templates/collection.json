@@ -193,6 +193,14 @@
     "header_menu_home_BpWrJt": {
       "type": "header_menu_home",
       "blocks": {
+        "nav_item_9XGyFY": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Silk-Mark-Logo-in-colour_large_e5145ee5-9bb6-4e5f-95ac-91889cfbe4c9.jpg",
+            "label": "Silk Mark",
+            "link": "shopify://collections/silk-mark"
+          }
+        },
         "nav_item_Cd8RXD": {
           "type": "nav_item",
           "settings": {
@@ -347,6 +355,7 @@
         }
       },
       "block_order": [
+        "nav_item_9XGyFY",
         "nav_item_Cd8RXD",
         "nav_item_Bg69er",
         "nav_item_Wy3DTm",
