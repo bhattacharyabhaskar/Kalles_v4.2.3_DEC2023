@@ -29,7 +29,7 @@ function createTexasMessageElement({ inline = false } = {}) {
     fontSize: '14.5px',
     fontWeight: '500',
     borderBottom: '2px solid #e3b43f',
-    boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
