@@ -40,7 +40,7 @@ function createTexasMessageElement({ inline = false } = {}) {
     top: inline ? '' : '0',
     left: inline ? '' : '0',
     width: inline ? 'auto' : '100%',
-    lineHeight: '1.5',
+    lineHeight: '1',
   });
 
   return wrapper;
