@@ -22,7 +22,7 @@ function createTexasMessageElement({ inline = false } = {}) {
   `;
 
   Object.assign(wrapper.style, {
-    background: '#333f48',
+    background: '#bf5700',
     color: '#3d1f00',
     padding: '8px 12px',
     borderRadius: inline ? '10px' : '0 0 10px 10px',
