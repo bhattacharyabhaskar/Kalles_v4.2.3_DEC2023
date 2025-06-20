@@ -5,7 +5,7 @@ function createTexasMessageElement({ inline = false } = {}) {
   wrapper.id = 'ivy-texas-banner';
   wrapper.innerHTML = `
     <div style="display: flex; align-items: center; justify-content: center; flex: 1; gap: 8px; flex-wrap: wrap; text-align: center;">
-      <strong style="font-size: 16.5px;">Shipping to Texas?</strong><br>
+      <strong style="font-size: 16.5px;">Shipping to Texas?</strong>
       Get your sales tax back in <strong>IndyVogue eGift Card</strong> within <strong>10 days</strong> of delivery.
     </div>
     ${!inline ? `
