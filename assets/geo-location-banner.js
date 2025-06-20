@@ -2,13 +2,12 @@ function createTexasMessageElement({ inline = false } = {}) {
   const wrapper = document.createElement('div');
   wrapper.id = 'ivy-texas-banner';
   wrapper.innerHTML = `
-  <div style="font-size: 20px;">🎉</div>
-  <div style="display: flex; flex-direction: column; flex: 1; gap: 4px; max-width: 100%;">
-    <div style="font-size: 16px; font-weight: 600;">Shipping to Texas?</div>
-    <div>Get your sales tax back as an</div>
-    <div><strong>IndyVogue eGift Card</strong> within <strong>10 days</strong> of delivery.</div>
-  </div>
-  ${!inline ? `
+    <div style="font-size: 20px;">🎉</div>
+    <div style="flex: 1;">
+      <strong style="font-size: 16.5px;">Shipping to Texas?</strong><br>
+      Get Your Sales Tax back in <strong>IndyVogue eGift Card</strong> within <strong>10 days</strong> of delivery.
+    </div>
+    ${!inline ? `
     <button id="ivy-texas-close" aria-label="Close" style="
       background: transparent;
       border: none;
@@ -19,7 +18,8 @@ function createTexasMessageElement({ inline = false } = {}) {
       margin-left: 6px;
       align-self: start;
     ">&times;</button>` : ''}
-`;
+  `;
+
   Object.assign(wrapper.style, {
     background: '#fff4c2',
     color: '#3d1f00',
