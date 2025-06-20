@@ -98,13 +98,26 @@
         {% render 'custom-css' %}
 
 
-{% if template contains 'collection' and current_tags %}
-  <meta name="robots" content="noindex" />
-  <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
-{% else %}
-    <!-- <link rel="canonical" href="{{ canonical_url }}" /> -->
-{% endif %}
-
+      {% if template contains 'collection' and current_tags %}
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
+      {% else %}
+          <!-- <link rel="canonical" href="{{ canonical_url }}" /> -->
+      {% endif %}
+      <script>
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadTexasBannerLogic);
+      } else {
+        setTimeout(loadTexasBannerLogic, 200); // Fallback
+      }
+      
+      function loadTexasBannerLogic() {
+        const script = document.createElement('script');
+        script.src = '{{ "geo-location-banner.js" | asset_url }}';
+        script.defer = true;
+        document.head.appendChild(script);
+      }
+      </script>
 
       
     </head>
