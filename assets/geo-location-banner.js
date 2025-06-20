@@ -18,7 +18,7 @@ function createTexasMessageElement({ inline = false } = {}) {
       color: #3d1f00;
       cursor: pointer;
       margin-left: 6px;
-      align-self: start;
+      align-self: center;
     ">&times;</button>` : ''}
   `;
 
@@ -32,7 +32,8 @@ function createTexasMessageElement({ inline = false } = {}) {
     borderBottom: '2px solid #e3b43f',
     boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
     display: 'flex',
-    alignItems: 'flex-start',
+    alignItems: 'center',
+    justifyContent: 'center',
     gap: '8px',
     zIndex: '9999',
     position: inline ? 'relative' : 'fixed',
