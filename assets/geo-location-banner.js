@@ -88,6 +88,9 @@ function showTexasMessage() {
         localStorage.setItem(geoKey, JSON.stringify(data));
         if (isTexas(data)) {
           showTexasMessage();
+        } else {
+          markCartAsGeoOverride();
+        }
       })
       .catch((err) => console.warn('[IndyVogue] Geo fetch failed:', err));
   }
