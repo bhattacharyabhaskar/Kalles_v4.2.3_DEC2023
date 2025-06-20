@@ -274,7 +274,7 @@
                         {%- endif -%}
                      {%- endcapture -%}
                      <p class="t4s-cart__tax">{{ taxes_shipping_checkout }}</p>
-
+                      <div id="ivy-texas-egift-message" style="display: none;"></div>
                   {%- when 'agree' -%}
                      {%- capture terms_and_conditions -%}{%- assign page_url = pages[settings.link_conditions].url -%}
                       {%- if page_url != blank -%}
