@@ -14,7 +14,7 @@ function createTexasMessageElement({ inline = false } = {}) {
       border: none;
       font-size: 20px;
       font-weight: bold;
-      color: #3d1f00;
+      color: #fff;
       cursor: pointer;
       margin-left: 6px;
       align-self: center;
