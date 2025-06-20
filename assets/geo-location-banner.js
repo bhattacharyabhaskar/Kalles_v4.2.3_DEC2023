@@ -50,7 +50,7 @@ function showTexasMessage() {
   const isInline = !!inlineTarget;
 
   // Only suppress top banner if dismissed
-  if (!isInline && localStorage.getItem('ivyTexasBannerDismissed') === 'true') {
+  if (!isInline && sessionStorage.getItem('ivyTexasBannerDismissed') === 'true') {
     console.log('[TexasBanner] Top banner dismissed previously. Skipping display.');
     return;
   }
@@ -68,7 +68,7 @@ function showTexasMessage() {
 
     document.getElementById('ivy-texas-close')?.addEventListener('click', function () {
       console.log('[TexasBanner] Top banner dismissed by user.');
-      localStorage.setItem('ivyTexasBannerDismissed', 'true');
+      sessionStorage.setItem('ivyTexasBannerDismissed', 'true');
       banner.remove();
       document.body.style.paddingTop = null;
     });
@@ -85,7 +85,7 @@ function showTexasMessage() {
     data?.country === 'US';
 
   try {
-    geoData = JSON.parse(localStorage.getItem(geoKey));
+    geoData = JSON.parse(sessionStorage.getItem(geoKey));
     console.log('[TexasBanner] Cached geo data found:', geoData);
   } catch {
     geoData = null;
@@ -105,7 +105,7 @@ function showTexasMessage() {
       .then((res) => res.json())
       .then((data) => {
         console.log('[TexasBanner] Geo fetched:', data);
-        localStorage.setItem(geoKey, JSON.stringify(data));
+        sessionStorage.setItem(geoKey, JSON.stringify(data));
         if (isTexas(data)) {
           console.log('[TexasBanner] User is from Texas (fresh). Showing banner.');
           showTexasMessage();
