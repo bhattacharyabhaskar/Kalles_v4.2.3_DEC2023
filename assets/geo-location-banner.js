@@ -1,15 +1,13 @@
 function createTexasMessageElement({ inline = false } = {}) {
-  console.log(`[TexasBanner] Creating message element. Inline: ${inline}`);
-
   const wrapper = document.createElement('div');
   wrapper.id = 'ivy-texas-banner';
-  wrapper.innerHTML = `
+  wrapper.innerHTML = 
     <div style="font-size: 20px;">🎉</div>
     <div style="flex: 1;">
       <strong style="font-size: 16.5px;">Shipping to Texas?</strong><br>
       Get Your Sales Tax back in <strong>IndyVogue eGift Card</strong> within <strong>10 days</strong> of delivery.
     </div>
-    ${!inline ? `
+    ${!inline ? 
     <button id="ivy-texas-close" aria-label="Close" style="
       background: transparent;
       border: none;
@@ -19,8 +17,8 @@ function createTexasMessageElement({ inline = false } = {}) {
       cursor: pointer;
       margin-left: 6px;
       align-self: start;
-    ">&times;</button>` : ''}
-  `;
+    ">&times;</button> : ''}
+  ;
 
   Object.assign(wrapper.style, {
     background: '#fff4c2',
@@ -45,28 +43,19 @@ function createTexasMessageElement({ inline = false } = {}) {
 }
 
 function showTexasMessage() {
-  if (localStorage.getItem('ivyTexasBannerDismissed') === 'true') {
-    console.log('[TexasBanner] Banner was previously dismissed. Skipping display.');
-    return;
-  }
+  if (localStorage.getItem('ivyTexasBannerDismissed') === 'true') return;
 
   const inlineTarget = document.getElementById('ivy-texas-egift-message');
   const isInline = !!inlineTarget;
-  console.log(`[TexasBanner] Showing banner. Inline mode: ${isInline}`);
-
   const banner = createTexasMessageElement({ inline: isInline });
 
   if (isInline) {
-    console.log('[TexasBanner] Appending banner to inline target.');
     inlineTarget.style.display = 'block';
     inlineTarget.appendChild(banner);
   } else {
-    console.log('[TexasBanner] Injecting floating top banner.');
     document.body.style.paddingTop = '70px';
     document.body.prepend(banner);
-
     document.getElementById('ivy-texas-close')?.addEventListener('click', function () {
-      console.log('[TexasBanner] Banner dismissed by user.');
       localStorage.setItem('ivyTexasBannerDismissed', 'true');
       banner.remove();
       document.body.style.paddingTop = null;
@@ -78,40 +67,31 @@ function showTexasMessage() {
   const geoKey = 'ivyGeoData';
   let geoData;
 
-  const isTexas = (data) =>
-    data?.region === 'Texas' &&
-    data?.region_code === 'TX' &&
-    data?.country === 'US';
-
   try {
     geoData = JSON.parse(localStorage.getItem(geoKey));
-    console.log('[TexasBanner] Cached geo data found:', geoData);
   } catch {
     geoData = null;
-    console.warn('[TexasBanner] Error parsing cached geo data.');
   }
 
+  const isTexas = (data) =>
+    data?.region === 'Texas' && data?.region_code === 'TX' && data?.country === 'US';
+
+ 
   if (geoData) {
     if (isTexas(geoData)) {
-      console.log('[TexasBanner] Cached geo match: User is in Texas.');
       showTexasMessage();
-    } else {
-      console.log('[TexasBanner] Cached geo does not match Texas. Skipping banner.');
-    }
+    } 
   } else {
-    console.log('[TexasBanner] No cached geo data. Fetching from ipapi...');
     fetch('https://ipapi.co/json/')
       .then((res) => res.json())
       .then((data) => {
-        console.log('[TexasBanner] Fetched geo data:', data);
         localStorage.setItem(geoKey, JSON.stringify(data));
         if (isTexas(data)) {
-          console.log('[TexasBanner] Geo match: User is in Texas.');
           showTexasMessage();
         } else {
-          console.log('[TexasBanner] User is not in Texas. No banner shown.');
+          markCartAsGeoOverride();
         }
       })
-      .catch((err) => console.warn('[TexasBanner] Geo fetch failed:', err));
+      .catch((err) => console.warn('[IndyVogue] Geo fetch failed:', err));
   }
 })();
