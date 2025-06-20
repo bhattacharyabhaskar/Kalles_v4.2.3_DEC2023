@@ -28,6 +28,7 @@ function createTexasMessageElement({ inline = false } = {}) {
     borderRadius: inline ? '10px' : '0 0 10px 10px',
     fontSize: '14.5px',
     fontWeight: '500',
+    border: '1px solid #e5d28c',
     borderBottom: '2px solid #e3b43f',
     boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
     display: 'flex',
