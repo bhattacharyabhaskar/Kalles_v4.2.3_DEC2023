@@ -980,4 +980,9 @@ button.t4s-product__description_readm:hover {
     border-radius: 6px;
   }
 }
+/* Bigger badge for Product Detail Page */
+body.template-product .ivy-badge-logo-left img {
+  width: 70px; /* You can adjust this to 60–80px as needed */
+  padding: 4px;
+}
 

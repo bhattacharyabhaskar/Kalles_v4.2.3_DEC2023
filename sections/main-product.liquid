@@ -316,6 +316,13 @@ endif -%}
                   <div class="flickityt4s-page-dots t4s-dots-list carousel--status{{ se_id }}"><span data-current-slide></span> / <span data-total-number></span></div>
                 {%- endif -%}
               </div>
+      
+              {%- if fabric_value contains 'Silk Mark Certified' -%}
+                <div class="ivy-badge-logo-left">
+                    <img src="https://cdn.shopify.com/s/files/1/1469/7362/files/Silk-Mark.png?v=1702234752" alt="Silk Mark Certified" width="80" height="80">
+                </div>
+              {%- endif -%}
+            
               <div data-product-single-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-single-product-badge lazyloadt4s t4s-pa t4s-pe-none t4s-op-0" data-rendert4s="css:{{ 'single-pr-badge.css' | asset_url }}"></div>
               {%- render 'product-btns', se_stts: se_stts, product: product -%}
             </div>
