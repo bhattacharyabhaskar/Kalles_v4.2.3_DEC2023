@@ -20,7 +20,6 @@
   {% assign discount_tiers = discount_tiers_raw | split: ',' %}
   
   {% assign final_price_cents = price_cents %}
-  
   {% for tier in discount_tiers %}
     {% assign tier_parts = tier | split: ':' %}
     {% assign tier_price = tier_parts[0] | strip | plus: 0 %}
@@ -33,7 +32,10 @@
       {% else %}
         {% assign discount = tier_discount | plus: 0 %}
       {% endif %}
-      {% assign final_price_cents = price_cents | minus: discount %}
+      {% if is_sale_collection %}
+      {% else %}
+          {% assign final_price_cents = price_cents | minus: discount %}
+      {% endif %} 
       Debug: Matching tier found (price_cents >= {{ tier_price }}) with discount = {{ discount }}, final_price_cents = {{ final_price_cents }}
     {% endif %}
   {% endfor %}
