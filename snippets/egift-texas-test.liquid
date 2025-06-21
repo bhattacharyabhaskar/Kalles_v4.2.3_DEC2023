@@ -1,29 +1,29 @@
-{% assign test_order_id = request.params.order_id %}
-{% if test_order_id == blank %}
-  <p style="color: red; font-weight: bold;">Please pass an order ID using ?order_id=XXXX</p>
-{% else %}
-  {% assign order = all_orders[test_order_id] %}
-  {% if order %}
+{% if customer %}
+  {% assign found = false %}
+  {% for order in customer.orders %}
     {% assign shipping_state = order.shipping_address.province_code | upcase %}
-    {% assign tx_code = "TX" %}
     {% assign total_tax_val = 0 %}
     {% for tax_line in order.tax_lines %}
       {% assign total_tax_val = total_tax_val | plus: tax_line.price %}
     {% endfor %}
 
-    <div style="border: 2px dashed #bf5700; background: #fff7f0; padding: 16px; margin-top: 20px; border-radius: 8px;">
-      <p><strong>Shipping State:</strong> {{ shipping_state }}</p>
-      <p><strong>Total Tax Charged:</strong> {{ total_tax_val | money }}</p>
-
-      {% if shipping_state == tx_code and total_tax_val > 0 %}
-        <p style="font-size: 16px; margin-top: 12px;">
-          🎁 Since you're in Texas and we’ve charged sales tax, you’ll receive an <strong>IndyVogue eGift Card</strong> of <strong>{{ total_tax_val | money }}</strong> within <strong>10 days</strong> of delivery.
+    {% if shipping_state == "TX" and total_tax_val > 0 %}
+      <div style="border: 2px dashed #bf5700; background: #fff7f0; padding: 16px; margin-top: 20px; border-radius: 8px;">
+        <p><strong>Order #{{ order.name }}</strong></p>
+        <p><strong>Shipping State:</strong> {{ shipping_state }}</p>
+        <p><strong>Total Tax Charged:</strong> {{ total_tax_val | money }}</p>
+        <p style="font-size: 16px;">
+          🎁 Since you're in Texas and we’ve charged sales tax,<br/>
+          you’ll receive an <strong>IndyVogue eGift Card</strong> of <strong>{{ total_tax_val | money }}</strong> within <strong>10 days</strong> of delivery.
         </p>
-      {% else %}
-        <p style="color: gray;">This order does not qualify (either not TX or no sales tax).</p>
-      {% endif %}
-    </div>
-  {% else %}
-    <p style="color: red;">No order found with ID: {{ test_order_id }}</p>
-  {% endif %}
+      </div>
+      {% assign found = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% unless found %}
+    <p style="color: gray;">No qualifying Texas order with sales tax found in your account.</p>
+  {% endunless %}
+{% else %}
+  <p style="color: red;">Please <a href="/account/login">log in</a> to view your eligible orders.</p>
 {% endif %}
