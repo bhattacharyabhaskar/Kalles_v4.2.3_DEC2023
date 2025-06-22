@@ -317,7 +317,7 @@
   font-weight: var(--product-price-weight);
 }
 .t4s-product .t4s-product-price del {
-  color: var(--product-price-color-second);
+  color: #780606;
 }
 .t4s-product .t4s-product-price ins {
   color: var(--product-price-sale-color);
