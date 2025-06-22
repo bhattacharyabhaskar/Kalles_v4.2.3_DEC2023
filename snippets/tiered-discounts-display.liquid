@@ -34,7 +34,7 @@
 
 {%- assign current_cart_total = current_cart_total | divided_by: 100.0 -%}
   
-{%- if is_suite_collection == false  -%}
+{%- if is_suite_collection == false and is_sale_collection == false -%}
     {%- if current_cart_total > 0  -%}
       <!-- Header -->
        <h3 class="tiered-discounts-title">😎 Summer Special Super Sale! 😎</h3> 
