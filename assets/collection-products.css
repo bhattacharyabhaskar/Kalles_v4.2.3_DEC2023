@@ -313,8 +313,9 @@
 }
 .t4s-product .t4s-product-price {
   font-size: var(--product-price-size);
-  color: var(--product-price-color);
+  color: #780606;
   font-weight: var(--product-price-weight);
+  font-size: 1.65rem;
 }
 .t4s-product .t4s-product-price del {
   color: #780606;
