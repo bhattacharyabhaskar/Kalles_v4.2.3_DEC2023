@@ -41,108 +41,6 @@
         "pd_mb": ""
       }
     },
-    "header_menu_home_nxJEFC": {
-      "type": "header_menu_home",
-      "blocks": {
-        "nav_item_6AhYy4": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/Logo-Light-New.webp",
-            "label": "Home",
-            "link": "/"
-          }
-        },
-        "nav_item_K6tGPN": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/Sarees.webp",
-            "label": "Sarees",
-            "link": "shopify://collections/from-the-east"
-          }
-        },
-        "nav_item_PcHbiM": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/Suites.webp",
-            "label": "Suits & Dresses",
-            "link": "shopify://collections/suits-dresses"
-          }
-        },
-        "nav_item_AjfGKk": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/Jewelry.webp",
-            "label": "Jewelry",
-            "link": "shopify://collections/jewelry"
-          }
-        },
-        "nav_item_VDN7pg": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/Blouse.webp",
-            "label": "Designer Blouse",
-            "link": "shopify://collections/designer-blouse"
-          }
-        },
-        "nav_item_ygPNYB": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/bags.webp",
-            "label": "Bags",
-            "link": "shopify://collections/designer-bags"
-          }
-        },
-        "nav_item_qT8cim": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/Stoles.webp",
-            "label": "Stoles",
-            "link": "shopify://collections/stole"
-          }
-        },
-        "nav_item_mNeQzx": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/AboutUs.webp",
-            "label": "About Us",
-            "link": "shopify://pages/about-us"
-          }
-        },
-        "nav_item_nfLeiB": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/review.webp",
-            "label": "Reviews",
-            "link": "shopify://pages/indyvogue-reviews"
-          }
-        },
-        "nav_item_AGUR9C": {
-          "type": "nav_item",
-          "settings": {
-            "icon_image": "shopify://shop_images/Blogs.webp",
-            "label": "Blogs",
-            "link": "shopify://blogs/indyvogue-fashion-center"
-          }
-        }
-      },
-      "block_order": [
-        "nav_item_6AhYy4",
-        "nav_item_K6tGPN",
-        "nav_item_PcHbiM",
-        "nav_item_AjfGKk",
-        "nav_item_VDN7pg",
-        "nav_item_ygPNYB",
-        "nav_item_qT8cim",
-        "nav_item_mNeQzx",
-        "nav_item_nfLeiB",
-        "nav_item_AGUR9C"
-      ],
-      "disabled": true,
-      "name": "Circle Icon Navigation",
-      "settings": {
-        "section_heading": ""
-      }
-    },
     "heading_template": {
       "type": "heading-template",
       "blocks": {
@@ -329,6 +227,14 @@
             "link": "shopify://collections/raw-silk"
           }
         },
+        "nav_item_iX4zTB": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Sale.webp",
+            "label": "Sale",
+            "link": "shopify://collections/sale"
+          }
+        },
         "nav_item_TwRfMF": {
           "type": "nav_item",
           "settings": {
@@ -372,6 +278,7 @@
         "nav_item_GfjVLp",
         "nav_item_9YrLqz",
         "nav_item_96pn7J",
+        "nav_item_iX4zTB",
         "nav_item_TwRfMF",
         "nav_item_EmnJCx",
         "nav_item_aRWG6E"
@@ -524,7 +431,6 @@
   },
   "order": [
     "top",
-    "header_menu_home_nxJEFC",
     "heading_template",
     "header_menu_home_BpWrJt",
     "main",
