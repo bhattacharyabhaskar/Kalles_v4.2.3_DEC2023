@@ -44,6 +44,14 @@
             "link": "shopify://collections/jewelry"
           }
         },
+        "nav_item_cUUm4y": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/Sale.webp",
+            "label": "Sale",
+            "link": "shopify://collections/sale"
+          }
+        },
         "nav_item_dGHn36": {
           "type": "nav_item",
           "settings": {
@@ -98,6 +106,7 @@
         "nav_item_3mnPLc",
         "nav_item_aH9NRD",
         "nav_item_8963Cc",
+        "nav_item_cUUm4y",
         "nav_item_dGHn36",
         "nav_item_HnMCx8",
         "nav_item_pe3NcN",
