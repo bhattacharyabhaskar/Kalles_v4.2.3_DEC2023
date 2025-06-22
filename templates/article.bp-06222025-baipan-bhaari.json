@@ -337,91 +337,6 @@
         "code_cus_css": ""
       }
     },
-    "image_text_BizJA7": {
-      "type": "image_text",
-      "blocks": {
-        "bl_image_emMJF9": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Image_3_2e145998-612f-425b-bb96-a5778561a7a0.png",
-            "col_dk": "12",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
-        "bl_text_E4mXYU": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_image_emMJF9",
-        "bl_text_E4mXYU"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "0",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,0px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_BGGwj7": {
       "type": "image_text",
       "blocks": {
@@ -434,7 +349,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>Reviving Heritage on the Big Screen</h2><p>Costume-led storytelling in <em>Chhaava</em> is likely to spark a renewed interest in traditional handlooms, especially among the younger generation. In an age where fast fashion dominates, seeing timeless sarees worn with pride and purpose on a mainstream platform may encourage viewers to revisit their cultural wardrobes.</p><p>This could lead to a revival of lost weaves and techniques, giving a boost to artisans who have preserved these crafts for generations.</p>",
+            "text": "<h2>Beyond Language, Beyond Borders</h2><p>Despite not knowing Marathi well, the film never once made me feel like an outsider. With subtitles, I laughed, cried, and even paused at emotional moments just to take it all in. But beyond the words, what stayed with me was the visual storytelling—the powerful body language, the expressions, and yes... the sarees.</p><p>Those Nauvaris told a story of their own.</p><h2>Final Thoughts from My Fashion Diary</h2><p><em>Baipan Bhaari Deva</em> wasn’t just a film—it was a feeling. A reminder that tradition never goes out of style. That elegance doesn’t mean extravagance. And that a woman draped in a saree isn’t just dressed beautifully—she is wrapped in strength, legacy, and pride.</p><p>If you haven’t watched it yet, please do. And if you have—tell me you didn’t want to drape a Nauvari the minute it ended!</p><p>Till then,</p><p>I’m off to practice my pleats and yes you can find some look alike of the movie in our store if not then connect with me and I will source for you.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -468,91 +383,6 @@
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": "10px,,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_TztEMN": {
-      "type": "image_text",
-      "blocks": {
-        "bl_image_9CmbH3": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Image_4_3319253b-afe2-4822-b01d-181ba437679f.png",
-            "col_dk": "12",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
-        "bl_text_bbwXwi": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2><br/></h2><h2>My Final Take</h2><p><em>Chhaava</em> is not just a historical drama—it’s a <strong>love letter to India's textile heritage</strong>, especially the saree. It reminds us that the saree is more than a garment; it’s a symbol of identity, power, and timeless beauty. With its visual richness and attention to historical accuracy, the film not only educates but inspires a deep appreciation for our traditions.</p><p><em>In 2025, sarees aren't just surviving—they're stealing the spotlight. And Chhaava is leading the charge.</em></p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_image_9CmbH3",
-        "bl_text_bbwXwi"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,20px,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
@@ -624,9 +454,7 @@
     "featured_collection_wiki_3Rz9Ga",
     "image_text_cy6tq9",
     "featured_collection_wiki_JhJf8c",
-    "image_text_BizJA7",
     "image_text_BGGwj7",
-    "image_text_TztEMN",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }

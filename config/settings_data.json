@@ -906,26 +906,6 @@
               "r_s_v_item": "30"
             }
           },
-          "mega_xYAxY6": {
-            "type": "mega",
-            "settings": {
-              "title": "Sale",
-              "url": "shopify://collections/sale",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "#00badb",
-              "pos_sub": "bottom",
-              "wid": "cus",
-              "cus_wid": 1200,
-              "id": 1,
-              "enable_packery": true,
-              "r_s_h_item": "20",
-              "r_s_v_item": "30"
-            }
-          },
           "ab886db1-7d4b-480d-8ef7-12f529243e9d": {
             "type": "mega",
             "settings": {
@@ -985,7 +965,6 @@
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
-          "mega_xYAxY6",
           "ab886db1-7d4b-480d-8ef7-12f529243e9d",
           "5b6c83d1-eb1d-42b8-a11c-5df6ac1cfce1",
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0"
