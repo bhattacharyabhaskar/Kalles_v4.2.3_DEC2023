@@ -656,7 +656,7 @@ button.t4s-product-form__submit[disabled="disabled"]{
   font-size: var(--price-size);
   line-height: var(--price-size);
   font-weight: var(--price-weight);
-  color: var(--price-color);
+  color: #780606;
 }
 .t4s-product__info-container .t4s-product-price ins{
   color: var(--price-sale-color);
