@@ -906,6 +906,26 @@
               "r_s_v_item": "30"
             }
           },
+          "mega_xYAxY6": {
+            "type": "mega",
+            "settings": {
+              "title": "Sale",
+              "url": "shopify://collections/sale",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "#00badb",
+              "pos_sub": "bottom",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "id": 1,
+              "enable_packery": true,
+              "r_s_h_item": "20",
+              "r_s_v_item": "30"
+            }
+          },
           "ab886db1-7d4b-480d-8ef7-12f529243e9d": {
             "type": "mega",
             "settings": {
@@ -965,6 +985,7 @@
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8",
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53",
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2",
+          "mega_xYAxY6",
           "ab886db1-7d4b-480d-8ef7-12f529243e9d",
           "5b6c83d1-eb1d-42b8-a11c-5df6ac1cfce1",
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0"
@@ -1566,7 +1587,7 @@
           "3020fbd9-2b42-4f3d-a8ac-dbae30f0b11c": {
             "type": "menu",
             "settings": {
-              "title": "Sarees By TYPES",
+              "title": "SAREES BY TYPE",
               "url": "shopify://collections/buy-silk-mark-certified-saree",
               "open_link": "_self",
               "menu": "sarees",
@@ -1579,7 +1600,7 @@
           "70ca216d-cd27-4e8d-987f-032c9a5e5f30": {
             "type": "menu",
             "settings": {
-              "title": "Sarees By COLOR",
+              "title": "SAREES BY COLOR",
               "url": "",
               "open_link": "_self",
               "menu": "sarees-by-color",
@@ -1592,7 +1613,7 @@
           "1a3410a1-d173-4385-bfc7-76631abe000b": {
             "type": "menu",
             "settings": {
-              "title": "Sarees By REGION",
+              "title": "SAREES BY REGION",
               "url": "",
               "open_link": "_self",
               "menu": "sarees-by-region",
@@ -1605,20 +1626,20 @@
           "cb643dc3-619e-4923-8fcc-24e00c3ca571": {
             "type": "menu",
             "settings": {
-              "title": "Sarees By OCCASION",
+              "title": "SAREES BY OCCASION",
               "url": "",
               "open_link": "_self",
               "menu": "sarees-by-occassion",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
-              "icon": "las la-envelope-open"
+              "icon": "las la-glass-cheers"
             }
           },
           "96cd5ee2-7fb3-4347-af0d-62d296d2ada2": {
             "type": "menu",
             "settings": {
-              "title": "Sarees By WORK",
+              "title": "SAREES BY WORK",
               "url": "",
               "open_link": "_self",
               "menu": "sarees-by-work",
@@ -1631,14 +1652,27 @@
           "266053f4-3578-4642-b1c4-51d728350217": {
             "type": "menu",
             "settings": {
-              "title": "Sarres By PRICE",
+              "title": "SAREES BY PRICE",
               "url": "",
               "open_link": "_self",
               "menu": "sarees-by-price",
               "lb": "",
               "lb_cl": "",
               "icons_op": "2",
-              "icon": "las la-search-dollar"
+              "icon": "las la-dollar-sign"
+            }
+          },
+          "menu_eQ8xzk": {
+            "type": "menu",
+            "settings": {
+              "title": "SAREE SALE",
+              "url": "shopify://collections/sale",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-percent"
             }
           },
           "menu_zdHwrG": {
@@ -1746,6 +1780,7 @@
           "cb643dc3-619e-4923-8fcc-24e00c3ca571",
           "96cd5ee2-7fb3-4347-af0d-62d296d2ada2",
           "266053f4-3578-4642-b1c4-51d728350217",
+          "menu_eQ8xzk",
           "menu_zdHwrG",
           "1696b437-baa3-4a20-b9df-4a313378650d",
           "cd715ea2-0793-40bd-8faa-298e85285527",
