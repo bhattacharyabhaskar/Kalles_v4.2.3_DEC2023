@@ -53,8 +53,7 @@
         {% comment %}
             // BB: For all collections canonical url 
         {% endcomment %}
-       <link rel="canonical" href="{{ canonical_url }}">
-
+      
         <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
         {%- if settings.favicon != blank %}
             <link rel="shortcut icon" type="image/png" href="{{ settings.favicon | image_url: width: 32 }}">
@@ -95,12 +94,6 @@
         {% render 'custom-css' %}
 
 
-      {% if template contains 'collection' and current_tags %}
-        <meta name="robots" content="noindex" />
-        <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
-      {% else %}
-          <!-- <link rel="canonical" href="{{ canonical_url }}" /> -->
-      {% endif %}
 
       
       <script>
