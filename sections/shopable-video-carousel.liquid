@@ -4,18 +4,18 @@
   "settings": [],
   "blocks": [
     {
-      "type": "video_slide",
-      "name": "Video Slide",
+      "type": "video_item",
+      "name": "Video Item",
       "settings": [
         {
           "type": "url",
           "id": "video_url",
-          "label": "Video URL (MP4 or YouTube Embed)"
+          "label": "Video URL (uploaded via Settings > Files)"
         },
         {
           "type": "image_picker",
           "id": "poster_image",
-          "label": "Poster Thumbnail (Fallback)"
+          "label": "Poster Image"
         },
         {
           "type": "product",
@@ -34,53 +34,103 @@
 }
 {% endschema %}
 
-<div class="shoppable-video-carousel flickityt4s" data-flickity='{"wrapAround": true, "pageDots": false }'>
+<div class="ivy-carousel flickityt4s" data-flickity='{"wrapAround": true, "pageDots": false }'>
   {% for block in section.blocks %}
     {% assign product = all_products[block.settings.linked_product] %}
-    <div class="carousel-cell">
-      <div class="video-wrapper">
-        <video 
-          poster="{{ block.settings.poster_image | img_url: 'master' }}" 
-          controls playsinline preload="metadata"
-          {% if block.settings.video_url contains 'youtube' %}
-            src=""
-          {% else %}
-            src="{{ block.settings.video_url }}"
-          {% endif %}
-        ></video>
+    <div class="carousel-cell" data-block-index="{{ forloop.index0 }}">
+      <div class="thumbnail-mode">
+        <img class="poster" src="{{ block.settings.poster_image | img_url: 'master' }}" alt="Poster" loading="lazy" />
+        <div class="overlay-button">▶</div>
       </div>
-      <div class="product-info">
-        <h4><a href="{{ product.url }}">{{ product.title }}</a></h4>
-        <p>{{ product.price | money }}</p>
-        <form method="post" action="/cart/add">
-          <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-          <button type="submit" class="btn">Add to Cart</button>
-        </form>
+      <div class="video-mode" style="display: none;">
+        <video 
+          src="{{ block.settings.video_url }}" 
+          poster="{{ block.settings.poster_image | img_url: 'master' }}" 
+          controls autoplay playsinline
+        ></video>
+        <div class="product-details">
+          <h4><a href="{{ product.url }}">{{ product.title }}</a></h4>
+          <p>{{ product.price | money }}</p>
+          <form method="post" action="/cart/add">
+            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+            <button type="submit" class="btn">Add to Cart</button>
+          </form>
+        </div>
       </div>
     </div>
   {% endfor %}
 </div>
 
 <style>
-.shoppable-video-carousel .carousel-cell {
+.ivy-carousel .carousel-cell {
   width: 80%;
+  max-width: 500px;
   margin: 0 auto;
+  position: relative;
   text-align: center;
 }
-.shoppable-video-carousel video {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
+.thumbnail-mode {
+  position: relative;
+  cursor: pointer;
 }
-.shoppable-video-carousel .product-info {
+.poster {
+  width: 100%;
+  border-radius: 10px;
+}
+.overlay-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-mode video {
+  width: 100%;
+  border-radius: 10px;
+}
+.product-details {
   margin-top: 12px;
 }
-.shoppable-video-carousel .btn {
-  margin-top: 8px;
-  padding: 10px 16px;
+.product-details h4 {
+  margin: 6px 0;
+  font-size: 16px;
+}
+.product-details .btn {
+  padding: 8px 14px;
   background: #4b0000;
-  color: #fff;
+  color: white;
   border: none;
+  border-radius: 6px;
   cursor: pointer;
 }
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('.carousel-cell').forEach(cell => {
+    const thumb = cell.querySelector('.thumbnail-mode');
+    const video = cell.querySelector('.video-mode');
+
+    thumb.addEventListener('click', function () {
+      thumb.style.display = 'none';
+      video.style.display = 'block';
+
+      const videoEl = video.querySelector('video');
+      videoEl.play();
+
+      // Optionally: Pause all other videos
+      document.querySelectorAll('.video-mode video').forEach(v => {
+        if (v !== videoEl) v.pause();
+      });
+    });
+  });
+});
+</script>
