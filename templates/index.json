@@ -1676,6 +1676,23 @@
         "9ef838d1-083b-4f7c-9d77-1914496936a0"
       ],
       "settings": {}
+    },
+    "shopable_video_carousel_G6CgXp": {
+      "type": "shopable-video-carousel",
+      "blocks": {
+        "video_slide_pBwkCg": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "",
+            "linked_product": "snuff-brown-color-pure-kanjeevaram-silk-with-double-border-ganga-jamuna-saree"
+          }
+        }
+      },
+      "block_order": [
+        "video_slide_pBwkCg"
+      ],
+      "name": "Shoppable Video Carousel",
+      "settings": {}
     }
   },
   "order": [
@@ -1701,6 +1718,7 @@
     "16460368750174c54a",
     "1749996823421984fb",
     "custom_liquid_bB8QjJ",
-    "17022330082d8df317"
+    "17022330082d8df317",
+    "shopable_video_carousel_G6CgXp"
   ]
 }
