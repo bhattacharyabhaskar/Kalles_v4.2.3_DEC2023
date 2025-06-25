@@ -1,136 +1,195 @@
 {% schema %}
 {
-  "name": "Shoppable Video Carousel",
-  "settings": [],
+  "name": "Shopable Video",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "From Loom to Elegance"
+    },
+    {
+      "type": "textarea",
+      "id": "section_description",
+      "label": "Section Description",
+      "default": "Watch how our sarees and blouses come to life — handcrafted by master artisans across India."
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Section Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Section Heading Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "description_alignment",
+      "label": "Section Description Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "desktop_layout",
+      "label": "Desktop Layout",
+      "default": "three-column",
+      "options": [
+        { "value": "two-column", "label": "2 Columns" },
+        { "value": "three-column", "label": "3 Columns" },
+        { "value": "six-inline", "label": "6 Inline" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "font_size_desktop",
+      "label": "Font Size for Desktop (px)",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "font_size_mobile",
+      "label": "Font Size for Mobile (px)",
+      "min": 10,
+      "max": 22,
+      "step": 1,
+      "default": 14
+    }
+  ],
   "blocks": [
     {
-      "type": "video_item",
-      "name": "Video Item",
+      "type": "video",
+      "name": "Video Block",
       "settings": [
-        {
-          "type": "url",
-          "id": "video_url",
-          "label": "Video URL (uploaded via Settings > Files)"
-        },
-        {
-          "type": "image_picker",
-          "id": "poster_image",
-          "label": "Poster Image"
-        },
-        {
-          "type": "product",
-          "id": "linked_product",
-          "label": "Linked Product"
-        }
+        { "type": "text", "id": "video_title", "label": "Video Title" },
+        { "type": "textarea", "id": "video_caption", "label": "Caption" },
+        { "type": "text", "id": "video_tags", "label": "Tags (comma-separated)" },
+        { "type": "url", "id": "video_url", "label": "Video URL (.mp4 or .webm)" },
+        { "type": "image_picker", "id": "thumbnail", "label": "Thumbnail Image" },
+        { "type": "checkbox", "id": "autoplay", "label": "Autoplay", "default": true },
+        { "type": "product", "id": "linked_product", "label": "Linked Product" }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Shoppable Video Carousel",
-      "category": "Media"
+      "name": "Shopable Video",
+      "category": "Custom"
     }
   ]
 }
 {% endschema %}
 
-<div class="ivy-carousel flickityt4s" data-flickity='{"wrapAround": true, "pageDots": false }'>
-  {% for block in section.blocks %}
-    {% assign product = all_products[block.settings.linked_product] %}
-    <div class="carousel-cell" data-block-index="{{ forloop.index0 }}">
-      <div class="thumbnail-mode">
-        <img class="poster" src="{{ block.settings.poster_image | img_url: 'master' }}" alt="Poster" loading="lazy" />
-        <div class="overlay-button">▶</div>
+<div class="crafted-video-gallery" style="background-color: {{ section.settings.background_color }}">
+  <h2 style="text-align: {{ section.settings.heading_alignment }}">{{ section.settings.section_heading }}</h2>
+  <p style="text-align: {{ section.settings.description_alignment }}">{{ section.settings.section_description }}</p>
+
+  <div class="crafted-video-carousel video-layout-{{ section.settings.desktop_layout }}">
+    {% for block in section.blocks %}
+      {% assign product = all_products[block.settings.linked_product] %}
+      <div class="crafted-video-block">
+        <video
+          controls
+          playsinline
+          muted
+          {% if block.settings.autoplay %}autoplay{% endif %}
+          loop
+          preload="metadata"
+          poster="{{ block.settings.thumbnail | img_url: '480x' }}"
+          aria-label="{{ block.settings.video_title }}"
+        >
+          <source src="{{ block.settings.video_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="crafted-video-title">{{ block.settings.video_title }}</div>
+        <div class="crafted-video-caption">{{ block.settings.video_caption }}</div>
+        <div class="crafted-video-tags">{{ block.settings.video_tags }}</div>
+
+        {% if product %}
+          <div class="crafted-video-product">
+            <h4><a href="{{ product.url }}">{{ product.title }}</a></h4>
+            <p>{{ product.price | money }}</p>
+            <form method="post" action="/cart/add">
+              <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+              <button type="submit" class="btn">Add to Cart</button>
+            </form>
+          </div>
+        {% endif %}
       </div>
-      <div class="video-mode" style="display: none;">
-        <video 
-          src="{{ block.settings.video_url }}" 
-          poster="{{ block.settings.poster_image | img_url: 'master' }}" 
-          controls autoplay playsinline
-        ></video>
-        <div class="product-details">
-          <h4><a href="{{ product.url }}">{{ product.title }}</a></h4>
-          <p>{{ product.price | money }}</p>
-          <form method="post" action="/cart/add">
-            <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-            <button type="submit" class="btn">Add to Cart</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>
 
 <style>
-.ivy-carousel .carousel-cell {
-  width: 80%;
-  max-width: 500px;
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-}
-.thumbnail-mode {
-  position: relative;
-  cursor: pointer;
-}
-.poster {
-  width: 100%;
-  border-radius: 10px;
-}
-.overlay-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 48px;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  border-radius: 50%;
-  width: 64px;
-  height: 64px;
+.crafted-video-carousel {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 10px;
+  margin-top: 2rem;
 }
-.video-mode video {
+.crafted-video-block {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: #fff;
+  text-align: center;
+  max-width: 100%;
+}
+.crafted-video-block video,
+.crafted-video-block img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 12px;
+  display: block;
 }
-.product-details {
+.crafted-video-title {
+  font-weight: bold;
+  margin-top: 0.75rem;
+}
+.crafted-video-caption {
+  font-size: 1rem;
+}
+.crafted-video-tags {
+  font-size: 0.8rem;
+  color: #777;
+}
+.crafted-video-product {
   margin-top: 12px;
 }
-.product-details h4 {
-  margin: 6px 0;
+.crafted-video-product h4 {
+  margin: 6px 0 4px;
   font-size: 16px;
 }
-.product-details .btn {
+.crafted-video-product p {
+  font-weight: bold;
+  color: #222;
+}
+.crafted-video-product .btn {
+  margin-top: 8px;
   padding: 8px 14px;
   background: #4b0000;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
 }
 </style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll('.carousel-cell').forEach(cell => {
-    const thumb = cell.querySelector('.thumbnail-mode');
-    const video = cell.querySelector('.video-mode');
-
-    thumb.addEventListener('click', function () {
-      thumb.style.display = 'none';
-      video.style.display = 'block';
-
-      const videoEl = video.querySelector('video');
-      videoEl.play();
-
-      // Optionally: Pause all other videos
-      document.querySelectorAll('.video-mode video').forEach(v => {
-        if (v !== videoEl) v.pause();
-      });
-    });
-  });
-});
-</script>
