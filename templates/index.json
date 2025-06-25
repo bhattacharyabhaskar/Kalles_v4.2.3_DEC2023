@@ -1676,6 +1676,36 @@
         "9ef838d1-083b-4f7c-9d77-1914496936a0"
       ],
       "settings": {}
+    },
+    "shopable_video_carousel_xK8w9Q": {
+      "type": "shopable-video-carousel",
+      "blocks": {
+        "video_BLAFME": {
+          "type": "video",
+          "settings": {
+            "video_title": "",
+            "video_caption": "",
+            "video_tags": "",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/15bf7dd8c4934735856533c6b5cfcc5b.mp4",
+            "autoplay": true,
+            "linked_product": "snuff-brown-color-pure-kanjeevaram-silk-with-double-border-ganga-jamuna-saree"
+          }
+        }
+      },
+      "block_order": [
+        "video_BLAFME"
+      ],
+      "name": "Shopable Video",
+      "settings": {
+        "section_heading": "From Loom to Elegance",
+        "section_description": "Watch how our sarees and blouses come to life — handcrafted by master artisans across India.",
+        "background_color": "#ffffff",
+        "heading_alignment": "center",
+        "description_alignment": "center",
+        "desktop_layout": "three-column",
+        "font_size_desktop": 16,
+        "font_size_mobile": 14
+      }
     }
   },
   "order": [
@@ -1701,6 +1731,7 @@
     "16460368750174c54a",
     "1749996823421984fb",
     "custom_liquid_bB8QjJ",
-    "17022330082d8df317"
+    "17022330082d8df317",
+    "shopable_video_carousel_xK8w9Q"
   ]
 }
