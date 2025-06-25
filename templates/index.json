@@ -1680,16 +1680,17 @@
     "shopable_video_carousel_G6CgXp": {
       "type": "shopable-video-carousel",
       "blocks": {
-        "video_slide_pBwkCg": {
-          "type": "video_slide",
+        "video_item_YgiRib": {
+          "type": "video_item",
           "settings": {
-            "video_url": "",
-            "linked_product": "snuff-brown-color-pure-kanjeevaram-silk-with-double-border-ganga-jamuna-saree"
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/15bf7dd8c4934735856533c6b5cfcc5b.mp4",
+            "poster_image": "shopify://shop_images/FullSizeRender_88ad634b-5e6d-4978-9bcc-1be85db9adbb.jpg",
+            "linked_product": "3d-bishnupur-katan-silk-with-hand-gujrati-stitch-work"
           }
         }
       },
       "block_order": [
-        "video_slide_pBwkCg"
+        "video_item_YgiRib"
       ],
       "name": "Shoppable Video Carousel",
       "settings": {}
