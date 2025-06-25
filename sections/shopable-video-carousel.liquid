@@ -1,6 +1,86 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Shoppable Video Carousel",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "video_slide",
+      "name": "Video Slide",
+      "settings": [
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video URL (MP4 or YouTube Embed)"
+        },
+        {
+          "type": "image_picker",
+          "id": "poster_image",
+          "label": "Poster Thumbnail (Fallback)"
+        },
+        {
+          "type": "product",
+          "id": "linked_product",
+          "label": "Linked Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shoppable Video Carousel",
+      "category": "Media"
+    }
+  ]
+}
 {% endschema %}
+
+<div class="shoppable-video-carousel flickityt4s" data-flickity='{"wrapAround": true, "pageDots": false }'>
+  {% for block in section.blocks %}
+    {% assign product = all_products[block.settings.linked_product] %}
+    <div class="carousel-cell">
+      <div class="video-wrapper">
+        <video 
+          poster="{{ block.settings.poster_image | img_url: 'master' }}" 
+          controls playsinline preload="metadata"
+          {% if block.settings.video_url contains 'youtube' %}
+            src=""
+          {% else %}
+            src="{{ block.settings.video_url }}"
+          {% endif %}
+        ></video>
+      </div>
+      <div class="product-info">
+        <h4><a href="{{ product.url }}">{{ product.title }}</a></h4>
+        <p>{{ product.price | money }}</p>
+        <form method="post" action="/cart/add">
+          <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+          <button type="submit" class="btn">Add to Cart</button>
+        </form>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+.shoppable-video-carousel .carousel-cell {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.shoppable-video-carousel video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+.shoppable-video-carousel .product-info {
+  margin-top: 12px;
+}
+.shoppable-video-carousel .btn {
+  margin-top: 8px;
+  padding: 10px 16px;
+  background: #4b0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+</style>
