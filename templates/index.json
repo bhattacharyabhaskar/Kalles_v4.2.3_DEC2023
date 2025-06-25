@@ -1680,6 +1680,41 @@
     "shopable_video_carousel_G6CgXp": {
       "type": "shopable-video-carousel",
       "blocks": {
+        "video_item_jb7AAW": {
+          "type": "video_item",
+          "settings": {
+            "video_url": "",
+            "linked_product": ""
+          }
+        },
+        "video_item_byRGUf": {
+          "type": "video_item",
+          "settings": {
+            "video_url": "",
+            "linked_product": ""
+          }
+        },
+        "video_item_LaytHx": {
+          "type": "video_item",
+          "settings": {
+            "video_url": "",
+            "linked_product": ""
+          }
+        },
+        "video_item_dtadmL": {
+          "type": "video_item",
+          "settings": {
+            "video_url": "",
+            "linked_product": ""
+          }
+        },
+        "video_item_X4XJN4": {
+          "type": "video_item",
+          "settings": {
+            "video_url": "",
+            "linked_product": ""
+          }
+        },
         "video_item_YgiRib": {
           "type": "video_item",
           "settings": {
@@ -1690,6 +1725,11 @@
         }
       },
       "block_order": [
+        "video_item_jb7AAW",
+        "video_item_byRGUf",
+        "video_item_LaytHx",
+        "video_item_dtadmL",
+        "video_item_X4XJN4",
         "video_item_YgiRib"
       ],
       "name": "Shoppable Video Carousel",
