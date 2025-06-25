@@ -87,31 +87,24 @@ function showTexasMessage() {
 
   try {
     geoData = JSON.parse(sessionStorage.getItem(geoKey));
-    console.log('[TexasBanner] Cached geo data found:', geoData);
   } catch {
     geoData = null;
-    console.warn('[TexasBanner] Error parsing cached geo data.');
   }
 
   if (geoData) {
     if (isTexas(geoData)) {
-      console.log('[TexasBanner] User is from Texas (cached). Showing banner.');
       showTexasMessage();
     } else {
-      console.log('[TexasBanner] User not in Texas (cached). No banner.');
     }
   } else {
     console.log('[TexasBanner] Fetching geo data...');
     fetch('https://ipapi.co/json/')
       .then((res) => res.json())
       .then((data) => {
-        console.log('[TexasBanner] Geo fetched:', data);
         sessionStorage.setItem(geoKey, JSON.stringify(data));
         if (isTexas(data)) {
-          console.log('[TexasBanner] User is from Texas (fresh). Showing banner.');
           showTexasMessage();
         } else {
-          console.log('[TexasBanner] User not in Texas. No banner.');
         }
       })
       .catch((err) => console.warn('[TexasBanner] Geo fetch failed:', err));
