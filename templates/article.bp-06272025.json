@@ -733,6 +733,231 @@
         "code_cus_css": ""
       }
     },
+    "image_text_BmfJwq": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_4KYcpU": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>5. Satin-Crepe</h3><p>Looking for something that transitions from day to night? Satin crepe gives you that luxe drape without weighing you down.</p><p><em>Styling tip:</em> A high ponytail, statement earrings, and heels turn this into an easy party-ready look.<br/></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_4KYcpU"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 10,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_BepXXM": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_CdLbjR": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_2_b7e54631-8820-4a0f-ba5e-d62769a5b3ed.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_HaHYEb": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Where to Wear What: Your Saree-by-Occasion Vacation Edit",
+            "text": "<p>Let’s take your wardrobe planning one step further. Here’s how to match your saree to your travel mood:</p><h3>1. Brunch in the Hills or City Café</h3><ul><li><strong>Pick:</strong> Hand-block printed cotton or linen saree<br/><br/></li><li><strong>Why:</strong> Easy to sit, walk, and sip lattes in<br/><br/></li><li><strong>Style Tip:</strong> Go sleeveless or noodle-strap blouse, oversized shades, and a sleek belt if you want a modern drape</li></ul><h3>2. Beach Day or Coastal Walk</h3><ul><li><strong>Pick:</strong> Chiffon or cotton mul with tropical prints<br/><br/></li><li><strong>Why:</strong> They dry quickly and flow with the sea breeze<br/><br/></li><li><strong>Style Tip:</strong> Halter neck blouse, shell jewellery, barefoot or flip flops</li></ul><h3>3. Cultural Tours or Heritage Site Visits</h3><ul><li><strong>Pick:</strong> Linen or soft khadi saree<br/><br/></li><li><strong>Why:</strong> Modest yet fashionable; perfect for temples or museums<br/><br/></li><li><strong>Style Tip:</strong> Add a stole, kolhapuri chappals, and oxidised silver earrings</li></ul><h3>4. Sunset Dinner or Date Night</h3><ul><li><strong>Pick:</strong> Satin crepe or printed organza<br/><br/></li><li><strong>Why:</strong> Effortlessly elegant with minimal effort<br/><br/></li><li><strong>Style Tip:</strong> Choose darker hues, bold lipstick, and a neat drape</li></ul><h3>5. Relaxed Morning Strolls or Reading Nooks</h3><ul><li><strong>Pick:</strong> Mul cotton or light handloom<br/><br/></li><li><strong>Why:</strong> Comfortable and breathable for slow travel days<br/><br/></li></ul><p><strong>Style Tip:</strong> Loose braid, reading glasses, and a tote bag for that bookish vibe<br/><br/></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_CdLbjR",
+        "bl_text_HaHYEb"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 10,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_iqhTrz": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_cUCXwA": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_2_b7e54631-8820-4a0f-ba5e-d62769a5b3ed.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_ywxVaq": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "How to Nail the Perfect Saree Vacation Shot",
+            "text": "<p>Travel plus sarees equal <strong>major Instagram goals</strong>. Here’s how to make those pics pop:</p><ul><li><strong>Golden hour lighting</strong>: Plan shoots during sunrise or sunset for soft, dreamy visuals<br/><br/></li><li><strong>Backdrop matters</strong>: Think colorful streets, whitewashed beaches, vintage staircases<br/><br/></li><li><strong>Movement shots</strong>: Let the pallu fly, walk slowly, twirl once or twice!<br/><br/></li><li><strong>Props</strong>: A cup of coffee, a book, or even your passport make the photo storytelling-ready<br/><br/></li></ul><p>Pro tip: Use a belt to control flowy drapes if it's windy or you're walking a lot.</p><h2>A Saree Is Not Just for the Suitcase—It’s for the Soul</h2><p>Sarees are not just for ceremonies anymore. In 2025, they’re <strong>vacation essentials</strong>—as comfortable as your maxi dress, as stylish as a jumpsuit, and ten times more memorable. Whether you're strolling through a French vineyard, attending a coastal wedding, or café-hopping in Pondicherry, there’s a saree for that.</p><p>So go ahead—<strong>reclaim tradition, rewrite fashion rules, and pack that six-yard magic into your travel story</strong>.<br/><br/></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_cUCXwA",
+        "bl_text_ywxVaq"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 10,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -801,6 +1026,9 @@
     "featured_collection_wiki_fFHbaL",
     "image_text_pwcwqj",
     "featured_collection_wiki_wMJcxh",
+    "image_text_BmfJwq",
+    "image_text_BepXXM",
+    "image_text_iqhTrz",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
