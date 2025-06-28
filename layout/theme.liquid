@@ -41,7 +41,18 @@
 		{% elsif template contains 'collection' %}
 			{% render 'breadcrumb-schema-collection' %}
 		{% elsif template contains 'product' %}
-			{% render 'breadcrumb-schema-product' %}
+			{% render 'breadcrumb-schema-product' %} 
+            <link
+              rel="preload"
+              as="image"
+              href="{{ product.featured_image | image_url: width: 1200 }}"
+              imagesrcset="
+                {{ product.featured_image | image_url: width: 600 }} 600w,
+                {{ product.featured_image | image_url: width: 800 }} 800w,
+                {{ product.featured_image | image_url: width: 1200 }} 1200w"
+              imagesizes="(max-width: 768px) 100vw, 50vw"
+              fetchpriority="high"
+            >
 		{% elsif template contains 'article' %}
 			{% render 'article-schema' %}
 		{% else %}
