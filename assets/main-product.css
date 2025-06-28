@@ -987,3 +987,30 @@ body.template-product .ivy-badge-logo-left img {
   padding: 4px;
 }
 
+/* Bigger badge for Product Detail Page */
+body.template-product .ivy-badge-logo-left img {
+  width: 70px; /* You can adjust this to 60–80px as needed */
+  padding: 4px;
+}
+.ivy-sku-box {
+  font-size: 14px;
+  margin-top: 10px;
+  border: 1px dashed #888;
+  padding: 8px 10px;
+  background-color: #fdf7f0;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.ivy-sku-label {
+  font-weight: 600;
+  color: #5b1a1a;
+  margin-right: 6px;
+}
+
+.ivy-sku-code {
+  color: #333;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
