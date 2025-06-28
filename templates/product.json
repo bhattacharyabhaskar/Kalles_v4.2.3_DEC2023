@@ -53,12 +53,6 @@
             "price_sale_color": "#0b9155"
           }
         },
-        "custom_liquid_XFy8qN": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{%- assign is_sale_collection = false -%}\n                  {%- assign is_suite_collection = false -%}\n                  {% for collection in product.collections %}\n                    {% if collection.handle == \"sale\" %}\n                      {% assign is_sale_collection = true %}\n                    {% endif %}\n                    {% if collection.handle == \"suites-dresses\" %}\n                      {% assign is_suite_collection = true %}\n                    {% endif %}\n                  {% endfor %}\n                \n                {%- render 'tiered-discounts-display', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}"
-          }
-        },
         "meta": {
           "type": "meta",
           "settings": {
@@ -70,6 +64,12 @@
             "show_available": false,
             "show_category": false,
             "show_tags": false
+          }
+        },
+        "custom_liquid_XFy8qN": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- assign is_sale_collection = false -%}\n                  {%- assign is_suite_collection = false -%}\n                  {% for collection in product.collections %}\n                    {% if collection.handle == \"sale\" %}\n                      {% assign is_sale_collection = true %}\n                    {% endif %}\n                    {% if collection.handle == \"suites-dresses\" %}\n                      {% assign is_suite_collection = true %}\n                    {% endif %}\n                  {% endfor %}\n                \n                {%- render 'tiered-discounts-display', is_sale_collection: is_sale_collection, is_suite_collection: is_suite_collection -%}"
           }
         },
         "form": {
@@ -192,8 +192,8 @@
         "custom_liquid_WweMRz",
         "title",
         "price_review",
-        "custom_liquid_XFy8qN",
         "meta",
+        "custom_liquid_XFy8qN",
         "form",
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "custom_liquid_RbynLM",
