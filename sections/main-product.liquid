@@ -547,7 +547,7 @@ endif -%}
                       {%- endif -%}
 
                       {%- if bk_stts.show_sku -%} {%- assign ck_meta = true -%}
-                      <div class="t4s-sku-wrapper{% if current_variant.sku == blank %} t4s-dn{% endif %}" data-product-sku>{{ 'products.product.product_sku' | t }} <span class="t4s-productMeta__value t4s-sku-value t4s-csecondary" data-product__sku-number>{{ current_variant.sku }}</span></div>
+                        <div class="t4s-sku-wrapper ivy-sku-box{% if current_variant.sku == blank %} t4s-dn{% endif %}" data-product-sku><strong class="ivy-sku-label">{{ 'products.product.product_sku' | t }}</strong><span class="t4s-productMeta__value t4s-sku-value ivy-sku-code" data-product__sku-number>{{ current_variant.sku }}</span></div>
                       {%- endif -%}
 
                       {%- if bk_stts.show_barcode -%} {%- assign ck_meta = true -%}
