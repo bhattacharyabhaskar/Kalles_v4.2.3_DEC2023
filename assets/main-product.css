@@ -662,7 +662,7 @@ button.t4s-product-form__submit[disabled="disabled"]{
   color: var(--price-sale-color);
   margin-left: 6px;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 600;
 }
 .t4s-product__info-container .t4s-product-price .t4s-labrl-sale span {
   font-size: 14px;
