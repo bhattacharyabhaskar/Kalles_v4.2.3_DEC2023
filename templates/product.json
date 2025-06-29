@@ -30,12 +30,12 @@
         "title": {
           "type": "title",
           "settings": {
-            "txt_tr_pr": "none",
+            "txt_tr_pr": "uppercase",
             "fnt_df_pr": "1",
-            "size_pr": 22,
-            "fw_pr": 600,
-            "lh_pr": 0,
-            "ls_pr": 4,
+            "size_pr": 19,
+            "fw_pr": 400,
+            "lh_pr": 25,
+            "ls_pr": 3,
             "pr_title_color": "#222222"
           }
         },
