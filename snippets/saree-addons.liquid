@@ -1,0 +1,155 @@
+<div class="ivy-upsell-wrapper" style="margin-top: 30px; margin-bottom: 2px; position: relative;">
+  <h4 class="ivy-upsell-header" style="display: inline-block; position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #fefaf8; z-index: 2; color: #4b0000; font-size: 1.4rem; font-weight: 700; text-transform: uppercase; padding: 6px 20px; border: 2px solid #b7499b; border-radius: 10px; font-family: 'Poppins', sans-serif; white-space: nowrap;">
+    INDYVOGUE ADD ON'S
+  </h4>
+
+  <div class="ivy-upsell-border">
+    {% assign addon_collection = collections['saree-addons'] %}
+    {% if addon_collection and addon_collection.products.size > 0 %}
+
+      <style>
+        .ivy-upsell-border {
+          border: 1.5px solid #b7499b;
+          border-radius: 16px;
+          padding: 30px 12px 4px;
+          background: #fff;
+          position: relative;
+        }
+
+        .ivy-upsell-box {
+          display: flex;
+          flex-direction: column;
+          border: 0.5px solid #b7499b;
+          border-radius: 10px;
+          padding: 10px;
+          margin-bottom: 10px;
+          background: #fff;
+          cursor: pointer;
+          position: relative;
+        }
+
+        .ivy-upsell-box.selected {
+          border-color: #a03e87;
+          background: #fff7fb;
+        }
+
+        .ivy-upsell-checkbox {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          width: 20px;
+          height: 20px;
+          z-index: 1;
+        }
+
+        .ivy-upsell-content {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          gap: 12px;
+          flex-wrap: wrap;
+        }
+
+        .ivy-upsell-left {
+          display: flex;
+          gap: 14px;
+          flex: 1 1 auto;
+        }
+
+        .ivy-upsell-left img {
+          width: 60px;
+          height: 60px;
+          object-fit: contain;
+          border-radius: 6px;
+        }
+
+        .ivy-upsell-text {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .ivy-upsell-title {
+          font-weight: 700;
+          color: #4b0000;
+          font-size: 1.3rem;
+          margin-bottom: 4px;
+          padding-top: 4px;
+        }
+
+        .ivy-upsell-price-row {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          margin-bottom: 6px;
+        }
+
+        .ivy-upsell-price-row del {
+          color: #9c989a;
+          font-size: 1rem;
+        }
+
+        .ivy-upsell-price-row ins {
+          text-decoration: none;
+          font-weight: 600;
+          color: #0b9155;
+          font-size: 1.1rem;
+        }
+
+        .ivy-upsell-savings {
+          background: #ff4500;
+          color: white;
+          font-size: 0.85rem;
+          border-radius: 4px;
+          padding: 2px 6px;
+        }
+
+        .ivy-upsell-desc {
+          font-size: 1.1rem;
+          color: #000;
+          margin-bottom: 5px;
+        }
+
+        .ivy-upsell-wrapper p {
+          margin-bottom: 2px;
+        }
+
+        @media (max-width: 767px) {
+          .ivy-upsell-content {
+            flex-wrap: nowrap;
+          }
+          .ivy-upsell-title {
+            font-size: 1rem;
+          }
+        }
+      </style>
+
+      {% assign fabric_type = fabric_type | downcase %}
+      {% assign blouse_piece_value = blouse_piece_value | downcase %}
+
+      {% for addon_product in addon_collection.products %}
+        {% assign variant = addon_product.variants.first %}
+        {% assign addon_title = addon_product.title | downcase %}
+        {% assign addon_sku = variant.sku %}
+        {% assign custom_sku = '' %}
+
+        {% if addon_title contains 'stitched designer blouse' %}
+          {% if fabric_type contains 'silk mark' %}
+            {% assign custom_sku = '11112222-3B' %}
+          {% elsif fabric_type contains 'cotton' %}
+            {% assign custom_sku = '11112222-2B' %}
+          {% else %}
+            {% assign custom_sku = '11112222-1B' %}
+          {% endif %}
+
+          {% unless blouse_piece_value contains 'no blouse piece' %}
+            {% if addon_sku == custom_sku %}
+              {% render 'ivy-upsell-box', addon_product: addon_product, variant: variant %}
+            {% endif %}
+          {% endunless %}
+        {% else %}
+          {% render 'ivy-upsell-box', addon_product: addon_product, variant: variant %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
