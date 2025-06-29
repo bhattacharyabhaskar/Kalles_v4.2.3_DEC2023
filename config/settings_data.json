@@ -42,10 +42,10 @@
     "cus_lz": "shopify://shop_images/Logo-Light-Anime.gif",
     "size_cus_lz": 150,
     "font_source": "2",
-    "fnt_fm_sp1": "playfair_display_n4",
+    "fnt_fm_sp1": "futura_n4",
     "fnt_fm_sp2": "source_sans_pro_n4",
     "fnt_fm_sp3": "montserrat_n4",
-    "fnt_fm_gg1": "Playfair Display",
+    "fnt_fm_gg1": "Futura",
     "fnt_fm_gg2": "Source Sans Pro",
     "fnt_fm_gg3": "Montserrat",
     "bd_ffamily": "2",
@@ -60,6 +60,7 @@
     "fs_h4": 17.5,
     "fs_h5": 14,
     "fs_h6": 12.5,
+    "hd_lspacing": 0,
     "enable_compe": false,
     "app_review": "2",
     "badge_shape": "3",
@@ -829,7 +830,7 @@
           "9883384a-d19a-4abe-9a94-388d91fce9b6": {
             "type": "mega",
             "settings": {
-              "title": "Sarees",
+              "title": "SAREES",
               "url": "shopify://collections/buy-silk-mark-certified-saree",
               "open_link": "_self",
               "icon": "",
@@ -849,7 +850,7 @@
           "4a281327-6e12-4cd4-af83-0ce2f502e7b8": {
             "type": "mega",
             "settings": {
-              "title": "Suits & Dresses",
+              "title": "SUITS & DRESSES",
               "url": "shopify://collections/suits-dresses",
               "open_link": "_self",
               "icon": "",
@@ -869,7 +870,7 @@
           "e0be43d6-bf02-4962-a06e-4294c6d6bd53": {
             "type": "mega",
             "settings": {
-              "title": "Exclusives",
+              "title": "EXCLUSIVES",
               "url": "",
               "open_link": "_self",
               "icon": "",
@@ -889,7 +890,7 @@
           "3944a4f5-3618-4f4b-9d13-238ddb1b72f2": {
             "type": "mega",
             "settings": {
-              "title": "Accessories",
+              "title": "ACCESSORIES",
               "url": "shopify://pages/accessory",
               "open_link": "_self",
               "icon": "",
@@ -909,7 +910,7 @@
           "mega_xYAxY6": {
             "type": "mega",
             "settings": {
-              "title": "Sale",
+              "title": "SALE",
               "url": "shopify://collections/sale",
               "open_link": "_self",
               "icon": "",
@@ -929,7 +930,7 @@
           "ab886db1-7d4b-480d-8ef7-12f529243e9d": {
             "type": "mega",
             "settings": {
-              "title": "About Us",
+              "title": "ABOUT US",
               "url": "shopify://pages/about-us",
               "open_link": "_self",
               "icon": "",
@@ -949,7 +950,7 @@
           "5b6c83d1-eb1d-42b8-a11c-5df6ac1cfce1": {
             "type": "base",
             "settings": {
-              "title": "Reviews",
+              "title": "REVIEWS",
               "url": "shopify://pages/indyvogue-reviews",
               "open_link": "_self",
               "icon": "",
@@ -962,7 +963,7 @@
           "9a73cf8b-993e-4dbe-9f11-6e990bfb91c0": {
             "type": "mega",
             "settings": {
-              "title": "Blog",
+              "title": "BLOGS",
               "url": "shopify://blogs/indyvogue-fashion-center",
               "open_link": "_self",
               "icon": "",
@@ -995,7 +996,7 @@
           "full_header": true,
           "height": 70,
           "arrow": false,
-          "align": "center",
+          "align": "start",
           "hover": "hover_sideup",
           "enable_active": true,
           "h_navmb": 60,
@@ -1015,7 +1016,7 @@
           "scroll_header": true,
           "bgnavst": "#ffffff",
           "opnavst": 100,
-          "clnavst": "#222222",
+          "clnavst": "#454545",
           "clnavst_hover": "#56cfe1",
           "transparent_header": false,
           "space_transparent_header": false,
@@ -1024,9 +1025,9 @@
           "clnavtr": "#ffffff",
           "clnavtr_hover": "#56cfe1",
           "fm_nav": "1",
-          "fs_nav": 14,
-          "fw_nav": 400,
-          "ls_nav": 0
+          "fs_nav": 12,
+          "fw_nav": 300,
+          "ls_nav": 3
         }
       },
       "title_config": {
