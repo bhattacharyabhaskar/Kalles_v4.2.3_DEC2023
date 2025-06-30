@@ -245,7 +245,7 @@
         "bg": "#fcfaf7",
         "bg_mb": "#fcfaf7",
         "product_list": "{{ product.metafields.theme.fbt.value }}",
-        "sticky_mode": "2",
+        "sticky_mode": "0",
         "sticky_show": "1",
         "sticky_layout_mb": "minimal",
         "enable_select": true,
