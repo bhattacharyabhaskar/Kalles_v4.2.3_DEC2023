@@ -69,6 +69,7 @@
     "use_new_badge": false,
     "use_preorder_badge": false,
     "price_varies_style": "2",
+    "enable_quickview": false,
     "type_qv": "2",
     "show_qty": false,
     "pr_border_style": "1",
