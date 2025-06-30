@@ -34,6 +34,14 @@ if pr_curent == '1' and variants_size > 1 and selected_variant == blank
 endif
 assign isProductDefault = product.has_only_default_variant
 
+# Start - Change for Saree Add ons #
+if product.type == 'Saree'
+  assign isProductDefault =true
+else
+  assign isProductDefault = product.has_only_default_variant
+endif
+# End - Change for Saree Add ons #
+
 assign ntsoldout  = false
 assign unvariants = false
 assign ck_so_un   = false
@@ -242,7 +250,7 @@ endif -%}
   style="--price-size:{{ block_price_stts.size_price_pr }}px;--price-weight:{{ block_price_stts.fw_price_pr }};--price-color:{{ block_price_stts.price_color }};--price-sale-color:{{ block_price_stts.price_sale_color }};"
   {%- endcapture -%}
   {%- capture html_price -%}
-    {%- render 'product-price-single', variant: current_variant, product: product, PR_no_pick: false, type_sale: block_price_stts.type_sale, price_varies_style: '0', style_inline: style_price -%}
+    {%- render 'product-price-pdp-page', variant: current_variant, product: product, PR_no_pick: false, type_sale: block_price_stts.type_sale, price_varies_style: '0', style_inline: style_price -%}
   {%- endcapture -%}
 {%- endif -%}
 
@@ -404,7 +412,7 @@ endif -%}
 
                 {%- when 'price_review' -%}
                   <div class="t4s-product__price-review" style="--price-size:{{ bk_stts.size_price_pr }}px;--price-weight:{{ bk_stts.fw_price_pr }};--price-color:{{ bk_stts.price_color }};--price-sale-color:{{ bk_stts.price_sale_color }};">
-                    {%- render 'product-price-single', variant: current_variant, product: product, PR_no_pick: PR_no_pick, type_sale: bk_stts.type_sale, price_varies_style: bk_stts.price -%}
+                    {%- render 'product-price-pdp-page', variant: current_variant, product: product, PR_no_pick: PR_no_pick, type_sale: bk_stts.type_sale, price_varies_style: bk_stts.price -%}
                  <div class="review-widget">[<i>Price includes GST and IGST when sold in India]</i></div>    
                 {%- if bk_stts.rating -%}
                     {%- assign pid = product.id -%}
@@ -550,6 +558,7 @@ endif -%}
                         <div class="t4s-sku-wrapper ivy-sku-box{% if current_variant.sku == blank %} t4s-dn{% endif %}" data-product-sku><strong class="ivy-sku-label">{{ 'products.product.product_sku' | t }}</strong><span class="t4s-productMeta__value t4s-sku-value ivy-sku-code" data-product__sku-number>{{ current_variant.sku }}</span></div>
                       {%- endif -%}
 
+
                       {%- if bk_stts.show_barcode -%} {%- assign ck_meta = true -%}
                       <div class="t4s-barcode-wrapper{% if current_variant.barcode == blank %} t4s-dn{% endif %}" data-product-barcode>{{ 'products.product.product_barcode' | t }} <span class="t4s-productMeta__value t4s-barcode-value t4s-csecondary" data-product__barcode-number>{{ current_variant.barcode }}</span></div>
                       {%- endif -%}
@@ -663,6 +672,13 @@ endif -%}
                     {{- html_trust -}}
                   </div>
 
+                  <!-- ✅ BEGIN SPECIAL SAREE ADD ON SECTION  -->
+                  {% if product.type == "Saree" %}
+                     {% render 'saree-addons', fabric_type: product.metafields.saree.fabric_type, blouse_piece_value: product.metafields.saree.BlousePiece %}
+                    {% render 'saree-addons-script' %}
+                  {% endif %}
+                  <!-- ✅ END SPECIAL SAREE ADD ON SECTION  -->
+                
                 {%- when 'live_view' %}{% if bk_stts.text == blank %}{% continue %}{% endif -%}
                   <div id="t4s-counter{{ bk_id }}" class="t4s-pr_counter t4s-dn t4s-ch" data-live-view='{ "min":{{ bk_stts.min }}, "max":{{ bk_stts.max }}, "interval":{{ bk_stts.time }}000 }' {{ block.shopify_attributes }}>
                     {%- if bk_stts.icon != '1' -%}{%- assign image = bk_stts.img -%}
