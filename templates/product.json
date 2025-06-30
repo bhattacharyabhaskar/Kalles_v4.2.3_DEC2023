@@ -87,7 +87,7 @@
             "ani": "t4s-ani-shake",
             "time": 6,
             "btn_txt": "3",
-            "btn_icon": true,
+            "btn_icon": false,
             "button_style": "default",
             "button_color": "primary",
             "button_effect": "sweep-to-top",
