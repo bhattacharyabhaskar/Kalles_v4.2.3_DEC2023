@@ -529,114 +529,6 @@
         "code_cus_css": ""
       }
     },
-    "crafted_videos_carousel_CLAFLA": {
-      "type": "crafted_videos_carousel",
-      "blocks": {
-        "video_VUWUzQ": {
-          "type": "video",
-          "settings": {
-            "video_title": "A Pure Gold Zari Kanjeevaram",
-            "video_caption": "Kanjeevaram, Kanchipuram, Pure Gold, Handloom, Silk Mark, India Heritage",
-            "video_tags": "",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/b2907bf27efc40d79373e78d5dc5bb5a.mp4",
-            "thumbnail": "shopify://shop_images/Kanjeevaram-thumbnail.gif",
-            "autoplay": false
-          }
-        },
-        "video_y93UqY": {
-          "type": "video",
-          "settings": {
-            "video_title": "Hand Embroidery at its Best",
-            "video_caption": "Hand Embroidery, Pure Silk, Silk Mark, Artisan, Women Empowerment",
-            "video_tags": "",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/e1cb58a1097a4183b2b49b1029d56630.mp4",
-            "thumbnail": "shopify://shop_images/hand-embroidery-thumb.gif",
-            "autoplay": false
-          }
-        },
-        "video_g6UKH3": {
-          "type": "video",
-          "settings": {
-            "video_title": "Reviving the lost Madhubani Art",
-            "video_caption": "Madhubani, Art, Hand Painted, Silk mark, Heritage, Bihar",
-            "video_tags": "",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/3f062e26064b4279baf62e4243791fab.mp4",
-            "thumbnail": "shopify://shop_images/Madhubani-thumb.gif",
-            "autoplay": false
-          }
-        },
-        "video_qyNLhh": {
-          "type": "video",
-          "settings": {
-            "video_title": "The Heritage Jamdani in the making",
-            "video_caption": "Bengal, Bangladesh, Handwoven, Jamdani, Heritage",
-            "video_tags": "",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/a5a4f024da15418f969feb62003fbbcf.mp4",
-            "thumbnail": "shopify://shop_images/Jamdani-thumbnail-1.gif",
-            "autoplay": false
-          }
-        },
-        "video_k8yJ6e": {
-          "type": "video",
-          "settings": {
-            "video_title": "A canvas in Silk",
-            "video_caption": "Bishnupur , Handwoven, Hand painted, Silk mark, Bengal, Art",
-            "video_tags": "",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/e3433a736c7349da8600d68ac7b58f42.mp4",
-            "thumbnail": "shopify://shop_images/Hand-Painted-thumb1.gif",
-            "autoplay": false
-          }
-        },
-        "video_gc7N9T": {
-          "type": "video",
-          "settings": {
-            "video_title": "Garad Silk, a Bengal Tradition",
-            "video_caption": "Bengal, Hand Woven, Garad, Silk Mark, Puja, Durga Puja, Tradition",
-            "video_tags": "Banarasi, Handwoven",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/86b4ec8129f24bcaad4ca627bacf87d1.mp4",
-            "thumbnail": "shopify://shop_images/garad-thumb.gif",
-            "autoplay": false
-          }
-        }
-      },
-      "block_order": [
-        "video_VUWUzQ",
-        "video_y93UqY",
-        "video_g6UKH3",
-        "video_qyNLhh",
-        "video_k8yJ6e",
-        "video_gc7N9T"
-      ],
-      "settings": {
-        "section_heading": "From Loom to Elegance",
-        "section_description": "Watch how our sarees  come to life — handcrafted by master artisans across India.",
-        "background_color": "#fcfaf7",
-        "heading_alignment": "center",
-        "description_alignment": "center",
-        "desktop_layout": "three-column",
-        "mobile_layout": "two-column",
-        "content_alignment": "center",
-        "font_size_desktop": 16,
-        "font_size_mobile": 14,
-        "show_mute_toggle": true
-      }
-    },
-    "line_mxepEr": {
-      "type": "line",
-      "settings": {
-        "line_style": "solid",
-        "line_width": 100,
-        "line_height": 2.5,
-        "line_cl": "#b7499b",
-        "line_pos": "t4s-text-center",
-        "layout": "t4s-container-wrap",
-        "mg": ",,50px,",
-        "mg_tb": "",
-        "mg_mb": ",,30px,",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370": {
       "type": "collections-list-packery",
       "blocks": {
@@ -1714,8 +1606,7 @@
     "1646028739ae283905",
     "d98aa1b1-f414-49a2-be42-55dd82743bc1",
     "line_w49wWj",
-    "crafted_videos_carousel_CLAFLA",
-    "line_mxepEr",
+    "1646035317ea8b6928",
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
     "fb664c52-a0c2-4006-8fd2-65d6011f492c",
     "9a92f768-a23c-411b-b99c-809c4aae84e0",
@@ -1724,7 +1615,6 @@
     "a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff",
     "65326ae6-92b6-4648-8012-b51a792bdcc5",
     "ee48c8ae-86a9-402e-be52-ef529275bee5",
-    "1646035317ea8b6928",
     "featured_collection_eUtRKm",
     "164603686708691778",
     "0b8b46e4-9f56-481f-a268-707914397b64",
