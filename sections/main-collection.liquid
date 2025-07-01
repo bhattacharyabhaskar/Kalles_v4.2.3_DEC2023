@@ -278,9 +278,14 @@
                 {%- assign banner_key = 'banner_html_' | append: page_number -%}
                 {%- assign banner_html = collection.metafields.custom[banner_key].value -%}
                 {%- if forloop.index0 == 7 and paginate.current_page == page_number and banner_html != blank -%}
-                      <div class="ivy-promo-banner">
-                        {{ banner_html }}
-                      </div>
+                      {% assign is_image_banner = false %}
+                        {% if banner_html contains '<img' %}
+                          {% assign is_image_banner = true %}
+                        {% endif %}
+                        
+                        <div class="ivy-promo-banner {% if is_image_banner %}full-width-banner{% endif %}">
+                          {{ banner_html }}
+                        </div>
                   {%- endif -%}
                {%- endfor -%}
                     </div>
