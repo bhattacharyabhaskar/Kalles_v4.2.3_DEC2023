@@ -247,6 +247,11 @@
         </div>
       {%- endif -%}
       <div class="t4s-product-form__buttons" style="--pr-btn-round:{{ bk_stts.pr_btn_round }}px;"> 
+        {%- if hide_atc -%}
+          <div class="t4s-d-flex t4s-flex-wrap">
+            <p style="color: #b31b1b; font-weight: bold; padding: 12px 0; font-size: 15px;">Add-ons cannot be purchased separately.</p>
+          </div>
+        {%- else -%} 
         <div class="t4s-d-flex t4s-flex-wrap">
           {%- if isExternal -%}
 
@@ -286,6 +291,7 @@
 
           {%- endif -%}
         </div>
+        {%- endif -%}
         {%- if PR_buy_pr and type != 'main_sticky' %}{{- form | payment_button -}}{% endif -%}
         {%- if settings.use_notify_me -%}<button data-class="t4s-mfp-btn-close-inline" data-id="t4s-pr-popup__notify-stock" data-storageid="notify-stock{{ current_variant.id }}" data-mfp-src data-open-mfp-ajax class="t4s-pr__notify-stock" type="button" data-notify-stock-btn data-variant-id="{{ current_variant.id }}" data-root-url="{{ routes.root_url }}"{% if current_variant_available or current_variant == blank %} style="display: none"{% endif %}>{{ 'products.notify_stock.trigger' | t }}</button>{%- endif -%}
       </div>
