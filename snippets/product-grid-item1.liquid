@@ -132,6 +132,7 @@ class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
         </div>
       {%- endif -%}
       <div data-product-badge data-sort="sale,new,soldout,preOrder,custom" class="t4s-product-badge"></div>
+      {%- if hide_atc -%}
       <div class="t4s-product-btns">
          <div data-replace-quickview></div>
          <div data-replace-atc data-has-qty></div>
@@ -143,6 +144,7 @@ class="t4s-product-wrapper" timeline hdt-reveal="slide-in">
          {%- endif -%}
          <div data-replace-compare data-tooltip="right"></div>
       </div>
+      {%- endif -%}
       {%- if product.type != 'Saree' -%}
           {%- if size_count > 0 and pr_size_pos == '1' %}{%- render 'product-size', size_variants: size_variants, size_variants_avai: size_variants_avai, show_size_type: show_size_type -%}{% endif -%}
       {% endif -%}  
