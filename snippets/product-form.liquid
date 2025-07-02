@@ -1,4 +1,11 @@
 {%- assign product_form_id = 'product-form-' | append: pr_se_id -%}
+{%- assign hide_atc = false -%}
+{%- for collection in product.collections -%}
+  {%- if collection.handle == 'saree-addons' -%}
+    {%- assign hide_atc = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
 {%- liquid 
   assign pr_variants = product.variants
   assign PR_buy_pr = false
