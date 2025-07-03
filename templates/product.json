@@ -121,7 +121,7 @@
             "stock_from": 12,
             "stock_to": 20,
             "al": "center",
-            "mess": "ONLY [stock_number] LEFT IN STOCK.",
+            "mess": "SINGLE PIECE ONLY!",
             "size": 18,
             "progress": false,
             "wbar": 100,
