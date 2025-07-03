@@ -69,7 +69,7 @@
         "custom_liquid_XFy8qN": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- assign latest_saree_collection = false -%}\n\n{% for collection in product.collections %}\n     {% if collection.handle == \"buy-silk-mark-certified-saree\" %}\n           {% assign latest_saree_collection = true %}\n     {% endif %}\n{% endfor %}\n{% if latest_saree_collection%}\n     <div class=\"ivy-promo-banner full-width-banner\">\n<img src=\"https://cdn.shopify.com/s/files/1/1469/7362/files/PDP-IDAY-Banner.jpg?v=1751398350\" alt=\"Independence Day Sale\" class=\"ivy-banner-img\">\n</div>\n{% endif %}"
+            "custom_liquid": "{%- assign latest_saree_collection = false -%}\n\n{% for collection in product.collections %}\n     {% if collection.handle == \"buy-silk-mark-certified-saree\" %}\n           {% assign latest_saree_collection = true %}\n     {% endif %}\n{% endfor %}\n{% if latest_saree_collection%}\n     <div class=\"ivy-promo-banner full-width-banner\">\n<img src=\"https://cdn.shopify.com/s/files/1/1469/7362/files/collection-banner-ind-day.jpg?v=1751555815\" alt=\"Independence Day Sale\" class=\"ivy-banner-img\">\n</div>\n{% endif %}"
           }
         },
         "form": {
