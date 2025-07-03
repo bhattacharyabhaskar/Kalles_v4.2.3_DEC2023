@@ -35,7 +35,7 @@
             "size_pr": 19,
             "fw_pr": 400,
             "lh_pr": 25,
-            "ls_pr": 3,
+            "ls_pr": 2,
             "pr_title_color": "#222222"
           }
         },
@@ -55,6 +55,7 @@
         },
         "meta": {
           "type": "meta",
+          "disabled": true,
           "settings": {
             "show_options": false,
             "show_vendor": false,
