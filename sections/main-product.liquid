@@ -756,28 +756,47 @@ endif -%}
                           </div>
                       </div>
                     </div>
-                {%- when 'inventory_qty'%}
-                  {% if bk_stts.mess == blank or isProductAvailable == false %}{% continue %}{% endif -%}
+                {%- when 'inventory_qty' %}
+                {% if bk_stts.mess == blank or isProductAvailable == false %}
+                  {% continue %}
+                {% endif %}
+                {% if inventory_quantity == 1 %}
                   {%- assign arr_mess = bk_stts.mess | split: '[stock_number]' -%}
-                  <div id="t4s-stock{{ bk_id }}" class="t4s-inventory_qty t4s-text-{{ bk_stts.al }}" data-inventory-qty='{ "reduce":{{ bk_stts.reduce | default: false }}, "inventoryQty":{{ inventory_quantity | default: 0 }}, "id":{{ current_variant.id | default: product.id }}, "stock":"{{ bk_stts.stock }}", "qty":{{ bk_stts.qty }}, "total":{{ bk_stts.total_items }}, "min":{{ bk_stts.stock_from }}, "max":{{ bk_stts.stock_to }}, "bgprocess":"{{ bk_stts.stock_bg_process }}", "bgten":"{{ bk_stts.bgten }}" }' data-prid="{{ product.id }}" {{ block.shopify_attributes }}>
-                    <p data-message class="t4s-inventory_message t4s-dn t4s-ch t4s-lh-1 t4s-fwm" style="font-size:{{ bk_stts.size }}px">
-                    {%- if bk_stts.icon != '1' -%}{%- assign image = bk_stts.img -%}
-                      {%- if bk_stts.icon == '3' and image != blank -%}
-                        <img class="lazyloadt4s t4s-w-100 t4s-ani-{{ bk_stts.ani }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 50 }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt }}">
-                      {%- else -%}
-                        <i class="t4s-ani-{{ bk_stts.ani }} {{ bk_stts.icon_name }}"></i>
-                      {%- endif -%}
-                      {%- if bk_stts.ani != 'none' %}
-                        <link data-href="{{ 'ani-atc.min.css' | asset_url }}" rel="stylesheet" media="print" onload="this.media='all'">
-                      {% endif -%}
-                    {%- endif -%}
-                    {{ arr_mess[0] }} <span data-count class='t4s-count'></span> {{ arr_mess[1] }}</p>
-                    {%- if bk_stts.progress -%}
-                      <div data-progressbar class="t4s-inventory_progressbar t4s-progress__bar t4s-pr t4s-oh t4s-dn" style="background-color:{{ bk_stts.stock_bg }};width:{{ bk_stts.wbar }}%">
-                        <div style="background-color:{{ bk_stts.stock_bg_process }};width: 100%;"></div>
+              
+                  <div id="t4s-stock{{ bk_id }}"
+                       class="t4s-inventory_qty t4s-text-center ivy-low-stock"
+                       style="background: #fff7f7; border: 1px solid #c85a5a; border-left: 4px solid #b40000; padding: 10px 14px; border-radius: 6px; margin-bottom: 12px;"
+                       data-inventory-qty='{ 
+                         "reduce":{{ bk_stts.reduce | default: false }}, 
+                         "inventoryQty":{{ inventory_quantity | default: 0 }},
+                         "id":{{ current_variant.id | default: product.id }},
+                         "stock":"{{ bk_stts.stock }}", 
+                         "qty":{{ bk_stts.qty }},
+                         "total":{{ bk_stts.total_items }},
+                         "min":{{ bk_stts.stock_from }},
+                         "max":{{ bk_stts.stock_to }},
+                         "bgprocess":"{{ bk_stts.stock_bg_process }}",
+                         "bgten":"{{ bk_stts.bgten }}"
+                       }'
+                       data-prid="{{ product.id }}"
+                       {{ block.shopify_attributes }}>
+                       
+                    <p data-message 
+                       class="t4s-inventory_message t4s-lh-1 t4s-fwm"
+                       style="color: #6b0000; font-size: 14px; font-weight: 600; margin: 0;">
+                      🔥 <strong>{{ arr_mess[0] | strip }}</strong> Ships in 24 hours from our Texas studio.
+                    </p>
+              
+                    {% if bk_stts.progress %}
+                      <div data-progressbar 
+                           class="t4s-inventory_progressbar t4s-progress__bar t4s-pr t4s-oh"
+                           style="background-color: #ffe6e6; width: 100%; height: 4px; border-radius: 4px; margin-top: 6px;">
+                        <div style="background-color: #c40000; width: 100%; height: 100%;"></div>
                       </div>
-                    {%- endif -%}
+                    {% endif %}
                   </div>
+                {% endif %}
+
 
                 {%- when 'store_pickup' %}
                   {% comment %}{% if isProductAvailable == false %}{% continue %}{% endif -%}{% endcomment -%}
