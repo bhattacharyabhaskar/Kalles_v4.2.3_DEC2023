@@ -142,7 +142,7 @@
         "bl_image_Ae9rL7": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/allu-arjun_pushpa2.webp",
+            "image1": "shopify://shop_images/Image_3_8f9f3dd4-4ecf-4351-98c8-d7d79d8b1f51.png",
             "image2": "shopify://shop_images/Image_2_83d24199-51f9-4f89-a19e-a84964c2f6a9.png",
             "col_dk": "12",
             "col_tb": "6",
@@ -178,7 +178,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong><br/>Allu Arjun in “Pushpa 2”: A Scene-Stealing Saree Moment</strong></h3><p>When the <a href=\"https://www.youtube.com/watch?v=1kVK0MZlbI4\"><span style=\"text-decoration:underline\"><em>teaser for Pushpa 2</em></span></a><em> </em>dropped, fans went wild over Allu Arjun’s swag, rugged persona, and intense action sequences. But what truly made jaws drop was the breathtaking scene where he dons a saree to perform a ritual and, in true Pushpa style, breaks into an electrifying dance.</p><p><strong>Picture this:</strong> Allu Arjun wrapped in a traditional <strong>silk saree</strong>, styled as a dhoti, with the pallu flowing gracefully over his shoulder. It’s not just a fashion statement—it’s a cultural ode, deeply rooted in rituals. The moment is cinematic gold: with rhythmic beats in the background, he performs the traditional puja and then transitions into a high-energy dance that only Allu Arjun can pull off. His steps, synchrony, and unapologetic confidence prove that masculinity and grace can go hand in hand.</p><p>What’s remarkable here is how effortlessly he carries the saree, showcasing the versatility of this garment. The scene’s emotional depth paired with the visual grandeur makes it one of the most memorable moments in Indian cinema. Trust Allu Arjun to make even a saree look like a power suit of style and swag!</p>",
+            "text": "<h2>#1. Zero Hassle, Full Glam</h2><p>Let’s be honest—pleating and pinning a saree perfectly takes time (and a little skill). That’s where <strong>pre-draped sarees</strong> shine. With built-in pleats and fixed pallus, these sarees are <strong>slip-on-and-go ready</strong>. The easy saree drapes are perfect for last-minute weddings, events, or work parties!</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -228,7 +228,7 @@
         "bl_image_9CmbH3": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Pushpak_Sen.png",
+            "image1": "shopify://shop_images/Image_1_e365ab6b-6098-451e-a885-a1e7b7999120.png",
             "col_dk": "12",
             "col_tb": "6",
             "layout_des": "carousel",
@@ -263,7 +263,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3><strong><br/>Pushpak Sen: The Man Who Wore a Saree to Milan</strong></h3><p>From Tollywood to the streets of Milan, saree-clad men are making waves. Enter <strong>Pushpak Sen</strong>, the <a href=\"https://www.firstpost.com/india/kolkata-man-goes-viral-for-donning-a-saree-on-the-streets-of-milan-10096591.html\" title=\"https://www.firstpost.com/india/kolkata-man-goes-viral-for-donning-a-saree-on-the-streets-of-milan-10096591.html\">Kolkata-based influencer and artist who went viral for walking the streets of Milan in a saree</a>. And not just any saree—Pushpak chose <strong>bold patterns, contemporary drapes, and accessories</strong> that screamed “timeless meets modern.”</p><p>Imagine the cobblestone streets of Milan—bustling with high-fashion ensembles—and here comes Pushpak, radiating confidence, blending tradition with avant-garde street style. His ability to pair the saree with quirky accessories like chunky boots and edgy jewelry showcases how the garment can transcend cultural and gender norms.</p><p>Pushpak’s bold statement challenges global fashion narratives while celebrating India’s rich sartorial heritage. His Instagram captions often talk about breaking stereotypes, and his Milan moment became a beacon for embracing inclusivity in fashion.</p>",
+            "text": "<h2>#2. Perfect for Travel & Destination Weddings</h2><p>A suitcase-friendly saree? Yes, please! <strong>Ready-to-wear sarees</strong> take up minimal space and don’t require matching petticoats or tons of accessories. Whether you're jetting off for a beach wedding or a mountain mehendi, these <strong>travel-friendly sarees</strong> are a dream to carry and wear.</p><h2>#3. Style That Blends Tradition with Trend</h2><p>From belt-style drapes to ruffled hems, saree gowns, and pant-style sarees, pre-stitched silhouettes are redefining <strong>modern saree fashion</strong>. Designers are experimenting with cuts, fabrics, and fusion styles that appeal to the <strong>new-age woman</strong> who wants <em>ethnic with a twist</em>.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -307,19 +307,48 @@
         "code_cus_css": ""
       }
     },
-    "image_text_BGGwj7": {
+    "image_text_FVktxN": {
       "type": "image_text",
       "blocks": {
-        "bl_text_eHjUxT": {
+        "bl_image_NPffjK": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_2_a5732b93-096b-4a4a-8f77-b657465a8128.png",
+            "col_dk": "12",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_HLAdkB": {
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
-            "col_tb": "6",
+            "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3></h3><h3><strong>A Sip of Freedom</strong></h3><p>Whether Allu Arjun’s cinematic brilliance inspires you, Pushpak Sen’s Milanese moment, or Siddhartha Batra’s heartfelt sartorial experiment, one thing is clear: the saree is no longer just a woman’s garment. It’s a universal symbol of style, grace, and rebellion against the mundane.</p><p>So, to all the men out there—are you ready to drape your story in nine yards of magic? The world is watching, and the saree is waiting!</p>",
+            "text": "<h2>#4. Dance-Ready & Fuss-Free</h2><p>Worried about tripping over your saree while dancing at a sangeet? Pre-stitched sarees are <strong>secure, comfortable, and movement-friendly</strong>—no slipping pallu or loosening pleats. Ideal for bridesmaids or anyone who wants to move freely without outfit malfunctions. Now you can sort your next sangeet outfit idea without doubt!</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -336,7 +365,93 @@
         }
       },
       "block_order": [
-        "bl_text_eHjUxT"
+        "bl_image_NPffjK",
+        "bl_text_HLAdkB"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_HybDxm": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_kDABxh": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_4_b6a39228-abf2-44d6-bfe5-fe22a6c8d56b.png",
+            "col_dk": "12",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_HjgaKB": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>#5. Flattering Fit for All Body Types</h2><p>Whether you’re petite, curvy, or somewhere in between, <strong>pre-stitched sarees are tailored to fit and flatter</strong>. With elastic waists, adjustable pleats, and structured drapes, you get the perfect silhouette and body-positive fashion every time, without a stylist.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_kDABxh",
+        "bl_text_HjgaKB"
       ],
       "settings": {
         "design_heading": "1",
@@ -423,7 +538,8 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "image_text_cy6tq9",
     "image_text_TztEMN",
-    "image_text_BGGwj7",
+    "image_text_FVktxN",
+    "image_text_HybDxm",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
