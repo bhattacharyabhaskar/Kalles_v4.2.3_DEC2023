@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/Banner_Image_802f6005-f243-4575-99e2-de86851a6c54.png",
+            "image": "shopify://shop_images/Banner_Image_7184f4cf-04c8-41bb-ba19-a84abba6b032.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Allu Arjun in a Saree (SURPRISED!) Men in Sarees Stealing Hearts from Streets to Movies!",
-            "text": "<p>Who said sarees are just for women? Well, it’s 2025, and the age-old notion that sarees are solely a woman’s domain is crumbling faster than a crispy dosa.</p><p>From South Indian superstars like <a href=\"https://en.wikipedia.org/wiki/Allu_Arjun\"><span style=\"text-decoration:underline\">Allu Arjun</span></a> to street fashion trailblazers like <a href=\"https://www.instagram.com/pushpaksen_/\"><span style=\"text-decoration:underline\">Kolkata’s Pushpak Sen</span></a> and Instagram’s fashion favorite <a href=\"https://www.instagram.com/siddharth93batra/?hl=en\"><span style=\"text-decoration:underline\">Siddhartha Batra</span></a>, or <a href=\"https://www.instagram.com/boseoninsta/?hl=en\"><span style=\"text-decoration:underline\">Rohit Bose</span></a> the Insta Dhoti Drape Influencer, all these men in sarees are not just turning heads but also rewriting the rule book of traditional style.</p><p>Let’s dive in and explore how men in sarees are breaking stereotypes and winning hearts everywhere!</p>",
+            "heading": "7 Reasons Why Pre-Stitched Sarees Are Trending in 2025",
+            "text": "<p>Move over lehengas and gowns—<strong>pre-stitched sarees</strong> are dominating wardrobes and social feeds in 2025. With the charm of a traditional saree and the convenience of modern silhouettes, <strong>ready-to-wear sarees</strong> are fast becoming a go-to fashion choice for millennials and Gen Z alike.</p><p>If you’ve been hesitant to try one, here are <strong>7 reasons why pre-stitched sarees are all the rage—and why your closet needs one now</strong>.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -307,91 +307,6 @@
         "code_cus_css": ""
       }
     },
-    "image_text_Ay4akT": {
-      "type": "image_text",
-      "blocks": {
-        "bl_image_JYiUCk": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Siddhartha_Batra.png",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
-        "bl_text_RPfVid": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h3><strong><br/>Siddhartha Batra’s Saree Draping Masterclass</strong></h3><p>Siddhartha Batra, the poster boy for experimental fashion, didn’t just wear a saree—he redefined couple goals by draping his girlfriend <a href=\"https://www.instagram.com/komalpandeyofficial/?hl=en\"><span style=\"text-decoration:underline\"><strong>Komaal Pandey’s</strong></span></a><strong> saree</strong> on himself. And boy, did he ace it!</p><p>The saree, a pastel chiffon with intricate embroidery, was styled with finesse as Siddhartha wrapped it around himself with effortless grace. The photoshoot captured his poise and confidence, making the internet frenzy. He paired the saree with a crisp white shirt and minimal jewelry, showing that less is more when it comes to rocking this nine-yard wonder.</p><p>What made this moment even more iconic was its subtle messaging: fashion is about <strong>expression, not boundaries</strong>. Siddhartha’s embrace of the saree wasn’t just about style; it was about creating a space where clothing became a tool for self-expression, irrespective of gender norms.</p><h3><strong>The Power of Men in Sarees</strong></h3><p>What’s common across these trailblazers is their <strong>unwavering confidence</strong> and the way they embrace sarees without conforming to societal expectations. Be it Allu Arjun’s larger-than-life cinematic portrayal, Pushpak Sen’s international street style statement, or Siddhartha Batra’s intimate fashion experiment, each moment redefines what it means to wear a saree.</p><p>And why not? The saree is one of the most versatile garments ever created. It’s timeless, gender-neutral, and a true canvas for cultural and personal storytelling. From festivals to fashion weeks, it’s high time we all agreed: a saree’s charm knows no boundaries, and when men embrace it, they bring a whole new layer of elegance to the table.</p><p></p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_image_JYiUCk",
-        "bl_text_RPfVid"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_BGGwj7": {
       "type": "image_text",
       "blocks": {
@@ -508,7 +423,6 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "image_text_cy6tq9",
     "image_text_TztEMN",
-    "image_text_Ay4akT",
     "image_text_BGGwj7",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
