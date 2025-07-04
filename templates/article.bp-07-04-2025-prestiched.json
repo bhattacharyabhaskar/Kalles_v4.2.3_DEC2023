@@ -477,6 +477,91 @@
         "code_cus_css": ""
       }
     },
+    "image_text_4Q7zeP": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_hNeDan": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_5.png",
+            "col_dk": "12",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_3knbeH": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>#6. Celeb-Approved & Trending on Social Media</h2><p>From <strong>Janhvi Kapoor</strong> in her ruffled saree gown to <strong>Deepika Padukone’s structured pre-draped look</strong>, celebrities have embraced this trend on red carpets and runways alike. Influencers are styling them with corset blouses, belts, and sneakers, making it a <strong>viral-worthy fashion staple</strong>.</p><h2>#7. A Power Look for the Modern Woman</h2><p>Want to look elegant yet confident at work or a formal event? Structured pre-stitched sarees in <strong>solid colors, satins, or monochromes</strong> are the new power suits. Add a blazer or a sharp blouse to your saree for workwear, and you’ve got a strong, feminine look with cultural roots.</p><h2>Final Drapes: Why You Need One in Your Wardrobe</h2><p>In 2025, the saree is not just a cultural symbol—it’s a canvas for <strong>self-expression, style, and convenience</strong>. Whether you’re a saree beginner or a seasoned draper, a <strong>pre-stitched saree</strong> offers you the best of both worlds.</p><p>It’s time to <strong>ditch the struggle and embrace the saree without fear</strong>—because six yards of fabric should feel empowering, not exhausting.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_hNeDan",
+        "bl_text_3knbeH"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -540,6 +625,7 @@
     "image_text_TztEMN",
     "image_text_FVktxN",
     "image_text_HybDxm",
+    "image_text_4Q7zeP",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
