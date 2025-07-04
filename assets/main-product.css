@@ -549,7 +549,7 @@ button.t4s-product-form__submit[disabled="disabled"]{
     min-height: 40px;
     padding: 5px 25px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 2px;
     order: 4;
 }
 .t4s-product-form__buttons .t4s-product-form__submit svg.t4s-btn-icon{width:18px;height:18px;margin-left: 0;margin-right: 8px;}
