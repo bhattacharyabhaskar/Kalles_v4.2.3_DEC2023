@@ -217,7 +217,7 @@
             "title": "",
             "text": "",
             "button_label": "",
-            "button_link": "shopify://pages/accessory",
+            "button_link": "",
             "open_link": "_blank",
             "btn_icon": false,
             "button_style": "default",
