@@ -232,7 +232,7 @@
         "code_cus_css": ""
       }
     },
-    "video_featured_xwiYHk": {
+    "video_featured_xQAqLD": {
       "type": "video_featured",
       "name": "Video featured",
       "settings": {
@@ -249,7 +249,7 @@
         "loop_video": true,
         "bg_overlay": "#000",
         "bg_opacity": 0,
-        "layout": "t4s-se-container",
+        "layout": "t4s-container-fluid",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
@@ -322,7 +322,7 @@
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "feature_columns_HkGWHk",
-    "video_featured_xwiYHk",
+    "video_featured_xQAqLD",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
