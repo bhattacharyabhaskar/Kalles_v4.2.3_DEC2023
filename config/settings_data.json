@@ -149,7 +149,7 @@
             "type": "html",
             "settings": {
               "html_content": "<script type=\"lazyload_int\" data-src=\"https://reviewsonmywebsite.com/js/v2/embed.js?id=8e7313fc946fd3d8c15c886f791a7ab8\"></script>\n<script type=\"lazyload_int\" data-src=\"https://reviewsonmywebsite.com/js/embedLoader.js?id=03d30ab029f3709eb7ee597570569e34\"></script>",
-              "hidden_mobile": false
+              "hidden_mobile": true
             }
           },
           "486a26b5-0683-409b-a990-5d6ea573a688": {
@@ -157,7 +157,7 @@
             "settings": {
               "svg": "visa, master, american_express, discover, apple_pay, paypal, amazon_payments, google_pay, shopify_pay",
               "height": 30,
-              "hidden_mobile": false,
+              "hidden_mobile": true,
               "mgb": 20,
               "mgb_mb": 10
             }
@@ -174,7 +174,7 @@
             "type": "html",
             "settings": {
               "html_content": "<p>9724 Castle Pines Dr<br>Austin, TX 78717<br></p><p>Phone: <a href=\"tel:+19133784722\" target=\"_blank\" title=\"tel:+19133784722\">+19133784722</a>(9:00 AM - 10:00 PM CST)</p><p>Email: <a href=\"mailto:sumanab@indyvogue.com\" target=\"_blank\" title=\"mailto:sumanab@indyvogue.com\">sumanab@indyvogue.com</a></p>",
-              "hidden_mobile": false
+              "hidden_mobile": true
             }
           },
           "47f5eb4c-1063-495d-bfc4-a54c62d219aa": {
@@ -585,17 +585,6 @@
               "padding_inner_mb": ""
             }
           },
-          "33eb929e-a001-4d96-82a0-5aab1aaabaea": {
-            "type": "payments",
-            "disabled": true,
-            "settings": {
-              "svg": "visa,paypal,maestro,american_express,discover",
-              "height": 30,
-              "hidden_mobile": false,
-              "mgb": 20,
-              "mgb_mb": 10
-            }
-          },
           "22036a9b-89a6-421d-9f51-4f31d4c90a95": {
             "type": "custom_text",
             "settings": {
@@ -655,7 +644,6 @@
           "7994aaf6-ec3a-43cf-8fb9-09e4979c2001",
           "footer-3",
           "4648284f-d313-4b25-9de3-80e952428e5e",
-          "33eb929e-a001-4d96-82a0-5aab1aaabaea",
           "22036a9b-89a6-421d-9f51-4f31d4c90a95",
           "image_Dq4ewn"
         ],
