@@ -183,6 +183,25 @@
                 });
             })
         </script> 
+      
+        <!-- Block broken fallback image (no-image-100) and replace with transparent.gif -->
+        <style>
+          img[src*="no-image-100"] {
+            display: none !important;
+          }
+        </style>
+        
+        <script>
+          document.addEventListener("error", function (e) {
+            if (
+              e.target.tagName === "IMG" &&
+              e.target.src.includes("no-image-100")
+            ) {
+              console.warn("🚫 Replacing broken fallback image:", e.target.src);
+              e.target.src = "{{ 'transparent.gif' | asset_url }}";
+            }
+          }, true);
+        </script>
       {% comment %}
         {% render 'footer-app-block' %}
       {% endcomment %}
