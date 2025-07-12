@@ -1,9 +1,9 @@
 <!-- sections/footer1.liquid -->
-<link rel="stylesheet" data-href="{{ 'section.css' | asset_url }}">
-<link rel="stylesheet" data-href="{{ 'general-block.css' | asset_url }}">
-<link rel="stylesheet" data-href="{{ 'newsletter.css' | asset_url }}">
-<link rel="stylesheet" data-href="{{ 'icon-social.css' | asset_url }}">
-<link rel="stylesheet" data-href="{{ 'footer.css' | asset_url }}">
+{{ 'section.css' | asset_url | stylesheet_tag }}
+{{ 'general-block.css' | asset_url | stylesheet_tag }}
+{{ 'newsletter.css' | asset_url | stylesheet_tag }}
+{{ 'icon-social.css' | asset_url | stylesheet_tag }}
+{{ 'footer.css' | asset_url | stylesheet_tag }}
 {%- liquid 
   assign sid = section.id
   assign se_stts = section.settings 
@@ -1848,3 +1848,6 @@
   }
 }
 {%- endschema -%}
+
+{%- javascript -%}
+{%- endjavascript -%}
