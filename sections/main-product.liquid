@@ -666,11 +666,20 @@ endif -%}
                       {%- endfor -%}
                     {%- endif -%}
                   {%- endcapture -%}
-                    
-                  <div id="t4s-trust_seal{{ bk_id }}" data-rr="{{ svg_width }}" {% if isStyleSvg %} style="--height-img:{{ svg_height }}px;"{% endif %} class="t4s-pr_trust_seal t4s-text-md-{{ bk_stts.al }} t4s-text-center" {{ block.shopify_attributes }}>
-                    {%- if bk_stts.mess -%}<p class="t4s-pr-mess_trust t4s-ch" style="--fs-mess-trust:{{ bk_stts.size }}px;">{{ bk_stts.mess }}</p>{%- endif -%}
-                    {{- html_trust -}}
+                
+                <div id="t4s-trust_seal{{ bk_id }}" class="t4s-pr_trust_seal t4s-text-center">
+                  {%- if bk_stts.mess -%}
+                    <p class="t4s-pr-mess_trust t4s-ch" style="--fs-mess-trust:{{ bk_stts.size }}px;">
+                      {{ bk_stts.mess }}
+                    </p>
+                  {%- endif -%}
+                  <div class="t4s-pr_trust_seal-icons">
+                    {%- assign arr = bk_stts.svg | remove: ' ' | split: "," -%}
+                    {%- for type in arr -%}
+                      {{ type | payment_type_svg_tag: class: 't4s-img-tr__svg' }}
+                    {%- endfor -%}
                   </div>
+                </div>
 
                   <!-- ✅ BEGIN SPECIAL SAREE ADD ON SECTION  -->
                   {% if product.type == "Saree" %}
