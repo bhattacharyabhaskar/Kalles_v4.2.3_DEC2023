@@ -16,17 +16,28 @@
       </div>
     </a>
   {%- endif -%}
-{%- when 'payments' -%} 
+{%- when 'payments' -%}
   {%- assign arr = bk_stts.svg | remove: ' ' | split: "," -%}
-  <div class="t4s-payment-footer-svg t4s-pr t4s-hidden-mobile-{{ bk_stts.hidden_mobile }}" style="--height:{{ bk_stts.height }}px;--mgb:{{ bk_stts.mgb }}px;--mgb-mb:{{ mgb.mgb_mb }}px;">
+  <div class="t4s-payment-footer-svg t4s-pr t4s-hidden-mobile-{{ bk_stts.hidden_mobile }}" style="text-align: center; --height:{{ bk_stts.height }}px; --mgb:{{ bk_stts.mgb }}px; --mgb-mb:{{ mgb.mgb_mb }}px;">
     {%- for img in arr -%}
       {%- if img contains 'cust4__' -%}
         {%- assign getIMG = img | remove_first: "cust4__" -%}
         {%- assign image = images[getIMG] -%}
         {%- if image == blank %}{% continue %}{% endif -%}
-        <img class="lazyloadt4s" src="{{ "generic.svg" | asset_img_url }}" data-src="{{ image | image_url: width: 100 }}" alt="{{ image.alt | escape }}" height="{{ image.height }}" width="{{ image.width }}" loading="lazy">
+        <img
+          class="lazyloadt4s t4s-img-tr__svg"
+          src="{{ 'generic.svg' | asset_img_url }}"
+          data-src="{{ image | image_url: width: 100 }}"
+          alt="{{ image.alt | escape }}"
+          title="{{ image.alt | escape }}"
+          height="{{ image.height }}"
+          width="{{ image.width }}"
+          loading="lazy"
+          style="display: inline-block; margin: 0 6px;">
       {%- else -%}
-        <img class="lazyloadt4s" src="{{ "generic.svg" | asset_img_url }}" data-src="{{ img | payment_type_img_url }}" alt="{{ img | replace: '_', ' ' }}" height="{{ image.height }}" width="{{ image.width }}" loading="lazy">
+        <span title="{{ img | replace: '_', ' ' | capitalize }}" style="display: inline-block; margin: 0 6px;">
+          {{ img | payment_type_svg_tag: class: 't4s-img-tr__svg' }}
+        </span>
       {%- endif -%}
     {%- endfor -%}
   </div>
