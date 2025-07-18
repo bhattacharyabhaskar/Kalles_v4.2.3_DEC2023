@@ -316,6 +316,22 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "custom_liquid_LUFmEJ": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -323,6 +339,7 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "feature_columns_HkGWHk",
     "video_featured_xQAqLD",
-    "e7b55938-3dde-44ab-9365-66967e09d447"
+    "e7b55938-3dde-44ab-9365-66967e09d447",
+    "custom_liquid_LUFmEJ"
   ]
 }
