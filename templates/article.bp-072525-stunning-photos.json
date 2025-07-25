@@ -488,7 +488,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>4. Use Saree Organizers or Pouches</h2><p>If you travel with sarees often, invest in <strong>saree organizers</strong>—they’re your best friend on the move. These zippered, rectangular bags keep each saree safe, separate, and secure.</p><p>Bonus tip: Add a few <strong>silica gel packets or fabric fresheners</strong> inside to keep everything smelling divine!</p>",
+            "text": "<h2>How to Feel Confident on Camera</h2><p>Even the best saree poses won’t shine if you’re uncomfortable. Here’s how to channel your inner diva:</p><ol><li><strong>Practice in the mirror first.</strong> Get familiar with how your saree flows and which angles you love.</li><li><strong>Do a few trial spins.</strong> It’ll help loosen you up and give your saree natural movement.</li><li><strong>Keep smiling or softly laughing.</strong> A genuine smile will always beat a stiff expression.</li></ol><h2>Why It’s Worth It</h2><p>A saree isn’t just fabric—it’s tradition, emotion, drama, and grace all rolled into six yards. Whether you’re wearing it for a wedding, a photoshoot, or just to dress up for yourself, taking a few extra minutes to pose well gives you memories to cherish forever.</p><p>So next time you wrap that saree, remember:</p><ul><li>Stand tall, own your beauty, and let the camera fall in love with you.<br/><br/></li><li>You’re not just wearing a saree—you’re <em>living</em> in it.</li></ul><h2>Sumana Speak!</h2><p>What’s your favorite saree pose? Or do you have a secret saree photoshoot tip? Drop it in the comments—we’d love to learn from you and feature your tips in our next post.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -506,61 +506,6 @@
       },
       "block_order": [
         "bl_text_VHMyaQ"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_JYD7yB": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_39BEV6": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>Wrap-Up: Travel Light, Drape Right</h2><p>Packing sarees for travel doesn't have to be stressful. With the right prep and a few smart hacks, your favorite drapes can travel just as well as you do.</p><p>So go ahead—book that beach wedding, mountain retreat, or glamorous city event. Your saree style is going places, and now it’ll look wrinkle-free all the way. 💃🏽</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_39BEV6"
       ],
       "settings": {
         "design_heading": "1",
@@ -650,7 +595,6 @@
     "image_text_zFCyeM",
     "image_text_DwDK3f",
     "image_text_kKgj8z",
-    "image_text_JYD7yB",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
