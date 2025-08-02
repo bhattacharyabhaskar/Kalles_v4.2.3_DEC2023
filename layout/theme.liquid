@@ -110,7 +110,20 @@
         document.head.appendChild(script);
       }
       </script>
-       <script src="https://analytics.ahrefs.com/analytics.js" data-key="uYtR1GbS7UMmtg/T7xFn4w" async></script>      
+       <script src="https://analytics.ahrefs.com/analytics.js" data-key="uYtR1GbS7UMmtg/T7xFn4w" async></script> 
+       {% comment %} ----- Start: Added for SearchConsole fix ------ {% endcomment %}
+        {% if request.page_type == 'product' %}
+          <link rel="canonical" href="{{ shop.url }}/products/{{ product.handle }}" />
+        {% elsif request.page_type == 'collection' %}
+          <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
+        {% elsif request.page_type == 'article' %}
+          <link rel="canonical" href="{{ shop.url }}{{ article.url }}" />
+        {% elsif request.page_type == 'blog' %}
+          <link rel="canonical" href="{{ shop.url }}{{ blog.url }}" />
+        {% else %}
+          <link rel="canonical" href="{{ canonical_url }}" />
+        {% endif %} 
+        {% comment %} ----- End: Added for SearchConsole fix ------ {% endcomment %}    
     </head>
     <body class="template-{{ request.page_type | handle }} {{ class_lazy }}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="2" data-sizes="auto"{% endif -%}>{% if isRTL %}<script type="text/javascript" id="t4s-flicker-fix">// Flicker fix.</script>{% endif -%}
         <a class="skip-to-content-link visually-hidden" href="#MainContent">{{ "accessibility.skip_to_text" | t }}</a>
