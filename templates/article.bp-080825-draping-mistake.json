@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/Blog_Banner_83a7e4b4-9a81-404c-b024-3e226d1309ad.png",
+            "image": "shopify://shop_images/Banner_Image_47f2171c-eb22-4d81-8e7e-737bc542f014.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "How to: Curvy Beauties Guide to Saree Draping",
-            "text": "<p>Let’s talk about two words every curvy woman deserves to feel every single day: <strong>confident and comfortable,</strong> especially when it comes to wearing a saree.</p><p>There’s this silly old myth that sarees are only for slim frames. Can we please toss that out forever? Because a saree is actually <em>one of the most versatile outfits on the planet</em> — it celebrates curves, it adds grace, and it can be styled in hundreds of ways to flatter <strong>YOUR</strong> beautiful shape.</p><p>So, let’s get into it. Here’s your ultimate guide to saree drapes, pleat placements, and blouses that will make you fall in love with your reflection, every single time.</p>",
+            "heading": "Saree Draping Mistakes to Avoid in 2025 (and How to Fix Them)",
+            "text": "<p>Whether it’s your first time wrapping six yards of grace or your thousandth, saree draping can sometimes feel like a balancing act—literally. From tripping over pleats to fighting flying pallus, even seasoned saree wearers make little mistakes that can spoil the whole look (or just make you <em>feel</em> awkward all day).</p><p>But don’t worry—this blog will help you glide into 2025 looking effortlessly elegant. Let’s decode the <strong>biggest saree draping mistakes (and how to fix them like a pro).</strong></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -142,7 +142,7 @@
         "image_item_8ThyHi": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/c1.jpg",
+            "image": "shopify://shop_images/Image_1_213bb409-c922-411f-a04c-ad18139d36c0.png",
             "link": "",
             "col_dk": "6",
             "col_tb": "6",
@@ -152,7 +152,7 @@
         "image_item_yUpxMj": {
           "type": "image_item",
           "settings": {
-            "image": "shopify://shop_images/c2.jpg",
+            "image": "shopify://shop_images/Image_2_6930163b-c37b-4345-bde5-43cf537431e0.png",
             "link": "",
             "col_dk": "6",
             "col_tb": "6",
