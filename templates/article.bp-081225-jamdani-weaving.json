@@ -225,37 +225,6 @@
         "pd_mb": ""
       }
     },
-    "video_featured_Q6Mfq7": {
-      "type": "video_featured",
-      "name": "Video featured",
-      "settings": {
-        "se_height": "t4s_ratio_po",
-        "custom_dk": true,
-        "height_dk": 600,
-        "custom_tb": true,
-        "height_tb": 400,
-        "custom_mb": true,
-        "height_mb": 250,
-        "source": "2",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video": "shopify://files/videos/IndyVogue's UNESCO Heritage Jamdani (1).mp4",
-        "au_video": false,
-        "loop_video": true,
-        "bg_overlay": "#000",
-        "bg_opacity": 0,
-        "layout": "t4s-se-container",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "image_text_c8UhLh": {
       "type": "image_text",
       "blocks": {
@@ -300,6 +269,93 @@
         "space_h_item_mb": "20",
         "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_KPnnwm": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_RDLhyy": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>The Unsung Heroes: Bengal’s Loom Artists<br/><br/></h2><p>Watching the video we captured, you'll see more than just hands moving—you'll see devotion. Generational knowledge. Patience. Precision.</p><p>These artisans:</p><ul><li>Start their day before sunrise<br/></li><li>Sit cross-legged for 8–10 hours a day at wooden looms<br/></li><li>Work from memory and instinct<br/></li><li>Often inherit the craft from parents or grandparents<br/></li></ul><p>Yet their wages are modest. Their art is at risk of fading. This is why <strong>buying a Jamdani saree isn’t a transaction—it's a contribution to cultural preservation</strong>.<br/></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_RDLhyy"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "video_featured_Q6Mfq7": {
+      "type": "video_featured",
+      "name": "Video featured",
+      "settings": {
+        "se_height": "t4s_ratio_po",
+        "custom_dk": true,
+        "height_dk": 600,
+        "custom_tb": true,
+        "height_tb": 400,
+        "custom_mb": true,
+        "height_mb": 250,
+        "source": "2",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/IndyVogue's UNESCO Heritage Jamdani (1).mp4",
+        "au_video": false,
+        "loop_video": true,
+        "bg_overlay": "#000",
+        "bg_opacity": 0,
+        "layout": "t4s-se-container",
         "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
@@ -484,8 +540,9 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "featured_collection_bxwcNi",
     "custom_liquid_mxqhP4",
-    "video_featured_Q6Mfq7",
     "image_text_c8UhLh",
+    "image_text_KPnnwm",
+    "video_featured_Q6Mfq7",
     "image_text_axdKkE",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "image_text_TKtrCR"
