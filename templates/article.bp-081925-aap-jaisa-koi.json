@@ -1,0 +1,431 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "d036730a-8d16-4983-945e-58174fb11f9c": {
+      "type": "banner",
+      "blocks": {
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": false,
+            "height_dk": 600,
+            "custom_tb": false,
+            "height_tb": 400,
+            "custom_mb": false,
+            "height_mb": 300,
+            "image": "shopify://shop_images/Banner_Image_47f2171c-eb22-4d81-8e7e-737bc542f014.png",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "12",
+            "col_tb": "12",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 100,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 100,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_bl": true,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0"
+      ],
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "6869956b-0118-467c-98f0-cbb9ff121db9": {
+      "type": "image_text",
+      "blocks": {
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Saree Draping Mistakes to Avoid in 2025 (and How to Fix Them)",
+            "text": "<p>Whether it’s your first time wrapping six yards of grace or your thousandth, saree draping can sometimes feel like a balancing act—literally. From tripping over pleats to fighting flying pallus, even seasoned saree wearers make little mistakes that can spoil the whole look (or just make you <em>feel</em> awkward all day).</p><p>But don’t worry—this blog will help you glide into 2025 looking effortlessly elegant. Let’s decode the <strong>biggest saree draping mistakes (and how to fix them like a pro).</strong></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_gallery_packery_LQeGec": {
+      "type": "image-gallery-packery",
+      "blocks": {
+        "image_item_8ThyHi": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/1_0a1e00c9-21d7-4e11-8e68-04aa727bc91b.png",
+            "link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        },
+        "image_item_yUpxMj": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/2_d89cdb11-9ad2-44df-b65f-21824276c6ab.png",
+            "link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "image_item_8ThyHi",
+        "image_item_yUpxMj"
+      ],
+      "name": "Image gallery packery",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_c8UhLh": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_QTLBpH": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Mistake #1: The Bulky Waist Pleats<br/></h2><p>Nothing kills a gorgeous saree look faster than puffy pleats at the waist that stick out, add unnecessary volume, or shift all day.</p><h3><strong>✅ How to fix it:</strong></h3><ul><li><strong>Make smaller, tighter pleats.</strong> Try 5-7 crisp pleats instead of 9-10 if your saree fabric is thick.<br/><br/></li><li><strong>Pin them together.</strong> Use a safety pin through all the pleats at the top to keep them secure and flat.<br/><br/></li><li><strong>Steam or iron the pleats.</strong> This will make them behave and lie neatly.</li></ul><p></p><p><br/></p><h2>🚫 Mistake #2: The Slippery Pallu Situation</h2><p>Is your pallu always slipping off your shoulder? Or falling too short, making you adjust it constantly in photos?</p><h3><strong>✅ How to fix it:</strong></h3><ul><li><strong>Pin it well.</strong> Use a sturdy safety pin under the blouse fabric, so the pallu sits snugly without visible metal.<br/><br/></li></ul><p><strong>Adjust the length.</strong> Ideally, the pallu should fall just above your knees or mid-thigh. Too long = tangled legs. Too short = throws off proportions.<br/><br/><br/><br/><strong>BONUS:</strong> You can also check this YouTube Shorts to solve your problem: <a href=\"https://www.youtube.com/shorts/QprXZgSH-sQ\"><span style=\"text-decoration:underline\">https://www.youtube.com/shorts/QprXZgSH-sQ</span></a></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_QTLBpH"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_axdKkE": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_rehTHC": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>🚫 Mistake #3: Wearing the Wrong Petticoat</h2><p>We often ignore the humble petticoat, but it can make or break your saree game. Ill-fitted petticoats cause bulges, lumps, or even drag the saree down.</p><h3><strong>✅ How to fix it:</strong></h3><ul><li><strong>Get it tailored to your waist.</strong> Drawstring is best—avoid elastics that slip.<br/><br/></li><li><strong>Match the fabric.</strong> Use cotton petticoats under cotton sarees, satin or silk under silks to avoid friction.<br/><br/></li><li><strong>Try shapewear petticoats.</strong> For a more sculpted look, just make sure you can breathe comfortably.</li></ul><p><strong>BONUS:</strong> You can also try the new cool style of wearing a saree without a petticoat, and to style a saree without a petticoat, read our blog: <a href=\"https://www.indyvogue.com/blogs/indyvogue-fashion-center/how-to-wear-a-saree-without-a-petticoat-yes-it-s-a-thing\"><span style=\"text-decoration:underline\">How to Wear a Saree Without a Petticoat (Yes, It’s a Thing!) – IndyVogue</span></a> </p><p></p><p><br/></p><h2>🚫 Mistake #4: Over-Accessorizing or Wearing The Wrong Blouse</h2><p>That heavy necklace, chunky earrings, embroidered blouse, <em>and</em> loud pallu—all together—can look OTT and cluttered.</p><h3><strong>✅ How to fix it:</strong></h3><ul><li><strong>Balance is key.</strong> If your saree is heavily embellished, go minimal with jewelry. If it’s simple, glam up your accessories.<br/><br/></li><li><strong>Blouse fit matters.</strong> A too-tight blouse creates awkward bulges, while a loose one looks sloppy. Tailor it to your bust and shoulders perfectly.</li></ul><p></p><p><br/></p><h2>🚫 Mistake #5: Ignoring Your Height & Body Type</h2><p>Certain drapes can overwhelm a petite frame or fail to flatter curvier silhouettes.</p><h3><strong>✅ How to fix it:</strong></h3><ul><li><strong>Petite ladies:</strong> Opt for slim, vertical drapes like the Nivi style. Keep the pallu narrow and long. Read this blog for more know-how - <a href=\"https://www.indyvogue.com/blogs/indyvogue-fashion-center/how-short-girls-can-look-tall-in-a-saree?srsltid=AfmBOopOCayeqcXLMSwlI6xBNkVV6Kr7w77jsepxSSGMW0EFySPh4KF9\"><span style=\"text-decoration:underline\">https://www.indyvogue.com/blogs/indyvogue-fashion-center/how-short-girls-can-look-tall-in-a-saree?srsltid=AfmBOopOCayeqcXLMSwlI6xBNkVV6Kr7w77jsepxSSGMW0EFySPh4KF9</span></a> <br/><br/></li><li><strong>Curvy beauties:</strong> Try a seedha pallu or a belt to define your waist, with neat front pleats to smoothen the look.<br/><br/></li><li><strong>Tall girls:</strong> You can rock big, broad borders and lehenga-style multiple pleats like a dream.</li></ul><p></p><p><br/></p><h2>🚫 Mistake #6: Skipping Final Checks</h2><p>Many of us forget to do a 360-degree spin in the mirror, resulting in a tucked-in phone bulge or a visible safety pin sticking out.</p><h3><strong>✅ How to fix it:</strong></h3><ul><li>Before stepping out, stand straight and check all sides. Smooth out wrinkles. Make sure pleats fall evenly and your pallu flows gracefully.</li></ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_rehTHC"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "e7b55938-3dde-44ab-9365-66967e09d447": {
+      "type": "image_text",
+      "blocks": {
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Bonus: 2025’s Golden Rule? Comfort = Confidence.</h2><p>Gone are the days when sarees meant being tied up tight. In 2025, it’s all about <strong>easy, breezy confidence.</strong></p><ul><li>Drape your saree so you can <em>sit, dance, eat, and laugh</em> without fidgeting.<br/><br/></li><li>Choose lighter, flowy fabrics if you want carefree movement—think organza, georgette, chiffon.<br/><br/></li><li>And don’t hesitate to experiment: pre-stitched sarees, sarees with pants, or belted drapes are all super chic this year.</li></ul><h2>Sumana Speaks!</h2><p>What’s one saree mistake you’ve made—and how did you fix it? (We promise, we’ve all tripped over our pleats at least once!) Drop your stories in the Instagram DM and tell us how your saree wins and woes.</p><p>Because truly, every saree story is a love story in progress. </p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_TKtrCR": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_tV73Xt": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_tV73Xt"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "d036730a-8d16-4983-945e-58174fb11f9c",
+    "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "image_gallery_packery_LQeGec",
+    "image_text_c8UhLh",
+    "image_text_axdKkE",
+    "e7b55938-3dde-44ab-9365-66967e09d447",
+    "image_text_TKtrCR"
+  ]
+}
