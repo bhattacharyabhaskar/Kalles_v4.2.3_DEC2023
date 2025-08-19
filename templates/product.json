@@ -70,7 +70,7 @@
         "custom_liquid_XFy8qN": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- assign latest_saree_collection = false -%}\n\n{% for collection in product.collections %}\n     {% if collection.handle == \"buy-silk-mark-certified-saree\" %}\n           {% assign latest_saree_collection = true %}\n     {% endif %}\n{% endfor %}\n{% if latest_saree_collection%}\n     <div class=\"ivy-promo-banner full-width-banner\">\n<img src=\"https://cdn.shopify.com/s/files/1/1469/7362/files/tariff-banner-2025_ff9c5443-127f-4012-8bae-c004c8d29cc0.webp?v=1754782465\" alt=\"tariff-banner\" class=\"ivy-banner-img\">\n</div>\n{% endif %}"
+            "custom_liquid": "{%- assign latest_saree_collection = false -%}\n\n{% for collection in product.collections %}\n     {% if collection.handle == \"buy-silk-mark-certified-saree\" %}\n           {% assign latest_saree_collection = true %}\n     {% endif %}\n{% endfor %}\n{% if latest_saree_collection%}\n     <div class=\"ivy-promo-banner full-width-banner\">\n<img src=\"https://cdn.shopify.com/s/files/1/1469/7362/files/tariff-banner-1.jpg?v=1755645552\" alt=\"tariff-banner\" class=\"ivy-banner-img\">\n</div>\n{% endif %}"
           }
         },
         "inventory_qty_bXWJD8": {
