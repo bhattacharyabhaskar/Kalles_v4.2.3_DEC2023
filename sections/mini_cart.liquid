@@ -280,7 +280,7 @@
                   <button {{ block.shopify_attributes }} type="submit" data-loading-bar data-confirm="{{ ck_lumise }}" name="checkout" class="t4s-btn__checkout t4s-btn t4s-btn-base t4s-btn-style-{{ button_style }} t4s-btn-color-{{ bk_stts.btn_cl }} {% if button_style == 'default' or button_style == 'outline' %}t4s-btn-effect-{{ bk_stts.button_effect }}{% endif %} t4s-w-100 t4s-justify-content-center t4s-truncate">{{ 'cart.mini_cart.checkout' | t }} {%- if bk_stts.btn_icon -%}<svg class="t4s-btn-icon"><use xlink:href="#t4s-icon-btn"></use></svg>{%- endif -%}</button>
 
                {%- when 'btnmr' -%}
-                    {%- if additional_checkout_buttons  -%}<div data-add-ckt4 class="additional_checkout_buttons additional-checkout-buttons--vertical {{ cl_agree }}">{{ content_for_additional_checkout_buttons }}</div>{%- endif -%}
+                  {%- if additional_checkout_buttons and unadmin_sp  -%}{{ arr_agree[0] }}<div {{ block.shopify_attributes }} data-add-ckt4 class="additional_checkout_buttons additional-checkout-buttons--vertical mt__10 mb__10{{ cl_agree }}">{{ content_for_additional_checkout_buttons }}</div>{{ arr_agree[1] }}{%- endif -%}
                
                {%- when 'img' -%}
                   {% if bk_stts.image != blank %}
