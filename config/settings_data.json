@@ -1818,6 +1818,10 @@
               "button_effect": "default"
             }
           },
+          "btnmr_qKPeNG": {
+            "type": "btnmr",
+            "settings": {}
+          },
           "mini_cart-5": {
             "type": "img",
             "settings": {
@@ -1842,6 +1846,7 @@
           "mini_cart-1",
           "mini_cart-3",
           "mini_cart-4",
+          "btnmr_qKPeNG",
           "mini_cart-5",
           "mini_cart-6"
         ],
