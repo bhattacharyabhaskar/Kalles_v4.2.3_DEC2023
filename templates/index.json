@@ -409,42 +409,42 @@
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-3": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Silk-Mark-Icon-hp.avif",
+            "image": "shopify://shop_images/New-Silk-Mark-min.png",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-1": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Free-Shipping-icon-hp.avif",
+            "image": "shopify://shop_images/Free-Shipping-min.png",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-5": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Stitched-Designer-Blouse-icon-hp.png",
+            "image": "shopify://shop_images/Stitched-Designer-min.png",
             "url": ""
           }
         },
         "logo_item_BWnwmH": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Pre-Stitched-Saree-icon-hp.avif",
+            "image": "shopify://shop_images/Pre-Stitched-min.png",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-4": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Handwoven-icon-hp.avif",
+            "image": "shopify://shop_images/Hand-Woven-min.png",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-2": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Secured-Payments-icon-hp.avif",
+            "image": "shopify://shop_images/Secured-Payment-min.png",
             "url": ""
           }
         }
