@@ -1509,41 +1509,6 @@
         "instafeed_app_block_NVERN7"
       ],
       "settings": {}
-    },
-    "17022330082d8df317": {
-      "type": "apps",
-      "blocks": {
-        "9ef838d1-083b-4f7c-9d77-1914496936a0": {
-          "type": "shopify://apps/seguno-email/blocks/newsletter_form/db65571f-fa4d-473d-baa2-283a96dc76bc",
-          "disabled": true,
-          "settings": {
-            "heading": "Subscribe & Save",
-            "subheading": "<p>Subscribe to our NewsLetter and get <strong>$10 USD Off*</strong> your purchase. Get the latest & greatest update on New Arrivals, Promotions and lots more.</p>",
-            "show_first_name": false,
-            "show_last_name": false,
-            "show_permission_checkbox": true,
-            "tags": "newsletter",
-            "return_to": "",
-            "label_first_name": "First name",
-            "placeholder_first_name": "",
-            "label_last_name": "Last name",
-            "placeholder_last_name": "",
-            "label_email": "Email",
-            "placeholder_email": "email@email.com",
-            "label_permission": "<p>I agree to receive marketing emails from IndyVogue.</p>",
-            "label_subscribe": "Subscribe",
-            "success_message": "Thanks for subscribing",
-            "background_color": "#ffffff",
-            "text_color": "#1a1b18",
-            "button_background_color": "#b7499b",
-            "button_text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "9ef838d1-083b-4f7c-9d77-1914496936a0"
-      ],
-      "settings": {}
     }
   },
   "order": [
@@ -1565,7 +1530,6 @@
     "0b8b46e4-9f56-481f-a268-707914397b64",
     "featured_collection_pEfbVz",
     "16460368750174c54a",
-    "1749996823421984fb",
-    "17022330082d8df317"
+    "1749996823421984fb"
   ]
 }
