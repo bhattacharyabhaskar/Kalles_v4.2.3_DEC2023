@@ -416,35 +416,35 @@
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-1": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Free-Shipping-min.png",
+            "image": "shopify://shop_images/Free-Shipping-min.webp",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-5": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Stitched-Designer-min.png",
+            "image": "shopify://shop_images/Stitched-Designer-min.webp",
             "url": ""
           }
         },
         "logo_item_BWnwmH": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Pre-Stitched-min.png",
+            "image": "shopify://shop_images/Pre-Stitched-min.webp",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-4": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Hand-Woven-min.png",
+            "image": "shopify://shop_images/Hand-Woven-min.webp",
             "url": ""
           }
         },
         "template--17081597853929__d98aa1b1-f414-49a2-be42-55dd82743bc1-logo_item-2": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify://shop_images/Secured-Payment-min.png",
+            "image": "shopify://shop_images/Secured-Payment-min.webp",
             "url": ""
           }
         }
