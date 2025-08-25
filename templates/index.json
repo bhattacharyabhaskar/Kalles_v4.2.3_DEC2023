@@ -523,7 +523,7 @@
     "1646035317ea8b6928": {
       "type": "featured-collection",
       "settings": {
-        "design_heading": "2",
+        "design_heading": "4",
         "heading_align": "t4s-text-center",
         "top_heading": "TRENDING",
         "icon_heading": "gem",
@@ -755,9 +755,9 @@
         "266c55d5-3415-4d7d-bed8-176c8edda1ef"
       ],
       "settings": {
-        "design_heading": "2",
+        "design_heading": "4",
         "heading_align": "t4s-text-center",
-        "top_heading": "Exclusive Designer Silk Saree Collections",
+        "top_heading": "EXCLUSIVE DESIGNER SILK SAREE COLLECTIONS",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -828,7 +828,7 @@
         "template--17081597853929__fb664c52-a0c2-4006-8fd2-65d6011f492c-bl_text-1"
       ],
       "settings": {
-        "design_heading": "1",
+        "design_heading": "4",
         "heading_align": "t4s-text-center",
         "top_heading": "",
         "icon_heading": "las la-gem",
@@ -900,7 +900,7 @@
         "template--17081597853929__216bf813-5b7d-4f42-88f7-accc66e62ae1-bl_text-1"
       ],
       "settings": {
-        "design_heading": "1",
+        "design_heading": "4",
         "heading_align": "t4s-text-center",
         "top_heading": "",
         "icon_heading": "las la-gem",
@@ -945,7 +945,7 @@
         "template--17081597853929__a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff-om_item-1": {
           "type": "om_item",
           "settings": {
-            "heading": "Designer Silk Sarees - IndyVogue",
+            "heading": "",
             "content": "IndyVogue is an Indian ethnic fashion boutique that specializes in selling exquisite Silk Mark certified hand-woven sarees online in Banarasi, Jamdani, Linen, Kanjeevaram, Handloom as well as exclusive Designer Blouses with Jewelry for all your needs. Our sarees are made from the finest quality silk and are hand-woven by skilled artisans, ensuring that each piece is unique and of the highest quality. Our collection features a wide range of styles and designs, from traditional to contemporary, so you can find the perfect saree for any occasion. We are dedicated to promoting the beauty and heritage of Indian handloom silk and strive to provide our customers with the best shopping experience possible. Shop with us and add a touch of elegance and sophistication to your wardrobe with our exquisite Silk Mark certified hand-woven sarees.",
             "text_align": "center",
             "col_tb": "12",
@@ -957,9 +957,9 @@
         "template--17081597853929__a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff-om_item-1"
       ],
       "settings": {
-        "design_heading": "1",
+        "design_heading": "4",
         "heading_align": "t4s-text-center",
-        "top_heading": "",
+        "top_heading": "DESIGNER SILK SAREES - INDYVOGUE",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -1081,9 +1081,9 @@
         "template--17081597853929__ee48c8ae-86a9-402e-be52-ef529275bee5-collection_item-6"
       ],
       "settings": {
-        "design_heading": "1",
+        "design_heading": "4",
         "heading_align": "t4s-text-center",
-        "top_heading": "Special Collections",
+        "top_heading": "SPECIAL COLLECTIONS",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -1125,9 +1125,9 @@
     "featured_collection_eUtRKm": {
       "type": "featured-collection",
       "settings": {
-        "design_heading": "2",
+        "design_heading": "5",
         "heading_align": "t4s-text-center",
-        "top_heading": "Suits & Dresses",
+        "top_heading": "SUITS & DRESSES",
         "icon_heading": "las la-gem",
         "top_subheading": "Just Launched",
         "tophead_mb": 30,
@@ -1197,9 +1197,9 @@
     "164603686708691778": {
       "type": "featured-collection",
       "settings": {
-        "design_heading": "2",
+        "design_heading": "5",
         "heading_align": "t4s-text-center",
-        "top_heading": "Jewelry, Stole & Trendy Designer Bags Collection",
+        "top_heading": "JEWELRY, STOLE & TRENDY DESIGNER BAGS COLLECTION",
         "icon_heading": "gem",
         "top_subheading": "THE MUST HAVE'S",
         "tophead_mb": 30,
@@ -1450,7 +1450,7 @@
       ],
       "name": "Logo list",
       "settings": {
-        "design_heading": "4",
+        "design_heading": "5",
         "heading_align": "t4s-text-center",
         "top_heading": "OUR PARTNERS",
         "icon_heading": "las la-gem",
