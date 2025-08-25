@@ -1410,6 +1410,92 @@
         "code_cus_css": ""
       }
     },
+    "logo_list_tan4PD": {
+      "type": "logo_list",
+      "blocks": {
+        "logo_item_MLzqaL": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/Shopify_b4be7a01-5605-48b9-b220-455eb15210b4.png",
+            "url": ""
+          }
+        },
+        "logo_item_JkFa6E": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/DHL-Logo.png",
+            "url": ""
+          }
+        },
+        "logo_item_DCVMew": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/Shop_Pay_logo_svg.png",
+            "url": ""
+          }
+        },
+        "logo_item_UdGfgV": {
+          "type": "logo_item",
+          "settings": {
+            "image": "shopify://shop_images/paypal.svg",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_MLzqaL",
+        "logo_item_JkFa6E",
+        "logo_item_DCVMew",
+        "logo_item_UdGfgV"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "design_heading": "4",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Our Partners",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "img_effect": "none",
+        "b_effect": "none",
+        "open_link": "_blank",
+        "layout_des": "1",
+        "click_image": "data-goto",
+        "nav_thumbs": true,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "16460368750174c54a": {
       "type": "blog-post",
       "settings": {
@@ -1529,6 +1615,7 @@
     "164603686708691778",
     "0b8b46e4-9f56-481f-a268-707914397b64",
     "featured_collection_pEfbVz",
+    "logo_list_tan4PD",
     "16460368750174c54a",
     "1749996823421984fb"
   ]
