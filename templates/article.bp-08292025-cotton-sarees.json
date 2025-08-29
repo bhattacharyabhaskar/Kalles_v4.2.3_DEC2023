@@ -1,0 +1,374 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "d036730a-8d16-4983-945e-58174fb11f9c": {
+      "type": "banner",
+      "blocks": {
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0": {
+          "type": "b_item",
+          "settings": {
+            "custom_dk": false,
+            "height_dk": 600,
+            "custom_tb": false,
+            "height_tb": 400,
+            "custom_mb": false,
+            "height_mb": 300,
+            "image": "shopify://shop_images/Fold_your_saree_1.png",
+            "b_link": "",
+            "open_link": "_self",
+            "img_effect": "none",
+            "b_effect": "none",
+            "col_dk": "12",
+            "col_tb": "12",
+            "col_mb": "12",
+            "content_align": "center",
+            "content_align_mobile": "center",
+            "content_width": "auto",
+            "cv_pos": 50,
+            "ch_pos": 100,
+            "cv_pos_mb": 50,
+            "ch_pos_mb": 100,
+            "bg_overlay": "#000000",
+            "bg_opacity": 0,
+            "bg_content_bl": true,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd_tb": 20,
+            "content_pd_lr": 20,
+            "content_pd_tb_mb": 10,
+            "content_pd_lr_mb": 10,
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_bg": "#ffffff",
+            "br_opacity": 50,
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10,
+            "time_animation": 1,
+            "animation_delay": 40
+          }
+        }
+      },
+      "block_order": [
+        "template--16761530319081__d036730a-8d16-4983-945e-58174fb11f9c-168296853279173d46-0"
+      ],
+      "settings": {
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "6869956b-0118-467c-98f0-cbb9ff121db9": {
+      "type": "image_text",
+      "blocks": {
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Saree Style Spotlight: 'Aap Jaisa Koi' on Netflix",
+            "text": "<p>Netflix's <a href=\"https://en.wikipedia.org/wiki/Aap_Jaisa_Koi_(film)\"><span style=\"text-decoration:underline\"><em>Aap Jaisa Koi</em></span><span style=\"text-decoration:underline\"> (2025)</span></a> offers a refreshing take on middle-aged romance, with R. Madhavan and Fatima Sana Shaikh delivering compelling performances. Beyond the narrative, the film's sartorial choices, particularly Fatima's saree ensembles, stand out as a testament to Bengali elegance and contemporary flair.</p><p></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_L8gEaQ": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_jcpmPz": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_1_f0cc5eb5-8565-4147-8af6-95ae07617696.png",
+            "col_dk": "3",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_QUBVaE": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "9",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Fatima Sana Shaikh's Saree Aesthetics</h2><p>Fatima's portrayal of Madhu Bose, a French instructor from Kolkata, is accentuated by her impeccable saree choices. Each drape not only complements her character's persona but also pays homage to traditional Bengali attire.</p><ul><li><strong>White Saree with Red Floral Embroidery</strong>: In a scene resonating with nostalgia, Fatima dons a white saree adorned with delicate red floral motifs. Paired with silver bangles and deep red lipstick, this ensemble exudes vintage charm, reminiscent of classic Bengali cinema.<br/><br/><br/></li><li><strong>Teal Blue Saree</strong>: Amidst the bustling streets, Fatima's teal blue saree brings a sense of calm and grace. The printed blouse and flowing hair add to the ensemble's contemporary appeal, making it suitable for both casual outings and festive occasions.<br/><br/><br/></li><li><strong>Printed Saree with Red Borders</strong>: During a romantic sequence with R. Madhavan, Fatima wears a printed saree featuring red borders. This choice adds a touch of vibrancy and warmth, enhancing the scene's emotional depth.</li></ul>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_jcpmPz",
+        "bl_text_QUBVaE"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_c8UhLh": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_bHVAXz": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_2_807f17ef-659a-49f7-b74b-c99e828acc07.png",
+            "col_dk": "12",
+            "col_tb": "6",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_QTLBpH": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<p></p><p></p><ul><li><strong>Mustard-Gold Saree</strong>: Radiating festive cheer, Fatima's mustard-gold saree is complemented with heavy bangles, a choker set, and loose curls. This look is perfect for celebratory events, combining tradition with modern styling.<br/><br/></li></ul><h2>Cultural Significance and Styling Tips<br/></h2><p>The film's costume design pays meticulous attention to detail, reflecting the rich tapestry of Bengali culture. The sarees are not mere garments but narratives in themselves, telling stories of tradition, modernity, and the evolving role of women in society.</p><p>For those inspired by Fatima's looks:</p><ul><li><strong>Opt for Handloom Fabrics</strong>: Sarees made from Bengal cotton or silk offer comfort and authenticity.<br/><br/></li><li><strong>Embrace Minimalist Blouses</strong>: Pairing sarees with simple, well-fitted blouses can highlight the drape's elegance.<br/><br/></li><li><strong>Accessorize Thoughtfully</strong>: Silver jewelry, especially traditional pieces, can enhance the saree's appeal without overshadowing it.<br/><br/></li><li><strong>Maintain the Drape</strong>: A neatly pleated pallu and well-secured drape can elevate the overall look.</li></ul><h2><br/>Sumana Speaks</h2><p><em>Aap Jaisa Koi</em> is more than just a film; it's a visual celebration of Bengali heritage through its sartorial choices. Fatima Sana Shaikh's portrayal, combined with her stunning saree ensembles, offers a masterclass in blending tradition with contemporary fashion. For saree enthusiasts and fashion aficionados alike, the film serves as an inspiring source of styling ideas and cultural appreciation.<br/><br/></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_bHVAXz",
+        "bl_text_QTLBpH"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_TKtrCR": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_tV73Xt": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_tV73Xt"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "d036730a-8d16-4983-945e-58174fb11f9c",
+    "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "image_text_L8gEaQ",
+    "image_text_c8UhLh",
+    "image_text_TKtrCR"
+  ]
+}
