@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "How to: Curvy Beauties Guide to Saree Draping",
-            "text": "<p>Let’s talk about two words every curvy woman deserves to feel every single day: <strong>confident and comfortable,</strong> especially when it comes to wearing a saree.</p><p>There’s this silly old myth that sarees are only for slim frames. Can we please toss that out forever? Because a saree is actually <em>one of the most versatile outfits on the planet</em> — it celebrates curves, it adds grace, and it can be styled in hundreds of ways to flatter <strong>YOUR</strong> beautiful shape.</p><p>So, let’s get into it. Here’s your ultimate guide to saree drapes, pleat placements, and blouses that will make you fall in love with your reflection, every single time.</p>",
+            "heading": "How to Remove Lipstick & Oil Stains and Save Your Old Favorites",
+            "text": "<p>Let’s face it — sarees are beautiful, delicate, and sometimes… accident-prone. Whether it’s a rogue lipstick smudge after a celebratory meal or an oil stain from that delicious street snack, these little mishaps can feel like a tragedy. But don’t panic! With the right DIY tricks, you can rescue your beloved sarees and keep them looking fresh.</p><h2>1. Removing Lipstick Stains from Sarees</h2><p><strong><br/>Lipstick stains</strong> are oily and pigmented, so acting fast is key. Here’s what you do:</p><ul><li><strong>Blot, don’t rub:</strong> Use a clean tissue to gently blot excess lipstick without spreading it.<br/><br/></li><li><strong>Apply baby powder or talcum powder:</strong> Sprinkle over the stain to absorb the oil for 30 minutes, then gently brush off.<br/><br/></li><li><strong>Use a mild detergent solution:</strong> Mix a few drops of gentle liquid detergent (like Woolite or baby shampoo) with cold water.<br/><br/></li><li><strong>Spot clean:</strong> Dab the stained area with a soft cloth soaked in this solution, gently rubbing in circular motions. Avoid harsh scrubbing!<br/><br/></li><li><strong>Rinse with cold water:</strong> Wash the spot carefully. If the stain persists, repeat the process or try a small dab of rubbing alcohol on a cotton swab—but test on a hidden area first.</li></ul><p><strong>Pro tip:</strong> Avoid hot water, as it can set the stain permanently.<br/><br/></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -136,122 +136,6 @@
         "code_cus_css": ""
       }
     },
-    "image_gallery_packery_LQeGec": {
-      "type": "image-gallery-packery",
-      "blocks": {
-        "image_item_8ThyHi": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify://shop_images/c1.jpg",
-            "link": "",
-            "col_dk": "6",
-            "col_tb": "6",
-            "col_mb": "12"
-          }
-        },
-        "image_item_yUpxMj": {
-          "type": "image_item",
-          "settings": {
-            "image": "shopify://shop_images/c2.jpg",
-            "link": "",
-            "col_dk": "6",
-            "col_tb": "6",
-            "col_mb": "12"
-          }
-        }
-      },
-      "block_order": [
-        "image_item_8ThyHi",
-        "image_item_yUpxMj"
-      ],
-      "name": "Image gallery packery",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "click_image": "data-t4s-gallery",
-        "nav_thumbs": true,
-        "open_link": "_blank",
-        "item_rd": 0,
-        "img_effect": "none",
-        "b_effect": "none",
-        "image_ratio": "ratioadapt",
-        "image_size": "cover",
-        "image_position": "8",
-        "space_item": "30",
-        "space_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": ",,50px,",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_c8UhLh": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_QTLBpH": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>1. Flattering Drapes for Curvy Figures<br/><br/></h2><h3>The Classic Nivi</h3><p>This timeless drape from Andhra Pradesh never fails. Neat front pleats slim down the midsection, and letting the pallu fall freely over the shoulder elongates your frame. Pin the pallu at the shoulder and let it fall long to create a leaner line.</p><h3>The Seedha Pallu (Gujarati Style)</h3><p>If you’re conscious about your midriff or bust area, try this. Bringing the pallu to the front helps cover the torso, yet looks playful and vibrant. Works especially well with embroidered or embellished pallus you want to show off.</p><h3>The Butterfly Drape</h3><p>It’s a Bollywood favorite for a reason. Here, the pallu is pleated very thin and spread across the bust, which can create an illusion of a more defined waist. It does show more midriff, so if that’s your jam, go for it!</p><h3>The Lehenga Style</h3><p>If you love twirls, drape your saree like a lehenga — multiple smaller pleats around your waist all the way through, paired with a heavier pallu thrown over your shoulder. This style evens out volume and is super flattering on curvy hips.</p><h3>The Belted Saree</h3><p>Add a belt (metal, fabric, or even a traditional kamarbandh) over your pallu at the waist. It accentuates your curves beautifully, adds structure, and keeps everything neatly in place.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_QTLBpH"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "featured_collection_wiki_kWzcyx": {
       "type": "featured-collection-wiki",
       "name": "Featured collection",
@@ -270,7 +154,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "shop-designer-sarees",
+        "collection": "silk-mark",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
@@ -683,8 +567,6 @@
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
-    "image_gallery_packery_LQeGec",
-    "image_text_c8UhLh",
     "featured_collection_wiki_kWzcyx",
     "image_text_axdKkE",
     "image_gallery_packery_BEJqqA",
