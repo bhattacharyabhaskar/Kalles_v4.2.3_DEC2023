@@ -691,7 +691,7 @@
             "type": "announcement",
             "settings": {
               "link": "shopify://collections/buy-silk-mark-certified-saree",
-              "content": "<p>😎Summer Special, Get upto 10% OFF 😎<a href=\"/pages/current-offers-and-promotions\" title=\"Current Offers and Promotions\">Details [icon_arrow]</a></p>",
+              "content": "<p>😎Festival Special, Get upto 10% OFF 😎<a href=\"/pages/current-offers-and-promotions\" title=\"Current Offers and Promotions\">Details [icon_arrow]</a></p>",
               "adding_border": true,
               "countdown": "2023/12/26",
               "txt_day": "days",
