@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/Banner_Image.jpg",
+            "image": "shopify://shop_images/Banner_Image_b09fdaf4-e77f-4f0a-81b6-12b6ebf70fa8.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "How to Take Stunning Photos in a Saree (Poses & Tips)",
-            "text": "<p>Who doesn’t love scrolling through Instagram and stopping dead in their tracks at a breathtaking saree photo? Whether it’s a soft candid shot with the pallu flowing in the breeze or a full royal portrait where the pleats look oh-so-perfect, saree pictures have their charm.</p><p>But let’s be real—posing in a saree isn’t always intuitive. The drape, pleats, pallu, jewelry—there’s so much to think about! If you’ve ever ended up with awkward hands, stiff shoulders, or photos that didn’t quite capture your grace, this guide is for you.</p><p>Here’s <strong>your ultimate cheat sheet on saree poses, saree photoshoot tips, and how to pose in a saree</strong> to get scroll-stopping shots every time.</p>",
+            "heading": "How to Style Ikat/Ikkat Sarees: From Boardroom Elegance to Boho Streetwear",
+            "text": "<p>Ikat sarees are the kind of fabric that quietly steals the show. Their soft, blurred motifs—born from a tie-and-dye-before-weave technique—feel both ancient and utterly modern. Whether you’ve got a Pochampally in your wardrobe or are eyeing that Sambalpuri beauty online, here’s how to style <a href=\"https://www.indyvogue.com/collections/ikat-silk-saree?srsltid=AfmBOopO7JETIMj6g4xWQtFy-kZ_hHMAjGViK4OBj2Fr4_S9RJc5uaiV\"><span style=\"text-decoration:underline\"><strong>Ikat/Ikkat sarees</strong></span></a> for three signature vibes: formal, casual, and fusion. (Yes, you can wear your handloom to a meeting <em>and</em> a music festival.)</p><h2>Quick note: why your Ikat/Ikkat matters</h2><p>Before we style, a quick reality check: handloom weaves like Ikat are culturally important and economically significant. India’s textile industry contributes billions to the economy, and the handloom sector supports millions of artisans across the country, so every Ikat you buy is a vote for slow, skilled craft over fast fashion.<a href=\"https://www.pib.gov.in/PressReleasePage.aspx?PRID=2089306&utm_source=chatgpt.com\"> (Information Source: <span style=\"text-decoration:underline\">Press Information Bureau</span></a><a href=\"https://www.accessdev.org/wp-content/uploads/2024/09/State-of-Handloom-Sector-Report-2024.pdf?utm_source=chatgpt.com\"><span style=\"text-decoration:underline\">accessdev.org</span></a> )</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -166,6 +166,66 @@
         "code_cus_css": ""
       }
     },
+    "image_gallery_packery_FezEyn": {
+      "type": "image-gallery-packery",
+      "blocks": {
+        "image_item_iyVEXk": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Image_1_345217e2-478b-401a-9f81-549c9fb2d625.jpg",
+            "link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        },
+        "image_item_MyE7JF": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/Image_2_17163f7e-f8de-4fd2-b568-8050289d8609.jpg",
+            "link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "image_item_iyVEXk",
+        "image_item_MyE7JF"
+      ],
+      "name": "Image gallery packery",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Packery gallery",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "image_text_cy6tq9": {
       "type": "image_text",
       "blocks": {
@@ -178,7 +238,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>1. The Classic Over-the-Shoulder Look: How to do it:<br/><br/></h2><ul><li>Stand slightly sideways, look back over your shoulder towards the camera.<br/><br/></li><li>Let your pallu flow naturally, or hold it lightly with your fingers.</li></ul><h3>Why it works:</h3><p>This is one of the most timeless saree poses. It shows off the beautiful back of your blouse, your jewelry, and adds a flirty, feminine feel. It’s also a great way to highlight a dramatic pallu.</p><p>✅ <strong>Pro Tip:</strong> If your saree has intricate work on the back, like a cut-out blouse or heavy border, this pose is a must!</p>",
+            "text": "<h2>1) Boardroom Elegance — Ikat/Ikkat that commands respect</h2><p><br/>Yes, sarees in the boardroom are a power move. To make Ikat look executive-chic:</p><ul><li><strong>Pick a muted palette:</strong> charcoal, navy, deep maroon, or monochrome Ikats read professionally. Avoid ultra-bright contrasts for formal meetings.<br/><br/></li><li><strong>Choose refined fabrics:</strong> silk-blend Ikat or a finely woven cotton Ikat holds pleats better and looks polished.<br/><br/></li><li><strong>Minimal blouse, maximal tailoring:</strong> pair with a well-fitted, high-neck or boat-neck blouse in a solid color. A structured blazer in a neutral shade (drape the pallu neatly over your shoulder) instantly modernizes the look.<br/><br/></li><li><strong>Accessories:</strong> leather pumps, a sleek watch, and a statement but small earring—less is more.<br/><br/></li><li><strong>Why it works:</strong> Ikat’s pattern is visually interesting without screaming for attention, which makes it ideal when you want to be remembered for ideas, not outfit noise.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -590,6 +650,7 @@
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "image_gallery_packery_FezEyn",
     "image_text_cy6tq9",
     "image_text_TztEMN",
     "image_text_zFCyeM",
