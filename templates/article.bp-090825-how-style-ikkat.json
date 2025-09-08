@@ -415,183 +415,13 @@
         "bl_text_q8BB3i": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>4. Hand on the Waist: How to do it:<br/><br/></h2><ul><li>Place one hand lightly on your waist or just above your hip, and let the other hand fall by your side.</li></ul><h3>Why it works:</h3><p>This accentuates your curves and highlights the drape of the saree. It’s also one of the easiest poses if you feel awkward with your hands.<br/>✅ <strong>Pro Tip:</strong> Slightly bend your knee closest to the camera for a natural hourglass.</p><p></p><h2>5. Sit Like a Queen: How to do it:<br/><br/></h2><ul><li>Sit on a chair or step sideways.<br/></li><li>Arrange the pleats neatly over your lap, let the pallu cascade down.<br/></li><li>Rest one hand gently on your lap and the other on the armrest or knee.</li></ul><h3>Why it works:</h3><p>Sitting poses bring out the royal elegance of a saree and work wonderfully with silk or heavy drapes.<br/>✅ <strong>Pro Tip:</strong> Slightly tilt your head to elongate your neck.<br/><br/><br/><br/></p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
-        "bl_image_P6fRKy": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/photo2.png",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_q8BB3i",
-        "bl_image_P6fRKy"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_DwDK3f": {
-      "type": "image_text",
-      "blocks": {
-        "bl_image_zjFcKw": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/photo3.png",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
-        "bl_text_mbpmEd": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>Extra Saree Photoshoot Tips</h2><h3><br/>Lighting is Everything</h3><p>Golden hour (just after sunrise or before sunset) gives the best warm glow. Indoors, stand near a window for soft natural light.</p><h3>Mind the Pleats & Pallu</h3><p>Always do a quick pleat check before the click. Straighten the front pleats and smooth out the pallu—creases can ruin an otherwise perfect shot.</p><h3>Watch Your Posture</h3><p>Keep your back straight and shoulders rolled back. Bad posture = droopy saree, lost elegance.</p><h3>Accessorize Right</h3><p>A statement earring, a delicate maang tikka, or stacked bangles can completely transform your look. But balance it—don’t let accessories overshadow the saree.</p><h3>Take Lots of Shots</h3><p>Try the same pose with slight tweaks—turn your chin, shift your shoulder, play with expressions. Sometimes the difference between “meh” and “wow” is a tiny head tilt!</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_image_zjFcKw",
-        "bl_text_mbpmEd"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_kKgj8z": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_VHMyaQ": {
-          "type": "bl_text",
-          "settings": {
             "col_dk": "12",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>How to Feel Confident on Camera</h2><p>Even the best saree poses won’t shine if you’re uncomfortable. Here’s how to channel your inner diva:</p><ol><li><strong>Practice in the mirror first.</strong> Get familiar with how your saree flows and which angles you love.</li><li><strong>Do a few trial spins.</strong> It’ll help loosen you up and give your saree natural movement.</li><li><strong>Keep smiling or softly laughing.</strong> A genuine smile will always beat a stiff expression.</li></ol><h2>Why It’s Worth It</h2><p>A saree isn’t just fabric—it’s tradition, emotion, drama, and grace all rolled into six yards. Whether you’re wearing it for a wedding, a photoshoot, or just to dress up for yourself, taking a few extra minutes to pose well gives you memories to cherish forever.</p><p>So next time you wrap that saree, remember:</p><ul><li>Stand tall, own your beauty, and let the camera fall in love with you.<br/><br/></li><li>You’re not just wearing a saree—you’re <em>living</em> in it.</li></ul><h2>Sumana Speak!</h2><p>What’s your favorite saree pose? Or do you have a secret saree photoshoot tip? Drop it in the comments—we’d love to learn from you and feature your tips in our next post.</p>",
+            "text": "<h2>3) Fusion & Party — When Ikat/Ikkat meets couture</h2><p><br/>Ikat can be party-ready with the right attitude:</p><ul><li><strong>Contrast the motifs:</strong> pair a bold Ikat/Ikkat saree with a metallic or sequinned crop top for dramatic contrast.<br/><br/></li><li><strong>Belt it:</strong> a statement belt over the pallu creates an instant Indo-western silhouette—great for sangeet or gallery openings.<br/><br/></li><li><strong>Experiment with drape:</strong> lehenga-style pleating or pre-stitched saree drapes let you dance all night without fuss.<br/><br/></li><li><strong>Statement jewellery:</strong> chunky cuffs, oxidized chokers, or a modern waist chain elevate the look for evening events.<br/><br/></li><li><strong>Play with footwear:</strong> block heels or statement boots work especially well with a fusion Ikat.</li></ul><h2>Buying tip + care note (because you’ll want this to last)</h2><p><br/>Ikat/Ikkat is made by resist-dyeing yarns before weaving—a labor-intensive process that creates the signature blurred motifs. Always:</p><ul><li>Check weave tightness (denser weave = longer life).<br/><br/></li><li>Dry-clean for silk Ikat; gentle hand wash or dry clean for delicate cotton Ikat.<br/><br/></li><li>Store in muslin, refold occasionally to avoid permanent creases.</li></ul><p>Handloom and Ikat are part of a wider textile ecosystem that supports artisans—by choosing Ikat, you’re helping preserve craft livelihoods. India’s textile and handloom sector contributes significantly to exports and rural employment, so wearing Ikat is both fashionable and responsible.<a href=\"https://texmin.nic.in/sites/default/files/MOT%20Annual%20Report%20English%20%2807.11.2024%29.pdf?utm_source=chatgpt.com\"> (<strong>Information Source:</strong> <span style=\"text-decoration:underline\">texmin.nic.in</span></a><a href=\"https://handlooms.nic.in/assets/img/Statistics/2486.pdf?utm_source=chatgpt.com\"><span style=\"text-decoration:underline\">handlooms.nic.in</span></a>)<br/><br/></p><h2>Final thought of Sumana (and a tiny challenge)</h2><p><br/>Ikat/Ikkat is proof that prints with soul exist. Try this: wear an Ikat saree to a weekday coffee meeting (boardroom styling), then rework the same saree with a denim jacket and sneakers for the evening (casual). Tag us—let’s show everyone how versatile handloom can be.</p><p>Want a printable “Ikat Styling Cheat-Sheet” or an Instagram carousel with these three looks? I’ll whip one up.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -608,7 +438,7 @@
         }
       },
       "block_order": [
-        "bl_text_VHMyaQ"
+        "bl_text_q8BB3i"
       ],
       "settings": {
         "design_heading": "1",
@@ -698,8 +528,6 @@
     "featured_collection_WYn4Uz",
     "image_text_TztEMN",
     "image_text_zFCyeM",
-    "image_text_DwDK3f",
-    "image_text_kKgj8z",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
