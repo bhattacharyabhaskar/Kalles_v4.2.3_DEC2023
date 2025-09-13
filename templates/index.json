@@ -796,21 +796,20 @@
         "code_cus_css": ""
       }
     },
-    "9a92f768-a23c-411b-b99c-809c4aae84e0": {
-      "type": "custom-html",
+    "custom_liquid_YfxA9X": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
-        "code": "<div data-romw-token=\"bxwPpkezty6Ua464jaw59oVXSfaOYCJL2mTasCcFfHMkvEQDgw\" data-romw-lazy=\"\"></div>\n<script src=\"https://reviewsonmywebsite.com/js/v2/embed.js?id=7327de0109f71427cb2f083d3ebcbe1b\" defer></script>\n\n<style>\n  /* Soft CSS override (helps if our CSS loads after theirs) */\n  iframe[id^=\"iFrameResizer\"] {\n    width: 100% !important;\n    max-width: 100% !important;\n    min-width: 0 !important;\n    display: block !important;\n  }\n</style>\n\n<script>\n  // Robust override: handles late injection & re-injection by the ROMW script\n  (function () {\n    function fixIframe() {\n      document.querySelectorAll('iframe[id^=\"iFrameResizer\"]').forEach(function (el) {\n        el.style.setProperty('width', '100%', 'important');\n        el.style.setProperty('max-width', '100%', 'important');\n        el.style.setProperty('min-width', '0', 'important');\n      });\n    }\n\n    // Run after DOM is ready\n    if (document.readyState === 'loading') {\n      document.addEventListener('DOMContentLoaded', fixIframe);\n    } else {\n      fixIframe();\n    }\n\n    // Also re-run after the ROMW embed script loads (it’s deferred)\n    window.addEventListener('load', fixIframe);\n\n    // Keep fixing if the provider replaces or re-styles the iframe later\n    var mo = new MutationObserver(function () { fixIframe(); });\n    mo.observe(document.body, { childList: true, subtree: true });\n  })();\n</script>",
+        "custom_liquid": "<!-- HEAD -->\n<link rel=\"preconnect\" href=\"https://reviewsonmywebsite.com\" crossorigin>\n<link rel=\"dns-prefetch\" href=\"//reviewsonmywebsite.com\">\n\n<section id=\"reviews\" class=\"ivy-reviews\">\n  <div class=\"ivy-skeleton\"></div>\n  <div class=\"ivy-skeleton\"></div>\n  <div class=\"ivy-skeleton\"></div>\n\n  <div id=\"romw\" hidden\n    data-romw-token=\"bxwPpkezty6Ua464jaw59oVXSfaOYCJL2mTasCcFfHMkvEQDgw\"\n    data-romw-lazy=\"\">\n  </div>\n</section>\n\n<style>\n  .ivy-skeleton{height:88px;border-radius:12px;margin:10px 0;background:\n  linear-gradient(90deg,#f3f3f3 25%,#ececec 37%,#f3f3f3 63%);background-size:400% 100%;\n  animation: shimmer 1.2s infinite linear}\n  @keyframes shimmer{0%{background-position:100% 0}100%{background-position:0 0}}\n  iframe[id^=\"iFrameResizer\"]{width:100%!important;max-width:100%!important;display:block!important}\n</style>\n\n<script>\n(function(){\n  var romwEl = document.getElementById('romw');\n  var injected = false;\n  function inject(){\n    if (injected) return; injected = true;\n    romwEl.hidden = false;\n    var s = document.createElement('script');\n    s.src = 'https://reviewsonmywebsite.com/js/v2/embed.js?id=7327de0109f71427cb2f083d3ebcbe1b';\n    s.defer = true;\n    s.onload = function(){\n      // remove skeletons once live iframe appears\n      document.querySelectorAll('.ivy-skeleton').forEach(n=>n.remove());\n    };\n    document.head.appendChild(s);\n  }\n  if ('IntersectionObserver' in window){\n    new IntersectionObserver((e,io)=>{ if(e[0].isIntersecting){ inject(); io.disconnect(); } },\n      {rootMargin:'1200px 0px'}).observe(romwEl);\n  } else { setTimeout(inject, 500); }\n})();\n</script>",
         "layout": "t4s-container-wrap",
-        "cl_bg": "#fcfaf7",
+        "cl_bg": "",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
         "mg_tb": "",
         "pd_tb": "",
         "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
+        "pd_mb": ""
       }
     },
     "216bf813-5b7d-4f42-88f7-accc66e62ae1": {
@@ -1549,7 +1548,7 @@
     "line_w49wWj",
     "1646035317ea8b6928",
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
-    "9a92f768-a23c-411b-b99c-809c4aae84e0",
+    "custom_liquid_YfxA9X",
     "216bf813-5b7d-4f42-88f7-accc66e62ae1",
     "426f6812-b9b0-4d60-921f-c59cd528e85d",
     "a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff",
