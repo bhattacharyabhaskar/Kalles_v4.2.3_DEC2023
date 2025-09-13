@@ -755,7 +755,7 @@
         "bl_image_qEBeG3": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/garad_1.png",
+            "image1": "shopify://shop_images/garad_2.png",
             "col_dk": "12",
             "col_tb": "6",
             "layout_des": "carousel",
