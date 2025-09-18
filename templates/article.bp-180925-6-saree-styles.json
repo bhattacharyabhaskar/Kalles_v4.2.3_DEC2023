@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "How to Take Stunning Photos in a Saree (Poses & Tips)",
-            "text": "<p>Who doesn’t love scrolling through Instagram and stopping dead in their tracks at a breathtaking saree photo? Whether it’s a soft candid shot with the pallu flowing in the breeze or a full royal portrait where the pleats look oh-so-perfect, saree pictures have their charm.</p><p>But let’s be real—posing in a saree isn’t always intuitive. The drape, pleats, pallu, jewelry—there’s so much to think about! If you’ve ever ended up with awkward hands, stiff shoulders, or photos that didn’t quite capture your grace, this guide is for you.</p><p>Here’s <strong>your ultimate cheat sheet on saree poses, saree photoshoot tips, and how to pose in a saree</strong> to get scroll-stopping shots every time.</p>",
+            "heading": "6 Saree Styles to Dazzle This Durga Puja",
+            "text": "<p>Durga Puja is not just a festival—it’s an emotion. The sound of the <em>dhak</em>, the fragrance of <em>shiuli</em> flowers, the laughter of friends during pandal-hopping, and the joy of dressing up in your finest sarees—it all weaves together into memories we cherish year after year. And when it comes to Puja fashion, sarees hold the crown. This year, let’s explore <strong>six timeless saree styles</strong>—from traditional weaves to versatile silks—that can make you the showstopper every single day of Puja.</p><p></p><h2>1. The Regal Red & White Garad for Ashtami</h2><p><br/>No Durga Puja is complete without the iconic <a href=\"https://www.indyvogue.com/collections/garad-saree-collection?srsltid=AfmBOorDWCGN5VcF4sVMRmfpAegC7OHUg2YPyXGDZ-_JTkkUvwDryA5b\"><span style=\"text-decoration:underline\"><strong>Garad saree</strong></span></a>. Known for its pristine white body and striking red border, the Garad embodies purity and devotion. Traditionally worn during <em>Ashtami Anjali</em> or <em>Sindoor Khela</em>, it’s the ultimate saree to honor the goddess herself.</p><ul><li><strong>How to style:</strong> Pair it with <em>shakha-pola</em> bangles, a big red bindi, and gold temple jewelry. Add fresh flowers to your bun for that quintessential Bengali look.</li></ul>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -107,40 +107,10 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_KhNdWx": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Image_1_d647a379-0658-4722-8da5-8aff2b2e677a.jpg",
-            "col_dk": "12",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1",
-        "bl_image_KhNdWx"
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
       ],
       "settings": {
         "design_heading": "1",
@@ -159,6 +129,157 @@
         "mg": ",,50px,",
         "pd": "",
         "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "featured_collection_wiki_JBwzNj": {
+      "type": "featured-collection-wiki",
+      "name": "Featured collection",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "head_btn_label": "View All",
+        "head_btn_url": "",
+        "head_btn_icon": false,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
+        "collection": "garad-saree-collection",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "rationt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "limit": 8,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btns_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "use_pagination": "none",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "default",
+        "btns_size": "large",
+        "btns_cl": "dark",
+        "button_effect": "default",
+        "btn_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_gallery_packery_rhHG8q": {
+      "type": "image-gallery-packery",
+      "blocks": {
+        "image_item_b8Dkf6": {
+          "type": "image_item",
+          "settings": {
+            "link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        },
+        "image_item_f6H9jN": {
+          "type": "image_item",
+          "settings": {
+            "link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        },
+        "image_item_KrmNdJ": {
+          "type": "image_item",
+          "settings": {
+            "link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        },
+        "image_item_mqpzPg": {
+          "type": "image_item",
+          "settings": {
+            "link": "",
+            "col_dk": "6",
+            "col_tb": "6",
+            "col_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "image_item_b8Dkf6",
+        "image_item_f6H9jN",
+        "image_item_KrmNdJ",
+        "image_item_mqpzPg"
+      ],
+      "name": "Image gallery packery",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Packery gallery",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "click_image": "data-t4s-gallery",
+        "nav_thumbs": true,
+        "open_link": "_blank",
+        "item_rd": 0,
+        "img_effect": "none",
+        "b_effect": "none",
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "8",
+        "space_item": "30",
+        "space_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": ",,50px,",
         "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": "",
@@ -306,231 +427,6 @@
         "code_cus_css": ""
       }
     },
-    "image_text_zFCyeM": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_q8BB3i": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>4. Hand on the Waist: How to do it:<br/><br/></h2><ul><li>Place one hand lightly on your waist or just above your hip, and let the other hand fall by your side.</li></ul><h3>Why it works:</h3><p>This accentuates your curves and highlights the drape of the saree. It’s also one of the easiest poses if you feel awkward with your hands.<br/>✅ <strong>Pro Tip:</strong> Slightly bend your knee closest to the camera for a natural hourglass.</p><p></p><h2>5. Sit Like a Queen: How to do it:<br/><br/></h2><ul><li>Sit on a chair or step sideways.<br/></li><li>Arrange the pleats neatly over your lap, let the pallu cascade down.<br/></li><li>Rest one hand gently on your lap and the other on the armrest or knee.</li></ul><h3>Why it works:</h3><p>Sitting poses bring out the royal elegance of a saree and work wonderfully with silk or heavy drapes.<br/>✅ <strong>Pro Tip:</strong> Slightly tilt your head to elongate your neck.<br/><br/><br/><br/></p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
-        "bl_image_P6fRKy": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/photo2.png",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_q8BB3i",
-        "bl_image_P6fRKy"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_DwDK3f": {
-      "type": "image_text",
-      "blocks": {
-        "bl_image_zjFcKw": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/photo3.png",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
-        "bl_text_mbpmEd": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "6",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>Extra Saree Photoshoot Tips</h2><h3><br/>Lighting is Everything</h3><p>Golden hour (just after sunrise or before sunset) gives the best warm glow. Indoors, stand near a window for soft natural light.</p><h3>Mind the Pleats & Pallu</h3><p>Always do a quick pleat check before the click. Straighten the front pleats and smooth out the pallu—creases can ruin an otherwise perfect shot.</p><h3>Watch Your Posture</h3><p>Keep your back straight and shoulders rolled back. Bad posture = droopy saree, lost elegance.</p><h3>Accessorize Right</h3><p>A statement earring, a delicate maang tikka, or stacked bangles can completely transform your look. But balance it—don’t let accessories overshadow the saree.</p><h3>Take Lots of Shots</h3><p>Try the same pose with slight tweaks—turn your chin, shift your shoulder, play with expressions. Sometimes the difference between “meh” and “wow” is a tiny head tilt!</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_image_zjFcKw",
-        "bl_text_mbpmEd"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_kKgj8z": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_VHMyaQ": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>How to Feel Confident on Camera</h2><p>Even the best saree poses won’t shine if you’re uncomfortable. Here’s how to channel your inner diva:</p><ol><li><strong>Practice in the mirror first.</strong> Get familiar with how your saree flows and which angles you love.</li><li><strong>Do a few trial spins.</strong> It’ll help loosen you up and give your saree natural movement.</li><li><strong>Keep smiling or softly laughing.</strong> A genuine smile will always beat a stiff expression.</li></ol><h2>Why It’s Worth It</h2><p>A saree isn’t just fabric—it’s tradition, emotion, drama, and grace all rolled into six yards. Whether you’re wearing it for a wedding, a photoshoot, or just to dress up for yourself, taking a few extra minutes to pose well gives you memories to cherish forever.</p><p>So next time you wrap that saree, remember:</p><ul><li>Stand tall, own your beauty, and let the camera fall in love with you.<br/><br/></li><li>You’re not just wearing a saree—you’re <em>living</em> in it.</li></ul><h2>Sumana Speak!</h2><p>What’s your favorite saree pose? Or do you have a secret saree photoshoot tip? Drop it in the comments—we’d love to learn from you and feature your tips in our next post.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_VHMyaQ"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
@@ -590,11 +486,10 @@
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "featured_collection_wiki_JBwzNj",
+    "image_gallery_packery_rhHG8q",
     "image_text_cy6tq9",
     "image_text_TztEMN",
-    "image_text_zFCyeM",
-    "image_text_DwDK3f",
-    "image_text_kKgj8z",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
