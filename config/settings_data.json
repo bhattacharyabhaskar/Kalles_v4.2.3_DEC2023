@@ -119,7 +119,7 @@
     "social_tiktok_link": "",
     "favicon": "shopify://shop_images/Logo-Light-New-FavIcon.png",
     "favicon_apple": "shopify://shop_images/Logo-Light-New-Retina.png",
-    "general_discount_tiers": "7500:0,10000:1000,20000:5%,30000:6%,50000:7%,80000:8%,100000:10%",
+    "general_discount_tiers": "7500:500,10000:1000,20000:5%,30000:6%,50000:7%,80000:8%,100000:10%",
     "checkout_logo_image": "shopify://shop_images/Logo-Light-New_5f505c73-77f1-4d5d-863c-3b869b661d24.png",
     "checkout_logo_size": "large",
     "pr_incoming_mess": true,
