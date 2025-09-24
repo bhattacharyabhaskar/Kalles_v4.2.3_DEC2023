@@ -46,6 +46,11 @@
 			{% render 'article-schema' %}
 		{% else %}
 		{% endif %}
+    {% if template contains 'product' %}
+  {% if product.tags contains 'archived' %}
+    <meta name="robots" content="noindex, nofollow">
+  {% endif %}
+{% endif %}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
