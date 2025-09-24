@@ -46,10 +46,8 @@
 			{% render 'article-schema' %}
 		{% else %}
 		{% endif %}
-    {% if template contains 'product' %}
-  {% if product.tags contains 'archived' %}
-    <meta name="robots" content="noindex, nofollow">
-  {% endif %}
+    {% if product.status == 'archived' %}
+  <meta name="robots" content="noindex, nofollow">
 {% endif %}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
