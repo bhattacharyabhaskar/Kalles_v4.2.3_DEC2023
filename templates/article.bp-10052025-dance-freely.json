@@ -487,7 +487,7 @@
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
-            "col_tb": "6",
+            "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
@@ -506,13 +506,45 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_qEBeG3": {
+        }
+      },
+      "block_order": [
+        "bl_text_kmT3Xq"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_QdRJtx": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_qre3CJ": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/garad_2.png",
+            "image1": "shopify://shop_images/Image_2_e2f86f6a-7461-4942-9697-8ce762f21270.png",
             "col_dk": "12",
-            "col_tb": "6",
+            "col_tb": "12",
             "layout_des": "carousel",
             "post_mobile": "default",
             "image_ratio": "ratioadapt",
@@ -535,11 +567,35 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
+        },
+        "bl_text_7eUk7B": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "6",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Sumana’s Word<br/><br/></h2><p>A Garad saree is not just a garment—it’s a symbol of devotion, culture, and heritage. With mindful care, your saree can remain as pristine and elegant as the day you first wore it, ready to be part of family rituals for generations to come.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
         }
       },
       "block_order": [
-        "bl_text_kmT3Xq",
-        "bl_image_qEBeG3"
+        "bl_image_qre3CJ",
+        "bl_text_7eUk7B"
       ],
       "name": "Image with text",
       "settings": {
@@ -631,6 +687,7 @@
     "featured_collection_JFVYEb",
     "image_text_c8UhLh",
     "image_text_VYiHpK",
+    "image_text_QdRJtx",
     "image_text_TKtrCR"
   ]
 }
