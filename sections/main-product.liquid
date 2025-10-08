@@ -305,24 +305,6 @@ endif -%}
                 assign class_gx_lg = ' t4s-g-lg-10 '
               endif
             -%}
-            <style>
-              /* Critical, non-blocking styles for the Silk Mark badge */
-              [data-product-single-media-group] { position: relative; } /* ensure a positioned ancestor */
-              .ivy-badge-logo-left {
-                position: absolute;
-                top: 12px; left: 12px;
-                z-index: 12;
-                pointer-events: none;   /* so clicks on image still work */
-              }
-              .ivy-badge-logo-left img {
-                width: 70px; height: 70px; /* reserve space, prevent any CLS */
-                display: block;
-                padding: 4px;
-              }
-              @media (max-width: 767px) {
-                .ivy-badge-logo-left img { width: 58px; height: 58px; }
-              }
-              </style>
           <link rel="stylesheet" data-href="{{ 'slider-settings.css' | asset_url }}">
           <div class="t4s-row t4s-g-0" timeline hdt-reveal="slide-in">
             <div data-product-single-media-group class="{{ class_main }}t4s-col-12 t4s-col-item t4s-pr">
