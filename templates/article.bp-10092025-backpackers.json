@@ -153,7 +153,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "valentines-day-collection",
+        "collection": "bengal-cotton",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
@@ -219,8 +219,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "About the author",
-            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "heading": "",
+            "text": "<h2>Accessories: The Real Game-Changers</h2><p><br/>Backpackers don’t have space for bulky jewelry, so stick to versatile pieces:</p><ul><li>A chunky silver neckpiece that works with both casual and dressy looks.<br/></li><li>Jhumkas or hoops for instant glam.<br/></li><li>A waist belt that doubles as a statement accessory and drape-saver.<br/><br/></li></ul><h2>Gen Z and the Saree-on-the-Go</h2><p><br/>Here’s why this guide isn’t just for desi aunties. Gen Z is obsessed with multipurpose, sustainable fashion—and what’s more sustainable than making one saree look like ten outfits? It’s slow fashion at its sassiest.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -262,12 +262,124 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "image_text_U33RdD": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_aE4qcQ": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Final Wrap-Up (Pun Intended)</h2><p><br/>If you’re a backpacker, sarees aren’t just a cultural statement—they’re your ultimate travel hack. Two or three lightweight sarees can replace half your wardrobe while keeping you stylish, versatile, and rooted in tradition, no matter which continent you set foot on.</p><p>So the next time you pack, ditch the five pairs of jeans. Roll up a saree instead. Who knew six yards could carry so much adventure?</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_aE4qcQ"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_UJG9Jd": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_GDMY6X": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_GDMY6X"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "featured_collection_acG9t6",
-    "e7b55938-3dde-44ab-9365-66967e09d447"
+    "e7b55938-3dde-44ab-9365-66967e09d447",
+    "image_text_U33RdD",
+    "image_text_UJG9Jd"
   ]
 }
