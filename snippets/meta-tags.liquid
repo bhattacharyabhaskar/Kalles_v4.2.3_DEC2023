@@ -60,7 +60,7 @@ Robots policy:
 
 <meta name="author" content="{{ settings.shop_author | default: 'The4' | escape }}">
 
-{# -- Open Graph / Twitter -- #}
+{%- comment -%}{# -- Open Graph / Twitter -- #}{%- endcomment -%}
 <meta property="og:site_name" content="{{ shop_name_escape }}">
 <meta property="og:url" content="{{ og_url }}">
 <meta property="og:title" content="{{ og_title | escape }}">
@@ -80,7 +80,7 @@ Robots policy:
     {% assign og_image_secure = img_path | prepend: 'https://' %}
   {% endif %}
 
-  {# Provide og:image and secure_url (preferred). Width/height are rendered if available on the image object. #}
+  {%- comment -%}{# Provide og:image and secure_url (preferred). Width/height are rendered if available on the image object. #}{%- endcomment -%}
   <meta property="og:image" content="{{ og_image_secure }}">
   <meta property="og:image:secure_url" content="{{ og_image_secure }}">
   {%- if page_image.width %}<meta property="og:image:width" content="{{ page_image.width }}">{%- endif -%}
