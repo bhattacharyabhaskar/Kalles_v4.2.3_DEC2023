@@ -29,109 +29,74 @@
     <head>
         {% render 'font-css' %}
         {% render 'wnw_header' %}
-		{% render 'website-schema' %}
-        {% comment %}
-            // BB: Remove this after Valentine's day 
-		    {% if handle contains 'saraswati-puja-collection' or  handle contains 'valentines-day-collection' or  handle contains 'all' %}
-			    <meta name="robots" content="noindex, nofollow">
-		    {% endif %}
-        {% endcomment %}
-		{% if template contains 'index' %}
-			{% render 'organization-schema' %}
-		{% elsif template contains 'collection' %}
-			{% render 'breadcrumb-schema-collection' %}
-		{% elsif template contains 'product' %}
-			{% render 'breadcrumb-schema-product' %}
-		{% elsif template contains 'article' %}
-			{% render 'article-schema' %}
-		{% else %}
-		{% endif %}
-    {% if product.status == 'archived' %}
-  <meta name="robots" content="noindex, nofollow">
-{% endif %}
+        {% render 'website-schema' %}
+        {% if template contains 'index' %}
+            {% render 'organization-schema' %}
+        {% elsif template contains 'collection' %}
+            {% render 'breadcrumb-schema-collection' %}
+        {% elsif template contains 'product' %}
+            {% render 'breadcrumb-schema-product' %}
+        {% elsif template contains 'article' %}
+            {% render 'article-schema' %}
+        {% endif %}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
         <meta name="theme-color" content="{{ settings.body_bg }}">
-        {% comment %}
-            // BB: For all collections canonical url 
-        {% endcomment %}
-      
-        <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-        <link rel="preconnect" href="https://reviewsonmywebsite.com" crossorigin>
-        <link rel="dns-prefetch" href="//reviewsonmywebsite.com">
 
-        {%- if settings.favicon != blank %}
+        <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+        {%- if settings.favicon != blank -%}
             <link rel="shortcut icon" type="image/png" href="{{ settings.favicon | image_url: width: 32 }}">
-        {% endif -%}
-        {%- if settings.favicon_apple != blank %}
+        {%- endif -%}
+        {%- if settings.favicon_apple != blank -%}
             <link rel="apple-touch-icon-precomposed" type="image/png" sizes="152x152" href="{{ settings.favicon_apple | image_url: width: 152 }}">
-        {% endif -%}
+        {%- endif -%}
         {%- if settings.font_source == '1' and settings.fnt_fm_sp1.system? == false or settings.fnt_fm_sp2.system? == false or settings.fnt_fm_sp3.system? == false -%}
             <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
         {%- endif -%}
-        {% comment %}
-            // BB: Render snippet for custom page-title and meta desciption
-        {% endcomment %}
+
         {% render 'page-title-meta-desc' %}
         {%- render 'meta-tags', t_name: t_name -%}
+
         <script type="lazyload_int" data-src="{{ 'lazysizes.min.js' | asset_url }}"></script>
         <script type="lazyload_int" data-src="{{ 'global.min.js' | asset_url }}"></script>
         {%- if request.design_mode or template contains 'cart' or template contains 'checkout' -%}
             {{ content_for_header }}
         {%- else -%}
             {% capture content_for_header2 %}{{ content_for_header }}{% endcapture %}
-            {{ content_for_header2 | replace: ' async="async" ', ' type="lazyload_int" ' | replace: ' defer="defer" ', ' type="lazyload_int" ' | replace: " src=", " data-src="| replace: "DOMContentLoaded", "w3-DOMContentLoaded" | replace: "window.addEventListener('load', asyncLoad, false);", "window.addEventListener('w3-DOMContentLoaded', asyncLoad, false);" | replace: "addEventListener('load', prefetchAssets);", "addEventListener('w3-DOMContentLoaded', prefetchAssets);" }}
+            {{ content_for_header2 
+                | replace: ' async="async" ', ' type="lazyload_int" ' 
+                | replace: ' defer="defer" ', ' type="lazyload_int" ' 
+                | replace: " src=", " data-src=" 
+                | replace: "DOMContentLoaded", "w3-DOMContentLoaded" 
+                | replace: "window.addEventListener('load', asyncLoad, false);", "window.addEventListener('w3-DOMContentLoaded', asyncLoad, false);" 
+                | replace: "addEventListener('load', prefetchAssets);", "addEventListener('w3-DOMContentLoaded', prefetchAssets);" }}
             <script>var trekkie=[];trekkie.integrations=!0;window.BOOMR={},window.BOOMR.version=true;</script>
         {%- endif -%}
+
         {%- render 'head_assets', t_name: t_name, isRTL: isRTL -%}  
-        {% comment %}
-        {% render 'limoniapps-discountninja-header' %}        
-        {% endcomment %}
-        {%- if product -%}
-            {%- assign discountninjaproduct = product -%}
-        {%- endif -%}
-        {%- if collection -%}
-            {%- assign discountninjacollection = collection -%}
-        {%- endif -%}
-      {% comment %}
-        {% render 'app-block' %}
-      {% endcomment %}
         {% render 'custom-css' %}
 
+        <script>
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(loadTexasBannerLogic);
+        } else {
+          setTimeout(loadTexasBannerLogic, 200);
+        }
+        function loadTexasBannerLogic() {
+          const script = document.createElement('script');
+          script.src = '{{ "geo-location-banner.js" | asset_url }}';
+          script.defer = true;
+          document.head.appendChild(script);
+        }
+        </script>
 
-
-      
-      <script>
-      if ('requestIdleCallback' in window) {
-        requestIdleCallback(loadTexasBannerLogic);
-      } else {
-        setTimeout(loadTexasBannerLogic, 200); // Fallback
-      }
-      
-      function loadTexasBannerLogic() {
-        const script = document.createElement('script');
-        script.src = '{{ "geo-location-banner.js" | asset_url }}';
-        script.defer = true;
-        document.head.appendChild(script);
-      }
-      </script>
-       <script src="https://analytics.ahrefs.com/analytics.js" data-key="uYtR1GbS7UMmtg/T7xFn4w" async></script> 
-       {% comment %} ----- Start: Added for SearchConsole fix ------ {% endcomment %}
-        {% if request.page_type == 'product' %}
-          <link rel="canonical" href="{{ shop.url }}/products/{{ product.handle }}" />
-        {% elsif request.page_type == 'collection' %}
-          <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
-        {% elsif request.page_type == 'article' %}
-          <link rel="canonical" href="{{ shop.url }}{{ article.url }}" />
-        {% elsif request.page_type == 'blog' %}
-          <link rel="canonical" href="{{ shop.url }}{{ blog.url }}" />
-        {% else %}
-          <link rel="canonical" href="{{ canonical_url }}" />
-        {% endif %} 
-        {% comment %} ----- End: Added for SearchConsole fix ------ {% endcomment %}    
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="uYtR1GbS7UMmtg/T7xFn4w" async></script>
     </head>
-    <body class="template-{{ request.page_type | handle }} {{ class_lazy }}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="2" data-sizes="auto"{% endif -%}>{% if isRTL %}<script type="text/javascript" id="t4s-flicker-fix">// Flicker fix.</script>{% endif -%}
+    <body class="template-{{ request.page_type | handle }} {{ class_lazy }}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="2" data-sizes="auto"{% endif -%}>
+        {% if isRTL %}
+            <script type="text/javascript" id="t4s-flicker-fix">// Flicker fix.</script>
+        {% endif %}
         <a class="skip-to-content-link visually-hidden" href="#MainContent">{{ "accessibility.skip_to_text" | t }}</a>
         <div class="t4s-close-overlay t4s-op-0"></div>
         <div class="t4s-website-wrapper">
@@ -148,28 +113,9 @@
             <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
         </ul>
         {%- render 'render_bottom' -%}  
-        {% comment %}
-        {% include 'limoniapps-discountninja-body' %}        
-        {% endcomment %}
-        {% comment %}
-            // BB: Adding criteo tracking & optimization-3.0 js
-        {% endcomment %} 
-      {% comment %}
-          <script id='merchantWidgetScript' src="https://www.gstatic.com/shopping/merchant/merchantwidget.js" defer></script>
-          <script type="text/javascript">
-            merchantWidgetScript.addEventListener('load', function () {
-              merchantwidget.start({
-                position: 'LEFT_BOTTOM',
-                sideMargin: 21,
-                bottomMargin: 33,
-                mobileSideMargin: 11,
-                mobileBottomMargin: 19
-              });
-            });
-          </script>
-        {% endcomment %} 
-      
+
         {% render 'criteo-tracking' %}
+
         <script type="lazyload_int">
             setInterval(function() {
                 var lazyScript = document.querySelectorAll("script[type=lazyload_int]");
@@ -180,21 +126,22 @@
                     lazyScript[i].parentNode.removeChild(lazyScript[i]);
                 }
                 var lazyLink = document.querySelectorAll("link[data-href]");
-            	for (i = 0; i < lazyLink.length; i++) {
-            		var css_element = document.createElement("link");
-            		css_element.href = lazyLink[i].getAttribute("data-href");
-            		css_element.rel = "stylesheet";
-            		lazyLink[i].parentNode.insertBefore(css_element, lazyLink[i]);
-            		delete lazyLink[i].dataset.href;
-            		lazyLink[i].parentNode.removeChild(lazyLink[i]);
-            	}
+                for (i = 0; i < lazyLink.length; i++) {
+                    var css_element = document.createElement("link");
+                    css_element.href = lazyLink[i].getAttribute("data-href");
+                    css_element.rel = "stylesheet";
+                    lazyLink[i].parentNode.insertBefore(css_element, lazyLink[i]);
+                    delete lazyLink[i].dataset.href;
+                    lazyLink[i].parentNode.removeChild(lazyLink[i]);
+                }
             }, 1000);
         </script>
+
         <script>
             var site_nav_link_burger = true;
             document.addEventListener("DOMContentLoaded", function() {
                 var icon_menu = document.querySelector("[data-menu-drawer]");
-                icon_menu.addEventListener("click", function() {
+                icon_menu.addEventListener("click", function(event) {
                     if(site_nav_link_burger) {
                         event.preventDefault();
                         site_nav_link_burger = false;
@@ -202,7 +149,7 @@
                 });
             })
         </script> 
-      
+
         <!-- Block broken fallback image (no-image-100) and replace with transparent.gif -->
         <style>
           img[src*="no-image-100"] {
@@ -221,9 +168,7 @@
             }
           }, true);
         </script>
-      {% comment %}
-        {% render 'footer-app-block' %}
-      {% endcomment %}
+
         {% render 'wnw_footer' %}
     </body>
 </html>
