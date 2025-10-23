@@ -136,6 +136,92 @@
         "code_cus_css": ""
       }
     },
+    "image_text_YMpirV": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_hHFePt": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Infographic.png",
+            "col_dk": "4",
+            "col_tb": "4",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_znrR89": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "8",
+            "col_tb": "8",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Step 1: Identify the Culprit (and Don’t Panic!)<br/></h2><p><br/>The first rule of saree care — <em>don’t rub the stain in panic.</em> Breathe. Look closely. Is it oil? Lipstick? Mehendi? Each stain has its own personality and its own remedy.<br/></p><p>If it’s an <strong>oil stain</strong>, sprinkle talcum powder or cornflour on it and let it sit for 15–20 minutes. It’ll absorb the excess oil naturally. Then, use a soft brush to dust it off gently.<br/><br/></p><h2>Step 2: Cold Water is Your Best Friend</h2><p><br/>Never use hot water — it sets stains permanently. Always start with <strong>cold water dabbing</strong>. Take a clean white cloth, dip it in water, and blot (not rub!) the stain from the edges inward. For lipstick or sindoor marks, a tiny drop of baby shampoo can help loosen the pigment.<br/><br/><br/>Step 3: Use Grandma’s Secret Remedies</p><p>Some wisdom never fades. My mother swears by <strong>lemon juice and baking soda</strong> for mild curry or tea stains. Just mix a little, apply gently with a cotton pad, and rinse carefully after 10 minutes. For delicate silks, try <strong>white vinegar diluted with cold water</strong> instead — always testing a small corner first.</p><p>And if it’s a mehendi or haldi stain, <strong>raw milk</strong> works wonders. Dab it, let it sit, and gently wash off later. The enzymes in milk help lift natural dyes without harming silk or zari.</p><h2>Step 4: Let It Dry Naturally</h2><p>Never wring or blow-dry your saree. Lay it flat on a towel, away from direct sunlight. Sunlight fades zari and silk faster than you think. Patience is key — let it breathe its way back to beauty.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_hHFePt",
+        "bl_text_znrR89"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "featured_collection_acG9t6": {
       "type": "featured-collection",
       "settings": {
@@ -267,6 +353,7 @@
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
+    "image_text_YMpirV",
     "featured_collection_acG9t6",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
