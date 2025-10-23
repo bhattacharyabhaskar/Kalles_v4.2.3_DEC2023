@@ -227,7 +227,7 @@
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "Suites & Dresses",
+        "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
@@ -239,7 +239,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "valentines-day-collection",
+        "collection": "georgette-silk-saree",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
