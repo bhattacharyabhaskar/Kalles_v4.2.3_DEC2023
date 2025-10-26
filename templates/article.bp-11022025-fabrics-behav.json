@@ -487,8 +487,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "3. Aishwarya Rai's Blue and Gold Saree in Devdas",
-            "text": "<p>Aishwarya Rai's ornate blue and gold saree in <em>Devdas</em> captures the opulent style of the film's era. With rich, hand embroidery details, this drape style is all about showcasing luxury.</p><h3>How to Drape:</h3><ol><li>Tuck the saree at your waist, creating broad pleats for volume.</li><li>Bring the pallu over your right shoulder and drape it elegantly.</li><li>Allow the pallu to hang longer, showcasing the intricate design.</li><li>Use ornate jewelry to accentuate the theme.</li></ol>",
+            "heading": "The Science Behind the Saree",
+            "text": "<p>Here’s the nerdy (but fascinating!) part: silk fibers are made of a protein called <strong>fibroin</strong>, which has a triangular prism structure. This unique shape reflects light at multiple angles, giving silk its iconic natural shine.</p><p>Silk also has excellent <strong>tensile strength</strong>, meaning it can bend and flex without breaking—explaining why your silk saree feels durable yet soft. The smooth surface of each fiber helps it glide easily, making the saree move fluidly with your body.</p><p>So, when you walk, sit, or dance, silk’s molecular structure is actually responding to movement—absorbing tension, reflecting light, and adjusting shape. Science, meet style.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -506,7 +506,7 @@
         "bl_image_3aAjXU": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/aishwaryaraifeature21676461790.webp",
+            "image1": "shopify://shop_images/Image_1_1.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
