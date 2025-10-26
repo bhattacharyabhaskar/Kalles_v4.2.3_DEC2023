@@ -695,98 +695,13 @@
         "bl_text_fDtmrA": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "5. The Royal Drapes of Jodha Akbar",
-            "text": "<p>For those drawn to historical elegance, the sarees in <em>Jodha Akbar</em> offer majestic inspiration. This style is characterized by rich fabrics and layered draping, suitable for royal occasions.</p><h3>How to Drape:</h3><ol><li>Tuck the saree at the waist, with numerous pleats to create volume.</li><li>Bring the pallu over your left shoulder, using a brooch for a regal touch.</li><li>Layer another portion of the saree over your shoulder for added drama.</li><li>Pair with traditional jewelry to complete the look.</li></ol>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
-        "bl_image_Q3teDh": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/jodha_Akbar.jpg",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_fDtmrA",
-        "bl_image_Q3teDh"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_TztEMN": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_bbwXwi": {
-          "type": "bl_text",
-          "settings": {
             "col_dk": "12",
             "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Conclusion",
-            "text": "<p>These unique saree draping styles from recent Bollywood films bring cinematic elegance to your wardrobe. Whether you're purchasing silk sarees online in the USA or visiting a saree boutique online, these styles will help you exude the timeless charm that Bollywood icons have mastered. Ready to transform your saree game? Explore the top 10 silk saree sites in the USA or visit Indyvogue for the best pure silk sarees in the USA.</p><p><a href=\"https://www.indyvogue.com/collections/buy-silk-mark-certified-saree\" target=\"_blank\">Learn more about our collection and join our community of fashion-forward saree lovers today!</a></p><p>With these draping styles, you'll not only honor traditional craftsmanship but also infuse your personal style with Bollywood glamour. Remember, the best saree collection is just a click away, waiting to inspire your next look? Shop Now!</p>",
+            "heading": "Final Wrap-Up",
+            "text": "<p>Silk isn’t just fabric—it’s a living, breathing expression of movement, tradition, and grace. Whether you’re walking into a boardroom, sitting through a ceremony, or dancing under fairy lights, silk makes sure you move like poetry in motion.</p><p>Next time you drape a silk saree, take a moment to feel it respond to you—because it’s not just six yards you’re wearing, it’s centuries of craftsmanship that move in harmony with your every step.</p><p>Stay tuned for next month’s feature: <strong>“How Fabrics Behave – This Month’s Saree: Linen”</strong>, where we explore the fabric that loves to breathe as much as you do.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -803,7 +718,7 @@
         }
       },
       "block_order": [
-        "bl_text_bbwXwi"
+        "bl_text_fDtmrA"
       ],
       "settings": {
         "design_heading": "1",
@@ -897,7 +812,6 @@
     "featured_collection_wiki_yyGLGa",
     "image_text_8qjwjC",
     "image_text_qkbByh",
-    "image_text_TztEMN",
     "e7b55938-3dde-44ab-9365-66967e09d447"
   ]
 }
