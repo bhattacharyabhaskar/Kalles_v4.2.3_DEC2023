@@ -211,40 +211,11 @@
     "image_text_wDa7LX": {
       "type": "image_text",
       "blocks": {
-        "bl_image_eYqCYK": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Image_2_1.png",
-            "col_dk": "6",
-            "col_tb": "6",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
         "bl_text_fGPQjq": {
           "type": "bl_text",
           "settings": {
-            "col_dk": "6",
-            "col_tb": "6",
+            "col_dk": "12",
+            "col_tb": "12",
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
@@ -266,7 +237,6 @@
         }
       },
       "block_order": [
-        "bl_image_eYqCYK",
         "bl_text_fGPQjq"
       ],
       "settings": {
@@ -304,8 +274,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "1. Kajol's Nauvari Saree in Tanhaji: The Unsung Warrior",
-            "text": "<p>Kajol's portrayal of Savitribai Malusare brought the traditional nauvari saree back into the spotlight. This 17th-century style, with its pleatless drape and dhoti-like appearance, exudes a fierce yet elegant vibe.</p><h3>How to Drape:</h3><ol><li>Start by wrapping the saree around your waist, pallu on the right side.</li><li>Tuck the saree tightly at your waist, allowing enough fabric to pass between your legs.</li><li>Bring the pallu over your right shoulder, and pin it securely.</li><li>Pleat the remaining fabric at the front, and tuck it at your waist for a clean finish.</li></ol>",
+            "heading": "Sitting in Silk: Comfort Meets Poise",
+            "text": "<p>Let’s talk about posture—the secret to making silk look perfect even when you’re seated. The rich weave of silk means it doesn’t stretch or wrinkle easily, which is why your saree stays crisp throughout the day.</p><p>When you sit, silk molds gently around you without losing its structure. The weight of the zari borders or brocade designs helps the pleats fall neatly and stay in place. However, because pure silk is tightly woven, it can be slightly less breathable than cotton—so choose a lighter weave like Tussar, Matka, or Bishnupuri for long events or humid weather.</p><p>And yes, if you’re attending a wedding, don’t worry about the sitting-then-standing routine—silk recovers its grace beautifully. Just give your pleats a quick pat, adjust the pallu, and you’re back to your radiant self.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -323,7 +293,7 @@
         "bl_image_TFpAyi": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/tanhaji.webp",
+            "image1": "shopify://shop_images/Image_2_1.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "carousel",
