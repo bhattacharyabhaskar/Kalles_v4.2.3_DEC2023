@@ -136,6 +136,61 @@
         "code_cus_css": ""
       }
     },
+    "image_text_wDa7LX": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_fGPQjq": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "Walking in Silk: The Whisper of Elegance",
+            "text": "<p>When you walk in a silk saree, something magical happens. It glides. It shimmers. It <em>whispers</em>. The tightly woven structure of silk threads gives the saree its characteristic smooth fall. Every step creates a gentle rustle—a sound so distinct that it feels like an orchestra of elegance following your movement.</p><p>Silk doesn’t cling like chiffon or georgette; it flows just close enough to flatter your shape, yet maintains its regal form. This natural drape gives you a composed, queen-like walk, where the saree moves <em>with you</em>, not against you.</p><p>Pro Tip: If you’re wearing a heavier silk, like Kanjivaram or Banarasi, take smaller steps—silk looks best when it glides gracefully rather than swishes in haste.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_fGPQjq"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "featured_collection_acG9t6": {
       "type": "featured-collection",
       "settings": {
@@ -195,61 +250,6 @@
         "btns_cl": "dark",
         "button_effect": "default",
         "btn_pos": "t4s-text-center",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_wDa7LX": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_fGPQjq": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "Walking in Silk: The Whisper of Elegance",
-            "text": "<p>When you walk in a silk saree, something magical happens. It glides. It shimmers. It <em>whispers</em>. The tightly woven structure of silk threads gives the saree its characteristic smooth fall. Every step creates a gentle rustle—a sound so distinct that it feels like an orchestra of elegance following your movement.</p><p>Silk doesn’t cling like chiffon or georgette; it flows just close enough to flatter your shape, yet maintains its regal form. This natural drape gives you a composed, queen-like walk, where the saree moves <em>with you</em>, not against you.</p><p>Pro Tip: If you’re wearing a heavier silk, like Kanjivaram or Banarasi, take smaller steps—silk looks best when it glides gracefully rather than swishes in haste.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_fGPQjq"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -802,8 +802,8 @@
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
-    "featured_collection_acG9t6",
     "image_text_wDa7LX",
+    "featured_collection_acG9t6",
     "c57fc7eb-b69c-45a5-9cce-eb58d9806d48",
     "1608235d-c3e9-4bd1-b190-b35ac6c54005",
     "image_text_ynEwH3",
