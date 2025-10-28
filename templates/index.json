@@ -439,7 +439,7 @@
         "eff": "fade",
         "loop": true,
         "au_time": 3,
-        "au_hover": true,
+        "au_hover": false,
         "nav_btn": false,
         "btn_vi": "hover",
         "btn_owl": "default",
