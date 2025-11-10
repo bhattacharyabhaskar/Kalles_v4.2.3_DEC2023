@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/Rani_Mukherjee_Blog.png",
+            "image": "shopify://shop_images/Blog_banner_49a4d567-ce5c-4864-8efc-7155c301a627.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "Rani Mukerji Wins Best Actress for ‘Mrs Chatterjee vs Norway’—Our Heartfelt Congrats (with a Jamdani Fan Moment!)",
-            "text": "<p>They say talent finds its way—sometimes decades later. This year, at the 71st National Film Awards, <strong>Rani Mukerji was honored with the Best Actress award</strong> for her searing, emotionally charged performance in <em>Mrs Chatterjee vs Norway.</em><a href=\"https://m.economictimes.com/magazines/panache/rani-mukerji-wins-national-award-for-playing-a-mother-who-took-on-a-nation-the-true-story-behind-mrs-chatterjee-vs-norway/articleshow/123046411.cms?utm_source=chatgpt.com\"> Refer: <span style=\"text-decoration:underline\">The Economic Times</span></a>.</p><p>In her own words, the recognition felt like “validation of my 30-year body of work”—a deeply moving milestone for an actor of her caliber,<a href=\"https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/rani-mukerji-reacts-to-her-first-national-award-win-in-the-best-actress-category-this-is-validation-of-my-30-year-body-of-work/articleshow/123046936.cms?utm_source=chatgpt.com\"> as per <span style=\"text-decoration:underline\">The Times of India</span></a>.</p><p>This role struck more than a chord—it built a bridge between art and real life. Rani stepped into the shoes of a grieving yet unstoppable mother, portraying Sagarika Chakraborty’s true story with such grace and grit that it resonated across borders. This award honors not just her craft but also amplifies the powerful narrative of maternal love and resilience.</p><p>It’s even more stirring when you consider Rani’s look in the film: she often draped herself in traditional <strong>Dhakai Jamdani sarees</strong>, a style that grounded her character in authentic Bengali identity and added immeasurable emotional texture to her performance,<a href=\"https://www.indyvogue.com/blogs/indyvogue-fashion-center/mrs-chatterjee-vs-norway-a-story-with-a-jamdani-twist?srsltid=AfmBOor3DitSqOGPJlCuMgfN6w6zS7JmFShgAcG6qjxLFuUvFzyQfIay\"> <span style=\"text-decoration:underline\">IndyVogue</span></a>.</p>",
+            "heading": "How to Spot a Pure Kanjeevaram Silk Saree (And Avoid Getting Fooled!)",
+            "text": "<p>If you love sarees, you know there’s something special about a Kanjeevaram silk saree. These beauties aren’t just pieces of fabric—they’re a rich tradition wrapped in luxury and craftsmanship. But here’s the catch: the market is packed with imitations that look shiny and fancy but aren’t the real deal. So, how do you make sure you’re getting the genuine article? </p><p>Let’s dive into some easy ways to spot an authentic Kanjeevaram silk saree.</p><h2>What Makes a Kanjeevaram Saree So Special?</h2><p>First up, a quick backstory. Real Kanjeevaram silk sarees come from a little town called Kanchipuram in Tamil Nadu, India. They’re handwoven using top-quality mulberry silk and real zari (that’s the gold and silver thread). What’s cool is the weaving style called Korvai—this is where the body and the pallu (the fancy end of the saree) are woven separately and then carefully joined. It’s this craftsmanship that makes them so durable and beautiful.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -112,6 +112,92 @@
       "block_order": [
         "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
       ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_c8UhLh": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_G4CVzq": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_1_9e6f3759-394a-4b80-9c2c-6eb2b45373db.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_QTLBpH": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>How to Tell If Your Saree’s the Real Deal</h2><h3></h3><h3><br/>The Zari Test</h3><p>Take a closer look at the zari threads. Real zari is usually silver dipped in gold, so when you scratch it lightly (just a gentle scratch!), you should see a hint of red or yellow underneath. If it looks white or plastic-y, that’s a red flag. Real zari keeps its shine without flaking off.</p><h3>Feel the Weave - Korvai Technique</h3><p>Run your fingers along the border where the saree’s body and pallu meet. In genuine Kanjeevarams, this joint is neat and strong, thanks to the Korvai technique. If you notice stitching or glue, that saree might not be authentic.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_G4CVzq",
+        "bl_text_QTLBpH"
+      ],
+      "name": "Image with text",
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -196,62 +282,6 @@
         "btns_cl": "dark",
         "button_effect": "default",
         "btn_pos": "t4s-text-center",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_c8UhLh": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_QTLBpH": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<p><strong>If you’d like to channel that very elegance and strength this Puja season…</strong> Explore our <strong>Jamdani and Pure Bengal Cotton collection</strong>. Each piece is woven with the spirit of Kolkata and inspired by Rani’s iconic drapes, offering you a chance to wear not just a saree, but a legacy.</p><h2>Sumana Speaks<br/></h2><p>In a nutshell,<strong> </strong>we're endlessly proud of Rani Mukerji for bringing justice, dignity, and poise to a deeply personal story—now immortalized with a National Award. And if you'd like to feel that same grace in your festive wardrobe, our curated Jamdani edit has you lovingly covered.</p><p>Here’s to cinema that celebrates courage—and sarees that remind us why culture matters.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_QTLBpH"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
         "layout": "t4s-container-wrap",
         "cl_bg": "",
         "cl_bg_gradient": "",
@@ -423,8 +453,8 @@
   "order": [
     "d036730a-8d16-4983-945e-58174fb11f9c",
     "6869956b-0118-467c-98f0-cbb9ff121db9",
-    "featured_collection_XtWPXR",
     "image_text_c8UhLh",
+    "featured_collection_XtWPXR",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "featured_collection_JMQq78",
     "image_text_TKtrCR"
