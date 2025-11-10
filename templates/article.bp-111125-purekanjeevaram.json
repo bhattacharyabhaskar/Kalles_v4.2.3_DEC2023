@@ -307,7 +307,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Weight and Texture Matter</h3><p>A pure silk Kanjeevaram isn’t feather-light. In fact, it feels a bit heavy because of the quality silk and zari work. The silk itself should feel smooth yet firm, with a natural shine that changes as it catches the light. If it feels stiff or too glossy, beware!</p><p></p><h3>The Burn Test (Only If You Can Safely Try It)</h3><p>If you can safely take a tiny thread and burn it (maybe when shopping in person with permission!), silk smells like burnt hair and turns to fine ash. Synthetic threads burn quickly with a chemical smell and hard, black beads.</p><h3>Look at the Motifs</h3><p>Check out the patterns woven into the saree. True Kanjeevarams have sharp, beautiful motifs like temple borders, peacocks, and mango designs, all tightly woven in—not just printed or embroidered on top. Turn the saree over; the backside should be nearly as detailed as the front, with no loose threads.</p><h3>Certification & Price Check </h3><p>Look for the Silk Mark label—it’s like an official stamp saying, “Yup, this is real silk.” And let’s be honest—if the price seems suspiciously low, it probably is. Authentic Kanjeevaram sarees reflect the time, skill, and materials that go into them, so they’re a bit of an investment.</p><p></p>",
+            "text": "<h3>Weight and Texture Matter</h3><p>A pure silk Kanjeevaram isn’t feather-light. In fact, it feels a bit heavy because of the quality silk and zari work. The silk itself should feel smooth yet firm, with a natural shine that changes as it catches the light. If it feels stiff or too glossy, beware!</p><p><br/></p><h3>The Burn Test (Only If You Can Safely Try It)</h3><p>If you can safely take a tiny thread and burn it (maybe when shopping in person with permission!), silk smells like burnt hair and turns to fine ash. Synthetic threads burn quickly with a chemical smell and hard, black beads.<br/><br/></p><h3>Look at the Motifs</h3><p>Check out the patterns woven into the saree. True Kanjeevarams have sharp, beautiful motifs like temple borders, peacocks, and mango designs, all tightly woven in—not just printed or embroidered on top. Turn the saree over; the backside should be nearly as detailed as the front, with no loose threads.<br/><br/></p><h3>Certification & Price Check </h3><p>Look for the Silk Mark label—it’s like an official stamp saying, “Yup, this is real silk.” And let’s be honest—if the price seems suspiciously low, it probably is. Authentic Kanjeevaram sarees reflect the time, skill, and materials that go into them, so they’re a bit of an investment.</p><p></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -391,8 +391,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "About the author",
-            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "heading": "",
+            "text": "<h2>Why All This Matters</h2><p>When you buy a pure Kanjeevaram saree, you’re not just getting a garment—you’re getting a piece of art and history. The weaving tells stories, the motifs have cultural meaning, and the fabric itself is built to last decades.</p><p>So next time a glitzy saree tempts you, remember these tips to make sure you’re getting something truly special. Authenticity might take a little extra time and attention, but trust me, it’s totally worth it!</p><p>This way of writing feels more like a friendly chat and makes the info easier to digest. Let me know if you’d like me to tailor it for any specific audience or add personal anecdotes!</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -434,6 +434,61 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "image_text_6RBygM": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_amp6Jq": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_amp6Jq"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -442,6 +497,7 @@
     "image_text_c8UhLh",
     "featured_collection_XtWPXR",
     "e7b55938-3dde-44ab-9365-66967e09d447",
-    "image_text_TKtrCR"
+    "image_text_TKtrCR",
+    "image_text_6RBygM"
   ]
 }
