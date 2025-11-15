@@ -76,7 +76,7 @@
 
         {%- render 'head_assets', t_name: t_name, isRTL: isRTL -%}  
         {% render 'custom-css' %}
-
+{% comment %}
         <script>
         if ('requestIdleCallback' in window) {
           requestIdleCallback(loadTexasBannerLogic);
@@ -90,7 +90,7 @@
           document.head.appendChild(script);
         }
         </script>
-
+{% endcomment %}
         <script src="https://analytics.ahrefs.com/analytics.js" data-key="uYtR1GbS7UMmtg/T7xFn4w" async></script>
     </head>
     <body class="template-{{ request.page_type | handle }} {{ class_lazy }}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="2" data-sizes="auto"{% endif -%}>
