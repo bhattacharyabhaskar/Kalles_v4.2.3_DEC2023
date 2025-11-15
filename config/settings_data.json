@@ -691,7 +691,7 @@
             "type": "announcement",
             "settings": {
               "link": "shopify://collections/buy-silk-mark-certified-saree",
-              "content": "<p>😎Festival Special, Get upto 10% OFF 😎<a href=\"/pages/current-offers-and-promotions\" title=\"Current Offers and Promotions\">Details [icon_arrow]</a></p>",
+              "content": "<p>🎁HOLIDAY Special, FLAT 10% OFF 🎁<a href=\"/collections/buy-silk-mark-certified-saree\" title=\"Latest Saree Collection\">Shop Now</a></p>",
               "adding_border": true,
               "countdown": "2023/12/26",
               "txt_day": "days",
@@ -735,7 +735,7 @@
           "height": 45,
           "fontsize": 18,
           "cl": "#ffffff",
-          "bg": "#e91e63",
+          "bg": "#b12704",
           "bg_op": 100,
           "close": "0",
           "cl_btn": "#ffffff",
