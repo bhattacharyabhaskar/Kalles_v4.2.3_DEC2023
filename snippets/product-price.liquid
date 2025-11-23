@@ -135,3 +135,31 @@
     {{ money_final_price }}
   {%- endif -%}
 </div>
+
+
+{% comment %}
+  Percentage Discount Box (uses final_price after custom logic)
+{% endcomment %}
+
+{% assign final_price_number = final_price | plus: 0 %}
+
+{% if compare_at_price > final_price_number and compare_at_price > 0 %}
+  {% assign diff = compare_at_price | minus: final_price_number %}
+
+  {%- comment -%}
+    Preserve decimals: diff / compare_at_price * 100
+  {%- endcomment -%}
+  {% assign percent_times_100 = diff | times: 10000 | divided_by: compare_at_price %}
+  {% assign discount_percentage = percent_times_100 | plus: 50 | divided_by: 100 %}
+
+  {% if discount_percentage == 10 %}
+      <div class="ivy-discount-box" style="background:#fff4d6;color:#8a5b00;border:1px solid #e6c76d;font-weight:700;">
+        🎁 Holiday Special: {{ discount_percentage }}% OFF
+      </div>
+  {% else %}
+      <div class="ivy-discount-box">
+        Limited Time: {{ discount_percentage }}% OFF
+      </div>
+  {% endif %}
+
+{% endif %}
