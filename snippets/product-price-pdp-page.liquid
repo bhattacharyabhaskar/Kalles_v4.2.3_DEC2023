@@ -135,3 +135,35 @@
     {{ money_final_price }}
   {%- endif -%}
 </div>
+
+<div class="review-widget">[<i>Price includes GST and IGST when sold in India]</i></div>    
+
+{% comment %}
+  PDP Percentage Discount Box (uses final_price after custom logic)
+{% endcomment %}
+
+{% assign final_price_number = final_price | plus: 0 %}
+
+{% if compare_at_price > final_price_number and compare_at_price > 0 %}
+  {% assign diff = compare_at_price | minus: final_price_number %}
+
+  {%- comment -%}
+    Proper rounding: diff / compare_at_price * 100
+  {%- endcomment -%}
+  {% assign percent_times_100 = diff | times: 10000 | divided_by: compare_at_price %}
+  {% assign discount_percentage = percent_times_100 | plus: 50 | divided_by: 100 %}
+
+  <div style="margin-top:8px; display:block; width:100%;">
+    {% if discount_percentage == 10 %}
+      <span style="background:#fff4d6;color:#8a5b00;border:1px solid #e6c76d;font-size:16px;font-weight:700;padding:5px 10px;border-radius:4px;display:inline-block;">
+        🎁 Holiday Special: {{ discount_percentage }}% OFF
+      </span>
+    {% else %}
+      <span style="background:#ffefef;color:#b30000;border:1px solid #ffb3b3;font-size:13px;padding:5px 10px;border-radius:4px;display:inline-block;">
+        {{ discount_percentage }}% OFF · Limited Time
+      </span>
+    {% endif %}
+  </div>
+
+{% endif %}
+
