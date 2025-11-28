@@ -304,24 +304,6 @@
         "code_cus_css": ""
       }
     },
-    "custom_html_LEaXNE": {
-      "type": "custom-html",
-      "name": "Custom HTML",
-      "settings": {
-        "code": "<div data-romw-token=\"C93CVxMQ3cwYpzwTEQsT4iKRPJtX7wxu3PXlbtGLapcJnHPS9i\" data-romw-lazy=\"\"></div>\n    \n        <script src=\"https://reviewsonmywebsite.com/js/v2/embed.js?id=4a24b3ba631386ba5f4ec3ef018ac9ca\" type=\"text/javascript\" defer></script>",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "testimonials_xDrTqt": {
       "type": "testimonials",
       "blocks": {
@@ -436,7 +418,6 @@
         "quote_wpNffV",
         "quote_kdYe9t"
       ],
-      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "design_heading": "4",
@@ -1441,7 +1422,6 @@
     "header_menu_home_PBrchU",
     "1646028739ae283905",
     "d98aa1b1-f414-49a2-be42-55dd82743bc1",
-    "custom_html_LEaXNE",
     "testimonials_xDrTqt",
     "line_w49wWj",
     "1646035317ea8b6928",
