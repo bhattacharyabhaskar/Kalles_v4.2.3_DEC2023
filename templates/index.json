@@ -1267,6 +1267,172 @@
         "instafeed_app_block_NVERN7"
       ],
       "settings": {}
+    },
+    "testimonials_xDrTqt": {
+      "type": "testimonials",
+      "blocks": {
+        "quote_aCiVXw": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+            "heading": "",
+            "content": "<p>Excellent saree by Indyvogue. My mother loved it. Quality is awesome and look is fantastic. Thank you Sumona. I appreciate your help.</p>",
+            "title": "tathagata bhattacharya, Nov 25, 2025",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_CGJyyJ": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+            "heading": "",
+            "content": "<p>Love the saree I purchased. Very happy with the customer service. Package wss delivered within a week. Will go back and buy more.</p>",
+            "title": "Radha Srinivas -  Nov 22, 2025",
+            "pos": "",
+            "rating": 4
+          }
+        },
+        "quote_fUxXqn": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+            "heading": "",
+            "content": "<p>Hello! I want to share my experience with the item I ordered. The product I got was exactly as shown on the website and in the pictures. I really liked how easy it was to order and how well the blouse measurements fit. The chat support was easy to use. I did miss the tariff information at first and might have been a bit rude in my communication, but I understand that it was my fault. The team handled everything well and followed all the terms. I really appreciate it and look forward to buying more from the website in the future. Thank you!</p>",
+            "title": "Sukanya Kar Bhowmik - Nov 11, 2025",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_FnKjVb": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+            "heading": "",
+            "content": "<p>Thank you Indyvogue for your beautiful and ethnic Indian and designer collection of sarees which I bought for my mom.... Very nice sarees ..... very elegant and graceful... I am very much happy and satisfied with the purchase.... Thank you Indyvogue once again.... All the best....</p>",
+            "title": "tutul c - Nov 11, 2025",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_Fm8rh4": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+            "heading": "",
+            "content": "<p>I am thrilled with my purchase from IndyVogue. The saree set was delivered in pristine condition. The saree is exactly as described on IndyVogue’s webpage. Mrs Sumana Bhattacharya was super prompt responding to all queries. As I mentioned to Mrs Bhattacharya this is the beginning of a new friendship mutual over the love of 5 yards. Am very happy with my purchase.</p>",
+            "title": "Shakuntala Basu - Nov 1, 2025",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_EeWpXH": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+            "heading": "",
+            "content": "<p>I want to give a big Thumbs Up to Indyvogue and Sumana for this beautiful black raw silk saree! Love the saree and the matching orange blouse piece! Can't wait to wear it! I love the collection of sarees that Indyvogue has! Great quality and craftsmanship, and great customer service! Thank you, Sumana!</p>",
+            "title": "Anindita Pal - Oct 31, 2025",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_cKRqnE": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+            "heading": "",
+            "content": "<p>Hi, I wanted to give a BIG shout out to Indy Vogue/ Ms. Sumana B. for the beautiful saree/blouse I ordered from there. Excellent service and Ms. Sumana called back personally to talk to me ( that never happens) That personal touch meant alot and all directions were followed to the latter. I highly recommend her services, the outfit is superb. I can’t wait to wear it, will share pics later on. Thank you! Go buy your next saree from Indy Vogue please! They have very beautiful sarees! PravML</p>",
+            "title": "Shelvin L - Oct 17, 2025",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_wpNffV": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+            "heading": "",
+            "content": "<p>I love the unique designer sarees from Indyvogue. They really have a very great collection of sarees . Sumana is very professional yet very friendly . I received excellent customer services . And the delivery was on time and sarees were as shown and material is excellent . I have ordered many sarees from her and I’m going to order many more in future . I wish my best wishes to Sumana .</p>",
+            "title": "Manju Kapila - Oct 4, 2025",
+            "pos": "",
+            "rating": 5
+          }
+        },
+        "quote_kdYe9t": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+            "heading": "",
+            "content": "<p>This is the 2nd time I bought a saree on this website and Sumana ma'am is so polite n humble. Love the saree I bought on this website. Thank you ma'am I'll purchase more soon</p>",
+            "title": "Amaira Rao Oct 2, 2025",
+            "pos": "",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_aCiVXw",
+        "quote_CGJyyJ",
+        "quote_fUxXqn",
+        "quote_FnKjVb",
+        "quote_Fm8rh4",
+        "quote_EeWpXH",
+        "quote_cKRqnE",
+        "quote_wpNffV",
+        "quote_kdYe9t"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "design_heading": "4",
+        "heading_align": "t4s-text-center",
+        "top_heading": "Testimonials",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "ter_des": "2",
+        "cl_name": "#222222",
+        "cl_content": "#878787",
+        "cl_bd": "",
+        "cl_bg_item": "",
+        "bdr": 0,
+        "content_align": "text-start",
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "1",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 5,
+        "au_hover": true,
+        "nav_btn": true,
+        "btn_vi": "always",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -1287,6 +1453,7 @@
     "0b8b46e4-9f56-481f-a268-707914397b64",
     "featured_collection_pEfbVz",
     "logo_list_tan4PD",
-    "1749996823421984fb"
+    "1749996823421984fb",
+    "testimonials_xDrTqt"
   ]
 }
