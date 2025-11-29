@@ -1,71 +1,75 @@
 {%- comment -%}
-We use Shopify as our ecommerce platform.
-Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
+Optimized Shopify robots.txt – blocks duplicate and parameter URLs. No crawl-delay.
 {%- endcomment -%}
 
 User-agent: *
-# Block sensitive or duplicate Shopify paths
-Disallow: /a/downloads/-/*
+# Block sensitive Shopify paths
 Disallow: /admin
+Disallow: /account
 Disallow: /cart
+Disallow: /carts
 Disallow: /orders
 Disallow: /checkouts/
 Disallow: /checkout
-Disallow: /14697362/checkouts
-Disallow: /14697362/orders
-Disallow: /carts
-Disallow: /account
+Disallow: /*/checkouts
+Disallow: /*/orders
+Disallow: /a/downloads/-/*
 Disallow: /services/login_with_shop/
 
-# Block collection sort and filter duplicates
+# Block filtered, sorted, and parameter URLs
+Disallow: /*?*
+Disallow: /*&*
+
+# Specifically block common duplicate parameters
+Disallow: /*?filter=*
+Disallow: /*?sort_by=*
+Disallow: /*?page=*
+Disallow: /*?variant=*
+Disallow: /*?view=*
+Disallow: /*?q=*
+Disallow: /*?add-to-cart*
+Disallow: /*?search*
+Disallow: /*?*ls=*
+Disallow: /*?_pos=*
+Disallow: /*&_fid=*
+Disallow: /*&_ss=*
+Disallow: /*?*oseid=*
+
+# Block collection duplicates
 Disallow: /collections/*sort_by*
-Disallow: /*/collections/*sort_by*
 Disallow: /collections/*+*
 Disallow: /collections/*%2B*
 Disallow: /collections/*%2b*
-Disallow: /*/collections/*+*
-Disallow: /*/collections/*%2B*
-Disallow: /*/collections/*%2b*
-# Disallow: */collections/*filter*&*filter*
-Disallow: /collections/*sort_by*
-
-# Block collection-based product URLs (duplicate of product URLs)
 Disallow: /collections/*/products/
-# Disallow: /*?variant=
 
-# Block duplicate blog URLs
+# Block blog duplicate URLs
 Disallow: /blogs/*+*
 Disallow: /blogs/*%2B*
 Disallow: /blogs/*%2b*
-Disallow: /*/blogs/*+*
-Disallow: /*/blogs/*%2B*
-Disallow: /*/blogs/*%2b*
 
-# Misc disallow rules for session IDs, preview scripts, policy pages, etc.
-Disallow: /*?*oseid=*
-Disallow: /*preview_theme_id*
-Disallow: /*preview_script_id*
+# Block misc system paths
 Disallow: /policies/
-Disallow: /*/policies/
-Disallow: /*/*?*ls=*&ls=*
-Disallow: /*/*?*ls%3D*%3Fls%3D*
-Disallow: /*/*?*ls%3d*%3fls%3d*
-Disallow: /search
-Disallow: /apple-app-site-association
 Disallow: /.well-known/shopify/monorail
+Disallow: /apple-app-site-association
 Disallow: /cdn/wpm/*.js
 Disallow: /recommendations/products
 Disallow: /*/recommendations/products
 
+# Search page
+Disallow: /search
+
 Sitemap: https://www.indyvogue.com/sitemap.xml
+
+
+########################################
+###  BOT-SPECIFIC RULES (No Crawl-delay)
+########################################
 
 User-agent: adsbot-google
 Disallow: /checkouts/
 Disallow: /checkout
 Disallow: /carts
 Disallow: /orders
-Disallow: /14697362/checkouts
-Disallow: /14697362/orders
 Disallow: /*?*oseid=*
 Disallow: /*preview_theme_id*
 Disallow: /*preview_script_id*
@@ -75,90 +79,13 @@ User-agent: Nutch
 Disallow: /
 
 User-agent: AhrefsBot
-Crawl-delay: 10
-Disallow: /a/downloads/-/*
-Disallow: /admin
-Disallow: /cart
-Disallow: /orders
-Disallow: /checkouts/
-Disallow: /checkout
-Disallow: /14697362/checkouts
-Disallow: /14697362/orders
-Disallow: /carts
-Disallow: /account
-Disallow: /collections/*sort_by*
-Disallow: /*/collections/*sort_by*
-Disallow: /collections/*+*
-Disallow: /collections/*%2B*
-Disallow: /collections/*%2b*
-Disallow: /*/collections/*+*
-Disallow: /*/collections/*%2B*
-Disallow: /*/collections/*%2b*
-Disallow: */collections/*filter*&*filter*
-Disallow: /blogs/*+*
-Disallow: /blogs/*%2B*
-Disallow: /blogs/*%2b*
-Disallow: /*/blogs/*+*
-Disallow: /*/blogs/*%2B*
-Disallow: /*/blogs/*%2b*
-Disallow: /*?*oseid=*
-Disallow: /*preview_theme_id*
-Disallow: /*preview_script_id*
-Disallow: /policies/
-Disallow: /*/policies/
-Disallow: /*/*?*ls=*&ls=*
-Disallow: /*/*?*ls%3D*%3Fls%3D*
-Disallow: /*/*?*ls%3d*%3fls%3d*
-Disallow: /search
-Disallow: /apple-app-site-association
-Disallow: /.well-known/shopify/monorail
-Disallow: /cdn/wpm/*.js
-Disallow: /*?_pos=
-Disallow: /*&_fid=
-Disallow: /*&_ss=
+Disallow: /*
 
 User-agent: AhrefsSiteAudit
-Crawl-delay: 10
-Disallow: /a/downloads/-/*
-Disallow: /admin
-Disallow: /cart
-Disallow: /orders
-Disallow: /checkouts/
-Disallow: /checkout
-Disallow: /14697362/checkouts
-Disallow: /14697362/orders
-Disallow: /carts
-Disallow: /account
-Disallow: /collections/*sort_by*
-Disallow: /*/collections/*sort_by*
-Disallow: /collections/*+*
-Disallow: /collections/*%2B*
-Disallow: /collections/*%2b*
-Disallow: /*/collections/*+*
-Disallow: /*/collections/*%2B*
-Disallow: /*/collections/*%2b*
-Disallow: */collections/*filter*&*filter*
-Disallow: /blogs/*+*
-Disallow: /blogs/*%2B*
-Disallow: /blogs/*%2b*
-Disallow: /*/blogs/*+*
-Disallow: /*/blogs/*%2B*
-Disallow: /*/blogs/*%2b*
-Disallow: /*?*oseid=*
-Disallow: /*preview_theme_id*
-Disallow: /*preview_script_id*
-Disallow: /policies/
-Disallow: /*/policies/
-Disallow: /*/*?*ls=*&ls=*
-Disallow: /*/*?*ls%3D*%3Fls%3D*
-Disallow: /*/*?*ls%3d*%3fls%3d*
-Disallow: /search
-Disallow: /apple-app-site-association
-Disallow: /.well-known/shopify/monorail
-Disallow: /cdn/wpm/*.js
+Disallow: /*
 
 User-agent: MJ12bot
-Crawl-delay: 10
+Disallow: /*
 
 User-agent: Pinterest
-Crawl-delay: 1
+Disallow: /*
