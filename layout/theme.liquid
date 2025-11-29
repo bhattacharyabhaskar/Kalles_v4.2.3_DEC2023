@@ -76,6 +76,19 @@
 
         {%- render 'head_assets', t_name: t_name, isRTL: isRTL -%}  
         {% render 'custom-css' %}
+        {% if request.url contains '?' 
+  or request.url contains 'filter=' 
+  or request.url contains 'sort=' 
+  or request.url contains 'page=' 
+  or request.url contains 'q=' 
+  or request.url contains 'variant=' 
+  or request.url contains 'add-to-cart' 
+  or request.url contains 'view=' 
+  or request.path contains '/search' 
+%}
+  <meta name="robots" content="noindex, nofollow">
+{% endif %}
+
 {% comment %}
         <script>
         if ('requestIdleCallback' in window) {
