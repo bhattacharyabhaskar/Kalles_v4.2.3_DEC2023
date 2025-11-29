@@ -92,6 +92,19 @@
         </script>
 {% endcomment %}
         <script src="https://analytics.ahrefs.com/analytics.js" data-key="uYtR1GbS7UMmtg/T7xFn4w" async></script>
+        {% if request.url contains '?' 
+        or request.url contains 'filter=' 
+        or request.url contains 'sort=' 
+        or request.url contains 'page=' 
+        or request.url contains 'q=' 
+        or request.url contains 'variant=' 
+        or request.url contains 'add-to-cart' 
+        or request.url contains 'view=' 
+        or request.path contains '/search' 
+        %}
+        <meta name="robots" content="noindex, nofollow">
+        {% endif %}
+
     </head>
     <body class="template-{{ request.page_type | handle }} {{ class_lazy }}"{% if body_img != blank %} data-bgset="{{ body_img | image_url: width: 1 }}" data-optimumx="2" data-sizes="auto"{% endif -%}>
         {% if isRTL %}
