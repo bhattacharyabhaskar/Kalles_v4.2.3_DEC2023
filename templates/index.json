@@ -470,6 +470,61 @@
         "code_cus_css": ""
       }
     },
+    "216bf813-5b7d-4f42-88f7-accc66e62ae1": {
+      "type": "image_text",
+      "blocks": {
+        "template--17081597853929__216bf813-5b7d-4f42-88f7-accc66e62ae1-bl_text-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "center",
+            "sub_heading": "",
+            "heading": "",
+            "text": "",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "SEE ALL REVIEWS",
+            "button_link": "shopify://pages/indyvogue-reviews",
+            "open_link": "_self",
+            "btn_icon": true,
+            "button_style": "default",
+            "btn_size": "medium",
+            "btn_cl": "primary",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "template--17081597853929__216bf813-5b7d-4f42-88f7-accc66e62ae1-bl_text-1"
+      ],
+      "settings": {
+        "design_heading": "4",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "line_w49wWj": {
       "type": "line",
       "settings": {
@@ -511,7 +566,7 @@
         "image_size": "cover",
         "image_position": "8",
         "content_align": "center",
-        "limit": 6,
+        "limit": 8,
         "col_dk": "4",
         "col_tb": "3",
         "col_mb": "2",
@@ -757,61 +812,6 @@
         "mg_tb": "",
         "pd_tb": "",
         "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "216bf813-5b7d-4f42-88f7-accc66e62ae1": {
-      "type": "image_text",
-      "blocks": {
-        "template--17081597853929__216bf813-5b7d-4f42-88f7-accc66e62ae1-bl_text-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "center",
-            "sub_heading": "",
-            "heading": "",
-            "text": "",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "SEE ALL REVIEWS",
-            "button_link": "shopify://pages/indyvogue-reviews",
-            "open_link": "_self",
-            "btn_icon": true,
-            "button_style": "default",
-            "btn_size": "medium",
-            "btn_cl": "primary",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "template--17081597853929__216bf813-5b7d-4f42-88f7-accc66e62ae1-bl_text-1"
-      ],
-      "settings": {
-        "design_heading": "4",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": false,
         "code_cus_css": ""
@@ -1423,10 +1423,10 @@
     "1646028739ae283905",
     "d98aa1b1-f414-49a2-be42-55dd82743bc1",
     "testimonials_xDrTqt",
+    "216bf813-5b7d-4f42-88f7-accc66e62ae1",
     "line_w49wWj",
     "1646035317ea8b6928",
     "63b73f3e-9224-49b8-ae7b-2f18d11bb370",
-    "216bf813-5b7d-4f42-88f7-accc66e62ae1",
     "426f6812-b9b0-4d60-921f-c59cd528e85d",
     "a3ecbfc0-f71c-46a7-a4e8-a4e26488e6ff",
     "65326ae6-92b6-4648-8012-b51a792bdcc5",
