@@ -405,17 +405,6 @@
             "pos": "",
             "rating": 5
           }
-        },
-        "quote_kdYe9t": {
-          "type": "quote",
-          "settings": {
-            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
-            "heading": "",
-            "content": "<p>This is the 2nd time I bought a saree on this website and Sumana ma'am is so polite n humble. Love the saree I bought on this website. Thank you ma'am I'll purchase more soon</p>",
-            "title": "Amaira Rao Oct 2, 2025",
-            "pos": "",
-            "rating": 5
-          }
         }
       },
       "block_order": [
@@ -427,8 +416,7 @@
         "quote_Fm8rh4",
         "quote_EeWpXH",
         "quote_cKRqnE",
-        "quote_wpNffV",
-        "quote_kdYe9t"
+        "quote_wpNffV"
       ],
       "name": "Testimonials",
       "settings": {
@@ -452,7 +440,7 @@
         "space_v_item": "30",
         "space_h_item_mb": "10",
         "space_v_item_mb": "10",
-        "layout_des": "2",
+        "layout_des": "1",
         "loop": true,
         "au_time": 5,
         "au_hover": true,
