@@ -323,7 +323,7 @@
         "bl_image_WTneNh": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Image_1_37e006a8-35b2-4a2a-b714-4fb90ad42e3e.png",
+            "image1": "shopify://shop_images/Image_2_a2166b4d-48fe-440d-bf65-b247a6b4566a.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -353,6 +353,61 @@
       "block_order": [
         "bl_text_zMiDrj",
         "bl_image_WTneNh"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_iRgFhW": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_EL64jY": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>Red Today: A Rebellion or a Revival?</h2><p></p><p>In modern times, red sarees have taken on new significance. Young women proudly wear red to festivals, interviews, and even first dates. Red has become a statement of power, of femininity, of reclaiming tradition on one’s own terms.</p><p>But somewhere, the echoes of the past still linger.</p><p>Maybe you avoid red on certain days. Or maybe, you wear it <strong>because</strong> your mother once told you not to. Either way, the color carries a weight — not just of fabric, but of stories, customs, and quiet superstitions.</p><h2>Conclusion: The Saree That Speaks</h2><p></p><p>A saree is never just a saree. Especially when it’s red. Whether you see it as a sacred tradition or an outdated myth, the red saree continues to evoke emotion — and maybe a little mystery.</p><p>So the next time you drape yourself in red, pause for a moment. Ask yourself: <em>What story am I wearing today?</em> Because in India, even colors carry whispers of the past.<br/><br/></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_EL64jY"
       ],
       "settings": {
         "design_heading": "1",
@@ -440,6 +495,7 @@
     "featured_collection_acG9t6",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "image_text_ctaeLA",
+    "image_text_iRgFhW",
     "image_text_tLNKi3"
   ]
 }
