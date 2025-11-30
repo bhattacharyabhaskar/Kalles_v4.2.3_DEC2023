@@ -307,6 +307,17 @@
     "testimonials_xDrTqt": {
       "type": "testimonials",
       "blocks": {
+        "quote_iUAPfh": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png",
+            "heading": "",
+            "content": "<p>I am happy to receive a white and red Bishnupur silk where the city of joy (Kolkata) pictures are painted and popular Rabindrasangeet lines are written on the saree. The saree came from Kosba, Kolkata in a nicely wrapped package. Before delivery DHL asked for a duty fee but IndyVogue took care of it. Thanks to Sumana. I am pleased with her professionalism.</p>",
+            "title": "Jayashree P.- Nov 30, 2025",
+            "pos": "",
+            "rating": 5
+          }
+        },
         "quote_aCiVXw": {
           "type": "quote",
           "settings": {
@@ -408,6 +419,7 @@
         }
       },
       "block_order": [
+        "quote_iUAPfh",
         "quote_aCiVXw",
         "quote_CGJyyJ",
         "quote_fUxXqn",
