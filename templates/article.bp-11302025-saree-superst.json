@@ -211,6 +211,34 @@
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
+        "bl_image_HaHPnH": {
+          "type": "bl_image",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
         "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
           "type": "bl_text",
           "settings": {
@@ -220,7 +248,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h1>Pro Styling Tips (So It Looks Intentional)</h1><ul><li><strong>Minimalist glam:</strong> Let chiffon shine with <strong>clean jewelry</strong>—a single statement choker or delicate drops.<br/><br/></li><li><strong>Belt it smart:</strong> A slim saree belt (metallic or embroidered) <strong>controls drape flow</strong> and adds shape.<br/><br/></li><li><strong>Footwear first:</strong> Always drape with your event heels on; chiffon’s length changes with even a 1-inch heel swap.<br/><br/></li><li><strong>Weather watch:</strong> Humidity can make chiffon cling. A light <strong>anti-static spray</strong> and breathable underlayers help.</li></ul><h1>Common Mistakes (And Easy Fixes)</h1><ul><li><strong>Bulky front pleats?</strong> Reduce pleat width and ensure the tuck line is straight.<br/><br/></li><li><strong>Slipping pallu?</strong> Use a <strong>textured blouse</strong> or add a hidden snap button at the shoulder seam.<br/><br/></li><li><strong>See-through worries?</strong> Choose <strong>double-lined blouses</strong> and a color-matched petticoat.</li></ul><h1>Care & Aftercare</h1><p>Hand-wash in cold water with a mild detergent, <strong>no wringing</strong>. Dry flat in shade. Steam on low (or use a pressing cloth). Store rolled or on a padded hanger to prevent creases.<br/><br/></p>",
+            "text": "<h2>Red: A Symbol of Power, Purity — and Protection?</h2><p></p><p>In Indian tradition, red is the color of love, fertility, and auspicious beginnings. That’s why brides across most Indian cultures wear red — be it a fiery Banarasi silk, a deep crimson Kanjeevaram, or a maroon Bandhani. Red signifies the start of a new chapter, filled with energy, life, and divine blessing.</p><p>But beyond its beauty and boldness, red carries deeper — even superstitious — meaning.</p><p>In many households, red isn’t just <strong>favored</strong> — it’s <strong>protected</strong>. Bridal sarees are often kept carefully wrapped in muslin, sometimes even with sacred threads or dried turmeric, believed to keep the “energy” of the saree intact. It’s not just fabric; it’s spiritual armor.<br/><br/></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -237,6 +265,7 @@
         }
       },
       "block_order": [
+        "bl_image_HaHPnH",
         "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
       ],
       "settings": {
