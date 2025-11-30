@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "heading": {
@@ -27,7 +36,7 @@
         "c1ab6fbb-940f-4eb4-b374-ce3370b4382f": {
           "type": "2",
           "settings": {
-            "content": "<p>We are here to WIN YOUR HEART<\/p>",
+            "content": "<p>We are here to WIN YOUR HEART</p>",
             "fontf": "inherit",
             "text_cl": "#ffffff",
             "text_fs": 14,
@@ -51,7 +60,8 @@
         "c1ab6fbb-940f-4eb4-b374-ce3370b4382f"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/WS-HP-2.webp",
+        "heading_fullwidth": false,
+        "image": "shopify://shop_images/WS-HP-2.webp",
         "use_specify_image": true,
         "parallax": false,
         "color": "#000000",
@@ -76,6 +86,8 @@
         "cl_bg_gradient": "",
         "mg": "",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": ""
       }
@@ -130,6 +142,7 @@
           "settings": {
             "text": "Hi! I am Sumana.<br>\nThe journey of IndyVogue, which I started with baby steps in the year 2016 has slowly become a big girl. This started as a passion, and all credit goes to my love for trying out different drapes - I missed wearing sarees (often)more of those traditional staying in Texas.<br><br>\n\nTogether with Bhaskar (my hubby), my team IndyVogue, my in-laws, parents and my kids, and dozens of artisans across India, we’ve created this loveliest textile-led clothing hub for all the saree lovers like me.",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#222222",
             "text_fs": 16,
@@ -149,7 +162,7 @@
         "023cb4ea-965d-49a0-ac42-27ac93c4a911": {
           "type": "image",
           "settings": {
-            "image_child": "shopify:\/\/shop_images\/Fam-Abt-US.png",
+            "image_child": "shopify://shop_images/IMG_9717.jpg",
             "img_link": "",
             "open_link": "_self",
             "img_width": 0,
@@ -211,6 +224,7 @@
           "settings": {
             "text": "Let me tell you our story!",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#222222",
             "text_fs": 20,
@@ -232,6 +246,7 @@
           "settings": {
             "text": "I can't tell you the story of founding IndyVogue, without telling you my story - they're essentially one and the same.<br><br>\n\nBeing a Bengali my love for sarees was incomprehensible - I just can't summarize it in a few words. But this sheer love made me think about what makes a good saree.<br><br>\n\nSo started my journey toward saree salvation. I attended a number of saree categorizing (pure silk and artificial silk), wholesaling, and trademark workshops. I came to know about Silk Mark Authentication, it is nothing but “a certification managed by the 'Silk Mark Organisation of India', a society set up by the state-controlled Central Silk Board of India.”<br><br>\n\nIn a strive to achieve this goal, a person who has been accompanying me all the time is none than my hubby, Bhaskar Bhattacharya. My constant life support. He is unwavering, relentless, and always on my side no matter what role I wanted him to play. He wore different hats for a marketing person to sales, designer to developer, and even my social media advisor! Yes, I have a multi-talented husband!",
             "remove_br_tag": true,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 16,
@@ -251,7 +266,7 @@
         "034a5233-057e-4bd5-bbc1-58c7c7d7d61b": {
           "type": "image",
           "settings": {
-            "image_child": "shopify:\/\/shop_images\/US-New_edcad5ba-5970-4fb1-9589-9664fa141ad5.png",
+            "image_child": "shopify://shop_images/Review.jpg",
             "img_link": "",
             "open_link": "_self",
             "img_width": 0,
@@ -286,6 +301,7 @@
           "settings": {
             "text": "That uncontrollable love for sarees",
             "remove_br_tag": true,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#222222",
             "text_fs": 20,
@@ -307,6 +323,7 @@
           "settings": {
             "text": "The common connection of a Bong with sarees is something so common - that no matter where I am - India or Austin - the meter stays intact. You will be fascinated to see how Indian women keep alive their sartorial traditions.<br><br>\n\nI always have been roving eye out for hand-crafted, authentic textiles & the artisans creating them; textiles that tell a little story of the place & people I met - pieces of great beauty showcasing ancient skills & dedicated labor.",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 16,
@@ -344,6 +361,7 @@
           "settings": {
             "text": "Sensing my girl power",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#222222",
             "text_fs": 20,
@@ -365,6 +383,7 @@
           "settings": {
             "text": "While my stay in India I worked with a number of NGOs and even was a part of the Education Authority in Bengal - which imparted rural education - I witnessed a number of untapped channels where the artisans stay happy with a meager income.\n\nOver time I sensed that sustainability can only be attained if there is a shared outcome that all the parties like. It should be something borne out of love, self-interest, and passion. \n\nTo achieve it, I started connecting with weavers and artisans across Indian rural areas who can have the dream to make it big, like I had been thinking - a large team of craftsmen who can be earning as they should - and also sustain the quality of silks which has a huge market connecting new Silk Route across the map.",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 16,
@@ -402,6 +421,7 @@
           "settings": {
             "text": "#Sareenotsorry",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#222222",
             "text_fs": 20,
@@ -421,8 +441,9 @@
         "88e09f11-37bd-4d68-b14f-bb2685ca8b3c": {
           "type": "custom_text",
           "settings": {
-            "text": "Before I launched IndyVogue I was doing a detailed study on my competitors - and even when I used to shop saree sitting here in Austin - looking at Online Trade Shows or the recorded videos, or simple images on Facebook pages - it was next to impossible for me to rely on or purchase in one-shot - as the host cannot provide me with the detailed knowledge about the saree - about the thread count, quality marks and much more.<br>\n\nSo, as my baby, IndyVogue started taking its shape, I had a chat with Bhaskar about launching a website that makes me, the front-runner among many in this #sareepreneurship! <br><br>\n\n✅ My website comes with a 360-degree view of sarees in form of images. Along with, a complete video to let my patrons see the correct shade of the saree. <br>\n\n✅ I assured to provide a detailed description of the saree - with this make, technique, fabric, and work details and even distinguish it as pure or artificial silk. <br>\n\n✅ All my saree carry the silk mark certified card if they are the purest form of silk. For mixed or artificial silk, you won't find any card. <br>\n\n✅ I also host \/ connect with each patron with individual video calls to show the complete saree which they intend to buy or even show variants.<br>\n\n✅ Sarees at IndyVogue come with blouse stitch (designs of your choice inclusive) at a very nominal rate.",
+            "text": "Before I launched IndyVogue I was doing a detailed study on my competitors - and even when I used to shop saree sitting here in Austin - looking at Online Trade Shows or the recorded videos, or simple images on Facebook pages - it was next to impossible for me to rely on or purchase in one-shot - as the host cannot provide me with the detailed knowledge about the saree - about the thread count, quality marks and much more.<br>\n\nSo, as my baby, IndyVogue started taking its shape, I had a chat with Bhaskar about launching a website that makes me, the front-runner among many in this #sareepreneurship! <br><br>\n\n✅ My website comes with a 360-degree view of sarees in form of images. Along with, a complete video to let my patrons see the correct shade of the saree. <br>\n\n✅ I assured to provide a detailed description of the saree - with this make, technique, fabric, and work details and even distinguish it as pure or artificial silk. <br>\n\n✅ All my saree carry the silk mark certified card if they are the purest form of silk. For mixed or artificial silk, you won't find any card. <br>\n\n✅ I also host / connect with each patron with individual video calls to show the complete saree which they intend to buy or even show variants.<br>\n\n✅ Sarees at IndyVogue come with blouse stitch (designs of your choice inclusive) at a very nominal rate.",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 16,
@@ -479,7 +500,7 @@
         "template--16480627196137__38c0b232-7aab-4748-8647-f09eb24dec60-1668627172c976205b-0": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2015.jpg",
+            "image": "shopify://shop_images/2015.jpg",
             "img_pos": "left",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -502,7 +523,7 @@
         "dbe74c5c-aea8-4d54-aa34-5dd3505886d9": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2017.jpg",
+            "image": "shopify://shop_images/2017.jpg",
             "img_pos": "right",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -513,7 +534,7 @@
             "sub_heading": "",
             "heading": "Launch of indyvogue.com",
             "description": "",
-            "url": "https:\/\/www.indyvogue.com\/blogs\/indyvogue-fashion-center\/we-are-launching-indyvogue-now-opens-to-pamper-your-love",
+            "url": "https://www.indyvogue.com/blogs/indyvogue-fashion-center/we-are-launching-indyvogue-now-opens-to-pamper-your-love",
             "btn_label": "Read more",
             "btn_icon": false,
             "button_style": "default",
@@ -525,7 +546,7 @@
         "4d10522f-0f51-4331-91ad-f1762fccdf80": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/First-Online-Order.png",
+            "image": "shopify://shop_images/First-Online-Order.png",
             "img_pos": "left",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -548,7 +569,7 @@
         "257340d8-c228-4687-9755-181af637bbf0": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kolkata.png",
+            "image": "shopify://shop_images/Kolkata.png",
             "img_pos": "right",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -571,7 +592,7 @@
         "c4eea6fe-637f-4b03-876d-9c4f7f6abb1e": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Redesign.webp",
+            "image": "shopify://shop_images/Redesign.webp",
             "img_pos": "left",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -582,7 +603,7 @@
             "sub_heading": "",
             "heading": "Launch of Redesigned SIte",
             "description": "",
-            "url": "https:\/\/www.indyvogue.com\/blogs\/indyvogue-fashion-center\/time-for-a-new-look",
+            "url": "https://www.indyvogue.com/blogs/indyvogue-fashion-center/time-for-a-new-look",
             "btn_label": "Read more",
             "btn_icon": false,
             "button_style": "default",
@@ -594,7 +615,7 @@
         "827aaae5-92fe-427b-8e7e-d2788e35963e": {
           "type": "timeline",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Video.webp",
+            "image": "shopify://shop_images/Video.webp",
             "img_pos": "right",
             "image_ratio": "ratioadapt",
             "image_position": "8",
@@ -605,7 +626,7 @@
             "sub_heading": "",
             "heading": "None has done this before us",
             "description": "",
-            "url": "https:\/\/www.indyvogue.com\/blogs\/indyvogue-fashion-center\/no-one-has-done-this-before-us",
+            "url": "https://www.indyvogue.com/blogs/indyvogue-fashion-center/no-one-has-done-this-before-us",
             "btn_label": "Read more",
             "btn_icon": false,
             "button_style": "default",
@@ -637,6 +658,8 @@
         "cl_bg_gradient": "",
         "mg": ",,50px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": "",
         "use_cus_css": false,
@@ -667,6 +690,7 @@
           "settings": {
             "text": "THE GANG",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 20,
@@ -688,6 +712,7 @@
           "settings": {
             "text": "From its inception, IndyVogue has received immense love and trust from its patrons which helped IndyVogue to grow faster. To keep this trust intact, and spread more love, IndyVogue has tried to create its own core team. <br><br>\n\nAfter all, managing all the requirements with proper care is the key to success. Nothing is as important as quality maintenance and customer satisfaction. IndyVogue has worked incessantly to bring the best for its valued patrons.",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 16,
@@ -734,7 +759,7 @@
         "816738aa-c09f-4fc0-a579-5e1c5b21adaa": {
           "type": "member",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_1396.jpg",
+            "image": "shopify://shop_images/IMG_1396.jpg",
             "name": "Sumana Bhattacharya",
             "position": "\"Good Morning, Mumbai....\" You remember, yes the \"Janvi\" of Lage Raho, Munna Bhai. She makes sure that all her patrons are happy & satisfied. Only she knows when she sleeps, literally !",
             "social_facebook_link": "",
@@ -748,9 +773,9 @@
         "854e0211-5112-4588-a468-9206b333ac74": {
           "type": "member",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sovona.jpg",
+            "image": "shopify://shop_images/Sovona.jpg",
             "name": "Sovona Bhattacharya",
-            "position": "The inspiration behind the IndyVogue journey, she is the one that keeps the \"Munna bhai's & the gang\" in line. She is part of a number of NGO's and is the perfect example of the phrase <i>\"Age is just a number\"<\/i> !",
+            "position": "The inspiration behind the IndyVogue journey, she is the one that keeps the \"Munna bhai's & the gang\" in line. She is part of a number of NGO's and is the perfect example of the phrase <i>\"Age is just a number\"</i> !",
             "social_facebook_link": "",
             "social_twitter_link": "",
             "social_instagram_link": "",
@@ -762,7 +787,7 @@
         "165206094067bbb516-1": {
           "type": "member",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kajori_Banerjee.jpg",
+            "image": "shopify://shop_images/Kajori_Banerjee.jpg",
             "name": "Kajari Banerjee",
             "position": "The Director, The \"Raju Hirani\" of IndyVogue. She is reponsible for selecting the props(our Sarees, Jewelry) for IndyVogue so that you get the best of the best. She is really the one that makes this IndyVogue dream a reality.",
             "social_facebook_link": "",
@@ -776,7 +801,7 @@
         "165206094067bbb516-2": {
           "type": "member",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tutul.jpg",
+            "image": "shopify://shop_images/Tutul.jpg",
             "name": "Samardeep Chatterjee",
             "position": "Something like IndyVogue would never been possible without the unsung, behind the scenes hero like him. A very private person, he brings in the perfect balance to the otherwise everyday craziness.",
             "social_facebook_link": "",
@@ -784,13 +809,13 @@
             "social_instagram_link": "",
             "social_dribbble_link": "",
             "social_behance_link": "",
-            "social_tiktok_link": "https:\/\/tiktok.com\/"
+            "social_tiktok_link": "https://tiktok.com/"
           }
         },
         "cfd565e2-8b1c-41b8-999f-5aff91fca797": {
           "type": "member",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Suchak.jpg",
+            "image": "shopify://shop_images/Suchak.jpg",
             "name": "Sushanta Chakraborty",
             "position": "And when you have \"Munna\", can \"Circuit\" be far behind ? Meet Mr. Sushanta, the \"Youngest\" member of our team. If we could not sign him up, he would surely have become a Movie Star(Look at that Look). Love his energy.",
             "social_facebook_link": "",
@@ -843,6 +868,8 @@
         "cl_bg_gradient": "",
         "mg": ",,70px,",
         "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
         "mg_mb": ",,40px,",
         "pd_mb": "",
         "use_cus_css": false,
@@ -873,6 +900,7 @@
           "settings": {
             "text": "What’s Our Future Kick?",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 20,
@@ -894,6 +922,7 @@
           "settings": {
             "text": "Starting in the future, we are going to bring more smiles to the face of our patrons, with a bit of twist and turns!<br><br>\n\n✅ Launch of customized saree - with your choice of designs, color, fabric, weaving or work of print, embroidery, zari work, and much more\n<br>\n✅ Get a new range of Indian ethnic wear from salwar, fusion ethnic dresses, and accessories which will be just within your range\n<br>\n✅ Get more quality sarees at affordable rates\n<br>\n✅ Will be going Live more on the online platform, intend to trade shows in Texas and India and also hold some exhibitions in my dream destinations!\n<br>\n✅ Collab with celebrities and Fashion Influencers!",
             "remove_br_tag": false,
+            "tag": "p",
             "fontf": "inherit",
             "text_cl": "#000000",
             "text_fs": 16,
