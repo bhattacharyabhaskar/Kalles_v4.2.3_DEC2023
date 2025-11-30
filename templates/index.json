@@ -463,7 +463,7 @@
         "btn_cl": "dark",
         "btn_size": "small",
         "btn_hidden_mobile": true,
-        "nav_dot": false,
+        "nav_dot": true,
         "dot_owl": "default",
         "dots_cl": "dark",
         "dots_round": true,
