@@ -293,10 +293,10 @@
         "code_cus_css": ""
       }
     },
-    "image_text_ctaeLA": {
+    "image_text_iRgFhW": {
       "type": "image_text",
       "blocks": {
-        "bl_text_zMiDrj": {
+        "bl_text_EL64jY": {
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
@@ -305,7 +305,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>The Taboos: When Red Becomes Off-Limits</h2><p></p><p>Interestingly, the red saree also comes with its share of restrictions. In several Indian communities, <strong>an unmarried woman is discouraged from wearing a full red saree</strong>, especially one with bridal motifs like peacocks, lotuses, or heavy gold zari. The belief? Wearing such a saree before marriage could “invite” misfortune, or worse — <strong>delay marriage itself</strong>.</p><p>Similarly, widows are traditionally not allowed to wear red, as it is considered symbolic of a life that is still \"in union.\" In such cases, red doesn’t represent vitality — it becomes a <strong>reminder of what is lost.</strong></p><p>In rural regions, it’s still believed that wearing red during a funeral or mourning period could disrupt the peace of the departed soul. Even in urban families, some women avoid red during religious fasts or periods of emotional austerity, believing the color is “too fiery” and invites instability.</p><h2>Inherited Beliefs or Inner Choice?</h2><p></p><p>Many of us have worn red sarees without ever questioning the “why” behind them. But scratch the surface, and you'll find your grandmother’s voice, or your mother’s passing comment: <em>“Don’t wear red for that pooja,”</em> or <em>“Keep this red saree aside for your wedding.”</em></p><p>Are these just rituals for ritual’s sake? Or are they part of a larger cultural code passed down through generations to guide, protect, and give deeper meaning to life events?</p>",
+            "text": "<h3>Patola (Gujarat)</h3><p>Handwoven Patola sarees from Patan are adorned with intricate designs featuring <strong>elephants, parrots, flowers, kalash, paan leaves, and geometric borders</strong>.</p><ul><li>Elephants symbolize <strong>wisdom, strength, and royal dignity</strong>.</li><li>Parrots symbolize <strong>love, passion, and marital happiness</strong>.</li></ul><p>No wonder brides in Gujarat traditionally wear Patola — the motifs literally wish the couple a prosperous, loving life together.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -319,40 +319,10 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_WTneNh": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Image_2_a2166b4d-48fe-440d-bf65-b247a6b4566a.png",
-            "col_dk": "12",
-            "col_tb": "12",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "bl_text_zMiDrj",
-        "bl_image_WTneNh"
+        "bl_text_EL64jY"
       ],
       "settings": {
         "design_heading": "1",
@@ -378,10 +348,82 @@
         "code_cus_css": ""
       }
     },
-    "image_text_iRgFhW": {
+    "featured_collection_NJfbqD": {
+      "type": "featured-collection",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "head_btn_label": "View All",
+        "head_btn_url": "",
+        "head_btn_icon": false,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
+        "collection": "ikat-silk-saree",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "rationt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "center",
+        "limit": 8,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btns_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "use_pagination": "none",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "default",
+        "btns_size": "large",
+        "btns_cl": "dark",
+        "button_effect": "default",
+        "btn_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_iMe46J": {
       "type": "image_text",
       "blocks": {
-        "bl_text_EL64jY": {
+        "bl_text_8yd3rd": {
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
@@ -390,7 +432,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>Red Today: A Rebellion or a Revival?</h2><p></p><p>In modern times, red sarees have taken on new significance. Young women proudly wear red to festivals, interviews, and even first dates. Red has become a statement of power, of femininity, of reclaiming tradition on one’s own terms.</p><p>But somewhere, the echoes of the past still linger.</p><p>Maybe you avoid red on certain days. Or maybe, you wear it <strong>because</strong> your mother once told you not to. Either way, the color carries a weight — not just of fabric, but of stories, customs, and quiet superstitions.</p><h2>Conclusion: The Saree That Speaks</h2><p></p><p>A saree is never just a saree. Especially when it’s red. Whether you see it as a sacred tradition or an outdated myth, the red saree continues to evoke emotion — and maybe a little mystery.</p><p>So the next time you drape yourself in red, pause for a moment. Ask yourself: <em>What story am I wearing today?</em> Because in India, even colors carry whispers of the past.<br/><br/></p>",
+            "text": "<h3>Sambalpuri Ikat (Odisha)</h3><p>Sambalpuri sarees use intricate Ikat (bandha) with powerful temple-inspired motifs like <strong>shankha (conch), chakra (wheel), and phula (flower)</strong>.</p><ul><li><strong>Shankh</strong> stands for auspiciousness and the call of the divine.</li><li><strong>Chakra</strong> symbolizes cosmic order and Lord Jagannath.</li><li><strong>Phul</strong> (Flowers) celebrate beauty and devotion.</li></ul><p>Together, these motifs turn the saree into a walking tribute to Odisha’s spiritual and cultural heritage.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -407,7 +449,134 @@
         }
       },
       "block_order": [
-        "bl_text_EL64jY"
+        "bl_text_8yd3rd"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "featured_collection_JKgdkU": {
+      "type": "featured-collection",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "head_btn_label": "View All",
+        "head_btn_url": "",
+        "head_btn_icon": false,
+        "head_btn_style": "default",
+        "head_btn_size": "medium",
+        "head_btn_cl": "dark",
+        "head_btn_effect": "default",
+        "head_btn_hidden_mb": false,
+        "collection": "sambalpuri-silk-1",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "rationt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "center",
+        "limit": 8,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btns_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "use_pagination": "none",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "default",
+        "btns_size": "large",
+        "btns_cl": "dark",
+        "button_effect": "default",
+        "btn_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_VfYicQ": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_6XtGH9": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h3>Kanjivaram / Kanchipuram (Tamil Nadu)</h3><p>Kanjivaram motifs often draw from <strong>temple architecture, Hindu mythology, flowers, birds and animals</strong>.</p><p>Look closely, and you’ll spot:</p><ul><li><strong>Temple borders</strong> echoing gopuram outlines — a nod to devotion and protection.</li><li><strong>Elephants with lotus or temple domes</strong>, evoking royalty and blessings of Lord Ganesha, the remover of obstacles.</li></ul><p>When you wear a Kanjivaram like this, you’re literally carrying a mini temple narrative on your pallu.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_6XtGH9"
       ],
       "settings": {
         "design_heading": "1",
@@ -494,8 +663,11 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "featured_collection_acG9t6",
-    "image_text_ctaeLA",
     "image_text_iRgFhW",
+    "featured_collection_NJfbqD",
+    "image_text_iMe46J",
+    "featured_collection_JKgdkU",
+    "image_text_VfYicQ",
     "image_text_tLNKi3"
   ]
 }
