@@ -685,8 +685,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "About the author",
-            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "heading": "",
+            "text": "<h2>How to “read” your saree</h2><p>Next time you open your wardrobe or shop online:</p><ul><li>Notice <strong>what keeps repeating</strong> on your favorite sarees — peacocks, lotuses, vines, elephants? That’s the story you naturally gravitate toward.<br/><br/></li><li>Match motifs to <strong>occasions</strong>:<br/><br/></li><li>Weddings: elephants, parrots, paisleys, creepers (prosperity, love, fertility).<span style=\"text-decoration:underline\"><br/><br/></span></li><li>Puja/temple visits: lotuses, conch, chakra, temple borders (purity, devotion, spiritual strength).</li></ul><p>You’re not just picking “designs”; you’re choosing the kind of energy and symbolism you want to carry into that moment.</p><p></p><p></p><h2>What Sumana Says</h2><ul><li>Saree motifs are a <strong>visual language</strong> shaped by region, religion, folklore, and nature.</li><li>Peacocks, lotuses, and paisleys aren’t random — they signify <strong>beauty, purity, prosperity, and growth</strong>.</li><li>Paithani, Patola, Sambalpuri, and Kanjivaram each have distinct motif vocabularies that mirror their local culture and rituals.</li><li>Understanding motifs helps you choose sarees more intentionally — almost like choosing a blessing or emotion to wear.</li></ul><p>If you’d like, I can turn this into a <strong>series of Instagram carousel posts</strong> — one slide per motif (peacock, lotus, mango, etc.) with short, catchy explanations for your IndyVogue audience.<br/><br/></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -728,6 +728,61 @@
         "use_cus_css": false,
         "code_cus_css": ""
       }
+    },
+    "image_text_39g8MC": {
+      "type": "image_text",
+      "blocks": {
+        "bl_text_H3aHmk": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "About the author",
+            "text": "<p>Sumana Bhattacharya completed her Masters in Economics from the University of Calcutta & was working with the Department of Education, Govt. of West Bengal to provide training to the teachers in Government Schools. She moved to USA in 2005 after getting married & is the mother of 2 kids. She is the one that drives <a href=\"https://www.indyvogue.com/\"><strong>IndyVogue</strong> </a>every day, every hour, every minute and every second. Salute to her and her undying spirit.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_text_H3aHmk"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -741,6 +796,7 @@
     "featured_collection_JKgdkU",
     "image_text_VfYicQ",
     "featured_collection_rqmRgk",
-    "image_text_tLNKi3"
+    "image_text_tLNKi3",
+    "image_text_39g8MC"
   ]
 }
