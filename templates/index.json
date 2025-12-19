@@ -459,7 +459,7 @@
         "space_v_item": "30",
         "space_h_item_mb": "10",
         "space_v_item_mb": "10",
-        "layout_des": "2",
+        "layout_des": "1",
         "loop": true,
         "au_time": 5,
         "au_hover": true,
