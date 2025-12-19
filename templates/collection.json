@@ -98,6 +98,14 @@
             "link": "shopify://collections/silk-mark"
           }
         },
+        "nav_item_eEPGK6": {
+          "type": "nav_item",
+          "settings": {
+            "icon_image": "shopify://shop_images/assam-silk.png",
+            "label": "Assam Silk",
+            "link": "shopify://collections/assam-silk-sarees"
+          }
+        },
         "nav_item_Cd8RXD": {
           "type": "nav_item",
           "settings": {
@@ -261,6 +269,7 @@
       },
       "block_order": [
         "nav_item_9XGyFY",
+        "nav_item_eEPGK6",
         "nav_item_Cd8RXD",
         "nav_item_Bg69er",
         "nav_item_Wy3DTm",
