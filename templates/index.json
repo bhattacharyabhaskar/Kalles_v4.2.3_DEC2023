@@ -342,7 +342,6 @@
         },
         "quote_CGJyyJ": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "image_avata": "shopify://shop_images/google-logo.webp",
             "heading": "",
