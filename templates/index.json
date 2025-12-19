@@ -307,6 +307,17 @@
     "testimonials_xDrTqt": {
       "type": "testimonials",
       "blocks": {
+        "quote_GrzU87": {
+          "type": "quote",
+          "settings": {
+            "image_avata": "shopify://shop_images/google-logo.webp",
+            "heading": "",
+            "content": "<p>Received the item in time.The quality of the saree is very good,it was up to my expectations & the representative was very nice to explain everything to me.The blouse stitching is good.</p>",
+            "title": "Shelly Gonsalves - Dec 16, 2025",
+            "pos": "",
+            "rating": 5
+          }
+        },
         "quote_iUAPfh": {
           "type": "quote",
           "settings": {
@@ -414,6 +425,7 @@
         }
       },
       "block_order": [
+        "quote_GrzU87",
         "quote_iUAPfh",
         "quote_aCiVXw",
         "quote_CGJyyJ",
