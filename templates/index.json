@@ -353,7 +353,6 @@
         },
         "quote_fUxXqn": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "image_avata": "shopify://shop_images/google-logo.webp",
             "heading": "",
@@ -365,7 +364,6 @@
         },
         "quote_FnKjVb": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "image_avata": "shopify://shop_images/google-logo.webp",
             "heading": "",
@@ -377,7 +375,6 @@
         },
         "quote_Fm8rh4": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "image_avata": "shopify://shop_images/google-logo.webp",
             "heading": "",
@@ -389,7 +386,6 @@
         },
         "quote_EeWpXH": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "image_avata": "shopify://shop_images/google-logo.webp",
             "heading": "",
@@ -401,7 +397,6 @@
         },
         "quote_cKRqnE": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "image_avata": "shopify://shop_images/google-logo.webp",
             "heading": "",
@@ -413,7 +408,6 @@
         },
         "quote_wpNffV": {
           "type": "quote",
-          "disabled": true,
           "settings": {
             "image_avata": "shopify://shop_images/google-logo.webp",
             "heading": "",
@@ -458,7 +452,7 @@
         "space_v_item": "30",
         "space_h_item_mb": "10",
         "space_v_item_mb": "10",
-        "layout_des": "1",
+        "layout_des": "2",
         "loop": true,
         "au_time": 5,
         "au_hover": true,
