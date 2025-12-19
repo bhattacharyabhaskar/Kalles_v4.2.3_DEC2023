@@ -142,6 +142,7 @@
         "bl_image_gG9XjG": {
           "type": "bl_image",
           "settings": {
+            "image1": "shopify://shop_images/Image_1_3.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
