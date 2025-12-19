@@ -3,20 +3,25 @@
 {{ 'testimonials.css' | asset_url | stylesheet_tag }}
 {{ 'slider-settings.css' | asset_url | stylesheet_tag }}
 {{ 'pre_flickityt4s.min.css' | asset_url | stylesheet_tag }}
+
 {%- liquid
   assign sid = section.id
   assign se_stts = section.settings
   assign se_blocks = section.blocks
   assign stt_layout = se_stts.layout
   assign stt_image_bg = se_stts.image_bg
-  if stt_layout == 't4s-se-container' 
-    assign html_layout = '<div class="t4s-container">__</div></div>' | split: '__'
+
+  if stt_layout == 't4s-se-container'
+    # ✅ FIX: removed the extra closing </div>
+    assign html_layout = '<div class="t4s-container">__</div>' | split: '__'
   elsif stt_layout == 't4s-container-wrap'
     assign html_layout = '<div class="t4s-container">__</div>' | split: '__'
   else
     assign html_layout = '__' | split: '__'
   endif
+
   assign ter_des = se_stts.ter_des
+
   if se_stts.btn_owl == "outline"
     assign arrow_icon = 1
   else
@@ -24,51 +29,118 @@
   endif
 
   assign t4s_se_class = 't4s_nt_se_' | append: sid
+
   if se_stts.use_cus_css and se_stts.code_cus_css != blank
     render 'se_cus_css', code_cus_css: se_stts.code_cus_css, t4s_se_class: t4s_se_class
-  endif 
- -%} 
-<div class="t4s-section-inner t4s_nt_se_{{ sid }} t4s_se_{{ sid }} {{ stt_layout }}{% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2"{% endif %} {% render 'section_style', se_stts: se_stts -%} >
-    {{- html_layout[0] -}}
-    {%- if stt_layout == 't4s-se-container' -%}<div class="t4s-container-inner{% if stt_image_bg != blank %} t4s-has-imgbg lazyloadt4s{% endif %}" {% if stt_image_bg != blank %} data-bgset="{{ stt_image_bg | image_url: width: 1 }}" data-sizes="auto"  data-optimumx="2"{% endif %}>{% endif -%}
-    {%- render 'section_tophead', se_stts: se_stts -%}
+  endif
+-%}
 
-    {% if se_stts.layout_des == "1" %}
-      <div class="t4s-quotes-des-{{ ter_des }} t4s-{{ se_stts.content_align }} t4s-row t4s-row-cols-lg-{{ se_stts.col_dk }} t4s-row-cols-md-{{ se_stts.col_tb }} t4s-row-cols-{{ se_stts.col_mb }} t4s-gx-md-{{ se_stts.space_h_item }} t4s-gy-md-{{ se_stts.space_v_item }} t4s-gx-{{ se_stts.space_h_item_mb }} t4s-gy-{{ se_stts.space_v_item_mb }}" style="--cl-name:{{ se_stts.cl_name }};--cl-content:{{ se_stts.cl_content }};--cl-bd:{{ se_stts.cl_bd }};--cl-bg:{{ se_stts.cl_bg_item }};--bdr:{{ se_stts.bdr }}px;">
-    {% else %}
-      <div class="t4s-flicky-slider t4s-quotes-des-{{ ter_des }} t4s-{{ se_stts.content_align }} {% if se_stts.nav_btn %}  t4s-slider-btn-style-{{ se_stts.btn_owl }} t4s-slider-btn-{{ se_stts.btn_shape }} t4s-slider-btn-{{ se_stts.btn_size }} t4s-slider-btn-cl-{{ se_stts.btn_cl }} t4s-slider-btn-vi-{{ se_stts.btn_vi }} t4s-slider-btn-hidden-mobile-{{ se_stts.btn_hidden_mobile }} {% endif %} {% if se_stts.nav_dot == true %}   t4s-dots-style-{{ se_stts.dot_owl }} t4s-dots-cl-{{ se_stts.dots_cl }} t4s-dots-round-{{ se_stts.dots_round }} t4s-dots-hidden-mobile-{{ se_stts.dots_hidden_mobile }} {% endif %}  t4s-row t4s-row-cols-lg-{{ se_stts.col_dk }} t4s-row-cols-md-{{ se_stts.col_tb }} t4s-row-cols-{{ se_stts.col_mb }} t4s-gx-md-{{ se_stts.space_h_item }} t4s-gy-md-{{ se_stts.space_v_item }} t4s-gx-{{ se_stts.space_h_item_mb }} t4s-gy-{{ se_stts.space_v_item_mb }}  flickityt4s" data-flickityt4s-js='{"setPrevNextButtons":true,"arrowIcon":"{{ arrow_icon }}","imagesLoaded": 0,"adaptiveHeight": 0, "contain": 1, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": {{ se_stts.loop }},"prevNextButtons": {{ se_stts.nav_btn }},"percentPosition": 1,"pageDots": {{ se_stts.nav_dot }}, "autoPlay" : {{ se_stts.au_time | times: 1000 }}, "pauseAutoPlayOnHover" : {{ se_stts.au_hover }} }' style="--space-dots: {{ se_stts.dots_space }}px;--flickity-btn-pos: {{ se_stts.space_h_item }}px;--flickity-btn-pos-mb: {{ se_stts.space_h_item_mb }}px;--cl-name:{{ se_stts.cl_name }};--cl-content:{{ se_stts.cl_content }};--cl-bd:{{ se_stts.cl_bd }};--cl-bg:{{ se_stts.cl_bg_item }};--bdr:{{ se_stts.bdr }}px;">
-    {% endif %}
-      {%- if se_blocks.size > 0 -%}
-        {%- for block in se_blocks -%}
-          {%- assign bk_stts = block.settings -%}
-          <div class="t4s-col-item t4s-testimonial-item quote_col" id="b_{{ block.id }}" data-select-flickity {{ block.shopify_attributes }}>
-            <div class="testimonial-inner" timeline hdt-reveal="slide-in">
-              {%- if ter_des == '3' or ter_des == '6' -%}
-                {%- render 'quote_2', bk_stts: bk_stts -%}
-              {%- elsif ter_des == '4' -%}
-                  {%- render 'quote_3', bk_stts: bk_stts -%}
-              {%- else -%}
-                  {%- render 'quote_1', bk_stts: bk_stts -%}
-              {%- endif -%}
-            </div>
+<div
+  class="t4s-section-inner t4s_nt_se_{{ sid }} t4s_se_{{ sid }} {{ stt_layout }}{% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}"
+  {% if stt_image_bg != blank and stt_layout != 't4s-se-container' %}
+    data-bgset="{{ stt_image_bg | image_url: width: 1 }}"
+    data-sizes="auto"
+    data-optimumx="2"
+  {% endif %}
+  {% render 'section_style', se_stts: se_stts -%}
+>
+  {{- html_layout[0] -}}
+
+  {%- if stt_layout == 't4s-se-container' -%}
+    <div
+      class="t4s-container-inner{% if stt_image_bg != blank %} t4s-has-imgbg lazyloadt4s{% endif %}"
+      {% if stt_image_bg != blank %}
+        data-bgset="{{ stt_image_bg | image_url: width: 1 }}"
+        data-sizes="auto"
+        data-optimumx="2"
+      {% endif %}
+    >
+  {%- endif -%}
+
+  {%- render 'section_tophead', se_stts: se_stts -%}
+
+  {% if se_stts.layout_des == "1" %}
+    <div
+      class="t4s-quotes-des-{{ ter_des }} t4s-{{ se_stts.content_align }} t4s-row
+             t4s-row-cols-lg-{{ se_stts.col_dk }} t4s-row-cols-md-{{ se_stts.col_tb }} t4s-row-cols-{{ se_stts.col_mb }}
+             t4s-gx-md-{{ se_stts.space_h_item }} t4s-gy-md-{{ se_stts.space_v_item }}
+             t4s-gx-{{ se_stts.space_h_item_mb }} t4s-gy-{{ se_stts.space_v_item_mb }}"
+      style="--cl-name:{{ se_stts.cl_name }};--cl-content:{{ se_stts.cl_content }};--cl-bd:{{ se_stts.cl_bd }};--cl-bg:{{ se_stts.cl_bg_item }};--bdr:{{ se_stts.bdr }}px;"
+    >
+  {% else %}
+    <div
+      class="t4s-flicky-slider t4s-quotes-des-{{ ter_des }} t4s-{{ se_stts.content_align }}
+             {% if se_stts.nav_btn %} t4s-slider-btn-style-{{ se_stts.btn_owl }} t4s-slider-btn-{{ se_stts.btn_shape }} t4s-slider-btn-{{ se_stts.btn_size }} t4s-slider-btn-cl-{{ se_stts.btn_cl }} t4s-slider-btn-vi-{{ se_stts.btn_vi }} t4s-slider-btn-hidden-mobile-{{ se_stts.btn_hidden_mobile }}{% endif %}
+             {% if se_stts.nav_dot == true %} t4s-dots-style-{{ se_stts.dot_owl }} t4s-dots-cl-{{ se_stts.dots_cl }} t4s-dots-round-{{ se_stts.dots_round }} t4s-dots-hidden-mobile-{{ se_stts.dots_hidden_mobile }}{% endif %}
+             t4s-row
+             t4s-row-cols-lg-{{ se_stts.col_dk }} t4s-row-cols-md-{{ se_stts.col_tb }} t4s-row-cols-{{ se_stts.col_mb }}
+             t4s-gx-md-{{ se_stts.space_h_item }} t4s-gy-md-{{ se_stts.space_v_item }}
+             t4s-gx-{{ se_stts.space_h_item_mb }} t4s-gy-{{ se_stts.space_v_item_mb }}
+             flickityt4s"
+      {%- comment -%}
+        ✅ FIX: removed "groupCells": "100%" because it groups everything into one slide and breaks navigation/spacing.
+      {%- endcomment -%}
+      data-flickityt4s-js='{
+        "arrowIcon":"{{ arrow_icon }}",
+        "imagesLoaded": false,
+        "adaptiveHeight": false,
+        "contain": true,
+        "dragThreshold": 5,
+        "cellAlign":"left",
+        "wrapAround": {{ se_stts.loop }},
+        "prevNextButtons": {{ se_stts.nav_btn }},
+        "pageDots": {{ se_stts.nav_dot }},
+        "autoPlay": {{ se_stts.au_time | times: 1000 }},
+        "pauseAutoPlayOnHover": {{ se_stts.au_hover }}
+      }'
+      style="--space-dots: {{ se_stts.dots_space }}px;--flickity-btn-pos: {{ se_stts.space_h_item }}px;--flickity-btn-pos-mb: {{ se_stts.space_h_item_mb }}px;--cl-name:{{ se_stts.cl_name }};--cl-content:{{ se_stts.cl_content }};--cl-bd:{{ se_stts.cl_bd }};--cl-bg:{{ se_stts.cl_bg_item }};--bdr:{{ se_stts.bdr }}px;"
+    >
+  {% endif %}
+
+    {%- if se_blocks.size > 0 -%}
+      {%- for block in se_blocks -%}
+        {%- assign bk_stts = block.settings -%}
+        <div class="t4s-col-item t4s-testimonial-item quote_col" id="b_{{ block.id }}" data-select-flickity {{ block.shopify_attributes }}>
+          <div class="testimonial-inner" timeline hdt-reveal="slide-in">
+            {%- if ter_des == '3' or ter_des == '6' -%}
+              {%- render 'quote_2', bk_stts: bk_stts -%}
+            {%- elsif ter_des == '4' -%}
+              {%- render 'quote_3', bk_stts: bk_stts -%}
+            {%- else -%}
+              {%- render 'quote_1', bk_stts: bk_stts -%}
+            {%- endif -%}
           </div>
-        {%- endfor -%}
-      {%- endif -%}
-    </div>
-    <div class="t4s-d-none">
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <symbol id="t4s_star"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M329.6 176H488C498.3 176 507.4 182.5 510.7 192.2C514 201.9 510.8 212.6 502.7 218.9L371.9 320.7L422.9 480.7C426.1 490.7 422.4 501.7 413.7 507.7C405.1 513.7 393.6 513.4 385.3 506.9L256 406.4L126.7 506.9C118.4 513.4 106.9 513.7 98.27 507.7C89.65 501.7 85.94 490.7 89.13 480.7L140.1 320.7L9.267 218.9C1.174 212.6-2.027 201.9 1.3 192.2C4.628 182.5 13.75 176 24 176H182.5L233.1 16.72C236.3 6.764 245.6 0 256 0C266.5 0 275.7 6.764 278.9 16.72L329.6 176z"/></svg></symbol>
-        <symbol id="t4s_star_half"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.1 16.72C236.3 6.764 245.5 .0006 256 0V406.4L126.7 506.9C118.4 513.4 106.9 513.7 98.27 507.7C89.65 501.7 85.94 490.7 89.13 480.7L140.1 320.7L9.267 218.9C1.174 212.6-2.027 201.9 1.3 192.2C4.628 182.5 13.75 175.1 24 175.1H182.5L233.1 16.72z"/><path class="t4s-star-emty" d="M278.9 16.72C275.7 6.764 266.5 .0006 255.1 0V406.4L385.3 506.9C393.6 513.4 405.1 513.7 413.7 507.7C422.4 501.7 426.1 490.7 422.9 480.7L371.9 320.7L502.7 218.9C510.8 212.6 514 201.9 510.7 192.2C507.4 182.5 498.3 175.1 488 175.1H329.5L278.9 16.72z"/></svg></symbol>
-      </svg>
-      <style>
-      path.t4s-star-emty {
-          fill: #dedede;
-      }
-      
-      </style>
-    </div>
-    {{- html_layout[1] -}}
+        </div>
+      {%- endfor -%}
+    {%- endif -%}
+
   </div>
+
+  <div class="t4s-d-none">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <symbol id="t4s_star">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path d="M329.6 176H488C498.3 176 507.4 182.5 510.7 192.2C514 201.9 510.8 212.6 502.7 218.9L371.9 320.7L422.9 480.7C426.1 490.7 422.4 501.7 413.7 507.7C405.1 513.7 393.6 513.4 385.3 506.9L256 406.4L126.7 506.9C118.4 513.4 106.9 513.7 98.27 507.7C89.65 501.7 85.94 490.7 89.13 480.7L140.1 320.7L9.267 218.9C1.174 212.6-2.027 201.9 1.3 192.2C4.628 182.5 13.75 176 24 176H182.5L233.1 16.72C236.3 6.764 245.6 0 256 0C266.5 0 275.7 6.764 278.9 16.72L329.6 176z"/>
+        </svg>
+      </symbol>
+      <symbol id="t4s_star_half">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path d="M233.1 16.72C236.3 6.764 245.5 .0006 256 0V406.4L126.7 506.9C118.4 513.4 106.9 513.7 98.27 507.7C89.65 501.7 85.94 490.7 89.13 480.7L140.1 320.7L9.267 218.9C1.174 212.6-2.027 201.9 1.3 192.2C4.628 182.5 13.75 175.1 24 175.1H182.5L233.1 16.72z"/>
+          <path class="t4s-star-emty" d="M278.9 16.72C275.7 6.764 266.5 .0006 255.1 0V406.4L385.3 506.9C393.6 513.4 405.1 513.7 413.7 507.7C422.4 501.7 426.1 490.7 422.9 480.7L371.9 320.7L502.7 218.9C510.8 212.6 514 201.9 510.7 192.2C507.4 182.5 498.3 175.1 488 175.1H329.5L278.9 16.72z"/>
+        </svg>
+      </symbol>
+    </svg>
+    <style>
+      path.t4s-star-emty { fill: #dedede; }
+    </style>
+  </div>
+
+  {{- html_layout[1] -}}
+
+  {%- if stt_layout == 't4s-se-container' -%}
+    </div>
+  {%- endif -%}
+</div>
 {%- schema -%}
   {
     "name": "Testimonial",
