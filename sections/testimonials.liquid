@@ -12,7 +12,7 @@
   assign stt_image_bg = se_stts.image_bg
 
   if stt_layout == 't4s-se-container'
-    # ✅ FIX: removed the extra closing </div>
+    # ✅ FIX: removed extra </div>
     assign html_layout = '<div class="t4s-container">__</div>' | split: '__'
   elsif stt_layout == 't4s-container-wrap'
     assign html_layout = '<div class="t4s-container">__</div>' | split: '__'
@@ -29,7 +29,6 @@
   endif
 
   assign t4s_se_class = 't4s_nt_se_' | append: sid
-
   if se_stts.use_cus_css and se_stts.code_cus_css != blank
     render 'se_cus_css', code_cus_css: se_stts.code_cus_css, t4s_se_class: t4s_se_class
   endif
@@ -77,8 +76,9 @@
              t4s-gx-md-{{ se_stts.space_h_item }} t4s-gy-md-{{ se_stts.space_v_item }}
              t4s-gx-{{ se_stts.space_h_item_mb }} t4s-gy-{{ se_stts.space_v_item_mb }}
              flickityt4s"
+      data-ivy-flickity="1"
       {%- comment -%}
-        ✅ FIX: removed "groupCells": "100%" because it groups everything into one slide and breaks navigation/spacing.
+        ✅ FIX: Removed "groupCells": "100%" (causes blank/one-slide behavior after reflow).
       {%- endcomment -%}
       data-flickityt4s-js='{
         "arrowIcon":"{{ arrow_icon }}",
@@ -100,7 +100,11 @@
     {%- if se_blocks.size > 0 -%}
       {%- for block in se_blocks -%}
         {%- assign bk_stts = block.settings -%}
-        <div class="t4s-col-item t4s-testimonial-item quote_col" id="b_{{ block.id }}" data-select-flickity {{ block.shopify_attributes }}>
+
+        {%- comment -%}
+          ✅ FIX: Removed data-select-flickity (often causes T4S to reselect/re-init and go blank)
+        {%- endcomment -%}
+        <div class="t4s-col-item t4s-testimonial-item quote_col" id="b_{{ block.id }}" {{ block.shopify_attributes }}>
           <div class="testimonial-inner" timeline hdt-reveal="slide-in">
             {%- if ter_des == '3' or ter_des == '6' -%}
               {%- render 'quote_2', bk_stts: bk_stts -%}
@@ -141,118 +145,51 @@
     </div>
   {%- endif -%}
 </div>
+
 {%- schema -%}
   {
     "name": "Testimonial",
     "tag": "section",
     "class": "t4s-section t4s_bk_flickity t4s-section-all t4s_tp_cdt t4s-testimonials",
     "settings": [
+      { "type": "header", "content": "1. Heading options" },
       {
-          "type": "header",
-          "content": "1. Heading options"
+        "type": "select",
+        "id": "design_heading",
+        "label": "+ Design heading",
+        "default": "1",
+        "options": [
+          { "value": "1", "label": "Design 01" },
+          { "value": "2", "label": "Design 02" },
+          { "value": "3", "label": "Design 03" },
+          { "value": "4", "label": "Design 04" },
+          { "value": "5", "label": "Design 05" },
+          { "value": "6", "label": "Design 06 (width line-awesome)" },
+          { "value": "7", "label": "Design 07" },
+          { "value": "8", "label": "Design 08" },
+          { "value": "9", "label": "Design 09" },
+          { "value": "10", "label": "Design 10" },
+          { "value": "11", "label": "Design 11" },
+          { "value": "12", "label": "Design 12" },
+          { "value": "13", "label": "Design 13" },
+          { "value": "14", "label": "Design 14" },
+          { "value": "15", "label": "Design 15" },
+          { "value": "16", "label": "Design 16" },
+          { "value": "30", "label": "Design 30" }
+        ]
       },
       {
-          "type": "select",
-          "id": "design_heading",
-          "label": "+ Design heading",
-          "default": "1",
-          "options": [
-              {
-                  "value": "1",
-                  "label": "Design 01"
-              },
-              {
-                  "value": "2",
-                  "label": "Design 02"
-              },
-              {
-                  "value": "3",
-                  "label": "Design 03"
-              },
-              {
-                  "value": "4",
-                  "label": "Design 04"
-              },
-              {
-                  "value": "5",
-                  "label": "Design 05"
-              },
-              {
-                  "value": "6",
-                  "label": "Design 06 (width line-awesome)"
-              },
-              {
-                  "value": "7",
-                  "label": "Design 07"
-              },
-              {
-                  "value": "8",
-                  "label": "Design 08"
-              },
-              {
-                  "value": "9",
-                  "label": "Design 09"
-              },
-              {
-                  "value": "10",
-                  "label": "Design 10"
-              },
-              {
-                  "value": "11",
-                  "label": "Design 11"
-              },
-              {
-                  "value": "12",
-                  "label": "Design 12"
-              },
-              {
-                  "value": "13",
-                  "label": "Design 13"
-              },
-              {
-                  "value": "14",
-                  "label": "Design 14"
-              },
-              {
-                "value": "15",
-                "label": "Design 15"
-              },
-              {
-                "value": "16",
-                "label": "Design 16"
-              },
-              {
-                "value": "30",
-                "label": "Design 30"
-              }
-          ]
+        "type": "select",
+        "id": "heading_align",
+        "label": "+ Heading align",
+        "default": "t4s-text-center",
+        "options": [
+          { "value": "t4s-text-start", "label": "Left" },
+          { "value": "t4s-text-center", "label": "Center" },
+          { "value": "t4s-text-end", "label": "Right" }
+        ]
       },
-      {
-          "type": "select",
-          "id": "heading_align",
-          "label": "+ Heading align",
-          "default": "t4s-text-center",
-          "options": [
-              {
-                  "value": "t4s-text-start",
-                  "label": "Left"
-              },
-              {
-                  "value": "t4s-text-center",
-                  "label": "Center"
-              },
-              {
-                  "value": "t4s-text-end",
-                  "label": "Right"
-              }
-          ]
-      },
-      {
-          "type": "text",
-          "id": "top_heading",
-          "label": "+ Heading",
-          "default": "Testimonials"
-      },
+      { "type": "text", "id": "top_heading", "label": "+ Heading", "default": "Testimonials" },
       {
         "type": "text",
         "id": "icon_heading",
@@ -260,11 +197,7 @@
         "info": "Only used for design 6 [LineAwesome](https://kalles.the4.co/font-lineawesome/)",
         "default": "las la-gem"
       },
-      {
-          "type": "textarea",
-          "id": "top_subheading",
-          "label": "+ Subheading"
-      }, 
+      { "type": "textarea", "id": "top_subheading", "label": "+ Subheading" },
       {
         "type": "number",
         "id": "tophead_mb",
@@ -272,101 +205,38 @@
         "info": "The vertical spacing between heading and content",
         "default": 30
       },
-      {
-        "type": "header",
-        "content": "2. General options"
-      },
+
+      { "type": "header", "content": "2. General options" },
       {
         "type": "select",
         "id": "ter_des",
         "options": [
-          {
-            "value": "1",
-            "label": "Design 1"
-          },
-          {
-            "value": "2",
-            "label": "Design 2"
-          },
-          {
-            "value": "3",
-            "label": "Design 3"
-          },
-          {
-            "value": "4",
-            "label": "Design 4"
-          },
-          {
-            "value": "5",
-            "label": "Design 5"
-          },
-          {
-            "value": "6",
-            "label": "Design 6" 
-          }
-          ,
-          {
-            "value": "7",
-            "label": "Design 7"
-          },
-          {
-            "value": "8",
-            "label": "Design 8"
-          }
+          { "value": "1", "label": "Design 1" },
+          { "value": "2", "label": "Design 2" },
+          { "value": "3", "label": "Design 3" },
+          { "value": "4", "label": "Design 4" },
+          { "value": "5", "label": "Design 5" },
+          { "value": "6", "label": "Design 6" },
+          { "value": "7", "label": "Design 7" },
+          { "value": "8", "label": "Design 8" }
         ],
         "label": "Testimonial design",
         "default": "1"
       },
-      {
-        "type": "color",
-        "id": "cl_name",
-        "label": "Color name",
-        "default": "#222222"
-      },
-      {
-        "type": "color",
-        "id": "cl_content",
-        "label": "Color content/position",
-        "default": "#878787"
-      },
-      {
-        "type": "color",
-        "id": "cl_bd",
-        "label": "Color border/box shadow"
-      },
-      {
-        "type": "color",
-        "id": "cl_bg_item",
-        "label": "Background item"
-      },
-      {
-        "type": "range",
-        "id": "bdr",
-        "min": 0,
-        "max": 100,
-        "step": 1,
-        "label": "Item border radius",
-        "unit": "px",
-        "default": 0
-      },
+      { "type": "color", "id": "cl_name", "label": "Color name", "default": "#222222" },
+      { "type": "color", "id": "cl_content", "label": "Color content/position", "default": "#878787" },
+      { "type": "color", "id": "cl_bd", "label": "Color border/box shadow" },
+      { "type": "color", "id": "cl_bg_item", "label": "Background item" },
+      { "type": "range", "id": "bdr", "min": 0, "max": 100, "step": 1, "label": "Item border radius", "unit": "px", "default": 0 },
       {
         "type": "select",
         "id": "content_align",
         "label": "Content align",
         "default": "text-start",
         "options": [
-          {
-            "label": "Left",
-            "value": "text-start"
-          },
-          {
-            "label": "Center",
-            "value": "text-center"
-          },
-          {
-            "label": "Right",
-            "value": "text-end"
-          }
+          { "label": "Left", "value": "text-start" },
+          { "label": "Center", "value": "text-center" },
+          { "label": "Right", "value": "text-end" }
         ]
       },
       {
@@ -375,30 +245,12 @@
         "label": "Items per row",
         "default": "3",
         "options": [
-          {
-            "value": "1",
-            "label": "1"
-          },
-          {
-            "value": "2",
-            "label": "2"
-          },
-          {
-            "value": "3",
-            "label": "3"
-          },
-          {
-            "value": "4",
-            "label": "4"
-          },
-          {
-            "value": "5",
-            "label": "5"
-          },
-          {
-            "value": "6",
-            "label": "6"
-          }
+          { "value": "1", "label": "1" },
+          { "value": "2", "label": "2" },
+          { "value": "3", "label": "3" },
+          { "value": "4", "label": "4" },
+          { "value": "5", "label": "5" },
+          { "value": "6", "label": "6" }
         ]
       },
       {
@@ -407,22 +259,10 @@
         "label": "Items per row (Tablet)",
         "default": "2",
         "options": [
-          {
-            "value": "1",
-            "label": "1"
-          },
-          {
-            "value": "2",
-            "label": "2"
-          },
-          {
-            "value": "3",
-            "label": "3"
-          },
-          {
-            "value": "4",
-            "label": "4"
-          }
+          { "value": "1", "label": "1" },
+          { "value": "2", "label": "2" },
+          { "value": "3", "label": "3" },
+          { "value": "4", "label": "4" }
         ]
       },
       {
@@ -431,56 +271,24 @@
         "label": "Items per row (Mobile)",
         "default": "1",
         "options": [
-          {
-            "value": "1",
-            "label": "1"
-          },
-          {
-            "value": "2",
-            "label": "2"
-          }
+          { "value": "1", "label": "1" },
+          { "value": "2", "label": "2" }
         ]
       },
+
       {
         "type": "select",
         "id": "space_h_item",
         "options": [
-          {
-              "value": "0", 
-              "label": "0"
-          },
-          {
-              "value": "2", 
-              "label": "2px"
-          },
-          {
-              "value": "4", 
-              "label": "4px"
-          },
-          {
-              "value": "6", 
-              "label": "6px"
-          },
-          {
-              "value": "8", 
-              "label": "8px"
-          },
-          {
-              "value": "10", 
-              "label": "10px"
-          },
-          {
-              "value": "15", 
-              "label": "15px"
-          },
-          {
-              "value": "20",
-              "label": "20px"
-          },
-          {
-              "value": "30",
-              "label": "30px"
-          }
+          { "value": "0", "label": "0" },
+          { "value": "2", "label": "2px" },
+          { "value": "4", "label": "4px" },
+          { "value": "6", "label": "6px" },
+          { "value": "8", "label": "8px" },
+          { "value": "10", "label": "10px" },
+          { "value": "15", "label": "15px" },
+          { "value": "20", "label": "20px" },
+          { "value": "30", "label": "30px" }
         ],
         "label": "Space horizontal items",
         "default": "30"
@@ -489,42 +297,15 @@
         "type": "select",
         "id": "space_v_item",
         "options": [
-          {
-              "value": "0", 
-              "label": "0"
-          },
-          {
-              "value": "2", 
-              "label": "2px"
-          },
-          {
-              "value": "4", 
-              "label": "4px"
-          },
-          {
-              "value": "6", 
-              "label": "6px"
-          },
-          {
-              "value": "8", 
-              "label": "8px"
-          },
-          {
-              "value": "10", 
-              "label": "10px"
-          },
-          {
-              "value": "15", 
-              "label": "15px"
-          },
-          {
-              "value": "20",
-              "label": "20px"
-          },
-          {
-              "value": "30",
-              "label": "30px"
-          }
+          { "value": "0", "label": "0" },
+          { "value": "2", "label": "2px" },
+          { "value": "4", "label": "4px" },
+          { "value": "6", "label": "6px" },
+          { "value": "8", "label": "8px" },
+          { "value": "10", "label": "10px" },
+          { "value": "15", "label": "15px" },
+          { "value": "20", "label": "20px" },
+          { "value": "30", "label": "30px" }
         ],
         "label": "Space vertical items",
         "default": "30"
@@ -533,42 +314,15 @@
         "type": "select",
         "id": "space_h_item_mb",
         "options": [
-          {
-              "value": "0", 
-              "label": "0"
-          },
-          {
-              "value": "2", 
-              "label": "2px"
-          },
-          {
-              "value": "4", 
-              "label": "4px"
-          },
-          {
-              "value": "6", 
-              "label": "6px"
-          },
-          {
-              "value": "8", 
-              "label": "8px"
-          },
-          {
-              "value": "10", 
-              "label": "10px"
-          },
-          {
-              "value": "15", 
-              "label": "15px"
-          },
-          {
-              "value": "20",
-              "label": "20px"
-          },
-          {
-              "value": "30",
-              "label": "30px"
-          }
+          { "value": "0", "label": "0" },
+          { "value": "2", "label": "2px" },
+          { "value": "4", "label": "4px" },
+          { "value": "6", "label": "6px" },
+          { "value": "8", "label": "8px" },
+          { "value": "10", "label": "10px" },
+          { "value": "15", "label": "15px" },
+          { "value": "20", "label": "20px" },
+          { "value": "30", "label": "30px" }
         ],
         "label": "Space horizontal items (Mobile)",
         "default": "10"
@@ -577,120 +331,47 @@
         "type": "select",
         "id": "space_v_item_mb",
         "options": [
-          {
-              "value": "0", 
-              "label": "0"
-          },
-          {
-              "value": "2", 
-              "label": "2px"
-          },
-          {
-              "value": "4", 
-              "label": "4px"
-          },
-          {
-              "value": "6", 
-              "label": "6px"
-          },
-          {
-              "value": "8", 
-              "label": "8px"
-          },
-          {
-              "value": "10", 
-              "label": "10px"
-          },
-          {
-              "value": "15", 
-              "label": "15px"
-          },
-          {
-              "value": "20",
-              "label": "20px"
-          },
-          {
-              "value": "30",
-              "label": "30px"
-          }
+          { "value": "0", "label": "0" },
+          { "value": "2", "label": "2px" },
+          { "value": "4", "label": "4px" },
+          { "value": "6", "label": "6px" },
+          { "value": "8", "label": "8px" },
+          { "value": "10", "label": "10px" },
+          { "value": "15", "label": "15px" },
+          { "value": "20", "label": "20px" },
+          { "value": "30", "label": "30px" }
         ],
         "label": "Space vertical items (Mobile)",
         "default": "10"
       },
+
       {
         "type": "select",
         "id": "layout_des",
         "options": [
-          {
-            "value": "1",
-            "label": "Grid"
-          },
-          {
-            "value": "2",
-            "label": "Carousel"
-          }
+          { "value": "1", "label": "Grid" },
+          { "value": "2", "label": "Carousel" }
         ],
         "label": "Layout design",
         "default": "1"
       },
-      {
-        "type": "header",
-        "content": "+Options for carousel layout"
-      },
-      {
-        "type": "checkbox",
-        "id": "loop",
-        "label": "Enable loop",
-        "info": "At the end of cells, wrap-around to the other end for infinite scrolling",
-        "default": true
-      },
-      {
-        "type": "range",
-        "id": "au_time",
-        "min": 0,
-        "max": 30,
-        "step": 0.5,
-        "label": "Autoplay speed in second.",
-        "info": "Set is '0' to disable autoplay",
-        "unit": "s",
-        "default": 0
-      },
-      {
-        "type": "checkbox",
-        "id": "au_hover",
-        "label": "Pause autoplay on hover",
-        "info": "Auto-playing will pause when the user hovers over the carousel",
-        "default": true
-      },
-      {
-        "type": "paragraph",
-        "content": "—————————————————"
-      },
-      {
-        "type": "paragraph",
-        "content": "Prev next button"
-      },
-      {
-        "type": "checkbox",
-        "id": "nav_btn",
-        "label": "Use prev next button",
-        "info": "Creates and show previous & next buttons",
-        "default": false
-      },
+
+      { "type": "header", "content": "+Options for carousel layout" },
+      { "type": "checkbox", "id": "loop", "label": "Enable loop", "info": "At the end of cells, wrap-around to the other end for infinite scrolling", "default": true },
+      { "type": "range", "id": "au_time", "min": 0, "max": 30, "step": 0.5, "label": "Autoplay speed in second.", "info": "Set is '0' to disable autoplay", "unit": "s", "default": 0 },
+      { "type": "checkbox", "id": "au_hover", "label": "Pause autoplay on hover", "info": "Auto-playing will pause when the user hovers over the carousel", "default": true },
+
+      { "type": "paragraph", "content": "—————————————————" },
+      { "type": "paragraph", "content": "Prev next button" },
+      { "type": "checkbox", "id": "nav_btn", "label": "Use prev next button", "info": "Creates and show previous & next buttons", "default": false },
       {
         "type": "select",
         "id": "btn_vi",
         "label": "Visible",
         "default": "hover",
         "options": [
-          {
-            "value": "always",
-            "label": "Always"
-          },
-          {
-            "value": "hover",
-            "label": "Only hover"
-          }
+          { "value": "always", "label": "Always" },
+          { "value": "hover", "label": "Only hover" }
         ]
       },
       {
@@ -699,18 +380,9 @@
         "label": "Button style",
         "default": "default",
         "options": [
-          {
-            "value": "default",
-            "label": "Default"
-          },
-          {
-            "value": "outline",
-            "label": "Outline"
-          },
-          {
-            "value": "simple",
-            "label": "Simple"
-          }
+          { "value": "default", "label": "Default" },
+          { "value": "outline", "label": "Outline" },
+          { "value": "simple", "label": "Simple" }
         ]
       },
       {
@@ -720,47 +392,23 @@
         "info": "Not working with button style 'Simple'",
         "default": "none",
         "options": [
-          {
-            "value": "none",
-            "label": "Default"
-          },
-          {
-            "value": "round",
-            "label": "Round"
-          },
-          {
-            "value": "rotate",
-            "label": "Rotate"
-          }
+          { "value": "none", "label": "Default" },
+          { "value": "round", "label": "Round" },
+          { "value": "rotate", "label": "Rotate" }
         ]
       },
       {
-          "type": "select",
-          "id": "btn_cl",
-          "label": "Button color",
-          "default": "dark",
-          "options": [
-              {
-                  "value": "light",
-                  "label": "Light"
-              },
-              {
-                  "value": "dark",
-                  "label": "Dark"
-              },
-              {
-                  "value": "primary",
-                  "label": "Primary"
-              },
-              {
-                  "value": "custom1",
-                  "label": "Custom color 1"
-              },
-              {
-                  "value": "custom2",
-                  "label": "Custom color 2"
-              }
-          ]
+        "type": "select",
+        "id": "btn_cl",
+        "label": "Button color",
+        "default": "dark",
+        "options": [
+          { "value": "light", "label": "Light" },
+          { "value": "dark", "label": "Dark" },
+          { "value": "primary", "label": "Primary" },
+          { "value": "custom1", "label": "Custom color 1" },
+          { "value": "custom2", "label": "Custom color 2" }
+        ]
       },
       {
         "type": "select",
@@ -768,59 +416,25 @@
         "label": "Button size",
         "default": "small",
         "options": [
-          {
-            "value": "small",
-            "label": "Small"
-          },
-          {
-            "value": "medium",
-            "label": "Medium"
-          },
-          {
-            "value": "large",
-            "label": "Large"
-          }
+          { "value": "small", "label": "Small" },
+          { "value": "medium", "label": "Medium" },
+          { "value": "large", "label": "Large" }
         ]
       },
-      {
-        "type":"checkbox",
-        "id":"btn_hidden_mobile",
-        "label":"Hidden buttons on mobile ",
-        "default": true
-      },
-      {
-        "type": "paragraph",
-        "content": "—————————————————"
-      },
-      {
-        "type": "paragraph",
-        "content": "Page dots"
-      },
-      {
-        "type": "checkbox",
-        "id": "nav_dot",
-        "label": "Use page dots",
-        "info": "Creates and show page dots",
-        "default": false
-      },
+      { "type":"checkbox", "id":"btn_hidden_mobile", "label":"Hidden buttons on mobile ", "default": true },
+
+      { "type": "paragraph", "content": "—————————————————" },
+      { "type": "paragraph", "content": "Page dots" },
+      { "type": "checkbox", "id": "nav_dot", "label": "Use page dots", "info": "Creates and show page dots", "default": false },
       {
         "type": "select",
         "id": "dot_owl",
         "label": "Dots style",
         "default": "default",
         "options": [
-          {
-            "value": "default",
-            "label": "Default"
-          },
-          {
-            "value": "outline",
-            "label": "Outline"
-          },
-          {
-            "value": "elessi",
-            "label": "Elessi"
-          }
+          { "value": "default", "label": "Default" },
+          { "value": "outline", "label": "Outline" },
+          { "value": "elessi", "label": "Elessi" }
         ]
       },
       {
@@ -829,199 +443,112 @@
         "label": "Dots color",
         "default": "dark",
         "options": [
-          {
-              "value": "light",
-              "label": "Light (Best on dark background)"
-          },
-          {
-              "value": "dark",
-              "label": "Dark"
-          },
-          {
-              "value": "primary",
-              "label": "Primary"
-          },
-          {
-              "value": "custom1",
-              "label": "Custom color 1"
-          },
-          {
-              "value": "custom2",
-              "label": "Custom color 2"
-          }
+          { "value": "light", "label": "Light (Best on dark background)" },
+          { "value": "dark", "label": "Dark" },
+          { "value": "primary", "label": "Primary" },
+          { "value": "custom1", "label": "Custom color 1" },
+          { "value": "custom2", "label": "Custom color 2" }
         ]
       },
+      { "type": "checkbox", "id": "dots_round", "label": "Enable dots round", "default": true },
+      { "type": "range", "id": "dots_space", "min": 2, "max": 20, "step": 1, "label": "Dot between horizontal", "unit": "px", "default": 10 },
+      { "type":"checkbox", "id":"dots_hidden_mobile", "label":"Hidden dots on mobile ", "default": false },
+
+      { "type": "header", "content": "3. Design options" },
       {
-        "type": "checkbox",
-        "id": "dots_round",
-        "label": "Enable dots round",
-        "default": true
-      },
-      {
-        "type": "range",
-        "id": "dots_space",
-        "min": 2,
-        "max": 20,
-        "step": 1,
-        "label": "Dot between horizontal",
-        "unit": "px",
-        "default": 10
-      },
-      {
-        "type":"checkbox",
-        "id":"dots_hidden_mobile",
-        "label":"Hidden dots on mobile ",
-        "default": false
-      },
-      {
-        "type": "header",
-        "content": "3. Design options"
-      },
-      {
-        "type": "select","id": "layout","default": "t4s-container-wrap","label": "Layout",
+        "type": "select",
+        "id": "layout",
+        "default": "t4s-container-wrap",
+        "label": "Layout",
         "options": [
-            { "value": "t4s-se-container", "label": "Container"},
-            { "value": "t4s-container-wrap", "label": "Wrapped container"},
-            { "value": "t4s-container-fluid", "label": "Full width"}
+          { "value": "t4s-se-container", "label": "Container"},
+          { "value": "t4s-container-wrap", "label": "Wrapped container"},
+          { "value": "t4s-container-fluid", "label": "Full width"}
         ]
       },
-      {
-        "type": "color",
-        "id": "cl_bg",
-        "label": "Background"
-      },
-      {
-        "type": "color_background",
-        "id": "cl_bg_gradient",
-        "label": "Background gradient"
-      },
-      {
-        "type": "image_picker",
-        "id": "image_bg",
-        "label": "Background image"
-      },
-      {
-          "type": "text",
-          "id": "mg",
-          "label": "Margin",
-          "info":"Margin top, margin right, margin bottom, margin left. If you not use to blank",
-          "default": ",,50px,",
-          "placeholder": ",,50px,"
-      },
-      {
-          "type": "text",
-          "id": "pd",
-          "label": "Padding",
-          "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank",
-          "placeholder": "50px,,50px,"
-      },
-      {
-        "type": "header",
-        "content": "+ Design Tablet Options"
-      },
-      {
-        "type": "text",
-        "id": "mg_tb",
-        "label": "Margin",
-        "placeholder": ",,50px,"
-      },
-      {
-        "type": "text",
-        "id": "pd_tb",
-        "label": "Padding",
-        "placeholder": ",,50px,"
-      },
-      {
-        "type": "header",
-        "content": "+ Design mobile options"
-      },
-      {
-          "type": "text",
-          "id": "mg_mb",
-          "label": "Margin",
-          "default": ",,30px,",
-          "placeholder": ",,50px,"
-      },
-      {
-          "type": "text",
-          "id": "pd_mb",
-          "label": "Padding",
-          "placeholder": ",,50px,"
-      },
-      {
-        "type": "header",
-        "content": "4. Custom css"
-      },
-      {
-        "id": "use_cus_css",
-        "type": "checkbox",
-        "label": "Use custom css",
-        "default":false,
-        "info": "If you want custom style for this section."
-      },
-      { 
-        "id": "code_cus_css",
-        "type": "textarea",
-        "label": "Code custom css",
-        "info": "Use selector .SectionID to style css"
-        
-      }
+      { "type": "color", "id": "cl_bg", "label": "Background" },
+      { "type": "color_background", "id": "cl_bg_gradient", "label": "Background gradient" },
+      { "type": "image_picker", "id": "image_bg", "label": "Background image" },
+      { "type": "text", "id": "mg", "label": "Margin", "info":"Margin top, margin right, margin bottom, margin left. If you not use to blank", "default": ",,50px,", "placeholder": ",,50px," },
+      { "type": "text", "id": "pd", "label": "Padding", "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank", "placeholder": "50px,,50px," },
+
+      { "type": "header", "content": "+ Design Tablet Options" },
+      { "type": "text", "id": "mg_tb", "label": "Margin", "placeholder": ",,50px," },
+      { "type": "text", "id": "pd_tb", "label": "Padding", "placeholder": ",,50px," },
+
+      { "type": "header", "content": "+ Design mobile options" },
+      { "type": "text", "id": "mg_mb", "label": "Margin", "default": ",,30px,", "placeholder": ",,50px," },
+      { "type": "text", "id": "pd_mb", "label": "Padding", "placeholder": ",,50px," },
+
+      { "type": "header", "content": "4. Custom css" },
+      { "id": "use_cus_css", "type": "checkbox", "label": "Use custom css", "default": false, "info": "If you want custom style for this section." },
+      { "id": "code_cus_css", "type": "textarea", "label": "Code custom css", "info": "Use selector .SectionID to style css" }
     ],
     "blocks": [
       {
         "type": "quote",
         "name": "Testimonial",
         "settings": [
-          {
-            "type": "image_picker",
-            "id": "image_avata",
-            "label": "Author's image",
-            "info": "200x200 recommend"
-          },
-          {
-          "type": "text",
-          "id": "heading",
-          "label": "+ Heading"
-          },
-          {
-            "type": "richtext",
-            "id": "content",
-            "label": "Text",
-            "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
-          },
-          {
-             "type": "text",
-             "id": "title",
-             "label": "Author",
-             "default": "Author's name"
-          },
-          {
-             "type": "text",
-             "id": "pos",
-             "label": "Position"
-          },
-          {
-            "type": "range",
-            "id": "rating",
-            "min": 0,
-            "max": 5,
-            "step": 0.5,
-            "label": "Rating",
-            "info": "Set less than '1' to disable Rating.",
-            "default": 5
-          }
+          { "type": "image_picker", "id": "image_avata", "label": "Author's image", "info": "200x200 recommend" },
+          { "type": "text", "id": "heading", "label": "+ Heading" },
+          { "type": "richtext", "id": "content", "label": "Text", "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>" },
+          { "type": "text", "id": "title", "label": "Author", "default": "Author's name" },
+          { "type": "text", "id": "pos", "label": "Position" },
+          { "type": "range", "id": "rating", "min": 0, "max": 5, "step": 0.5, "label": "Rating", "info": "Set less than '1' to disable Rating.", "default": 5 }
         ]
       }
     ],
     "presets": [
-      {
-        "name": "Testimonials",
-        "category": "Homepage",
-        "blocks": [{"type": "quote"},{"type": "quote"},{ "type": "quote"}]
-      }
+      { "name": "Testimonials", "category": "Homepage", "blocks": [{"type":"quote"},{"type":"quote"},{"type":"quote"}] }
     ]
   }
-{% endschema %}
+{%- endschema -%}
 
 {%- javascript -%}
+(function () {
+  function getSectionRoot() {
+    return document.querySelector('.t4s_nt_se_{{ sid }}');
+  }
+
+  function refreshOne(el) {
+    if (!el) return;
+
+    // Try common instance locations used by T4S/Kalles wrappers
+    var inst =
+      el.flickityt4s ||
+      el.flkty ||
+      el._flkty ||
+      (el._flickityt4s && el._flickityt4s.flkty);
+
+    if (inst && typeof inst.resize === 'function') {
+      inst.resize();
+      if (typeof inst.reposition === 'function') inst.reposition();
+      if (typeof inst.reloadCells === 'function') inst.reloadCells();
+    } else {
+      // fallback: force the wrapper's resize logic
+      window.dispatchEvent(new Event('resize'));
+    }
+  }
+
+  function refreshAll() {
+    var root = getSectionRoot();
+    if (!root) return;
+
+    var sliders = root.querySelectorAll('.flickityt4s, .t4s-flicky-slider');
+    sliders.forEach(function (el) { refreshOne(el); });
+  }
+
+  // run after DOM + after theme scripts hydrate + after fonts/images settle
+  document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(refreshAll, 50);
+    setTimeout(refreshAll, 300);
+    setTimeout(refreshAll, 900);
+    setTimeout(refreshAll, 1500);
+  });
+
+  // also refresh once window finishes (images/fonts)
+  window.addEventListener('load', function () {
+    setTimeout(refreshAll, 100);
+  });
+})();
 {%- endjavascript -%}
