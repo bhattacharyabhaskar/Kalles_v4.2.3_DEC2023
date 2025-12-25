@@ -33,51 +33,72 @@
   endif
 -%}
 
-{%- comment -%}
-  ============================================================
-  FIX PACK:
-  1) Force Flickity cells to be exactly 3/2/1 per view based on section settings
-  2) Center the visible group (cellAlign center)
-  3) Correct prev/next arrow positioning for this section only
-  ============================================================
-{%- endcomment -%}
-
 {% style %}
 /* ============================================================
-   FIX: Force exact cards-per-view for Flickity in this section
+   Testimonials Flickity Fix (Kalles/T4S)
+   - Force exact cards per view
+   - Remove row gutter interference
+   - Keep slider centered
+   - Fix arrow alignment
    ============================================================ */
-.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .t4s-col-item,
-.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .quote_col{
+
+/* 1) Kill the row negative margins inside flickity wrapper */
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider.t4s-row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* 2) Flickity slider track centered */
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .flickityt4s-slider{
+  display: flex !important;
+  justify-content: center !important; /* centers the whole visible group */
+}
+
+/* 3) Cells: remove padding that comes from t4s-row gutters */
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .t4s-col-item{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   flex: 0 0 auto !important;
   max-width: none !important;
   min-width: 0 !important;
 }
 
-/* Desktop */
-.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .t4s-col-item{
-  width: calc(100% / {{ se_stts.col_dk | default: 3 }}) !important;
+/* 4) Apply spacing via a gap (instead of gx classes) */
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .flickityt4s-slider{
+  gap: {{ se_stts.space_h_item | default: 30 }}px;
+}
+@media (max-width: 1024px){
+  .t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .flickityt4s-slider{
+    gap: {{ se_stts.space_h_item_mb | default: 10 }}px;
+  }
 }
 
-/* Tablet */
+/* 5) Force exact cards-per-view (subtract gap so 3 fits perfectly) */
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .t4s-col-item{
+  width: calc((100% - ({{ se_stts.col_dk | default: 3 }} - 1) * {{ se_stts.space_h_item | default: 30 }}px) / {{ se_stts.col_dk | default: 3 }}) !important;
+}
 @media (max-width: 1024px){
   .t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .t4s-col-item{
-    width: calc(100% / {{ se_stts.col_tb | default: 2 }}) !important;
+    width: calc((100% - ({{ se_stts.col_tb | default: 2 }} - 1) * {{ se_stts.space_h_item_mb | default: 10 }}px) / {{ se_stts.col_tb | default: 2 }}) !important;
   }
 }
-
-/* Mobile */
 @media (max-width: 767px){
   .t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .t4s-col-item{
-    width: calc(100% / {{ se_stts.col_mb | default: 1 }}) !important;
+    width: 100% !important;
   }
 }
 
-/* Optional: prevents odd stretching */
-.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .flickityt4s-slider{
-  display: flex !important;
+/* 6) Arrow positioning: true vertical center */
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider .flickityt4s-button{
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  margin: 0 !important; /* cancels margin:auto 0 */
+}
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider:not(:hover) .flickityt4s-button.previous,
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider:not(:hover) .flickityt4s-button.next{
+  transform: translateY(-50%) !important; /* keep hover animation from shifting Y */
 }
 {% endstyle %}
-
 
 <div
   class="t4s-section-inner t4s_nt_se_{{ sid }} t4s_se_{{ sid }} {{ stt_layout }}{% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}"
