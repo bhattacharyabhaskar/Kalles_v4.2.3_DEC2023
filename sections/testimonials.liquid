@@ -43,60 +43,41 @@
 {%- endcomment -%}
 
 {% style %}
-/* ===== Testimonials: enforce correct cards-per-view in Flickity ===== */
-.t4s-testimonials .t4s-flicky-slider{
-  --ivy-cols-lg: {{ se_stts.col_dk | default: 3 }};
-  --ivy-cols-md: {{ se_stts.col_tb | default: 2 }};
-  --ivy-cols-sm: {{ se_stts.col_mb | default: 1 }};
+/* ============================================================
+   FIX: Force exact cards-per-view for Flickity in this section
+   ============================================================ */
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .t4s-col-item,
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .quote_col{
+  flex: 0 0 auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
 }
 
-/* Flickity cells: lock width so Flickity can't show 4 when set to 3 */
-.t4s-testimonials .t4s-flicky-slider .t4s-col-item{
-  width: calc(100% / var(--ivy-cols-lg)) !important;
+/* Desktop */
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .t4s-col-item{
+  width: calc(100% / {{ se_stts.col_dk | default: 3 }}) !important;
 }
 
+/* Tablet */
 @media (max-width: 1024px){
-  .t4s-testimonials .t4s-flicky-slider .t4s-col-item{
-    width: calc(100% / var(--ivy-cols-md)) !important;
-  }
-}
-@media (max-width: 767px){
-  .t4s-testimonials .t4s-flicky-slider .t4s-col-item{
-    width: calc(100% / var(--ivy-cols-sm)) !important;
+  .t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .t4s-col-item{
+    width: calc(100% / {{ se_stts.col_tb | default: 2 }}) !important;
   }
 }
 
-/* ===== Testimonials: arrow positioning (section-scoped) ===== */
-.t4s-testimonials .t4s-flicky-slider{ position: relative; }
-.t4s-testimonials .t4s-flicky-slider,
-.t4s-testimonials .t4s-flicky-slider .flickityt4s-viewport{ overflow: visible !important; }
-
-.t4s-testimonials .t4s-flicky-slider .flickityt4s-button{
-  position: absolute !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  z-index: 60 !important;
-  margin: 0 !important;
-}
-
-/* Desktop: place arrows just outside the cards */
-.t4s-testimonials .t4s-flicky-slider .flickityt4s-button.previous{ left: -26px !important; }
-.t4s-testimonials .t4s-flicky-slider .flickityt4s-button.next{ right: -26px !important; }
-
-/* Keep Kalles hover slide-in */
-.t4s-testimonials .t4s-flicky-slider:not(:hover) .flickityt4s-button.previous{
-  transform: translateX(15px) translateY(-50%) !important;
-}
-.t4s-testimonials .t4s-flicky-slider:not(:hover) .flickityt4s-button.next{
-  transform: translateX(-15px) translateY(-50%) !important;
-}
-
-/* Mobile: bring arrows inside */
+/* Mobile */
 @media (max-width: 767px){
-  .t4s-testimonials .t4s-flicky-slider .flickityt4s-button.previous{ left: 8px !important; }
-  .t4s-testimonials .t4s-flicky-slider .flickityt4s-button.next{ right: 8px !important; }
+  .t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .t4s-col-item{
+    width: calc(100% / {{ se_stts.col_mb | default: 1 }}) !important;
+  }
+}
+
+/* Optional: prevents odd stretching */
+.t4s_nt_se_{{ sid }} .t4s-flicky-slider.flickityt4s .flickityt4s-slider{
+  display: flex !important;
 }
 {% endstyle %}
+
 
 <div
   class="t4s-section-inner t4s_nt_se_{{ sid }} t4s_se_{{ sid }} {{ stt_layout }}{% if stt_image_bg != blank and stt_layout != 't4s-se-container' %} t4s-has-imgbg lazyloadt4s{% endif %}"
