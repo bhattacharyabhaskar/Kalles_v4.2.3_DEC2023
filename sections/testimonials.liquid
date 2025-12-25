@@ -158,6 +158,58 @@
   {%- if stt_layout == 't4s-se-container' -%}
     </div>
   {%- endif -%}
+{% style %}
+  /* ================================
+     Testimonials – fix arrow placement
+     ================================ */
+
+  .t4s-testimonials .t4s-flicky-slider {
+    position: relative;
+  }
+
+  .t4s-testimonials .t4s-flicky-slider .flickityt4s-button {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 50 !important;
+    margin: 0 !important;
+  }
+
+  .t4s-testimonials .t4s-flicky-slider .flickityt4s-button.previous {
+    left: calc(var(--flickity-btn-pos)/2) !important;
+  }
+
+  .t4s-testimonials .t4s-flicky-slider .flickityt4s-button.next {
+    right: calc(var(--flickity-btn-pos)/2) !important;
+  }
+
+  /* Preserve hover slide-in animation */
+  .t4s-testimonials .t4s-flicky-slider:not(:hover) .flickityt4s-button.previous {
+    transform: translateX(15px) translateY(-50%) !important;
+  }
+
+  .t4s-testimonials .t4s-flicky-slider:not(:hover) .flickityt4s-button.next {
+    transform: translateX(-15px) translateY(-50%) !important;
+  }
+
+  /* Mobile safety */
+  @media (max-width: 767px){
+    .t4s-testimonials .t4s-flicky-slider .flickityt4s-button.previous {
+      left: calc(var(--flickity-btn-pos-mb)/2) !important;
+    }
+    .t4s-testimonials .t4s-flicky-slider .flickityt4s-button.next {
+      right: calc(var(--flickity-btn-pos-mb)/2) !important;
+    }
+  }
+
+  /* Prevent clipping */
+  .t4s-testimonials .t4s-flicky-slider,
+  .t4s-testimonials .t4s-flicky-slider .flickityt4s-viewport {
+    overflow: visible !important;
+  }
+{% endstyle %}
+
+
 </div>
 
 {%- schema -%}
