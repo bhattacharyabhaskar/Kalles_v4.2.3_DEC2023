@@ -347,7 +347,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h3>Patola (Gujarat)</h3><p>Handwoven Patola sarees from Patan are adorned with intricate designs featuring <strong>elephants, parrots, flowers, kalash, paan leaves, and geometric borders</strong>.</p><ul><li>Elephants symbolize <strong>wisdom, strength, and royal dignity</strong>.</li><li>Parrots symbolize <strong>love, passion, and marital happiness</strong>.</li></ul><p>No wonder brides in Gujarat traditionally wear Patola — the motifs literally wish the couple a prosperous, loving life together.</p>",
+            "text": "<h3>3. The Chameleon (Fusion + Experimentation)</h3><ul><li>Think: Neutral or textured saree in <a href=\"https://www.indyvogue.com/products/luxurious-multicolor-modal-silk-saree-with-hand-shibori-bandhani-work?srsltid=AfmBOooeAIbgvFNgOXDRXP6uxrQfMk6CxaGXNiHbWfVljPOGe4Ra_Lk-\"><span style=\"text-decoration:underline\">modal silk</span></a>, <a href=\"https://www.indyvogue.com/collections/organza-silk-saree?srsltid=AfmBOoqW9jj82kw--UYVNXryhirVXNeHt1ZW9nOJFhF6DwOyfC4QMWJ1\"><span style=\"text-decoration:underline\">organza</span></a>, or even <a href=\"https://www.indyvogue.com/collections/chiffon?srsltid=AfmBOorlSYYNBOLOjYXbF9_AXzIFKfRVezn2Uupsla4RQpMl5C4SBkRj\"><span style=\"text-decoration:underline\">chiffon</span></a>.<br/><br/></li><li>Purpose: Mix-and-match magic. Skirt looks. Saree gown. Dupatta substitute. Layering piece.<br/><br/></li><li>Twist: This is your styling lab — you get 10 outfits out of this one.</li></ul><p><strong>Color tip</strong>: Earthy tones (beige, charcoal, olive) or black — because they go with everything.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -390,188 +390,6 @@
         "code_cus_css": ""
       }
     },
-    "image_text_iMe46J": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_8yd3rd": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h3>Sambalpuri Ikat (Odisha)</h3><p>Sambalpuri sarees use intricate Ikat (bandha) with powerful temple-inspired motifs like <strong>shankha (conch), chakra (wheel), and phula (flower)</strong>.</p><ul><li><strong>Shankh</strong> stands for auspiciousness and the call of the divine.</li><li><strong>Chakra</strong> symbolizes cosmic order and Lord Jagannath.</li><li><strong>Phul</strong> (Flowers) celebrate beauty and devotion.</li></ul><p>Together, these motifs turn the saree into a walking tribute to Odisha’s spiritual and cultural heritage.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_8yd3rd"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-start",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "featured_collection_JKgdkU": {
-      "type": "featured-collection",
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "head_btn_label": "View All",
-        "head_btn_url": "",
-        "head_btn_icon": false,
-        "head_btn_style": "default",
-        "head_btn_size": "medium",
-        "head_btn_cl": "dark",
-        "head_btn_effect": "default",
-        "head_btn_hidden_mb": false,
-        "collection": "sambalpuri-silk-1",
-        "product_des": "1",
-        "show_vendor": false,
-        "use_cdt": false,
-        "image_ratio": "rationt",
-        "image_size": "cover",
-        "image_position": "8",
-        "content_align": "center",
-        "limit": 8,
-        "col_dk": "4",
-        "col_tb": "2",
-        "col_mb": "2",
-        "space_h_item": "30",
-        "space_v_item": "30",
-        "space_h_item_mb": "10",
-        "space_v_item_mb": "10",
-        "layout_des": "2",
-        "loop": true,
-        "au_time": 0,
-        "au_hover": true,
-        "nav_btn": false,
-        "btns_pos": "default",
-        "btn_vi": "hover",
-        "btn_owl": "default",
-        "btn_shape": "none",
-        "btn_cl": "dark",
-        "btn_size": "small",
-        "btn_hidden_mobile": true,
-        "nav_dot": false,
-        "dot_owl": "default",
-        "dots_cl": "dark",
-        "dots_round": true,
-        "dots_space": 10,
-        "dots_hidden_mobile": false,
-        "use_pagination": "none",
-        "enable_bar_lm": true,
-        "btn_icon": false,
-        "button_style": "default",
-        "btns_size": "large",
-        "btns_cl": "dark",
-        "button_effect": "default",
-        "btn_pos": "t4s-text-center",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_VfYicQ": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_6XtGH9": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h3>Kanjivaram / Kanchipuram (Tamil Nadu)</h3><p>Kanjivaram motifs often draw from <strong>temple architecture, Hindu mythology, flowers, birds and animals</strong>.</p><p>Look closely, and you’ll spot:</p><ul><li><strong>Temple borders</strong> echoing gopuram outlines — a nod to devotion and protection.</li><li><strong>Elephants with lotus or temple domes</strong>, evoking royalty and blessings of Lord Ganesha, the remover of obstacles.</li></ul><p>When you wear a Kanjivaram like this, you’re literally carrying a mini temple narrative on your pallu.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_6XtGH9"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-start",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
     "featured_collection_rqmRgk": {
       "type": "featured-collection",
       "settings": {
@@ -589,7 +407,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "kanchipuram-sarees",
+        "collection": "shop-designer-sarees",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
@@ -644,10 +462,39 @@
         "code_cus_css": ""
       }
     },
-    "image_text_tLNKi3": {
+    "image_text_iMe46J": {
       "type": "image_text",
       "blocks": {
-        "bl_text_EXxjCm": {
+        "bl_image_zCAHEe": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/1_1_d4bdf440-e750-4c0e-80be-5780e6ed4673.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_8yd3rd": {
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
@@ -656,7 +503,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>How to “read” your saree</h2><p>Next time you open your wardrobe or shop online:</p><ul><li>Notice <strong>what keeps repeating</strong> on your favorite sarees — peacocks, lotuses, vines, elephants? That’s the story you naturally gravitate toward.<br/><br/></li><li>Match motifs to <strong>occasions</strong>:<br/><br/></li><li>Weddings: elephants, parrots, paisleys, creepers (prosperity, love, fertility).<span style=\"text-decoration:underline\"><br/><br/></span></li><li>Puja/temple visits: lotuses, conch, chakra, temple borders (purity, devotion, spiritual strength).</li></ul><p>You’re not just picking “designs”; you’re choosing the kind of energy and symbolism you want to carry into that moment.</p><p></p><p></p><h2>What Sumana Says</h2><ul><li>Saree motifs are a <strong>visual language</strong> shaped by region, religion, folklore, and nature.</li><li>Peacocks, lotuses, and paisleys aren’t random — they signify <strong>beauty, purity, prosperity, and growth</strong>.</li><li>Paithani, Patola, Sambalpuri, and Kanjivaram each have distinct motif vocabularies that mirror their local culture and rituals.</li><li>Understanding motifs helps you choose sarees more intentionally — almost like choosing a blessing or emotion to wear.</li></ul><p>If you’d like, I can turn this into a <strong>series of Instagram carousel posts</strong> — one slide per motif (peacock, lotus, mango, etc.) with short, catchy explanations for your IndyVogue audience.<br/><br/></p>",
+            "text": "<h2>Still Skeptical? Here’s What You Gain</h2><h3>✅ Less Clutter, More Creativity</h3><p>Fewer choices push you to style more, mix better, and experiment harder.</p><h3>✅ Time-Saving</h3><p>You stop overthinking what to wear. These 3 are always in rotation — you just switch the blouse, belt, or jacket.</p><h3>✅ Guilt-Free Fashion</h3><p>You’re not contributing to textile waste or overconsumption. Your wardrobe becomes a statement of ethics, not just aesthetics.</p><h2>Let’s Talk Controversy: Are You Brave Enough to Repeat?</h2><p>In a culture that often celebrates excess — new sarees for every function, Instagram-ready looks every weekend — repeating outfits still feels taboo. But here’s the truth:</p><p><strong>Style isn’t about having more. It’s about doing more with less.</strong></p><p>When celebrities can wear designer outfits worth lakhs and still get trolled for outfit repeats, what does that say about us?</p><p>It says it’s time to change the narrative.</p><h2>Start Your Capsule Today</h2><p>Not tomorrow. Not after another shopping haul. Open your wardrobe and pick:</p><ul><li>One saree that makes you feel like royalty,<br/><br/></li><li>One that feels like a second skin,<br/><br/></li><li>And one that surprises you every time.</li></ul><p>Congratulations — you’ve just started your saree capsule wardrobe.</p><p>Minimalism isn’t boring. It’s bold. Especially in a world trying to sell you more of what you don’t need.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -673,7 +520,8 @@
         }
       },
       "block_order": [
-        "bl_text_EXxjCm"
+        "bl_image_zCAHEe",
+        "bl_text_8yd3rd"
       ],
       "settings": {
         "design_heading": "1",
@@ -762,11 +610,8 @@
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "featured_collection_acG9t6",
     "image_text_iRgFhW",
-    "image_text_iMe46J",
-    "featured_collection_JKgdkU",
-    "image_text_VfYicQ",
     "featured_collection_rqmRgk",
-    "image_text_tLNKi3",
+    "image_text_iMe46J",
     "image_text_39g8MC"
   ]
 }
