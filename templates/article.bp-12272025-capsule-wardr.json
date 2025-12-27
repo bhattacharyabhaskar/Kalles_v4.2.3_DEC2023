@@ -211,35 +211,6 @@
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
-        "bl_image_HaHPnH": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Image_1_2_75f36e7c-ac83-42fd-9787-7f8b738f38d6.png",
-            "col_dk": "12",
-            "col_tb": "12",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
-        },
         "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
           "type": "bl_text",
           "settings": {
@@ -249,7 +220,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>Region-wise “secret codes” on sarees</h2><h3>Paithani (Maharashtra)</h3><p>Paithani sarees are famous for their story-heavy pallus. Traditional motifs like <strong>mor (peacock), bangdi mor (peacock inside a bangle), kamal (lotus),</strong> and <strong>asawali (creeper vine)</strong> have been part of the design language for nearly 2,000 years.</p><ul><li><strong>Bangdi mor</strong> combines a bangle (signifying <em>saubhagya</em> or married bliss) with the peacock (grace, luck, Saraswati).</li><li><strong>Asawali creepers</strong> represent <strong>growth, fertility, and continuity of life</strong>.</li></ul><p>So a Paithani isn’t just “Maharashtrian bridal glam”; it’s quietly talking about abundance, beauty, and auspicious new beginnings.</p>",
+            "text": "<h3>2. The Everyday Icon (Casual + Workwear)</h3><ul><li>Think: <a href=\"https://www.indyvogue.com/collections/bengal-cotton?srsltid=AfmBOopGdY_rylPmW9MXCLXWUkmHsEBIVUApKE_f4d30P0EqTvXAQXjl\"><span style=\"text-decoration:underline\">Cotton</span></a>, <a href=\"https://www.indyvogue.com/collections/linen-saree?srsltid=AfmBOopsnOvGAi6vjtcipTVYTom-VofqgTNNzbpQQLyntWMVmSGUgtRb\"><span style=\"text-decoration:underline\">linen</span></a>, or soft handloom saree in muted tones or minimal prints.<br/><br/></li><li>Purpose: Office, errands, casual lunches, and daily wear.<br/><br/></li><li>Twist: Pair with sneakers and a denim jacket for a streetwear crossover.</li></ul><p><strong>This saree becomes your personality.</strong> It's not loud, but it's always noticed.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -266,7 +237,6 @@
         }
       },
       "block_order": [
-        "bl_image_HaHPnH",
         "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
       ],
       "settings": {
@@ -310,7 +280,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "paithani-silk-sarees",
+        "collection": "bengal-cotton",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
