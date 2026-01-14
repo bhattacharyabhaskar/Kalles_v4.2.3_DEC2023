@@ -21,7 +21,7 @@
             "height_tb": 400,
             "custom_mb": false,
             "height_mb": 300,
-            "image": "shopify://shop_images/Banner_-_Saraswati_Puja.jpg",
+            "image": "shopify://shop_images/Banner_Image_cb96baa6-404a-4c4d-9cb0-872bc5a18dd7.png",
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
@@ -92,8 +92,8 @@
             "text_size": "40,15",
             "txt_align": "start",
             "sub_heading": "",
-            "heading": "5 Traditional Sarees Perfect for Saraswati Puja (And How to Drape Them Gracefully)",
-            "text": "<p>Saraswati Puja — or as we lovingly call it in Bengal, <strong>the Desi Valentine's Day in yellow</strong> — is the one day you don’t need an excuse to dress up like the goddess of wisdom herself. Whether you’re in school, college, or adulting hard in another country (yes, NRIs, I see you), the ritual is the same: wake up early, wear yellow or white, channel divine energy, and pretend you know how to pleat a saree without assistance.</p><p>Let’s be real — half the charm of Saraswati Puja is that beautiful, graceful saree moment. So if you’re still confused about <em>which</em> saree to wear and <em>how not to look like a tangled curtain</em>, don’t worry. I’ve got you.</p><p>Here are <strong>5 traditional saree styles</strong> that are perfect for Saraswati Puja, with a few tips on <strong>how to drape them without summoning your ancestors for help.</strong></p>",
+            "heading": "What Yellow Sarees Say Without Words",
+            "text": "<p>There’s something undeniably profound about a saree. In India, it’s more than a garment — it’s emotion stitched in six yards, tradition folded into pleats, and identity draped over the shoulders. It carries memories of generations and whispers stories in its weaves. Whether it’s your mother’s wedding saree or a silk handloom gifted on Diwali, a saree is never just fabric — it’s a <strong>feeling</strong>.</p><p>Across India, sarees are worn not just for style but for <strong>meaning</strong>. Certain colors mark specific festivals. Some weaves are reserved for rituals. We match drapes with seasons, textures with rituals, and even pleats with beliefs. But today, many of these traditions — and their deeper messages — are fading into the background, replaced by trends, influencers, and fast fashion.</p><p>But here’s a thought:</p><p><em><strong>What if your saree's color isn’t just aesthetic — what if it speaks? What if it reveals a mood, signals a message, or mirrors your inner world?</strong></em></p><p>Let’s talk about one color that rarely screams but always shines: <strong>yellow</strong>.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -107,10 +107,40 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
+        },
+        "bl_image_cKqyHx": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Image_1_f87eb990-091e-4f46-9c7a-78bc6450c8e7.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
         }
       },
       "block_order": [
-        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1",
+        "bl_image_cKqyHx"
       ],
       "settings": {
         "design_heading": "1",
