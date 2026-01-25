@@ -234,40 +234,10 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_gG9XjG": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/1_2.png",
-            "col_dk": "12",
-            "col_tb": "12",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1",
-        "bl_image_gG9XjG"
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
       ],
       "settings": {
         "design_heading": "1",
