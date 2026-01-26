@@ -2496,6 +2496,11 @@
         "type": "shopify://apps/propel-replay-survey-heatmap/blocks/app-embed/64fbaaa3-2d4a-49f3-aba7-86e92e44999f",
         "disabled": false,
         "settings": {}
+      },
+      "8208493610395315515": {
+        "type": "shopify://apps/dondy-whatsapp-chat-marketing/blocks/app-block/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
