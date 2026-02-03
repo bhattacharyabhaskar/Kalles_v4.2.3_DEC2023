@@ -107,40 +107,10 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_6baANm": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Dola_Re_Dola.png",
-            "col_dk": "12",
-            "col_tb": "12",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1",
-        "bl_image_6baANm"
+        "template--17119026708713__6869956b-0118-467c-98f0-cbb9ff121db9-bl_text-1"
       ],
       "settings": {
         "design_heading": "1",
@@ -169,34 +139,10 @@
     "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
-        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>The Maharashtra Exception: A Tradition That Breaks the Norm</h2><p>Let’s look at <strong>Makar Sankranti</strong> in Maharashtra — a festival that marks new beginnings. Guess what women traditionally wear on this day? <strong>Black.</strong> Yes, black. Not red, not gold — <strong>black</strong>.</p><p>Why? Because during this time of seasonal change, black is said to <strong>absorb heat and protect the body from winter chills</strong>. It’s practical, celebratory, and completely accepted. No one cries bad luck here. So why the double standards elsewhere?</p><p>The truth is, <strong>black sarees aren't taboo — they're misunderstood</strong>.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        },
         "bl_image_gG9XjG": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/1_2.png",
+            "image1": "shopify://shop_images/Dola_Re_Dola.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -221,11 +167,35 @@
             "dots_space": 10,
             "dots_hidden_mobile": false
           }
+        },
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>No. 6. Aishwarya Rai – “Dola Re Dola” (<a href=\"https://en.wikipedia.org/wiki/Devdas_(2002_Hindi_film)\"><span style=\"text-decoration:underline\">Devdas</span></a>, 2002)</h2><p><strong>Vibe:</strong> Two divas. One screen. One dance-off. Saree superiority unlocked.</p><p>This wasn’t just a song — it was a cultural event. <a href=\"https://www.instagram.com/aishwaryaraibachchan_arb/?hl=de\"><span style=\"text-decoration:underline\">Aishwarya</span></a> and <a href=\"https://en.wikipedia.org/wiki/Madhuri_Dixit\"><span style=\"text-decoration:underline\">Madhuri Dixit</span></a>, two of the most graceful women in Bollywood, are battling it out in <em>synchronized elegance</em> while looking like walking paintings in <a href=\"https://www.indyvogue.com/collections/red-and-white-saree-collection?srsltid=AfmBOopBI9mePk_fPjmEV-4D8PFoLq13BaC2bGwi1xfKrsx1Ye68ZOYD\"><span style=\"text-decoration:underline\">red-and-white sarees.</span></a></p><p>It’s sexy — not because it’s skin show, but because it’s <strong>confidence, poise, and pure feminine power</strong> dripping from every move. It gave saree-lovers goosebumps and the rest of us unrealistic beauty standards.</p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
         }
       },
       "block_order": [
-        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1",
-        "bl_image_gG9XjG"
+        "bl_image_gG9XjG",
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
       ],
       "settings": {
         "design_heading": "1",
@@ -254,6 +224,35 @@
     "image_text_tLNKi3": {
       "type": "image_text",
       "blocks": {
+        "bl_image_JgkNRJ": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/Saree_Ka_Fall_Sa.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
         "bl_text_EXxjCm": {
           "type": "bl_text",
           "settings": {
@@ -263,7 +262,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>Black: The Power Color</h2><p>Let’s not ignore the facts:</p><ul><li>Black is <strong>slimming</strong>, <strong>sleek</strong>, and <strong>elegant</strong>.<br/><br/></li><li>It suits <strong>every skin tone</strong>.<br/><br/></li><li>It <strong>empowers</strong> the wearer with confidence and mystery.<br/><br/></li><li>Black makes a statement without saying a word.</li></ul><p>When you wear a black saree, you don’t blend in — <strong>you take up space</strong>. You become <strong>impossible to ignore</strong>. Maybe that's what really scares people — not the color, but the <em>power</em> it represents.</p><h2>The Pros and the So-Called 'Cons'</h2><h2><br/></h2><p><strong>✅ Pros:</strong></p><ul><li>Universally flattering<br/><br/></li><li>Works for day or night events<br/><br/></li><li>Modern and traditional fusion-ready<br/><br/></li><li>Makes any jewelry pop — silver, gold, pearls<br/><br/></li><li>Perfect for minimalists and maximalists alike</li></ul><p><strong>⛔ Supposed Cons:</strong></p><ul><li>“Inauspicious” (Translation: People are still scared of bold choices)<br/><br/></li><li>Associated with funerals (So is white, but no one bans that at weddings)<br/><br/></li><li>“Attracts nazar” (Or maybe just attention)<br/><br/></li></ul><p>Let’s be honest — the only thing black attracts is admiration. And maybe a little envy.</p><h2>It’s Time to Break the Black Barrier</h2><p>Ladies, if you’ve ever been told to put that black saree back in the closet, <strong>don’t listen</strong>. Wear it to the wedding. Rock it at the temple. Light that diya in black silk. Culture evolves. Fashion evolves. <strong>So should the mindsets.</strong></p><p>Every time you wear black — especially when you’ve been told not to — you’re doing more than making a fashion statement. <strong>You’re standing your ground. You’re rewriting the rules. You’re saying: “I decide what’s lucky for me.”</strong></p><p>And that? That’s real power.</p><h2>Wrapping Up</h2><p>So, are black sarees bad luck or bold fashion?</p><p><strong>They’re bold. They’re brave. And they’re bloody beautiful.</strong></p><p>Wear the black saree. Drape it like armor. Walk into that room like you own it. Because you do.<br/><br/></p>",
+            "text": "<h2>No.5. Saree Ke Fall Sa – <a href=\"https://en.wikipedia.org/wiki/R..._Rajkumar\"><span style=\"text-decoration:underline\">R... Rajkumar</span></a> (2013)</h2><p><strong>Saree Mood:</strong> Naughty & Neon</p><p><strong>Heat Factor:</strong> Comic + chaotic + chemistry</p><p>Don’t come for me — <em>Sonakshi Sinha</em> absolutely owned this quirky saree number. She made falling pallus and flirty shoulder peeks look like an <em>art form</em>.</p><p>It’s playful, it’s cheeky, and it’s the kind of desi seduction that says: “I’ll roast you, then I’ll ghost you.”</p><p>Also, props to the lyricist for the <strong>iconic line</strong>:</p><p><em>\"Saree ke fall sa, kabhi match kiya re.\"</em></p><p>— Shakespeare, who?</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -280,7 +279,93 @@
         }
       },
       "block_order": [
+        "bl_image_JgkNRJ",
         "bl_text_EXxjCm"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
+    "image_text_AW3cd9": {
+      "type": "image_text",
+      "blocks": {
+        "bl_image_CwVy9p": {
+          "type": "bl_image",
+          "settings": {
+            "image1": "shopify://shop_images/priyanka-sridevi.png",
+            "col_dk": "12",
+            "col_tb": "12",
+            "layout_des": "carousel",
+            "post_mobile": "default",
+            "image_ratio": "ratioadapt",
+            "image_size": "cover",
+            "image_position": "8",
+            "loop": true,
+            "au_time": 0,
+            "au_hover": true,
+            "nav_btn": false,
+            "btn_vi": "hover",
+            "btn_owl": "default",
+            "btn_shape": "none",
+            "btn_cl": "dark",
+            "btn_size": "small",
+            "btn_hidden_mobile": true,
+            "nav_dot": false,
+            "dot_owl": "default",
+            "dots_cl": "dark",
+            "dots_round": true,
+            "dots_space": 10,
+            "dots_hidden_mobile": false
+          }
+        },
+        "bl_text_Qj36N7": {
+          "type": "bl_text",
+          "settings": {
+            "col_dk": "12",
+            "col_tb": "12",
+            "text_size": "40,15",
+            "txt_align": "start",
+            "sub_heading": "",
+            "heading": "",
+            "text": "<h2>No.4. Desi Girl – <a href=\"https://de.wikipedia.org/wiki/Dostana_(2008)\"><span style=\"text-decoration:underline\">Dostana</span></a> (2008)</h2><p>There are saree moments in Bollywood... and then there’s <strong>Priyanka Chopra in “Desi Girl”</strong> from <em>Dostana</em> (2008).</p><p>Let’s stop pretending we’ve moved on. Because we haven’t.<br/> Fifteen years later, <em>every</em> party playlist still has this track. And every woman who’s ever worn a shimmering saree to a club or cocktail party has, at some point, channeled <strong>PeeCee’s golden goddess energy</strong> from this song.</p><p></p><h2>No.3. Sridevi – “Kaate Nahi Katte” (Mr. India, 1987)</h2><p><strong>Vibe:</strong> Seduction level: Supernatural. Visibility: Questionable.</p><p>Sridevi took a <strong>blue chiffon saree and a visible man in an invisible suit</strong> and made cinematic magic. There was nothing subtle about it. She <em>whispers, teases, leans</em>, and basically gives India its most stylish physics lesson: <strong>chiffon + steam = cultural breakdown.</strong></p><p>The saree clings, slips, and shimmers like it’s been <em>blessed by a flirtatious ghost.</em></p>",
+            "subhd_color": "#222222",
+            "hd_color": "#222222",
+            "des_color": "#878787",
+            "use_shadow": false,
+            "button_label": "Button label",
+            "button_link": "",
+            "open_link": "_blank",
+            "btn_icon": false,
+            "button_style": "default",
+            "btn_size": "large",
+            "btn_cl": "dark",
+            "button_effect": "default"
+          }
+        }
+      },
+      "block_order": [
+        "bl_image_CwVy9p",
+        "bl_text_Qj36N7"
       ],
       "settings": {
         "design_heading": "1",
@@ -367,6 +452,7 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "image_text_tLNKi3",
+    "image_text_AW3cd9",
     "image_text_jD7pF6"
   ]
 }
