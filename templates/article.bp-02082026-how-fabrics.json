@@ -153,7 +153,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "saraswati-puja-collection",
+        "collection": "baluchari-silk-saree",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
@@ -220,7 +220,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>The Power of Yellow: More Than Just Bright and Sunny</h2><p>Yellow is often underestimated — associated with spring, flowers, and sunshine. But in Indian culture, yellow carries far more weight than its light tone lets on.</p><p>It’s the color of <strong>turmeric</strong>, the sacred element in every Indian kitchen and ritual. It’s the color worn during <strong>haldi ceremonies</strong>, where brides and grooms are blessed for prosperity and protection. In many regions, yellow is considered the color of <strong>new beginnings</strong>, <strong>good luck</strong>, and <strong>mental clarity</strong>.</p><p>It’s not just worn — it’s <strong>invoked</strong>.</p>",
+            "text": "<h2>Stiff? Maybe. But So Am I When Someone Crosses the Line.</h2><p>Some say Baluchari is too structured. Too thick. Not “fluid enough for everyday wear.”</p><p>Well, guess what — neither am I. I’m not here to be convenient or flow with your comfort zone. I’m here to <strong>make an impression</strong>. And so is my saree.</p><p>The structure of the Baluchari means your drape stays sharp. No flimsy pleats falling apart halfway through the day. No pallu getting lost behind your back. It stays where you place it — as boundaries should.</p><h2>You Can’t Tiptoe in a Baluchari. You Walk With Purpose.</h2><p>Yes, it swishes. Yes, it takes up space. And no, it won’t apologize for it. Neither should you.</p><p>When I walk into a room wearing a Baluchari, I don’t slip in unnoticed — I <strong>arrive</strong>. The weight of the weave adds a certain gravity to your presence. You're not floating. You’re <em>grounded</em>. Powerful. Measured.</p><p>You feel it when you move — the pallu doesn’t glide; it <em>follows you like a legacy</em>. And it makes you <em>walk taller</em>.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -234,154 +234,14 @@
             "btn_cl": "dark",
             "button_effect": "default"
           }
-        },
-        "bl_image_PY8Fmc": {
-          "type": "bl_image",
-          "settings": {
-            "image1": "shopify://shop_images/Image_2_daa16843-fdb6-467c-87f1-13ba52076ee6.png",
-            "col_dk": "12",
-            "col_tb": "12",
-            "layout_des": "carousel",
-            "post_mobile": "default",
-            "image_ratio": "ratioadapt",
-            "image_size": "cover",
-            "image_position": "8",
-            "loop": true,
-            "au_time": 0,
-            "au_hover": true,
-            "nav_btn": false,
-            "btn_vi": "hover",
-            "btn_owl": "default",
-            "btn_shape": "none",
-            "btn_cl": "dark",
-            "btn_size": "small",
-            "btn_hidden_mobile": true,
-            "nav_dot": false,
-            "dot_owl": "default",
-            "dots_cl": "dark",
-            "dots_round": true,
-            "dots_space": 10,
-            "dots_hidden_mobile": false
-          }
         }
       },
       "block_order": [
-        "bl_text_GkFPXw",
-        "bl_image_PY8Fmc"
+        "bl_text_GkFPXw"
       ],
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "e7b55938-3dde-44ab-9365-66967e09d447": {
-      "type": "image_text",
-      "blocks": {
-        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>Yellow as an Energy: Not Loud, But Luminous</h2><p>Color psychology tells us that yellow evokes <strong>cheerfulness</strong>, <strong>optimism</strong>, and <strong>warmth</strong>. But in sarees, yellow walks a finer line. It doesn’t shout like red or seduce like black. It <strong>radiates</strong>.</p><p>A woman in a yellow saree often appears <strong>approachable yet powerful</strong>, <strong>grounded yet glowing</strong>. There’s a quiet confidence in wearing yellow — especially when styled without heavy embellishments. It says, <em>“I bring light, not noise.”</em></p><p>And let’s not forget: yellow is linked to the <strong>solar plexus chakra</strong>, representing personal power, confidence, and clarity. Coincidence? Not likely.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-start",
-        "top_heading": "",
-        "icon_heading": "las la-gem",
-        "top_subheading": "",
-        "tophead_mb": 30,
-        "space_h_item": "20",
-        "space_v_item": "10",
-        "space_h_item_mb": "20",
-        "space_v_item_mb": "10",
-        "layout": "t4s-container-wrap",
-        "cl_bg": "",
-        "cl_bg_gradient": "",
-        "mg": ",,50px,",
-        "pd": "",
-        "mg_tb": "",
-        "pd_tb": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
-      }
-    },
-    "image_text_tLNKi3": {
-      "type": "image_text",
-      "blocks": {
-        "bl_text_EXxjCm": {
-          "type": "bl_text",
-          "settings": {
-            "col_dk": "12",
-            "col_tb": "12",
-            "text_size": "40,15",
-            "txt_align": "start",
-            "sub_heading": "",
-            "heading": "",
-            "text": "<h2>When and Why We Wear Yellow Sarees</h2><p>Traditionally, yellow sarees are worn during:</p><ul><li><strong>Haldi ceremonies</strong> (pre-wedding blessings)<br/><br/></li><li><strong>Basant Panchami</strong> (a festival dedicated to Goddess Saraswati and learning)<br/><br/></li><li><strong>Gudi Padwa or Ugadi</strong> (new year in parts of India)<br/><br/></li><li><strong>Poojas and temple visits</strong>, especially on Thursdays, which are considered auspicious for yellow in Hinduism</li></ul><p>Why? Since <strong>YELLOW</strong> is believed to <strong>invite divine energy</strong>, stimulate <strong>intellect</strong>, and promote <strong>joy</strong>. It’s a color that celebrates <strong>hope</strong>.</p>",
-            "subhd_color": "#222222",
-            "hd_color": "#222222",
-            "des_color": "#878787",
-            "use_shadow": false,
-            "button_label": "Button label",
-            "button_link": "",
-            "open_link": "_blank",
-            "btn_icon": false,
-            "button_style": "default",
-            "btn_size": "large",
-            "btn_cl": "dark",
-            "button_effect": "default"
-          }
-        }
-      },
-      "block_order": [
-        "bl_text_EXxjCm"
-      ],
-      "settings": {
-        "design_heading": "1",
-        "heading_align": "t4s-text-start",
         "top_heading": "",
         "icon_heading": "las la-gem",
         "top_subheading": "",
@@ -420,7 +280,7 @@
         "head_btn_cl": "dark",
         "head_btn_effect": "default",
         "head_btn_hidden_mb": false,
-        "collection": "yellow-sarees",
+        "collection": "swarnachari",
         "product_des": "1",
         "show_vendor": false,
         "use_cdt": false,
@@ -475,10 +335,10 @@
         "code_cus_css": ""
       }
     },
-    "image_text_jD7pF6": {
+    "e7b55938-3dde-44ab-9365-66967e09d447": {
       "type": "image_text",
       "blocks": {
-        "bl_text_Fk8iaH": {
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1": {
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
@@ -487,7 +347,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>The Fading Code: When Meaning Gets Lost</h2><p>Today, you’ll see yellow sarees on runways, in summer lookbooks, and Instagram reels. And that’s beautiful. But somewhere, the <strong>reason</strong> behind why yellow was worn for certain rituals or days has been lost in translation.</p><p>We’ve reduced color to a trend. But tradition gave it <strong>intent</strong>.</p><p>And if fashion is truly about expression, why not let your saree reflect not just your taste, but your <strong>truth</strong>?</p>",
+            "text": "<h2>This Fabric is Not Here to Please. It's Here to Assert.</h2><p>Baluchari is the saree equivalent of a woman who doesn’t lower her voice just to be liked.</p><p>If you’re looking for something easy, light, barely-there — look elsewhere. But if you want to make a statement without speaking, if you want every fold of your outfit to say “I own the space I occupy” — then wrap yourself in a Baluchari.</p><p>Let the world adjust to <em>your</em> presence. Not the other way around.<br/><br/></p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -502,10 +362,10 @@
             "button_effect": "default"
           }
         },
-        "bl_image_AjhgzC": {
+        "bl_image_WpDXdc": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/Image_3_85234d09-dabd-4ebe-8ab3-c7418d7d5d61.jpg",
+            "image1": "shopify://shop_images/Body_Image_f4b54322-4951-4440-abcb-9b63a3e40157.png",
             "col_dk": "12",
             "col_tb": "12",
             "layout_des": "carousel",
@@ -533,8 +393,8 @@
         }
       },
       "block_order": [
-        "bl_text_Fk8iaH",
-        "bl_image_AjhgzC"
+        "template--16761530319081__e7b55938-3dde-44ab-9365-66967e09d447-16829720379ce15b30-1",
+        "bl_image_WpDXdc"
       ],
       "settings": {
         "design_heading": "1",
@@ -560,10 +420,10 @@
         "code_cus_css": ""
       }
     },
-    "image_text_mJCqBY": {
+    "image_text_tLNKi3": {
       "type": "image_text",
       "blocks": {
-        "bl_text_FyWybt": {
+        "bl_text_EXxjCm": {
           "type": "bl_text",
           "settings": {
             "col_dk": "12",
@@ -572,7 +432,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "",
-            "text": "<h2>Conclusion: Wear Yellow Like You Mean It</h2><p>The next time you reach for a yellow saree, pause for a moment. What do you feel — lightness? Warmth? Renewal?</p><p>That’s not just fashion. That’s <strong>psychology, tradition, and energy</strong> all woven into one drape.</p><p>In a world trying to out-shout itself in red carpets and bold statements, <strong>yellow remains the calm voice in the room that still gets heard.</strong></p><p>So wear yellow. Not just for how it looks, but for what it <em>reminds you of</em> — joy, clarity, growth, and the sacred power of simply being radiant.</p>",
+            "text": "<h2>Conclusion: My Saree Moves Like I Do — With Intention.</h2><p>This month’s fabric didn’t just clothe me. It matched my rhythm. My tempo. My strength.</p><p>The Baluchari didn’t melt into the background. It stood shoulder-to-shoulder with me — bold, unapologetic, full of stories and zero tolerance for nonsense.</p><p>So, the next time someone says a saree is restrictive, tell them this:</p><p><em>You don’t need your outfit to give you freedom. You already have that.</em></p><p><em>You need your outfit to match your power. The Baluchari did that for me.</em></p><p><strong>Wear bold. Move bold. Be bolder.</strong></p><p>The saree is not holding you back — the world’s just not ready for how far you'll go in it.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -589,7 +449,7 @@
         }
       },
       "block_order": [
-        "bl_text_FyWybt"
+        "bl_text_EXxjCm"
       ],
       "settings": {
         "design_heading": "1",
@@ -676,11 +536,9 @@
     "6869956b-0118-467c-98f0-cbb9ff121db9",
     "featured_collection_xV44tU",
     "image_text_hGgtBK",
+    "featured_collection_kyyBix",
     "e7b55938-3dde-44ab-9365-66967e09d447",
     "image_text_tLNKi3",
-    "featured_collection_kyyBix",
-    "image_text_jD7pF6",
-    "image_text_mJCqBY",
     "image_text_pL6erW"
   ]
 }
