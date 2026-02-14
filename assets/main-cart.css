@@ -1326,11 +1326,12 @@ ul.t4s-cart_discount_price{ --li-pl:0; }
 .ivy-secure-checkout,
 .t4s-cart__checkout-button,
 button[name="checkout"]{
+  font-family: inherit !important;
   background:#7f1d1d !important;
   width:100%;
   text-transform:uppercase;
   font-weight:800 !important;
-  letter-spacing:.6px;
+  letter-spacing:0.6px;
   font-size:16px !important;
   padding:18px 20px !important;
   border-radius:999px !important;
