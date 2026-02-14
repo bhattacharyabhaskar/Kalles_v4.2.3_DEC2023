@@ -1326,13 +1326,19 @@ ul.t4s-cart_discount_price{ --li-pl:0; }
 .ivy-secure-checkout,
 .t4s-cart__checkout-button,
 button[name="checkout"]{
-  background:#7f1d1d !important;   /* slightly richer maroon */
-  width: 100%;
+  background:#7f1d1d !important;
+  width:100%;
   text-transform:uppercase;
-  font-weight: 800 !important;
-  letter-spacing: 1px;
-  font-size: 14px !important;
-  padding: 16px 18px !important;
-  border-radius: 999px !important;
-  box-shadow: 0 10px 22px rgba(0,0,0,.12);
+  font-weight:800 !important;
+  letter-spacing:.6px;
+  font-size:16px !important;
+  padding:18px 20px !important;
+  border-radius:999px !important;
+  box-shadow:0 12px 26px rgba(0,0,0,.14);
+  transition:all .2s ease;
+}
+
+button[name="checkout"]:hover{
+  background:#8f2222 !important;
+  transform:translateY(-1px);
 }
