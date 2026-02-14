@@ -1289,3 +1289,37 @@ ul.t4s-cart_discount_price{ --li-pl:0; }
     gap: 12px !important;
   }
 }
+@media (max-width: 767px){
+
+  /* Make the note card compact */
+  .ivy-precheckout-left{
+    padding: 12px !important;
+  }
+
+  /* Shrink the textarea by default */
+  .t4s-main-cart #CartSpecialInstructions,
+  .t4s-main-cart textarea#CartSpecialInstructions,
+  .ivy-order-note__input{
+    min-height: 56px !important;   /* was 110px */
+    height: 56px !important;
+    transition: height .2s ease;
+  }
+
+  /* Expand when user taps inside */
+  .t4s-main-cart #CartSpecialInstructions:focus,
+  .t4s-main-cart textarea#CartSpecialInstructions:focus,
+  .ivy-order-note__input:focus{
+    height: 140px !important;
+    min-height: 140px !important;
+  }
+
+  /* Give Why Shop a little emphasis so it shows as “next important block” */
+  .ivy-precheckout-right{
+    border-color: rgba(0,0,0,0.10) !important;
+  }
+
+  /* Optional: tighten vertical space between the two cards */
+  .ivy-precheckout-grid{
+    gap: 10px !important;
+  }
+}
