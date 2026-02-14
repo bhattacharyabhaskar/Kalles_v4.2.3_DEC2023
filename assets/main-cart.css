@@ -1343,3 +1343,9 @@ button[name="checkout"]:hover{
   background:#8f2222 !important;
   transform:translateY(-1px);
 }
+.t4s-cart__accelerated-text,
+.t4s-cart__payment-title{
+  opacity:.6;
+  font-size:13px;
+}
+
