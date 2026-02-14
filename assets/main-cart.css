@@ -1328,7 +1328,7 @@ ul.t4s-cart_discount_price{ --li-pl:0; }
 button[name="checkout"]{
   background:#7f1d1d !important;   /* slightly richer maroon */
   width: 100%;
-  font-weight: 500 !important;
+  font-weight: 800 !important;
   letter-spacing: .6px;
   font-size: 14px !important;
   padding: 16px 18px !important;
