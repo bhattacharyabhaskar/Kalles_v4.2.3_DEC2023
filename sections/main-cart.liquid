@@ -61,11 +61,18 @@
 </svg>
 <div class="t4s-container">
   <div class="t4s-cookie-message t4s-dn">{{ 'cart.general.cookies_required' | t }}</div>
-  {% comment %}Added/Modified by Limoni Apps on 11/12/22 to support Discount Ninja{% endcomment %}
 
   <form data-cart-content data-cart-wrapper action="{{ routes.cart_url }}" method="post" novalidate class="limoniapps-discountninja-cart-root t4s-cartPage__form t4s-pr t4s-oh">
     <input type="hidden" data-cart-attr-rm name="attributes[collection_items_per_row]" value="">
     <div class="t4s-cartPage__header">
+      {%- if cart.item_count > 0 -%}
+        <div class="ivy-cart-utilities">
+          <button id="ivy-clear-cart" type="button" class="ivy-clear-cart-link">
+            Clear cart
+          </button>
+        </div>
+      {%- endif -%}
+
       <div class="t4s-row t4s-align-items-center">
         <div class="t4s-col-5 t4s-col-item">{{ 'cart.cart_page.label.product' | t }}</div>
         <div class="t4s-col-3 t4s-col-item t4s-text-center">{{ 'cart.cart_page.label.price' | t }}</div>
@@ -128,11 +135,6 @@
             {%- endif -%}
           {%- endfor -%}
 
-          <div style="text-align: right; margin-top: 20px;">
-            <button id="ivy-clear-cart" class="t4s-clear-cart__btn">
-              Clear Cart
-            </button>
-          </div>
 
        {%- else -%}
              <div class="t4s-mini_cart__emty t4s-text-center">
@@ -192,10 +194,6 @@
                     </a>
                   </div>
                </div>
-           {%- endif -%}
-           {%- if se_stts.enable_note -%}
-              <label for="CartSpecialInstructions" class="t4s-cart-note__label t4s-d-block"><span class="t4s-txt_add_note {{ style_add }}">{{ 'cart.tool.note' | t }}</span><span class="t4s-txt_edit_note {{ style_edit }}">{{ 'cart.tool.edit_note' | t }}</span></label>
-              <textarea name="note" id="CartSpecialInstructions" class="t4s-cart-note__input" placeholder="{{ 'cart.tool.placeholder_note' | t }}">{{ cart.note }}</textarea>
            {%- endif -%}
            {%- if se_stts.enable_discount -%}
               <label for="CartDiscountcode" class="t4s-cart-couponcode__label t4s-d-block">{{ 'cart.tool.coupon' | t }}</label>
@@ -268,101 +266,177 @@
                {%- endif -%}
 
                <link rel="stylesheet" href="{{ 'shipping_bar.css' | asset_url }}" media="all">
-               <div data-cart-calc-shipping data-t4s-percent="{{ percent_class }}" class="t4s-cart__threshold">
+               <div
+                  data-cart-calc-shipping
+                  data-t4s-percent="{{ percent_class }}"
+                  class="t4s-cart__threshold{% if shipping_amount > -1 and total_price >= shipping_amount %} ivy-shipbar--done{% endif %}">
+
                   {{- text_w_ship -}}
                   {%- if settings.enable_shipbar %}<div class="t4s-cart-thes__bar bgt4_svg{{ settings.des_shipbar }} t4s-pr"><span data-cart-ship-bar class="t4s-pr t4s-d-block t4s-h-100"{{ style_w }}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" width="22"><path class="fa-primary" d="M64 48C64 21.49 85.49 0 112 0H368C394.5 0 416 21.49 416 48V96H466.7C483.7 96 499.1 102.7 512 114.7L589.3 192C601.3 204 608 220.3 608 237.3V352C625.7 352 640 366.3 640 384C640 401.7 625.7 416 608 416H574.9C567.1 361.7 520.4 320 464 320C407.6 320 360.9 361.7 353.1 416H286.9C279.1 361.7 232.4 320 176 320C127.9 320 86.84 350.4 70.99 392.1C66.56 385.7 64 377.1 64 368V256H208C216.8 256 224 248.8 224 240C224 231.2 216.8 224 208 224H64V192H240C248.8 192 256 184.8 256 176C256 167.2 248.8 160 240 160H64V128H272C280.8 128 288 120.8 288 112C288 103.2 280.8 96 272 96H64L64 48zM544 256V237.3L466.7 160H416V256H544z"/><path class="t4s-ship-secondary" d="M272 128H16C7.164 128 0 120.8 0 112C0 103.2 7.164 96 16 96H272C280.8 96 288 103.2 288 112C288 120.8 280.8 128 272 128zM240 160C248.8 160 256 167.2 256 176C256 184.8 248.8 192 240 192H48C39.16 192 32 184.8 32 176C32 167.2 39.16 160 48 160H240zM208 224C216.8 224 224 231.2 224 240C224 248.8 216.8 256 208 256H16C7.164 256 0 248.8 0 240C0 231.2 7.164 224 16 224H208zM256 432C256 476.2 220.2 512 176 512C131.8 512 96 476.2 96 432C96 387.8 131.8 352 176 352C220.2 352 256 387.8 256 432zM544 432C544 476.2 508.2 512 464 512C419.8 512 384 476.2 384 432C384 387.8 419.8 352 464 352C508.2 352 544 387.8 544 432z"/></svg></span></div>{% endif -%}
                </div>
             {%- endif -%}
 
+            {%- liquid
+              assign price_html = ''
+              assign tax_html   = ''
+              assign agree_html = ''
+              assign btnck_html = ''
+              assign btnmr_html = ''
+            -%}
+
             {%- for block in section_blocks -%}
-                {%- assign bk_stts = block.settings -%}
-                {%- assign button_style = bk_stts.button_style -%}
-               {%- case block.type -%}
-                  {%- when 'price' -%}
-                        <div data-cart-discounts class="t4s-text-md-end t4s-text-center">
-                            {%- if cart.cart_level_discount_applications != blank -%}
-                                <ul class="t4s-cart_discounts">
-                                {%- for discount_application in cart.cart_level_discount_applications -%}<li class="t4s-order_cart_discounts"><svg viewBox="0 0 24 24" width="20"><use href="#icon-cart-tag"/></svg> {{- discount_application.title -}} (-{{ discount_application.total_allocated_amount | money }})</li>{%- endfor -%}
-                                </ul>
-                            {%- endif -%}
+              {%- assign bk_stts = block.settings -%}
+              {%- assign button_style = bk_stts.button_style -%}
+
+              {%- case block.type -%}
+                {%- when 'price' -%}
+                  {%- capture price_html -%}
+                    {%- assign subtotal_before_discounts = cart.original_total_price -%}
+                    {%- assign discount_amount = cart.total_discount -%}
+                    {%- assign net_total = cart.total_price -%}
+                    <div class="ivy-order-summary">
+                      <div class="ivy-order-summary__row">
+                        <div class="ivy-order-summary__label">Order Subtotal</div>
+                        <div class="ivy-order-summary__value">{{ subtotal_before_discounts | money }}</div>
+                      </div>
+
+                      <div class="ivy-order-summary__row ivy-order-summary__row--discount">
+                        <div class="ivy-order-summary__label">Discount</div>
+                        <div class="ivy-order-summary__value">
+                          {%- if discount_amount > 0 -%}
+                            -{{ discount_amount | money }}
+                          {%- else -%}
+                            {{ 0 | money }}
+                          {%- endif -%}
                         </div>
-                        <div class="t4s-cart-total limoniapps-discountninja-cart-subtotal">
-                            <div class="t4s-row t4s-gx-30 t4s-gy-0 t4s-d-inline-flex t4s-align-items-center t4s-justify-content-between">
-                                <div class="t4s-col-auto t4s-col-item"><strong>{{ 'cart.cart_page.subtotal' | t }}</strong></div>
-                                <div data-cart-prices class="t4s-col-auto t4s-col-item t4s-text-right t4s-cart__ttprice limoniapps-discountninja-cart-subtotal-price">
-                                    {%- if cart.total_discount > 0 -%}
-                                        <div class="t4s-cart__originalPrice">{{ cart.original_total_price | money }}</div>
-                                        <div class="t4s-cart__discountPrice"> - {{ cart.total_discount | money }}</div>
-                                    {%- elsif compare_tt_price > total_price and false -%}
-                                        <div class="t4s-cart__originalPrice">{{ compare_tt_price | money }}</div>
-                                        <div class="t4s-cart__discountPrice"> - {{ compare_tt_price | minus: total_price | money }}</div>
-                                    {%- endif -%}
-                                    <div class="t4s-cart__totalPrice">{{ total_price | money }}</div>
-                                </div>
-                            </div>
+                      </div>
+
+                      <div class="ivy-order-summary__row{% if shipping_amount > -1 and net_total >= shipping_amount %} ivy-order-summary__row--shippingfree{% endif %}">
+                        <div class="ivy-order-summary__label">Shipping</div>
+                        <div class="ivy-order-summary__value">
+                          {%- if shipping_amount > -1 and net_total >= shipping_amount -%}
+                            FREE SHIPPING
+                          {%- else -%}
+                            Calculated at checkout
+                          {%- endif -%}
                         </div>
-	<div class="limoniapps-discountninja-cart-promotionsummary"></div>
-                                <div class="limoniapps-discountninja-cartdiscountfield-placeholder"></div> 
-                  {%- when 'tax' -%}
-                     {%- capture taxes_shipping_checkout -%}{%- assign page_url = pages[settings.link_ship].url -%}
-                        {%- if se_stts.show_discount -%}
-                            {%- if cart.taxes_included and page_url != blank -%}
-                              {{ 'cart.general.taxes_included_discounts_and_shipping_policy_html' | t: link: page_url }}
-                            {%- elsif cart.taxes_included -%}
-                              {{ 'cart.general.taxes_included_discounts_but_shipping_at_checkout' | t }}
-                            {%- elsif page_url != blank -%}
-                              {{ 'cart.general.taxes_discounts_and_shipping_policy_at_checkout_html' | t: link: page_url }}
-                            {%- else -%}
-                              {{ 'cart.general.taxes_discounts_and_shipping_at_checkout' | t }}
-                            {%- endif -%}
-                        {%- else -%}
-                            {%- if cart.taxes_included and page_url != blank -%}
-                              {{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: page_url }}
-                            {%- elsif cart.taxes_included -%}
-                              {{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}
-                            {%- elsif page_url != blank -%}
-                              {{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: page_url }}
-                            {%- else -%}
-                              {{ 'cart.general.taxes_and_shipping_at_checkout' | t }}
-                            {%- endif -%}
-                        {%- endif -%}
-                     {%- endcapture -%}
-                     <p class="t4s-cart__tax">{{ taxes_shipping_checkout }}</p>
-                      <div id="ivy-texas-egift-message" style="display: none;"></div>
-                  {%- when 'agree' -%}
-                     {%- capture terms_and_conditions -%}{%- assign page_url = pages[settings.link_conditions].url -%}
+                      </div>
+
+                      <div class="ivy-order-summary__row ivy-order-summary__row--total">
+                        <div class="ivy-order-summary__label">Total</div>
+                        <div class="ivy-order-summary__value">{{ net_total | money }}</div>
+                      </div>
+                    </div>
+                  {%- endcapture -%}
+
+                {%- when 'agree' -%}
+                  {%- capture agree_html -%}
+                    {%- capture terms_and_conditions -%}{%- assign page_url = pages[settings.link_conditions].url -%}
                       {%- if page_url != blank -%}
                         {{ 'cart.general.terms_and_conditions_html' | t: link: page_url }}
                       {%- else -%}
                         {{ 'cart.general.terms_and_conditions' | t }}
                       {%- endif -%}
-                     {%- endcapture -%}
-                     <p class="t4s-pr t4s-cart__agree"><input type="checkbox" id="cart_agree" data-agree-checkbox name="{{ ck_lumise }}"><label for="cart_agree">{{ terms_and_conditions }}</label><svg class="t4s-dn t4s-icon_checked"><use href="#icon-cart-selected"/></svg></p>
-                     <div class="t4s-clearfix"></div>
-                  {%- when 'btnck' -%}
-                    {%- if settings.currency_type == '2' and settings.notify_currency and settings.mess_currency != blank %}{% assign cart_iso_code = cart.currency.iso_code %}{% assign text1 = '{{ currency }}' -%}
-                        <p class="t4s-db" data-currency-jsnotify>{{ settings.mess_currency | replace: text1, cart_iso_code | replace: '[currency]', cart_iso_code | replace: '[original_currency]', cart_iso_code | replace: '[current_currency]', '<span class="selected-currency"></span>' }}</p>
-                    {%- endif -%}
-                    <div class="t4s-btn-group__checkout-update">
-                        {%- unless cart_ajax_enable -%}{%- assign button_style2 = bk_stts.button_style2 -%}
-                            <button type="submit" name="update" class="t4s-btn__update t4s-btn t4s-btn-base t4s-btn-style-{{ button_style2 }}  t4s-btn-size-{{ bk_stts.btn_size2 }} t4s-btn-color-{{ bk_stts.btn_cl2 }} {% if button_style2 == 'default' or button_style2 == 'outline' %}t4s-btn-effect-{{ bk_stts.button_effect2 }}{% endif %} t4s-w-100 t4s-justify-content-center t4s-truncate">{%- if bk_stts.btn_icon2 -%}<svg class="t4s-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M63.1 464H348.5C360.7 482.8 376.5 499.1 394.8 512H64C28.65 512 0 483.3 0 448V224C0 188.7 28.65 160 64 160H448C471.8 160 492.5 172.9 503.5 192.2C501 192.1 498.5 192 496 192C469.8 192 444.9 197.7 422.6 208H64C55.16 208 48 215.2 48 224V448C48 456.8 55.16 464 64 464H63.1zM440 80C453.3 80 464 90.75 464 104C464 117.3 453.3 128 440 128H71.1C58.74 128 47.1 117.3 47.1 104C47.1 90.75 58.74 80 71.1 80H440zM392 0C405.3 0 416 10.75 416 24C416 37.25 405.3 48 392 48H119.1C106.7 48 95.1 37.25 95.1 24C95.1 10.75 106.7 0 119.1 0H392zM352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368zM512 303.1C512 295.2 504.8 287.1 496 287.1C487.2 287.1 480 295.2 480 303.1V351.1H432C423.2 351.1 416 359.2 416 367.1C416 376.8 423.2 383.1 432 383.1H480V431.1C480 440.8 487.2 447.1 496 447.1C504.8 447.1 512 440.8 512 431.1V383.1H560C568.8 383.1 576 376.8 576 367.1C576 359.2 568.8 351.1 560 351.1H512V303.1z"></path></svg>{%- endif -%}{{ 'cart.cart_page.update' | t }}</button>
-                        {% endunless -%}
-                        <button type="submit" data-loading-bar data-confirm="{{ ck_lumise }}" name="checkout" class="t4s-btn__checkout t4s-btn t4s-btn-base t4s-btn-style-{{ button_style }} t4s-btn-size-{{ bk_stts.btn_size }} t4s-btn-color-{{ bk_stts.btn_cl }} {% if button_style == 'default' or button_style == 'outline' %}t4s-btn-effect-{{ bk_stts.button_effect }}{% endif %} t4s-w-100 t4s-justify-content-center t4s-truncate">{%- if bk_stts.btn_icon -%}<svg xmlns="http://www.w3.org/2000/svg" class="t4s-btn-icon" viewBox="0 0 640 512"><path d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L537.6 196.9C524.3 193.7 510.3 192 496 192C493.7 192 491.4 192 489.1 192.1L520.6 80H131.1L161.6 240H375.2C360.6 253.8 348.4 269.1 339.2 288H170.7L179.9 336H322.9C320.1 346.4 319.1 357.1 319.1 368C319.1 373.4 320.2 378.7 320.7 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.26 0 24C0 10.75 10.75 .0003 24 .0003L96 0zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM640 368C640 447.5 575.5 512 496 512C416.5 512 352 447.5 352 368C352 288.5 416.5 224 496 224C575.5 224 640 288.5 640 368zM480 385.4L451.3 356.7C445.1 350.4 434.9 350.4 428.7 356.7C422.4 362.9 422.4 373.1 428.7 379.3L468.7 419.3C474.9 425.6 485.1 425.6 491.3 419.3L563.3 347.3C569.6 341.1 569.6 330.9 563.3 324.7C557.1 318.4 546.9 318.4 540.7 324.7L480 385.4z"></path></svg>{%- endif -%}{{ 'cart.cart_page.checkout' | t }}</button>
-                    </div>
+                    {%- endcapture -%}
+                    <p class="ivy-cart-agree">
+                      <input type="checkbox" id="cart_agree" data-agree-checkbox name="{{ ck_lumise }}">
+                      <label for="cart_agree">{{ terms_and_conditions }}</label>
+                    </p>
+                  {%- endcapture -%}
+
+                {%- when 'btnck' -%}
+                  {%- capture btnck_html -%}
+                    <button type="submit"
+                      data-loading-bar
+                      data-confirm="{{ ck_lumise }}"
+                      name="checkout"
+                      class="ivy-checkout-btn t4s-btn__checkout t4s-btn t4s-btn-base t4s-btn-style-{{ button_style }} t4s-btn-size-{{ bk_stts.btn_size }} t4s-btn-color-{{ bk_stts.btn_cl }} {% if button_style == 'default' or button_style == 'outline' %}t4s-btn-effect-{{ bk_stts.button_effect }}{% endif %}">
+                      Secure Checkout — {{ total_price | money }}
+                    </button>
+                  {%- endcapture -%}
+
                 {%- when 'btnmr' -%}
-                    {%- if additional_checkout_buttons  -%}<div data-add-ckt4 class="additional_checkout_buttons additional-checkout-buttons--vertical {{ cl_agree }}">{{ content_for_additional_checkout_buttons }}</div>{%- endif -%}
-                {%- when 'img' -%}{% if bk_stts.image == blank %}{% continue %}{% endif -%}
-                    {%- assign image = bk_stts.image -%}
-                     <div class="t4s-cat__imgtrust t4s_ratioadapt t4s-d-flex t4s-justify-content-md-end t4s-justify-content-center">
-                        <div class=" t4s-cat__imgtrust_ratio t4s_ratio t4s-pr t4s-oh" style="--aspect-ratioapt:{{ image.aspect_ratio | default: 1 }};width: {{ bk_stts.wimg }}%;height:auto;">
-                          <img class="lazyloadt4s" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600]" data-optimumx="2" data-sizes="auto" src="{% render 'img_svg', w: image.width, h: image.height %}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt | escape }}">
-                          <span class="lazyloadt4s-loader is-bg-img" style="background: url({{ image | image_url: width: 1 }});"></span>
+                  {%- capture btnmr_html -%}
+                    {%- if additional_checkout_buttons -%}
+                      <div class="ivy-express-wrap {{ cl_agree }}">
+                        <div class="ivy-express-label">or express checkout</div>
+                        <div class="additional_checkout_buttons ivy-express-grid">
+                          {{ content_for_additional_checkout_buttons }}
                         </div>
                       </div>
-                  
-                  {%- else -%}{% continue -%}
-               {%- endcase -%}
+                    {%- endif -%}
+                  {%- endcapture -%}
+              {%- endcase -%}
             {%- endfor -%}
+
+          {%- if ccount > 0 -%}
+
+            <!-- DEBUG blocks: {{ section_blocks | map: 'type' | join: ', ' }} -->
+            <!-- DEBUG original_total_price: {{ cart.original_total_price }} -->
+            <!-- DEBUG total_discount: {{ cart.total_discount }} -->
+            <!-- DEBUG total_price: {{ cart.total_price }} -->
+            {{ price_html }}
+
+
+            <div class="ivy-summary-card">
+
+              <div class="ivy-summary-card__grid ivy-precheckout-grid">
+
+                <!-- LEFT: Order note -->
+                <div class="ivy-precheckout-left">
+                  {%- if se_stts.enable_note -%}
+                    <div class="ivy-order-note">
+                      <label for="CartSpecialInstructions" class="ivy-order-note__label">
+                        <span class="t4s-txt_add_note {{ style_add }}">{{ 'cart.tool.note' | t }}</span>
+                        <span class="t4s-txt_edit_note {{ style_edit }}">{{ 'cart.tool.edit_note' | t }}</span>
+                      </label>
+
+                      <textarea
+                        name="note"
+                        id="CartSpecialInstructions"
+                        class="ivy-order-note__input"
+                        placeholder="{{ 'cart.tool.placeholder_note' | t }}"
+                      >{{ cart.note }}</textarea>
+                    </div>
+                  {%- endif -%}
+                </div>
+
+                <!-- RIGHT: Why Shop -->
+                <div class="ivy-precheckout-right">
+                  <div class="ivy-summary-card__head">
+                    <div class="ivy-summary-card__title">
+                      <span class="ivy-lock">🔒</span>
+                      <strong>Why Shop With IndyVogue?</strong>
+                    </div>
+                  </div>
+
+                  <ul class="ivy-trust-list">
+                    <li>700+ 5 Star Reviews</li>
+                    <li>8+ Years in Business</li>
+                    <li>10,000+ Patrons Globally</li>
+                    <li>Woman Owned Small Business</li>
+                  </ul>
+
+                  <div class="ivy-divider"></div>
+                  {{ tax_html }}
+                  <a class="ivy-keep-shopping" href="{{ routes.all_products_collection_url }}">← Keep Shopping</a>
+                </div>
+
+              </div>
+
+              <!-- ACTIONS: keep checkout + express BELOW both columns -->
+              <div class="ivy-precheckout-actions">
+                {{ agree_html }}
+                {{ btnck_html }}
+                {{ btnmr_html }}
+              </div>
+
+            </div>
+
+          {%- endif -%}
+
+
+
 
          </div>
        </div>
