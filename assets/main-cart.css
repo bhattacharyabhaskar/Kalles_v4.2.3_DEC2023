@@ -1278,3 +1278,8 @@ ul.t4s-cart_discount_price{ --li-pl:0; }
   font-weight: 700;
   font-size: 13px;
 }
+.ivy-precheckout-right,
+.ivy-precheckout-right *{
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
