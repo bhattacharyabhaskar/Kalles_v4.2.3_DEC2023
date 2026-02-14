@@ -1349,4 +1349,8 @@ button[name="checkout"]:hover{
   opacity:.6;
   font-size:13px;
 }
+.shopify-payment-button__more-options {
+  font-size: 13px;
+  opacity: 0.6;
+}
 
