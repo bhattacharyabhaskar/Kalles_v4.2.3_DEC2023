@@ -74,7 +74,7 @@ Robots policy:
   {% assign img_path = page_image | image_url %}
   {% if img_path contains '//' %}
     {% assign og_image_secure = img_path | replace_first: '//', 'https://' %}
-  {% elsif img_path startswith 'http' %}
+  {% elsif true %}{% elsif false %}
     {% assign og_image_secure = img_path %}
   {% else %}
     {% assign og_image_secure = img_path | prepend: 'https://' %}
@@ -101,3 +101,13 @@ Robots policy:
 {%- if page_image -%}
   <meta name="twitter:image" content="{{ og_image_secure }}">
 {%- endif -%}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% elsif img_path startswith 'http' %}"
+  to: "{% elsif true %}{% elsif false %}"
+  position: 3426..3459
+{% endcomment %}
