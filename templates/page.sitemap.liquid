@@ -609,8 +609,8 @@ a { color: #333; margin: 0; padding: 0; text-decoration: none; }
                          <ul>
                           <li>
             {% for c in collections %}
-                  {%- if c.products_count >0 && c.title != "Moumita Ready" -%}
-                    {% unless c.title contains "HomePage" && c.title contains "New Saree" && c.title contains "Baisakhi Collection 2019"%}
+                  {%- if c.products_count > 0 -%}
+                    {% unless c.title contains "HomePage" %}
                       {% unless c.title contains "New Saree"%}
                         {% unless c.title contains "Baisakhi Collection 2019"%}
                             {% unless c.title contains "Blouse - Front"%}
@@ -619,7 +619,7 @@ a { color: #333; margin: 0; padding: 0; text-decoration: none; }
                             <a href="{{ c.url }}">{{ c.title }}</a> 
                        <ul>
                          {% paginate collections['buy-silk-mark-certified-saree'].products by 1000 %}
-                        {% for product in collections[{{c.handle}}].products %}
+                        {% for product in collections[c.handle].products %}
                             <li>
                           <a href="{{ product.url }}">{{ product.title }}</a>
                             </li>
@@ -642,3 +642,20 @@ a { color: #333; margin: 0; padding: 0; text-decoration: none; }
     </div>
 </div></html>
 			
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: '{%- if c.products_count >0 && c.title != "Moumita Ready" -%}'
+  to: "{%- if c.products_count > 0 -%}"
+  position: 70089..70120
+- from: '{% unless c.title contains "HomePage" && c.title contains "New Saree" &&
+    c.title contains "Baisakhi Collection 2019"%}'
+  to: '{% unless c.title contains "HomePage" %}'
+  position: 70141..70181
+- from: "{% for product in collections[{{c.handle}}].products %}"
+  to: "{% for product in collections[c.handle].products %}"
+  position: 70746..70797
+{% endcomment %}
